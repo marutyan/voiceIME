@@ -1,0 +1,23 @@
+{
+  "selector_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "prep_script_sha256": "4fdb2b655e07f411e9dc59e41ce2b3ab153b9ad4a2f92d1a2a3382a34f3cc438",
+  "source_train": {
+    "path": "~/voiceime-work-fr3/inputs/sft3-20261122/train-sft3.jsonl",
+    "rows": 95934,
+    "sha256": "528f5575eb567ae83422d45d457ee7077087e842ccb54f23f1b11b905e899584"
+  },
+  "first_pass_sha256": "078e9b3595788dba93a42dbe9fc4499a87d92cf239ca41395a076074912081eb",
+  "second_pass_sha256": "1fffd08166e75d2d722e05995b0d5182ac33b96c6dd58248980d9c53862087de",
+  "training_glossary_sha256": "d8619598e32116973f1f05d4305bb113904c861dec16282003bb41696276e62b",
+  "rows_with_both_asr_passes": 9522,
+  "selected_gold_term_occurrences": 11393,
+  "focus_rows_duplicated_once": 1585,
+  "nonfocus_rows_removed": 1585,
+  "replacement_seed": 20261122,
+  "val_changed": false,
+  "output": {
+    "path": "~/voiceime-work-fr3/inputs/formatter-sft3-current/train-sft3-b-drop0-focus-mainselector21-20261122.jsonl",
+    "rows": 95934,
+    "sha256": "dd0098d6199579ad0daecd59e1783821769e717ed3c093da2c8c2c5d4a34b515"
+  }
+}

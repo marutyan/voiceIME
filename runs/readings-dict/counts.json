@@ -1,0 +1,3477 @@
+{
+  "inputs": {
+    "glossary.jsonl": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "glossary-v2.jsonl": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "seed.tsv": "4048912c91d708fcda4c992d1313aced04a02873443ed4f0b04975ed360ec0e2"
+  },
+  "glossary_latin_surfaces": 31301,
+  "sources": {
+    "neologd": {
+      "rows": 236,
+      "surfaces": 227,
+      "in_glossary": 135,
+      "new_surfaces": 93,
+      "filter_counts": {
+        "latin_rows": 178316,
+        "outside_domain": 172442,
+        "existing_reading": 2135,
+        "unconfirmed_reading": 965,
+        "invalid_kana": 34,
+        "letter_reading": 2379,
+        "manually_rejected": 22
+      },
+      "sha256": "78ea27232e62f4f061adb8d6c4df418126e58ed88c78a49e82dfb81e927bb0cd",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 5,
+        "surface_count": 99,
+        "surface_hits": 5,
+        "hits": [
+          [
+            "CSRF",
+            "シーサーフ"
+          ],
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "SIGGRAPH",
+            "シーグラフ"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 36,
+        "surface_count": 99,
+        "surface_hits": 36,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "Azure",
+            "アジュール"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "COCO",
+            "ココ"
+          ],
+          [
+            "CRUD",
+            "クラッド"
+          ],
+          [
+            "CSRF",
+            "シーサーフ"
+          ],
+          [
+            "CUDA",
+            "クーダ"
+          ],
+          [
+            "FIFO",
+            "ファイフォ"
+          ],
+          [
+            "GIF",
+            "ジフ"
+          ],
+          [
+            "GNOME",
+            "グノーム"
+          ],
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "JPEG",
+            "ジェイペグ"
+          ],
+          [
+            "JSON",
+            "ジェイソン"
+          ],
+          [
+            "LaTeX",
+            "ラテフ"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "NumPy",
+            "ナムパイ"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "PaaS",
+            "パース"
+          ],
+          [
+            "RAG",
+            "ラグ"
+          ],
+          [
+            "RAID",
+            "レイド"
+          ],
+          [
+            "ROUGE",
+            "ルージュ"
+          ],
+          [
+            "Redis",
+            "レディス"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "SIGGRAPH",
+            "シーグラフ"
+          ],
+          [
+            "SaaS",
+            "サース"
+          ],
+          [
+            "SciPy",
+            "サイパイ"
+          ],
+          [
+            "TeX",
+            "テフ"
+          ],
+          [
+            "Ubuntu",
+            "ウブントゥ"
+          ],
+          [
+            "YAML",
+            "ヤムル"
+          ],
+          [
+            "apt",
+            "アプト"
+          ],
+          [
+            "arXiv",
+            "アーカイブ"
+          ],
+          [
+            "awk",
+            "オーク"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "rsync",
+            "アールシンク"
+          ],
+          [
+            "tmux",
+            "ティーマックス"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "Windows Millennium Edition",
+          "reading": "ウィンドウズミレニアムエディション",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Windows Millennium Edition",
+          "in_glossary": false
+        },
+        {
+          "surface": "DaaS",
+          "reading": "ダース",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / DaaS",
+          "in_glossary": false
+        },
+        {
+          "surface": "SunOS",
+          "reading": "サンオーエス",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / SunOS",
+          "in_glossary": false
+        },
+        {
+          "surface": "10base5",
+          "reading": "テンベースゴ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / 10base5",
+          "in_glossary": false
+        },
+        {
+          "surface": "ARP",
+          "reading": "アープ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / arp",
+          "in_glossary": true
+        },
+        {
+          "surface": "word2vec",
+          "reading": "ワードツーベック",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Word2Vec",
+          "in_glossary": true
+        },
+        {
+          "surface": "WinRT",
+          "reading": "ウインアールティー",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / WinRT",
+          "in_glossary": true
+        },
+        {
+          "surface": "TEEDA",
+          "reading": "ティーダ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / TEEDA",
+          "in_glossary": false
+        },
+        {
+          "surface": "ColdFusion",
+          "reading": "コールドフュージョン",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / ColdFusion",
+          "in_glossary": false
+        },
+        {
+          "surface": "jEdit",
+          "reading": "ジェイエディット",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Jedit",
+          "in_glossary": true
+        },
+        {
+          "surface": "SJIS",
+          "reading": "エスジス",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / SJIS",
+          "in_glossary": false
+        },
+        {
+          "surface": "NetBIOS",
+          "reading": "ネットバイオス",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / NetBIOS",
+          "in_glossary": false
+        },
+        {
+          "surface": "Olympus",
+          "reading": "オリンポス",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Olympus",
+          "in_glossary": true
+        },
+        {
+          "surface": "DOS/V",
+          "reading": "ドスブイ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / DOS/V",
+          "in_glossary": false
+        },
+        {
+          "surface": "WHATWG",
+          "reading": "ワットダブリュジー",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / WHATWG",
+          "in_glossary": true
+        },
+        {
+          "surface": "Mediator",
+          "reading": "メディエイター",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Mediator",
+          "in_glossary": true
+        },
+        {
+          "surface": "Mac OS X",
+          "reading": "マックオーエステン",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Mac OS X",
+          "in_glossary": false
+        },
+        {
+          "surface": "Wi-Fi",
+          "reading": "ワィファイ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Wi-Fi",
+          "in_glossary": true
+        },
+        {
+          "surface": "YAML",
+          "reading": "ヤメル",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / YAML",
+          "in_glossary": true
+        },
+        {
+          "surface": "RAS",
+          "reading": "ラス",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / RAS",
+          "in_glossary": true
+        },
+        {
+          "surface": "GNU Screen",
+          "reading": "ジーエヌユースクリーン",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / GNU screen",
+          "in_glossary": true
+        },
+        {
+          "surface": "AutoCAD",
+          "reading": "オウトキャド",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / AutoCAD",
+          "in_glossary": true
+        },
+        {
+          "surface": "Windows 2000",
+          "reading": "ウインドウズニセン",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Windows 2000",
+          "in_glossary": false
+        },
+        {
+          "surface": "UCS-4",
+          "reading": "ユーエスシーフォー",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / UCS-4",
+          "in_glossary": true
+        },
+        {
+          "surface": "warez",
+          "reading": "ウェアーズ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / warez",
+          "in_glossary": false
+        },
+        {
+          "surface": "RegExp",
+          "reading": "レゲックスピー",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / regexp",
+          "in_glossary": true
+        },
+        {
+          "surface": "RAM",
+          "reading": "ラム",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / RAM",
+          "in_glossary": true
+        },
+        {
+          "surface": "Ableton Live",
+          "reading": "エイブルトンライヴ",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / Ableton Live",
+          "in_glossary": true
+        },
+        {
+          "surface": "CouchDB",
+          "reading": "カウチデービー",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / CouchDB",
+          "in_glossary": true
+        },
+        {
+          "surface": "Sendmail",
+          "reading": "センドメイル",
+          "source": "neologd",
+          "evidence": "mecab-user-dict-seed.20200910.csv.xz / sendmail",
+          "in_glossary": true
+        }
+      ]
+    },
+    "sudachidict": {
+      "rows": 224,
+      "surfaces": 224,
+      "in_glossary": 121,
+      "new_surfaces": 103,
+      "filter_counts": {
+        "latin_rows": 81364,
+        "outside_domain": 72825,
+        "letter_reading": 1524,
+        "invalid_kana": 5151,
+        "existing_reading": 1284,
+        "unconfirmed_reading": 335,
+        "manually_rejected": 16
+      },
+      "sha256": "019fb27e208b2532ca33ade0639dec94cc7ae5ea0a5da619c25ec14dcb681864",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 5,
+        "surface_count": 99,
+        "surface_hits": 5,
+        "hits": [
+          [
+            "CSRF",
+            "シーサーフ"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "PoC",
+            "ポック"
+          ],
+          [
+            "SIGGRAPH",
+            "シーグラフ"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 37,
+        "surface_count": 99,
+        "surface_hits": 37,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "Azure",
+            "アジュール"
+          ],
+          [
+            "BERT",
+            "バート"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "COCO",
+            "ココ"
+          ],
+          [
+            "CRUD",
+            "クラッド"
+          ],
+          [
+            "CSRF",
+            "シーサーフ"
+          ],
+          [
+            "CUDA",
+            "クーダ"
+          ],
+          [
+            "FIFO",
+            "ファイフォ"
+          ],
+          [
+            "GIF",
+            "ジフ"
+          ],
+          [
+            "GNOME",
+            "グノーム"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "JSON",
+            "ジェイソン"
+          ],
+          [
+            "LaTeX",
+            "ラテフ"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "NumPy",
+            "ナムパイ"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "PaaS",
+            "パース"
+          ],
+          [
+            "PoC",
+            "ポック"
+          ],
+          [
+            "RAG",
+            "ラグ"
+          ],
+          [
+            "RAID",
+            "レイド"
+          ],
+          [
+            "ROUGE",
+            "ルージュ"
+          ],
+          [
+            "Redis",
+            "レディス"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "SIGGRAPH",
+            "シーグラフ"
+          ],
+          [
+            "SaaS",
+            "サース"
+          ],
+          [
+            "SciPy",
+            "サイパイ"
+          ],
+          [
+            "Ubuntu",
+            "ウブントゥ"
+          ],
+          [
+            "Vite",
+            "ヴィート"
+          ],
+          [
+            "YAML",
+            "ヤムル"
+          ],
+          [
+            "apt",
+            "アプト"
+          ],
+          [
+            "arXiv",
+            "アーカイブ"
+          ],
+          [
+            "awk",
+            "オーク"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "mAP",
+            "マップ"
+          ],
+          [
+            "rsync",
+            "アールシンク"
+          ],
+          [
+            "tmux",
+            "ティーマックス"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "iNTERNET",
+          "reading": "インターネット",
+          "source": "sudachidict",
+          "evidence": "small_lex.csv / iNTERNET",
+          "in_glossary": false
+        },
+        {
+          "surface": "Embedding",
+          "reading": "エンベッディング",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / embedding",
+          "in_glossary": true
+        },
+        {
+          "surface": "TextMate",
+          "reading": "テキストメート",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / TextMate",
+          "in_glossary": true
+        },
+        {
+          "surface": "ACOS",
+          "reading": "アコス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / ACOS",
+          "in_glossary": false
+        },
+        {
+          "surface": "BASIC",
+          "reading": "ベーシック",
+          "source": "sudachidict",
+          "evidence": "small_lex.csv / BASIC",
+          "in_glossary": false
+        },
+        {
+          "surface": "warez",
+          "reading": "ウェアーズ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / warez",
+          "in_glossary": false
+        },
+        {
+          "surface": "Zabbix",
+          "reading": "ザッビックス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / Zabbix",
+          "in_glossary": true
+        },
+        {
+          "surface": "UNDO",
+          "reading": "アンドゥ",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / UNDO",
+          "in_glossary": false
+        },
+        {
+          "surface": "DaaS",
+          "reading": "ダース",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / DaaS",
+          "in_glossary": false
+        },
+        {
+          "surface": "Shift-JIS",
+          "reading": "シフトジス",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / Shift-JIS",
+          "in_glossary": false
+        },
+        {
+          "surface": "Ponte Vecchio",
+          "reading": "ポンテヴェキオ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / Ponte Vecchio",
+          "in_glossary": true
+        },
+        {
+          "surface": "QuickTime",
+          "reading": "クイックタイム",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / QuickTime",
+          "in_glossary": false
+        },
+        {
+          "surface": "ESTABLISHED",
+          "reading": "エスタブリッシュド",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / ESTABLISHED",
+          "in_glossary": true
+        },
+        {
+          "surface": "WebObjects",
+          "reading": "ウェブオブジェクツ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / WebObjects",
+          "in_glossary": false
+        },
+        {
+          "surface": "PRAM",
+          "reading": "ピーラム",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / PRAM",
+          "in_glossary": false
+        },
+        {
+          "surface": "PASCAL",
+          "reading": "パスカル",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / PASCAL",
+          "in_glossary": false
+        },
+        {
+          "surface": "WinRT",
+          "reading": "ウインアールティー",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / WinRT",
+          "in_glossary": true
+        },
+        {
+          "surface": "SMTP-AUTH",
+          "reading": "エスエムティーピーオウス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / SMTP-AUTH",
+          "in_glossary": true
+        },
+        {
+          "surface": "IRIX",
+          "reading": "アイリックス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / IRIX",
+          "in_glossary": false
+        },
+        {
+          "surface": "BlueJ",
+          "reading": "ブルージェー",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / BlueJ",
+          "in_glossary": true
+        },
+        {
+          "surface": "VisualWorks",
+          "reading": "ビジュアルワークス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / VisualWorks",
+          "in_glossary": false
+        },
+        {
+          "surface": "twine",
+          "reading": "トゥワイン",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / twine",
+          "in_glossary": true
+        },
+        {
+          "surface": "SPARC",
+          "reading": "スパーク",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / SPARC",
+          "in_glossary": false
+        },
+        {
+          "surface": "SJIS",
+          "reading": "エスジス",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / SJIS",
+          "in_glossary": false
+        },
+        {
+          "surface": "BROBA",
+          "reading": "ブローバ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / BROBA",
+          "in_glossary": false
+        },
+        {
+          "surface": "E-MAIL",
+          "reading": "イーメール",
+          "source": "sudachidict",
+          "evidence": "core_lex.csv / E-MAIL",
+          "in_glossary": false
+        },
+        {
+          "surface": "SunOS",
+          "reading": "サンオーエス",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / SunOS",
+          "in_glossary": false
+        },
+        {
+          "surface": "PhpStorm",
+          "reading": "ピーエッチピーストーム",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / PhpStorm",
+          "in_glossary": true
+        },
+        {
+          "surface": "JavaServer Faces",
+          "reading": "ジャバサーバーフェイシィズ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / JavaServer Faces",
+          "in_glossary": false
+        },
+        {
+          "surface": "Ableton Live",
+          "reading": "エイブルトンライヴ",
+          "source": "sudachidict",
+          "evidence": "notcore_lex.csv / Ableton Live",
+          "in_glossary": true
+        }
+      ]
+    },
+    "sudachi-synonyms": {
+      "rows": 36,
+      "surfaces": 32,
+      "in_glossary": 23,
+      "new_surfaces": 12,
+      "filter_counts": {
+        "latin_rows": 16438,
+        "outside_domain": 16078,
+        "unconfirmed_reading": 74,
+        "existing_reading": 244,
+        "letter_reading": 2,
+        "manually_rejected": 2
+      },
+      "sha256": "18776d5beae6e6e4e37817caa574db6a1a6d2e244c5a46009f57f88f3a071d61",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 2,
+        "surface_count": 99,
+        "surface_hits": 2,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "mAP",
+            "マップ"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "MS-DOS",
+          "reading": "エムエスドス",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ008797 / MS-DOS → エムエスドス",
+          "in_glossary": false
+        },
+        {
+          "surface": "Authorization",
+          "reading": "オーソリゼーション",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ008349 / authorization → オーソリゼーション",
+          "in_glossary": true
+        },
+        {
+          "surface": "DaaS",
+          "reading": "ダース",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ007593 / DaaS → ダース",
+          "in_glossary": false
+        },
+        {
+          "surface": "Internet Explorer",
+          "reading": "インターネットエクスプローラー",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ014604 / Internet Explorer → インターネットエクスプローラー",
+          "in_glossary": false
+        },
+        {
+          "surface": "WINS",
+          "reading": "ウインズ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ007872 / WINS → ウインズ",
+          "in_glossary": false
+        },
+        {
+          "surface": "OLE",
+          "reading": "オーレ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ025230 / ole → オーレ",
+          "in_glossary": true
+        },
+        {
+          "surface": "Gymnasium",
+          "reading": "ギムナジウム",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ024892 / gymnasium → ギムナジウム",
+          "in_glossary": true
+        },
+        {
+          "surface": "SimplE",
+          "reading": "シンプル",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ009457 / simple → シンプル",
+          "in_glossary": true
+        },
+        {
+          "surface": "Netscape Navigator",
+          "reading": "ネットスケープナビゲーター",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ000115 / Netscape Navigator → ネットスケープナビゲーター",
+          "in_glossary": false
+        },
+        {
+          "surface": "MindMup",
+          "reading": "マインドマップ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ025464 / MindMup → マインドマップ",
+          "in_glossary": false
+        },
+        {
+          "surface": "W-SIM",
+          "reading": "ダブリューシム",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ024055 / W-SIM → ダブリューシム",
+          "in_glossary": false
+        },
+        {
+          "surface": "Reflex",
+          "reading": "レフレックス",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ024164 / reflex → レフレックス",
+          "in_glossary": true
+        },
+        {
+          "surface": "Internet Explorer",
+          "reading": "インターネットエクスプローラ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ014604 / Internet Explorer → インターネットエクスプローラ",
+          "in_glossary": false
+        },
+        {
+          "surface": "scraper",
+          "reading": "スクレーパー",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ006717 / scraper → スクレーパー",
+          "in_glossary": true
+        },
+        {
+          "surface": "suffix",
+          "reading": "サフィクス",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ001248 / suffix → サフィクス",
+          "in_glossary": true
+        },
+        {
+          "surface": "Spinnaker",
+          "reading": "スピンネーカー",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ011764 / spinnaker → スピンネーカー",
+          "in_glossary": true
+        },
+        {
+          "surface": "PASCAL",
+          "reading": "パスカル",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ006884 / PASCAL → パスカル",
+          "in_glossary": false
+        },
+        {
+          "surface": "BROBA",
+          "reading": "ブローバ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ025453 / BROBA → ブローバ",
+          "in_glossary": false
+        },
+        {
+          "surface": "Fennel",
+          "reading": "フェンネル",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ008227 / fennel → フェンネル",
+          "in_glossary": true
+        },
+        {
+          "surface": "Volatility",
+          "reading": "ボラティリティー",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ000750 / volatility → ボラティリティー",
+          "in_glossary": true
+        },
+        {
+          "surface": "Java",
+          "reading": "ジャヴァ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ019810 / Java → ジャヴァ",
+          "in_glossary": true
+        },
+        {
+          "surface": "Ogg",
+          "reading": "オッグ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ024935 / ogg → オッグ",
+          "in_glossary": true
+        },
+        {
+          "surface": "Runway",
+          "reading": "ランウエイ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ015182 / runway → ランウエイ",
+          "in_glossary": true
+        },
+        {
+          "surface": "Makefile",
+          "reading": "メークファイル",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ006602 / makefile → メークファイル",
+          "in_glossary": true
+        },
+        {
+          "surface": "tracing",
+          "reading": "トレーシング",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ019224 / tracing → トレーシング",
+          "in_glossary": true
+        },
+        {
+          "surface": "scraper",
+          "reading": "スクレーパ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ006717 / scraper → スクレーパ",
+          "in_glossary": true
+        },
+        {
+          "surface": "prefix",
+          "reading": "プレフィクス",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ000714 / prefix → プレフィクス",
+          "in_glossary": true
+        },
+        {
+          "surface": "Remix",
+          "reading": "リミックス",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ025256 / REMIX → リミックス",
+          "in_glossary": true
+        },
+        {
+          "surface": "Runway",
+          "reading": "ランウェー",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ015182 / runway → ランウェー",
+          "in_glossary": true
+        },
+        {
+          "surface": "Volatility",
+          "reading": "ボラティリティ",
+          "source": "sudachi-synonyms",
+          "evidence": "グループ000750 / volatility → ボラティリティ",
+          "in_glossary": true
+        }
+      ]
+    },
+    "unidic": {
+      "rows": 15,
+      "surfaces": 15,
+      "in_glossary": 6,
+      "new_surfaces": 9,
+      "filter_counts": {
+        "latin_rows": 5189,
+        "existing_reading": 161,
+        "outside_domain": 4245,
+        "letter_reading": 680,
+        "unconfirmed_reading": 72,
+        "invalid_kana": 12,
+        "manually_rejected": 2
+      },
+      "sha256": "eeeeea6b666463df51c9af11dbd1a654af009dd9ee740e2e6adeb6084029d084",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 6,
+        "surface_count": 99,
+        "surface_hits": 6,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "COCO",
+            "ココ"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "mAP",
+            "マップ"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "TRON",
+          "reading": "トロン",
+          "source": "unidic",
+          "evidence": "lex.csv / ＴＲＯＮ",
+          "in_glossary": false
+        },
+        {
+          "surface": "BASIC",
+          "reading": "ベーシック",
+          "source": "unidic",
+          "evidence": "lex.csv / ＢＡＳＩＣ",
+          "in_glossary": false
+        },
+        {
+          "surface": "RISC",
+          "reading": "リスク",
+          "source": "unidic",
+          "evidence": "lex.csv / ＲＩＳＣ",
+          "in_glossary": false
+        },
+        {
+          "surface": "AEGIS",
+          "reading": "イージス",
+          "source": "unidic",
+          "evidence": "lex.csv / ＡＥＧＩＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "Remix",
+          "reading": "リミックス",
+          "source": "unidic",
+          "evidence": "lex.csv / ＲＥＭＩＸ",
+          "in_glossary": true
+        },
+        {
+          "surface": "UniDic",
+          "reading": "ユニディック",
+          "source": "unidic",
+          "evidence": "lex.csv / ＵｎｉＤｉｃ",
+          "in_glossary": true
+        },
+        {
+          "surface": "LOGO",
+          "reading": "ロゴ",
+          "source": "unidic",
+          "evidence": "lex.csv / ＬＯＧＯ",
+          "in_glossary": false
+        },
+        {
+          "surface": "POP",
+          "reading": "ポップ",
+          "source": "unidic",
+          "evidence": "lex.csv / ＰＯＰ",
+          "in_glossary": false
+        },
+        {
+          "surface": "ATIS",
+          "reading": "エーティス",
+          "source": "unidic",
+          "evidence": "lex.csv / ＡＴＩＳ",
+          "in_glossary": true
+        },
+        {
+          "surface": "CASE",
+          "reading": "ケース",
+          "source": "unidic",
+          "evidence": "lex.csv / ＣＡＳＥ",
+          "in_glossary": false
+        },
+        {
+          "surface": "JPEG",
+          "reading": "ジェーペグ",
+          "source": "unidic",
+          "evidence": "lex.csv / ＪＰＥＧ",
+          "in_glossary": true
+        },
+        {
+          "surface": "JTAG",
+          "reading": "ジェータグ",
+          "source": "unidic",
+          "evidence": "lex.csv / ＪＴＡＧ",
+          "in_glossary": true
+        },
+        {
+          "surface": "SOHO",
+          "reading": "ソーホー",
+          "source": "unidic",
+          "evidence": "lex.csv / ＳＯＨＯ",
+          "in_glossary": false
+        },
+        {
+          "surface": "RAM",
+          "reading": "ラム",
+          "source": "unidic",
+          "evidence": "lex.csv / ＲＡＭ",
+          "in_glossary": true
+        },
+        {
+          "surface": "ENIAC",
+          "reading": "エニアック",
+          "source": "unidic",
+          "evidence": "lex.csv / ＥＮＩＡＣ",
+          "in_glossary": false
+        }
+      ]
+    },
+    "ipadic": {
+      "rows": 0,
+      "surfaces": 0,
+      "in_glossary": 0,
+      "new_surfaces": 0,
+      "filter_counts": {
+        "latin_rows": 327,
+        "outside_domain": 223,
+        "letter_reading": 72,
+        "invalid_kana": 5,
+        "existing_reading": 12,
+        "unconfirmed_reading": 14,
+        "manually_rejected": 1
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "sample": []
+    },
+    "alkana": {
+      "rows": 7,
+      "surfaces": 7,
+      "in_glossary": 7,
+      "new_surfaces": 0,
+      "filter_counts": {
+        "latin_rows": 49216,
+        "outside_domain": 48130,
+        "existing_reading": 612,
+        "english_pronunciation_only": 438,
+        "letter_reading": 9,
+        "invalid_kana": 17,
+        "manually_rejected": 1,
+        "unconfirmed_reading": 2
+      },
+      "sha256": "ee376aaaf81419c2f2a94d0044938d7fa595efc8f1429c200b9c74387bae8a9a",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 2,
+        "surface_count": 99,
+        "surface_hits": 2,
+        "hits": [
+          [
+            "Svelte",
+            "スベルト"
+          ],
+          [
+            "regex",
+            "レジェックス"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 19,
+        "surface_count": 99,
+        "surface_hits": 19,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "BERT",
+            "バート"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "CRUD",
+            "クラッド"
+          ],
+          [
+            "GAN",
+            "ガン"
+          ],
+          [
+            "JPEG",
+            "ジェイペグ"
+          ],
+          [
+            "LoRA",
+            "ローラ"
+          ],
+          [
+            "RAG",
+            "ラグ"
+          ],
+          [
+            "RAID",
+            "レイド"
+          ],
+          [
+            "ROUGE",
+            "ルージュ"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "Svelte",
+            "スベルト"
+          ],
+          [
+            "TeX",
+            "テフ"
+          ],
+          [
+            "apt",
+            "アプト"
+          ],
+          [
+            "awk",
+            "オーク"
+          ],
+          [
+            "cron",
+            "クロン"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "mAP",
+            "マップ"
+          ],
+          [
+            "regex",
+            "レジェックス"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "regex",
+          "reading": "レジェックス",
+          "source": "alkana",
+          "evidence": "alkana/data.py / regex",
+          "in_glossary": true
+        },
+        {
+          "surface": "ATOK",
+          "reading": "エイトック",
+          "source": "alkana",
+          "evidence": "alkana/data.py / atok",
+          "in_glossary": true
+        },
+        {
+          "surface": "ARP",
+          "reading": "アープ",
+          "source": "alkana",
+          "evidence": "alkana/data.py / arp",
+          "in_glossary": true
+        },
+        {
+          "surface": "RAM",
+          "reading": "ラム",
+          "source": "alkana",
+          "evidence": "alkana/data.py / ram",
+          "in_glossary": true
+        },
+        {
+          "surface": "JavaScript",
+          "reading": "ジャヴァスクリプト",
+          "source": "alkana",
+          "evidence": "alkana/data.py / javascript",
+          "in_glossary": true
+        },
+        {
+          "surface": "PostScript",
+          "reading": "ポウストゥスクリプト",
+          "source": "alkana",
+          "evidence": "alkana/data.py / postscript",
+          "in_glossary": true
+        },
+        {
+          "surface": "Svelte",
+          "reading": "スベルト",
+          "source": "alkana",
+          "evidence": "alkana/data.py / svelte",
+          "in_glossary": true
+        }
+      ]
+    },
+    "jst-thesaurus": {
+      "rows": 0,
+      "surfaces": 0,
+      "in_glossary": 0,
+      "new_surfaces": 0,
+      "filter_counts": {
+        "latin_rows": 137,
+        "letter_reading": 129,
+        "outside_domain": 4,
+        "invalid_kana": 4
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "sample": []
+    },
+    "ipsj-wordlist": {
+      "rows": 0,
+      "surfaces": 0,
+      "in_glossary": 0,
+      "new_surfaces": 0,
+      "filter_counts": {
+        "latin_rows": 10,
+        "outside_domain": 6,
+        "manually_rejected": 2,
+        "existing_reading": 2
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 0,
+        "surface_count": 99,
+        "surface_hits": 0,
+        "hits": []
+      },
+      "sample": []
+    },
+    "jmdict": {
+      "rows": 106,
+      "surfaces": 98,
+      "in_glossary": 30,
+      "new_surfaces": 70,
+      "filter_counts": {
+        "latin_rows": 620,
+        "existing_reading": 75,
+        "letter_reading": 425,
+        "outside_domain": 7,
+        "manually_rejected": 1
+      },
+      "sha256": "ba68b3bf97adefbbad4cdad65134968da712f7c65af3fd0b33197c14a9ddd91b",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 4,
+        "surface_count": 99,
+        "surface_hits": 4,
+        "hits": [
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "GUI",
+            "グイ"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 20,
+        "surface_count": 99,
+        "surface_hits": 18,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "ASIC",
+            "エーシック"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "GIF",
+            "ギフ"
+          ],
+          [
+            "GIF",
+            "ジフ"
+          ],
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "GUI",
+            "グイ"
+          ],
+          [
+            "IaaS",
+            "イアース"
+          ],
+          [
+            "JPEG",
+            "ジェイペグ"
+          ],
+          [
+            "LaTeX",
+            "ラテック"
+          ],
+          [
+            "LaTeX",
+            "ラテフ"
+          ],
+          [
+            "LoRA",
+            "ローラ"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "PaaS",
+            "パース"
+          ],
+          [
+            "RAG",
+            "ラグ"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "SaaS",
+            "サース"
+          ],
+          [
+            "TeX",
+            "テフ"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "mux",
+          "reading": "マックス",
+          "source": "jmdict",
+          "evidence": "JMdict 2861614 / ＭＵＸ",
+          "in_glossary": true
+        },
+        {
+          "surface": "CardBus",
+          "reading": "カードバス",
+          "source": "jmdict",
+          "evidence": "JMdict 2290740 / ＣａｒｄＢｕｓ",
+          "in_glossary": false
+        },
+        {
+          "surface": "UPSERT",
+          "reading": "アップサート",
+          "source": "jmdict",
+          "evidence": "JMdict 2857309 / ＵＰＳＥＲＴ",
+          "in_glossary": false
+        },
+        {
+          "surface": "AJAX",
+          "reading": "エイジャックス",
+          "source": "jmdict",
+          "evidence": "JMdict 2859850 / Ａｊａｘ",
+          "in_glossary": true
+        },
+        {
+          "surface": "ASPI",
+          "reading": "アスピー",
+          "source": "jmdict",
+          "evidence": "JMdict 2279600 / ＡＳＰＩ",
+          "in_glossary": false
+        },
+        {
+          "surface": "iCOMP",
+          "reading": "アイコンプ",
+          "source": "jmdict",
+          "evidence": "JMdict 2278130 / ｉＣＯＭＰ",
+          "in_glossary": false
+        },
+        {
+          "surface": "UUENCODE",
+          "reading": "ユーユーエンコード",
+          "source": "jmdict",
+          "evidence": "JMdict 2335420 / ＵＵＥＮＣＯＤＥ",
+          "in_glossary": false
+        },
+        {
+          "surface": "CASE",
+          "reading": "ケイス",
+          "source": "jmdict",
+          "evidence": "JMdict 2860662 / ＣＡＳＥ",
+          "in_glossary": false
+        },
+        {
+          "surface": "SNOBOL",
+          "reading": "スノボル",
+          "source": "jmdict",
+          "evidence": "JMdict 2304220 / ＳＮＯＢＯＬ",
+          "in_glossary": false
+        },
+        {
+          "surface": "NetBIOS",
+          "reading": "ネットバイオス",
+          "source": "jmdict",
+          "evidence": "JMdict 2316080 / ＮｅｔＢＩＯＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "PCDOS",
+          "reading": "ピーシードス",
+          "source": "jmdict",
+          "evidence": "JMdict 2322390 / ＰＣＤＯＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "COM",
+          "reading": "コム",
+          "source": "jmdict",
+          "evidence": "JMdict 1051160 / ＣＯＭ",
+          "in_glossary": false
+        },
+        {
+          "surface": "NOS",
+          "reading": "ノス",
+          "source": "jmdict",
+          "evidence": "JMdict 2286580 / ＮＯＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "MS-DOS",
+          "reading": "エムエスドス",
+          "source": "jmdict",
+          "evidence": "JMdict 2287030 / ＭＳ-ＤＯＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "RIP",
+          "reading": "リップ",
+          "source": "jmdict",
+          "evidence": "JMdict 2839310 / ＲＩＰ",
+          "in_glossary": false
+        },
+        {
+          "surface": "EDIFACT",
+          "reading": "エディファクト",
+          "source": "jmdict",
+          "evidence": "JMdict 2286320 / ＥＤＩＦＡＣＴ",
+          "in_glossary": false
+        },
+        {
+          "surface": "AppleTalk",
+          "reading": "アップルトーク",
+          "source": "jmdict",
+          "evidence": "JMdict 2280030 / ＡｐｐｌｅＴａｌｋ",
+          "in_glossary": false
+        },
+        {
+          "surface": "i.LINK",
+          "reading": "アイリンク",
+          "source": "jmdict",
+          "evidence": "JMdict 2278530 / ｉ．ＬＩＮＫ",
+          "in_glossary": false
+        },
+        {
+          "surface": "SATA",
+          "reading": "エスアタ",
+          "source": "jmdict",
+          "evidence": "JMdict 2867713 / ＳＡＴＡ",
+          "in_glossary": true
+        },
+        {
+          "surface": "RAS",
+          "reading": "ラス",
+          "source": "jmdict",
+          "evidence": "JMdict 2265750 / ＲＡＳ",
+          "in_glossary": true
+        },
+        {
+          "surface": "ATAPI",
+          "reading": "アタピー",
+          "source": "jmdict",
+          "evidence": "JMdict 2279830 / ＡＴＡＰＩ",
+          "in_glossary": false
+        },
+        {
+          "surface": "CASE",
+          "reading": "ケース",
+          "source": "jmdict",
+          "evidence": "JMdict 2860662 / ＣＡＳＥ",
+          "in_glossary": false
+        },
+        {
+          "surface": "Scala",
+          "reading": "スケーラ",
+          "source": "jmdict",
+          "evidence": "JMdict 2843954 / Ｓｃａｌａ",
+          "in_glossary": true
+        },
+        {
+          "surface": "NaN",
+          "reading": "ナン",
+          "source": "jmdict",
+          "evidence": "JMdict 2599470 / ＮａＮ",
+          "in_glossary": false
+        },
+        {
+          "surface": "FLOSS",
+          "reading": "フロス",
+          "source": "jmdict",
+          "evidence": "JMdict 2867674 / ＦＬＯＳＳ",
+          "in_glossary": false
+        },
+        {
+          "surface": "ARPANET",
+          "reading": "アルパネット",
+          "source": "jmdict",
+          "evidence": "JMdict 1985650 / ＡＲＰＡＮＥＴ",
+          "in_glossary": false
+        },
+        {
+          "surface": "RAM",
+          "reading": "ラム",
+          "source": "jmdict",
+          "evidence": "JMdict 2195090 / ＲＡＭ",
+          "in_glossary": true
+        },
+        {
+          "surface": "IaaS",
+          "reading": "イアース",
+          "source": "jmdict",
+          "evidence": "JMdict 2864877 / ＩａａＳ",
+          "in_glossary": true
+        },
+        {
+          "surface": "SIG",
+          "reading": "シグ",
+          "source": "jmdict",
+          "evidence": "JMdict 2300260 / ＳＩＧ",
+          "in_glossary": false
+        },
+        {
+          "surface": "ENIAC",
+          "reading": "エニアック",
+          "source": "jmdict",
+          "evidence": "JMdict 2286430 / ＥＮＩＡＣ",
+          "in_glossary": false
+        }
+      ]
+    },
+    "skk": {
+      "rows": 42,
+      "surfaces": 37,
+      "in_glossary": 9,
+      "new_surfaces": 29,
+      "filter_counts": {
+        "latin_rows": 30769,
+        "outside_domain": 29539,
+        "existing_reading": 662,
+        "translation_only": 480,
+        "letter_reading": 4,
+        "manually_rejected": 1,
+        "unconfirmed_reading": 39
+      },
+      "sha256": "c516ffe01474bc21ffcdaa488f50e66986f3d824f1769c2da88f437927ac715f",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 2,
+        "surface_count": 99,
+        "surface_hits": 2,
+        "hits": [
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "IAM",
+            "アイアム"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 17,
+        "surface_count": 99,
+        "surface_hits": 17,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "BERT",
+            "バート"
+          ],
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "COCO",
+            "ココ"
+          ],
+          [
+            "GNU",
+            "グヌー"
+          ],
+          [
+            "IAM",
+            "アイアム"
+          ],
+          [
+            "LaTeX",
+            "ラテフ"
+          ],
+          [
+            "LoRA",
+            "ローラ"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "RAID",
+            "レイド"
+          ],
+          [
+            "ROUGE",
+            "ルージュ"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "TeX",
+            "テフ"
+          ],
+          [
+            "awk",
+            "オーク"
+          ],
+          [
+            "cron",
+            "クーロン"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "mAP",
+            "マップ"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "FLOSS",
+          "reading": "フロス",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「floss」",
+          "in_glossary": false
+        },
+        {
+          "surface": "AEGIS",
+          "reading": "イージス",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「aegis」",
+          "in_glossary": false
+        },
+        {
+          "surface": "BASIC",
+          "reading": "ベーシック",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「basic」",
+          "in_glossary": false
+        },
+        {
+          "surface": "ELIZA",
+          "reading": "イライザ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「eliza」",
+          "in_glossary": false
+        },
+        {
+          "surface": "RIP",
+          "reading": "リップ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「rip」",
+          "in_glossary": false
+        },
+        {
+          "surface": "SIG",
+          "reading": "シグ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「sig」",
+          "in_glossary": false
+        },
+        {
+          "surface": "FAT",
+          "reading": "ファット",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「fat」",
+          "in_glossary": false
+        },
+        {
+          "surface": "RAM",
+          "reading": "ラム",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「ram」",
+          "in_glossary": true
+        },
+        {
+          "surface": "QuickTime",
+          "reading": "クイックタイム",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「quicktime」",
+          "in_glossary": false
+        },
+        {
+          "surface": "HaaS",
+          "reading": "ハース",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「haas」",
+          "in_glossary": false
+        },
+        {
+          "surface": "CASE",
+          "reading": "ケイス",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「case」",
+          "in_glossary": false
+        },
+        {
+          "surface": "PASCAL",
+          "reading": "パスカル",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「pascal」",
+          "in_glossary": false
+        },
+        {
+          "surface": "NaN",
+          "reading": "ナン",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「nan」",
+          "in_glossary": false
+        },
+        {
+          "surface": "WINS",
+          "reading": "ウインズ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「wins」",
+          "in_glossary": false
+        },
+        {
+          "surface": "LAMP",
+          "reading": "ランプ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「lamp」",
+          "in_glossary": false
+        },
+        {
+          "surface": "Java",
+          "reading": "ジャヴァ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「java」",
+          "in_glossary": true
+        },
+        {
+          "surface": "ATOK",
+          "reading": "エイトック",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「atok」",
+          "in_glossary": true
+        },
+        {
+          "surface": "TeX",
+          "reading": "テック",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「tex」",
+          "in_glossary": true
+        },
+        {
+          "surface": "LOGO",
+          "reading": "ロゴ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「logo」",
+          "in_glossary": false
+        },
+        {
+          "surface": "GNU",
+          "reading": "グヌー",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「gnu」",
+          "in_glossary": true
+        },
+        {
+          "surface": "ELIZA",
+          "reading": "エリザ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「eliza」",
+          "in_glossary": false
+        },
+        {
+          "surface": "TRON",
+          "reading": "トロン",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「tron」",
+          "in_glossary": false
+        },
+        {
+          "surface": "POP",
+          "reading": "ポップ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「pop」",
+          "in_glossary": false
+        },
+        {
+          "surface": "kByte",
+          "reading": "キロバイト",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「kbyte」",
+          "in_glossary": false
+        },
+        {
+          "surface": "VAN",
+          "reading": "ヴァン",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「van」",
+          "in_glossary": false
+        },
+        {
+          "surface": "WINS",
+          "reading": "ウィンズ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「wins」",
+          "in_glossary": false
+        },
+        {
+          "surface": "IAM",
+          "reading": "アイアム",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「iam」",
+          "in_glossary": true
+        },
+        {
+          "surface": "LAP",
+          "reading": "ラップ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「lap」",
+          "in_glossary": false
+        },
+        {
+          "surface": "OLE",
+          "reading": "オーレ",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「ole」",
+          "in_glossary": true
+        },
+        {
+          "surface": "TWAIN",
+          "reading": "トウェイン",
+          "source": "skk",
+          "evidence": "SKK-JISYO.L / 英字キー「twain」",
+          "in_glossary": true
+        }
+      ]
+    },
+    "wdic-tech": {
+      "rows": 1561,
+      "surfaces": 1483,
+      "in_glossary": 183,
+      "new_surfaces": 1315,
+      "filter_counts": {
+        "latin_rows": 3281,
+        "letter_reading": 1061,
+        "invalid_kana": 17,
+        "outside_domain": 382,
+        "existing_reading": 256,
+        "manually_rejected": 1
+      },
+      "sha256": "07c551228d534fd2d7e505f861f27a688d82146cadb237ac5e78a82a481603af",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 3,
+        "surface_count": 99,
+        "surface_hits": 3,
+        "hits": [
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "chmod",
+            "チェンジモード"
+          ],
+          [
+            "chown",
+            "チェンジオウン"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 18,
+        "surface_count": 99,
+        "surface_hits": 17,
+        "hits": [
+          [
+            "BIOS",
+            "バイオス"
+          ],
+          [
+            "GIF",
+            "ジフ"
+          ],
+          [
+            "GNOME",
+            "グノーム"
+          ],
+          [
+            "JPEG",
+            "ジェイペグ"
+          ],
+          [
+            "LaTeX",
+            "ラテック"
+          ],
+          [
+            "LaTeX",
+            "ラテフ"
+          ],
+          [
+            "PNG",
+            "ピング"
+          ],
+          [
+            "RAID",
+            "レイド"
+          ],
+          [
+            "TeX",
+            "テフ"
+          ],
+          [
+            "Ubuntu",
+            "ウブントゥ"
+          ],
+          [
+            "Wayland",
+            "ウェイランド"
+          ],
+          [
+            "YAML",
+            "ヤムル"
+          ],
+          [
+            "apt",
+            "アプト"
+          ],
+          [
+            "awk",
+            "オーク"
+          ],
+          [
+            "chmod",
+            "チェンジモード"
+          ],
+          [
+            "chown",
+            "チェンジオウン"
+          ],
+          [
+            "grep",
+            "グレップ"
+          ],
+          [
+            "sed",
+            "セド"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "Fastboot interface",
+          "reading": "ファストブートインターフェイスグーグルユーエスビーアイディー",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLI.DV6 / Fastboot interface (Google USB ID)",
+          "in_glossary": false
+        },
+        {
+          "surface": "favicon.ico",
+          "reading": "ファビコンドットアイスィーオウ",
+          "source": "wdic-tech",
+          "evidence": "PTSOFTF.DV6 / favicon.ico",
+          "in_glossary": false
+        },
+        {
+          "surface": ".book",
+          "reading": "ドットブック",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLT.DV6 / .book",
+          "in_glossary": false
+        },
+        {
+          "surface": "Android 4.0",
+          "reading": "アンドロイドヨンテンゼロ",
+          "source": "wdic-tech",
+          "evidence": "PNOS.DV6 / Android 4.0",
+          "in_glossary": false
+        },
+        {
+          "surface": "exFAT",
+          "reading": "イーエックスファット",
+          "source": "wdic-tech",
+          "evidence": "TTDISKL.DV6 / exFAT",
+          "in_glossary": true
+        },
+        {
+          "surface": "int8_t",
+          "reading": "イントハチアンダースコアティー",
+          "source": "wdic-tech",
+          "evidence": "PTPROGS.DV6 / int8_t",
+          "in_glossary": true
+        },
+        {
+          "surface": "Dolby Digital",
+          "reading": "ドルビーディジタル",
+          "source": "wdic-tech",
+          "evidence": "PFAV.DV6 / Dolby Digital",
+          "in_glossary": true
+        },
+        {
+          "surface": "Windows Millennium",
+          "reading": "ウィンドウズミレニアム",
+          "source": "wdic-tech",
+          "evidence": "PNOS.DV6 / Windows Millennium",
+          "in_glossary": false
+        },
+        {
+          "surface": "RAD",
+          "reading": "ラッド",
+          "source": "wdic-tech",
+          "evidence": "PTSOFTC.DV6 / RAD",
+          "in_glossary": false
+        },
+        {
+          "surface": "Registered DIMM",
+          "reading": "レジスタードディム",
+          "source": "wdic-tech",
+          "evidence": "TTMEM.DV6 / Registered DIMM",
+          "in_glossary": false
+        },
+        {
+          "surface": "FAT32",
+          "reading": "ファットサンジュウニ",
+          "source": "wdic-tech",
+          "evidence": "TTDISKL.DV6 / FAT32",
+          "in_glossary": true
+        },
+        {
+          "surface": "xwnmo",
+          "reading": "エックスウンモ",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLI.DV6 / xwnmo",
+          "in_glossary": false
+        },
+        {
+          "surface": "PCI Express Mini Card",
+          "reading": "ピースィーアイエクスプレスミニカード",
+          "source": "wdic-tech",
+          "evidence": "TCPERIB.DV6 / PCI Express Mini Card",
+          "in_glossary": false
+        },
+        {
+          "surface": "OpenJane",
+          "reading": "オープンジェーン",
+          "source": "wdic-tech",
+          "evidence": "PNAPLNU.DV6 / OpenJane",
+          "in_glossary": false
+        },
+        {
+          "surface": "WAV",
+          "reading": "ワブ",
+          "source": "wdic-tech",
+          "evidence": "PFAV.DV6 / WAV",
+          "in_glossary": false
+        },
+        {
+          "surface": "KERNEL32.DLL",
+          "reading": "カーネルサンジュウニドットディーエルエル",
+          "source": "wdic-tech",
+          "evidence": "TCOS.DV6 / KERNEL32.DLL",
+          "in_glossary": false
+        },
+        {
+          "surface": "Bourne Shell",
+          "reading": "ボーンシェル",
+          "source": "wdic-tech",
+          "evidence": "PNSVR.DV6 / Bourne Shell",
+          "in_glossary": false
+        },
+        {
+          "surface": "rlogin",
+          "reading": "アーログイン",
+          "source": "wdic-tech",
+          "evidence": "PNAPLNU.DV6 / rlogin",
+          "in_glossary": true
+        },
+        {
+          "surface": "#pragma",
+          "reading": "シャーププラグマ",
+          "source": "wdic-tech",
+          "evidence": "PTPROGS.DV6 / #pragma",
+          "in_glossary": true
+        },
+        {
+          "surface": "Win2k",
+          "reading": "ウィンニケー",
+          "source": "wdic-tech",
+          "evidence": "PNOS.DV6 / Win2k",
+          "in_glossary": false
+        },
+        {
+          "surface": "VirtualDub",
+          "reading": "バーチャルダブ",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLG.DV6 / VirtualDub",
+          "in_glossary": false
+        },
+        {
+          "surface": "Asio",
+          "reading": "アジオ",
+          "source": "wdic-tech",
+          "evidence": "TCAPI.DV6 / ASIO",
+          "in_glossary": true
+        },
+        {
+          "surface": "DynaBook",
+          "reading": "ダイナブック",
+          "source": "wdic-tech",
+          "evidence": "TCPROD.DV6 / DynaBook",
+          "in_glossary": false
+        },
+        {
+          "surface": "__float128",
+          "reading": "アンダースコアアンダースコアフロートヒャクニジュウハチ",
+          "source": "wdic-tech",
+          "evidence": "PTPROGS.DV6 / __float128",
+          "in_glossary": false
+        },
+        {
+          "surface": "Photoshop Elements",
+          "reading": "フォトショップエレメンツ",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLG.DV6 / Photoshop Elements",
+          "in_glossary": false
+        },
+        {
+          "surface": "MIW",
+          "reading": "ミウ",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLT.DV6 / MIW",
+          "in_glossary": false
+        },
+        {
+          "surface": "ASM",
+          "reading": "アスム",
+          "source": "wdic-tech",
+          "evidence": "PTPROGS.DV6 / asm",
+          "in_glossary": true
+        },
+        {
+          "surface": "winipcfg",
+          "reading": "ウィンアイピーコンフィグ",
+          "source": "wdic-tech",
+          "evidence": "PNAPLLI.DV6 / winipcfg",
+          "in_glossary": false
+        },
+        {
+          "surface": "macOS",
+          "reading": "マックオウエス",
+          "source": "wdic-tech",
+          "evidence": "PNOS.DV6 / MacOS",
+          "in_glossary": true
+        },
+        {
+          "surface": "Transaction-safe FAT",
+          "reading": "トランザクションセーフファット",
+          "source": "wdic-tech",
+          "evidence": "TTDISKL.DV6 / Transaction-safe FAT",
+          "in_glossary": false
+        }
+      ]
+    },
+    "wdic-telecom": {
+      "rows": 1304,
+      "surfaces": 1244,
+      "in_glossary": 113,
+      "new_surfaces": 1136,
+      "filter_counts": {
+        "latin_rows": 3324,
+        "letter_reading": 1571,
+        "outside_domain": 333,
+        "existing_reading": 108,
+        "invalid_kana": 2,
+        "manually_rejected": 2
+      },
+      "sha256": "f20a93d332bf4adc8199666170aa2a4b2412c904dfa6f2c5dd27cb6d6c9a3a48",
+      "seed": {
+        "pair_count": 118,
+        "pair_hits": 1,
+        "surface_count": 99,
+        "surface_hits": 1,
+        "hits": [
+          [
+            "SQL",
+            "シークェル"
+          ]
+        ]
+      },
+      "seed_before_existing_reading_filter": {
+        "pair_count": 118,
+        "pair_hits": 5,
+        "surface_count": 99,
+        "surface_hits": 5,
+        "hits": [
+          [
+            "ASCII",
+            "アスキー"
+          ],
+          [
+            "JSON",
+            "ジェイソン"
+          ],
+          [
+            "NAT",
+            "ナット"
+          ],
+          [
+            "SCSI",
+            "スカジー"
+          ],
+          [
+            "SQL",
+            "シークェル"
+          ]
+        ]
+      },
+      "sample": [
+        {
+          "surface": "EMOBILE G4",
+          "reading": "イーモバイルジーフォー",
+          "source": "wdic-telecom",
+          "evidence": "WTELMS.DV6 / EMOBILE G4",
+          "in_glossary": false
+        },
+        {
+          "surface": ".com",
+          "reading": "ドットコム",
+          "source": "wdic-telecom",
+          "evidence": "CTURI.DV6 / .com",
+          "in_glossary": false
+        },
+        {
+          "surface": "10GBASE-LW",
+          "reading": "テンギガベースエルダブリュー",
+          "source": "wdic-telecom",
+          "evidence": "CTPMD.DV6 / 10GBASE-LW",
+          "in_glossary": false
+        },
+        {
+          "surface": "CP50222",
+          "reading": "コードページゴーゼロニーニーニ",
+          "source": "wdic-telecom",
+          "evidence": "CTCHRE.DV6 / CP50222",
+          "in_glossary": false
+        },
+        {
+          "surface": "image/png",
+          "reading": "イメージピング",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / image/png",
+          "in_glossary": true
+        },
+        {
+          "surface": "TCP Fast Open",
+          "reading": "ティースィーピーファストオプション",
+          "source": "wdic-telecom",
+          "evidence": "CTTRAN.DV6 / TCP Fast Open",
+          "in_glossary": true
+        },
+        {
+          "surface": "Ultra3-SCSI",
+          "reading": "ウルトラスリースクージ",
+          "source": "wdic-telecom",
+          "evidence": "CTIF.DV6 / Ultra3-SCSI",
+          "in_glossary": false
+        },
+        {
+          "surface": "DSLAM",
+          "reading": "ディーエスラム",
+          "source": "wdic-telecom",
+          "evidence": "WTELFT.DV6 / DSLAM",
+          "in_glossary": false
+        },
+        {
+          "surface": "SPDY",
+          "reading": "スピーディー",
+          "source": "wdic-telecom",
+          "evidence": "CPINFO.DV6 / SPDY",
+          "in_glossary": false
+        },
+        {
+          "surface": "SDAP",
+          "reading": "エスダップ",
+          "source": "wdic-telecom",
+          "evidence": "WCPMD.DV6 / SDAP",
+          "in_glossary": true
+        },
+        {
+          "surface": "application/xhtml+xml",
+          "reading": "アプリケーションエックスエイチティーエムエルプラスエックスエムエル",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / application/xhtml+xml",
+          "in_glossary": false
+        },
+        {
+          "surface": "IEEE 802.11p",
+          "reading": "アイトリプルイーハチゼロニーテンイチイチピー",
+          "source": "wdic-telecom",
+          "evidence": "WCPMD.DV6 / IEEE 802.11p",
+          "in_glossary": false
+        },
+        {
+          "surface": "Adobe-Japan1",
+          "reading": "アドビジャパンイチ",
+          "source": "wdic-telecom",
+          "evidence": "CTCHRS.DV6 / Adobe-Japan1",
+          "in_glossary": false
+        },
+        {
+          "surface": ".asia",
+          "reading": "ドットアジア",
+          "source": "wdic-telecom",
+          "evidence": "CTURI.DV6 / .asia",
+          "in_glossary": false
+        },
+        {
+          "surface": "audio/vorbis",
+          "reading": "オーディオヴォルビス",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / audio/vorbis",
+          "in_glossary": false
+        },
+        {
+          "surface": "application/atom+xml",
+          "reading": "アプリケーションアトムプラスエックスエムエル",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / application/atom+xml",
+          "in_glossary": false
+        },
+        {
+          "surface": "6LoWPAN",
+          "reading": "スィックスロウパン",
+          "source": "wdic-telecom",
+          "evidence": "CPINFO.DV6 / 6LoWPAN",
+          "in_glossary": true
+        },
+        {
+          "surface": "Cat5e",
+          "reading": "カテゴリーファイブイー",
+          "source": "wdic-telecom",
+          "evidence": "CTIF.DV6 / CAT5e",
+          "in_glossary": true
+        },
+        {
+          "surface": "Snapdragon 200",
+          "reading": "スナップドラゴンニヒャク",
+          "source": "wdic-telecom",
+          "evidence": "WTELMT.DV6 / Snapdragon 200",
+          "in_glossary": false
+        },
+        {
+          "surface": "ISO-2022-JP-3-compatible",
+          "reading": "アイソニーマルニーニージェイピースリーコンパチブル",
+          "source": "wdic-telecom",
+          "evidence": "CTCHRE.DV6 / ISO-2022-JP-3-compatible",
+          "in_glossary": false
+        },
+        {
+          "surface": "100BASE-FX",
+          "reading": "ヒャクベースエフエックス",
+          "source": "wdic-telecom",
+          "evidence": "CTPMD.DV6 / 100BASE-FX",
+          "in_glossary": false
+        },
+        {
+          "surface": "WiFi",
+          "reading": "ワイファイ",
+          "source": "wdic-telecom",
+          "evidence": "WCPMD.DV6 / WiFi",
+          "in_glossary": false
+        },
+        {
+          "surface": "Message-ID",
+          "reading": "メッセージアイディー",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / Message-ID",
+          "in_glossary": false
+        },
+        {
+          "surface": "audio/x-wav",
+          "reading": "オーディオエックスワブ",
+          "source": "wdic-telecom",
+          "evidence": "CTMAIL.DV6 / audio/x-wav",
+          "in_glossary": false
+        },
+        {
+          "surface": "IEEE 802.16d",
+          "reading": "アイトリプルイーハチゼロニーテンイチロクディー",
+          "source": "wdic-telecom",
+          "evidence": "WCPMD.DV6 / IEEE 802.16d",
+          "in_glossary": false
+        },
+        {
+          "surface": "AQUOS PHONE es",
+          "reading": "アクオスフォンエス",
+          "source": "wdic-telecom",
+          "evidence": "WTELMP.DV6 / AQUOS PHONE es",
+          "in_glossary": false
+        },
+        {
+          "surface": "AVC-LAN",
+          "reading": "エイヴィースィーラン",
+          "source": "wdic-telecom",
+          "evidence": "CPEQIP.DV6 / AVC-LAN",
+          "in_glossary": false
+        },
+        {
+          "surface": "WMLScript",
+          "reading": "ダブリューエムエルスクリプト",
+          "source": "wdic-telecom",
+          "evidence": "WTELI.DV6 / WMLScript",
+          "in_glossary": false
+        },
+        {
+          "surface": "IEEE 802.22",
+          "reading": "アイトリプルイーハチゼロニーテンイチイチエイ",
+          "source": "wdic-telecom",
+          "evidence": "WCPMD.DV6 / IEEE 802.22",
+          "in_glossary": false
+        },
+        {
+          "surface": "DTCP-IP",
+          "reading": "ディーティースィーピーオーバーアイピー",
+          "source": "wdic-telecom",
+          "evidence": "CPINFO.DV6 / DTCP-IP",
+          "in_glossary": false
+        }
+      ]
+    }
+  },
+  "union": {
+    "rows": 3167,
+    "surfaces": 2977,
+    "new_pairs": 2697,
+    "new_surfaces": 2539,
+    "seed": {
+      "pair_count": 118,
+      "pair_hits": 13,
+      "surface_count": 99,
+      "surface_hits": 13,
+      "hits": [
+        [
+          "CSRF",
+          "シーサーフ"
+        ],
+        [
+          "GNU",
+          "グヌー"
+        ],
+        [
+          "GUI",
+          "グイ"
+        ],
+        [
+          "IAM",
+          "アイアム"
+        ],
+        [
+          "IaaS",
+          "イアース"
+        ],
+        [
+          "PNG",
+          "ピング"
+        ],
+        [
+          "PoC",
+          "ポック"
+        ],
+        [
+          "SIGGRAPH",
+          "シーグラフ"
+        ],
+        [
+          "SQL",
+          "シークェル"
+        ],
+        [
+          "Svelte",
+          "スベルト"
+        ],
+        [
+          "chmod",
+          "チェンジモード"
+        ],
+        [
+          "chown",
+          "チェンジオウン"
+        ],
+        [
+          "regex",
+          "レジェックス"
+        ]
+      ]
+    },
+    "seed_before_existing_reading_filter": {
+      "pair_count": 118,
+      "pair_hits": 56,
+      "surface_count": 99,
+      "surface_hits": 53,
+      "hits": [
+        [
+          "ASCII",
+          "アスキー"
+        ],
+        [
+          "ASIC",
+          "エーシック"
+        ],
+        [
+          "Azure",
+          "アジュール"
+        ],
+        [
+          "BERT",
+          "バート"
+        ],
+        [
+          "BIOS",
+          "バイオス"
+        ],
+        [
+          "COCO",
+          "ココ"
+        ],
+        [
+          "CRUD",
+          "クラッド"
+        ],
+        [
+          "CSRF",
+          "シーサーフ"
+        ],
+        [
+          "CUDA",
+          "クーダ"
+        ],
+        [
+          "FIFO",
+          "ファイフォ"
+        ],
+        [
+          "GAN",
+          "ガン"
+        ],
+        [
+          "GIF",
+          "ギフ"
+        ],
+        [
+          "GIF",
+          "ジフ"
+        ],
+        [
+          "GNOME",
+          "グノーム"
+        ],
+        [
+          "GNU",
+          "グヌー"
+        ],
+        [
+          "GUI",
+          "グイ"
+        ],
+        [
+          "IAM",
+          "アイアム"
+        ],
+        [
+          "IaaS",
+          "イアース"
+        ],
+        [
+          "JPEG",
+          "ジェイペグ"
+        ],
+        [
+          "JSON",
+          "ジェイソン"
+        ],
+        [
+          "LaTeX",
+          "ラテック"
+        ],
+        [
+          "LaTeX",
+          "ラテフ"
+        ],
+        [
+          "LoRA",
+          "ローラ"
+        ],
+        [
+          "NAT",
+          "ナット"
+        ],
+        [
+          "NumPy",
+          "ナムパイ"
+        ],
+        [
+          "PNG",
+          "ピング"
+        ],
+        [
+          "PaaS",
+          "パース"
+        ],
+        [
+          "PoC",
+          "ポック"
+        ],
+        [
+          "RAG",
+          "ラグ"
+        ],
+        [
+          "RAID",
+          "レイド"
+        ],
+        [
+          "ROUGE",
+          "ルージュ"
+        ],
+        [
+          "Redis",
+          "レディス"
+        ],
+        [
+          "SCSI",
+          "スカジー"
+        ],
+        [
+          "SIGGRAPH",
+          "シーグラフ"
+        ],
+        [
+          "SQL",
+          "シークェル"
+        ],
+        [
+          "SaaS",
+          "サース"
+        ],
+        [
+          "SciPy",
+          "サイパイ"
+        ],
+        [
+          "Svelte",
+          "スベルト"
+        ],
+        [
+          "TeX",
+          "テフ"
+        ],
+        [
+          "Ubuntu",
+          "ウブントゥ"
+        ],
+        [
+          "Vite",
+          "ヴィート"
+        ],
+        [
+          "Wayland",
+          "ウェイランド"
+        ],
+        [
+          "YAML",
+          "ヤムル"
+        ],
+        [
+          "apt",
+          "アプト"
+        ],
+        [
+          "arXiv",
+          "アーカイブ"
+        ],
+        [
+          "awk",
+          "オーク"
+        ],
+        [
+          "chmod",
+          "チェンジモード"
+        ],
+        [
+          "chown",
+          "チェンジオウン"
+        ],
+        [
+          "cron",
+          "クロン"
+        ],
+        [
+          "cron",
+          "クーロン"
+        ],
+        [
+          "grep",
+          "グレップ"
+        ],
+        [
+          "mAP",
+          "マップ"
+        ],
+        [
+          "regex",
+          "レジェックス"
+        ],
+        [
+          "rsync",
+          "アールシンク"
+        ],
+        [
+          "sed",
+          "セド"
+        ],
+        [
+          "tmux",
+          "ティーマックス"
+        ]
+      ]
+    },
+    "existing_seed": {
+      "pair_count": 118,
+      "pair_hits": 64,
+      "surface_count": 99,
+      "surface_hits": 60,
+      "hits": [
+        [
+          "ASCII",
+          "アスキー"
+        ],
+        [
+          "ASIC",
+          "エーシック"
+        ],
+        [
+          "Azure",
+          "アジュール"
+        ],
+        [
+          "BERT",
+          "バート"
+        ],
+        [
+          "BIOS",
+          "バイオス"
+        ],
+        [
+          "BLEU",
+          "ブルー"
+        ],
+        [
+          "COCO",
+          "ココ"
+        ],
+        [
+          "CRUD",
+          "クラッド"
+        ],
+        [
+          "CUDA",
+          "クーダ"
+        ],
+        [
+          "Deno",
+          "ディーノ"
+        ],
+        [
+          "FIFO",
+          "ファイフォ"
+        ],
+        [
+          "GAN",
+          "ガン"
+        ],
+        [
+          "GELU",
+          "ゲル"
+        ],
+        [
+          "GIF",
+          "ギフ"
+        ],
+        [
+          "GIF",
+          "ジフ"
+        ],
+        [
+          "GNOME",
+          "グノーム"
+        ],
+        [
+          "IaaS",
+          "アイアース"
+        ],
+        [
+          "JPEG",
+          "ジェイペグ"
+        ],
+        [
+          "JSON",
+          "ジェイソン"
+        ],
+        [
+          "Jupyter",
+          "ジュピター"
+        ],
+        [
+          "Kaggle",
+          "カグル"
+        ],
+        [
+          "LIFO",
+          "ライフォ"
+        ],
+        [
+          "LaTeX",
+          "ラテック"
+        ],
+        [
+          "LaTeX",
+          "ラテフ"
+        ],
+        [
+          "LoRA",
+          "ローラ"
+        ],
+        [
+          "NAT",
+          "ナット"
+        ],
+        [
+          "NumPy",
+          "ナムパイ"
+        ],
+        [
+          "Nuxt",
+          "ナクスト"
+        ],
+        [
+          "OAuth",
+          "オーオース"
+        ],
+        [
+          "PaaS",
+          "パース"
+        ],
+        [
+          "PyPI",
+          "パイピーアイ"
+        ],
+        [
+          "RAG",
+          "ラグ"
+        ],
+        [
+          "RAID",
+          "レイド"
+        ],
+        [
+          "RISC-V",
+          "リスクファイブ"
+        ],
+        [
+          "ROUGE",
+          "ルージュ"
+        ],
+        [
+          "ReLU",
+          "レル"
+        ],
+        [
+          "ReLU",
+          "レルー"
+        ],
+        [
+          "Redis",
+          "レディス"
+        ],
+        [
+          "SCSI",
+          "スカジー"
+        ],
+        [
+          "SIMD",
+          "シムディー"
+        ],
+        [
+          "SaaS",
+          "サース"
+        ],
+        [
+          "SciPy",
+          "サイパイ"
+        ],
+        [
+          "TOML",
+          "トムル"
+        ],
+        [
+          "TeX",
+          "テフ"
+        ],
+        [
+          "Ubuntu",
+          "ウブントゥ"
+        ],
+        [
+          "VLAN",
+          "ブイラン"
+        ],
+        [
+          "Vite",
+          "ヴィート"
+        ],
+        [
+          "Wayland",
+          "ウェイランド"
+        ],
+        [
+          "YAML",
+          "ヤムル"
+        ],
+        [
+          "YOLO",
+          "ヨロ"
+        ],
+        [
+          "apt",
+          "アプト"
+        ],
+        [
+          "arXiv",
+          "アーカイブ"
+        ],
+        [
+          "awk",
+          "オーク"
+        ],
+        [
+          "cron",
+          "クロン"
+        ],
+        [
+          "cron",
+          "クーロン"
+        ],
+        [
+          "grep",
+          "グレップ"
+        ],
+        [
+          "kubectl",
+          "キューブコントロール"
+        ],
+        [
+          "mAP",
+          "マップ"
+        ],
+        [
+          "regex",
+          "リジェックス"
+        ],
+        [
+          "rsync",
+          "アールシンク"
+        ],
+        [
+          "sed",
+          "セド"
+        ],
+        [
+          "sudo",
+          "スド"
+        ],
+        [
+          "systemd",
+          "システムディー"
+        ],
+        [
+          "tmux",
+          "ティーマックス"
+        ]
+      ]
+    },
+    "uncovered_seed": [
+      [
+        "AAAI",
+        "トリプルエーアイ"
+      ],
+      [
+        "COLING",
+        "コーリング"
+      ],
+      [
+        "CORS",
+        "コルス"
+      ],
+      [
+        "DDoS",
+        "ディードス"
+      ],
+      [
+        "DETR",
+        "デター"
+      ],
+      [
+        "ICLR",
+        "アイクリア"
+      ],
+      [
+        "IJCAI",
+        "イジカイ"
+      ],
+      [
+        "JWT",
+        "ジョット"
+      ],
+      [
+        "Jupyter",
+        "ジュパイター"
+      ],
+      [
+        "K8s",
+        "クーバネティス"
+      ],
+      [
+        "K8s",
+        "ケーハチエス"
+      ],
+      [
+        "MySQL",
+        "マイシークェル"
+      ],
+      [
+        "NAACL",
+        "ナックル"
+      ],
+      [
+        "NeurIPS",
+        "ニューリプス"
+      ],
+      [
+        "NumPy",
+        "ナンパイ"
+      ],
+      [
+        "PostgreSQL",
+        "ポスグレ"
+      ],
+      [
+        "Qt",
+        "キュート"
+      ],
+      [
+        "SAML",
+        "サムル"
+      ],
+      [
+        "ViT",
+        "ビット"
+      ],
+      [
+        "WASM",
+        "ワズム"
+      ],
+      [
+        "char",
+        "キャラ"
+      ],
+      [
+        "char",
+        "チャー"
+      ],
+      [
+        "chown",
+        "チョウン"
+      ],
+      [
+        "cuDNN",
+        "クーディーエヌエヌ"
+      ],
+      [
+        "curl",
+        "カール"
+      ],
+      [
+        "daemon",
+        "デーモン"
+      ],
+      [
+        "enum",
+        "イーナム"
+      ],
+      [
+        "enum",
+        "エナム"
+      ],
+      [
+        "etcd",
+        "エトセディー"
+      ],
+      [
+        "kubectl",
+        "キューブシーティーエル"
+      ],
+      [
+        "kubectl",
+        "クーベクトル"
+      ],
+      [
+        "nginx",
+        "エンジンエックス"
+      ],
+      [
+        "null",
+        "ナル"
+      ],
+      [
+        "null",
+        "ヌル"
+      ],
+      [
+        "sudo",
+        "スードゥー"
+      ],
+      [
+        "tuple",
+        "タプル"
+      ],
+      [
+        "tuple",
+        "チュープル"
+      ],
+      [
+        "vim",
+        "ビム"
+      ],
+      [
+        "vim",
+        "ヴィム"
+      ],
+      [
+        "zsh",
+        "ジーシェル"
+      ],
+      [
+        "zsh",
+        "ズィーシェル"
+      ]
+    ]
+  }
+}

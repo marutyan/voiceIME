@@ -1,0 +1,25 @@
+{
+  "system": "rules",
+  "model": "rules",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-pilot-scratch.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": null,
+    "model": "rules",
+    "system": null,
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/rules.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-glossary-196.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": false,
+    "limit": null
+  },
+  "n": 30,
+  "glossary_size": 196,
+  "load_and_warmup_s": 1.00000761449337e-06,
+  "format_latency_median_s": 0.0009280414669774473,
+  "format_latency_p90_s": 0.0013330660993233325,
+  "latency_median_s": 0.0009280414669774473,
+  "mean_glossary_entries": 2.6666666666666665
+}

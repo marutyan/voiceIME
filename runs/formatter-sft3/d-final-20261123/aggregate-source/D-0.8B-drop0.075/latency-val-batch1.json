@@ -1,0 +1,9 @@
+{
+  "n": 1000,
+  "batch_size": 1,
+  "metric": "median per-item generation wall time; batch size 1",
+  "median_format_latency_s": 0.45644288905896246,
+  "p90_format_latency_s": 0.9016382750123739,
+  "mean_format_latency_s": 0.5333846272316296,
+  "input_sha256": "24068e8727916a51c139f2616c13ef6a8f87cee06cfbd0871719d3ab1a194170"
+}

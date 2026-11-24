@@ -1,0 +1,127 @@
+{
+  "coverage": "remaining_train_with_confirmed_tts_failures",
+  "source_train_rows": 56971,
+  "existing_rows": 12000,
+  "topup_rows": 44970,
+  "unique_topup_ids": 44970,
+  "missing_topup_ids": [
+    "train-v3-025116"
+  ],
+  "missing_topup_details": {
+    "train-v3-025116": {
+      "speaker": "tts-voice-14",
+      "source": "synthetic-tts-ja",
+      "reason": "長さが文に見合わない（11.2秒、2.9文字/秒）",
+      "has_omitted_terms": false
+    }
+  },
+  "topup_id_sha256": "f73474cf2a55ad6b3eb471149abdacfd8ca7addc93fb45a6e0a7ad1e1dc3cae5",
+  "full_train_id_sha256": "c8ee025d0cde14cba1267600d9a0a767b0343a163129f982d4f8483241f50e99",
+  "seed": 0,
+  "initial_batch_size": 32,
+  "voice_pool": 24,
+  "evaluation_voice_rows": 0,
+  "speaker_counts": {
+    "tts-voice-01": 1876,
+    "tts-voice-02": 1871,
+    "tts-voice-03": 1881,
+    "tts-voice-04": 1957,
+    "tts-voice-05": 1871,
+    "tts-voice-06": 1896,
+    "tts-voice-07": 1849,
+    "tts-voice-08": 1880,
+    "tts-voice-09": 1848,
+    "tts-voice-10": 1889,
+    "tts-voice-11": 1835,
+    "tts-voice-12": 1874,
+    "tts-voice-13": 1927,
+    "tts-voice-14": 1964,
+    "tts-voice-15": 1807,
+    "tts-voice-16": 1820,
+    "tts-voice-17": 1876,
+    "tts-voice-18": 1862,
+    "tts-voice-19": 1896,
+    "tts-voice-20": 1890,
+    "tts-voice-21": 1804,
+    "tts-voice-22": 1863,
+    "tts-voice-23": 1879,
+    "tts-voice-24": 1855
+  },
+  "source_counts": {
+    "synthetic-tts-ja": 35882,
+    "synthetic-tts-multi": 9088
+  },
+  "recovery_queue_jobs": {
+    "80-r3audio-tts-rescue-retry13-topup44971-shard-02": {
+      "state": "done",
+      "average_util": "gpu=1 rc=0 seconds=101 mean_util=37.5 samples=4"
+    },
+    "80-r3audio-tts-rescue-topup44971-shard-00": {
+      "state": "done",
+      "average_util": "gpu=1 rc=0 seconds=67 mean_util=20.3 samples=3"
+    },
+    "80-r3audio-tts-rescue-topup44971-shard-02": {
+      "state": "done",
+      "average_util": "gpu=1 rc=0 seconds=134 mean_util=0.0 samples=5"
+    },
+    "80-r3audio-tts-resume-batch8-retry2-topup44971-shard-01": {
+      "state": "done",
+      "average_util": "gpu=3 rc=0 seconds=1817 mean_util=27.1 samples=61"
+    },
+    "80-r3audio-tts-resume-retry1-topup44971-shard-01": {
+      "state": "failed",
+      "average_util": "gpu=1 rc=143 seconds=898 mean_util=6.2 samples=30"
+    },
+    "80-r3audio-tts-resume-retry1-topup44971-shard-02": {
+      "state": "failed",
+      "average_util": "gpu=1 rc=2 seconds=7457 mean_util=19.4 samples=248"
+    },
+    "80-r3audio-tts-resume-topup44971-shard-01": {
+      "state": "failed",
+      "average_util": "gpu=1 rc=1 seconds=0 mean_util=NA samples=0"
+    },
+    "80-r3audio-tts-resume-topup44971-shard-02": {
+      "state": "failed",
+      "average_util": "gpu=1 rc=1 seconds=0 mean_util=NA samples=0"
+    }
+  },
+  "audio": {
+    "format": "WAV PCM16, 16 kHz, mono",
+    "hours": 154.79777935763786,
+    "seconds": 557272.0056874963,
+    "bytes": 17834682862,
+    "manifest": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/manifest.jsonl",
+    "manifest_sha256": "a2861110639f5feb6cf09b4f4930b099984a8f17a87732db45456e59d88218c4",
+    "tts_meta_sha256": "57e29448950b14bdbd434563f39bddbd665c42e284f12e356e3f308237fa7145"
+  },
+  "shards": [
+    {
+      "shard": 0,
+      "rows": 14991,
+      "id_sha256": "0f7de30383f8ed87f1066e11b6670133c08c7d6da36c74eb618e8a6c9809a4a4",
+      "queue_job_state": "done",
+      "queue_util": "gpu=1 rc=0 seconds=4410 mean_util=87.9 samples=147",
+      "manifest_sha256": "53c895ae6a1e084269f5c0662e2c3f1fc6451ba2e8f47c76071a628f5456cbc6"
+    },
+    {
+      "shard": 1,
+      "rows": 14990,
+      "id_sha256": "ec089924bf93a78416ca28df000d9ea6f31a0f2218a52b4e74933a4aea1adf97",
+      "queue_job_state": "failed",
+      "queue_util": "gpu=2 rc=1 seconds=4334 mean_util=85.4 samples=144",
+      "manifest_sha256": "05aace95bb9d18c33fe0cb837c8b8a5de6ae9ffb84b53c79c8ec5b352c8a2e64"
+    },
+    {
+      "shard": 2,
+      "rows": 14989,
+      "id_sha256": "80a16177a17bb890a405d9c49e7fb349102d670b6a4ba929b4431f0402a92323",
+      "queue_job_state": "failed",
+      "queue_util": "gpu=3 rc=1 seconds=3887 mean_util=87.0 samples=129",
+      "manifest_sha256": "9eca7b282e844442b8d4a767ab8ecc8709c5a4e541d48d38058dbc08daa04399"
+    }
+  ],
+  "outputs": {
+    "manifest": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/manifest.jsonl",
+    "tts_meta": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/tts_meta.jsonl"
+  }
+}

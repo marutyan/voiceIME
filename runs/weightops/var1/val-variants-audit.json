@@ -1,0 +1,27 @@
+{
+  "seed": 913,
+  "val_rows": 1000,
+  "changed_rows": 447,
+  "all_reference_terms": 864,
+  "changed_pass_count": {
+    "2": 163,
+    "3": 228,
+    "1": 56
+  },
+  "distribution": {
+    "1文字脱落": 276,
+    "置換": 85,
+    "促音": 122,
+    "別読みファイル": 281,
+    "長音": 467,
+    "語尾": 24
+  },
+  "sha256": {
+    "changed.jsonl": "9e64193281bda7c9faeeabec329a6225ebc62d553fecf5e46fc2d4b5026df319",
+    "first-pass.jsonl": "3403b8800eaba7a65e8d1691d467f039960a21018aab4922dc4fc1669e1feac7",
+    "formatter-glossary.jsonl": "51ccccbe1b3971f3623cb05cb11a8c958e8985f16561f5983b5a01c12ba71d49",
+    "manifest.jsonl": "4299a5240b6da208f593e3e4296601a1ab782bf13518d11034aa99bae3d9afc1",
+    "qwen06-hypothesis.jsonl": "6d46e0c3eaa0433baa1aca8ff92709d5346ca802bd3aa66657dff0f793f3c762",
+    "segment-merge.jsonl": "f4dfc6d1a0cee94fd32c9aeba814fffca26758739974d0d5bd54dfd832ba1ac1"
+  }
+}

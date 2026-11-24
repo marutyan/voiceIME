@@ -1,0 +1,82 @@
+{
+  "seed": 0,
+  "source_workers": 8,
+  "original_rows": 95934,
+  "source_rows_with_saved_asr": 21522,
+  "max_rows": 57000,
+  "candidate_pool_p": 24978,
+  "usable_candidates_after_leakage_and_reading_check": 24480,
+  "usable_candidates_unseen_in_original_target": 12342,
+  "excluded_terms": 83,
+  "heldout_terms": 6437,
+  "test_novel_terms": 500,
+  "counts": {
+    "without_terms": 20675,
+    "examined": 75259,
+    "without_replacement_position": 34583,
+    "created": 36780,
+    "replacement_from_unseen_surface": 33540,
+    "source_with_saved_asr": 8123,
+    "noise_none": 25672,
+    "glossary_replaced": 36316,
+    "merged_reading": 11428,
+    "qwen_empty": 28657,
+    "distractors_3": 9334,
+    "excluded_from_output_by_leakage_check": 3896,
+    "distractors_1": 9097,
+    "merged_surface": 17176,
+    "merged_no_match": 8176,
+    "distractors_0": 9149,
+    "noise_voicing": 6112,
+    "distractors_2": 9200,
+    "noise_small_tsu": 1205,
+    "qwen_reading": 3337,
+    "qwen_no_match": 2535,
+    "noise_long_vowel": 3748,
+    "qwen_no_space": 457,
+    "qwen_surface": 1385,
+    "qwen_lower": 409,
+    "glossary_inserted": 390,
+    "glossary_omitted": 74,
+    "noise_no_applicable_edit": 43
+  },
+  "replacement_unique_terms": 14500,
+  "replacement_max_count": 3,
+  "counts_by_kind": {
+    "word": {
+      "rows": 15978,
+      "unique_terms": 6479
+    },
+    "number_or_symbol": {
+      "rows": 5308,
+      "unique_terms": 1830
+    },
+    "acronym": {
+      "rows": 5610,
+      "unique_terms": 2052
+    },
+    "compound": {
+      "rows": 9884,
+      "unique_terms": 4139
+    }
+  },
+  "leakage_rows": {
+    "excluded": 0,
+    "heldout": 0,
+    "test_novel": 0
+  },
+  "verified_rows": 36780,
+  "augmentation_sha256": "9b2f8f37dcda4ad08a34c93110fd2647f3c00357a564588116483a5181156ded",
+  "sources_sha256": {
+    "/home/maru/voiceime-work-fr3/inputs/sft3-20261122/train-sft3.jsonl": "528f5575eb567ae83422d45d457ee7077087e842ccb54f23f1b11b905e899584",
+    "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/legacy/training-glossary.jsonl": "f85012f8fa3f65a56ba412ec2aa7886e72141fc2088aefea795328001e5bc497",
+    "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/glossary-v2.jsonl": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "/home/maru/voiceime-work-fr3/inputs/glossary-v2-excluded.txt": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+    "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-plus-heldout.txt": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f",
+    "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/train-runs/first-pass.jsonl": "902c50725e54b1154aab4bf35d4ce3491278951be3afe5386fab888febc0efa2",
+    "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/train-runs/segment-merge.jsonl": "72c695b7cd983c6832a3459101e6b9805673660655a308497f3ec8cfdd665b10",
+    "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/train-runs/qwen06-hypothesis.jsonl": "d8d5d6fff92e66b3a92cbe3dc94ac47d5d82b9319ca11b2714923a5a0b232182",
+    "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/train-runs/formatter-glossary.jsonl": "5218818f0c0127838daef2b7f0d031bab5617e86150ee32233a48ade7ba06443"
+  }
+}

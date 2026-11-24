@@ -1,0 +1,25 @@
+{
+  "system": "whisper-large-v3-turbo+rules",
+  "model": "rules",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/asr-baseline-dev-say/whisper-large-v3-turbo.jsonl",
+    "model": "rules",
+    "system": "whisper-large-v3-turbo+rules",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot-devsay-asr/whisper-large-v3-turbo+rules.jsonl",
+    "glossary": null,
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 40,
+  "glossary_size": 74,
+  "load_and_warmup_s": 2.919696271419525e-07,
+  "format_latency_median_s": 0.0002963534789159894,
+  "format_latency_p90_s": 0.0003803208936005831,
+  "latency_median_s": 0.7477640205179341,
+  "mean_glossary_entries": 2.025
+}

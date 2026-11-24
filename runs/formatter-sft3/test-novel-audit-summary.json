@@ -1,0 +1,126 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/test-novel.jsonl",
+  "manifest_count": 500,
+  "ids_identical_in_order": {
+    "manifest": true,
+    "ASR first": true,
+    "ASR second/combined": true,
+    "SFT2": true,
+    "A": true,
+    "B": true,
+    "C": true,
+    "B-2B": true
+  },
+  "input_match_counts": {
+    "SFT2_second_pass_match": 500,
+    "A_expected_input": 500,
+    "B_expected_input": 500,
+    "C_expected_input": 500,
+    "B-2B_expected_input": 500
+  },
+  "glossary_pool": {
+    "sft2_entries": 31332,
+    "sft3_entries": 31332,
+    "excluded_surfaces": 83
+  },
+  "models": {
+    "A": {
+      "examples": 500,
+      "terms": 500,
+      "included": 133,
+      "included_correct": 78,
+      "excluded": 367,
+      "excluded_correct": 90,
+      "miss_categories_included": {
+        "omitted_or_other_text": 54,
+        "other_glossary_term_same_reading": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 1,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.5864661654135338,
+      "excluded_accuracy": 0.2452316076294278
+    },
+    "B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 128,
+      "included_correct": 82,
+      "excluded": 372,
+      "excluded_correct": 104,
+      "miss_categories_included": {
+        "omitted_or_other_text": 44,
+        "other_glossary_term_same_reading": 1,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 1,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.640625,
+      "excluded_accuracy": 0.27956989247311825
+    },
+    "C": {
+      "examples": 500,
+      "terms": 500,
+      "included": 128,
+      "included_correct": 85,
+      "excluded": 372,
+      "excluded_correct": 101,
+      "miss_categories_included": {
+        "omitted_or_other_text": 41,
+        "other_glossary_term_same_reading": 1,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 1,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6640625,
+      "excluded_accuracy": 0.271505376344086
+    },
+    "B-2B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 128,
+      "included_correct": 84,
+      "excluded": 372,
+      "excluded_correct": 90,
+      "miss_categories_included": {
+        "omitted_or_other_text": 43,
+        "other_glossary_term_same_reading": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 1,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.65625,
+      "excluded_accuracy": 0.24193548387096775
+    },
+    "SFT2": {
+      "examples": 500,
+      "glossary_pool_size": 31332,
+      "selected_order_matches_A": 1,
+      "selected_entries_missing_from_pool": 0,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 218,
+      "excluded": 157,
+      "excluded_correct": 7,
+      "miss_categories_included": {
+        "omitted_or_other_text": 124,
+        "other_glossary_term_same_reading": 1
+      },
+      "included_accuracy": 0.6355685131195336,
+      "excluded_accuracy": 0.044585987261146494
+    }
+  },
+  "source_sha256": {
+    "test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "a-plain.jsonl": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "a-segment-merge.jsonl": "9c46460c342ac7d0c247df00ab1c2df0acc673afa75774a1654393ed8fde4f84",
+    "test-novel-include-novel.jsonl/test-novel-a-20261122": "51fcb8c36786828d41b99b81ab966abf8d6bb5d1f629d01a73ff3b689aab28f6",
+    "test-novel-include-novel.jsonl/test-novel-b-20261122": "415d3f23282f2c188d70e771d711fd94e0d914848c118fc380088d56026075cc",
+    "test-novel-include-novel.jsonl/test-novel-c-20261122": "d184f6327404ea3daaa9f1651c7ae873c56f3c5d0ec538fbcf430878fec07927",
+    "test-novel-include-novel.jsonl/test-novel-b-2b-20261122": "034eac79ee70e46ad05918e060a5fd98ad7b37fb1d0ce834c45a2cde25256e53",
+    "e2e-include-novel.jsonl/test-novel-sel2": "8ebd79acba0466a0eff955311a4acc638ca5b0b2031fd5c58ddd72f34c51863a"
+  },
+  "export": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/test-novel-model-inputs.jsonl"
+}

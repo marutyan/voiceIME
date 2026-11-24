@@ -1,0 +1,313 @@
+| 系統 | stage | 件数 | CER（ASRは読み揃え、E2Eはtarget） | 読み揃え前CER（ASR） | 用語正答率 | 緩い正答率（ASR） | 話していない用語の挿入数（ASR: spoken_textのsurface/readings、E2E: target_textのterms基準） | フィラー残存率 | 遅延中央値 / p90 (秒) | 長さ不明で音声長別遅延から除外 | ≤5秒 中央値 / p90 | 5–15秒 中央値 / p90 | >15秒 中央値 / p90 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| val-qwen-plain | e2e | 1000/1000 | 1622/47431 (3.42%; 置換 428、挿入 640、削除 554) | — | 1302/1427 (91.24%) | — | 37 | 12/1608 (0.75%) | 0.232 / 0.364 | 1000 | — / — | — / — | — / — |
+| val-qwen-segment-merge | e2e | 1000/1000 | 1531/47431 (3.23%; 置換 372、挿入 631、削除 528) | — | 1319/1427 (92.43%) | — | 37 | 11/1608 (0.68%) | 0.433 / 0.677 | 1000 | — / — | — / — | — / — |
+
+タグ別集計
+| 系統 | stage | tag | 件数（評価/manifest） | CER | 正規化後完全一致率 | 応答の疑い |
+| --- | --- | --- | --- | --- | --- | --- |
+| val-qwen-plain | e2e | self_correction | 203/203 | 584/7777 (7.51%; 置換 98、挿入 263、削除 223) | 119/203 (58.62%)（言い直しの正答率） | — |
+| val-qwen-plain | e2e | english_phrase | 95/95 | 132/4947 (2.67%; 置換 51、挿入 39、削除 42) | 67/95 (70.53%) | — |
+| val-qwen-plain | e2e | instruction_like | 123/123 | 263/6299 (4.18%; 置換 62、挿入 98、削除 103) | 87/123 (70.73%) | 0 |
+| val-qwen-plain | e2e | no_change | 99/99 | 56/4315 (1.30%; 置換 15、挿入 33、削除 8) | 85/99 (85.86%)（無変更の保持） | — |
+| val-qwen-plain | e2e | list | 84/84 | 298/4894 (6.09%; 置換 71、挿入 143、削除 84) | 43/84 (51.19%) | — |
+| val-qwen-segment-merge | e2e | self_correction | 203/203 | 568/7777 (7.30%; 置換 98、挿入 262、削除 208) | 119/203 (58.62%)（言い直しの正答率） | — |
+| val-qwen-segment-merge | e2e | english_phrase | 95/95 | 140/4947 (2.83%; 置換 53、挿入 39、削除 48) | 65/95 (68.42%) | — |
+| val-qwen-segment-merge | e2e | instruction_like | 123/123 | 229/6299 (3.64%; 置換 46、挿入 100、削除 83) | 90/123 (73.17%) | 0 |
+| val-qwen-segment-merge | e2e | no_change | 99/99 | 63/4315 (1.46%; 置換 21、挿入 34、削除 8) | 84/99 (84.85%)（無変更の保持） | — |
+| val-qwen-segment-merge | e2e | list | 84/84 | 295/4894 (6.03%; 置換 60、挿入 152、削除 83) | 45/84 (53.57%) | — |
+
+JSON:
+```json
+{
+  "manifest": "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl",
+  "results": [
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/multiasr-reeval-20261123/B-drop0-seed1/combined/val-qwen-plain.jsonl",
+      "system": "val-qwen-plain",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 1000,
+        "evaluated": 1000,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 1622,
+        "substitutions": 428,
+        "insertions": 640,
+        "deletions": 554,
+        "reference_characters": 47431,
+        "rate": 0.03419704412725855
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 1302,
+        "total": 1427,
+        "accuracy": 0.9124036440084092,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 37,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 12,
+        "manifest_count": 1608,
+        "residual_rate": 0.007462686567164179
+      },
+      "tags": {
+        "self_correction": {
+          "count": 203,
+          "cer": {
+            "edit_errors": 584,
+            "substitutions": 98,
+            "insertions": 263,
+            "deletions": 223,
+            "reference_characters": 7777,
+            "rate": 0.07509322360807509
+          },
+          "exact_matches": 119,
+          "exact_match_rate": 0.5862068965517241,
+          "suspected_responses": null,
+          "manifest_count": 203
+        },
+        "english_phrase": {
+          "count": 95,
+          "cer": {
+            "edit_errors": 132,
+            "substitutions": 51,
+            "insertions": 39,
+            "deletions": 42,
+            "reference_characters": 4947,
+            "rate": 0.026682838083687082
+          },
+          "exact_matches": 67,
+          "exact_match_rate": 0.7052631578947368,
+          "suspected_responses": null,
+          "manifest_count": 95
+        },
+        "instruction_like": {
+          "count": 123,
+          "cer": {
+            "edit_errors": 263,
+            "substitutions": 62,
+            "insertions": 98,
+            "deletions": 103,
+            "reference_characters": 6299,
+            "rate": 0.04175265915224639
+          },
+          "exact_matches": 87,
+          "exact_match_rate": 0.7073170731707317,
+          "suspected_responses": 0,
+          "manifest_count": 123
+        },
+        "no_change": {
+          "count": 99,
+          "cer": {
+            "edit_errors": 56,
+            "substitutions": 15,
+            "insertions": 33,
+            "deletions": 8,
+            "reference_characters": 4315,
+            "rate": 0.012977983777520278
+          },
+          "exact_matches": 85,
+          "exact_match_rate": 0.8585858585858586,
+          "suspected_responses": null,
+          "manifest_count": 99
+        },
+        "list": {
+          "count": 84,
+          "cer": {
+            "edit_errors": 298,
+            "substitutions": 71,
+            "insertions": 143,
+            "deletions": 84,
+            "reference_characters": 4894,
+            "rate": 0.06089088680016347
+          },
+          "exact_matches": 43,
+          "exact_match_rate": 0.5119047619047619,
+          "suspected_responses": null,
+          "manifest_count": 84
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 1000,
+          "median_s": 0.23245202077669092,
+          "p90_s": 0.36402130489514095
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 1000,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/multiasr-reeval-20261123/B-drop0-seed1/combined/val-qwen-segment-merge.jsonl",
+      "system": "val-qwen-segment-merge",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 1000,
+        "evaluated": 1000,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 1531,
+        "substitutions": 372,
+        "insertions": 631,
+        "deletions": 528,
+        "reference_characters": 47431,
+        "rate": 0.03227846766882419
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 1319,
+        "total": 1427,
+        "accuracy": 0.9243167484232656,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 37,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 11,
+        "manifest_count": 1608,
+        "residual_rate": 0.006840796019900498
+      },
+      "tags": {
+        "self_correction": {
+          "count": 203,
+          "cer": {
+            "edit_errors": 568,
+            "substitutions": 98,
+            "insertions": 262,
+            "deletions": 208,
+            "reference_characters": 7777,
+            "rate": 0.07303587501607303
+          },
+          "exact_matches": 119,
+          "exact_match_rate": 0.5862068965517241,
+          "suspected_responses": null,
+          "manifest_count": 203
+        },
+        "english_phrase": {
+          "count": 95,
+          "cer": {
+            "edit_errors": 140,
+            "substitutions": 53,
+            "insertions": 39,
+            "deletions": 48,
+            "reference_characters": 4947,
+            "rate": 0.028299979785728725
+          },
+          "exact_matches": 65,
+          "exact_match_rate": 0.6842105263157895,
+          "suspected_responses": null,
+          "manifest_count": 95
+        },
+        "instruction_like": {
+          "count": 123,
+          "cer": {
+            "edit_errors": 229,
+            "substitutions": 46,
+            "insertions": 100,
+            "deletions": 83,
+            "reference_characters": 6299,
+            "rate": 0.03635497698047309
+          },
+          "exact_matches": 90,
+          "exact_match_rate": 0.7317073170731707,
+          "suspected_responses": 0,
+          "manifest_count": 123
+        },
+        "no_change": {
+          "count": 99,
+          "cer": {
+            "edit_errors": 63,
+            "substitutions": 21,
+            "insertions": 34,
+            "deletions": 8,
+            "reference_characters": 4315,
+            "rate": 0.014600231749710313
+          },
+          "exact_matches": 84,
+          "exact_match_rate": 0.8484848484848485,
+          "suspected_responses": null,
+          "manifest_count": 99
+        },
+        "list": {
+          "count": 84,
+          "cer": {
+            "edit_errors": 295,
+            "substitutions": 60,
+            "insertions": 152,
+            "deletions": 83,
+            "reference_characters": 4894,
+            "rate": 0.060277891295463834
+          },
+          "exact_matches": 45,
+          "exact_match_rate": 0.5357142857142857,
+          "suspected_responses": null,
+          "manifest_count": 84
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 1000,
+          "median_s": 0.43334615389539977,
+          "p90_s": 0.6769369307185116
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 1000,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}
+```

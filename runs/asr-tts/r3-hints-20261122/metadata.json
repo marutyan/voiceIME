@@ -1,0 +1,166 @@
+{
+  "experiment": "r3-hints-20261122",
+  "created_date": "2026-11-22",
+  "code": {
+    "base_main_commit_at_run": "22baaf96c3e40325710f0ba98f635ec4e0830cf1",
+    "base_src_voiceime_git_tree": "c59849ffb4ff6d355957d94befed907580a35a0d",
+    "base_src_voiceime_unchanged_since": "4d083adf85efd3ad29fbab95d6a656fbc44068f0",
+    "term_select_commit": "9fffc64267019ad4db18de178e552453eabeea7f",
+    "term_select_glossary_py_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+    "term_select_overlay": "src/voiceime/formatter/glossary.py"
+  },
+  "asr": {
+    "model": "Haas-ja-v1.0",
+    "quantization": "Q8_0",
+    "gguf_sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb",
+    "speech_cpp_commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+    "ggml_commit": "79b50d239d0b88852814c873db0d85d43ed66d9b",
+    "speech_binary_sha256": "263cf00fd3caadbb09e6deb217874de0e5e709ee596a2fe4529796270a746814",
+    "cuda_toolkit": "12.8.93",
+    "encoder": "CUDA through faculty job queue",
+    "decoder": "CPU (--decode-on-cpu)",
+    "keywords_guard": true,
+    "tested_keywords_alpha": [
+      1,
+      2,
+      4
+    ],
+    "segment_merge_min_reading_similarity": 0.8
+  },
+  "glossaries": {
+    "v1": {
+      "entries": 1458,
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "v2": {
+      "entries": 31415,
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+    },
+    "v2_excluded": {
+      "terms": 83,
+      "sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e"
+    },
+    "test_novel": {
+      "excluded_terms": 83,
+      "candidate_surfaces": 31332,
+      "novel_terms_included": 500
+    },
+    "val": {
+      "excluded_union_terms": 6437,
+      "held_out_terms": 6365,
+      "candidate_surfaces": 24978
+    }
+  },
+  "datasets": {
+    "test-novel": {
+      "rows": 500,
+      "manifest_sha256": "d3500fd1402cc1d3f58ffa0de804727a3e90b68402f9ba5c74f4a245431699d4"
+    },
+    "val": {
+      "rows": 1000,
+      "manifest_sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa2696561f7cb0424b6"
+    }
+  },
+  "first_pass": {
+    "reused_from": "runs/asr-tts/r3-twopass-20261122/",
+    "hypothesis_mismatches_after_id_join": {
+      "test-novel": 0,
+      "val": 0
+    }
+  },
+  "selection": {
+    "best_condition": "old-main-selector, 16 terms, 240 characters, keywords_alpha=2, keywords_guard=true",
+    "criterion": "minimum val segment-merge reading-aligned CER; test-novel not used to choose the condition",
+    "test_novel_misses_in_best_condition": 69,
+    "miss_examples": "miss-examples-20.jsonl",
+    "example_selection": "first 20 records ordered by manifest index"
+  },
+  "queue_jobs": [
+    {
+      "name": "21-r3hints-testnovel-k-sweep",
+      "gpu": 1,
+      "seconds": 133,
+      "mean_gpu_util_percent": 12.6,
+      "exit_code": 0
+    },
+    {
+      "name": "21-r3hints-val-k-sweep",
+      "gpu": 2,
+      "seconds": 201,
+      "mean_gpu_util_percent": 42.1,
+      "exit_code": 0
+    },
+    {
+      "name": "20-r3hints-testnovel-alpha-sweep",
+      "gpu": 1,
+      "seconds": 96,
+      "mean_gpu_util_percent": 0.3,
+      "exit_code": 0
+    },
+    {
+      "name": "20-r3hints-val-alpha-sweep",
+      "gpu": 2,
+      "seconds": 136,
+      "mean_gpu_util_percent": 8.2,
+      "exit_code": 0
+    }
+  ],
+  "gpu_seconds_sum": 566,
+  "gpu_hours_sum": 0.157222,
+  "failed_setup_attempts": {
+    "jobs": [
+      "20-r3hints-testnovel-k-sweep",
+      "20-r3hints-val-k-sweep"
+    ],
+    "exit_code": 1,
+    "reason": "exec -a python prevented the virtualenv from finding rapidfuzz before model loading; retried through a python alias inside .venv/bin",
+    "gpu_compute_used": false
+  },
+  "final_process_check": {
+    "checked_at_local": "2026-11-22 18:30 JST",
+    "own_voiceime_r3audio_workers_remaining": false,
+    "gpu_snapshot": {
+      "gpu0": {
+        "memory_mib": 22295,
+        "util_percent": 0,
+        "owner": "other user"
+      },
+      "gpu1": {
+        "memory_mib": 95183,
+        "util_percent": 100,
+        "owner": "formatter job"
+      },
+      "gpu2": {
+        "memory_mib": 95183,
+        "util_percent": 100,
+        "owner": "formatter job"
+      },
+      "gpu3": {
+        "memory_mib": 87449,
+        "util_percent": 100,
+        "owner": "formatter job"
+      }
+    },
+    "other_queue_jobs_left_untouched": [
+      "20-formatter-r3-b-mainselect-clean-sdpa-fallback.sh",
+      "20-formatter-r3-b-mainselect-distractors0-sdpa-fallback.sh",
+      "20-formatter-r3-b-mainselect-drop0.sh",
+      "20-formatter-r3-b-mainselect-drop0-sdpa-fallback.sh (pending)"
+    ],
+    "gpu0_other_user_untouched": true
+  },
+  "output_sha256": {
+    "condition-table.json": "317958a6599694414f644d2268140b1a1720ae64039eceddb04b0115618093c8",
+    "miss-examples-20.jsonl": "9f36444d4156f1b537f65a03219ee7586f6bbd1382dcff4706b70420d0d2f679",
+    "test-novel-plain.jsonl": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "test-novel-segment-merge.jsonl": "9c46460c342ac7d0c247df00ab1c2df0acc673afa75774a1654393ed8fde4f84",
+    "test-novel-trace.jsonl": "d3871027d7d2dfbf3fc68cabcbf7b645a2425b3271018f7e48b0bf3cf9e99768",
+    "val-plain.jsonl": "da06a7367f16244c3abd69dddd5087c5ffb6e8567412166100145ff77fc5ee4a",
+    "val-segment-merge.jsonl": "5cf3f4773bd16d4541007cbc3607a821ed2a40a4739a21d56836d4413fa80ba0",
+    "val-trace.jsonl": "67da384352e6b3f2ab5cd74a7b4f6680f14ac36d7c09d51c5f61d1c29abb8d47"
+  },
+  "inspection_command_guard": {
+    "reason": "A malformed shell pattern in a read-only source search reached the queued launcher, whose CUDA_VISIBLE_DEVICES guard rejected it before worker startup.",
+    "gpu_compute_used": false
+  }
+}

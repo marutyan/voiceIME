@@ -1,0 +1,3 @@
+before run: 03:47:35 76.5 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/; 98.8 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/; 20.4 claude; 
+after run: 03:48:44 82.3 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/; 69.3 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/; 42.3 /Users/marutyan/.local/share/uv/tools/google-colab-cli/bin/python; 
+after latency: 03:48:55 109.9 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/; 

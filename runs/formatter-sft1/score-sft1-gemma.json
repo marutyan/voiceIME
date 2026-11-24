@@ -1,0 +1,149 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+  "duration_source": "est_seconds",
+  "results": [
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/sft1-gemma-4-e2b-lora.jsonl",
+      "system": "sft1-gemma-4-e2b-lora",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 256,
+        "substitutions": 22,
+        "insertions": 57,
+        "deletions": 177,
+        "reference_characters": 9234,
+        "rate": 0.02772363006281135
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 263,
+        "total": 273,
+        "accuracy": 0.9633699633699634,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 2,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 1,
+        "manifest_count": 308,
+        "residual_rate": 0.003246753246753247
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 108,
+            "substitutions": 11,
+            "insertions": 16,
+            "deletions": 81,
+            "reference_characters": 1419,
+            "rate": 0.07610993657505286
+          },
+          "exact_matches": 24,
+          "exact_match_rate": 0.6666666666666666,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 37,
+            "substitutions": 1,
+            "insertions": 5,
+            "deletions": 31,
+            "reference_characters": 1018,
+            "rate": 0.036345776031434185
+          },
+          "exact_matches": 15,
+          "exact_match_rate": 0.75,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 14,
+            "substitutions": 4,
+            "insertions": 4,
+            "deletions": 6,
+            "reference_characters": 1015,
+            "rate": 0.013793103448275862
+          },
+          "exact_matches": 17,
+          "exact_match_rate": 0.85,
+          "suspected_responses": 0,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 0,
+            "substitutions": 0,
+            "insertions": 0,
+            "deletions": 0,
+            "reference_characters": 1087,
+            "rate": 0.0
+          },
+          "exact_matches": 29,
+          "exact_match_rate": 1.0,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 56,
+            "substitutions": 3,
+            "insertions": 21,
+            "deletions": 32,
+            "reference_characters": 1015,
+            "rate": 0.05517241379310345
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.375,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.380308874999173,
+          "p90_s": 0.6616418372141196
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.25543318752897903,
+            "p90_s": 0.34903716651024297
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.3753312290064059,
+            "p90_s": 0.6123636169126258
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.6471062714699656,
+            "p90_s": 0.8506105743814261
+          }
+        },
+        "unknown_duration_rows": 0,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "multi": "whisper-large-v3-turbo",
+  "haas": "haas-ja-v1.0-speechcpp-q8_0",
+  "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+  "formatter": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "git_commit": "b63e22db003422178eb7ba9048b476fbb0366d0c",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-22T12:56:43.071258+00:00",
+  "top_processes_before": [
+    "83449  79.9 240928 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  42.2 106272 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  27.0 101776 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "87869  12.7  81136 /Applications/Muse.app/Contents/MacOS/Muse",
+    "19846   4.6 418784 claude",
+    "18382   3.0   9024 /usr/libexec/trustd",
+    "150   2.7  14432 /usr/libexec/locationd",
+    "284   2.5   7936 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 96.0,
+    "load1": 3.08,
+    "swap_used_gb": 3.1171875
+  },
+  "model_load_s": 2.419031208031811,
+  "mlx_peak_memory_gb": 2.90859883,
+  "finished_at": "2026-11-22T12:59:32.754581+00:00",
+  "top_processes_after": [
+    "83449  51.1 1104000 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  48.3 103120 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  21.0  88768 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "87869  16.6  75904 /Applications/Muse.app/Contents/MacOS/Muse",
+    "301   4.3  43888 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "25759   3.1 118288 codex",
+    "340   2.2  32464 /usr/sbin/coreaudiod",
+    "428   2.1  41616 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores"
+  ]
+}

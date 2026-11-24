@@ -1,0 +1,28 @@
+{
+  "system": "gemma-4-e2b",
+  "model": "mlx-community/gemma-4-e2b-it-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-pilot-scratch.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": null,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "system": null,
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/gemma-4-e2b.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-glossary-196.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": false,
+    "limit": null
+  },
+  "n": 30,
+  "glossary_size": 196,
+  "load_and_warmup_s": 15.426565708010457,
+  "format_latency_median_s": 0.41543691646074876,
+  "format_latency_p90_s": 0.9157714085886255,
+  "latency_median_s": 0.41543691646074876,
+  "mean_glossary_entries": 2.6666666666666665,
+  "generation_tps_median": 68.36854258986375,
+  "peak_memory_gb": 2.969814626,
+  "truncated": 0
+}

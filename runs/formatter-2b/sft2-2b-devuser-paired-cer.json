@@ -1,0 +1,22 @@
+{
+  "n": 50,
+  "baseline_path": "/home/maru/voiceime-work-f2b/inputs/baseline-devuser.jsonl",
+  "candidate_path": "/home/maru/voiceime-work-f2b/outputs/eval-2b-eosfix/f2b-devuser.jsonl",
+  "metric": "CER difference in percentage points; candidate minus baseline",
+  "bootstrap": {
+    "samples": 10000,
+    "seed": 0,
+    "interval_95_percent_points": [
+      -4.50412477453001,
+      1.4413197498525983
+    ],
+    "point_difference_percent_points": -1.2446351931330473
+  },
+  "sign_test": {
+    "improved": 9,
+    "worsened": 4,
+    "ties": 37,
+    "two_sided_exact_p": 0.266845703125
+  },
+  "per_utterance_path": "/home/maru/voiceime-work-f2b/outputs/eval-2b-eosfix/devuser-paired.jsonl"
+}

@@ -1,0 +1,10 @@
+{
+  "model_key": "qwen17",
+  "system": "qwen3-asr-1.7b",
+  "selection_rule": "val target term instance hit rate among actual Haas hints after the 16-term/240-character cap using selector cap 16; tie break by normalized surface term accuracy then lower reading-aligned CER; remaining exact ties keep model iteration order qwen06, qwen17, whisper",
+  "val_rank_tuple": {
+    "actual_hint_target_term_instance_hit_rate_at_16": 0.9250175192711984,
+    "normalized_surface_term_accuracy": 0.365802382620883,
+    "negative_reading_aligned_cer": -0.08550292368097333
+  }
+}

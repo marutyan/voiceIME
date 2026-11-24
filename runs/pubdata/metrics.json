@@ -1,0 +1,368 @@
+{
+  "split": "pub-eval",
+  "segments": 300,
+  "expected_term_occurrences": 381,
+  "read_aligned_cer_for_caption_check": {
+    "reference_output": "v1_plain",
+    "threshold_exclusive": 0.5,
+    "excluded_segments": 95,
+    "retained_segments": 205,
+    "selection_uses_term_accuracy": false
+  },
+  "glossary_coverage": {
+    "v1": {
+      "raw_entries": 1458,
+      "unique_surfaces_after_exclusion": 1458,
+      "excluded_terms": 0,
+      "expected_occurrences": 381,
+      "covered_occurrences": 177,
+      "occurrence_coverage": 0.4645669291338583,
+      "unique_expected_surfaces": 149,
+      "unique_covered_surfaces": 61
+    },
+    "v1_plus_v2_excluding_terms": {
+      "raw_entries": 32873,
+      "unique_surfaces_after_exclusion": 31332,
+      "excluded_terms": 83,
+      "expected_occurrences": 381,
+      "covered_occurrences": 381,
+      "occurrence_coverage": 1.0,
+      "unique_expected_surfaces": 149,
+      "unique_covered_surfaces": 149
+    }
+  },
+  "conditions": {
+    "v1_plain": {
+      "results_file": "plain-v1.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 7,
+              "loose_correct": 30,
+              "total": 381,
+              "exact_accuracy": 0.01837270341207349,
+              "loose_accuracy": 0.07874015748031496
+            },
+            "english_caption": {
+              "exact_correct": 7,
+              "loose_correct": 12,
+              "total": 348,
+              "exact_accuracy": 0.020114942528735632,
+              "loose_accuracy": 0.034482758620689655
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 18,
+              "total": 33,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.5454545454545454
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4617,
+            "substitutions": 972,
+            "insertions": 607,
+            "deletions": 3038,
+            "reference_characters": 11042,
+            "rate": 0.418130773410614
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.33343732892535627,
+            "p90_s": 0.6096351204439998
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 5,
+              "loose_correct": 26,
+              "total": 263,
+              "exact_accuracy": 0.019011406844106463,
+              "loose_accuracy": 0.09885931558935361
+            },
+            "english_caption": {
+              "exact_correct": 5,
+              "loose_correct": 9,
+              "total": 238,
+              "exact_accuracy": 0.02100840336134454,
+              "loose_accuracy": 0.037815126050420166
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 17,
+              "total": 25,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.68
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 930,
+            "substitutions": 362,
+            "insertions": 192,
+            "deletions": 376,
+            "reference_characters": 7364,
+            "rate": 0.1262900597501358
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.32672559516504407,
+            "p90_s": 0.6014489848632365
+          }
+        }
+      }
+    },
+    "v1_segment_merge": {
+      "results_file": "two-pass-v1-segment-merge.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 84,
+              "loose_correct": 103,
+              "total": 381,
+              "exact_accuracy": 0.2204724409448819,
+              "loose_accuracy": 0.27034120734908135
+            },
+            "english_caption": {
+              "exact_correct": 80,
+              "loose_correct": 83,
+              "total": 348,
+              "exact_accuracy": 0.22988505747126436,
+              "loose_accuracy": 0.23850574712643677
+            },
+            "katakana_caption": {
+              "exact_correct": 4,
+              "loose_correct": 20,
+              "total": 33,
+              "exact_accuracy": 0.12121212121212122,
+              "loose_accuracy": 0.6060606060606061
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4637,
+            "substitutions": 989,
+            "insertions": 614,
+            "deletions": 3034,
+            "reference_characters": 11042,
+            "rate": 0.41994203948560044
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.5921412212774158,
+            "p90_s": 1.1031089721247564
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 78,
+              "loose_correct": 96,
+              "total": 263,
+              "exact_accuracy": 0.2965779467680608,
+              "loose_accuracy": 0.3650190114068441
+            },
+            "english_caption": {
+              "exact_correct": 74,
+              "loose_correct": 77,
+              "total": 238,
+              "exact_accuracy": 0.31092436974789917,
+              "loose_accuracy": 0.3235294117647059
+            },
+            "katakana_caption": {
+              "exact_correct": 4,
+              "loose_correct": 19,
+              "total": 25,
+              "exact_accuracy": 0.16,
+              "loose_accuracy": 0.76
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 947,
+            "substitutions": 375,
+            "insertions": 199,
+            "deletions": 373,
+            "reference_characters": 7364,
+            "rate": 0.12859858772406302
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.6425633640028536,
+            "p90_s": 1.1866992807481438
+          }
+        }
+      }
+    },
+    "v1v2_plain": {
+      "results_file": "plain-v1v2-excluded83.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 7,
+              "loose_correct": 30,
+              "total": 381,
+              "exact_accuracy": 0.01837270341207349,
+              "loose_accuracy": 0.07874015748031496
+            },
+            "english_caption": {
+              "exact_correct": 7,
+              "loose_correct": 12,
+              "total": 348,
+              "exact_accuracy": 0.020114942528735632,
+              "loose_accuracy": 0.034482758620689655
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 18,
+              "total": 33,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.5454545454545454
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4617,
+            "substitutions": 972,
+            "insertions": 607,
+            "deletions": 3038,
+            "reference_characters": 11042,
+            "rate": 0.418130773410614
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.4017476685112342,
+            "p90_s": 0.6579399703769014
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 5,
+              "loose_correct": 26,
+              "total": 263,
+              "exact_accuracy": 0.019011406844106463,
+              "loose_accuracy": 0.09885931558935361
+            },
+            "english_caption": {
+              "exact_correct": 5,
+              "loose_correct": 9,
+              "total": 238,
+              "exact_accuracy": 0.02100840336134454,
+              "loose_accuracy": 0.037815126050420166
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 17,
+              "total": 25,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.68
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 930,
+            "substitutions": 362,
+            "insertions": 192,
+            "deletions": 376,
+            "reference_characters": 7364,
+            "rate": 0.1262900597501358
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.40029628900811076,
+            "p90_s": 0.648057433310896
+          }
+        }
+      }
+    },
+    "v1v2_segment_merge": {
+      "results_file": "two-pass-v1v2-excluded83-segment-merge.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 135,
+              "loose_correct": 147,
+              "total": 381,
+              "exact_accuracy": 0.3543307086614173,
+              "loose_accuracy": 0.3858267716535433
+            },
+            "english_caption": {
+              "exact_correct": 125,
+              "loose_correct": 127,
+              "total": 348,
+              "exact_accuracy": 0.35919540229885055,
+              "loose_accuracy": 0.3649425287356322
+            },
+            "katakana_caption": {
+              "exact_correct": 10,
+              "loose_correct": 20,
+              "total": 33,
+              "exact_accuracy": 0.30303030303030304,
+              "loose_accuracy": 0.6060606060606061
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4647,
+            "substitutions": 998,
+            "insertions": 618,
+            "deletions": 3031,
+            "reference_characters": 11042,
+            "rate": 0.42084767252309363
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.7111117616295815,
+            "p90_s": 1.2435011942638086
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 128,
+              "loose_correct": 139,
+              "total": 263,
+              "exact_accuracy": 0.4866920152091255,
+              "loose_accuracy": 0.5285171102661597
+            },
+            "english_caption": {
+              "exact_correct": 118,
+              "loose_correct": 120,
+              "total": 238,
+              "exact_accuracy": 0.4957983193277311,
+              "loose_accuracy": 0.5042016806722689
+            },
+            "katakana_caption": {
+              "exact_correct": 10,
+              "loose_correct": 19,
+              "total": 25,
+              "exact_accuracy": 0.4,
+              "loose_accuracy": 0.76
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 955,
+            "substitutions": 382,
+            "insertions": 200,
+            "deletions": 373,
+            "reference_characters": 7364,
+            "rate": 0.1296849538294405
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.7928507456090301,
+            "p90_s": 1.293932327115908
+          }
+        }
+      }
+    }
+  }
+}

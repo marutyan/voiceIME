@@ -1,0 +1,1 @@
+{"model": "sft1-lfm2.5-1.2b-jp-full", "prompt_tokens": 505, "prefix_tokens": 220, "target_tokens_50chars": 29, "chars_per_token": 1.72, "full_prefill_s": 0.2907, "full_decode_tps": 150.7, "full_est_latency_10s_s": 0.49, "cached_prefill_s": 0.1723, "cached_decode_tps": 150.0, "cached_est_latency_10s_s": 0.372, "peak_memory_gb": 1.259, "weights_gb": 0.659}

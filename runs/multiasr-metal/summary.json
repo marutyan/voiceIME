@@ -1,0 +1,726 @@
+{
+  "n_utterances": 50,
+  "n_5_15s": 36,
+  "n_terms": 67,
+  "single": {
+    "haas-ja-v1.0-speechcpp-q8_0": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.09984091646037996,
+        "p90_s": 0.1238056254805997
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.10451285447925329,
+        "p90_s": 0.14971540869446473
+      },
+      "terms_exact": 0,
+      "terms_loose": 30,
+      "terms_reading": 18
+    },
+    "qwen3-asr-0.6b-bf16": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.4349444584804587,
+        "p90_s": 0.6694518125150353
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.5025022914633155,
+        "p90_s": 0.7979794374201447
+      },
+      "terms_exact": 11,
+      "terms_loose": 25,
+      "terms_reading": 24
+    },
+    "qwen3-asr-0.6b-8bit": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.3101790840155445,
+        "p90_s": 0.4532547079725191
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.34567087452160195,
+        "p90_s": 0.5417006082716398
+      },
+      "terms_exact": 12,
+      "terms_loose": 24,
+      "terms_reading": 25
+    },
+    "qwen3-asr-0.6b-4bit": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.24373031250433996,
+        "p90_s": 0.3345958334975876
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.27336445852415636,
+        "p90_s": 0.39780999164795505
+      },
+      "terms_exact": 9,
+      "terms_loose": 25,
+      "terms_reading": 19
+    },
+    "qwen3-asr-1.7b-bf16": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 1.0075794999720529,
+        "p90_s": 1.6766393544967286
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 1.237612250028178,
+        "p90_s": 1.9552402583067305
+      },
+      "terms_exact": 21,
+      "terms_loose": 29,
+      "terms_reading": 39
+    },
+    "qwen3-asr-1.7b-8bit": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.64480835350696,
+        "p90_s": 1.0392583334469236
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.7962329584988765,
+        "p90_s": 1.214766382763628
+      },
+      "terms_exact": 21,
+      "terms_loose": 29,
+      "terms_reading": 39
+    },
+    "qwen3-asr-1.7b-4bit": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.48062591650523245,
+        "p90_s": 0.7166519164456986
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.5501908540027216,
+        "p90_s": 0.8285716916318052
+      },
+      "terms_exact": 21,
+      "terms_loose": 30,
+      "terms_reading": 39
+    },
+    "whisper-large-v3-turbo": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.7160661459784023,
+        "p90_s": 0.8007291665417142
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.7310643954551779,
+        "p90_s": 0.8352685121702962
+      },
+      "terms_exact": 35,
+      "terms_loose": 43,
+      "terms_reading": 47
+    },
+    "whisper-large-v3-turbo-q8": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.7210061455261894,
+        "p90_s": 0.7767969580017962
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.7327426039846614,
+        "p90_s": 0.800023204414174
+      },
+      "terms_exact": 34,
+      "terms_loose": 43,
+      "terms_reading": 46
+    },
+    "whisper-large-v3-turbo-q4": {
+      "latency_5_15": {
+        "count": 36,
+        "median_s": 0.7012218125746585,
+        "p90_s": 0.7384845000342466
+      },
+      "latency_all": {
+        "count": 50,
+        "median_s": 0.7059921665349975,
+        "p90_s": 0.7561214005225338
+      },
+      "terms_exact": 30,
+      "terms_loose": 38,
+      "terms_reading": 43
+    }
+  },
+  "parallel": {
+    "qwen3-asr-0.6b-8bit": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.19373239594278857,
+        "p90_s": 0.2688802710035816
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.3108329580281861,
+        "p90_s": 0.4464645629632287
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.48853614600375295,
+        "p90_s": 0.7128546875319444
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.395322208001744,
+        "p90_s": 0.5781110204989091
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.26887745794374496,
+        "p90_s": 0.3750386664760299
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.39512135449331254,
+        "p90_s": 0.5778914164984599
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.4393252499285154,
+        "p90_s": 0.652571520942729
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.18922531249700114,
+        "p90_s": 0.305293436977081
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.18153262452688068,
+        "p90_s": 0.2995184790343046
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.3462292709737085,
+        "p90_s": 0.5475235409685411
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 0.5291479375446215,
+        "p90_s": 0.8354369369335473
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 0.5994144573924132,
+        "p90_s": 0.9286738954833709
+      },
+      "slowdown_haas_median_s": 0.07846837496617809,
+      "slowdown_multi_median_s": 0.08531793794827536,
+      "gpu_util_pct_median": 96.0,
+      "load1_median": 2.68,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 62,
+        "inserted_base": 31,
+        "inserted_union": 29
+      }
+    },
+    "qwen3-asr-0.6b-4bit": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.19224893749924377,
+        "p90_s": 0.27127687499159947
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.23550618742592633,
+        "p90_s": 0.32943347946275026
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.42072500055655837,
+        "p90_s": 0.6066170000121929
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.32259850000264123,
+        "p90_s": 0.4585748124518432
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.263142041512765,
+        "p90_s": 0.35856825002701953
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.3224042705260217,
+        "p90_s": 0.4584267910104245
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.3700956669636071,
+        "p90_s": 0.5424295415286906
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.18295439600478858,
+        "p90_s": 0.2986655620043166
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.1819157704594545,
+        "p90_s": 0.3003974580205977
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.3379246244439855,
+        "p90_s": 0.5393776454729959
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 0.4633103750529699,
+        "p90_s": 0.7350180000066757
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 0.5195514379884116,
+        "p90_s": 0.8177921251044609
+      },
+      "slowdown_haas_median_s": 0.07089310401352122,
+      "slowdown_multi_median_s": 0.09177016658941284,
+      "gpu_util_pct_median": 95.0,
+      "load1_median": 3.1,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 61,
+        "inserted_base": 31,
+        "inserted_union": 31
+      }
+    },
+    "qwen3-asr-1.7b-8bit": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.21373575052712113,
+        "p90_s": 0.3029548124759458
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.7583173750317656,
+        "p90_s": 1.1130451044882648
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.955564541509375,
+        "p90_s": 1.3773025835398585
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.8395098130567931,
+        "p90_s": 1.2965506249456666
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.3691037709941156,
+        "p90_s": 0.49679052049759775
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.8393356460146606,
+        "p90_s": 1.2963072714628652
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.9234453334938735,
+        "p90_s": 1.3836165415123105
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.19373643753351644,
+        "p90_s": 0.34388912544818595
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.20153281255625188,
+        "p90_s": 0.31717087497236207
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.37975872948300093,
+        "p90_s": 0.6220694584771991
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 1.0617838550242595,
+        "p90_s": 1.6136463129660115
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 1.145408874959685,
+        "p90_s": 1.6947246034396812
+      },
+      "slowdown_haas_median_s": 0.14415914594428614,
+      "slowdown_multi_median_s": 0.0919584795483388,
+      "gpu_util_pct_median": 98.0,
+      "load1_median": 3.585,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 62,
+        "inserted_base": 31,
+        "inserted_union": 30
+      }
+    },
+    "qwen3-asr-1.7b-4bit": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.19536877103382722,
+        "p90_s": 0.26791670895181596
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.4826987710548565,
+        "p90_s": 0.7165447079460137
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.6906233335612342,
+        "p90_s": 0.9816081880126148
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.5690255624940619,
+        "p90_s": 0.8419260209193453
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.33103472855873406,
+        "p90_s": 0.4547815000405535
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.5688508125022054,
+        "p90_s": 0.841745228972286
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.6380382085335441,
+        "p90_s": 0.9321655830135569
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.18558852100977674,
+        "p90_s": 0.3108668955392204
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.18640087504172698,
+        "p90_s": 0.30116785399150103
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.34862310404423624,
+        "p90_s": 0.5481007499620318
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 0.7004627699498087,
+        "p90_s": 1.1009423129726201
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 0.7698716660379432,
+        "p90_s": 1.1940965204848908
+      },
+      "slowdown_haas_median_s": 0.1355843330384232,
+      "slowdown_multi_median_s": 0.08114072948228568,
+      "gpu_util_pct_median": 97.0,
+      "load1_median": 3.58,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 61,
+        "inserted_base": 31,
+        "inserted_union": 32
+      }
+    },
+    "whisper-large-v3-turbo": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.19871312548639253,
+        "p90_s": 0.26861441653454676
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.7208114370005205,
+        "p90_s": 0.8017317294725217
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.9192033124272712,
+        "p90_s": 1.0637225000537
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.8029542079893872,
+        "p90_s": 0.9241242085699923
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.6260041454806924,
+        "p90_s": 0.7484558124560863
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.8028618124662898,
+        "p90_s": 0.9239587290212512
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.8638906045234762,
+        "p90_s": 1.0060559585108422
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.1886616874835454,
+        "p90_s": 0.3019063539686613
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.18236522952793166,
+        "p90_s": 0.29958360351156443
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.34811041690409184,
+        "p90_s": 0.5465299375355244
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 0.9741331245750189,
+        "p90_s": 1.191936229064595
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 1.0273825420299545,
+        "p90_s": 1.277859416557476
+      },
+      "slowdown_haas_median_s": 0.43300868693040684,
+      "slowdown_multi_median_s": 0.08932068746071309,
+      "gpu_util_pct_median": 98.0,
+      "load1_median": 3.125,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 62,
+        "inserted_base": 31,
+        "inserted_union": 29
+      }
+    },
+    "whisper-large-v3-turbo-q8": {
+      "haas_alone": {
+        "count": 36,
+        "median_s": 0.1922658544499427,
+        "p90_s": 0.26665783347561955
+      },
+      "multi_alone": {
+        "count": 36,
+        "median_s": 0.7252626875415444,
+        "p90_s": 0.7722578539978713
+      },
+      "seq_total": {
+        "count": 36,
+        "median_s": 0.9183298330171965,
+        "p90_s": 1.0322260414832272
+      },
+      "parA_wall": {
+        "count": 36,
+        "median_s": 0.8123511039884761,
+        "p90_s": 0.8974468954256736
+      },
+      "parA_haas": {
+        "count": 36,
+        "median_s": 0.5831952290609479,
+        "p90_s": 0.6903158329660073
+      },
+      "parA_multi": {
+        "count": 36,
+        "median_s": 0.8122163335210644,
+        "p90_s": 0.8973149999510497
+      },
+      "parB_wall": {
+        "count": 36,
+        "median_s": 0.8659627914894372,
+        "p90_s": 0.9682531669968739
+      },
+      "fmt_base": {
+        "count": 36,
+        "median_s": 0.1888213124475442,
+        "p90_s": 0.30558829149231315
+      },
+      "fmt_union": {
+        "count": 36,
+        "median_s": 0.1839620834798552,
+        "p90_s": 0.30054287501843646
+      },
+      "default_e2e": {
+        "count": 36,
+        "median_s": 0.3451113125192933,
+        "p90_s": 0.5427106040297076
+      },
+      "parA_e2e": {
+        "count": 36,
+        "median_s": 0.9716213544597849,
+        "p90_s": 1.175803020480089
+      },
+      "parB_e2e": {
+        "count": 36,
+        "median_s": 1.0249859160394408,
+        "p90_s": 1.2510571040329523
+      },
+      "slowdown_haas_median_s": 0.394302292028442,
+      "slowdown_multi_median_s": 0.09072208346333355,
+      "gpu_util_pct_median": 98.0,
+      "load1_median": 2.895,
+      "terms_after": {
+        "haas2p": 45,
+        "haas2p_union": 45,
+        "format_base": 60,
+        "format_union": 62,
+        "inserted_base": 31,
+        "inserted_union": 29
+      }
+    }
+  },
+  "terms_in_glossary_v1": 67,
+  "selection": {
+    "Haasの1回目": {
+      "hit16": 60,
+      "hit20": 61,
+      "mean16": 12.5,
+      "mean20": 14.74
+    },
+    "Haasの1回目＋qwen3-asr-0.6b-bf16": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 13.02,
+      "mean20": 15.52
+    },
+    "Haasの1回目＋qwen3-asr-0.6b-8bit": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.98,
+      "mean20": 15.48
+    },
+    "Haasの1回目＋qwen3-asr-0.6b-4bit": {
+      "hit16": 61,
+      "hit20": 62,
+      "mean16": 13.1,
+      "mean20": 15.54
+    },
+    "Haasの1回目＋qwen3-asr-1.7b-bf16": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.7,
+      "mean20": 15.0
+    },
+    "Haasの1回目＋qwen3-asr-1.7b-8bit": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.7,
+      "mean20": 15.0
+    },
+    "Haasの1回目＋qwen3-asr-1.7b-4bit": {
+      "hit16": 62,
+      "hit20": 63,
+      "mean16": 12.8,
+      "mean20": 15.14
+    },
+    "Haasの1回目＋whisper-large-v3-turbo": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.6,
+      "mean20": 15.02
+    },
+    "Haasの1回目＋whisper-large-v3-turbo-q8": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.6,
+      "mean20": 15.02
+    },
+    "Haasの1回目＋whisper-large-v3-turbo-q4": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.88,
+      "mean20": 15.26
+    },
+    "Haasのtwo-pass（整形の今の選択）": {
+      "hit16": 60,
+      "hit20": 61,
+      "mean16": 12.14,
+      "mean20": 14.18
+    },
+    "Haasのtwo-pass＋qwen3-asr-0.6b-bf16": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 13.0,
+      "mean20": 15.5
+    },
+    "Haasのtwo-pass＋qwen3-asr-0.6b-8bit": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.96,
+      "mean20": 15.46
+    },
+    "Haasのtwo-pass＋qwen3-asr-0.6b-4bit": {
+      "hit16": 61,
+      "hit20": 62,
+      "mean16": 13.14,
+      "mean20": 15.66
+    },
+    "Haasのtwo-pass＋qwen3-asr-1.7b-bf16": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.74,
+      "mean20": 15.12
+    },
+    "Haasのtwo-pass＋qwen3-asr-1.7b-8bit": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.74,
+      "mean20": 15.12
+    },
+    "Haasのtwo-pass＋qwen3-asr-1.7b-4bit": {
+      "hit16": 62,
+      "hit20": 63,
+      "mean16": 12.84,
+      "mean20": 15.26
+    },
+    "Haasのtwo-pass＋whisper-large-v3-turbo": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.6,
+      "mean20": 15.0
+    },
+    "Haasのtwo-pass＋whisper-large-v3-turbo-q8": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.6,
+      "mean20": 15.0
+    },
+    "Haasのtwo-pass＋whisper-large-v3-turbo-q4": {
+      "hit16": 63,
+      "hit20": 64,
+      "mean16": 12.92,
+      "mean20": 15.38
+    }
+  }
+}

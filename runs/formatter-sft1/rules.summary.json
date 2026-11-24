@@ -1,0 +1,25 @@
+{
+  "system": "rules",
+  "model": "rules",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/val-asrsim.jsonl",
+    "model": "rules",
+    "system": "rules",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/rules.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": false,
+    "limit": null
+  },
+  "n": 200,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 9.579816833138466e-07,
+  "format_latency_median_s": 0.007427562493830919,
+  "format_latency_p90_s": 0.011243695858865976,
+  "latency_median_s": 0.007427562493830919,
+  "mean_glossary_entries": 15.93
+}

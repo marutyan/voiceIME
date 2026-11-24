@@ -1,0 +1,164 @@
+| 系統 | stage | 件数 | CER（ASRは読み揃え、E2Eはtarget） | 読み揃え前CER（ASR） | 用語正答率 | 緩い正答率（ASR） | 話していない用語の挿入数（ASR: spoken_textのsurface/readings、E2E: target_textのterms基準） | フィラー残存率 | 遅延中央値 / p90 (秒) | 長さ不明で音声長別遅延から除外 | ≤5秒 中央値 / p90 | 5–15秒 中央値 / p90 | >15秒 中央値 / p90 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| val-segment-merge | e2e | 1000/1000 | 1347/47431 (2.84%; 置換 313、挿入 619、削除 415) | — | 1344/1427 (94.18%) | — | 35 | 8/1608 (0.50%) | 0.041 / 0.091 | 1000 | — / — | — / — | — / — |
+
+タグ別集計
+| 系統 | stage | tag | 件数（評価/manifest） | CER | 正規化後完全一致率 | 応答の疑い |
+| --- | --- | --- | --- | --- | --- | --- |
+| val-segment-merge | e2e | self_correction | 203/203 | 526/7777 (6.76%; 置換 77、挿入 275、削除 174) | 129/203 (63.55%)（言い直しの正答率） | — |
+| val-segment-merge | e2e | english_phrase | 95/95 | 165/4947 (3.34%; 置換 50、挿入 68、削除 47) | 64/95 (67.37%) | — |
+| val-segment-merge | e2e | instruction_like | 123/123 | 192/6299 (3.05%; 置換 29、挿入 81、削除 82) | 91/123 (73.98%) | 1 |
+| val-segment-merge | e2e | no_change | 99/99 | 18/4315 (0.42%; 置換 14、挿入 1、削除 3) | 88/99 (88.89%)（無変更の保持） | — |
+| val-segment-merge | e2e | list | 84/84 | 244/4894 (4.99%; 置換 49、挿入 130、削除 65) | 44/84 (52.38%) | — |
+
+JSON:
+```json
+{
+  "manifest": "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl",
+  "results": [
+    {
+      "run": "/var/tmp/voiceime-work-fr3-d-20261123/runs/formatter-sft3/d-eval-20261123/D-0.8B-drop0/multiasr/val-segment-merge.jsonl",
+      "system": "val-segment-merge",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 1000,
+        "evaluated": 1000,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 1347,
+        "substitutions": 313,
+        "insertions": 619,
+        "deletions": 415,
+        "reference_characters": 47431,
+        "rate": 0.028399148236385487
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 1344,
+        "total": 1427,
+        "accuracy": 0.9418360196215837,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 35,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 8,
+        "manifest_count": 1608,
+        "residual_rate": 0.004975124378109453
+      },
+      "tags": {
+        "self_correction": {
+          "count": 203,
+          "cer": {
+            "edit_errors": 526,
+            "substitutions": 77,
+            "insertions": 275,
+            "deletions": 174,
+            "reference_characters": 7777,
+            "rate": 0.06763533496206764
+          },
+          "exact_matches": 129,
+          "exact_match_rate": 0.6354679802955665,
+          "suspected_responses": null,
+          "manifest_count": 203
+        },
+        "english_phrase": {
+          "count": 95,
+          "cer": {
+            "edit_errors": 165,
+            "substitutions": 50,
+            "insertions": 68,
+            "deletions": 47,
+            "reference_characters": 4947,
+            "rate": 0.03335354760460885
+          },
+          "exact_matches": 64,
+          "exact_match_rate": 0.6736842105263158,
+          "suspected_responses": null,
+          "manifest_count": 95
+        },
+        "instruction_like": {
+          "count": 123,
+          "cer": {
+            "edit_errors": 192,
+            "substitutions": 29,
+            "insertions": 81,
+            "deletions": 82,
+            "reference_characters": 6299,
+            "rate": 0.030481028734719796
+          },
+          "exact_matches": 91,
+          "exact_match_rate": 0.7398373983739838,
+          "suspected_responses": 1,
+          "manifest_count": 123
+        },
+        "no_change": {
+          "count": 99,
+          "cer": {
+            "edit_errors": 18,
+            "substitutions": 14,
+            "insertions": 1,
+            "deletions": 3,
+            "reference_characters": 4315,
+            "rate": 0.004171494785631518
+          },
+          "exact_matches": 88,
+          "exact_match_rate": 0.8888888888888888,
+          "suspected_responses": null,
+          "manifest_count": 99
+        },
+        "list": {
+          "count": 84,
+          "cer": {
+            "edit_errors": 244,
+            "substitutions": 49,
+            "insertions": 130,
+            "deletions": 65,
+            "reference_characters": 4894,
+            "rate": 0.049856967715570084
+          },
+          "exact_matches": 44,
+          "exact_match_rate": 0.5238095238095238,
+          "suspected_responses": null,
+          "manifest_count": 84
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 1000,
+          "median_s": 0.04104358368931571,
+          "p90_s": 0.09053897756530205
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 1000,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}
+```

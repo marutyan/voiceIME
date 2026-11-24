@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "whisper-large-v3", "stage": "asr", "hyp": "GitHubにプッシュしました。", "latency_s": 0.9785863329889253}
+{"id": "dev-say-0002", "system": "whisper-large-v3", "stage": "asr", "hyp": "えーと、Dockerを再起動します。", "latency_s": 1.0324338750215247}
+{"id": "dev-say-0003", "system": "whisper-large-v3", "stage": "asr", "hyp": "TYTORCHのバージョンを上げます。", "latency_s": 1.0665218330686912}
+{"id": "dev-say-0004", "system": "whisper-large-v3", "stage": "asr", "hyp": "のレイソンで返してください", "latency_s": 0.9808646250749007}
+{"id": "dev-say-0005", "system": "whisper-large-v3", "stage": "asr", "hyp": "クーラが見つからないです。", "latency_s": 0.9825925410259515}
+{"id": "dev-say-0006", "system": "whisper-large-v3", "stage": "asr", "hyp": "SLACKに貼っておきます。", "latency_s": 0.9580147919477895}
+{"id": "dev-say-0007", "system": "whisper-large-v3", "stage": "asr", "hyp": "まあ、MLXで十分早いです。", "latency_s": 1.0007591659668833}
+{"id": "dev-say-0008", "system": "whisper-large-v3", "stage": "asr", "hyp": "ラグの、いや、エンベリングの精度が低いです。", "latency_s": 1.1635974999517202}
+{"id": "dev-say-0009", "system": "whisper-large-v3", "stage": "asr", "hyp": "グッズでビルドが起きます。", "latency_s": 0.9948571249842644}
+{"id": "dev-say-0010", "system": "whisper-large-v3", "stage": "asr", "hyp": "COLABのセッションを止めました", "latency_s": 1.0187347079627216}
+{"id": "dev-say-0011", "system": "whisper-large-v3", "stage": "asr", "hyp": "ローアル微調整します。", "latency_s": 0.9601351669989526}
+{"id": "dev-say-0012", "system": "whisper-large-v3", "stage": "asr", "hyp": "なんか、VSコードが重いです。", "latency_s": 1.0035808749962598}
+{"id": "dev-say-0013", "system": "whisper-large-v3", "stage": "asr", "hyp": "ウィスパーの小さいモデルを試します。", "latency_s": 1.081078042043373}
+{"id": "dev-say-0014", "system": "whisper-large-v3", "stage": "asr", "hyp": "えーと、トランスフォーマーのアテンションの部分を、もう少し軽くしたいんですけど、何かいい方法はありますか?", "latency_s": 1.6602216250030324}
+{"id": "dev-say-0015", "system": "whisper-large-v3", "stage": "asr", "hyp": "ハギングフェイスからモデルをダウンロードして、MLXの形式に変換してから、手元のMacで動かします。", "latency_s": 1.6044532909290865}
+{"id": "dev-say-0016", "system": "whisper-large-v3", "stage": "asr", "hyp": "あのバッキサイズを32に、いや16に下げたら、Vラムに収まりました。", "latency_s": 1.3687881659716368}
+{"id": "dev-say-0017", "system": "whisper-large-v3", "stage": "asr", "hyp": "GIT、HUBACT IONSのワークフローで、TYTSTが失敗しているので、ログを確認してもらえますか。", "latency_s": 1.6340848329709843}
+{"id": "dev-say-0018", "system": "whisper-large-v3", "stage": "asr", "hyp": "まあ、とりあえずパンダスでCSVを読み込んで、欠損値を確認してみましょう。", "latency_s": 1.5860750420251861}
+{"id": "dev-say-0019", "system": "whisper-large-v3", "stage": "asr", "hyp": "A、リアクトのコンポーネントが2回レンダリングされる問題は、ストリクトモードのせいだと思います。", "latency_s": 1.5922309589805081}
+{"id": "dev-say-0020", "system": "whisper-large-v3", "stage": "asr", "hyp": "コスグレのインデックスを貼ったら、クエリが10倍くらい速くなりました。", "latency_s": 1.560345874982886}
+{"id": "dev-say-0021", "system": "whisper-large-v3", "stage": "asr", "hyp": "うーん、その、ラーニングレートが高すぎて、ロスが発散しているかもしれないです。", "latency_s": 1.4340144169982523}
+{"id": "dev-say-0022", "system": "whisper-large-v3", "stage": "asr", "hyp": "Kubernetesのポンドがメモリ不足で起きているみたいです。", "latency_s": 1.6558114999206737}
+{"id": "dev-say-0023", "system": "whisper-large-v3", "stage": "asr", "hyp": "OPL.AIのAPIキーを環境変数に入れて、FAST APIのサーバーから呼び出します。", "latency_s": 2.5729294170159847}
+{"id": "dev-say-0024", "system": "whisper-large-v3", "stage": "asr", "hyp": "あの、タイプスクリプトの型エラーが、えー、30件くらい出ています。", "latency_s": 2.3349450840614736}
+{"id": "dev-say-0025", "system": "whisper-large-v3", "stage": "asr", "hyp": "W&Bで学習曲線を見ると、エトック語あたりから、科学習しています。", "latency_s": 2.325220416067168}
+{"id": "dev-say-0026", "system": "whisper-large-v3", "stage": "asr", "hyp": "Dockerファイルの、いや、Docker Composeの設定を見直してください。", "latency_s": 2.21342500008177}
+{"id": "dev-say-0027", "system": "whisper-large-v3", "stage": "asr", "hyp": "えっと、ヨロで物体検出をしてから、セグメントエディシングでマスクを作ります。", "latency_s": 2.575498583028093}
+{"id": "dev-say-0028", "system": "whisper-large-v3", "stage": "asr", "hyp": "XCODEでビルドすると、SWIFTUIのプレビューが、なんか固まるんですよね。", "latency_s": 2.475371166015975}
+{"id": "dev-say-0029", "system": "whisper-large-v3", "stage": "asr", "hyp": "えーと、今日のミーティングでは、まずラグのパイプラインの評価結果を共有して、その後、エンベリングモデルを、あのオープンAIのものから、オープンソースのものに切り替えるかどうかを決めたいと思います。", "latency_s": 4.232894333079457}
+{"id": "dev-say-0030", "system": "whisper-large-v3", "stage": "asr", "hyp": "学習は、コラボのA100で回して、チェックポイントはGoogleドライブに保存して、推論だけ、手元のM3 Proで動かす予定です。", "latency_s": 1.8132744999602437}
+{"id": "dev-say-0031", "system": "whisper-large-v3", "stage": "asr", "hyp": "あの、さっきのプルリクなんですけど、リベースしたらコンフリクトが出たので、ええ、マージは明日に、いや、今日の夕方にやります。", "latency_s": 1.8341630839277059}
+{"id": "dev-say-0032", "system": "whisper-large-v3", "stage": "asr", "hyp": "えーと、ラマの8Bを4bitに量子化して、MLXLMで動かしてみたら、1秒あたり40トークンくらい出ました。", "latency_s": 1.6798613748978823}
+{"id": "dev-say-0033", "system": "whisper-large-v3", "stage": "asr", "hyp": "Pythonの仮想環境はUVで管理して、依存関係はPyProject.mlに書いておけば、他の人も同じ環境を再現できます。", "latency_s": 1.897016458096914}
+{"id": "dev-say-0034", "system": "whisper-large-v3", "stage": "asr", "hyp": "なんか、Next.jsのアップデートの後から、ビルドがすごく遅くなっていて、えー、ターボパックを無効にすると、まあ、元に戻るみたいです。", "latency_s": 1.8460839580511674}
+{"id": "dev-say-0035", "system": "whisper-large-v3", "stage": "asr", "hyp": "評価には、CERと両語の正当率を使って、ベースラインのウィスパーラージV3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 1.865980749949813}
+{"id": "dev-say-0036", "system": "whisper-large-v3", "stage": "asr", "hyp": "あの、オースのトークンの有効期限が切れていて、えー、リフレッシュトークンで再取得する処理が、その、うまく動いていないようです。", "latency_s": 1.9522141249617562}
+{"id": "dev-say-0037", "system": "whisper-large-v3", "stage": "asr", "hyp": "OZのRAM部だからS3にファイルを書き込むときに、EMのロールの権限が足りなくて、AccessDNeedのエラーが出ています。", "latency_s": 1.8841967919142917}
+{"id": "dev-say-0038", "system": "whisper-large-v3", "stage": "asr", "hyp": "えーと、ビジョントランスフォーマーとレズネットを、同じデータ拡張と同じエポックスで比べて、その後、アブレーションをやります。", "latency_s": 2.0083020420279354}
+{"id": "dev-say-0039", "system": "whisper-large-v3", "stage": "asr", "hyp": "COREMLに変換したモデルを、ニューラルエンジンで動かすと、GPUより消費電力が少なくて、まあ、バッテリーの持ちがかなり良くなります。", "latency_s": 2.098370584077202}
+{"id": "dev-say-0040", "system": "whisper-large-v3", "stage": "asr", "hyp": "うーん、テラフォームで作ったリソースと、手で作ったリソースが混ざっていて、ステートファイルが、あの、実際の状態とずれているので、インポートし直します。", "latency_s": 2.0898144159000367}

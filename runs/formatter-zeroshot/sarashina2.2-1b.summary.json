@@ -1,0 +1,28 @@
+{
+  "system": "sarashina2.2-1b",
+  "model": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/base/sarashina2.2-1b-instruct-v0.1-mlx-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-pilot-scratch.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": null,
+    "model": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/base/sarashina2.2-1b-instruct-v0.1-mlx-4bit",
+    "system": null,
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/sarashina2.2-1b.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-glossary-196.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": false,
+    "limit": null
+  },
+  "n": 30,
+  "glossary_size": 196,
+  "load_and_warmup_s": 7.307804082985967,
+  "format_latency_median_s": 0.6393445620196871,
+  "format_latency_p90_s": 0.674631241033785,
+  "latency_median_s": 0.6393445620196871,
+  "mean_glossary_entries": 2.6666666666666665,
+  "generation_tps_median": 130.00996610025453,
+  "peak_memory_gb": 1.185054816,
+  "truncated": 20
+}

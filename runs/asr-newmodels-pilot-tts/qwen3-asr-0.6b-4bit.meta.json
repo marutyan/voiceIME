@@ -1,0 +1,153 @@
+{
+  "system": "qwen3-asr-0.6b-4bit",
+  "model": "qwen3-asr-0.6b-4bit",
+  "backend": "mlx-audio-llm",
+  "source": "mlx-community/Qwen3-ASR-0.6B-4bit",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:59:33.410864+00:00",
+  "top_processes_before": [
+    "173  55.0 102384 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "340  16.0  12912 /usr/sbin/coreaudiod",
+    "80852   9.4  53440 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "90189   5.0  30512 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "1968   4.5  22592 /Applications/RunCatNeo.app/Contents/MacOS/RunCatNeo",
+    "90185   3.9  26416 uv",
+    "212   3.1   6112 /usr/libexec/trustd",
+    "284   2.8   6448 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 86.0,
+    "load1": 2.94,
+    "swap_used_gb": 7.46771484375
+  },
+  "model_load_s": 1.6250763749703765,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 60.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 93.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 93.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 91.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 93.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 91.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 93.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 90.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 91.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 91.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 92.0,
+      "load1": 2.78,
+      "swap_used_gb": 7.45990234375
+    }
+  ],
+  "mlx_peak_memory_gb": 1.529580228,
+  "max_rss_gb": 1.053966336,
+  "finished_at": "2026-11-20T09:59:38.898995+00:00",
+  "top_processes_after": [
+    "173  54.9 102320 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "90189  53.7 1028528 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852   9.7  53488 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340   4.5  12912 /usr/sbin/coreaudiod",
+    "12120   1.7  11616 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService",
+    "301   1.3  47280 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "46169   0.7 336736 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "83714   0.5 180864 agy"
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/test-novel.jsonl",
+  "manifest_count": 500,
+  "ids_identical_in_order": {
+    "manifest": true,
+    "ASR first": true,
+    "ASR second/combined": true,
+    "SFT2": true,
+    "A": true,
+    "B": true,
+    "C": true,
+    "B-2B": true,
+    "B-clean": true,
+    "B-drop0": true,
+    "B-no-distractors": true,
+    "B-drop0-focus": true,
+    "B-drop0-seed1": true,
+    "B-2B-drop0": true
+  },
+  "input_match_counts": {
+    "SFT2_second_pass_match": 500,
+    "A_expected_input": 500,
+    "B_expected_input": 500,
+    "C_expected_input": 500,
+    "B-2B_expected_input": 500,
+    "B-clean_expected_input": 500,
+    "B-drop0_expected_input": 500,
+    "B-no-distractors_expected_input": 500,
+    "B-drop0-focus_expected_input": 500,
+    "B-drop0-seed1_expected_input": 500,
+    "B-2B-drop0_expected_input": 500
+  },
+  "selection_match_counts": {
+    "A_matches_A": 500,
+    "A_matches_B": 218,
+    "A_matches_C": 218,
+    "A_matches_B-2B": 218,
+    "A_matches_B-clean": 218,
+    "A_matches_B-drop0": 218,
+    "A_matches_B-no-distractors": 218,
+    "A_matches_B-drop0-focus": 218,
+    "A_matches_B-drop0-seed1": 218,
+    "A_matches_B-2B-drop0": 218,
+    "B_matches_A": 218,
+    "B_matches_B": 500,
+    "B_matches_C": 500,
+    "B_matches_B-2B": 500,
+    "B_matches_B-clean": 500,
+    "B_matches_B-drop0": 500,
+    "B_matches_B-no-distractors": 500,
+    "B_matches_B-drop0-focus": 500,
+    "B_matches_B-drop0-seed1": 500,
+    "B_matches_B-2B-drop0": 500,
+    "C_matches_A": 218,
+    "C_matches_B": 500,
+    "C_matches_C": 500,
+    "C_matches_B-2B": 500,
+    "C_matches_B-clean": 500,
+    "C_matches_B-drop0": 500,
+    "C_matches_B-no-distractors": 500,
+    "C_matches_B-drop0-focus": 500,
+    "C_matches_B-drop0-seed1": 500,
+    "C_matches_B-2B-drop0": 500,
+    "B-2B_matches_A": 218,
+    "B-2B_matches_B": 500,
+    "B-2B_matches_C": 500,
+    "B-2B_matches_B-2B": 500,
+    "B-2B_matches_B-clean": 500,
+    "B-2B_matches_B-drop0": 500,
+    "B-2B_matches_B-no-distractors": 500,
+    "B-2B_matches_B-drop0-focus": 500,
+    "B-2B_matches_B-drop0-seed1": 500,
+    "B-2B_matches_B-2B-drop0": 500,
+    "B-clean_matches_A": 218,
+    "B-clean_matches_B": 500,
+    "B-clean_matches_C": 500,
+    "B-clean_matches_B-2B": 500,
+    "B-clean_matches_B-clean": 500,
+    "B-clean_matches_B-drop0": 500,
+    "B-clean_matches_B-no-distractors": 500,
+    "B-clean_matches_B-drop0-focus": 500,
+    "B-clean_matches_B-drop0-seed1": 500,
+    "B-clean_matches_B-2B-drop0": 500,
+    "B-drop0_matches_A": 218,
+    "B-drop0_matches_B": 500,
+    "B-drop0_matches_C": 500,
+    "B-drop0_matches_B-2B": 500,
+    "B-drop0_matches_B-clean": 500,
+    "B-drop0_matches_B-drop0": 500,
+    "B-drop0_matches_B-no-distractors": 500,
+    "B-drop0_matches_B-drop0-focus": 500,
+    "B-drop0_matches_B-drop0-seed1": 500,
+    "B-drop0_matches_B-2B-drop0": 500,
+    "B-no-distractors_matches_A": 218,
+    "B-no-distractors_matches_B": 500,
+    "B-no-distractors_matches_C": 500,
+    "B-no-distractors_matches_B-2B": 500,
+    "B-no-distractors_matches_B-clean": 500,
+    "B-no-distractors_matches_B-drop0": 500,
+    "B-no-distractors_matches_B-no-distractors": 500,
+    "B-no-distractors_matches_B-drop0-focus": 500,
+    "B-no-distractors_matches_B-drop0-seed1": 500,
+    "B-no-distractors_matches_B-2B-drop0": 500,
+    "B-drop0-focus_matches_A": 218,
+    "B-drop0-focus_matches_B": 500,
+    "B-drop0-focus_matches_C": 500,
+    "B-drop0-focus_matches_B-2B": 500,
+    "B-drop0-focus_matches_B-clean": 500,
+    "B-drop0-focus_matches_B-drop0": 500,
+    "B-drop0-focus_matches_B-no-distractors": 500,
+    "B-drop0-focus_matches_B-drop0-focus": 500,
+    "B-drop0-focus_matches_B-drop0-seed1": 500,
+    "B-drop0-focus_matches_B-2B-drop0": 500,
+    "B-drop0-seed1_matches_A": 218,
+    "B-drop0-seed1_matches_B": 500,
+    "B-drop0-seed1_matches_C": 500,
+    "B-drop0-seed1_matches_B-2B": 500,
+    "B-drop0-seed1_matches_B-clean": 500,
+    "B-drop0-seed1_matches_B-drop0": 500,
+    "B-drop0-seed1_matches_B-no-distractors": 500,
+    "B-drop0-seed1_matches_B-drop0-focus": 500,
+    "B-drop0-seed1_matches_B-drop0-seed1": 500,
+    "B-drop0-seed1_matches_B-2B-drop0": 500,
+    "B-2B-drop0_matches_A": 218,
+    "B-2B-drop0_matches_B": 500,
+    "B-2B-drop0_matches_C": 500,
+    "B-2B-drop0_matches_B-2B": 500,
+    "B-2B-drop0_matches_B-clean": 500,
+    "B-2B-drop0_matches_B-drop0": 500,
+    "B-2B-drop0_matches_B-no-distractors": 500,
+    "B-2B-drop0_matches_B-drop0-focus": 500,
+    "B-2B-drop0_matches_B-drop0-seed1": 500,
+    "B-2B-drop0_matches_B-2B-drop0": 500
+  },
+  "glossary_pool": {
+    "sft2_entries": 31332,
+    "sft3_entries": 31332,
+    "excluded_surfaces": 83
+  },
+  "models": {
+    "A": {
+      "examples": 500,
+      "terms": 500,
+      "included": 349,
+      "included_correct": 191,
+      "excluded": 151,
+      "excluded_correct": 6,
+      "miss_categories_included": {
+        "omitted_or_other_text": 157,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 119,
+        "dropped": 39
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 145,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.5472779369627507,
+      "excluded_accuracy": 0.039735099337748346
+    },
+    "B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 228,
+      "excluded": 146,
+      "excluded_correct": 19,
+      "miss_categories_included": {
+        "omitted_or_other_text": 124,
+        "other_glossary_term_same_reading": 1,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "dropped": 32,
+        "different_output": 93,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6440677966101694,
+      "excluded_accuracy": 0.13013698630136986
+    },
+    "C": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 223,
+      "excluded": 146,
+      "excluded_correct": 17,
+      "miss_categories_included": {
+        "omitted_or_other_text": 124,
+        "other_glossary_term_same_reading": 2,
+        "reading_as_is": 5
+      },
+      "failure_output_types": {
+        "dropped": 38,
+        "different_output": 88,
+        "reading_as_is": 5
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6299435028248588,
+      "excluded_accuracy": 0.11643835616438356
+    },
+    "B-2B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 226,
+      "excluded": 146,
+      "excluded_correct": 7,
+      "miss_categories_included": {
+        "omitted_or_other_text": 125,
+        "other_glossary_term_same_reading": 2,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "different_output": 98,
+        "dropped": 29,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6384180790960452,
+      "excluded_accuracy": 0.04794520547945205
+    },
+    "B-clean": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 272,
+      "excluded": 146,
+      "excluded_correct": 14,
+      "miss_categories_included": {
+        "omitted_or_other_text": 78,
+        "other_glossary_term_same_reading": 3,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "dropped": 19,
+        "different_output": 62,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.768361581920904,
+      "excluded_accuracy": 0.0958904109589041
+    },
+    "B-drop0": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 269,
+      "excluded": 146,
+      "excluded_correct": 13,
+      "miss_categories_included": {
+        "omitted_or_other_text": 82,
+        "other_glossary_term_same_reading": 2,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "different_output": 66,
+        "dropped": 18,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7598870056497176,
+      "excluded_accuracy": 0.08904109589041095
+    },
+    "B-no-distractors": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 243,
+      "excluded": 146,
+      "excluded_correct": 14,
+      "miss_categories_included": {
+        "omitted_or_other_text": 106,
+        "other_glossary_term_same_reading": 3,
+        "reading_as_is": 2
+      },
+      "failure_output_types": {
+        "dropped": 25,
+        "different_output": 84,
+        "reading_as_is": 2
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6864406779661016,
+      "excluded_accuracy": 0.0958904109589041
+    },
+    "B-drop0-focus": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 261,
+      "excluded": 146,
+      "excluded_correct": 10,
+      "miss_categories_included": {
+        "omitted_or_other_text": 90,
+        "other_glossary_term_same_reading": 2,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "different_output": 68,
+        "dropped": 24,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7372881355932204,
+      "excluded_accuracy": 0.0684931506849315
+    },
+    "B-drop0-seed1": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 274,
+      "excluded": 146,
+      "excluded_correct": 10,
+      "miss_categories_included": {
+        "omitted_or_other_text": 78,
+        "other_glossary_term_same_reading": 2
+      },
+      "failure_output_types": {
+        "dropped": 18,
+        "different_output": 62
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7740112994350282,
+      "excluded_accuracy": 0.0684931506849315
+    },
+    "B-2B-drop0": {
+      "examples": 500,
+      "terms": 500,
+      "included": 354,
+      "included_correct": 264,
+      "excluded": 146,
+      "excluded_correct": 14,
+      "miss_categories_included": {
+        "omitted_or_other_text": 89,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 69,
+        "dropped": 21
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 68,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7457627118644068,
+      "excluded_accuracy": 0.0958904109589041
+    },
+    "SFT2": {
+      "examples": 500,
+      "glossary_pool_size": 31332,
+      "selected_order_matches_A": 145,
+      "selected_entries_missing_from_pool": 0,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 218,
+      "excluded": 157,
+      "excluded_correct": 7,
+      "miss_categories_included": {
+        "omitted_or_other_text": 124,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 88,
+        "dropped": 37
+      },
+      "included_accuracy": 0.6355685131195336,
+      "excluded_accuracy": 0.044585987261146494
+    }
+  },
+  "source_sha256": {
+    "test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "a-plain.jsonl": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "a-segment-merge.jsonl": "9c46460c342ac7d0c247df00ab1c2df0acc673afa75774a1654393ed8fde4f84",
+    "test-novel-include-novel.jsonl": "f117ecbc502dc7434deccf8411671fb4562ce2965a8b6a93037a663ad84fcbf8",
+    "e2e-include-novel.jsonl/test-novel-sel2": "8ebd79acba0466a0eff955311a4acc638ca5b0b2031fd5c58ddd72f34c51863a",
+    "prompt.py": "5ef23d6f500c657d3c64294011f97942bd9c4dad817103a7f5eca20ef9c9266c"
+  },
+  "prompt_source": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/src/voiceime/formatter/prompt.py",
+  "export": "runs/formatter-sft3/inputs/test-novel-mainselector21-all-corrected-20261123.jsonl"
+}

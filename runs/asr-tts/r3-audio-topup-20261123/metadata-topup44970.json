@@ -1,0 +1,557 @@
+{
+  "coverage": "partial_topup_confirmed_tts_failures",
+  "main_source_commit": "c2ad2769819bcdb3fe1cf90fb760279692206889",
+  "main_source_archive_sha256": "baa749ea20aea83079fe03f390f32e674825b15c22d41d83c046db30f6103402",
+  "previous_train_id_sha256": "92b84abc12e17ca2d8b4c1e6ff0bf99b9ca8b3ccc955d5f4987324c970315a2f",
+  "topup_train_id_sha256": "f73474cf2a55ad6b3eb471149abdacfd8ca7addc93fb45a6e0a7ad1e1dc3cae5",
+  "full_train_id_sha256": "c8ee025d0cde14cba1267600d9a0a767b0343a163129f982d4f8483241f50e99",
+  "row_counts": {
+    "previous": 12000,
+    "topup": 44970,
+    "full_train": 56970,
+    "topup_unique": 44970,
+    "topup_missing": 1,
+    "overlap": 0
+  },
+  "confirmed_tts_failures": {
+    "train-v3-025116": {
+      "speaker": "tts-voice-14",
+      "source": "synthetic-tts-ja",
+      "reason": "長さが文に見合わない（11.2秒、2.9文字/秒）",
+      "has_omitted_terms": false
+    }
+  },
+  "tts": {
+    "coverage": "remaining_train_with_confirmed_tts_failures",
+    "source_train_rows": 56971,
+    "existing_rows": 12000,
+    "topup_rows": 44970,
+    "unique_topup_ids": 44970,
+    "missing_topup_ids": [
+      "train-v3-025116"
+    ],
+    "missing_topup_details": {
+      "train-v3-025116": {
+        "speaker": "tts-voice-14",
+        "source": "synthetic-tts-ja",
+        "reason": "長さが文に見合わない（11.2秒、2.9文字/秒）",
+        "has_omitted_terms": false
+      }
+    },
+    "topup_id_sha256": "f73474cf2a55ad6b3eb471149abdacfd8ca7addc93fb45a6e0a7ad1e1dc3cae5",
+    "full_train_id_sha256": "c8ee025d0cde14cba1267600d9a0a767b0343a163129f982d4f8483241f50e99",
+    "seed": 0,
+    "initial_batch_size": 32,
+    "voice_pool": 24,
+    "evaluation_voice_rows": 0,
+    "speaker_counts": {
+      "tts-voice-01": 1876,
+      "tts-voice-02": 1871,
+      "tts-voice-03": 1881,
+      "tts-voice-04": 1957,
+      "tts-voice-05": 1871,
+      "tts-voice-06": 1896,
+      "tts-voice-07": 1849,
+      "tts-voice-08": 1880,
+      "tts-voice-09": 1848,
+      "tts-voice-10": 1889,
+      "tts-voice-11": 1835,
+      "tts-voice-12": 1874,
+      "tts-voice-13": 1927,
+      "tts-voice-14": 1964,
+      "tts-voice-15": 1807,
+      "tts-voice-16": 1820,
+      "tts-voice-17": 1876,
+      "tts-voice-18": 1862,
+      "tts-voice-19": 1896,
+      "tts-voice-20": 1890,
+      "tts-voice-21": 1804,
+      "tts-voice-22": 1863,
+      "tts-voice-23": 1879,
+      "tts-voice-24": 1855
+    },
+    "source_counts": {
+      "synthetic-tts-ja": 35882,
+      "synthetic-tts-multi": 9088
+    },
+    "recovery_queue_jobs": {
+      "80-r3audio-tts-rescue-retry13-topup44971-shard-02": {
+        "state": "done",
+        "average_util": "gpu=1 rc=0 seconds=101 mean_util=37.5 samples=4"
+      },
+      "80-r3audio-tts-rescue-topup44971-shard-00": {
+        "state": "done",
+        "average_util": "gpu=1 rc=0 seconds=67 mean_util=20.3 samples=3"
+      },
+      "80-r3audio-tts-rescue-topup44971-shard-02": {
+        "state": "done",
+        "average_util": "gpu=1 rc=0 seconds=134 mean_util=0.0 samples=5"
+      },
+      "80-r3audio-tts-resume-batch8-retry2-topup44971-shard-01": {
+        "state": "done",
+        "average_util": "gpu=3 rc=0 seconds=1817 mean_util=27.1 samples=61"
+      },
+      "80-r3audio-tts-resume-retry1-topup44971-shard-01": {
+        "state": "failed",
+        "average_util": "gpu=1 rc=143 seconds=898 mean_util=6.2 samples=30"
+      },
+      "80-r3audio-tts-resume-retry1-topup44971-shard-02": {
+        "state": "failed",
+        "average_util": "gpu=1 rc=2 seconds=7457 mean_util=19.4 samples=248"
+      },
+      "80-r3audio-tts-resume-topup44971-shard-01": {
+        "state": "failed",
+        "average_util": "gpu=1 rc=1 seconds=0 mean_util=NA samples=0"
+      },
+      "80-r3audio-tts-resume-topup44971-shard-02": {
+        "state": "failed",
+        "average_util": "gpu=1 rc=1 seconds=0 mean_util=NA samples=0"
+      }
+    },
+    "audio": {
+      "format": "WAV PCM16, 16 kHz, mono",
+      "hours": 154.79777935763786,
+      "seconds": 557272.0056874963,
+      "bytes": 17834682862,
+      "manifest": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/manifest.jsonl",
+      "manifest_sha256": "a2861110639f5feb6cf09b4f4930b099984a8f17a87732db45456e59d88218c4",
+      "tts_meta_sha256": "57e29448950b14bdbd434563f39bddbd665c42e284f12e356e3f308237fa7145"
+    },
+    "shards": [
+      {
+        "shard": 0,
+        "rows": 14991,
+        "id_sha256": "0f7de30383f8ed87f1066e11b6670133c08c7d6da36c74eb618e8a6c9809a4a4",
+        "queue_job_state": "done",
+        "queue_util": "gpu=1 rc=0 seconds=4410 mean_util=87.9 samples=147",
+        "manifest_sha256": "53c895ae6a1e084269f5c0662e2c3f1fc6451ba2e8f47c76071a628f5456cbc6"
+      },
+      {
+        "shard": 1,
+        "rows": 14990,
+        "id_sha256": "ec089924bf93a78416ca28df000d9ea6f31a0f2218a52b4e74933a4aea1adf97",
+        "queue_job_state": "failed",
+        "queue_util": "gpu=2 rc=1 seconds=4334 mean_util=85.4 samples=144",
+        "manifest_sha256": "05aace95bb9d18c33fe0cb837c8b8a5de6ae9ffb84b53c79c8ec5b352c8a2e64"
+      },
+      {
+        "shard": 2,
+        "rows": 14989,
+        "id_sha256": "80a16177a17bb890a405d9c49e7fb349102d670b6a4ba929b4431f0402a92323",
+        "queue_job_state": "failed",
+        "queue_util": "gpu=3 rc=1 seconds=3887 mean_util=87.0 samples=129",
+        "manifest_sha256": "9eca7b282e844442b8d4a767ab8ecc8709c5a4e541d48d38058dbc08daa04399"
+      }
+    ],
+    "outputs": {
+      "manifest": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/manifest.jsonl",
+      "tts_meta": "/home/maru/voiceime-work-tts/outputs/r3-audio-topup-20261123/tts_meta.jsonl"
+    }
+  },
+  "model": {
+    "repo_id": "Qwen/Qwen3-ASR-0.6B",
+    "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+    "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+  },
+  "speech_model": {
+    "path": "/home/maru/voiceime-work-asr/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-Q8_0.gguf",
+    "sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb",
+    "speech_cpp_commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+    "ggml_commit": "79b50d239d0b88852814c873db0d85d43ed66d9b"
+  },
+  "glossary": {
+    "v1_sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "v2_sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "excluded_sha256": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f",
+    "excluded_unique_surface_count": 6437,
+    "candidate_surface_count_after_exclusions": 24978
+  },
+  "selection": {
+    "text": "Haas first-pass hypothesis + newline + Qwen0.6B first-pass hypothesis",
+    "source": "src/voiceime/formatter/glossary.py select_glossary from current main",
+    "haas_hints": "engine.asr_hints cap 16 terms / 240 characters",
+    "formatter_glossary_cap": 20,
+    "two_pass_policy": "segment-merge",
+    "merge_min_reading_similarity": 0.8
+  },
+  "execution": {
+    "qwen_batch_size": 32,
+    "qwen_language": "Japanese",
+    "qwen_context": "empty",
+    "qwen_generation": {
+      "do_sample": false,
+      "num_beams": 1
+    },
+    "haas_firstpass_hints": null,
+    "haas_decode": "CPU with CUDA encoder",
+    "haas_workers_per_gpu": 18,
+    "haas_threads_per_worker": 2,
+    "shard_runs": [
+      {
+        "shard": 0,
+        "rows": 7334,
+        "cuda_visible_devices": "2",
+        "haas_firstpass": {
+          "rows": 7334,
+          "elapsed_s": 97.44144607405178,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7334,
+          "elapsed_s": 981.8432426841464,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "2",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7334,
+          "elapsed_s": 1070.0660422069486,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2159.105599034112,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-00.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-00.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-00.jsonl"
+        }
+      },
+      {
+        "shard": 1,
+        "rows": 7333,
+        "cuda_visible_devices": "1",
+        "haas_firstpass": {
+          "rows": 7333,
+          "elapsed_s": 98.1205370228272,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "1",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7333,
+          "elapsed_s": 947.3590193730779,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "1",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7333,
+          "elapsed_s": 1081.3215634808876,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "1",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2139.412703035865,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-01.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-01.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-01.jsonl"
+        }
+      },
+      {
+        "shard": 2,
+        "rows": 7333,
+        "cuda_visible_devices": "2",
+        "haas_firstpass": {
+          "rows": 7333,
+          "elapsed_s": 96.44755275314674,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7333,
+          "elapsed_s": 1024.764658170985,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "2",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7333,
+          "elapsed_s": 1055.8415394788608,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2187.7053408001084,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-02.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-02.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-02.jsonl"
+        }
+      },
+      {
+        "shard": 3,
+        "rows": 7657,
+        "cuda_visible_devices": "1",
+        "haas_firstpass": {
+          "rows": 7657,
+          "elapsed_s": 100.98877041484229,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "1",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7657,
+          "elapsed_s": 1155.5637347761076,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "1",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7657,
+          "elapsed_s": 1141.848392526852,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "1",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2410.1102853738703,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-03.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-03.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-03.jsonl"
+        }
+      },
+      {
+        "shard": 4,
+        "rows": 7657,
+        "cuda_visible_devices": "3",
+        "haas_firstpass": {
+          "rows": 7657,
+          "elapsed_s": 99.87670359294862,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "3",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7657,
+          "elapsed_s": 958.2510953850579,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "3",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7657,
+          "elapsed_s": 1129.0200453628786,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "3",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2197.6041198831517,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-04.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-04.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-04.jsonl"
+        }
+      },
+      {
+        "shard": 5,
+        "rows": 7656,
+        "cuda_visible_devices": "2",
+        "haas_firstpass": {
+          "rows": 7656,
+          "elapsed_s": 100.52184395096265,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "hints": null,
+          "decode_on_cpu": true,
+          "reused": false
+        },
+        "qwen": {
+          "rows": 7656,
+          "elapsed_s": 1325.4898111540824,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "2",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 7656,
+          "elapsed_s": 1124.784331168048,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 2562.076860900037,
+        "outputs": {
+          "haas": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/haas-firstpass-shard-05.jsonl",
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/qwen06-firstpass-shard-05.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/topup44971-work/combined-shard-05.jsonl"
+        }
+      }
+    ],
+    "queue_util": {
+      "80-r3audio-tts-rescue-retry13-topup44971-shard-02": "done: gpu=1 rc=0 seconds=101 mean_util=37.5 samples=4",
+      "80-r3audio-tts-rescue-topup44971-shard-00": "done: gpu=1 rc=0 seconds=67 mean_util=20.3 samples=3",
+      "80-r3audio-tts-rescue-topup44971-shard-02": "done: gpu=1 rc=0 seconds=134 mean_util=0.0 samples=5",
+      "80-r3audio-tts-resume-batch8-retry2-topup44971-shard-01": "done: gpu=3 rc=0 seconds=1817 mean_util=27.1 samples=61",
+      "80-r3audio-tts-topup44971-shard-00": "done: gpu=1 rc=0 seconds=4410 mean_util=87.9 samples=147",
+      "80-r3audio-tts-resume-retry1-topup44971-shard-01": "failed: gpu=1 rc=143 seconds=898 mean_util=6.2 samples=30",
+      "80-r3audio-tts-resume-retry1-topup44971-shard-02": "failed: gpu=1 rc=2 seconds=7457 mean_util=19.4 samples=248",
+      "80-r3audio-tts-resume-topup44971-shard-01": "failed: gpu=1 rc=1 seconds=0 mean_util=NA samples=0",
+      "80-r3audio-tts-resume-topup44971-shard-02": "failed: gpu=1 rc=1 seconds=0 mean_util=NA samples=0",
+      "80-r3audio-tts-topup44971-shard-01": "failed: gpu=2 rc=1 seconds=4334 mean_util=85.4 samples=144",
+      "80-r3audio-tts-topup44971-shard-02": "failed: gpu=3 rc=1 seconds=3887 mean_util=87.0 samples=129",
+      "90-r3audio-asr-topup44971-shard-00": "done: gpu=2 rc=0 seconds=2161 mean_util=15.4 samples=72",
+      "90-r3audio-asr-topup44971-shard-01": "done: gpu=1 rc=0 seconds=2142 mean_util=17.0 samples=71",
+      "90-r3audio-asr-topup44971-shard-02": "done: gpu=2 rc=0 seconds=2190 mean_util=15.0 samples=73",
+      "90-r3audio-asr-topup44971-shard-03": "done: gpu=1 rc=0 seconds=2413 mean_util=14.5 samples=80",
+      "90-r3audio-asr-topup44971-shard-04": "done: gpu=3 rc=0 seconds=2200 mean_util=18.5 samples=73",
+      "90-r3audio-asr-topup44971-shard-05": "done: gpu=2 rc=0 seconds=2564 mean_util=12.0 samples=85"
+    },
+    "qwen_item_latency_mean_s": 0.1415205345043098,
+    "qwen_item_latency_median_s": 0.10240394047286827
+  },
+  "results": {
+    "rows": 44970,
+    "unique_ids": 44970,
+    "missing_ids": [
+      "train-v3-025116"
+    ],
+    "target_term_instances": 43776,
+    "formatter_glossary_exact_surface_hits": 32828,
+    "formatter_glossary_exact_surface_rate": 0.7499086257309941,
+    "formatter_glossary_casefold_surface_hits": 32828,
+    "formatter_glossary_casefold_surface_rate": 0.7499086257309941,
+    "rows_with_target_terms": 32173,
+    "rows_with_any_exact_target_term_in_glossary": 26490,
+    "row_hit_rate": 0.5890593729152769,
+    "omitted_terms": {
+      "match": "exact surface; deduplicated per row; only formatter_glossary",
+      "topup": {
+        "rows_with_omitted_terms": 6998,
+        "rows_with_any_hit": 5722,
+        "rows_with_all_hits": 5722,
+        "rows_with_no_hit": 1276,
+        "omitted_term_instances": 6998,
+        "omitted_term_hits": 5722
+      },
+      "previous": {
+        "rows_with_omitted_terms": 1374,
+        "rows_with_any_hit": 1072,
+        "rows_with_all_hits": 1072,
+        "rows_with_no_hit": 302,
+        "omitted_term_instances": 1374,
+        "omitted_term_hits": 1072
+      },
+      "full_train": {
+        "rows_with_omitted_terms": 8372,
+        "rows_with_any_hit": 6794,
+        "rows_with_all_hits": 6794,
+        "rows_with_no_hit": 1578,
+        "omitted_term_instances": 8372,
+        "omitted_term_hits": 6794
+      }
+    },
+    "outputs": {
+      "haas": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/haas-plain-topup44970.jsonl",
+        "rows": 44970,
+        "bytes": 15858801,
+        "sha256": "3529abdc542a05ac30829b7391c3685c434947201a6e86f394a057918ddfb2c4"
+      },
+      "qwen": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/qwen06-firstpass-topup44970.jsonl",
+        "rows": 44970,
+        "bytes": 13797124,
+        "sha256": "ecdcdc066e29dfd081a66b24d0145fde87baec30473ed42a27a8bf7b4724d822"
+      },
+      "combined": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/train-topup44970.jsonl",
+        "rows": 44970,
+        "bytes": 170844441,
+        "sha256": "37a238ef358f67a864a704d341f63b15c1e626315925d5cb38be95f8a6082501"
+      },
+      "omitted_term_matches": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/omitted-term-matches-train56970.jsonl",
+        "rows": 8372,
+        "bytes": 1397298,
+        "sha256": "871bfb612ca98bd83ff3c5296cabb75d29ab371c0ac748c553ff65578a3ce487"
+      }
+    }
+  }
+}

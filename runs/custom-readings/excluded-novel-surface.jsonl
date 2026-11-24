@@ -1,0 +1,2 @@
+{"id": "train-custom-train-v3-022368", "matches": {"first_pass": ["pos"], "combined_text": ["pos"]}}
+{"id": "train-custom-train-v3-029605", "matches": {"target_text": ["k-means"], "spoken_text_mixed": ["k-means"], "qwen_hypothesis": ["k-means"]}}

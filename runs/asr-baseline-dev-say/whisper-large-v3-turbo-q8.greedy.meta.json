@@ -1,0 +1,240 @@
+{
+  "system": "whisper-large-v3-turbo-q8.greedy",
+  "model": "whisper-large-v3-turbo-q8",
+  "backend": "mlx-whisper",
+  "source": "/Users/marutyan/PrivateDev/voiceIME/models/asr/whisper-large-v3-turbo-q8",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+  "n_utterances": 40,
+  "warmup": 1,
+  "git_commit": "9f562c4028b6bc6895a01e5d157854a7311b9244",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T08:53:21.282526+00:00",
+  "top_processes_before": [
+    "173  48.6  98544 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "75976  21.3  30480 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "62524  15.3 136464 /Users/marutyan/.local/share/uv/tools/google-colab-cli/bin/python",
+    "86651  14.0 112224 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent",
+    "80852  11.5  51904 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "15907   9.3   5056 /Users/marutyan/.cache/uv/builds-v0/.tmp9LCEuE/bin/python",
+    "86648   6.8  23728 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU",
+    "18300   6.1 401200 claude"
+  ],
+  "model_load_s": 1.369367958046496,
+  "load_samples": [
+    {
+      "id": "dev-say-0001",
+      "gpu_util_pct": 69.0,
+      "load1": 4.79
+    },
+    {
+      "id": "dev-say-0002",
+      "gpu_util_pct": 74.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0003",
+      "gpu_util_pct": 98.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0004",
+      "gpu_util_pct": 98.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0005",
+      "gpu_util_pct": 99.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0006",
+      "gpu_util_pct": 98.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0007",
+      "gpu_util_pct": 99.0,
+      "load1": 4.72
+    },
+    {
+      "id": "dev-say-0008",
+      "gpu_util_pct": 99.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0009",
+      "gpu_util_pct": 99.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0010",
+      "gpu_util_pct": 98.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0011",
+      "gpu_util_pct": 99.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0012",
+      "gpu_util_pct": 99.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0013",
+      "gpu_util_pct": 98.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0014",
+      "gpu_util_pct": 99.0,
+      "load1": 4.58
+    },
+    {
+      "id": "dev-say-0015",
+      "gpu_util_pct": 96.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0016",
+      "gpu_util_pct": 97.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0017",
+      "gpu_util_pct": 99.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0018",
+      "gpu_util_pct": 99.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0019",
+      "gpu_util_pct": 99.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0020",
+      "gpu_util_pct": 98.0,
+      "load1": 4.3
+    },
+    {
+      "id": "dev-say-0021",
+      "gpu_util_pct": 99.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0022",
+      "gpu_util_pct": 98.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0023",
+      "gpu_util_pct": 99.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0024",
+      "gpu_util_pct": 99.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0025",
+      "gpu_util_pct": 99.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0026",
+      "gpu_util_pct": 99.0,
+      "load1": 4.11
+    },
+    {
+      "id": "dev-say-0027",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0028",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0029",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0030",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0031",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0032",
+      "gpu_util_pct": 99.0,
+      "load1": 4.18
+    },
+    {
+      "id": "dev-say-0033",
+      "gpu_util_pct": 99.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0034",
+      "gpu_util_pct": 99.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0035",
+      "gpu_util_pct": 99.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0036",
+      "gpu_util_pct": 98.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0037",
+      "gpu_util_pct": 99.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0038",
+      "gpu_util_pct": 99.0,
+      "load1": 4.17
+    },
+    {
+      "id": "dev-say-0039",
+      "gpu_util_pct": 99.0,
+      "load1": 4.32
+    },
+    {
+      "id": "dev-say-0040",
+      "gpu_util_pct": 99.0,
+      "load1": 4.32
+    }
+  ],
+  "mlx_peak_memory_gb": 1.71209847,
+  "max_rss_gb": 0.973438976,
+  "finished_at": "2026-11-20T08:54:03.605609+00:00",
+  "top_processes_after": [
+    "73015  94.3   9696 /System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd",
+    "173  56.2  96192 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "62524  11.1 150544 /Users/marutyan/.local/share/uv/tools/google-colab-cli/bin/python",
+    "75976  10.9  53280 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852  10.2  50400 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "15907   7.7   2160 /Users/marutyan/.cache/uv/builds-v0/.tmp9LCEuE/bin/python",
+    "11311   7.6  51664 claude",
+    "340   7.2  21456 /usr/sbin/coreaudiod"
+  ]
+}

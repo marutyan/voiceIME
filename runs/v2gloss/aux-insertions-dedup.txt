@@ -1,0 +1,24 @@
+v1-t16-s75: ASR 22 整形 5
+   ASR: ['s005:Attention U-Net', 's010:containerd', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's018:Beam', 's018:QuickSight', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's041:Secrets Manager', 's046:PPO', 's049:Jest', 's049:Room']
+   整形: ['s005:Attention U-Net', 's018:QuickSight', 's026:Cloud Natural Language API', 's029:mAP', 's049:Jest']
+v2-t16-s75: ASR 20 整形 5
+   ASR: ['s005:Attention Flow', 's006:MLflow Projects', 's010:Multus', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's016:validation_data', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's049:Room']
+   整形: ['s006:MLflow Projects', 's016:io', 's026:Cloud Natural Language API', 's028:Android', 's029:mAP']
+v2-t8-s75: ASR 17 整形 3
+   ASR: ['s005:Attention Flow', 's010:Multus', 's011:Dart', 's012:PlayStation', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's046:bc', 's049:Room']
+   整形: ['s026:Cloud Natural Language API', 's028:Android', 's029:mAP']
+v2-t16-s90: ASR 19 整形 5
+   ASR: ['s006:MLflow Projects', 's010:Multus', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's016:validation_data', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's049:Room']
+   整形: ['s006:MLflow Projects', 's016:io', 's026:Cloud Natural Language API', 's028:Android', 's029:mAP']
+v2-t8-s90: ASR 16 整形 3
+   ASR: ['s010:Multus', 's011:Dart', 's012:PlayStation', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's046:bc', 's049:Room']
+   整形: ['s026:Cloud Natural Language API', 's028:Android', 's029:mAP']
+v2-t16-s100: ASR 19 整形 5
+   ASR: ['s006:MLflow Projects', 's010:Multus', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's016:validation_data', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's049:Room']
+   整形: ['s006:MLflow Projects', 's016:io', 's026:Cloud Natural Language API', 's028:Android', 's029:mAP']
+v1-t16-s75+fmtv2: ASR 22 整形 5
+   ASR: ['s005:Attention U-Net', 's010:containerd', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's018:Beam', 's018:QuickSight', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's041:Secrets Manager', 's046:PPO', 's049:Jest', 's049:Room']
+   整形: ['s005:Attention U-Net', 's018:QuickSight', 's026:Cloud Natural Language API', 's029:mAP', 's049:Jest']
+v2-t16-s75+fmtv1: ASR 20 整形 3
+   ASR: ['s005:Attention Flow', 's006:MLflow Projects', 's010:Multus', 's011:Dart', 's012:PlayStation', 's013:Amazon', 's013:RDS', 's016:validation_data', 's018:Beam', 's020:LINE', 's023:Whisper', 's026:Cloud Natural Language API', 's029:Gemini 1.5 Flash', 's029:mAP', 's031:ARP', 's031:SPM', 's035:scikit-learn', 's036:CNN', 's046:PPO', 's049:Room']
+   整形: ['s006:MLflow', 's026:Cloud Natural Language API', 's029:mAP']

@@ -1,0 +1,613 @@
+{
+  "datasets": {
+    "test-novel": {
+      "qwen3-asr-0.6b": {
+        "system": "qwen3-asr-0.6b",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen06-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 31,
+          "exact_surface_accuracy": 0.062,
+          "normalized_surface_instances": 73,
+          "normalized_surface_accuracy": 0.146,
+          "rows_with_any_exact_term": 31,
+          "rows_with_any_normalized_term": 73,
+          "rows": 500
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 4615,
+          "substitutions": 2714,
+          "insertions": 222,
+          "deletions": 1679,
+          "reference_characters": 31167,
+          "rate": 0.14807328263868835
+        },
+        "latency_s": {
+          "mean": 5.570748921109363,
+          "median": 3.5469443660695106,
+          "p90": 14.030300692887977
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 351,
+              "rows": 500,
+              "row_hit_rate": 0.702,
+              "target_term_instances_selected": 351,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.702,
+              "candidate_instances": 7813
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 350,
+              "rows": 500,
+              "row_hit_rate": 0.7,
+              "target_term_instances_selected": 350,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.7,
+              "hint_instances": 7660
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 369,
+              "rows": 500,
+              "row_hit_rate": 0.738,
+              "target_term_instances_selected": 369,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.738,
+              "candidate_instances": 9682
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 350,
+              "rows": 500,
+              "row_hit_rate": 0.7,
+              "target_term_instances_selected": 350,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.7,
+              "hint_instances": 7683
+            }
+          }
+        }
+      },
+      "qwen3-asr-1.7b": {
+        "system": "qwen3-asr-1.7b",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen17-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 57,
+          "exact_surface_accuracy": 0.114,
+          "normalized_surface_instances": 94,
+          "normalized_surface_accuracy": 0.188,
+          "rows_with_any_exact_term": 57,
+          "rows_with_any_normalized_term": 94,
+          "rows": 500
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 3572,
+          "substitutions": 1775,
+          "insertions": 158,
+          "deletions": 1639,
+          "reference_characters": 31167,
+          "rate": 0.11460839991016139
+        },
+        "latency_s": {
+          "mean": 5.465429767223075,
+          "median": 3.395907649071887,
+          "p90": 14.26078296196647
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 362,
+              "rows": 500,
+              "row_hit_rate": 0.724,
+              "target_term_instances_selected": 362,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.724,
+              "candidate_instances": 7757
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 359,
+              "rows": 500,
+              "row_hit_rate": 0.718,
+              "target_term_instances_selected": 359,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.718,
+              "hint_instances": 7575
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 376,
+              "rows": 500,
+              "row_hit_rate": 0.752,
+              "target_term_instances_selected": 376,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.752,
+              "candidate_instances": 9589
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 359,
+              "rows": 500,
+              "row_hit_rate": 0.718,
+              "target_term_instances_selected": 359,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.718,
+              "hint_instances": 7599
+            }
+          }
+        }
+      },
+      "whisper-large-v3-turbo": {
+        "system": "whisper-large-v3-turbo",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-whisper-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 91,
+          "exact_surface_accuracy": 0.182,
+          "normalized_surface_instances": 144,
+          "normalized_surface_accuracy": 0.288,
+          "rows_with_any_exact_term": 91,
+          "rows_with_any_normalized_term": 144,
+          "rows": 500
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 3673,
+          "substitutions": 1629,
+          "insertions": 165,
+          "deletions": 1879,
+          "reference_characters": 31167,
+          "rate": 0.11784900696249238
+        },
+        "latency_s": {
+          "mean": 15.345225576244294,
+          "median": 15.477364203892648,
+          "p90": 16.130989614874125
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 379,
+              "rows": 500,
+              "row_hit_rate": 0.758,
+              "target_term_instances_selected": 379,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.758,
+              "candidate_instances": 7717
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 377,
+              "rows": 500,
+              "row_hit_rate": 0.754,
+              "target_term_instances_selected": 377,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.754,
+              "hint_instances": 7523
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 397,
+              "rows": 500,
+              "row_hit_rate": 0.794,
+              "target_term_instances_selected": 397,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.794,
+              "candidate_instances": 9528
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 377,
+              "rows": 500,
+              "row_hit_rate": 0.754,
+              "target_term_instances_selected": 377,
+              "target_term_instances": 500,
+              "term_instance_hit_rate": 0.754,
+              "hint_instances": 7546
+            }
+          }
+        }
+      }
+    },
+    "val": {
+      "qwen3-asr-0.6b": {
+        "system": "qwen3-asr-0.6b",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen06-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 223,
+          "exact_surface_accuracy": 0.15627189908899788,
+          "normalized_surface_instances": 456,
+          "normalized_surface_accuracy": 0.31955150665732307,
+          "rows_with_any_exact_term": 192,
+          "rows_with_any_normalized_term": 365,
+          "rows": 1000
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 8348,
+          "substitutions": 4807,
+          "insertions": 429,
+          "deletions": 3112,
+          "reference_characters": 59343,
+          "rate": 0.1406737104629021
+        },
+        "latency_s": {
+          "mean": 2.2892114415466787,
+          "median": 1.9708448289893568,
+          "p90": 2.9095979628618807
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 813,
+              "rows": 1000,
+              "row_hit_rate": 0.813,
+              "target_term_instances_selected": 1306,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9152067274001402,
+              "candidate_instances": 14739
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 813,
+              "rows": 1000,
+              "row_hit_rate": 0.813,
+              "target_term_instances_selected": 1306,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9152067274001402,
+              "hint_instances": 14570
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 813,
+              "rows": 1000,
+              "row_hit_rate": 0.813,
+              "target_term_instances_selected": 1312,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9194113524877365,
+              "candidate_instances": 18090
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 813,
+              "rows": 1000,
+              "row_hit_rate": 0.813,
+              "target_term_instances_selected": 1306,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9152067274001402,
+              "hint_instances": 14595
+            }
+          }
+        }
+      },
+      "qwen3-asr-1.7b": {
+        "system": "qwen3-asr-1.7b",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen17-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 427,
+          "exact_surface_accuracy": 0.299229152067274,
+          "normalized_surface_instances": 522,
+          "normalized_surface_accuracy": 0.365802382620883,
+          "rows_with_any_exact_term": 342,
+          "rows_with_any_normalized_term": 396,
+          "rows": 1000
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 5074,
+          "substitutions": 2775,
+          "insertions": 288,
+          "deletions": 2011,
+          "reference_characters": 59343,
+          "rate": 0.08550292368097333
+        },
+        "latency_s": {
+          "mean": 2.1883572735860946,
+          "median": 1.8928680249955505,
+          "p90": 2.881114451913163
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 817,
+              "rows": 1000,
+              "row_hit_rate": 0.817,
+              "target_term_instances_selected": 1321,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9257182901191311,
+              "candidate_instances": 14648
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 817,
+              "rows": 1000,
+              "row_hit_rate": 0.817,
+              "target_term_instances_selected": 1320,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9250175192711984,
+              "hint_instances": 14465
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 818,
+              "rows": 1000,
+              "row_hit_rate": 0.818,
+              "target_term_instances_selected": 1324,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9278206026629292,
+              "candidate_instances": 17964
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 817,
+              "rows": 1000,
+              "row_hit_rate": 0.817,
+              "target_term_instances_selected": 1320,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9250175192711984,
+              "hint_instances": 14489
+            }
+          }
+        }
+      },
+      "whisper-large-v3-turbo": {
+        "system": "whisper-large-v3-turbo",
+        "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-whisper-firstpass.jsonl",
+        "term_accuracy": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 524,
+          "exact_surface_accuracy": 0.3672039243167484,
+          "normalized_surface_instances": 622,
+          "normalized_surface_accuracy": 0.43587946741415556,
+          "rows_with_any_exact_term": 409,
+          "rows_with_any_normalized_term": 460,
+          "rows": 1000
+        },
+        "reading_aligned_cer": {
+          "edit_errors": 4729,
+          "substitutions": 2342,
+          "insertions": 348,
+          "deletions": 2039,
+          "reference_characters": 59343,
+          "rate": 0.07968926410865645
+        },
+        "latency_s": {
+          "mean": 15.747452987669035,
+          "median": 15.745127993170172,
+          "p90": 16.55508015700616
+        },
+        "combined_selection": {
+          "16": {
+            "max_entries": 16,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 812,
+              "rows": 1000,
+              "row_hit_rate": 0.812,
+              "target_term_instances_selected": 1314,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.920812894183602,
+              "candidate_instances": 14585
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 812,
+              "rows": 1000,
+              "row_hit_rate": 0.812,
+              "target_term_instances_selected": 1313,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9201121233356693,
+              "hint_instances": 14390
+            }
+          },
+          "20": {
+            "max_entries": 20,
+            "selected_candidates_before_asr_caps": {
+              "rows_with_any_correct_target": 813,
+              "rows": 1000,
+              "row_hit_rate": 0.813,
+              "target_term_instances_selected": 1317,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9229152067274001,
+              "candidate_instances": 17873
+            },
+            "hints_after_asr_caps": {
+              "max_terms": 16,
+              "max_characters": 240,
+              "rows_with_any_correct_target": 812,
+              "rows": 1000,
+              "row_hit_rate": 0.812,
+              "target_term_instances_selected": 1313,
+              "target_term_instances": 1427,
+              "term_instance_hit_rate": 0.9201121233356693,
+              "hint_instances": 14412
+            }
+          }
+        }
+      }
+    }
+  },
+  "conditions": {
+    "test-novel": {
+      "excluded_term_file_sha256": "16b1e0d83c93a29bf68127fd4889643ceac9e59ff0dfa03b6dac90f5a57ec8bd",
+      "excluded_term_count": 83,
+      "candidate_surface_count": 31332,
+      "haas_only_selection": {
+        "16": {
+          "max_entries": 16,
+          "selected_candidates_before_asr_caps": {
+            "rows_with_any_correct_target": 321,
+            "rows": 500,
+            "row_hit_rate": 0.642,
+            "target_term_instances_selected": 321,
+            "target_term_instances": 500,
+            "term_instance_hit_rate": 0.642,
+            "candidate_instances": 7611
+          },
+          "hints_after_asr_caps": {
+            "max_terms": 16,
+            "max_characters": 240,
+            "rows_with_any_correct_target": 319,
+            "rows": 500,
+            "row_hit_rate": 0.638,
+            "target_term_instances_selected": 319,
+            "target_term_instances": 500,
+            "term_instance_hit_rate": 0.638,
+            "hint_instances": 7424
+          }
+        },
+        "20": {
+          "max_entries": 20,
+          "selected_candidates_before_asr_caps": {
+            "rows_with_any_correct_target": 336,
+            "rows": 500,
+            "row_hit_rate": 0.672,
+            "target_term_instances_selected": 336,
+            "target_term_instances": 500,
+            "term_instance_hit_rate": 0.672,
+            "candidate_instances": 9359
+          },
+          "hints_after_asr_caps": {
+            "max_terms": 16,
+            "max_characters": 240,
+            "rows_with_any_correct_target": 319,
+            "rows": 500,
+            "row_hit_rate": 0.638,
+            "target_term_instances_selected": 319,
+            "target_term_instances": 500,
+            "term_instance_hit_rate": 0.638,
+            "hint_instances": 7438
+          }
+        }
+      },
+      "provided_haas_baseline": {
+        "expected": {
+          "target_term_instances_selected": 319,
+          "target_term_instances": 500
+        },
+        "measured_actual_hint_selection": {
+          "max_terms": 16,
+          "max_characters": 240,
+          "rows_with_any_correct_target": 319,
+          "rows": 500,
+          "row_hit_rate": 0.638,
+          "target_term_instances_selected": 319,
+          "target_term_instances": 500,
+          "term_instance_hit_rate": 0.638,
+          "hint_instances": 7424
+        },
+        "matches_test_novel_exact": true,
+        "val_rate_difference_from_prompt": null
+      }
+    },
+    "val": {
+      "excluded_term_file_sha256": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f",
+      "excluded_term_count": 6437,
+      "candidate_surface_count": 24978,
+      "haas_only_selection": {
+        "16": {
+          "max_entries": 16,
+          "selected_candidates_before_asr_caps": {
+            "rows_with_any_correct_target": 780,
+            "rows": 1000,
+            "row_hit_rate": 0.78,
+            "target_term_instances_selected": 1212,
+            "target_term_instances": 1427,
+            "term_instance_hit_rate": 0.849334267694464,
+            "candidate_instances": 14422
+          },
+          "hints_after_asr_caps": {
+            "max_terms": 16,
+            "max_characters": 240,
+            "rows_with_any_correct_target": 780,
+            "rows": 1000,
+            "row_hit_rate": 0.78,
+            "target_term_instances_selected": 1211,
+            "target_term_instances": 1427,
+            "term_instance_hit_rate": 0.8486334968465312,
+            "hint_instances": 14224
+          }
+        },
+        "20": {
+          "max_entries": 20,
+          "selected_candidates_before_asr_caps": {
+            "rows_with_any_correct_target": 780,
+            "rows": 1000,
+            "row_hit_rate": 0.78,
+            "target_term_instances_selected": 1216,
+            "target_term_instances": 1427,
+            "term_instance_hit_rate": 0.8521373510861948,
+            "candidate_instances": 17602
+          },
+          "hints_after_asr_caps": {
+            "max_terms": 16,
+            "max_characters": 240,
+            "rows_with_any_correct_target": 780,
+            "rows": 1000,
+            "row_hit_rate": 0.78,
+            "target_term_instances_selected": 1211,
+            "target_term_instances": 1427,
+            "term_instance_hit_rate": 0.8486334968465312,
+            "hint_instances": 14250
+          }
+        }
+      },
+      "provided_haas_baseline": {
+        "expected": {
+          "target_term_instance_rate": 0.843
+        },
+        "measured_actual_hint_selection": {
+          "max_terms": 16,
+          "max_characters": 240,
+          "rows_with_any_correct_target": 780,
+          "rows": 1000,
+          "row_hit_rate": 0.78,
+          "target_term_instances_selected": 1211,
+          "target_term_instances": 1427,
+          "term_instance_hit_rate": 0.8486334968465312,
+          "hint_instances": 14224
+        },
+        "matches_test_novel_exact": true,
+        "val_rate_difference_from_prompt": 0.00563349684653125
+      }
+    }
+  },
+  "best_model": {
+    "model_key": "qwen17",
+    "system": "qwen3-asr-1.7b",
+    "selection_rule": "val target term instance hit rate among actual Haas hints after the 16-term/240-character cap using selector cap 16; tie break by normalized surface term accuracy then lower reading-aligned CER; remaining exact ties keep model iteration order qwen06, qwen17, whisper",
+    "val_rank_tuple": {
+      "actual_hint_target_term_instance_hit_rate_at_16": 0.9250175192711984,
+      "normalized_surface_term_accuracy": 0.365802382620883,
+      "negative_reading_aligned_cer": -0.08550292368097333
+    }
+  }
+}

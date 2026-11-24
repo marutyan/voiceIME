@@ -1,0 +1,31 @@
+cached=500/9990
+cached=1000/9990
+cached=1500/9990
+cached=2000/9990
+cached=2500/9990
+cached=3000/9990
+cached=3500/9990
+cached=4000/9990
+cached=4500/9990
+cached=5000/9990
+cached=5500/9990
+cached=6000/9990
+cached=6500/9990
+cached=7000/9990
+cached=7500/9990
+cached=8000/9990
+cached=8500/9990
+cached=9000/9990
+cached=9500/9990
+cached=9990/9990
+{"cache_dir": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/features/v2/train", "max_absolute_difference": 0.0, "output_file": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/prepared/v2/train-featured.jsonl", "rows": 9990, "verified_rows": 2, "workers": 8}
+cached=200/200
+Traceback (most recent call last):
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/precompute_features.py", line 289, in <module>
+    main()
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/precompute_features.py", line 248, in main
+    verification = verify_batched_equivalence(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/precompute_features.py", line 180, in verify_batched_equivalence
+    raise ValueError("cacheとbatch抽出のattention maskが一致しません")
+ValueError: cacheとbatch抽出のattention maskが一致しません

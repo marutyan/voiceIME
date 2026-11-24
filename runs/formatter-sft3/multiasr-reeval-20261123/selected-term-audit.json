@@ -1,0 +1,130 @@
+{
+  "B/val-qwen-plain": {
+    "terms": 1427,
+    "correct": 1313,
+    "included": 1312,
+    "included_correct": 1242,
+    "excluded": 115,
+    "excluded_correct": 71
+  },
+  "B/val-qwen-segment-merge": {
+    "terms": 1427,
+    "correct": 1328,
+    "included": 1312,
+    "included_correct": 1264,
+    "excluded": 115,
+    "excluded_correct": 64
+  },
+  "B/test-novel-qwen-plain": {
+    "terms": 500,
+    "correct": 177,
+    "included": 369,
+    "included_correct": 164,
+    "excluded": 131,
+    "excluded_correct": 13
+  },
+  "B/test-novel-qwen-segment-merge": {
+    "terms": 500,
+    "correct": 252,
+    "included": 369,
+    "included_correct": 235,
+    "excluded": 131,
+    "excluded_correct": 17
+  },
+  "B-2B/val-qwen-plain": {
+    "terms": 1427,
+    "correct": 1328,
+    "included": 1312,
+    "included_correct": 1253,
+    "excluded": 115,
+    "excluded_correct": 75
+  },
+  "B-2B/val-qwen-segment-merge": {
+    "terms": 1427,
+    "correct": 1333,
+    "included": 1312,
+    "included_correct": 1264,
+    "excluded": 115,
+    "excluded_correct": 69
+  },
+  "B-2B/test-novel-qwen-plain": {
+    "terms": 500,
+    "correct": 167,
+    "included": 369,
+    "included_correct": 156,
+    "excluded": 131,
+    "excluded_correct": 11
+  },
+  "B-2B/test-novel-qwen-segment-merge": {
+    "terms": 500,
+    "correct": 249,
+    "included": 369,
+    "included_correct": 237,
+    "excluded": 131,
+    "excluded_correct": 12
+  },
+  "B-drop0-seed1/val-qwen-plain": {
+    "terms": 1427,
+    "correct": 1302,
+    "included": 1312,
+    "included_correct": 1232,
+    "excluded": 115,
+    "excluded_correct": 70
+  },
+  "B-drop0-seed1/val-qwen-segment-merge": {
+    "terms": 1427,
+    "correct": 1319,
+    "included": 1312,
+    "included_correct": 1254,
+    "excluded": 115,
+    "excluded_correct": 65
+  },
+  "B-drop0-seed1/test-novel-qwen-plain": {
+    "terms": 500,
+    "correct": 250,
+    "included": 369,
+    "included_correct": 239,
+    "excluded": 131,
+    "excluded_correct": 11
+  },
+  "B-drop0-seed1/test-novel-qwen-segment-merge": {
+    "terms": 500,
+    "correct": 289,
+    "included": 369,
+    "included_correct": 277,
+    "excluded": 131,
+    "excluded_correct": 12
+  },
+  "B-2B-drop0/val-qwen-plain": {
+    "terms": 1427,
+    "correct": 1310,
+    "included": 1312,
+    "included_correct": 1242,
+    "excluded": 115,
+    "excluded_correct": 68
+  },
+  "B-2B-drop0/val-qwen-segment-merge": {
+    "terms": 1427,
+    "correct": 1323,
+    "included": 1312,
+    "included_correct": 1260,
+    "excluded": 115,
+    "excluded_correct": 63
+  },
+  "B-2B-drop0/test-novel-qwen-plain": {
+    "terms": 500,
+    "correct": 238,
+    "included": 369,
+    "included_correct": 225,
+    "excluded": 131,
+    "excluded_correct": 13
+  },
+  "B-2B-drop0/test-novel-qwen-segment-merge": {
+    "terms": 500,
+    "correct": 276,
+    "included": 369,
+    "included_correct": 260,
+    "excluded": 131,
+    "excluded_correct": 16
+  }
+}

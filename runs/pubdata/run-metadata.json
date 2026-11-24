@@ -1,0 +1,93 @@
+{
+  "experiment_date": "2026-11-22",
+  "source_commit": "3c0ab77d2ca031adb718fea3bf2d72f4cd7b5cbd",
+  "manifest": {
+    "local_path": "data/pubdata/pub-eval.jsonl",
+    "faculty_path": "/home/maru/voiceime-work-pubdata/final-manifest/pub-eval.jsonl",
+    "sha256": "be097a4fabf5bd8f8a34ac4908f715416f8e2070e4b0d9b9b6bf4677553367c9",
+    "segments": 300,
+    "expected_term_occurrences": 381
+  },
+  "asr": {
+    "system": "haas-ja-v1.0-speechcpp-q8_0",
+    "model_file": "Haas-616M-ja-v1.0-Q8_0.gguf",
+    "speech_cpp_version": "0.11.0",
+    "device": "cpu",
+    "workers": 4,
+    "threads_per_worker": 8,
+    "two_pass_policy": "segment-merge",
+    "segment_merge_min_reading_similarity": 0.8,
+    "hint_selection": {
+      "candidate_selector": "voiceime.formatter.glossary.select_glossary",
+      "minimum_score": 75,
+      "maximum_candidates": 20,
+      "hint_builder": "voiceime.engine.asr_hints",
+      "maximum_hints": 16,
+      "maximum_hint_characters": 240
+    },
+    "faculty_model_path": "/home/maru/voiceime-work-asr/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-Q8_0.gguf",
+    "source_overlay_notes": "commit 3c0ab77のsrc/voiceimeをtask作業場所へコピー。speech.cpp実行ファイルとモデルのhost path、CPU device引数、worker名だけをfaculty環境用に変更し、engineと評価metricの実装は変更していない。"
+  },
+  "glossaries": {
+    "v1_raw_entries": 1458,
+    "v2_raw_entries": 31415,
+    "excluded_terms": 83,
+    "v1_plus_v2_merged_surface_entries_after_exclusion": 31332,
+    "v1_expected_term_coverage": 177,
+    "v1_plus_v2_expected_term_coverage": 381,
+    "v1_faculty_path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+    "v2_faculty_path": "/home/maru/voiceime-work-pubdata/glossary-v2.jsonl",
+    "excluded_terms_faculty_path": "/home/maru/voiceime-work-pubdata/glossary-v2-excluded.txt"
+  },
+  "execution": {
+    "faculty_started_at": "2026-11-22T06:46:50+09:00",
+    "faculty_completed_at": "2026-11-22T06:52:13+09:00",
+    "v1_batch_seconds": 59,
+    "v1_plus_v2_batch_seconds": 263,
+    "initial_attempt": "Pythonのexec -aによりvenvの解決先が外れ、soundfile import時に停止。音声認識開始前に起きたため、通常のvenv起動へ直して全件を再実行。",
+    "remaining_task_processes_after_completion": 0,
+    "host": "faculty",
+    "result_directory": "/home/maru/voiceime-work-pubdata/asr-results/2026-11-22-cpu-segment-merge"
+  },
+  "caption_filter": {
+    "reference_output": "v1_plain",
+    "threshold_exclusive": 0.5,
+    "excluded_segments": 95,
+    "retained_segments": 205,
+    "selection_uses_term_accuracy": false
+  },
+  "local_files": {
+    "runs/pubdata/plain-v1.jsonl": {
+      "bytes": 62917,
+      "sha256": "c727b242b62b3a46bc8e2b1080da1aef1b6f4c170387cd8e58c8060259caa52e",
+      "rows": 300
+    },
+    "runs/pubdata/two-pass-v1-segment-merge.jsonl": {
+      "bytes": 65171,
+      "sha256": "f71920531921895d99628b4eb22e8a0e4ded0230a09b7b82e59ad7551449bd7e",
+      "rows": 300
+    },
+    "runs/pubdata/plain-v1v2-excluded83.jsonl": {
+      "bytes": 62890,
+      "sha256": "212647b1c815a8bdd8ee8a7d675a308c9875adc6aea4dd6d9ff227af80b63c73",
+      "rows": 300
+    },
+    "runs/pubdata/two-pass-v1v2-excluded83-segment-merge.jsonl": {
+      "bytes": 64997,
+      "sha256": "fde21536f9ad8f073bb5e71b103a8b171a87fa06ee76da5479df3dbd2b9f79af",
+      "rows": 300
+    },
+    "runs/pubdata/high-cer-exclusions.jsonl": {
+      "bytes": 43213,
+      "sha256": "cdbfda6b8a3ecd0dc5d6ce7a2624cef8519a4cdc1d1fd44e9f280b43f3f8be8d",
+      "rows": 95
+    },
+    "runs/pubdata/metrics.json": {
+      "bytes": 11196,
+      "sha256": "e9423f2f8e764a4e653641566c82a5d573f310109eef4dc6bdb69f3858e27d7b",
+      "rows": null
+    }
+  },
+  "asr_and_metric_files_bytes_excluding_this_metadata": 310384,
+  "local_artifact_directory": "runs/pubdata"
+}

@@ -1,0 +1,31 @@
+{
+  "system": "haas2p-excl+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-eval/devuser-scripted.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "runs/base-compare/devuser-haas2p-excl.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "haas2p-excl+sft2-qwen",
+    "out": "runs/base-compare/devuser-haas2p-excl+sft2-qwen.jsonl",
+    "glossary": [
+      "data/text/glossary.jsonl"
+    ],
+    "exclude_terms": "data/eval/unseen-terms-devuser.txt",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 50,
+  "glossary_size": 1438,
+  "load_and_warmup_s": 2.8424584579188377,
+  "format_latency_median_s": 0.20387704152381048,
+  "format_latency_p90_s": 0.3085558202816173,
+  "latency_median_s": 0.4335317285149358,
+  "mean_glossary_entries": 14.76,
+  "generation_tps_median": 219.01345245228268,
+  "peak_memory_gb": 0.93481356,
+  "truncated": 0
+}

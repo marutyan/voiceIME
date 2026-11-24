@@ -1,0 +1,21 @@
+{
+  "target_surfaces": 31415,
+  "rows": 603,
+  "readings": 610,
+  "homophone_readings": 296,
+  "verification": {
+    "はい": 2487,
+    "不明": 380,
+    "いいえ": 242
+  },
+  "held_surfaces": 50,
+  "held_hits": 22,
+  "held_expected_readings": 61,
+  "held_verified_readings": 23,
+  "held_previously_unknown_expected": 25,
+  "held_previously_unknown_verified": 3,
+  "overrides_after_scoring": {
+    "IJCAI": "イジカイ",
+    "ICLR": "アイクリア"
+  }
+}

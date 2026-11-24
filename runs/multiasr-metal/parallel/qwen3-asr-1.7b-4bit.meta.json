@@ -1,0 +1,37 @@
+{
+  "multi": "qwen3-asr-1.7b-4bit",
+  "haas": "haas-ja-v1.0-speechcpp-q8_0",
+  "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+  "formatter": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "git_commit": "b63e22db003422178eb7ba9048b476fbb0366d0c",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-22T12:47:58.352215+00:00",
+  "top_processes_before": [
+    "80319  83.1 240960 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  34.9 116640 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  21.5 107472 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "80322  17.2  19776 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "80323  16.5  14960 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "80321  15.4   9360 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "80324  15.0  14752 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "340  10.9  20880 /usr/sbin/coreaudiod"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 92.0,
+    "load1": 3.26,
+    "swap_used_gb": 2.669189453125
+  },
+  "model_load_s": 1.9503016249509528,
+  "mlx_peak_memory_gb": 3.413633216,
+  "finished_at": "2026-11-22T12:50:19.783978+00:00",
+  "top_processes_after": [
+    "80319  68.6 684416 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  39.4 101152 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  19.5  95360 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  11.1  20688 /usr/sbin/coreaudiod",
+    "301   2.1  43728 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "12220   1.7  52768 /System/Applications/App Store.app/Contents/MacOS/App Store",
+    "12224   1.7  11936 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService",
+    "1960   1.3  24400 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logioptionsplus_agent"
+  ]
+}

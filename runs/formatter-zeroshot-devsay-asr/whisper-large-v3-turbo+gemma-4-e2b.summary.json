@@ -1,0 +1,28 @@
+{
+  "system": "whisper-large-v3-turbo+gemma-4-e2b",
+  "model": "mlx-community/gemma-4-e2b-it-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/asr-baseline-dev-say/whisper-large-v3-turbo.jsonl",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "system": "whisper-large-v3-turbo+gemma-4-e2b",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot-devsay-asr/whisper-large-v3-turbo+gemma-4-e2b.jsonl",
+    "glossary": null,
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 40,
+  "glossary_size": 74,
+  "load_and_warmup_s": 57.607362458948046,
+  "format_latency_median_s": 0.3684645625180565,
+  "format_latency_p90_s": 0.5985663622617722,
+  "latency_median_s": 1.101870541460812,
+  "mean_glossary_entries": 2.025,
+  "generation_tps_median": 69.48845113188267,
+  "peak_memory_gb": 2.87770855,
+  "truncated": 0
+}

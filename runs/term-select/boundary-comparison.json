@@ -1,0 +1,534 @@
+{
+  "conditions": {
+    "min_score": 75.0,
+    "max_entries": 16,
+    "v1": {
+      "path": "data/text/glossary.jsonl",
+      "entries": 1458,
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "v2_old": {
+      "path": "data/text/glossary-v2.jsonl",
+      "raw_entries": 31415,
+      "entries": 31332,
+      "excluded_terms_listed": 84,
+      "excluded_entries_removed": 83,
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+      "exclude_sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e"
+    },
+    "v2_new": {
+      "priority_order": [
+        "v1",
+        "user glossary",
+        "v2"
+      ],
+      "entries": 31332,
+      "user_glossary_files": 0
+    },
+    "k_values": [
+      4,
+      8,
+      16
+    ],
+    "selection_max_bigram_postings": 100,
+    "selection_max_trigram_postings": 500,
+    "unit": "gold-term occurrence; unrelated means not listed in that utterance's terms",
+    "index_build_time_excluded_from_selection_ms": true,
+    "old_full_scan_baseline": {
+      "path": "runs/term-select/selection-comparison.json",
+      "sha256": "e5c001bbe0163f8afac6ba7f9c4546e7f14363335fe21f87f40a6e531837911e",
+      "reused_when_boundary_only": true
+    }
+  },
+  "datasets": {
+    "dev-user": {
+      "utterances": 100,
+      "short_reading_hiragana_collisions": {
+        "distinct_two_kana_readings": 313,
+        "utterances_with_hiragana_substring": 85,
+        "hiragana_substring_occurrences": 279,
+        "occurrences_at_hiragana_run_edge": 150,
+        "occurrences_inside_hiragana_run": 129,
+        "gold_term_reading_occurrences": 0,
+        "utterances_with_gold_term_reading_occurrence": 0,
+        "interpretation": "部分文字列の頻度であり、ASRが意図した用語をひらがなで出したと人手判定した件数ではない"
+      },
+      "results": [
+        {
+          "selector": "v1_new_before_boundary",
+          "glossary_size": 1458,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 49,
+            "8": 58,
+            "16": 60
+          },
+          "hit_rates": {
+            "4": 0.7313432835820896,
+            "8": 0.8656716417910447,
+            "16": 0.8955223880597015
+          },
+          "unrelated_candidates_at_16": 1268,
+          "unrelated_per_utterance_at_16": 12.68,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 249,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 52,
+          "mean_selected_at_16": 13.28,
+          "selection_ms_median": 1.2755420175381005,
+          "selection_ms_p90": 3.0976453213952486,
+          "index_build_ms": 20.49875003285706
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 52,
+            "8": 60,
+            "16": 60
+          },
+          "hit_rates": {
+            "4": 0.7761194029850746,
+            "8": 0.8955223880597015,
+            "16": 0.8955223880597015
+          },
+          "unrelated_candidates_at_16": 1188,
+          "unrelated_per_utterance_at_16": 11.88,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 2,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 1,
+          "mean_selected_at_16": 12.48,
+          "selection_ms_median": 1.3056040625087917,
+          "selection_ms_p90": 3.098458331078291,
+          "index_build_ms": 20.49875003285706
+        },
+        {
+          "selector": "v2_new_before_boundary",
+          "glossary_size": 31332,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 52,
+            "8": 58,
+            "16": 59
+          },
+          "hit_rates": {
+            "4": 0.7761194029850746,
+            "8": 0.8656716417910447,
+            "16": 0.8805970149253731
+          },
+          "unrelated_candidates_at_16": 1271,
+          "unrelated_per_utterance_at_16": 12.71,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 150,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 53,
+          "mean_selected_at_16": 13.3,
+          "selection_ms_median": 2.980833000037819,
+          "selection_ms_p90": 12.126204068772498,
+          "index_build_ms": 535.7158749829978
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 52,
+            "8": 59,
+            "16": 59
+          },
+          "hit_rates": {
+            "4": 0.7761194029850746,
+            "8": 0.8805970149253731,
+            "16": 0.8805970149253731
+          },
+          "unrelated_candidates_at_16": 1255,
+          "unrelated_per_utterance_at_16": 12.55,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 4,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 4,
+          "mean_selected_at_16": 13.14,
+          "selection_ms_median": 3.0518335406668484,
+          "selection_ms_p90": 11.935766693204647,
+          "index_build_ms": 535.7158749829978
+        }
+      ],
+      "previous_full_scan_baseline": {
+        "v1_old": {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 37,
+            "8": 44,
+            "16": 51
+          },
+          "hit_rates": {
+            "4": 0.5522388059701493,
+            "8": 0.6567164179104478,
+            "16": 0.7611940298507462
+          },
+          "unrelated_candidates_at_16": 1068,
+          "unrelated_per_utterance_at_16": 10.68,
+          "mean_selected_at_16": 11.19,
+          "selection_ms_median": 7.7967289835214615,
+          "selection_ms_p90": 12.401874375063926,
+          "index_build_ms": null
+        },
+        "v2_old": {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 34,
+            "8": 42,
+            "16": 45
+          },
+          "hit_rates": {
+            "4": 0.5074626865671642,
+            "8": 0.6268656716417911,
+            "16": 0.6716417910447762
+          },
+          "unrelated_candidates_at_16": 1384,
+          "unrelated_per_utterance_at_16": 13.84,
+          "mean_selected_at_16": 14.29,
+          "selection_ms_median": 182.18318751314655,
+          "selection_ms_p90": 271.92655884427967,
+          "index_build_ms": null
+        }
+      }
+    },
+    "test-novel": {
+      "utterances": 500,
+      "short_reading_hiragana_collisions": {
+        "distinct_two_kana_readings": 313,
+        "utterances_with_hiragana_substring": 372,
+        "hiragana_substring_occurrences": 876,
+        "occurrences_at_hiragana_run_edge": 570,
+        "occurrences_inside_hiragana_run": 306,
+        "gold_term_reading_occurrences": 0,
+        "utterances_with_gold_term_reading_occurrence": 0,
+        "interpretation": "部分文字列の頻度であり、ASRが意図した用語をひらがなで出したと人手判定した件数ではない"
+      },
+      "results": [
+        {
+          "selector": "v1_new_before_boundary",
+          "glossary_size": 1458,
+          "utterances": 500,
+          "gold_terms_available": 0,
+          "gold_terms_not_in_glossary": 500,
+          "hit_counts": {
+            "4": 0,
+            "8": 0,
+            "16": 0
+          },
+          "hit_rates": {
+            "4": null,
+            "8": null,
+            "16": null
+          },
+          "unrelated_candidates_at_16": 7365,
+          "unrelated_per_utterance_at_16": 14.73,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 1547,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 346,
+          "mean_selected_at_16": 14.73,
+          "selection_ms_median": 1.074937463272363,
+          "selection_ms_p90": 2.6013166061602533,
+          "index_build_ms": 20.581417018547654
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 500,
+          "gold_terms_available": 0,
+          "gold_terms_not_in_glossary": 500,
+          "hit_counts": {
+            "4": 0,
+            "8": 0,
+            "16": 0
+          },
+          "hit_rates": {
+            "4": null,
+            "8": null,
+            "16": null
+          },
+          "unrelated_candidates_at_16": 6968,
+          "unrelated_per_utterance_at_16": 13.936,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 26,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 2,
+          "mean_selected_at_16": 13.936,
+          "selection_ms_median": 1.1992909712716937,
+          "selection_ms_p90": 2.699975308496506,
+          "index_build_ms": 20.581417018547654
+        },
+        {
+          "selector": "v2_new_before_boundary",
+          "glossary_size": 31332,
+          "utterances": 500,
+          "gold_terms_available": 500,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 46,
+            "8": 160,
+            "16": 286
+          },
+          "hit_rates": {
+            "4": 0.092,
+            "8": 0.32,
+            "16": 0.572
+          },
+          "unrelated_candidates_at_16": 7369,
+          "unrelated_per_utterance_at_16": 14.738,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 889,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 371,
+          "mean_selected_at_16": 15.31,
+          "selection_ms_median": 3.523249935824424,
+          "selection_ms_p90": 8.826629456598313,
+          "index_build_ms": 551.4009170001373
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 500,
+          "gold_terms_available": 500,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 69,
+            "8": 195,
+            "16": 306
+          },
+          "hit_rates": {
+            "4": 0.138,
+            "8": 0.39,
+            "16": 0.612
+          },
+          "unrelated_candidates_at_16": 7301,
+          "unrelated_per_utterance_at_16": 14.602,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 15,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 8,
+          "mean_selected_at_16": 15.214,
+          "selection_ms_median": 3.644791489932686,
+          "selection_ms_p90": 9.245579049456865,
+          "index_build_ms": 551.4009170001373
+        }
+      ],
+      "previous_full_scan_baseline": {
+        "v1_old": {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 500,
+          "gold_terms_available": 0,
+          "gold_terms_not_in_glossary": 500,
+          "hit_counts": {
+            "4": 0,
+            "8": 0,
+            "16": 0
+          },
+          "hit_rates": {
+            "4": null,
+            "8": null,
+            "16": null
+          },
+          "unrelated_candidates_at_16": 5901,
+          "unrelated_per_utterance_at_16": 11.802,
+          "mean_selected_at_16": 11.802,
+          "selection_ms_median": 7.433687511365861,
+          "selection_ms_p90": 11.061158019583672,
+          "index_build_ms": null
+        },
+        "v2_old": {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 500,
+          "gold_terms_available": 500,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 76,
+            "8": 102,
+            "16": 145
+          },
+          "hit_rates": {
+            "4": 0.152,
+            "8": 0.204,
+            "16": 0.29
+          },
+          "unrelated_candidates_at_16": 7747,
+          "unrelated_per_utterance_at_16": 15.494,
+          "mean_selected_at_16": 15.784,
+          "selection_ms_median": 182.09383299108595,
+          "selection_ms_p90": 260.69647504482424,
+          "index_build_ms": null
+        }
+      }
+    },
+    "val": {
+      "utterances": 1000,
+      "short_reading_hiragana_collisions": {
+        "distinct_two_kana_readings": 313,
+        "utterances_with_hiragana_substring": 733,
+        "hiragana_substring_occurrences": 1715,
+        "occurrences_at_hiragana_run_edge": 1123,
+        "occurrences_inside_hiragana_run": 592,
+        "gold_term_reading_occurrences": 2,
+        "utterances_with_gold_term_reading_occurrence": 2,
+        "interpretation": "部分文字列の頻度であり、ASRが意図した用語をひらがなで出したと人手判定した件数ではない"
+      },
+      "results": [
+        {
+          "selector": "v1_new_before_boundary",
+          "glossary_size": 1458,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 998,
+            "8": 1123,
+            "16": 1184
+          },
+          "hit_rates": {
+            "4": 0.6993693062368606,
+            "8": 0.7869656622284513,
+            "16": 0.8297126839523475
+          },
+          "unrelated_candidates_at_16": 13218,
+          "unrelated_per_utterance_at_16": 13.218,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 2769,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 529,
+          "mean_selected_at_16": 14.402,
+          "selection_ms_median": 1.0053954902105033,
+          "selection_ms_p90": 2.740512473974377,
+          "index_build_ms": 20.647125085815787
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 1039,
+            "8": 1145,
+            "16": 1195
+          },
+          "hit_rates": {
+            "4": 0.7281009110021023,
+            "8": 0.8023826208829713,
+            "16": 0.8374211632796076
+          },
+          "unrelated_candidates_at_16": 12399,
+          "unrelated_per_utterance_at_16": 12.399,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 32,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 8,
+          "mean_selected_at_16": 13.594,
+          "selection_ms_median": 1.1054585338570178,
+          "selection_ms_p90": 2.879229141399265,
+          "index_build_ms": 20.647125085815787
+        },
+        {
+          "selector": "v2_new_before_boundary",
+          "glossary_size": 31332,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 1062,
+            "8": 1170,
+            "16": 1207
+          },
+          "hit_rates": {
+            "4": 0.744218640504555,
+            "8": 0.8199018920812894,
+            "16": 0.8458304134548003
+          },
+          "unrelated_candidates_at_16": 13401,
+          "unrelated_per_utterance_at_16": 13.401,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 1551,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 538,
+          "mean_selected_at_16": 14.608,
+          "selection_ms_median": 3.105208510532975,
+          "selection_ms_p90": 10.055837873369455,
+          "index_build_ms": 522.4352909717709
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 1084,
+            "8": 1178,
+            "16": 1202
+          },
+          "hit_rates": {
+            "4": 0.759635599159075,
+            "8": 0.8255080588647512,
+            "16": 0.8423265592151367
+          },
+          "unrelated_candidates_at_16": 13222,
+          "unrelated_per_utterance_at_16": 13.222,
+          "unrelated_with_short_read_match_not_covering_run_at_16": 57,
+          "unrelated_with_short_read_strictly_inside_run_at_16": 16,
+          "mean_selected_at_16": 14.424,
+          "selection_ms_median": 3.042562457267195,
+          "selection_ms_p90": 9.829700400587171,
+          "index_build_ms": 522.4352909717709
+        }
+      ],
+      "previous_full_scan_baseline": {
+        "v1_old": {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 811,
+            "8": 1046,
+            "16": 1143
+          },
+          "hit_rates": {
+            "4": 0.5683251576734408,
+            "8": 0.7330063069376314,
+            "16": 0.8009810791871058
+          },
+          "unrelated_candidates_at_16": 11451,
+          "unrelated_per_utterance_at_16": 11.451,
+          "mean_selected_at_16": 12.594,
+          "selection_ms_median": 7.658229034859687,
+          "selection_ms_p90": 11.242475383915007,
+          "index_build_ms": null
+        },
+        "v2_old": {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 781,
+            "8": 987,
+            "16": 1068
+          },
+          "hit_rates": {
+            "4": 0.547302032235459,
+            "8": 0.6916608269096005,
+            "16": 0.7484232655921513
+          },
+          "unrelated_candidates_at_16": 14240,
+          "unrelated_per_utterance_at_16": 14.24,
+          "mean_selected_at_16": 15.308,
+          "selection_ms_median": 184.4875630340539,
+          "selection_ms_p90": 274.3709002737887,
+          "index_build_ms": null
+        }
+      }
+    }
+  }
+}

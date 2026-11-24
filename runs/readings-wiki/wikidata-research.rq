@@ -1,0 +1,12 @@
+# 論文誌・会議・規格は、技術分野の主題が明示されているものに限定する。
+SELECT DISTINCT ?item ?en ?name ?prop ?type WHERE {
+  VALUES ?type { wd:Q2020153 wd:Q24534551 wd:Q5633421 wd:Q317623 wd:Q15087423 }
+  VALUES ?topic {
+    wd:Q11660 wd:Q2539 wd:Q844240 wd:Q30642 wd:Q21198 wd:Q150971 wd:Q80993
+    wd:Q8789 wd:Q11650 wd:Q43035 wd:Q1301371 wd:Q173212 wd:Q378859
+  }
+  ?item wdt:P31 ?type; wdt:P921 ?topic; rdfs:label ?en .
+  VALUES ?prop { rdfs:label skos:altLabel }
+  ?item ?prop ?name .
+  FILTER(LANG(?en)="en" && LANG(?name)="ja")
+}

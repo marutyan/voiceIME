@@ -1,0 +1,320 @@
+{
+  "selector_commit": "c2ad2769819bcdb3fe1cf90fb760279692206889",
+  "selector_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "runtime": "Transformers BF16 greedy",
+  "max_glossary_cli_limit": 48,
+  "conditions": [
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 20,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.028167232400750565,
+        "terms_correct": 1344,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 357,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 369,
+        "gold_terms_total": 500,
+        "included_correct": 313,
+        "included_total": 369,
+        "excluded_correct": 44,
+        "excluded_total": 131
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 20,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.027808817018405683,
+        "terms_correct": 1349,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 372,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 393,
+        "gold_terms_total": 500,
+        "included_correct": 335,
+        "included_total": 393,
+        "excluded_correct": 37,
+        "excluded_total": 107
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 32,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.028378064978600494,
+        "terms_correct": 1344,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 378,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 414,
+        "gold_terms_total": 500,
+        "included_correct": 352,
+        "included_total": 414,
+        "excluded_correct": 26,
+        "excluded_total": 86
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 32,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.027534734667200775,
+        "terms_correct": 1348,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 389,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 435,
+        "gold_terms_total": 500,
+        "included_correct": 370,
+        "included_total": 435,
+        "excluded_correct": 19,
+        "excluded_total": 65
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 48,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.028483481267525458,
+        "terms_correct": 1341,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 386,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 429,
+        "gold_terms_total": 500,
+        "included_correct": 363,
+        "included_total": 429,
+        "excluded_correct": 23,
+        "excluded_total": 71
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0",
+      "max_entries": 48,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.028378064978600494,
+        "terms_correct": 1346,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 395,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 450,
+        "gold_terms_total": 500,
+        "included_correct": 380,
+        "included_total": 450,
+        "excluded_correct": 15,
+        "excluded_total": 50
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 20,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.02892622968101031,
+        "terms_correct": 1347,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 345,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 369,
+        "gold_terms_total": 500,
+        "included_correct": 305,
+        "included_total": 369,
+        "excluded_correct": 40,
+        "excluded_total": 131
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 20,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.028146149142965572,
+        "terms_correct": 1353,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 362,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 393,
+        "gold_terms_total": 500,
+        "included_correct": 327,
+        "included_total": 393,
+        "excluded_correct": 35,
+        "excluded_total": 107
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 32,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.029516560898990112,
+        "terms_correct": 1341,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 367,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 414,
+        "gold_terms_total": 500,
+        "included_correct": 344,
+        "included_total": 414,
+        "excluded_correct": 23,
+        "excluded_total": 86
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 32,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.028399148236385487,
+        "terms_correct": 1349,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 380,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 435,
+        "gold_terms_total": 500,
+        "included_correct": 361,
+        "included_total": 435,
+        "excluded_correct": 19,
+        "excluded_total": 65
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 48,
+      "whisper": false,
+      "val": {
+        "cer_rate": 0.02879973013430035,
+        "terms_correct": 1341,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 373,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 429,
+        "gold_terms_total": 500,
+        "included_correct": 355,
+        "included_total": 429,
+        "excluded_correct": 18,
+        "excluded_total": 71
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    },
+    {
+      "model": "D-0.8B-drop0.075",
+      "max_entries": 48,
+      "whisper": true,
+      "val": {
+        "cer_rate": 0.02892622968101031,
+        "terms_correct": 1343,
+        "terms_total": 1427
+      },
+      "test_novel": {
+        "terms_correct": 384,
+        "terms_total": 500,
+        "gold_terms_in_glossary": 450,
+        "gold_terms_total": 500,
+        "included_correct": 371,
+        "included_total": 450,
+        "excluded_correct": 13,
+        "excluded_total": 50
+      },
+      "audit": {
+        "val_model_input_rows": 1000,
+        "val_glossary_rows": 1000,
+        "test_novel_model_input_rows": 500,
+        "test_novel_glossary_rows": 500
+      }
+    }
+  ]
+}

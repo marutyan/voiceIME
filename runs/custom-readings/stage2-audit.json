@@ -1,0 +1,56 @@
+{
+  "val-custom": {
+    "rows": 56,
+    "tts": {
+      "synthetic-tts-ja": 43,
+      "synthetic-tts-multi": 13
+    },
+    "custom_term_hits_by_asr": {
+      "first_pass": {
+        "漢字や別の語": 23,
+        "慣習読みの仮名": 26,
+        "判定不能": 4,
+        "正しい表記": 3
+      },
+      "qwen_hypothesis": {
+        "慣習読みの仮名": 26,
+        "漢字や別の語": 16,
+        "正しい表記": 3,
+        "判定不能": 11
+      }
+    },
+    "hint_changes": 21,
+    "second_pass_changes": 3,
+    "merged_changes": 2,
+    "sanity_no_hint_rows": {
+      "base": 0,
+      "custom": 0
+    }
+  },
+  "novel-custom": {
+    "rows": 16,
+    "tts": {
+      "synthetic-tts-ja": 14,
+      "synthetic-tts-multi": 2
+    },
+    "custom_term_hits_by_asr": {
+      "first_pass": {
+        "判定不能": 5,
+        "慣習読みの仮名": 4,
+        "漢字や別の語": 7
+      },
+      "qwen_hypothesis": {
+        "漢字や別の語": 8,
+        "慣習読みの仮名": 5,
+        "判定不能": 3
+      }
+    },
+    "hint_changes": 4,
+    "second_pass_changes": 0,
+    "merged_changes": 0,
+    "sanity_no_hint_rows": {
+      "base": 0,
+      "custom": 0
+    }
+  }
+}

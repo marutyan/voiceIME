@@ -1,0 +1,15 @@
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_interleaved', 'mrope_section'}
+{
+  "system": "haas+qwen06+sft2",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 500,
+  "glossary_size": 4344,
+  "load_and_warmup_s": 2.940520833944902,
+  "format_latency_median_s": 0.19810029200743884,
+  "format_latency_p90_s": 0.31807930419454356,
+  "latency_median_s": 0.6884352639899589,
+  "mean_glossary_entries": 19.364,
+  "generation_tps_median": 228.11500367705924,
+  "peak_memory_gb": 0.931340152,
+  "truncated": 0
+}

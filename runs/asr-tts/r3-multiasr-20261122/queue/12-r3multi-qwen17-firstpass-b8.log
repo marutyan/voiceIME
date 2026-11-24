@@ -1,0 +1,225 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.94it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+start model=qwen3-asr-1.7b gpu=2 rows=1500 greedy=true batch=8 warmup=8
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=56/500 elapsed=91s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=104/500 elapsed=136s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=152/500 elapsed=168s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=200/500 elapsed=189s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=256/500 elapsed=219s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=304/500 elapsed=237s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=352/500 elapsed=276s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=400/500 elapsed=294s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=456/500 elapsed=316s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=test-novel rows=500/500 elapsed=352s
+complete model=qwen3-asr-1.7b dataset=test-novel rows=500 elapsed=351.7s mean_latency=5.465s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=56/1000 elapsed=17s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=104/1000 elapsed=31s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=152/1000 elapsed=61s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=200/1000 elapsed=82s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=256/1000 elapsed=97s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=304/1000 elapsed=109s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=352/1000 elapsed=120s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=400/1000 elapsed=133s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=456/1000 elapsed=149s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=504/1000 elapsed=161s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=552/1000 elapsed=172s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=600/1000 elapsed=184s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=656/1000 elapsed=197s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=704/1000 elapsed=208s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=752/1000 elapsed=219s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=800/1000 elapsed=229s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=856/1000 elapsed=240s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=904/1000 elapsed=250s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=952/1000 elapsed=263s
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+progress model=qwen3-asr-1.7b dataset=val rows=1000/1000 elapsed=274s
+complete model=qwen3-asr-1.7b dataset=val rows=1000 elapsed=274.2s mean_latency=2.188s
+model complete qwen3-asr-1.7b total=659.9s

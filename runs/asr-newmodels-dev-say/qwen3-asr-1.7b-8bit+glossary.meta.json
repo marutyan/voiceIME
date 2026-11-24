@@ -1,0 +1,285 @@
+{
+  "system": "qwen3-asr-1.7b-8bit+glossary",
+  "model": "qwen3-asr-1.7b-8bit",
+  "backend": "mlx-audio-llm",
+  "source": "mlx-community/Qwen3-ASR-1.7B-8bit",
+  "decode": "greedy",
+  "glossary": true,
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+  "n_utterances": 40,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:51:11.643085+00:00",
+  "top_processes_before": [
+    "173  52.5 101168 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  11.8  62080 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  11.6  15120 /usr/sbin/coreaudiod",
+    "86105   3.7  26256 uv",
+    "301   2.1  45472 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "82323   1.9  17408 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "23707   1.9 518608 claude",
+    "12120   1.8  12208 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 97.0,
+    "load1": 2.41,
+    "swap_used_gb": 6.81787109375
+  },
+  "model_load_s": 1.8045837910613045,
+  "load_samples": [
+    {
+      "id": "dev-say-0001",
+      "gpu_util_pct": 62.0,
+      "load1": 2.41,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0002",
+      "gpu_util_pct": 93.0,
+      "load1": 2.41,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0003",
+      "gpu_util_pct": 96.0,
+      "load1": 2.41,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0004",
+      "gpu_util_pct": 96.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0005",
+      "gpu_util_pct": 93.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0006",
+      "gpu_util_pct": 94.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0007",
+      "gpu_util_pct": 94.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0008",
+      "gpu_util_pct": 95.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0009",
+      "gpu_util_pct": 96.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0010",
+      "gpu_util_pct": 95.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0011",
+      "gpu_util_pct": 97.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0012",
+      "gpu_util_pct": 94.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0013",
+      "gpu_util_pct": 95.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0014",
+      "gpu_util_pct": 95.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0015",
+      "gpu_util_pct": 97.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0016",
+      "gpu_util_pct": 98.0,
+      "load1": 2.38,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0017",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0018",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0019",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0020",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0021",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0022",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0023",
+      "gpu_util_pct": 96.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0024",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0025",
+      "gpu_util_pct": 97.0,
+      "load1": 2.27,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0026",
+      "gpu_util_pct": 97.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0027",
+      "gpu_util_pct": 97.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0028",
+      "gpu_util_pct": 97.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0029",
+      "gpu_util_pct": 97.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0030",
+      "gpu_util_pct": 97.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.81787109375
+    },
+    {
+      "id": "dev-say-0031",
+      "gpu_util_pct": 93.0,
+      "load1": 2.25,
+      "swap_used_gb": 6.99701171875
+    },
+    {
+      "id": "dev-say-0032",
+      "gpu_util_pct": 94.0,
+      "load1": 2.47,
+      "swap_used_gb": 7.187802734375
+    },
+    {
+      "id": "dev-say-0033",
+      "gpu_util_pct": 98.0,
+      "load1": 2.47,
+      "swap_used_gb": 7.179990234375
+    },
+    {
+      "id": "dev-say-0034",
+      "gpu_util_pct": 98.0,
+      "load1": 2.47,
+      "swap_used_gb": 7.179990234375
+    },
+    {
+      "id": "dev-say-0035",
+      "gpu_util_pct": 98.0,
+      "load1": 2.47,
+      "swap_used_gb": 7.179990234375
+    },
+    {
+      "id": "dev-say-0036",
+      "gpu_util_pct": 98.0,
+      "load1": 2.47,
+      "swap_used_gb": 7.179990234375
+    },
+    {
+      "id": "dev-say-0037",
+      "gpu_util_pct": 98.0,
+      "load1": 2.35,
+      "swap_used_gb": 7.179990234375
+    },
+    {
+      "id": "dev-say-0038",
+      "gpu_util_pct": 98.0,
+      "load1": 2.35,
+      "swap_used_gb": 7.172177734375
+    },
+    {
+      "id": "dev-say-0039",
+      "gpu_util_pct": 97.0,
+      "load1": 2.35,
+      "swap_used_gb": 7.172177734375
+    },
+    {
+      "id": "dev-say-0040",
+      "gpu_util_pct": 98.0,
+      "load1": 2.35,
+      "swap_used_gb": 7.172177734375
+    }
+  ],
+  "mlx_peak_memory_gb": 3.656383692,
+  "max_rss_gb": 2.81493504,
+  "finished_at": "2026-11-20T09:51:38.046856+00:00",
+  "top_processes_after": [
+    "173  53.4  76976 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "86108  20.0 1930784 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852  15.1  56224 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340   4.7  12912 /usr/sbin/coreaudiod",
+    "46169   2.7 113008 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "12120   2.1  11696 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService",
+    "301   1.1  45168 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "23707   1.0 410512 claude"
+  ]
+}

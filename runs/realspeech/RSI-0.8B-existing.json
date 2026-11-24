@@ -1,0 +1,148 @@
+{
+  "val": {
+    "raw": {
+      "cer": {
+        "edit_errors": 1180,
+        "substitutions": 280,
+        "insertions": 568,
+        "deletions": 332,
+        "reference_characters": 47431,
+        "rate": 0.024878244186291667
+      },
+      "terms": {
+        "all_exact": 1370,
+        "all_loose": 1370,
+        "all_total": 1427,
+        "listed_exact": 1295,
+        "listed_loose": 1295,
+        "listed_total": 1310,
+        "unlisted_exact": 75,
+        "unlisted_loose": 75,
+        "unlisted_total": 117
+      },
+      "fillers": {
+        "residual_count": 11,
+        "manifest_count": 1608,
+        "residual_rate": 0.006840796019900498
+      }
+    },
+    "restore": {
+      "cer": {
+        "edit_errors": 1180,
+        "substitutions": 280,
+        "insertions": 568,
+        "deletions": 332,
+        "reference_characters": 47431,
+        "rate": 0.024878244186291667
+      },
+      "terms": {
+        "all_exact": 1370,
+        "all_loose": 1370,
+        "all_total": 1427,
+        "listed_exact": 1295,
+        "listed_loose": 1295,
+        "listed_total": 1310,
+        "unlisted_exact": 75,
+        "unlisted_loose": 75,
+        "unlisted_total": 117
+      },
+      "fillers": {
+        "residual_count": 11,
+        "manifest_count": 1608,
+        "residual_rate": 0.006840796019900498
+      }
+    },
+    "rows_changed_by_restore": 0,
+    "rows": 1000,
+    "files": {
+      "manifest": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl",
+        "sha256": "b51bfebe8d5fc12c49fb84e9e84659b73573a33fc7fcab375f6d438f69fd1c2b"
+      },
+      "selector": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/val-runs/formatter-glossary.jsonl",
+        "sha256": "152a385450073682f1787f6510ff7233f8391a3d7589b7263d4d2a304f6c310d"
+      },
+      "predictions": {
+        "path": "/home/maru/voiceime-work-wops/runs/rsi1/RSI-0.8B/multiasr/val-segment-merge.jsonl",
+        "sha256": "57defbf6f5a475b715a7744705dad1a768f0d61fe9a67a6c17a3cdb202fcad8f"
+      }
+    }
+  },
+  "test-novel": {
+    "raw": {
+      "cer": {
+        "edit_errors": 1355,
+        "substitutions": 650,
+        "insertions": 218,
+        "deletions": 487,
+        "reference_characters": 25921,
+        "rate": 0.05227421781567069
+      },
+      "terms": {
+        "all_exact": 359,
+        "all_loose": 393,
+        "all_total": 500,
+        "listed_exact": 315,
+        "listed_loose": 347,
+        "listed_total": 369,
+        "unlisted_exact": 44,
+        "unlisted_loose": 46,
+        "unlisted_total": 131,
+        "novel_without_surface_exposure_exact": 359,
+        "novel_without_surface_exposure_loose": 393,
+        "novel_without_surface_exposure_total": 500
+      },
+      "fillers": {
+        "residual_count": 2,
+        "manifest_count": 1299,
+        "residual_rate": 0.001539645881447267
+      }
+    },
+    "restore": {
+      "cer": {
+        "edit_errors": 987,
+        "substitutions": 357,
+        "insertions": 203,
+        "deletions": 427,
+        "reference_characters": 25921,
+        "rate": 0.03807723467458817
+      },
+      "terms": {
+        "all_exact": 388,
+        "all_loose": 390,
+        "all_total": 500,
+        "listed_exact": 344,
+        "listed_loose": 346,
+        "listed_total": 369,
+        "unlisted_exact": 44,
+        "unlisted_loose": 44,
+        "unlisted_total": 131,
+        "novel_without_surface_exposure_exact": 388,
+        "novel_without_surface_exposure_loose": 390,
+        "novel_without_surface_exposure_total": 500
+      },
+      "fillers": {
+        "residual_count": 2,
+        "manifest_count": 1299,
+        "residual_rate": 0.001539645881447267
+      }
+    },
+    "rows_changed_by_restore": 33,
+    "rows": 500,
+    "files": {
+      "manifest": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/test-novel.jsonl",
+        "sha256": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac"
+      },
+      "selector": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen06-test-novel.jsonl",
+        "sha256": "74375d49a28a7141d4b283c217da78f1a9b985a0181a7c1f3067feacf0e834e0"
+      },
+      "predictions": {
+        "path": "/home/maru/voiceime-work-wops/runs/rsi1/RSI-0.8B/multiasr/test-novel-segment-merge.jsonl",
+        "sha256": "250ae17f27567c243a6b1298aca8cbc4c8ef27e06aa536fb08db8343b70b2498"
+      }
+    }
+  }
+}

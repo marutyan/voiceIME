@@ -1,0 +1,196 @@
+{"surface": "PyTorch", "reading": "パイトーチ"}
+{"surface": "Dataset", "reading": "データセット"}
+{"surface": "DataLoader", "reading": "データローダー"}
+{"surface": "GitHub", "reading": "ギットハブ"}
+{"surface": "Pull Request", "reading": "プルリクエスト"}
+{"surface": "Docker", "reading": "ドッカー"}
+{"surface": "Kubernetes", "reading": "クバネティス"}
+{"surface": "CUDA", "reading": "クーダ"}
+{"surface": "Transformer", "reading": "トランスフォーマー"}
+{"surface": "LoRA", "reading": "ローラ"}
+{"surface": "Whisper", "reading": "ウィスパー"}
+{"surface": "MLX", "reading": "エムエルエックス"}
+{"surface": "Hugging Face", "reading": "ハギングフェイス"}
+{"surface": "Colab", "reading": "コラボ"}
+{"surface": "TensorBoard", "reading": "テンソルボード"}
+{"surface": "W&B", "reading": "ダブリューアンドビー"}
+{"surface": "Adam", "reading": "アダム"}
+{"surface": "batch size", "reading": "バッチサイズ"}
+{"surface": "learning rate", "reading": "ラーニングレート"}
+{"surface": "checkpoint", "reading": "チェックポイント"}
+{"surface": "fine-tuning", "reading": "ファインチューニング"}
+{"surface": "ViT", "reading": "ビット"}
+{"surface": "YOLO", "reading": "ヨロ"}
+{"surface": "mAP", "reading": "エムエーピー"}
+{"surface": "IoU", "reading": "アイオーユー"}
+{"surface": "NumPy", "reading": "ナンパイ"}
+{"surface": "pandas", "reading": "パンダス"}
+{"surface": "Slack", "reading": "スラック"}
+{"surface": "Notion", "reading": "ノーション"}
+{"surface": "React", "reading": "リアクト"}
+{"surface": "TypeScript", "reading": "タイプスクリプト"}
+{"surface": "API", "reading": "エーピーアイ"}
+{"surface": "JSON", "reading": "ジェイソン"}
+{"surface": "Swift", "reading": "スウィフト"}
+{"surface": "Xcode", "reading": "エックスコード"}
+{"surface": "uv", "reading": "ユーブイ"}
+{"surface": "pytest", "reading": "パイテスト"}
+{"surface": "Rust", "reading": "ラスト"}
+{"surface": "Segment Anything", "reading": "セグメントエニシング"}
+{"surface": "optical flow", "reading": "オプティカルフロー"}
+{"surface": "Gemma", "reading": "ジェマ"}
+{"surface": "Qwen", "reading": "クウェン"}
+{"surface": "vLLM", "reading": "ブイエルエルエム"}
+{"surface": "TensorFlow", "reading": "テンソルフロー"}
+{"surface": "JAX", "reading": "ジャックス"}
+{"surface": "Keras", "reading": "ケラス"}
+{"surface": "scikit-learn", "reading": "サイキットラーン"}
+{"surface": "SciPy", "reading": "サイパイ"}
+{"surface": "Matplotlib", "reading": "マットプロットリブ"}
+{"surface": "seaborn", "reading": "シーボーン"}
+{"surface": "OpenCV", "reading": "オープンシーブイ"}
+{"surface": "Pillow", "reading": "ピロー"}
+{"surface": "tqdm", "reading": "タクドム"}
+{"surface": "Hydra", "reading": "ハイドラ"}
+{"surface": "Lightning", "reading": "ライトニング"}
+{"surface": "Accelerate", "reading": "アクセラレート"}
+{"surface": "DeepSpeed", "reading": "ディープスピード"}
+{"surface": "FSDP", "reading": "エフエスディーピー"}
+{"surface": "ONNX", "reading": "オニキス"}
+{"surface": "TensorRT", "reading": "テンソルアールティー"}
+{"surface": "Triton", "reading": "トライトン"}
+{"surface": "FlashAttention", "reading": "フラッシュアテンション"}
+{"surface": "xformers", "reading": "エックスフォーマーズ"}
+{"surface": "BERT", "reading": "バート"}
+{"surface": "GPT", "reading": "ジーピーティー"}
+{"surface": "LLaMA", "reading": "ラマ"}
+{"surface": "Mistral", "reading": "ミストラル"}
+{"surface": "CLIP", "reading": "クリップ"}
+{"surface": "DINOv2", "reading": "ダイノブイツー"}
+{"surface": "Stable Diffusion", "reading": "ステーブルディフュージョン"}
+{"surface": "diffusers", "reading": "ディフューザーズ"}
+{"surface": "ControlNet", "reading": "コントロールネット"}
+{"surface": "U-Net", "reading": "ユーネット"}
+{"surface": "ResNet", "reading": "レズネット"}
+{"surface": "EfficientNet", "reading": "エフィシェントネット"}
+{"surface": "ConvNeXt", "reading": "コンブネクスト"}
+{"surface": "Swin Transformer", "reading": "スウィントランスフォーマー"}
+{"surface": "DETR", "reading": "ディーター"}
+{"surface": "Mask R-CNN", "reading": "マスクアールシーエヌエヌ"}
+{"surface": "Faster R-CNN", "reading": "ファスターアールシーエヌエヌ"}
+{"surface": "RAFT", "reading": "ラフト"}
+{"surface": "NeRF", "reading": "ナーフ"}
+{"surface": "Gaussian Splatting", "reading": "ガウシアンスプラッティング"}
+{"surface": "SLAM", "reading": "スラム"}
+{"surface": "COLMAP", "reading": "コルマップ"}
+{"surface": "COCO", "reading": "ココ"}
+{"surface": "ImageNet", "reading": "イメージネット"}
+{"surface": "KITTI", "reading": "キッティ"}
+{"surface": "Cityscapes", "reading": "シティスケープス"}
+{"surface": "nuScenes", "reading": "ヌーシーンズ"}
+{"surface": "Waymo", "reading": "ウェイモ"}
+{"surface": "LiDAR", "reading": "ライダー"}
+{"surface": "point cloud", "reading": "ポイントクラウド"}
+{"surface": "backbone", "reading": "バックボーン"}
+{"surface": "encoder", "reading": "エンコーダー"}
+{"surface": "decoder", "reading": "デコーダー"}
+{"surface": "attention", "reading": "アテンション"}
+{"surface": "self-attention", "reading": "セルフアテンション"}
+{"surface": "cross-attention", "reading": "クロスアテンション"}
+{"surface": "embedding", "reading": "エンベディング"}
+{"surface": "tokenizer", "reading": "トークナイザー"}
+{"surface": "logits", "reading": "ロジット"}
+{"surface": "softmax", "reading": "ソフトマックス"}
+{"surface": "dropout", "reading": "ドロップアウト"}
+{"surface": "BatchNorm", "reading": "バッチノーム"}
+{"surface": "LayerNorm", "reading": "レイヤーノーム"}
+{"surface": "ReLU", "reading": "レル"}
+{"surface": "GELU", "reading": "ゲル"}
+{"surface": "AdamW", "reading": "アダムダブリュー"}
+{"surface": "SGD", "reading": "エスジーディー"}
+{"surface": "warmup", "reading": "ウォームアップ"}
+{"surface": "scheduler", "reading": "スケジューラー"}
+{"surface": "cosine annealing", "reading": "コサインアニーリング"}
+{"surface": "gradient clipping", "reading": "グラディエントクリッピング"}
+{"surface": "mixed precision", "reading": "ミックストプレシジョン"}
+{"surface": "bfloat16", "reading": "ビーフロート16"}
+{"surface": "quantization", "reading": "クオンタイゼーション"}
+{"surface": "distillation", "reading": "ディスティレーション"}
+{"surface": "pruning", "reading": "プルーニング"}
+{"surface": "augmentation", "reading": "オーグメンテーション"}
+{"surface": "overfitting", "reading": "オーバーフィッティング"}
+{"surface": "ablation", "reading": "アブレーション"}
+{"surface": "baseline", "reading": "ベースライン"}
+{"surface": "benchmark", "reading": "ベンチマーク"}
+{"surface": "inference", "reading": "インファレンス"}
+{"surface": "latency", "reading": "レイテンシー"}
+{"surface": "throughput", "reading": "スループット"}
+{"surface": "precision", "reading": "プレシジョン"}
+{"surface": "recall", "reading": "リコール"}
+{"surface": "F1 score", "reading": "エフワンスコア"}
+{"surface": "AUC", "reading": "エーユーシー"}
+{"surface": "CER", "reading": "シーイーアール"}
+{"surface": "WER", "reading": "ダブリューイーアール"}
+{"surface": "BLEU", "reading": "ブルー"}
+{"surface": "perplexity", "reading": "パープレキシティ"}
+{"surface": "RLHF", "reading": "アールエルエイチエフ"}
+{"surface": "DPO", "reading": "ディーピーオー"}
+{"surface": "RAG", "reading": "ラグ"}
+{"surface": "prompt", "reading": "プロンプト"}
+{"surface": "few-shot", "reading": "フューショット"}
+{"surface": "zero-shot", "reading": "ゼロショット"}
+{"surface": "Chain-of-Thought", "reading": "チェインオブソート"}
+{"surface": "agent", "reading": "エージェント"}
+{"surface": "MCP", "reading": "エムシーピー"}
+{"surface": "Linux", "reading": "リナックス"}
+{"surface": "Ubuntu", "reading": "ウブントゥ"}
+{"surface": "macOS", "reading": "マックオーエス"}
+{"surface": "Homebrew", "reading": "ホームブリュー"}
+{"surface": "Git", "reading": "ギット"}
+{"surface": "rebase", "reading": "リベース"}
+{"surface": "merge", "reading": "マージ"}
+{"surface": "commit", "reading": "コミット"}
+{"surface": "branch", "reading": "ブランチ"}
+{"surface": "CI", "reading": "シーアイ"}
+{"surface": "GitHub Actions", "reading": "ギットハブアクションズ"}
+{"surface": "VS Code", "reading": "ブイエスコード"}
+{"surface": "Vim", "reading": "ヴィム"}
+{"surface": "tmux", "reading": "ティーマックス"}
+{"surface": "SSH", "reading": "エスエスエイチ"}
+{"surface": "AWS", "reading": "エーダブリューエス"}
+{"surface": "GCP", "reading": "ジーシーピー"}
+{"surface": "S3", "reading": "エススリー"}
+{"surface": "EC2", "reading": "イーシーツー"}
+{"surface": "Terraform", "reading": "テラフォーム"}
+{"surface": "PostgreSQL", "reading": "ポストグレスキューエル"}
+{"surface": "SQLite", "reading": "エスキューライト"}
+{"surface": "Redis", "reading": "レディス"}
+{"surface": "FastAPI", "reading": "ファストエーピーアイ"}
+{"surface": "Flask", "reading": "フラスク"}
+{"surface": "Django", "reading": "ジャンゴ"}
+{"surface": "Node.js", "reading": "ノードジェイエス"}
+{"surface": "Next.js", "reading": "ネクストジェイエス"}
+{"surface": "Vue", "reading": "ビュー"}
+{"surface": "Tailwind CSS", "reading": "テイルウィンドシーエスエス"}
+{"surface": "GraphQL", "reading": "グラフキューエル"}
+{"surface": "WebSocket", "reading": "ウェブソケット"}
+{"surface": "gRPC", "reading": "ジーアールピーシー"}
+{"surface": "YAML", "reading": "ヤムル"}
+{"surface": "TOML", "reading": "トムル"}
+{"surface": "Markdown", "reading": "マークダウン"}
+{"surface": "LaTeX", "reading": "ラテック"}
+{"surface": "Overleaf", "reading": "オーバーリーフ"}
+{"surface": "arXiv", "reading": "アーカイブ"}
+{"surface": "CVPR", "reading": "シーブイピーアール"}
+{"surface": "ICCV", "reading": "アイシーシーブイ"}
+{"surface": "ECCV", "reading": "イーシーシーブイ"}
+{"surface": "NeurIPS", "reading": "ニューリップス"}
+{"surface": "ICLR", "reading": "アイクリア"}
+{"surface": "Zotero", "reading": "ゾテロ"}
+{"surface": "Figma", "reading": "フィグマ"}
+{"surface": "Jupyter", "reading": "ジュピター"}
+{"surface": "Weights & Biases", "reading": "ウェイツアンドバイアシーズ"}
+{"surface": "SwiftUI", "reading": "スウィフトユーアイ"}
+{"surface": "Core ML", "reading": "コアエムエル"}
+{"surface": "Metal", "reading": "メタル"}
+{"surface": "Apple Silicon", "reading": "アップルシリコン"}

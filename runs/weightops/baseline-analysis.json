@@ -1,0 +1,189 @@
+{
+  "val": {
+    "source_counts": {
+      "synthetic-tts-ja": 799,
+      "synthetic-tts-multi": 201
+    },
+    "sha256": {
+      "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl": "b51bfebe8d5fc12c49fb84e9e84659b73573a33fc7fcab375f6d438f69fd1c2b",
+      "/home/maru/voiceime-work-fr3/inputs/d-multiasr-20261123/val-runs/formatter-glossary.jsonl": "152a385450073682f1787f6510ff7233f8391a3d7589b7263d4d2a304f6c310d",
+      "/var/tmp/voiceime-work-fr3-d-20261123/runs/formatter-sft3/d-eval-20261123/D-0.8B-drop0/multiasr/val-segment-merge.jsonl": "450e049701e43c6ca2759e85e18d6f66df671b7e8271b4fa8a3a2edca8826415",
+      "/var/tmp/voiceime-work-fr3-d-20261123/runs/formatter-sft3/d-eval-20261123/D-2B-drop0.075/multiasr/val-segment-merge.jsonl": "e524318ffac442382d072962453b1fb06c192642db462d9d45fc371051634d73"
+    },
+    "samples": 1000,
+    "term_agreement": {
+      "all": {
+        "both_correct": 1328,
+        "only_drop0": 16,
+        "only_2b": 33,
+        "both_wrong": 50
+      },
+      "listed": {
+        "both_correct": 1268,
+        "only_drop0": 14,
+        "only_2b": 13,
+        "both_wrong": 15
+      },
+      "unlisted": {
+        "both_correct": 60,
+        "only_drop0": 2,
+        "only_2b": 20,
+        "both_wrong": 35
+      }
+    },
+    "drop0_errors": 83,
+    "counts_by_axis": {
+      "listed": {
+        "yes": 28,
+        "no": 55
+      },
+      "qwen_surface": {
+        "yes": 10,
+        "no": 73
+      },
+      "haas_first_reading": {
+        "yes": 7,
+        "no": 76
+      },
+      "haas_merged_reading": {
+        "yes": 3,
+        "no": 80
+      },
+      "error_class": {
+        "a": 24,
+        "b": 21,
+        "c": 2,
+        "d": 15,
+        "e": 21
+      },
+      "term_kind": {
+        "acronym": 25,
+        "word": 39,
+        "compound": 12,
+        "number_or_symbol": 7
+      }
+    },
+    "errors_by_list_and_class": {
+      "yes": {
+        "d": 12,
+        "a": 7,
+        "b": 5,
+        "e": 3,
+        "c": 1
+      },
+      "no": {
+        "a": 17,
+        "b": 16,
+        "d": 3,
+        "e": 18,
+        "c": 1
+      }
+    },
+    "errors_by_list_and_qwen_surface": {
+      "yes": {
+        "yes": 10,
+        "no": 18
+      },
+      "no": {
+        "no": 55
+      }
+    },
+    "haas_correct_surface_without_reading": {
+      "first_pass": 5,
+      "combined_text": 11
+    }
+  },
+  "test-novel": {
+    "source_counts": {
+      "synthetic-tts": 500
+    },
+    "sha256": {
+      "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+      "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen06-test-novel.jsonl": "74375d49a28a7141d4b283c217da78f1a9b985a0181a7c1f3067feacf0e834e0",
+      "/var/tmp/voiceime-work-fr3-d-20261123/runs/formatter-sft3/d-eval-20261123/D-0.8B-drop0/multiasr/test-novel-segment-merge.jsonl": "f0f6ec16bb9d6d612350c5926b1ce501ff94226f8b18ff131ab2b8c1ea1716e4",
+      "/var/tmp/voiceime-work-fr3-d-20261123/runs/formatter-sft3/d-eval-20261123/D-2B-drop0.075/multiasr/test-novel-segment-merge.jsonl": "5e1491da94ce4bcebb4496e5d8a7dd05ae834ac59000c232a1ef1eb4c0d076a4"
+    },
+    "samples": 500,
+    "term_agreement": {
+      "all": {
+        "both_correct": 313,
+        "only_drop0": 44,
+        "only_2b": 17,
+        "both_wrong": 126
+      },
+      "listed": {
+        "both_correct": 282,
+        "only_drop0": 31,
+        "only_2b": 9,
+        "both_wrong": 47
+      },
+      "unlisted": {
+        "both_correct": 31,
+        "only_drop0": 13,
+        "only_2b": 8,
+        "both_wrong": 79
+      }
+    },
+    "drop0_errors": 143,
+    "counts_by_axis": {
+      "listed": {
+        "yes": 56,
+        "no": 87
+      },
+      "qwen_surface": {
+        "yes": 8,
+        "no": 135
+      },
+      "haas_first_reading": {
+        "yes": 30,
+        "no": 113
+      },
+      "haas_merged_reading": {
+        "yes": 1,
+        "no": 142
+      },
+      "error_class": {
+        "a": 75,
+        "b": 27,
+        "c": 17,
+        "d": 6,
+        "e": 18
+      },
+      "term_kind": {
+        "acronym": 2,
+        "word": 23,
+        "compound": 76,
+        "number_or_symbol": 42
+      }
+    },
+    "errors_by_list_and_class": {
+      "yes": {
+        "a": 35,
+        "c": 6,
+        "b": 6,
+        "d": 6,
+        "e": 3
+      },
+      "no": {
+        "a": 40,
+        "b": 21,
+        "e": 15,
+        "c": 11
+      }
+    },
+    "errors_by_list_and_qwen_surface": {
+      "yes": {
+        "no": 50,
+        "yes": 6
+      },
+      "no": {
+        "no": 85,
+        "yes": 2
+      }
+    },
+    "haas_correct_surface_without_reading": {
+      "first_pass": 3,
+      "combined_text": 33
+    }
+  }
+}

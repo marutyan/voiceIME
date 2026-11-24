@@ -1,0 +1,21 @@
+== haas-ja-v1.0-speechcpp-q8_0 21:38:03
+50件をruns/multiasr-metal/single/haas-ja-v1.0-speechcpp-q8_0.jsonlへ書いた
+== qwen3-asr-0.6b-bf16 21:38:11
+50件をruns/multiasr-metal/single/qwen3-asr-0.6b-bf16.jsonlへ書いた
+== qwen3-asr-0.6b-8bit 21:38:43
+50件をruns/multiasr-metal/single/qwen3-asr-0.6b-8bit.jsonlへ書いた
+== qwen3-asr-0.6b-4bit 21:39:06
+50件をruns/multiasr-metal/single/qwen3-asr-0.6b-4bit.jsonlへ書いた
+== qwen3-asr-1.7b-bf16 21:39:24
+50件をruns/multiasr-metal/single/qwen3-asr-1.7b-bf16.jsonlへ書いた
+== qwen3-asr-1.7b-8bit 21:40:37
+50件をruns/multiasr-metal/single/qwen3-asr-1.7b-8bit.jsonlへ書いた
+== qwen3-asr-1.7b-4bit 21:41:24
+50件をruns/multiasr-metal/single/qwen3-asr-1.7b-4bit.jsonlへ書いた
+== whisper-large-v3-turbo 21:41:58
+50件をruns/multiasr-metal/single/whisper-large-v3-turbo.jsonlへ書いた
+== whisper-large-v3-turbo-q8 21:42:42
+50件をruns/multiasr-metal/single/whisper-large-v3-turbo-q8.jsonlへ書いた
+== whisper-large-v3-turbo-q4 21:43:23
+50件をruns/multiasr-metal/single/whisper-large-v3-turbo-q4.jsonlへ書いた
+== done 21:44:03

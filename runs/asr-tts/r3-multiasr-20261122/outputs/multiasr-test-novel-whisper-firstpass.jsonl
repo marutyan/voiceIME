@@ -1,0 +1,500 @@
+{"id": "novel-000001", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、ハイパーパラメーターの探索範囲を変更した。特にエンベット層の次元数を調整して精度を確認する。", "latency_s": 14.891494422918186}
+{"id": "novel-000002", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "R-Value Referenceを使ったときのエラーハンドリングについて、適切な実装方法を教えてください。", "latency_s": 14.891494422918186}
+{"id": "novel-000003", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのGoogleパブリックDNSを設定する手順書を作っておいて", "latency_s": 14.891494422918186}
+{"id": "novel-000004", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、このファイルはRyzen 3の環境で2回ほど動作確認済みです", "latency_s": 14.891494422918186}
+{"id": "novel-000005", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのジナの論文の、えー、査読コメントへの対応、終わりました。", "latency_s": 14.891494422918186}
+{"id": "novel-000006", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、PD to Date Timeの箇所で、えっと、ビルドが通らない状況です。", "latency_s": 14.891494422918186}
+{"id": "novel-000007", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "コスト削りたいしストレージの容量をテビバイト単位で確認して不要なログを消して古いスナップショットを削除してインスタンスタイプを下げよう", "latency_s": 14.891494422918186}
+{"id": "novel-000008", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、サブスクの見直ししたいから、あのDGX-H100の利用料、ライセンス更新便、月々の支配ラキをまとめてリスト化しろ。", "latency_s": 14.891494422918186}
+{"id": "novel-000009", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ネットワークの設定なんだけど、あの、イベントブリッジバスの、えー、接続先を10.0.1.5から、うーん、10.0.2.0に変更して、あの、疎通確認を、えーと、今日中にやってほしいんだけど、お願いできるかな?", "latency_s": 15.88440595800057}
+{"id": "novel-000010", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "このファイルフォルダに訂正でWOLEDのディレクトリに入れてステップバイステップで説明して", "latency_s": 15.88440595800057}
+{"id": "novel-000011", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、スタックとアーワーグラスネットワークの学習率、あの、もう少し下げて探索。", "latency_s": 15.88440595800057}
+{"id": "novel-000012", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、このOCアイランタイムのバックアップ設定2回回して、まあ確認してください。", "latency_s": 15.88440595800057}
+{"id": "novel-000013", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、在宅の環境を整えたんですよ。まあ、デスクを買い替えたじゃなくて、配置を変えたのと、その27インチのモニターを2台にしたのと、えー、アレクサスキルズキットで自作した定型文を導入した、あの、この3つでかなり効率上がりました。", "latency_s": 15.88440595800057}
+{"id": "novel-000014", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、K-Meansの評価スクリプト、そのバグったので修正っていうかもう全部直して、データの読み込みを修正して、そのログ出力を追加して、計算時間を短縮。これで完了。", "latency_s": 15.88440595800057}
+{"id": "novel-000015", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー依存関係をコンパイルオンリーにしてたらあのテストが落ちちゃいました", "latency_s": 15.88440595800057}
+{"id": "novel-000016", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、先日お話ししておりましたネットワーク構成の設定についてですが、スカドのシステムとの連携を優先し、冗長化構成を検討しております。詳細な設計書につきましては、来週の月曜日までにお送りいたしますので、ご確認いただけますでしょうか。", "latency_s": 15.88440595800057}
+{"id": "novel-000017", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "レビューの指摘いただいた件ですが確かにその部分は考慮が足りませんでしたテスティファイを使った検証コードを10箇所くらい修正して改めてプルリクエストを出すようにしますご指摘ありがとうございます", "latency_s": 14.601069350959733}
+{"id": "novel-000018", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、ログの調査についてですが、あの、えっと、オープンシフトのその4番のノードで、エラーが頻発しているようです。まあ、至急確認をお願いいたします。", "latency_s": 14.601069350959733}
+{"id": "novel-000019", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、Garmin 4Runner 965の設定方法なんですけど、うーん、まだ、あの、ワークインプログレスなので、まあ、後で教えますね。", "latency_s": 14.601069350959733}
+{"id": "novel-000020", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ラストリグレッションの…の再現実験で、数値が…数値が合いません。", "latency_s": 14.601069350959733}
+{"id": "novel-000021", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "バグの調査をしましたが、Shared Preferencesの書き込みタイミングに問題があるようです。修正して再度共有します。", "latency_s": 14.601069350959733}
+{"id": "novel-000022", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの指キー5の認証がうまくいかないみたいです", "latency_s": 14.601069350959733}
+{"id": "novel-000023", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ワンドライブのログを調査しております。", "latency_s": 14.601069350959733}
+{"id": "novel-000024", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "再現実験で数値が合わないトーチマックスの引数の順序が0.1違う気がする", "latency_s": 14.601069350959733}
+{"id": "novel-000025", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あーえーと、あの、iPARF3のまあログ見て、うーん、オントラックって感じかな。", "latency_s": 14.972150637069717}
+{"id": "novel-000026", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えっと、まあ、DEIのそのサブスクプランを見直した。", "latency_s": 14.972150637069717}
+{"id": "novel-000027", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ホットポットQAの学習が全然収束しないですね。学習率が高すぎるのかもしれませんし、データセットの作り方を確認してみます。", "latency_s": 14.972150637069717}
+{"id": "novel-000028", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新機能の実装にプレイライトエクストラを使いたいんだけど、導入していいかな。", "latency_s": 14.972150637069717}
+{"id": "novel-000029", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、サーバー増強してアンシーSQLのクエリ速度を、あの、上げる。まあ、メモリが足りないからだ。", "latency_s": 14.972150637069717}
+{"id": "novel-000030", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、WCAG2.0のガイドラインに沿ったチェックリストを共有しますね。", "latency_s": 14.972150637069717}
+{"id": "novel-000031", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあのなんか新しい手法のえーとガウスザイデル法をあの調べてみたんだけどうーん今のモデルに組み込むには2割くらい精度が落ちるかも", "latency_s": 14.972150637069717}
+{"id": "novel-000032", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、イメージネットハードの評価スクリプトにバグあり、正解ラベルを、ごめん、間違えた予測ラベルを読み込んでいたため、精度が低く出た。あの、インデックスの指定ミス。まあ、修正後は正常に動作。うーん、確認不足だった。", "latency_s": 14.972150637069717}
+{"id": "novel-000033", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、デプロイを自動化したいです。Azure VPN Gatewayの設定、仮想ネットワークの構築、それと権限の割り当てをまとめて行うスクリプトを書いてください。", "latency_s": 14.011325907893479}
+{"id": "novel-000034", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ファイルの共有設定をした。あの共有フォルダの作成、まあ権限の変更、そのRTX3060を搭載したサーバーのパス設定、えーと、あと3つのディレクトリの同期を完了した。", "latency_s": 14.011325907893479}
+{"id": "novel-000035", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、最近出た手法を調査しました。シグモイドレイヤーを2層使う方法で、精度が5%上がります。", "latency_s": 14.011325907893479}
+{"id": "novel-000036", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、UIエレメントの座標取得を10回繰り返す。これでいいか。後で相談だ。", "latency_s": 14.011325907893479}
+{"id": "novel-000037", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、新しいパソコン、えっと、レノボタブを買おうと思ってるんだけど、まあ、画面サイズが、あ、いや、解像度が気になってて、その、あっちのモデルの方が、うーん、コスパいいかなって、あの、どう思う?", "latency_s": 14.011325907893479}
+{"id": "novel-000038", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ログの調査したんだけど、えー、原因はその、HTTP10の挙動、それから、タイムアウト設定、あと認証エラーの3つが怪しいかも。まあ、確認してみて。", "latency_s": 14.011325907893479}
+{"id": "novel-000039", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えー、スマホのその設定で、うん、VP-GONをえっと、一つ、あの、有効にしてみたら", "latency_s": 14.011325907893479}
+{"id": "novel-000040", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "査読コメントへの対応についてご連絡いたします。評価指標として、あ、違う。追加の分析として、ロックオークの曲線をグラフに盛り込み、精度が向上したことを明確に示したいと考えております。ご確認いただけますでしょうか。", "latency_s": 14.011325907893479}
+{"id": "novel-000041", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ライブラリのバージョンをバージョンを上げたあのテストコードのアサートイズをいやアサートイズの使い方を修正した", "latency_s": 14.62878297897987}
+{"id": "novel-000042", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、Amazon DocumentDBのその、付加試験ですが、えー、現状は、あの、オントラックで進んでおります。", "latency_s": 14.62878297897987}
+{"id": "novel-000043", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デプロイの自動化にイスティオアンビエントメッシュを導入して検証する", "latency_s": 14.62878297897987}
+{"id": "novel-000044", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えーと、なんか、USB MIDIの、その、ケーブルが、えー、どっちだったっけ?あっ、あれ、貸してくれるかな?", "latency_s": 14.62878297897987}
+{"id": "novel-000045", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、評価スクリプトのスクリプトの挙動がおかしい。ファストチャットのファストチャットの出力形式が想定と想定と違うせいでバグってるっぽい。あ、でもネバーマインドただのパス指定ミスだった。今直した。", "latency_s": 14.62878297897987}
+{"id": "novel-000046", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、リアクトツールチップのあたりリファクタリングしたいんですけど、あの、一旦はアズイズでそのまま進めて大丈夫ですかね?", "latency_s": 14.62878297897987}
+{"id": "novel-000047", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、社内の手順書に、あのAzure AI Form Recognizerの使い方を詳しく書き足しておきますね。", "latency_s": 14.62878297897987}
+{"id": "novel-000048", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ピコフォーの設定画面で画面の明るさを10から20に変更する機能を実装", "latency_s": 14.62878297897987}
+{"id": "novel-000049", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "片エラーがミングWの環境でだけ出ているみたいです", "latency_s": 14.882187196053565}
+{"id": "novel-000050", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、社内向けの手順書についてですが、その、GitHub Enterpriseの、ぎ、ぎ、利用方法を、ごめん、間違えた、設定方法をまとめました。あの、内容は、まずアカウントの作成、次にリポジトリの権限設定、それと二要素認証の有効化の3点です。えー、ご確認をお願いします。", "latency_s": 14.882187196053565}
+{"id": "novel-000051", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えーと、新しいパソコンのその購入についてですが、まあ、マウスはG-Pro X Super Liteのあの最新モデルを1台お願いしたいです。", "latency_s": 14.882187196053565}
+{"id": "novel-000052", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのテストがその落ちる件ですが、原因はバベルコーのバージョンだと思います。まあ14からいや15にあげたらあの解消されるかもしれません。えー今のところ3つのテストケースでそのエラーが出ています。", "latency_s": 14.882187196053565}
+{"id": "novel-000053", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのー、締め切り近いから、まあ、8bit ADAMを導入してメモリを節約した。", "latency_s": 14.882187196053565}
+{"id": "novel-000054", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ビルドが通らなくて、えーと、Apacheライセンス2.0のライセンス表記を確認して、一回お願いできますか。", "latency_s": 14.882187196053565}
+{"id": "novel-000055", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ねぇ、社内向けの手順書を書いてるんだけど、今のネットワーク構成のところ、IPOEの設定方法をどう書けばいいか迷ってるんだよね。詳しい人に聞きたいけど、誰が一番知ってるかなぁ。適当に書いて後で直されるよりは最初から正確に書きたいし。", "latency_s": 14.882187196053565}
+{"id": "novel-000056", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サブスクの料金プランを見直し、あの、USB-C to USB-A半管アダプタの購入費用を経費処理に含める。", "latency_s": 14.882187196053565}
+{"id": "novel-000057", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、INIの書き方を、えーと、まあ、相談したい。コードの構成を、構成を直したい。", "latency_s": 14.732094334904104}
+{"id": "novel-000058", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "バックアップから復旧させる作業って本当に神経使うよねあのもしBGP排除菌みたいな攻撃を受けて経路を乗っ取られた時にどうやって迅速に正常な状態に戻すかっていうシナリオを考えてたんだけどやっぱり検証環境でしっかり試さないと不安だわ", "latency_s": 14.732094334904104}
+{"id": "novel-000059", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、アピアランスフィーチャーを使った新しい手法の調査結果を、そのまとめ、まとめた。10個くらいの論文を確認した。", "latency_s": 14.732094334904104}
+{"id": "novel-000060", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのここのちゃんの方がそのあ、あってない気がするここをここを修正した方がいいと思うよ", "latency_s": 14.732094334904104}
+{"id": "novel-000061", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、在宅の環境で、リムジカルを使って3枚くらいホワイトボードを作りました。後で共有しますね。", "latency_s": 14.732094334904104}
+{"id": "novel-000062", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "VPCC-NIの権限設定を変更いたしましたお手数ですが1回だけ再起動してご確認をお願いいたします", "latency_s": 14.732094334904104}
+{"id": "novel-000063", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、Sovis Nowのその設定、設定を修正。", "latency_s": 14.732094334904104}
+{"id": "novel-000064", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、データベース以降に活拍式マレジストリを使う。まあ、検証が必要だ。", "latency_s": 14.732094334904104}
+{"id": "novel-000065", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共有いただいた資料を確認いたしました。マネーフォワードクラウドの請求データである3件のファイルを明日までに返信いたします。", "latency_s": 15.240993826882914}
+{"id": "novel-000066", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、打ち合わせの件だけど、プロットリエクスプレスでグラフを作る、軸のラベルを変える、色を調整する、この辺りをやっておいて、ノープロブレムでお願い。", "latency_s": 15.240993826882914}
+{"id": "novel-000067", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、パフォーマンス改善についてのご提案です。現在の実装では、コーダブルによるシリアライズに時間がかかっており、処理時間が平均して2秒ほど発生しています。これを最適化することで、応答速度を0.5秒まで短縮できる見込みです。ご確認いただけますでしょうか。", "latency_s": 15.240993826882914}
+{"id": "novel-000068", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、バックアップの処理についてですが、まずは単純なコピーを検討していました。ていうか、やっぱりFoundationDBの標準機能を使ったバックアップの方が、復旧時の整合性が担保されるので安全だと思います。まあ、その方が実装も簡単ですしね。", "latency_s": 15.240993826882914}
+{"id": "novel-000069", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、在宅での開発環境にメタAIのツールを導入してみる。あの、効率が上がるか検証だ。", "latency_s": 15.240993826882914}
+{"id": "novel-000070", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "来週から、来週から大きな実験を回したいんですけど、計算資源が足りなくて、あ、あの、トーチNNリニアの層を、層をめちゃくちゃ増やしたモデルを試したいので、サーバーの枠を、枠をもう少し確保できないか相談したいです。", "latency_s": 15.240993826882914}
+{"id": "novel-000071", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、先日ご相談したパフォーマンスの件ですが、UITAP Gesture Recognizerの処理を見直すことで、あの、応答速度を改善できると考えております。", "latency_s": 15.240993826882914}
+{"id": "novel-000072", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのグラッドTTSの結果を可視化したらなんか2回2回試行して0.1秒くらい差が出たんだよね", "latency_s": 15.240993826882914}
+{"id": "novel-000073", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、データベースの移行は、来週の15日にやっぱり16日にしましょう。Azure IoT Edge側の設定変更も必要なので、あの、時間に余裕を持たせたいです。", "latency_s": 14.927931842859834}
+{"id": "novel-000074", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、この部分はあのQuick Drawの論文で提案されていた手法を参考に実装すると、より効率的になると思います。", "latency_s": 14.927931842859834}
+{"id": "novel-000075", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ゴーレディスのバージョン更新、フェアエナフですね。対応します。", "latency_s": 14.927931842859834}
+{"id": "novel-000076", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのさインコグニートのプランなんか今のままだと高すぎる気がしてさあのもうちょっと安いやつに見直した方がいいんじゃないかなって思うんだよね", "latency_s": 14.927931842859834}
+{"id": "novel-000077", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、TensorFlow.jsで、まあ、データを8割と2割に分割して検証したいと思ってます。", "latency_s": 14.927931842859834}
+{"id": "novel-000078", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えっと、ジャンゴORMのクエリをまあ、一回にまとめて、3回分くらいの処理を最適化した。", "latency_s": 14.927931842859834}
+{"id": "novel-000079", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、AWSSの設定ファイルを、いや、移行スクリプトを作成してもらえますか?", "latency_s": 14.927931842859834}
+{"id": "novel-000080", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "LTVの算出ロジックについてご確認をお願いいたします", "latency_s": 14.927931842859834}
+{"id": "novel-000081", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、オブジェクトクエリを100個、ごめん間違えた、50個にする。あのー、まあ、これでグッジョブだ。", "latency_s": 14.49920107703656}
+{"id": "novel-000082", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "スターレットのバグを調査。原因として、タイムアウト設定が30秒と短すぎる。いや、10秒だった。メモリリークが発生している。リクエストヘッダが壊れている。の3点が考えられる。ログを確認したところ、10秒で切れているのが正解だ。", "latency_s": 14.49920107703656}
+{"id": "novel-000083", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ハイパーパラメータの探索を回して、あの、SyncBNを使う訂正で使わない設定で、えー、バッチサイズを調整して試してくれ。", "latency_s": 14.49920107703656}
+{"id": "novel-000084", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "レビューの指摘通りにイントポインタのキャスト処理を修正し、メモリリークの可能性があった箇所を2箇所修正。", "latency_s": 14.49920107703656}
+{"id": "novel-000085", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとあのイメージを軽量化してまあTLBフロシの不要な依存関係を削除", "latency_s": 14.49920107703656}
+{"id": "novel-000086", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、アノテーションの品質を上げるために、あ、違う、確認するために、ラベルの不整合、ガイドラインの再周知、それとサンプリングの再実施をお願いします。あの、ハギグフェイスアクセラレートの設定も合わせて見直してください。", "latency_s": 14.49920107703656}
+{"id": "novel-000087", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "パフォーマンス改善のためにセントリーリプレイを導入してボトルネックを特定したいと考えております", "latency_s": 14.49920107703656}
+{"id": "novel-000088", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとSHM1リンクのその第1引数の型を修正まあ1箇所だけ変更した", "latency_s": 14.49920107703656}
+{"id": "novel-000089", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、スマートフォンの画面設定でHDR10プラスを有効にする方法をステップバイステップで教えて。", "latency_s": 14.999866653000936}
+{"id": "novel-000090", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、COMBNEXT V2をベースラインと比較した結果、精度は上がったけど、計算コストが、あの、増えてる。具体的に確認すべき点は、推論速度の低下、メモリ使用量の増加、それに学習の収束までのステップ数の3点。", "latency_s": 14.999866653000936}
+{"id": "novel-000091", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デイトFNSのその実装をリファクタリングした。共通関数を共通関数を一つにまとめてコードを簡素化した。", "latency_s": 14.999866653000936}
+{"id": "novel-000092", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "手順書のその内容を更新。Makes.ext4の実行手順を追加、注意書きを修正、最後に確認コマンドを追記。", "latency_s": 14.999866653000936}
+{"id": "novel-000093", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "チームで使うツールを決めたいから、HDR10に対応しているライブラリを3つくらいリストアップして、遺体教師を作って、", "latency_s": 14.999866653000936}
+{"id": "novel-000094", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "GPT-1のそのその性能を0.1秒単位で計測結果は想定以下", "latency_s": 14.999866653000936}
+{"id": "novel-000095", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "さっきの型エラー、結構ハマったわ。あの、オニオンアーキテクチューで層を分けてたから、依存関係が複雑になってて、どこで型が変わったか全然わからなかった。ええ、結局インターフェースの定義が漏れてただけだったんだけどね。", "latency_s": 14.999866653000936}
+{"id": "novel-000096", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "へぇ、あの、Azure App Service Environmentの、まあ、イメージをその最適化して、えーと、サイズを削減。", "latency_s": 14.999866653000936}
+{"id": "novel-000097", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、トヨタさんのその、その会議ツールが、あの調子悪いみたいですね。接続が、接続が頻繁に切れるので確認をお願いします。", "latency_s": 14.768682088004425}
+{"id": "novel-000098", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、依存関係が衝突しちゃってるみたい。まあ、タイムゾーンの設定が、その、違うせいかも。へー、後で一緒に確認してくれる?", "latency_s": 14.768682088004425}
+{"id": "novel-000099", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、権限設定を修正。具体的には、リストへのLプッシュ操作を制限して、不正な書き込みを防ぐように変更。あと、ログ出力の権限も一部見直した。", "latency_s": 14.768682088004425}
+{"id": "novel-000100", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、クロードAPIの使い方を教えて欲しいんだけど、1回に送れる量って、えーと、どのくらいだったっけ?", "latency_s": 14.768682088004425}
+{"id": "novel-000101", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "可視化の剣、インプットグラディエントを使って、あのヒートマップにしてみたよ。へぇ、結構いい感じに出てると思う。", "latency_s": 14.768682088004425}
+{"id": "novel-000102", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、クラウド費用高いな。あのナットゲートウェイを削減して、コストっていうか構成を見直して安くしたい。", "latency_s": 14.768682088004425}
+{"id": "novel-000103", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "スマートフォンの設定についてですが、Opera GXをインストールして、一回一回再起動をお願いいたします。", "latency_s": 14.768682088004425}
+{"id": "novel-000104", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "本番の障害の件でインクルードサブドメインズをシンに設定した", "latency_s": 14.768682088004425}
+{"id": "novel-000105", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "設定画面の項目をボタンじゃなくてサムスンファウンドリの仕様に合わせてチェックボックスにしてください", "latency_s": 14.040058269165456}
+{"id": "novel-000106", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "KDの結果を2回分表にまとめてBy the way元のデータもつけて", "latency_s": 14.040058269165456}
+{"id": "novel-000107", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "例のバグの件だけど、えっと、フロントエンドからポストメッセージを送ったタイミングで、あの、タイミングによってサーバー側でデータが壊れてるっぽいんだよね。まあ、再現手順をまとめたから、後で時間があるときに確認してもらえるかな。", "latency_s": 14.040058269165456}
+{"id": "novel-000108", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ストレージコスト削減のため、MTFS3Gを利用している古いマウント設定を削除し、新しいプランへ移行する。", "latency_s": 14.040058269165456}
+{"id": "novel-000109", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、Fusion360の設計データをチームで共有したいあの、権限管理が、うーん、ちょっと複雑そうなので共有フォルダ経由で運用するのが効率的だ", "latency_s": 14.040058269165456}
+{"id": "novel-000110", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、推論の、推論の拘束化をしたいんだけど、あのー、今のままだとなんか0.5秒くらいかかってて、えーちょっと遅いかなって、論文を、論文をゾテロで集めてみたんだけど、その、量子化を試した方がいい気がする。", "latency_s": 14.040058269165456}
+{"id": "novel-000111", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あのー、そのFCMHTT-TVV-1をえーと、2.0に、いや3.0に更新した", "latency_s": 14.040058269165456}
+{"id": "novel-000112", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、在宅勤務用にBYDの車で通勤できる環境を整えたいから、おすすめのルートを調べてくれ。", "latency_s": 14.040058269165456}
+{"id": "novel-000113", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、学習が全然収束しなくて、あいや、ロスが下がらないから、デプスワイズセパラブルコンブの構造を見直した。", "latency_s": 13.888068424072117}
+{"id": "novel-000114", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの指摘の指摘の通りにタグドテンプレートを修正した", "latency_s": 13.888068424072117}
+{"id": "novel-000115", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、不可試験のために、あのAzure Key Vaultから、えーと、本番の、あ、違う、テスト用の鍵をその、あの、取得するようにした。", "latency_s": 13.888068424072117}
+{"id": "novel-000116", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、チームで使うツールを検討。あの、H100SXMを積んだサーバーが使えるなら、今の構成で十分。", "latency_s": 13.888068424072117}
+{"id": "novel-000117", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのこのこのポズネットのまあ評価スクリプトなんですけどそのあ、あ、あのバグがあるみたいで結果が正しく出ないです", "latency_s": 13.888068424072117}
+{"id": "novel-000118", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あの、お世話になっております。えっと、その、コトリンコルーチンの、あの、依存関係で衝突が起きているようで、ご確認いただけますでしょうか。", "latency_s": 13.888068424072117}
+{"id": "novel-000119", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サーバーを、サーバーを増強したいから、AWS Systems Manager Runコマンドを使って、インスタンスのタイプを、タイプを上げてくれ。あと、設定ファイルを、設定ファイルを更新して、再起動まで全部自動でやるスクリプトを書いて。", "latency_s": 13.888068424072117}
+{"id": "novel-000120", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Intel UHD Graphicsと専用のビデオカードをどういう基準で使い分ければいいか教えていただけますか。", "latency_s": 13.888068424072117}
+{"id": "novel-000121", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、データの拡張じゃなくて、前処理を、前処理をクリエイトMLでやりたいんですけど、いいですかね。", "latency_s": 14.766742339124903}
+{"id": "novel-000122", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、タイプコンピュージョンによる脆弱性を修正して、パフォーマンスを改善いたしました。", "latency_s": 14.766742339124903}
+{"id": "novel-000123", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ああ、コンテナイメージを、イメージを小さくしたいんだけど、ベースイメージを、ベースイメージを軽量なやつに変えればいいかな。あ、やっぱり、Google Kubernetes Engineの、その、最適化設定を、設定を先に調べた方が効率いいかも。", "latency_s": 14.766742339124903}
+{"id": "novel-000124", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、締め切りがあの、あと2日なので、まあ、Netflixプライズのそのベースラインを3回、あ違う、5回回して、えー、結果を修正。", "latency_s": 14.766742339124903}
+{"id": "novel-000125", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、お疲れ様です。アットレイヤーの使い方のドキュメントについて、概要、設定方法、そして具体的な事例の3点を整備していただけますでしょうか。", "latency_s": 14.766742339124903}
+{"id": "novel-000126", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、サブスクの月額費用が1500円。あの、高い気がする。フリーシンク対応のモニター、まあ、買い替え時に検討。", "latency_s": 14.766742339124903}
+{"id": "novel-000127", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学習が、学習が収束しない、QN2.5VLのその、そのハイパーパラメータを見直す必要あり。", "latency_s": 14.766742339124903}
+{"id": "novel-000128", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サーバーのスペックを上げる必要があると考えています。そのCPUの増強じゃなくて、メモリの増設をまず検討したいです。コストエクスプローラーで予算を確認して、改めてご連絡します。", "latency_s": 14.766742339124903}
+{"id": "novel-000129", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学習が全然収束しないけど、多分エクストリンジックマトリックスの計算が0.1秒くらいずれてるのが原因だと思うな。", "latency_s": 15.191901469836012}
+{"id": "novel-000130", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新機能実装のためSQL Alchemy ORMを導入そのモデル定義を書き直し", "latency_s": 15.191901469836012}
+{"id": "novel-000131", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、Googleアーティファクトレジストリから、えっと、バックアップを復旧させていただけますか。", "latency_s": 15.191901469836012}
+{"id": "novel-000132", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新製品のページにあのイメージオプティムで圧縮した画像を適用", "latency_s": 15.191901469836012}
+{"id": "novel-000133", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ベースラインと比較して、あのギブスサンプリングを用いた手法の方が、まあ精度が高い結果になっていますね。", "latency_s": 15.191901469836012}
+{"id": "novel-000134", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、バグ調査してほしいんだけど、オブジェクトマッパーの、そのオブジェクトマッパーの設定を確認してログを出して、あとは、あとは再現水準をまとめてくれる?", "latency_s": 15.191901469836012}
+{"id": "novel-000135", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのイメージを小さくするために、SRVレコードの記述を整理した方がいいと思います。", "latency_s": 15.191901469836012}
+{"id": "novel-000136", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、開発環境の構築で全文検索ライブラリにFuse.jsを採用してみる。まあ、導入が簡単そうだからだ。", "latency_s": 15.191901469836012}
+{"id": "novel-000137", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、バックアップからの復旧手順ですが、えっと、ベイグラントVMwareユーティリティの設定を確認した方がいいと思います。", "latency_s": 15.770744137931615}
+{"id": "novel-000138", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのー、ラバーインストラクトのそのデータの前処理を、まあ、やり直したいんですけど、えー、拡張の方法について相談させてください。", "latency_s": 15.770744137931615}
+{"id": "novel-000139", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのこの書き方でいいか、いいか迷ってるんだけど、えーと、一旦カーゴーフェッチを、カーゴーフェッチを試してみればいいかな。", "latency_s": 15.770744137931615}
+{"id": "novel-000140", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、権限を管理者に、じゃなくて閲覧者に設定して、空名切り料理グゼクシックで確認してください。", "latency_s": 15.770744137931615}
+{"id": "novel-000141", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、今度の新製品にジェットソンなのを使う予定なんですが、あの、性能的に足りるかちょっと心配ですね。", "latency_s": 15.770744137931615}
+{"id": "novel-000142", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあのうんえっとまあサマリライターの2箇所を修正", "latency_s": 15.770744137931615}
+{"id": "novel-000143", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのバグの調査をしたんですけど、原因はアパチハイブのバージョンが2.3だった、訂正で3.1だったことによる不整合みたいです。ええ、これを直すのに3時間くらいかかったので、かなり疲れました。", "latency_s": 15.770744137931615}
+{"id": "novel-000144", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、先日の共同研究者との打ち合わせで出た要望を反映させました。特にレイテントコンシステンシーモデルを使った高速化の部分について、実装方針を修正したので確認をお願いします。あのー、詳細についてはコメントに追記しておきました。", "latency_s": 15.770744137931615}
+{"id": "novel-000145", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えっと、パイシリアルのバージョンを更新した方がいいです。まあ今のままだと動かないかもしれません。", "latency_s": 15.931583842961118}
+{"id": "novel-000146", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあのーえっとそのーまあカオスモンキーの設定を今すぐ変えてくれ", "latency_s": 15.931583842961118}
+{"id": "novel-000147", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "最近出た新しいパソコン買ったんだけど、えー、処理速度がすごくてびっくりしてる。あのマイクロチップの性能が上がってるんだろうね。まあ、設定に時間はかかったけど、オールライト完璧に動作してるよ。えっと、今度見せに行くね。", "latency_s": 15.931583842961118}
+{"id": "novel-000148", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "へえ、ビルドが通らなくて困っています。あの、スプリンググラフQLの依存関係を更新したところ、エラーが3件出ました。えっと、設定ファイルの15行目あたりに原因がありそうですが、その、どう修正すべきかアドバイスをいただけますか。", "latency_s": 15.931583842961118}
+{"id": "novel-000149", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "アパッチプレスとの接続、ポート8080で通らないんだけど。", "latency_s": 15.931583842961118}
+{"id": "novel-000150", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのGoogleケリンダーの予定が、えっと、2時からに変わりました。", "latency_s": 15.931583842961118}
+{"id": "novel-000151", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "データセットを訓練用と検証用に分割するコードを書いて、その時、トークンパーセカンドを計算する関数も一緒に実装してくれ。", "latency_s": 15.931583842961118}
+{"id": "novel-000152", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、Spring Data Elastic Searchのクエリを最適化しましょう。あ、いや、ここをエクションアイテムとして残しますね。", "latency_s": 15.931583842961118}
+{"id": "novel-000153", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのベースイメージをその軽量なものに変更して イメージサイズをサイズを削減まあそれと えっと icmp フラットのその対策設定を設定を なんか追加したという修正", "latency_s": 15.790140735916793}
+{"id": "novel-000154", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、WH1000XM5の設定ですね。まずノイズキャンセリングをオンにする。次に適応型サウンドコントロールをオフにする。あとイコライザーを調整する。の3点を確認してください。", "latency_s": 15.790140735916793}
+{"id": "novel-000155", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、そのガウシアンプロセスの最新の論文を調査。", "latency_s": 15.790140735916793}
+{"id": "novel-000156", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、マニフェストジェイソンを消して、ごめん、間違えた、パスを直してほしいな。", "latency_s": 15.790140735916793}
+{"id": "novel-000157", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、環境構築に3時間、あ、違う、2時間くらいかかったわ。ナノイディの導入でハマってさ。", "latency_s": 15.790140735916793}
+{"id": "novel-000158", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、デプロイ自動化のフローを、あの、オープンサーチダッシュボードで可視化。要検討。", "latency_s": 15.790140735916793}
+{"id": "novel-000159", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、アノテーションの質が、あの、かなりバラついてるね。まあ、H100NVLで回す前に、もう一度チェックした方がいいかも。", "latency_s": 15.790140735916793}
+{"id": "novel-000160", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのパフォーマンス改善のため、まあ、シストステレタイブスラッシュを追加、えー、出力の遅延を修正。", "latency_s": 15.790140735916793}
+{"id": "novel-000161", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "インテルアークを利用した環境でのサブスクリプション費用を最適化したいですプランの見直し案を提案してください", "latency_s": 16.20711722318083}
+{"id": "novel-000162", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えーと、マグニチュードベースプルーニングの実験結果を、なんか可視化して共有してもらえるかな?", "latency_s": 16.20711722318083}
+{"id": "novel-000163", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "お疲れ様です。エラーハンドリングの修正についてですが、コレクトアズステートウィズライフサイクルを導入することで、メモリリークのリスクを軽減できると考えております。具体的には3カ所ほどの修正が必要になりますので、ご確認をお願いいたします。", "latency_s": 16.20711722318083}
+{"id": "novel-000164", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、社内向けの手順書だけど、レディスソートセットの使い方を…あ、いや、設定方法を書いておいたから見ておいて。", "latency_s": 16.20711722318083}
+{"id": "novel-000165", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "家の、家のマシン、ライゼンスレッドリッパーにしたから、爆速だよ。", "latency_s": 16.20711722318083}
+{"id": "novel-000166", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あの、まあ、学習へと収束しなくて、うーん、LRスケジューラタイプを0.1に変更して修正。", "latency_s": 16.20711722318083}
+{"id": "novel-000167", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、まあ、ここ、なんか、GitDescribe使って、えー、書いていいかな。", "latency_s": 16.20711722318083}
+{"id": "novel-000168", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのーえーとまあアーゴイベントのなんかイメージサイズをえーもっと小さくするためのあの設定を教えてください", "latency_s": 16.20711722318083}
+{"id": "novel-000169", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、計算機の選定ですが、まあ、RTX8000を導入するのが、あのー、一番現実的だと思います。", "latency_s": 16.20885244407691}
+{"id": "novel-000170", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ベースラインとの比較の結果が出ました。あのガウスニュートン法を適用した方が収束がかなり早くなっていますね。", "latency_s": 16.20885244407691}
+{"id": "novel-000171", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えっとまぁ、Next Oath.jsの設定、終わりました。", "latency_s": 16.20885244407691}
+{"id": "novel-000172", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとスコーディスティレーションのその再現実験をやってるんですが数値が数値が合いませんあ今の件はネバマイデです解決しました", "latency_s": 16.20885244407691}
+{"id": "novel-000173", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、車内向けの手順書についてですが、そのボルトPKIの設定方法を追記しておきましたので、ご確認いただけますでしょうか。", "latency_s": 16.20885244407691}
+{"id": "novel-000174", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのピクセルナインプロエクセルをプルーフオブコンセプトとして購入していいですかね", "latency_s": 16.20885244407691}
+{"id": "novel-000175", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "お疲れ様です。Spring MVCの依存関係で、衝突が起きております。確認すべき点は、ライブラリのバージョン、設定ファイルの記述、それから、ごめん間違えた、ビルドパスの設定の3点です。グッドポイントなご指摘をいただき、ありがとうございます。", "latency_s": 16.20885244407691}
+{"id": "novel-000176", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、クロッキファイが動かないので、通信ログの確認、キャッシュの削除、訂正で、再ログインの施行を修正。", "latency_s": 16.20885244407691}
+{"id": "novel-000177", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Deepseek Coder V2を0.5エポックだけ微調整します。", "latency_s": 17.073892808984965}
+{"id": "novel-000178", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの指摘されたAsyncIOGetイベントループの呼び出し箇所を修正", "latency_s": 17.073892808984965}
+{"id": "novel-000179", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、ネットワーク設定の件でご連絡いたしました。あのVMエージェントの通信許可設定が正しく行われていない可能性があるため、えーと、一度ご確認いただけますでしょうか。そのお手数をおかけしますがよろしくお願いいたします。", "latency_s": 17.073892808984965}
+{"id": "novel-000180", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ライオン5bの実験結果をグラフにして可視化して", "latency_s": 17.073892808984965}
+{"id": "novel-000181", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "片エラーが出るので、一旦ライブラリを入れ直す。やっていうか、ヤーノンルムーブで完全に消してから、2回インストールし直すのが正解だ。", "latency_s": 17.073892808984965}
+{"id": "novel-000182", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、あのー、サブスクの、そのー、見直しをしたいんですけど、えっと、月額3000円のプランを、いや、2000円のプランに、あのー、変更してもらえますか?モネロの支払いの件です。", "latency_s": 17.073892808984965}
+{"id": "novel-000183", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学会発表の発表の準備、統治マルチノミアルの引数を修正", "latency_s": 17.073892808984965}
+{"id": "novel-000184", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとここの関数ちょっと長すぎるから分けた方がいいかもあ、いや単純にリファクタリングするだけで10行くらい減ると思うあの忙しいと思うからTL、DR的に言うと過読性を上げたいってこと", "latency_s": 17.073892808984965}
+{"id": "novel-000185", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、そのクラウドの費用を削減したくて、あの、LSM3の最適化を検討しております。ご確認いただけますでしょうか。", "latency_s": 16.02587677584961}
+{"id": "novel-000186", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "このアプリ、使い方が、使い方がよくわからない。いや、3ページ目の説明を読めばいいんだな。TFTLCDの設定項目が2つあるところ。", "latency_s": 16.02587677584961}
+{"id": "novel-000187", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "パフォーマンス改善のためにディライブモアを導入して効率化を図りたいと考えております", "latency_s": 16.02587677584961}
+{"id": "novel-000188", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "まあ評価スクリプトにバグがあって、えーと、MAP at 0.5 0.9号が、なんか0.1くらい低く出ちゃってるんだよね。", "latency_s": 16.02587677584961}
+{"id": "novel-000189", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えー、そのVHDLの、えーと、まあ、処理速度上がったね。", "latency_s": 16.02587677584961}
+{"id": "novel-000190", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、サブスクのプラン、クリンのクリンのベーシックプランじゃなくて、プロプランに変更した方がいいと思います。", "latency_s": 16.02587677584961}
+{"id": "novel-000191", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "この、この推論部分だけど、ポテンシャルアウトカムズの計算を、おー、もっと最適化できると思うんだよね。今のままだと、だ、だとしても遅すぎるから、もうちょっと、もうちょっと効率的なアルゴリズムに書き換えてみてよ。", "latency_s": 16.02587677584961}
+{"id": "novel-000192", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、セレニウムワイヤーの、えー、型エラーが出てたところを、まあ、修正。えーと、前回のフォローアップとして、型の定義を適切に修正。", "latency_s": 16.02587677584961}
+{"id": "novel-000193", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "監視とアラートの設定についてですが、一旦このまま進めます。やっぱり、DNFアップデートの実行タイミングだけは、事前に相談させてください。", "latency_s": 15.477364203892648}
+{"id": "novel-000194", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ビッグクエリエメールで微調整するなら、学習率を0.01にする、バッジサイズを64にする、エポック数を10回に設定する、この3点を試してみてください。", "latency_s": 15.477364203892648}
+{"id": "novel-000195", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Android SDK Command Line Toolsの読み込みを2秒短縮", "latency_s": 15.477364203892648}
+{"id": "novel-000196", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ITXのその設定をスマホから変える方法を教えて。", "latency_s": 15.477364203892648}
+{"id": "novel-000197", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、アルパカGPT4の学習がその収束しなくて困ってますあの学習率が、学習率がやっぱり高すぎるのかもしれませんね", "latency_s": 15.477364203892648}
+{"id": "novel-000198", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの今回のコードの書き方なんですけどNPMワークスペースを使って管理しようと思うんですけどどう思いますかねディレクトリ構造をどう分けるのが正解なのかちょっと迷っていて", "latency_s": 15.477364203892648}
+{"id": "novel-000199", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、ビッシュードのその設定を、設定を修正?", "latency_s": 15.477364203892648}
+{"id": "novel-000200", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのFCレイヤーのユニット数を調整して、ハイパーバラメータの探索を回した。", "latency_s": 15.477364203892648}
+{"id": "novel-000201", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "バグの原因を調べるために、Proof of Workのロジックを確認して、ログを保存して検証環境で再現させてください。", "latency_s": 15.866856537992135}
+{"id": "novel-000202", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デプロイの自動化アパッチアイスバーグを導入して効率化を図る方向で", "latency_s": 15.866856537992135}
+{"id": "novel-000203", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "先ほどお話ししたマリーG7イルツローの使用書ファイルを共有させていただきますご確認いただけますでしょうか", "latency_s": 15.866856537992135}
+{"id": "novel-000204", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "調査の結果、文号ドライバーの設定ミス…じゃなくて、バグが原因であることが判明いたしました。詳細をご報告します。", "latency_s": 15.866856537992135}
+{"id": "novel-000205", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "クラウド費用が高すぎるコラボエンタープライズから無料枠のプランへ移行してコスト削減を検討", "latency_s": 15.866856537992135}
+{"id": "novel-000206", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ライトGCNの発表20分訂正で15分でハッピーパスだけ話すわ", "latency_s": 15.866856537992135}
+{"id": "novel-000207", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、RPI10機用のその、そ、その制御であのエラーが出た。例外をキャッチして、うん、再試行する処理を、処理をまあ入れる必要がある。えっと、今のままだとシステムが止まる。", "latency_s": 15.866856537992135}
+{"id": "novel-000208", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、AWSグルーデータカタログの設定をいじってたんだけど、えーと、権限周りでちょっと詰まってるんだよね。まあ、急ぎじゃないしロープライオリティでいいと思うけど、あの、誰か空いてるときに見てほしいな。", "latency_s": 15.866856537992135}
+{"id": "novel-000209", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サブスク見直して、MetaQuest Proのプランとストレージのプラン、あとデザインツールのプランをキャンセルしようと思う。", "latency_s": 15.750596558209509}
+{"id": "novel-000210", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、TypeScript Compilerのその、そのエラーが3回連続で出たあの、設定ファイルの、えーと、書き方が間違っているっぽい", "latency_s": 15.750596558209509}
+{"id": "novel-000211", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、カーンアカデミーの動画で使ってる会議ツールが動かなくて困ってる。あのエラーコード102、訂正で403が出てるから、原因を調べて解決策を提示して。えっと、3分以内にパパッとやってくれ。", "latency_s": 15.750596558209509}
+{"id": "novel-000212", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、前処理で、あの10件くらいのデータをその正規化してランダムクロップしてそれから反転させるんだ。まあ、H1HR LHFのデータセットを増やすためにやってる。", "latency_s": 15.750596558209509}
+{"id": "novel-000213", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、バックアップの復旧手順についてですが、いや、OCIイメージを使用した最新の手順書をお送りいたします。", "latency_s": 15.750596558209509}
+{"id": "novel-000214", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、Windows Hello for Businessの設定を、その、デフォルトでオフにする。ごめん、間違えた。オプションで選択可能にする。優先度はロープライオリティだ。", "latency_s": 15.750596558209509}
+{"id": "novel-000215", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、学会の発表用スライドに、あの、G2-2で生成した音声を15秒くらい入れた方が、まあ、わかりやすいと思うよ。なんか、デモ動画もつけたいしね。", "latency_s": 15.750596558209509}
+{"id": "novel-000216", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、そのバグの調査に、えー、ZETTEXをうん、使ってみたのですが、まだ解決しませんでした。", "latency_s": 15.750596558209509}
+{"id": "novel-000217", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、在宅環境でiPadOSを使いたいんですけど、設定方法を教えていただけますか?", "latency_s": 15.102490038843825}
+{"id": "novel-000218", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとあのイメージネットXのそのラベルミスをえーあいやアノテーションの不備をうーん修正なんかクイックウィンを狙った修正", "latency_s": 15.102490038843825}
+{"id": "novel-000219", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、Apple T2のチップの、や、メモリを増設、グッジョブな構成に変更。", "latency_s": 15.102490038843825}
+{"id": "novel-000220", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、微調整に使うデータセットですが、100件で100件で試して、あの、やっぱり200件に増やして、そのハーフパン不合化の部分をダブルチェックしていただけますか?えー、よろしくお願いします。", "latency_s": 15.102490038843825}
+{"id": "novel-000221", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "バグの原因を調査した可能性としてまずLOCのカウント処理にミスがあること次にメモリリークが発生していることそれから設定ファイルのパスが間違っていることが考えられる一つずつ検証してその原因を切り分ける必要がある", "latency_s": 15.102490038843825}
+{"id": "novel-000222", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、現在利用しているサーバーのスペックでは、Amazon Transcribeで処理する音声ファイルの量に対して、メモリが不足してエラーが出ることがあります。あの、インスタンスのタイプを上げて、処理能力を増強するための手順を具体的に教えていただけますか。", "latency_s": 15.102490038843825}
+{"id": "novel-000223", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あのー、在宅環境なんですけど、まあ、えっと、モニターにリキッドレティナXDRを使ったら、あー、かなり思念性が上がって、コードが書きやすくなりました。", "latency_s": 15.102490038843825}
+{"id": "novel-000224", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、コーザルディスカバリーの評価スクリプトに、えーと、バグがあるみたいです。その、出力結果が毎回変わってしまうので、一度、コードを確認してもらえますか?", "latency_s": 15.102490038843825}
+{"id": "novel-000225", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えぇ、あの、えっと、ラングチェーンAWS、まあ、3回試してやっと入ったわ。", "latency_s": 14.89541158103384}
+{"id": "novel-000226", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、外部ディスプレイへの出力はDP-Altモードで統一するのが効率的だ。あの、ただ、一部の変換アダプタでエッジケース的な挙動があるため、検証が必要である。", "latency_s": 14.89541158103384}
+{"id": "novel-000227", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ニードルイヤヘイスタックっていう手法について、あの、最新の論文を調べてまとめておいて。", "latency_s": 14.89541158103384}
+{"id": "novel-000228", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、このこのビッグナムの処理を、もっと効率的に、うーん、書きたい。あの、ループを、ループを回すより、あ、違う、再起的に処理した方が、えーと、メモリ効率いい気がする。まあ、検証が必要。", "latency_s": 14.89541158103384}
+{"id": "novel-000229", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "http 1.10の権限設定を修正具体的にはアクセス制限の追加タイムアウト値の変更認証ヘッダーの検証を修正", "latency_s": 14.89541158103384}
+{"id": "novel-000230", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共有フォルダの権限をThunderbolt 2接続の外部ストレージでも読み書きできるように設定ファイルを更新権限の競合を回避するための修正を追加", "latency_s": 14.89541158103384}
+{"id": "novel-000231", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのザスタックで学習した学習したモデルの結果を可視化したんだけど精度が1.2倍くらい上がったみたいだよ", "latency_s": 14.89541158103384}
+{"id": "novel-000232", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、昨日のバグなんですけど、あの、RGBのその値が、えー、255を超えちゃってて、うーん、あ、いや、1.0を超えてたみたいで、あの、色が、色が変なことになってたんですよ。えー、修正に3時間くらいかかりました。", "latency_s": 14.89541158103384}
+{"id": "novel-000233", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、アパッチフリンクの権限設定、あの、管理者の追加、読み取り専用ユーザーの作成、グループ権限の変更をやってほしいかな。", "latency_s": 16.287779357051477}
+{"id": "novel-000234", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ベースラインと比較実験の結果ですが、モルティステップリーズニングを導入したことで、精度が向上したようです。", "latency_s": 16.287779357051477}
+{"id": "novel-000235", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "この実装、FSR3が出たからもういらないんじゃない?", "latency_s": 16.287779357051477}
+{"id": "novel-000236", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "お疲れ様ですビルドが通らない問題についてですが私のミスでしたマイバットですシークレッツシステムランダムのインポート分を10行目付近で間違えて消してしまっていたようです修正してプッシュしましたので確認をお願いいたします", "latency_s": 16.287779357051477}
+{"id": "novel-000237", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ログを、ロ、ログの調査、いや、AWSグルークローラーの状況をちょっと確認してくれる?", "latency_s": 16.287779357051477}
+{"id": "novel-000238", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あのー、うーん、うーん、スマホの設定をCortex-M7のデバッグ用に変更済みである", "latency_s": 16.287779357051477}
+{"id": "novel-000239", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの先日お話しした新しい手法の調査についてですがえーとセンテンストランスフォーマーズをそのセンテンストランスフォーマーズを使って実装することを検討していますあごめん間違えた検討してましたまあこちらのこちらの手法が最も効率的だとえー判断したためです", "latency_s": 16.287779357051477}
+{"id": "novel-000240", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "メディアコンバートの処理状況を監視するための設定を追加エラーが出た時にアラートが飛ぶようにした", "latency_s": 16.287779357051477}
+{"id": "novel-000241", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、共同研究者との、あの打ち合わせの内容を、えっと、反映。まあ、MAP at 0.5を、あの0.7からやっぱり0.8に修正。", "latency_s": 15.135519892908633}
+{"id": "novel-000242", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "クラウドの費用を削減するためP2P通信の最適化不要なインスタンスの削除ストレージのプラン変更を実施", "latency_s": 15.135519892908633}
+{"id": "novel-000243", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ベースラインとの比較結果が出たけど、トークナイザーズの設定を変えただけで精度が2.5%も上がったよ。もともと期待してたより効果が高くてびっくりしてる。この方向で他のハイパーパラメータも調整して、さらに数日回してみるね。", "latency_s": 15.135519892908633}
+{"id": "novel-000244", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、UIアクションの仕様書を整備しますね。内容は、現状のフローズの更新や最新の設計への修正、それからパラメータ一覧の追記、最後に例外処理の記述、この3点を中心にまとめます。", "latency_s": 15.135519892908633}
+{"id": "novel-000245", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、VMwareエンジンの権限設定について。管理者権限を絞り込みすぎて、一部のデプロイメントでエラーが出る現象を確認。役割ベースのアクセス制御を再定義して、最小権限の原則を適用する必要あり。", "latency_s": 15.135519892908633}
+{"id": "novel-000246", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、スマートフォンの設定画面でデジタルアーツのプロファイルが正しく適用されない不具合を修正。", "latency_s": 15.135519892908633}
+{"id": "novel-000247", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "まあ、査読コメントにあるABNテストの比較データを追加すれば、納得してもらえるはずだ。", "latency_s": 15.135519892908633}
+{"id": "novel-000248", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、付加試験のパスワード管理にアンスビロウォルトを使うのはどうかな。", "latency_s": 15.135519892908633}
+{"id": "novel-000249", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サブスクのプランをコーテックスM-4のライセンスに最適化して費用を削減するための設定を変更", "latency_s": 15.96979335299693}
+{"id": "novel-000250", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、あのー、学会のスライド用にエクステンデッドカルマンフィルターの図を、そのー、2枚にやっぱり3枚に増やした!", "latency_s": 15.96979335299693}
+{"id": "novel-000251", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "RedisOSSの付加試験用スクリプトを追加", "latency_s": 15.96979335299693}
+{"id": "novel-000252", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのファセットグリッドの描画中に、えー、メモリ不足で落ちてしまいました。", "latency_s": 15.96979335299693}
+{"id": "novel-000253", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、ここはExistingWorkPolicyのクラスを使って、あの型を定義します。あ、訂正でインターフェースとして定義してください。その、その方が柔軟だと思います。", "latency_s": 15.96979335299693}
+{"id": "novel-000254", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、NVIDIA Omniverseのサブスク料金、月額100ドルから変更したいね。今のプランだとコストが3割くらい無駄になってる気がするし、まずは現状の利用状況をステップバイステップで洗い出して、来月の更新までにプランを見直そうと思う。", "latency_s": 15.96979335299693}
+{"id": "novel-000255", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、論文の締め切りが、あの、もうすぐなので、まあ早めにMRRアット10の数値をまとめておきますね。その明日までには共有します。", "latency_s": 15.96979335299693}
+{"id": "novel-000256", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、バグの調査なんですけど、Bind Auto Create、そのBind Auto Createのフラグ設定が、あの、原因っぽいです。", "latency_s": 15.96979335299693}
+{"id": "novel-000257", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デプロイを自動化するためのスクリプトを追加Azure VMware Solutionでの構築手順を自動化して作業時間を削減する検証環境で動作を確認済み", "latency_s": 15.48235721187666}
+{"id": "novel-000258", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あー、スマホの設定なんだけど、充電ケーブルをUSB-Cに、いや、ハンダボットONにして、画面の明るさを50%に、あと、通知をOFFにする、あの、この3つを試してほしいな。", "latency_s": 15.48235721187666}
+{"id": "novel-000259", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、WAMEオープンを使った学習モデルのあの、ハイパーパラメータを微調整し、精度を向上。", "latency_s": 15.48235721187666}
+{"id": "novel-000260", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新機能の実装が完了。コードレビューを依頼したいので、PTAL。パフォーマンスへの影響は軽微な見込み。", "latency_s": 15.48235721187666}
+{"id": "novel-000261", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ああ監視とアラートの設定だけどARM V8のサーバーだけでその変な負荷が上がってる気がするんだよねえっと式値をちょっと下げてあの通知が飛びすぎるか確認してみようと思う", "latency_s": 15.48235721187666}
+{"id": "novel-000262", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、サブスクのプランを、そのプランを、あの、見直したいです。ディスプレイポート1.4のその変換アダプタも、まあ、一緒に注文しますね。", "latency_s": 15.48235721187666}
+{"id": "novel-000263", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、スマートフォンの設定で、W-SRASY WEIのガイドラインに沿った一つ目の項目をご確認いただけますか?", "latency_s": 15.48235721187666}
+{"id": "novel-000264", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "査読コメントに従い、クリップロスの計算式を修正した。", "latency_s": 15.48235721187666}
+{"id": "novel-000265", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、新機能の実装についてですけど、あのー、その、そのAzure Boardsで、まあ、タスクを、えー、タスクを分割して、なんか期限を、期限を10月5日に設定して、あのー、担当者を割り当てるっていう感じで進めましょうか。", "latency_s": 16.019141577882692}
+{"id": "novel-000266", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "社内向けの手順書をあそこに置いといたよ。AWSグルーデータブリューの使い方。あ、違う。設定方法をまとめておいたから確認して。", "latency_s": 16.019141577882692}
+{"id": "novel-000267", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共同研究の人との打ち合わせで出た話を反映してほしいな。この部分の最適化を、いや、コンパイルの手順をTVMで書き直して、推論速度を上げる方向で修正してくれるかな。今のままだとちょっと効率が悪そうだし、議論した内容に合わせたい。", "latency_s": 16.019141577882692}
+{"id": "novel-000268", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、Azure File Shareの権限を読み取り専用に、いや、フルアクセスに修正。", "latency_s": 16.019141577882692}
+{"id": "novel-000269", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新製品のインテレオンについて詳細を3時までに送ってもらえますか?訂正で4時までで大丈夫です", "latency_s": 16.019141577882692}
+{"id": "novel-000270", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ハイパーパラメーターの探索を回したけど、MMベンチのスコアが全然上がらない。あの、学習率を下げて試す必要があるな。", "latency_s": 16.019141577882692}
+{"id": "novel-000271", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サーバーの負荷が増えているためメモリの増強を検討しております合わせてレディースモジュールを導入してキャッシュの効率を上げたいと考えておりますその予算の承認についてご確認いただけますでしょうか", "latency_s": 16.019141577882692}
+{"id": "novel-000272", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、最近サブスクが増えすぎて月額で5000円くらい払ってることに気づきました。エピックゲームズストアの無料ゲームで十分なので、いくつか解約しようと思います。あ、このコードの修正はレディー4レビューの状態です。", "latency_s": 16.019141577882692}
+{"id": "novel-000273", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "データ拡張にコンディショナルVAEを導入してみたいと考えております", "latency_s": 15.230925882002339}
+{"id": "novel-000274", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、MUIX Datapickasのドキュメント、えっと、整備しておきますね。", "latency_s": 15.230925882002339}
+{"id": "novel-000275", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、本番環境の障害で、いや、メモリリークで、あの、Kubuコントロールデバッグを使って、えーと、ログの確認、リソース監視、ネットワーク疎通の3点を確認。10分で復旧した。", "latency_s": 15.230925882002339}
+{"id": "novel-000276", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ビデオ会議が重いんだけど、まあGDDR陸を4枚積んでるし、えーと10分くらいで治るかな?", "latency_s": 15.230925882002339}
+{"id": "novel-000277", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのハイパーパラメータの探索に、まあティーチャースチューデントラーニングを使ってみますね。", "latency_s": 15.230925882002339}
+{"id": "novel-000278", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、テストが落ちてるみたい。あ、いや、スワッガーパーサーのバージョンが古くて、あの、定義ファイルの読み込みに失敗してるのが原因だと思う。まあ、Anyway、まずはここをアップデートして、もう一度回してみてくれる?えー、よろしく。", "latency_s": 15.230925882002339}
+{"id": "novel-000279", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、クラウドの費用を削りたいんだけど、OSフィンガープリントの処理を回しているインスタンスが、えー、ちょっと贅沢すぎる気がする。もっと安いプランに落として、オートスケーリングの設定を細かくすれば、月額でかなり浮くんじゃないかなと思うんだけど、どうかな。", "latency_s": 15.230925882002339}
+{"id": "novel-000280", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "会議ツールが不安定だね。オーラリングのデータを使って、心拍数、睡眠時間、ストレス値を3つ分析して、体調と相関があるか見てみよう。1週間のデータで十分だと思う。", "latency_s": 15.230925882002339}
+{"id": "novel-000281", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "昨日の本番環境の障害、まぁ結局Azure Firewallの設定ミスだったらしいよ。3時間もハマったけど、あんな単純なところだったなんて信じられないよね。もう二度とやりたくないよ、あの深夜対応。", "latency_s": 15.59941817400977}
+{"id": "novel-000282", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとSD-Expressの使い方の質問に対するあの回答例を追加", "latency_s": 15.59941817400977}
+{"id": "novel-000283", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共同研究者との打ち合わせに向けてジャックスリブのバージョンを更新", "latency_s": 15.59941817400977}
+{"id": "novel-000284", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのセキュリティドキュメントの整備をお願いしたいです特にHTTP Request to Smugglingの対策について具体的に3つの事例を挙げて詳細にまとめていただけますでしょうか今週の金曜日までにお願いします", "latency_s": 15.59941817400977}
+{"id": "novel-000285", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとここの権限設定だとEDRMへのアクセスが制限されちゃうと思うあのもうちょっと範囲を広げて設定した方がいいんじゃないかな", "latency_s": 15.59941817400977}
+{"id": "novel-000286", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、Teachable Machineで出した結果を、あの、3つのグラフで可視化するコードを書いて、精度と損失の推移が分かるようにして…", "latency_s": 15.59941817400977}
+{"id": "novel-000287", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、BigUint64アレイの境界チェックで、そのメモリリークが発生している可能性あり、要検証。", "latency_s": 15.59941817400977}
+{"id": "novel-000288", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "クラウドのコスト削減のために、DMarkPathの判定ロジックを修正した。", "latency_s": 15.59941817400977}
+{"id": "novel-000289", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "会議ツールの調子が悪くて、Google as APIの使用確認に時間がかかった。明日に回す。", "latency_s": 15.596007907995954}
+{"id": "novel-000290", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのー、推論の高速化についてですが、えー、Nステップをまあ導入することで、その、効率的に処理できると考えております。", "latency_s": 15.596007907995954}
+{"id": "novel-000291", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、この関数を、あの、シーライオンの機能を使って、その20行くらいに短くリファクタリングして、えー、よろしく。", "latency_s": 15.596007907995954}
+{"id": "novel-000292", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ログを見ると、あのVPCエンドポイントサービス経由の通信で、その5÷3エラーが10件ほど出ていますね。", "latency_s": 15.596007907995954}
+{"id": "novel-000293", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、契約書の確認は弁護4.comを使って進めてます。今は、あ、訂正でレビュー待ちの状態です。あの、まだワークインプログレスなので、その、完了までもう少しお待ちください。まあ、明日には終わると思います。", "latency_s": 15.596007907995954}
+{"id": "novel-000294", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、あの再現の数値が0.5、ごめん、間違えた、0.7でした。まあそのYUV444だと、えー、合わないですね。", "latency_s": 15.596007907995954}
+{"id": "novel-000295", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ここのリアクトネイティブリアニメイテッドの処理、あの、もう少し綺麗にまとめられますね。", "latency_s": 15.596007907995954}
+{"id": "novel-000296", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、社内向けの手順書を更新あのー、ロボッツ.テキストの設定方法をえーと、追記しておく必要あり", "latency_s": 15.596007907995954}
+{"id": "novel-000297", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えーとその数値が合わないのは、えー、インチャネルが、うーん、間違っているからかもしれませんね。", "latency_s": 14.939383073011413}
+{"id": "novel-000298", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、ライブラリのバージョンを更新します。あの、Be Kind.64アレイへ、Be Kind.64アレイの挙動が、えっと、変わる可能性があるため、そのご注意ください。", "latency_s": 14.939383073011413}
+{"id": "novel-000299", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっとJWTバリデーションJWTバリデーションの手順はあのー3ページ目See you!", "latency_s": 14.939383073011413}
+{"id": "novel-000300", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えーそのフォントのえーとオープンタイプ、うん、使い分けがまあ重要", "latency_s": 14.939383073011413}
+{"id": "novel-000301", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "最近はデータの拡張にかなり力を入れてまして特にPhysics-Informedなアプローチをアプローチを組み合わせて物理的な制約をその制約を前処理に持たせることで少ないデータでも精度を上げたいと考えていますまあかなり時間がかかってますけどね", "latency_s": 14.939383073011413}
+{"id": "novel-000302", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ネットワークの設定でちょっと困っててさ、えー、ボックスドライブをインストールしてから、なんか動機の速度がめちゃくちゃ遅いんだよね。まあ、社内プロキシのせいかもしれないけど、えーと、誰か同じ症状の人いないか聞きたいなと思って。", "latency_s": 14.939383073011413}
+{"id": "novel-000303", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、今回の結果をグラフにしたんだけど、ルージュワンのスコアが前より0.2くらい上がってるよ。まあ結構いい感じじゃないかな。", "latency_s": 14.939383073011413}
+{"id": "novel-000304", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "今のその描画処理があの重いので、えっと、DIMGUIを使ってそのデバッグ用のデバッグ用のパネルを作り直したいと思います。今のままだと15フレームくらいしか出てなくて、全然全然使い物にならないので。", "latency_s": 14.939383073011413}
+{"id": "novel-000305", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、権限周りの設定が、なんかややこしくてさ。あの、Google Cloud Workflowsから、他のサービスを叩くときの、そのサービスアカウントの権限が、まあ足りてないっぽいんだよね。ええ、どこのロールをつければいいか、誰か知ってるかな。", "latency_s": 16.058321793098003}
+{"id": "novel-000306", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、オムロンの新しいセンサーの使用書を読み込ませて、それをベースに、あの、制御用の関数を書いてもらえますか。あ、違う、関数じゃなくて、クラス設計案を出してください。まあ、通信プロトコルが特殊なので、そのあたりに注意して、えー、お願いしたいです。", "latency_s": 16.058321793098003}
+{"id": "novel-000307", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、シグナルRハブの接続処理でボトルネックが見つかりました。ご指摘ありがとうございます。ナイスキャッチでした。", "latency_s": 16.058321793098003}
+{"id": "novel-000308", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "先ほどお伝えしたログの件ですが、ファイレイヤーのパケット処理でエラーが出ていることがわかりました。現在詳細を調査しております。", "latency_s": 16.058321793098003}
+{"id": "novel-000309", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの新製品の windows インク対応を えーとバージョン2.0にあ違うバージョン3.0にアップデート まあ合わせてバグを一件修正", "latency_s": 16.058321793098003}
+{"id": "novel-000310", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ラングチェーンエラスティックスタッチの比較実験で、パラメータを0.1に設定し忘れたマイバディ", "latency_s": 16.058321793098003}
+{"id": "novel-000311", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、リファクタリングを完了。変更点は3つで、Force with Leaseのオプション追加、不要なログ出力の削除、あ、違う、不要な関数呼び出しの削除、最後に変数名の変更、まあそんな感じです。", "latency_s": 16.058321793098003}
+{"id": "novel-000312", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、サーバーを増強して、あの、Googleオースの認証処理を、認証処理を高速化する。まあ、負荷分散の設定を、設定をやり直すことで、処理能力を底上げしたい。えー、これで安定するはずだ。", "latency_s": 16.058321793098003}
+{"id": "novel-000313", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、Intel HD Graphicsで動くツールを選定あのー、まあ、Anyway、これで決定だ", "latency_s": 15.007489972980693}
+{"id": "novel-000314", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ベースラインとなるモデルとWAVE RNNを比較する実験をしたいんですけどそのための評価コードを書いてもらえますか精度だけでなく推論速度も比較したいです", "latency_s": 15.007489972980693}
+{"id": "novel-000315", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、ここでSpringDataGDBCを使ってるけど、あのー、他のライブラリと依存関係が、まあ、衝突してないか、確認した方がいいと思うよ。", "latency_s": 15.007489972980693}
+{"id": "novel-000316", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、社内向けの手順書を更新したんですけど、えーと、CDNHの設定について、まあ少し書き足しました。時間があるときに、あの、確認してください。", "latency_s": 15.007489972980693}
+{"id": "novel-000317", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、学習済モデルの微調整にFSODの手法を試してみようと思います。まあ、結果が出たらその共有しますね。", "latency_s": 15.007489972980693}
+{"id": "novel-000318", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、データベースの移行作業をした。ああ、いや、設定を変更した。内容は、リクレイムポリシーの修正、ログの出力先変更、タイムアウト値の調整の3つだ。あの、確認してくれ。", "latency_s": 15.007489972980693}
+{"id": "novel-000319", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、このアプリの操作方法についてなのですが、Google Chromeで開いたときに表示が、表示が崩れることがあります。まあ特にウィンドウサイズを800ピクセル以下にしたときに起こりやすいみたいです。どうすれば、どうすれば治るか教えていただけますか?", "latency_s": 15.007489972980693}
+{"id": "novel-000320", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Azure Private DNSの、そう、その設定が原因で、本番環境で障害が起きてますね。", "latency_s": 15.007489972980693}
+{"id": "novel-000321", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "へぇ、新しいモデルが出たみたい。あのイースティの基準で性能を測るとかなり早いっぽいよ。", "latency_s": 16.31921267299913}
+{"id": "novel-000322", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ドキュメントの更新3時間くらいかかりそう。ごめん間違えた。1時間で終わると思う。UVピップの使い方の説明を追加するだけだから。", "latency_s": 16.31921267299913}
+{"id": "novel-000323", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "VSphere HAの構成に合わせてデータベースの移行手順を修正", "latency_s": 16.31921267299913}
+{"id": "novel-000324", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "開発ツールの使い分けについて個人のパスワード管理はそのままにチーム共有の共有のシークレットを管理するためにそのワンパスワードコネクトを導入する設定を追加これで環境変数へのアクセスを安全に自動化することを目的とする", "latency_s": 16.31921267299913}
+{"id": "novel-000325", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、先日ご依頼いたしましたアノテーションの品質についてですが、一部にばらつきが見受けられます。特にレーデンとディリシレタアロケーションを用いたトピック分析の結果とケリしている箇所がございましたので、えーと、改めてガイドラインの再確認をお願いいただけますでしょうか。", "latency_s": 16.31921267299913}
+{"id": "novel-000326", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ここ、型エラーが出てるよ。レーザーページズのその、そのモデルの定義が、定義が不整合になってるっぽいから、ここを修正してほしい。あと、こっちの変数も、変数も型が合ってないから、一緒に直しておいてくれるかな。", "latency_s": 16.31921267299913}
+{"id": "novel-000327", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、チームで使う色の管理ツールの選定について相談です。広報、広報、広報を検討してほしいのですが、ARGB対応であること、クラウド同期ができること、訂正でオフラインでも動作すること、あとライセンス費用が安いことの3点を重視して、おすすめのツールを教えていただけますか。", "latency_s": 16.31921267299913}
+{"id": "novel-000328", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ハイパーパラメータの探索についてですが、初期値の選び方で結果が変わるので、K-MINS++を試してみるのはどうでしょうか。まあ、精度が安定すると思います。", "latency_s": 16.31921267299913}
+{"id": "novel-000329", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、お疲れ様です。あの、先ほどのテストが、テストが落ちてしまいまして、そのSAS Migrateを導入したところ、うーん、10件ほどの、10件ほどのファイルでビルドエラーが出ております。えー、お忙しいところ恐縮ですが、ご確認いただけますでしょうか。", "latency_s": 15.935293582966551}
+{"id": "novel-000330", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デプロイの自動化についてだけど、今のフローだと接続コストが高いよね。0RTTハンドシェイクを導入して、最初のラウンドトリップを削ることでユーザーの体感速度を上げられると思う。この辺りの実装を検討してみない?", "latency_s": 15.935293582966551}
+{"id": "novel-000331", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのクエンSRのデータセットのその分割についてお願いしたいです", "latency_s": 15.935293582966551}
+{"id": "novel-000332", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、MSBuildのドキュメントをもう少し整備いただけますか?", "latency_s": 15.935293582966551}
+{"id": "novel-000333", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあの、えっと、付加試験をしたいのでそのAWSクラウドフロントのまあ設定方法を教えてください", "latency_s": 15.935293582966551}
+{"id": "novel-000334", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのテキストVQAを1エポックごめん間違えた3エポック微調整してください", "latency_s": 15.935293582966551}
+{"id": "novel-000335", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、バグの原因を調べてみたのですが、そのセントリーウェブパックプルッギンガーがうまく動いていない気がします。", "latency_s": 15.935293582966551}
+{"id": "novel-000336", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、コスト削減のために、えー、不要なその、オラクルデータベースの、まあ、インスタンスを、うーん、削除して、あの、課金設定を最適化するように、えー、変更を適用。", "latency_s": 15.935293582966551}
+{"id": "novel-000337", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、スマホの設定で、あの、Chrome Remote Desktopを、まあ有効にするフロー、えー、やっぱり、オフにするフローにした方がわかりやすいかな。その、あ、ナイスキャッチ!いい指摘だね!", "latency_s": 15.76494402391836}
+{"id": "novel-000338", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学会発表の準備だけどオーディオLLMのデモ動画を動画をもう一度撮り直した方がいいかなって思ってあの今のままだとちょっと分かりにくいし説明のタイミングもタイミングもずれてるしね", "latency_s": 15.76494402391836}
+{"id": "novel-000339", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "コードの書き方を相談したい。Javadocの書き方、メソッドの引数の説明、戻り値の型、例外の記述について、これらをどう統一するか決める必要がある。", "latency_s": 15.76494402391836}
+{"id": "novel-000340", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのデプロイを自動化してあのレディースビットマップの設定を追加", "latency_s": 15.76494402391836}
+{"id": "novel-000341", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、デフォーマブルCNNの、の資料、あの、もう、もう送ったよ?", "latency_s": 15.76494402391836}
+{"id": "novel-000342", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、このあのAVオーディオユニットを使ってる箇所で、えー、型エラーが出てるんだけど、その今の書き方、いや、別の方法で、うん、型をキャストして直して、あー、なるべく、えっと、シンプルに書き換えてほしい。", "latency_s": 15.76494402391836}
+{"id": "novel-000343", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "デプロイの自動化について、GKE Autopilotを導入します。", "latency_s": 15.76494402391836}
+{"id": "novel-000344", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、WebUIの操作について、ログインの手順、プロフィールの変更方法、データの書き出し方を教えていただけますでしょうか。", "latency_s": 15.76494402391836}
+{"id": "novel-000345", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、学会のデモで使うレイコアの構成だけど、ここはケースバイケースで調整した方がいいかもね。", "latency_s": 15.659330018097535}
+{"id": "novel-000346", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、カッティンNネアティブのライブラリで衝突が起きてますごめん、間違えた、衝突はしてません", "latency_s": 15.659330018097535}
+{"id": "novel-000347", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、イメージを小さくした。えーっと、HTTP-202アクセプテッドを返すように修正。", "latency_s": 15.659330018097535}
+{"id": "novel-000348", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、新製品のCortex-A搭載モデルについて、使用書と設計書、あと検証計画書がレディー4レビューです。あのー、ご確認いただけますでしょうか?", "latency_s": 15.659330018097535}
+{"id": "novel-000349", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "オープンウェブテキストをクリーニングします訂正で拡張して使いますね", "latency_s": 15.659330018097535}
+{"id": "novel-000350", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "エラー処理でEOFまで回したけど、全然止まらなくて焦ったわ。", "latency_s": 15.659330018097535}
+{"id": "novel-000351", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ロゴを見たところ、CNCFのプロジェクトベースのツールで問題が起きていたみたいです。現状、再現性は低いですが、本番環境への影響があるため、ハイパイオリティで修正対応をお願いします。", "latency_s": 15.659330018097535}
+{"id": "novel-000352", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあのー、エクストリンシックパラメーターを2割で分割して送っていただけますか?", "latency_s": 15.659330018097535}
+{"id": "novel-000353", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "テストが、テストが落ちてしまいます。B2OAのその処理の部分でエラーが出ているようです。", "latency_s": 15.11367112211883}
+{"id": "novel-000354", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "結果、結果の可視化をしたいんだけど、グラフじゃなくて、モデルガーデンにあるツールを使おうかなって思ってる。", "latency_s": 15.11367112211883}
+{"id": "novel-000355", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、ジェネリクスを使っていてアソシエーテッドタイプを定義したいのですが、どう書くのが最適でしょうか。あの、できるだけ簡潔に、でも拡張性を持たせた実装にしたいので、具体的なコード例を提示していただけますか。まあ、よろしくお願いします。", "latency_s": 15.11367112211883}
+{"id": "novel-000356", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、プルミオCIで監視とアラートの設定を追加した", "latency_s": 15.11367112211883}
+{"id": "novel-000357", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "社内向けの手順書についてですが、GKEスタンダードのクラスター構築手順に具体的に3つのステップを追加してください。権限設定の確認、ノードプールの作成、それとオートスケーリングの有効化の手順を詳しく記載してください。", "latency_s": 15.11367112211883}
+{"id": "novel-000358", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "FIRのハイパーパラメーターを探索して最適な値を設定フィルタケースの微調整を完了", "latency_s": 15.11367112211883}
+{"id": "novel-000359", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学習が全然収束しない。えーと、学習率が高すぎるのかと思ったが、下げても状況は変わらなかった。やっぱりエンドポインティングの敷地設定が適切じゃないのが原因だろう。あのデータの分布をもう一度確認して、ハイパーパラメータを調整し直す必要がある。", "latency_s": 15.11367112211883}
+{"id": "novel-000360", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "今のVivi Lindoのパフォーマンスを上げたくてプロファイラを回したんですけど描画パスの最適化とシェーダーの簡略化とテクスチャの圧縮の3つが効果ありそうです", "latency_s": 15.11367112211883}
+{"id": "novel-000361", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、デプロイの自動化を実装した。あの、DTLSの認証設定を2回のリトライで完結させるように変更した。", "latency_s": 14.86423872387968}
+{"id": "novel-000362", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、この、えーと、ビットオーデンSDKを、なんかどうやって、えー、アプリに組み込むのか、あのちょっと分かりにくくない?まあ、ドキュメントの例はあるけど、具体的にどの関数を、えーと、どこで呼べばいいのか、具体的に教えてほしいな。", "latency_s": 14.86423872387968}
+{"id": "novel-000363", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "データの分割ですが、AOTの検証用データをもう少し増やした方がいいと思います。", "latency_s": 14.86423872387968}
+{"id": "novel-000364", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "バグの調査結果です。あの、ジャコンブで、全角半角のその正規化、変換ミス、文字化けの3点を2B修正すべきだと思います。まあ、確認お願いします。", "latency_s": 14.86423872387968}
+{"id": "novel-000365", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、クラウドのコスト削減についてですが、あの、メモリインフォを毎時で取得して、なんか、ごめん、間違えた。5分おきに取得して、あの、不要なインスタンスを停止させたいです。", "latency_s": 14.86423872387968}
+{"id": "novel-000366", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのパスワード管理どう使い分けてる?まあ俺はチームの共有アカウントはなんかBitOdenに入れて個人のメモとかは別のツールを使ってるんだけどやっぱりなんか全部一つにまとめた方が効率いいのかなって思って", "latency_s": 14.86423872387968}
+{"id": "novel-000367", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えーと、まあ、スプリングクラウドフォンクション、その、そのリファクター、リファクタリングの件、なんか、うん、フォー用インフォーメーションに送っといたよ。", "latency_s": 14.86423872387968}
+{"id": "novel-000368", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、チームで使う新しいツールを選定しているところなんですけど、Pixel 9 Pro Foldのようなデバイスでも快適に動くものにしたいですね。", "latency_s": 14.86423872387968}
+{"id": "novel-000369", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと再現実験をやってるんだけどどうしても風知が合わないあのグラードスケールの処理をそのどこで間違えてるかチェックしてくれまあ最適化のループの中にあると思うからそこを重点的に見て", "latency_s": 15.575156006962061}
+{"id": "novel-000370", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、Teslact.jsをその今のプロジェクトに導入できるか、まあ、レッドミーチェック確認してみますね。", "latency_s": 15.575156006962061}
+{"id": "novel-000371", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ビビューユースのあのエラー処理を一回書き直した。やっぱり二回目は別の方法がいい。", "latency_s": 15.575156006962061}
+{"id": "novel-000372", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サーバー増強のために、あの、インスモットでドライバをロード。えっと、その後の動作確認が急務。", "latency_s": 15.575156006962061}
+{"id": "novel-000373", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、新しいパソコンのスペック、GMO Payment Gatewayの案件で使う分には、えーと、十分だと思いますよ。", "latency_s": 15.575156006962061}
+{"id": "novel-000374", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの学習済モデルを微調整するときPCM32ビットのデータをそのまま入れるとメモリが足りなくなるかもええビット数落としてから試した方がいいと思うよまあそのあたりの挙動はテイクケア注意して見ておいてね", "latency_s": 15.575156006962061}
+{"id": "novel-000375", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、アパッチビームの箇所を、あのー、指摘通りに修正してください。", "latency_s": 15.575156006962061}
+{"id": "novel-000376", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、この設定、AWS Network Access Analyzerで、あの、確認したほうがいいかも。えっと、今のままだと疎通しない気がする。", "latency_s": 15.575156006962061}
+{"id": "novel-000377", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "本番環境の障害対応、ToonMaxセッションをセッションを復旧させてログを確認して原因を特定し再起動を行う。この手順が最速できます。", "latency_s": 15.660861558048055}
+{"id": "novel-000378", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Surface Slim Penの使い方の質問。 設定メニューから、ステップバイステップで設定方法を確認したい。", "latency_s": 15.660861558048055}
+{"id": "novel-000379", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学習済モデルの微調整にアドバーサリアルドメインアダプテーションをアダプテーションを試してみますこれで精度が上がるか確認しますね", "latency_s": 15.660861558048055}
+{"id": "novel-000380", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "昨日からずっとログを調査してるんだけど、あの、アパチカフカのトピックにメッセージが届いてないっぽいんだよね。まあ、設定をいくつか見直してみたけど、どこで詰まってるのか全然わからなくて、ちょっと困ってる。", "latency_s": 15.660861558048055}
+{"id": "novel-000381", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ファイルの共有設定を修正。ていうか、NPUアクセラレータの一つ目のパスを修正。二つ目の権限を追加。三つ目の同期設定を変更。あの、これで完了。", "latency_s": 15.660861558048055}
+{"id": "novel-000382", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ビデオ2ビデオのデータ拡張を2倍にやってみて、まあクイックウィンを狙いたいし、えー、お願い。", "latency_s": 15.660861558048055}
+{"id": "novel-000383", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "テストが落ちる原因はシェアドポインタの循環参照ごめん間違えたメモリリークあの設計の見直しが必要", "latency_s": 15.660861558048055}
+{"id": "novel-000384", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、RTOの手順書、えーと、その、その内容を、えー、修正して、まあ、概要を直して、あのフローズを更新して、えーと、チェックリストを、チェックリストを新しくする感じで。", "latency_s": 15.660861558048055}
+{"id": "novel-000385", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、あの、えっと、データセットをその、分割して、ええ、インタートーキンレイテンシーも、あの、計測して、", "latency_s": 15.79629277298227}
+{"id": "novel-000386", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、Spring Toolsのあのバージョンを最新に更新した", "latency_s": 15.79629277298227}
+{"id": "novel-000387", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ハフマンコーディングの…の数値が0.1…0.1ほど合わない。あの…まあ、おかしいな。", "latency_s": 15.79629277298227}
+{"id": "novel-000388", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えードキュメントのあの整備をしたえーと特にスクリーンスペースのその説明をえー追加した", "latency_s": 15.79629277298227}
+{"id": "novel-000389", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、スマートフォンの設定を、あの、変えたいんですけど、LINEBOT SDKを、その、3回くらい再インストールしてもダメでした。", "latency_s": 15.79629277298227}
+{"id": "novel-000390", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ツール選定ですね。FSR4を検討して、検討してみたいです。あの、レッドミーチェック、後で確認しますね。", "latency_s": 15.79629277298227}
+{"id": "novel-000391", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ちょっと相談なんだけど、今の処理のパフォーマンスがかなり悪いから改善したいんだよね。コンストレイントセット周りのロジックを最適化すれば早くなると思うんだけど、明日か明後日あたりに一緒にコードを見てくれるかな。", "latency_s": 15.79629277298227}
+{"id": "novel-000392", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、KMSの権限エラーのログを確認。あー、いや、ごめん、間違えた。あの、KMSの認証タイムアウトを調査。えーと、リトライ処理を追加。", "latency_s": 15.79629277298227}
+{"id": "novel-000393", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、アプリの使い方の質問が、その来たから、まあM2 Pro環境での動作確認手順をドキュメントにまとめた。使い方が分かりにくい箇所があったので修正。", "latency_s": 15.478915530955419}
+{"id": "novel-000394", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ベースラインとそのゴファーの比較比較実験結果を分析結果を分析を追加グラフを修正", "latency_s": 15.478915530955419}
+{"id": "novel-000395", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ライブラリの依存、依存関係が衝突してインストールできないあの、Split Linesを使っている箇所のバージョンを確認する必要がある", "latency_s": 15.478915530955419}
+{"id": "novel-000396", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、付加試験を3回回したんですけど、えー、GCP-IAMの権限不足で、そのー、500エラーが10件くらい出てました。", "latency_s": 15.478915530955419}
+{"id": "novel-000397", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ビルドが一回も通らない。ていうか、アパチアブローの依存関係がおかしい気がする。ノーワリーズでいいや。", "latency_s": 15.478915530955419}
+{"id": "novel-000398", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Google Cloud Tasksの旧監視を追加し、エラー発生時のアラート通知設定を修正。", "latency_s": 15.478915530955419}
+{"id": "novel-000399", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "道具の使い分けだけど、レーザーテックの解析には専用のビューア、テキストエディタ、それからターミナルを使うのが効率的だと思うよ。", "latency_s": 15.478915530955419}
+{"id": "novel-000400", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、あの、ハイアラキカルVAEの、の推論なんか、えー、うーん、高速化、高速化したいよね。", "latency_s": 15.478915530955419}
+{"id": "novel-000401", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あのー、そのクランスタティックアナライザーの実装は、まあ10月までにオントラックです。", "latency_s": 16.115964733995497}
+{"id": "novel-000402", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "へぇ、あのその、えっと、まあ、DNSアンプリフィケーションアタックの対策を設定に追加した。", "latency_s": 16.115964733995497}
+{"id": "novel-000403", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "このアプリ、ミニディスプレイポートの接続設定って、設定ってどこで変えるの?全然わかんなくて。", "latency_s": 16.115964733995497}
+{"id": "novel-000404", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、査読コメントへの対応で、追加実験として画像生成の精度を比較したいんですけど、あのClear AIを使えばもっと効率的にベースラインが作れる気がしています。ただ、どの指標で比較するのが一番説得力があるか、まだ迷っているところです。", "latency_s": 16.115964733995497}
+{"id": "novel-000405", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ビルドが通らない。原因はまあ、Spring Cloud AWSのバージョンの不整合かな。設定ファイルのパスが間違っていただけだった。", "latency_s": 16.115964733995497}
+{"id": "novel-000406", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのビデオ会議ツールが最近ずっと不安定で、接続が頻繁に切れる。えーと、画面共有をすると特に重くなる。まあ、一方でGoogle Maps APIを組み込んだ地図機能の動作は安定しているので、ネットワーク全体の問題ではなく、アプリ固有の負荷が原因だと思われる。", "latency_s": 16.115964733995497}
+{"id": "novel-000407", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、評価スクリプトにバグあり。リニアノンガウシアンアサイクリックモデルの計算部分っていうか、行列の次元が合っていないのが原因の可能性高い。", "latency_s": 16.115964733995497}
+{"id": "novel-000408", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えっと、データベースの、データベースの移行を、あの、5nmのチップを積んだサーバーにお願いできますか?", "latency_s": 16.115964733995497}
+{"id": "novel-000409", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "チームで使うセキュリティツールの選定について検討した結果クラウドストライクファルコンを導入することにしたのでその設定ファイルを追加", "latency_s": 16.490903335157782}
+{"id": "novel-000410", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、共同研究の打ち合わせだけど、えーと、ラベルスタジオの使い方を教える時間、まあ、ちょっと作りたいよね。", "latency_s": 16.490903335157782}
+{"id": "novel-000411", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ケースバイケースで処理を追加や訂正でUse Strictを適用し新機能を追加", "latency_s": 16.490903335157782}
+{"id": "novel-000412", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、本番環境の障害なんですけど、あの確認すべき点は、AWSサイトトゥーサイトVPNの接続状況、ルーティングテーブルの設定、それとセキュリティグループの権限の3つだと思います。", "latency_s": 16.490903335157782}
+{"id": "novel-000413", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ノーウォリーズボイドポイントの件、修正いたします。", "latency_s": 16.490903335157782}
+{"id": "novel-000414", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、権限の設定なんだけど、あのネットワークレベルで制限をかけたいんだよね。例えば、DNSシンクホールみたいな仕組みを使って、不正なドメインへのアクセスを遮断したいなと思って、まあ今の設定だとちょっと権限が緩すぎて、誰でも設定を変えられちゃうのが不安なんだよね。うーん、どうするのが正解かな。", "latency_s": 16.490903335157782}
+{"id": "novel-000415", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "レビューのところ、なるほどねー。あいや、アシンクアイオークリエイトタスクを使えば、もっと効率的に書けるかも。直してみるわ。え?", "latency_s": 16.490903335157782}
+{"id": "novel-000416", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあのーApache Ni-Fiのその設定を2番にごめん間違えた1番にしてえーっとあのーまあプルーフオブコンセプトだからこれでいいと思うので", "latency_s": 16.490903335157782}
+{"id": "novel-000417", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "スティールシリーズエンジンでライティングの設定を3段階で変える方法を教えて、やり方を簡潔にまとめて出せ。", "latency_s": 15.347508653998375}
+{"id": "novel-000418", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、学習データの分割比率を8対2にした結果、コードT5の精度が0.5%向上。あの、検証データセットにリークがないか再確認が必要。次回の実験では、ハイパーパラメーターを調整し、エポック数を50まで上げて、生成度推移を観察する予定。", "latency_s": 15.347508653998375}
+{"id": "novel-000419", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ええ、ビルドが全然通らなくて、あのアーグパースアクションの使い方が、なんかちょっと怪しい気がしています。うーん、誰か詳しい人いませんかね。", "latency_s": 15.347508653998375}
+{"id": "novel-000420", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ツールの件だけど、あの、やっぱり、やっぱりファイルメーカープロがいいと思うんだよね。まあ、使い、使い勝手がその、一番良さそうだし。", "latency_s": 15.347508653998375}
+{"id": "novel-000421", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "リファクタリングの件ですが、意味外の描画処理を別の関数に、いや、別のクラスに切り出した方が管理しやすいと思います。", "latency_s": 15.347508653998375}
+{"id": "novel-000422", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと…S3オブジェクトの保存期間を30日に…あ、いや、14日に短縮してコスト削減。あの、ライフサイクルポリシーの見直しが必要。", "latency_s": 15.347508653998375}
+{"id": "novel-000423", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、サブスクのプランを、個人向けじゃなくて、じゃなくて法人向けに変更する手順を、まあ、Chromeβで確認して教えてください。", "latency_s": 15.347508653998375}
+{"id": "novel-000424", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、クラウドのコスト、コスト削減のために、アンシブルナビゲーターの、その、設定を全部見直した方がいいと思うんだよね。", "latency_s": 15.347508653998375}
+{"id": "novel-000425", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ファイルは3分後に送るね。 ああ、違う。5分後に送るから、AUTH0CLIで確認して。", "latency_s": 15.90873901406303}
+{"id": "novel-000426", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "STWのインターフェース設計を変更し、不要なエンドポイントを削除。", "latency_s": 15.90873901406303}
+{"id": "novel-000427", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと…GKEオンプレムの付加試験終わったよ。ごめん間違えた、まだ途中だった。あの後でダブルチェックして、えーまた連絡するね。", "latency_s": 15.90873901406303}
+{"id": "novel-000428", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "自宅のモニター接続に、USB-C to VGAが必要だ。", "latency_s": 15.90873901406303}
+{"id": "novel-000429", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あのー、まあ、RVQVAEのそのアノテーションの品質を修正", "latency_s": 15.90873901406303}
+{"id": "novel-000430", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ライブラリを更新したら、トムルフロームスティーアルが、そのトムルフロームスティーアルが動かなくなりました。困りましたね。", "latency_s": 15.90873901406303}
+{"id": "novel-000431", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Google APIsの費用を削るために、見直すためにインスタンスの停止、不要なストレージの削除、そしてプランの変更を検討しています。", "latency_s": 15.90873901406303}
+{"id": "novel-000432", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとデータ拡張のところだけど今のままだとあの画像サイズがバラバラだからリサイズを256ピクセルで統一した方がいいかもまあそうしないとAP75のスコアがなんか安定しなさそうだしあと正規化のパラメータも確認しておいて", "latency_s": 15.90873901406303}
+{"id": "novel-000433", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、チームで使うツールを探しているのですが、USB PD 3.0に対応した周辺機器の互換性をチェックできるツールを2つほど提案してもらえますか?", "latency_s": 16.130989614874125}
+{"id": "novel-000434", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "微調整のそのその設定をあのパンダスプロファイリングでえーと分析して修正", "latency_s": 16.130989614874125}
+{"id": "novel-000435", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、お世話になっております。あのドキュメントの、その整備の件ですが、えー、10ページ目の、あ、訂正で、12ページ目のイージーモックの、その使い方が、うーん、少し分かりにくいようです。えーと、バイドウェイ、次回の打ち合わせは15時でよろしかったでしょうか。", "latency_s": 16.130989614874125}
+{"id": "novel-000436", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "推論の高速化についてだけど、まずはオートコンフィグでモデルの構造を確認して、不要なレイヤーを削るのがいいと思う。あとは、量子化を試せばメモリ使用量も減るし、処理速度もかなり改善されるはずだから、明日から一緒に検証してみようよ。", "latency_s": 16.130989614874125}
+{"id": "novel-000437", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、コードの書き方についてご相談があります。あの実装にあたって、マックスレングスをゴーグニに設定すること、例外処理を適切に追加すること、そして、えー、コメントを詳細に記述することの3点を意識したいと考えております。ご確認いただけますでしょうか。", "latency_s": 16.130989614874125}
+{"id": "novel-000438", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "社内向けの手順書、さっき更新しておいたよ。特にブロックブロブへのアップロード手順が分かりにくかったから、3ページ目にスクリーンショットを5枚追加して詳しく説明したから、時間があるときにチェックしておいて。", "latency_s": 16.130989614874125}
+{"id": "novel-000439", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "データセットを8対2で分割してMRR-1を確認結果はベストエフォートで改善傾向", "latency_s": 16.130989614874125}
+{"id": "novel-000440", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "エラーハンドリングを、あの、インターロック操作を使って、配達制御を修正", "latency_s": 16.130989614874125}
+{"id": "novel-000441", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、サーバーのメモリ不足を解消するため、あの、リブシーのバージョンを上げて、そのメモリ管理を最適化したい。性能への影響を検証予定。", "latency_s": 16.088991336990148}
+{"id": "novel-000442", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、在宅勤務の環境構築に2日かかったあのー、DAUの分析ツールが重いのは、まあ、スペック不足かもフェアエナフな結果", "latency_s": 16.088991336990148}
+{"id": "novel-000443", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、なんかライブラリのバージョン、えーと、更新したんだけど、そのウィンドウオンロードのあたり、えー、なんか挙動おかしくなっちゃった気がする。", "latency_s": 16.088991336990148}
+{"id": "novel-000444", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、チームで使うツール、まあどうしましょうか。その候補は3つで、マイクロソフトサンロゴコパイロット、チャットツール、一つの共有ドキュメント、この辺りだと思います。", "latency_s": 16.088991336990148}
+{"id": "novel-000445", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと…あの…プロファイルガイドドオプティマイゼーションを有効にすると…まあビルドが通らない。原因不明だ。", "latency_s": 16.088991336990148}
+{"id": "novel-000446", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ウェアOS向けのサブスクプランの料金プランの表示を修正あとプラン変更の動線を追加", "latency_s": 16.088991336990148}
+{"id": "novel-000447", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "TriGet Componentの使い方は、バージョン2.0以降、2Bシントルになるはずです。", "latency_s": 16.088991336990148}
+{"id": "novel-000448", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "クラウドのコストを削減するために、いくつか提案します。まず、不要なインスタンスを停止すること。次に、クラウドウォッチログサブスリップリッションフィルターズを見直して、ログ転送量を減らすこと。最後に、ストレージのクラスを変更することです。", "latency_s": 16.088991336990148}
+{"id": "novel-000449", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共同研究の人との打ち合わせでDDQNの実装について話してきたよ", "latency_s": 15.079847023822367}
+{"id": "novel-000450", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、クラウド費用を削る。ページブロブの最適化を検討。具体的には、不要なデータの削除、ディスクサイズの縮小、あと、そのバックアップ頻度の変更。設定を忘れてたのはマイバット。", "latency_s": 15.079847023822367}
+{"id": "novel-000451", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "お疲れ様です。評価スクリプトにバグが見つかりましたので、修正をお願いいたします。その、その、メモリの解放が不十分で、トーチクダエンプティキャッシュを、を適切に呼び出せていないことが原因のようです。ご確認のほど、よろしくお願いいたします。", "latency_s": 15.079847023822367}
+{"id": "novel-000452", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "データベースの移行プラン、現状の構成を、いや、新構成への変更を検討中。アパッチカッサンドラの導入による書き込み負荷の分散が目的。", "latency_s": 15.079847023822367}
+{"id": "novel-000453", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "最近、サブスクリプションの月額料金が高くなってきましたね。先月だけで5000円くらい、5000円くらい払っていた気がします。特にロックスターゲームズのプランを契約しっぱなしにしているので、そろそろ見直さないといけないですね。", "latency_s": 15.079847023822367}
+{"id": "novel-000454", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ドキュメントの整備が必要ですね。SHMオープンの使い方について、3ページくらい、あ、違う、1ページにまとめて記載しておいていただけますか。", "latency_s": 15.079847023822367}
+{"id": "novel-000455", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "WOLDの検証結果を使ってモデルを微調整しましょう。", "latency_s": 15.079847023822367}
+{"id": "novel-000456", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "サーバーの増強が終わったら、T-MAXアタッチで確認してください。", "latency_s": 15.079847023822367}
+{"id": "novel-000457", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーあのーえっとまあそのMAPアット75の数値についてご相談させてください", "latency_s": 15.808968127937987}
+{"id": "novel-000458", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "アンストラクチャードの…アンストラクチャードのライブラリを入れた後に、ビルドが通らなくなりました。どうすればいいでしょうか?", "latency_s": 15.808968127937987}
+{"id": "novel-000459", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "マネージドサービスフォープロメテウスを使ってアラートを設定してください通知先はメールに訂正でチャットツールに飛ばしてください優先度はロープライオリティで構いませんのでお願いします", "latency_s": 15.808968127937987}
+{"id": "novel-000460", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新しいパソコンの構成ですが、Intel GraphicsのIntel Graphicsのモデルで問題ないかご確認をお願いいたします。", "latency_s": 15.808968127937987}
+{"id": "novel-000461", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっとあの新機能にイーズインアウトを導入しましたのでそのご確認をお願いいたします", "latency_s": 15.808968127937987}
+{"id": "novel-000462", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、付加試験の結果、あの、クロウドビルドトリガースの設定を、うん、変更したところ、まあ、ビルド時間が大幅に短縮、あの、リソース消費も安定傾向で、十分なパフォーマンスを確保できている様子。", "latency_s": 15.808968127937987}
+{"id": "novel-000463", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、サブスクのプラン見直し、プランの、プランの金額変更、支払いサイクルの変更、GTX166-0Tiの利用料を10ドル分削減を適用。", "latency_s": 15.808968127937987}
+{"id": "novel-000464", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ベースラインとの比較レイサーブを導入したことでスループットが向上でもレイテンシがわずかに増加今後の課題", "latency_s": 15.808968127937987}
+{"id": "novel-000465", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、エーペックスチャーツの、エーペックスチャーツの書き方、まあ、もっと、その、簡潔にできると思うよ。", "latency_s": 15.317274159984663}
+{"id": "novel-000466", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "AZDを使ってコンテナイメージを軽量化してみたよ。", "latency_s": 15.317274159984663}
+{"id": "novel-000467", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーとあのスマホの設定だけどそのUSB-Aの端子をまあ2個くらい使ってるから充電速度が遅いかも", "latency_s": 15.317274159984663}
+{"id": "novel-000468", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ディファレンシャブルレンダリングの可視化結果を確認。あの、誤差の出方は、まあ、アウトオブスコープ。うん、別の手法を検討。", "latency_s": 15.317274159984663}
+{"id": "novel-000469", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、あのー、コンテナの、のイメージを、えっと、小さくして、まあ、インターフェイスVPCエンドポイントを、その、設定を、設定を修正。", "latency_s": 15.317274159984663}
+{"id": "novel-000470", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、DAUの集計ファイル共有しますね", "latency_s": 15.317274159984663}
+{"id": "novel-000471", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの推論の高速化についてなんですけど、まあガウス分布を使って、そのなんか、えー、禁止しちゃえばいいのかなと思います。", "latency_s": 15.317274159984663}
+{"id": "novel-000472", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "論文の締め切りが近づいておりますのでVAEエンコードの処理結果についてご確認をお願いいたします", "latency_s": 15.317274159984663}
+{"id": "novel-000473", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えっと、型エラーを、型エラーを直すのに、まあ、EXECを使って、使って試してます。", "latency_s": 14.682715999195352}
+{"id": "novel-000474", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、あの障害対応の件、NAPMAXウィンドウを、まあ、分けて作業しとくね。", "latency_s": 14.682715999195352}
+{"id": "novel-000475", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "新しいパソコン検討中ジョンディアの特装車用端末みたいなタフなやつがまあいいかもでも予算がかなり厳しい中古かスペックを落とすか悩みどころ", "latency_s": 14.682715999195352}
+{"id": "novel-000476", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ニューラルラディアンスフィールドのそのデータ拡張をあの10回訂正で20回行う", "latency_s": 14.682715999195352}
+{"id": "novel-000477", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "お疲れ様です。スパークノートブックでの実装方法について相談したくご連絡しました。10行目あたりの書き方を最適化したいと考えております。お忙しいところ恐縮ですが、お時間いただけますでしょうか。", "latency_s": 14.682715999195352}
+{"id": "novel-000478", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、Google AI Studioとその他のサービスの性能を3回くらい比較して結果を教えてくれる?", "latency_s": 14.682715999195352}
+{"id": "novel-000479", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、バグの原因が、その、その、イベスレスレットプレギュンリエクトの設定にあるっぽいんだよね。えー、なんか、設定ファイル、えっと、書き直してみるわ。", "latency_s": 14.682715999195352}
+{"id": "novel-000480", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "インテルナックでの推論速度を2回計測した結果を異界略称にまとめた", "latency_s": 14.682715999195352}
+{"id": "novel-000481", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "今回の実験、MNLIをベースラインにして、精度がどれくらい上がるか見てるんだけど、単純なケースじゃなくて、ハッピーパスだけだと結果が良すぎる気がして、もっと難しいデータセットを混ぜないと、本当の実力は出ないかもしれないな。", "latency_s": 15.061024443013594}
+{"id": "novel-000482", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーっと、ライブラリのバージョンを2.0に上げたら、SPM Auditで警告が出なくなりました。とりあえず、今はSEsでそのままの状態でマージしても大丈夫そうです。", "latency_s": 15.061024443013594}
+{"id": "novel-000483", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、X-Ray Segmentsの権限設定を、えーと、3番のグループにも追加してほしいんだけど、あの、お願いできるかな?", "latency_s": 15.061024443013594}
+{"id": "novel-000484", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えー、POSの可視化グラフを、えっと、追加", "latency_s": 15.061024443013594}
+{"id": "novel-000485", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、キューブフローパイプラインズの手順書、えーと、見ますね。", "latency_s": 15.061024443013594}
+{"id": "novel-000486", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、この機能の挙動ですが、W3Cの使用に沿って実装されていますか?ユーザーが想定外の操作をした時のフローが、えーと、少し分かりにくい気がします。ここを明確にすれば、開発はオントラックで進むと思いますので、ご確認をお願いします。", "latency_s": 15.061024443013594}
+{"id": "novel-000487", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、あの、この、まあ、イントリンスティックモティベーションを、えー、0.1からその0.5に上げてください。", "latency_s": 15.061024443013594}
+{"id": "novel-000488", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと依存関係があの3件衝突してますあいやウィズリビの判定でまあエラーが出てるだけです", "latency_s": 15.061024443013594}
+{"id": "novel-000489", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "TCP3-WAYハンドシェイクの監視設定を書いて、サウンズグッドならそのままお願い。", "latency_s": 15.200713930884376}
+{"id": "novel-000490", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、ソニーセミコンダクタのツール、えーと、2分で終わったよ。訂正で3分だった。まあ、グッジョブだね。", "latency_s": 15.200713930884376}
+{"id": "novel-000491", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ファインウェブHQをその、ふー読み込んで、えー、まあ、ハッピーパスだけ、あの、確認した。", "latency_s": 15.200713930884376}
+{"id": "novel-000492", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ビルドが通らなくなってるよ。フォームグループの定義がなんかおかしい気がするから、もう一度確認してほしいなぁ。", "latency_s": 15.200713930884376}
+{"id": "novel-000493", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、負荷が高い、あの、ていうか、Google Cloud Redisのそのメモリ不足だ。", "latency_s": 15.200713930884376}
+{"id": "novel-000494", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、共同研究の打ち合わせ用に、TensorFlow Probabilityのサンプルコードを書いて…", "latency_s": 15.200713930884376}
+{"id": "novel-000495", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "テストが落ちる問題を修正。リフレクトバリューキャンインターフェイスの判定を、いや、チェック処理を改善。", "latency_s": 15.200713930884376}
+{"id": "novel-000496", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、えっと、まあ、政治メーカーハイパーパラメータチューニングなんか、その、コストを2割くらい下げたいです。", "latency_s": 15.200713930884376}
+{"id": "novel-000497", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "スクリーンスペース、カメラの、の設定を設定を変更、環境構築で出詰まった。", "latency_s": 6.642040533944964}
+{"id": "novel-000498", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのー、えーと、その、まあ、えー、Amazon Memory DB4 Reduce を導入しましょう。", "latency_s": 6.642040533944964}
+{"id": "novel-000499", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、まあツール選びだけど、あのー、マジックトラックパッドを、えー、3台、あ、違う、5台くらいその、まとめて買った方が、なんか安いよね。", "latency_s": 6.642040533944964}
+{"id": "novel-000500", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "共同研究者の方との打ち合わせですが、DPGの件を含めて来週の14時ごろに設定いただけますでしょうか。", "latency_s": 6.642040533944964}

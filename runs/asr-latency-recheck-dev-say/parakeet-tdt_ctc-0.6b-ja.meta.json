@@ -1,0 +1,285 @@
+{
+  "system": "parakeet-tdt_ctc-0.6b-ja",
+  "model": "parakeet-tdt_ctc-0.6b-ja",
+  "backend": "parakeet-mlx",
+  "source": "mlx-community/parakeet-tdt_ctc-0.6b-ja",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+  "n_utterances": 40,
+  "warmup": 1,
+  "git_commit": "f54481b68dd9698159a154cf49e67b223a89fe1e",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:16:12.669362+00:00",
+  "top_processes_before": [
+    "173  48.8 153680 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "47912  37.6  84448 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af67c0a9231d3b394/.venv/bin/python",
+    "428  37.3  96944 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores",
+    "46169   9.9 282096 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "48632   9.5  30656 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "340   9.3  25760 /usr/sbin/coreaudiod",
+    "80852   7.0  56432 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "1224   6.5  45744 /System/Library/Input Methods/JapaneseIM-RomajiTyping.app/Contents/PlugIns/JapaneseIM-RomajiTyping.appex/Contents/MacOS/JapaneseIM-RomajiTyping"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 99.0,
+    "load1": 5.32,
+    "swap_used_gb": 5.854375
+  },
+  "model_load_s": 0.9650162920588627,
+  "load_samples": [
+    {
+      "id": "dev-say-0001",
+      "gpu_util_pct": 97.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0002",
+      "gpu_util_pct": 89.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0003",
+      "gpu_util_pct": 90.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0004",
+      "gpu_util_pct": 92.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0005",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0006",
+      "gpu_util_pct": 92.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0007",
+      "gpu_util_pct": 91.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0008",
+      "gpu_util_pct": 90.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0009",
+      "gpu_util_pct": 89.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0010",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0011",
+      "gpu_util_pct": 91.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0012",
+      "gpu_util_pct": 91.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0013",
+      "gpu_util_pct": 91.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0014",
+      "gpu_util_pct": 92.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0015",
+      "gpu_util_pct": 94.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0016",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0017",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0018",
+      "gpu_util_pct": 94.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0019",
+      "gpu_util_pct": 94.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0020",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0021",
+      "gpu_util_pct": 93.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0022",
+      "gpu_util_pct": 94.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0023",
+      "gpu_util_pct": 94.0,
+      "load1": 5.32,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0024",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0025",
+      "gpu_util_pct": 78.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0026",
+      "gpu_util_pct": 90.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0027",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0028",
+      "gpu_util_pct": 91.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0029",
+      "gpu_util_pct": 90.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0030",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0031",
+      "gpu_util_pct": 83.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0032",
+      "gpu_util_pct": 93.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0033",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0034",
+      "gpu_util_pct": 93.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0035",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0036",
+      "gpu_util_pct": 95.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0037",
+      "gpu_util_pct": 93.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0038",
+      "gpu_util_pct": 91.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.854375
+    },
+    {
+      "id": "dev-say-0039",
+      "gpu_util_pct": 89.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.8465625
+    },
+    {
+      "id": "dev-say-0040",
+      "gpu_util_pct": 94.0,
+      "load1": 5.38,
+      "swap_used_gb": 5.8465625
+    }
+  ],
+  "mlx_peak_memory_gb": 2.206751344,
+  "max_rss_gb": 0.781500416,
+  "finished_at": "2026-11-20T09:16:21.218859+00:00",
+  "top_processes_after": [
+    "48049 122.7 345248 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "173  55.8 119872 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "48632  31.8 757040 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "24775  18.1 101264 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "48971   9.3  31584 (python3.14)",
+    "80852   5.8  51568 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "86651   4.4 109616 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent",
+    "24746   3.1  60640 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)"
+  ]
+}

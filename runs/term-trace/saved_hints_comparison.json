@@ -1,0 +1,90 @@
+{
+  "manifest_utterances": 100,
+  "scripted_utterances": 50,
+  "scripted_term_occurrences": 67,
+  "free_utterances": 50,
+  "hint_rows": 100,
+  "merge_threshold_normalized_levenshtein": 0.75,
+  "free_raw_two_pass_detection": {
+    "rejected_edits": 12,
+    "rejected_changed_characters": 118,
+    "utterances_with_rejected_edit": 9,
+    "utterances_with_4plus_rejected_characters": 9
+  },
+  "strategies": {
+    "two_pass_as_is": {
+      "term_exact_correct": 44,
+      "term_total": 67,
+      "term_exact_accuracy": 0.6567164179104478,
+      "aligned_cer": {
+        "edit_errors": 412,
+        "substitutions": 224,
+        "insertions": 25,
+        "deletions": 163,
+        "reference_characters": 2953,
+        "rate": 0.1395191330849983
+      },
+      "free_utterances_with_rejected_changes": 9,
+      "free_utterances_with_4plus_rejected_characters": 9,
+      "free_rejected_changed_characters": 118,
+      "free_utterances_protected_from_raw_4plus_changes": 0,
+      "second_pass_used_utterances": null
+    },
+    "reading_near": {
+      "term_exact_correct": 44,
+      "term_total": 67,
+      "term_exact_accuracy": 0.6567164179104478,
+      "aligned_cer": {
+        "edit_errors": 412,
+        "substitutions": 224,
+        "insertions": 25,
+        "deletions": 163,
+        "reference_characters": 2953,
+        "rate": 0.1395191330849983
+      },
+      "free_utterances_with_rejected_changes": 9,
+      "free_utterances_with_4plus_rejected_characters": 9,
+      "free_rejected_changed_characters": 118,
+      "free_utterances_protected_from_raw_4plus_changes": 0,
+      "second_pass_used_utterances": 100
+    },
+    "no_farther": {
+      "term_exact_correct": 44,
+      "term_total": 67,
+      "term_exact_accuracy": 0.6567164179104478,
+      "aligned_cer": {
+        "edit_errors": 412,
+        "substitutions": 224,
+        "insertions": 25,
+        "deletions": 163,
+        "reference_characters": 2953,
+        "rate": 0.1395191330849983
+      },
+      "free_utterances_with_rejected_changes": 9,
+      "free_utterances_with_4plus_rejected_characters": 9,
+      "free_rejected_changed_characters": 118,
+      "free_utterances_protected_from_raw_4plus_changes": 0,
+      "second_pass_used_utterances": 100
+    },
+    "segment_merge": {
+      "term_exact_correct": 42,
+      "term_total": 67,
+      "term_exact_accuracy": 0.6268656716417911,
+      "aligned_cer": {
+        "edit_errors": 377,
+        "substitutions": 199,
+        "insertions": 20,
+        "deletions": 158,
+        "reference_characters": 2953,
+        "rate": 0.12766677954622419
+      },
+      "free_utterances_with_rejected_changes": 0,
+      "free_utterances_with_4plus_rejected_characters": 0,
+      "free_rejected_changed_characters": 0,
+      "free_utterances_protected_from_raw_4plus_changes": 9,
+      "second_pass_used_utterances": null
+    }
+  },
+  "estimation_note": "全指標は保存済みfirst_pass/finalを選択・結合した反実仮想であり、ASRを再実行していない。新しいヒントでASRのfinal自体が変わる効果は測っていない。freeの4文字判定はFable試作の基準に合わせた。",
+  "merged_asr_jsonl": "runs/term-trace/asr-v1-t16-s75.segment-merge.jsonl"
+}

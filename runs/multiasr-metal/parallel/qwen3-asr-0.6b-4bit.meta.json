@@ -1,0 +1,37 @@
+{
+  "multi": "qwen3-asr-0.6b-4bit",
+  "haas": "haas-ja-v1.0-speechcpp-q8_0",
+  "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+  "formatter": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "git_commit": "b63e22db003422178eb7ba9048b476fbb0366d0c",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-22T12:46:22.622435+00:00",
+  "top_processes_before": [
+    "428 136.8 143216 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores",
+    "79627  79.3 241008 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "130  68.8  15920 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds",
+    "173  38.6 103728 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "51709  24.2 309280 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "80852  20.9 102592 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "79405  18.5 138656 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "340  12.3  21536 /usr/sbin/coreaudiod"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 82.0,
+    "load1": 2.68,
+    "swap_used_gb": 2.669189453125
+  },
+  "model_load_s": 1.6727163339965045,
+  "mlx_peak_memory_gb": 2.30487788,
+  "finished_at": "2026-11-22T12:47:56.359357+00:00",
+  "top_processes_after": [
+    "79627  54.5 1702912 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  36.6 116560 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  23.4 107456 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  10.6  20880 /usr/sbin/coreaudiod",
+    "12224   2.9  13264 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService",
+    "1968   2.6  32288 /Applications/RunCatNeo.app/Contents/MacOS/RunCatNeo",
+    "12220   2.6  55152 /System/Applications/App Store.app/Contents/MacOS/App Store",
+    "284   2.3   7984 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ]
+}

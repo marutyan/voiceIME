@@ -1,0 +1,13 @@
+{
+  "selected": 30000,
+  "valid": 29891,
+  "failed": 109,
+  "valid_videos": 1461,
+  "header_requests": 177179,
+  "webm_bytes": 9444692239,
+  "wav_bytes": 5669199882,
+  "retried_shards": 10,
+  "recovered_wavs": 8079,
+  "shards_with_archive_error": 0,
+  "shards_with_errors": 3
+}

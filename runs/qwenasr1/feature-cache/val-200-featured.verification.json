@@ -1,0 +1,7 @@
+{
+  "rows": 200,
+  "workers": 4,
+  "feature_cache_dtype": "float32",
+  "verified_rows": 2,
+  "max_absolute_difference": 0.0
+}

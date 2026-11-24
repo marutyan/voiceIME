@@ -1,0 +1,37 @@
+{
+  "multi": "qwen3-asr-0.6b-8bit",
+  "haas": "haas-ja-v1.0-speechcpp-q8_0",
+  "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+  "formatter": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "git_commit": "b63e22db003422178eb7ba9048b476fbb0366d0c",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-22T12:44:24.400971+00:00",
+  "top_processes_before": [
+    "78863  79.6 241184 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "130  56.8  13760 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds",
+    "173  36.4 105712 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  25.1 109872 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  11.2  24528 /usr/sbin/coreaudiod",
+    "428  10.1  80400 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores",
+    "301   2.8  45200 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "12220   1.8  57360 /System/Applications/App Store.app/Contents/MacOS/App Store"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 48.0,
+    "load1": 2.4,
+    "swap_used_gb": 2.669189453125
+  },
+  "model_load_s": 1.8214149590348825,
+  "mlx_peak_memory_gb": 2.602875704,
+  "finished_at": "2026-11-22T12:46:13.205400+00:00",
+  "top_processes_after": [
+    "78863  59.3 1036528 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  39.2 103792 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  19.7 100864 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  12.0  21536 /usr/sbin/coreaudiod",
+    "11311   7.6 126912 claude",
+    "301   3.3  45248 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "12120   2.0  12592 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService",
+    "711   1.5  30416 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter"
+  ]
+}

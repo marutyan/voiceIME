@@ -1,0 +1,16 @@
+{
+  "entries_with_accepted_readings": 20117,
+  "glossary_entries": 31415,
+  "rule_accepted_readings": 32040,
+  "rule_alternate_collisions": 373,
+  "rule_canonical_collisions": 153,
+  "teacher_accepted_readings": 1679,
+  "teacher_alternate_collisions": 17,
+  "teacher_canonical_collisions": 21,
+  "teacher_invalid_lines": 183,
+  "teacher_parseable_candidates": 6227,
+  "teacher_passed_correspondence": 4094,
+  "teacher_rejected_correspondence": 2133,
+  "teacher_requests": 1309,
+  "teacher_terms": 31415
+}

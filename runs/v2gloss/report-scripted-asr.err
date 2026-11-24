@@ -1,0 +1,6 @@
+warning: runs/v2gloss/asr-v1-t16-s75.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/asr-v2-t16-s75.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/asr-v2-t8-s75.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/asr-v2-t16-s90.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/asr-v2-t8-s90.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/asr-v2-t16-s100.jsonl: manifestにないid=50, hyp欠落=0

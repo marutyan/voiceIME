@@ -1,0 +1,85 @@
+{
+  "check_device": "cpu",
+  "directories": [
+    {
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1",
+      "checkpoints": [
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1/checkpoint-16/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 782426112,
+          "finite": false,
+          "sha256": "a2d8a151127aaf79d79a6d4c9cdaa371c10b74f19043b8d2cbaf88a4a9928164"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1/checkpoint-24/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 782426112,
+          "finite": false,
+          "sha256": "a2d8a151127aaf79d79a6d4c9cdaa371c10b74f19043b8d2cbaf88a4a9928164"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1/checkpoint-27/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 782426112,
+          "finite": false,
+          "sha256": "a2d8a151127aaf79d79a6d4c9cdaa371c10b74f19043b8d2cbaf88a4a9928164"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1/checkpoint-8/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 782426112,
+          "finite": false,
+          "sha256": "a2d8a151127aaf79d79a6d4c9cdaa371c10b74f19043b8d2cbaf88a4a9928164"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1/final/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 782426112,
+          "finite": false,
+          "sha256": "a2d8a151127aaf79d79a6d4c9cdaa371c10b74f19043b8d2cbaf88a4a9928164"
+        }
+      ]
+    },
+    {
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen",
+      "checkpoints": [
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen/checkpoint-16/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 0,
+          "finite": true,
+          "sha256": "e00947c22d7c68dfa9fef3864b3768d0c440ce1a4e5977534997f30bdd52ebc3"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen/checkpoint-24/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 0,
+          "finite": true,
+          "sha256": "72931cf067e03a98d0e0a8fb6c421ab55ff06f1e7b84fc1b6f4d61d179e3e43f"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen/checkpoint-27/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 0,
+          "finite": true,
+          "sha256": "1c15da3c861f221d3223fa64ea21a63b2b9fe278256d865f63dcd259971beb94"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen/checkpoint-8/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 0,
+          "finite": true,
+          "sha256": "bfb63b07e9a2273c25040d2855dbc302263abc743477ddb5584885e2ad0a4e6d"
+        },
+        {
+          "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/output/qwen-v1-frozen/final/model.safetensors",
+          "elements": 782426112,
+          "nonfinite_elements": 0,
+          "finite": true,
+          "sha256": "1c15da3c861f221d3223fa64ea21a63b2b9fe278256d865f63dcd259971beb94"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+warning: runs/v2gloss/e2e-v1-t16-s75+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/e2e-v2-t16-s75+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/e2e-v2-t8-s75+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/e2e-v2-t16-s90+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/e2e-v2-t8-s90+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/v2gloss/e2e-v2-t16-s100+sft2-qwen.jsonl: manifestにないid=50, hyp欠落=0

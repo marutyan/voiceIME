@@ -1,0 +1,62 @@
+{
+  "original": {
+    "omitted_rows": 8372,
+    "listed=True,target_surface=False": 8018,
+    "violation_list_surface_target_reading": 8018,
+    "listed=False,target_surface=False": 354,
+    "katakana_target_but_surface_in_asr_inputs": 814
+  },
+  "augmentation": {},
+  "violation_examples": [
+    {
+      "id": "train-v3-000006",
+      "surface": "moduleResolution: bundler",
+      "target": "お疲れ様です。現在、モジュールレゾリューションバンドラーの不具合でビルドが通らなくなっております。ご確認いただけますでしょうか。"
+    },
+    {
+      "id": "train-v3-000007",
+      "surface": "P2S VPN",
+      "target": "クラウドの費用を削減したくて、使っていないサーバーを停止しました。5万円くらいは浮くと思います。あとは、ピーツーエスブイピーエヌの設定を見直して、通信コストを下げたいと考えています。来月の請求額で効果を確認しますね。"
+    },
+    {
+      "id": "train-v3-000025",
+      "surface": "set_seed",
+      "target": "あの、ここのセットシードを外したほうが、推論が速くなりますよ。"
+    },
+    {
+      "id": "train-v3-000027",
+      "surface": "Amazon Cognito",
+      "target": "Viteのビルドをアマゾンコグニート経由で自動化する。Radeon RX 7700 XTで検証済みだ。"
+    },
+    {
+      "id": "train-v3-000035",
+      "surface": "argsort",
+      "target": "スマートフォンの設定画面で、Schneider Electricのアプリを動かしたときに、アーグソートの処理で止まってしまうみたいです。no problemだと思ってたんですけど、やっぱり再起動が必要そうですね。"
+    },
+    {
+      "id": "train-v3-000036",
+      "surface": "FFmpeg",
+      "target": "TCP Proxyの負荷が高すぎる。Springerの論文にあった構成を参考に、エフエフエムペグの処理を分散させる。サーバー増強が必要だ。"
+    },
+    {
+      "id": "train-v3-000041",
+      "surface": "CoffeeScript",
+      "target": "バグ調査。CommonJSのモジュール読み込みでエラー。コーヒースクリプトの設定、もしかして原因か。SI unitの計算が0.5秒ずれてる可能性高い。"
+    },
+    {
+      "id": "train-v3-000045",
+      "surface": "Turso",
+      "target": "権限の設定ですけど、\n- 閲覧権限\n- 編集権限\n- 管理者権限\nの3つを付与してください。low priorityで大丈夫ですので、ターソの件と合わせてお願いします。"
+    },
+    {
+      "id": "train-v3-000051",
+      "surface": "git log --stat",
+      "target": "レビューの指摘通りに、ギットログスタッツの出力を修正した。"
+    },
+    {
+      "id": "train-v3-000052",
+      "surface": "Three-way Handshake",
+      "target": "ここのスリーウェイハンドシェイクの処理、簡潔に書いたほうがいいかも。Airflow Schedulerの動作負荷が気になるし。"
+    }
+  ]
+}

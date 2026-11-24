@@ -1,0 +1,10 @@
+{
+  "recognized": 29891,
+  "kept": 15015,
+  "both_asr_empty": 20,
+  "caption_empty_after_normalization": 0,
+  "both_cer_above_15_percent": 14856,
+  "both_pass": 8587,
+  "haas_only": 5325,
+  "qwen_only": 1103
+}

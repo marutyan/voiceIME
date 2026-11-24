@@ -1,0 +1,52 @@
+{
+  "model": "/home/maru/voiceime-work-fr3/outputs/formatter-sft3-b-mainselect-distractors0-sdpa-fallback-20261122/final",
+  "runtime": "Transformers",
+  "runtime_dtype": "bfloat16",
+  "decoding": "greedy",
+  "torch_version": "2.13.0+cu129",
+  "transformers_version": "5.23.0",
+  "cuda_visible_devices": "1",
+  "gpu": "NVIDIA H100",
+  "batch_size": 32,
+  "max_glossary": 20,
+  "min_score": 75.0,
+  "jobs": [
+    "test-novel-include-novel"
+  ],
+  "samples": 500,
+  "model_load_s": 4.339047346031293,
+  "generation_wall_s": 29.75466818595305,
+  "wall_seconds": 45.06238163402304,
+  "started_at": "2026-11-22T21:57:53+09:00",
+  "finished_at": "2026-11-22T21:58:38+09:00",
+  "max_memory_allocated_gb": 3.80153088,
+  "latency_note": "batch推論のwall timeを件数で割ったthroughput換算。単発遅延やMLX 4bitとの直接比較には使わない",
+  "repetition_stop_note": "MLXの逐次生成で使う反復による途中停止は、batch推論では適用していない",
+  "results": [
+    {
+      "system": "test-novel-include-novel",
+      "model": "/home/maru/voiceime-work-fr3/outputs/formatter-sft3-b-mainselect-distractors0-sdpa-fallback-20261122/final",
+      "runtime": "Transformers",
+      "runtime_dtype": "bfloat16",
+      "decoding": "greedy",
+      "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+      "repetition_stop": "not applied during batched inference",
+      "n": 500,
+      "glossary_size": 31332,
+      "excluded_term_count": 83,
+      "mean_glossary_entries": 18.89,
+      "mean_input_tokens": 71.33,
+      "mean_output_reference_tokens": 34.784,
+      "mean_prompt_tokens": 521.878,
+      "batch_size": 32,
+      "batches": 16,
+      "generation_wall_s": 29.75466818595305,
+      "generation_tokens": 13334,
+      "generation_tokens_per_second": 448.13136267118176,
+      "format_latency_mean_s_amortized": 0.0595093363719061,
+      "length_limited": 0,
+      "max_memory_allocated_gb": 3.80153088,
+      "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+    }
+  ]
+}

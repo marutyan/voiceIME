@@ -1,0 +1,291 @@
+{
+  "manifest": "/home/maru/voiceime-work-f2b/inputs/val-manifest.jsonl",
+  "results": [
+    {
+      "run": "/home/maru/voiceime-work-f2b/inputs/baseline-val.jsonl",
+      "system": "qwen3.5-0.8B-sft2-mlx4bit",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 1000,
+        "evaluated": 1000,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 2490,
+        "substitutions": 766,
+        "insertions": 932,
+        "deletions": 792,
+        "reference_characters": 47431,
+        "rate": 0.052497311884632414
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 1286,
+        "total": 1427,
+        "accuracy": 0.9011913104414856,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 42,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 6,
+        "manifest_count": 1608,
+        "residual_rate": 0.0037313432835820895
+      },
+      "tags": {
+        "self_correction": {
+          "count": 203,
+          "cer": {
+            "edit_errors": 816,
+            "substitutions": 166,
+            "insertions": 426,
+            "deletions": 224,
+            "reference_characters": 7777,
+            "rate": 0.10492477819210493
+          },
+          "exact_matches": 111,
+          "exact_match_rate": 0.5467980295566502,
+          "suspected_responses": null,
+          "manifest_count": 203
+        },
+        "english_phrase": {
+          "count": 95,
+          "cer": {
+            "edit_errors": 291,
+            "substitutions": 81,
+            "insertions": 107,
+            "deletions": 103,
+            "reference_characters": 4947,
+            "rate": 0.058823529411764705
+          },
+          "exact_matches": 53,
+          "exact_match_rate": 0.5578947368421052,
+          "suspected_responses": null,
+          "manifest_count": 95
+        },
+        "instruction_like": {
+          "count": 123,
+          "cer": {
+            "edit_errors": 343,
+            "substitutions": 74,
+            "insertions": 149,
+            "deletions": 120,
+            "reference_characters": 6299,
+            "rate": 0.05445308779171297
+          },
+          "exact_matches": 81,
+          "exact_match_rate": 0.6585365853658537,
+          "suspected_responses": 1,
+          "manifest_count": 123
+        },
+        "no_change": {
+          "count": 99,
+          "cer": {
+            "edit_errors": 83,
+            "substitutions": 48,
+            "insertions": 8,
+            "deletions": 27,
+            "reference_characters": 4315,
+            "rate": 0.019235225955967557
+          },
+          "exact_matches": 79,
+          "exact_match_rate": 0.797979797979798,
+          "suspected_responses": null,
+          "manifest_count": 99
+        },
+        "list": {
+          "count": 84,
+          "cer": {
+            "edit_errors": 407,
+            "substitutions": 104,
+            "insertions": 194,
+            "deletions": 109,
+            "reference_characters": 4894,
+            "rate": 0.0831630568042501
+          },
+          "exact_matches": 31,
+          "exact_match_rate": 0.36904761904761907,
+          "suspected_responses": null,
+          "manifest_count": 84
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 1000,
+          "median_s": 0.558572290930897,
+          "p90_s": 0.8815570251550526
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 1000,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-f2b/outputs/eval-2b-eosfix/f2b-val.jsonl",
+      "system": "f2b-val",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 1000,
+        "evaluated": 1000,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 2447,
+        "substitutions": 618,
+        "insertions": 999,
+        "deletions": 830,
+        "reference_characters": 47431,
+        "rate": 0.05159073179987772
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 1306,
+        "total": 1427,
+        "accuracy": 0.9152067274001402,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 45,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 33,
+        "manifest_count": 1608,
+        "residual_rate": 0.020522388059701493
+      },
+      "tags": {
+        "self_correction": {
+          "count": 203,
+          "cer": {
+            "edit_errors": 818,
+            "substitutions": 155,
+            "insertions": 437,
+            "deletions": 226,
+            "reference_characters": 7777,
+            "rate": 0.10518194676610518
+          },
+          "exact_matches": 108,
+          "exact_match_rate": 0.5320197044334976,
+          "suspected_responses": null,
+          "manifest_count": 203
+        },
+        "english_phrase": {
+          "count": 95,
+          "cer": {
+            "edit_errors": 272,
+            "substitutions": 72,
+            "insertions": 129,
+            "deletions": 71,
+            "reference_characters": 4947,
+            "rate": 0.054982817869415807
+          },
+          "exact_matches": 56,
+          "exact_match_rate": 0.5894736842105263,
+          "suspected_responses": null,
+          "manifest_count": 95
+        },
+        "instruction_like": {
+          "count": 123,
+          "cer": {
+            "edit_errors": 318,
+            "substitutions": 53,
+            "insertions": 127,
+            "deletions": 138,
+            "reference_characters": 6299,
+            "rate": 0.05048420384187966
+          },
+          "exact_matches": 83,
+          "exact_match_rate": 0.6747967479674797,
+          "suspected_responses": 1,
+          "manifest_count": 123
+        },
+        "no_change": {
+          "count": 99,
+          "cer": {
+            "edit_errors": 58,
+            "substitutions": 30,
+            "insertions": 9,
+            "deletions": 19,
+            "reference_characters": 4315,
+            "rate": 0.013441483198146002
+          },
+          "exact_matches": 83,
+          "exact_match_rate": 0.8383838383838383,
+          "suspected_responses": null,
+          "manifest_count": 99
+        },
+        "list": {
+          "count": 84,
+          "cer": {
+            "edit_errors": 375,
+            "substitutions": 72,
+            "insertions": 145,
+            "deletions": 158,
+            "reference_characters": 4894,
+            "rate": 0.07662443808745402
+          },
+          "exact_matches": 33,
+          "exact_match_rate": 0.39285714285714285,
+          "suspected_responses": null,
+          "manifest_count": 84
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 1000,
+          "median_s": 0.4075027590515674,
+          "p90_s": 0.6467441729677376
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 1000,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}

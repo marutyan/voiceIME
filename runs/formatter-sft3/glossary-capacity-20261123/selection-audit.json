@@ -1,0 +1,188 @@
+{
+  "selector_commit": "c2ad2769819bcdb3fe1cf90fb760279692206889",
+  "selector_path": "/home/maru/voiceime-work-fr3/overlays/glossary-main-c2ad276.py",
+  "selector_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "max_entries": [
+    20,
+    32,
+    48
+  ],
+  "selection_text": "Haas first-pass + Qwen0.6B; optional Whisper first-pass, joined by newline",
+  "min_score": 75.0,
+  "val": {
+    "rows": 1000,
+    "glossary_pool_entries": 31415,
+    "excluded_terms": 0,
+    "gold_term_instances": 1427,
+    "variants": {
+      "max20-haas-qwen": {
+        "rows": 1000,
+        "terms_included": 1305,
+        "terms_total": 1427,
+        "included_fraction": 0.9145059565522075,
+        "matches_existing_order": 67,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max20-haas-qwen.jsonl"
+      },
+      "max20-haas-qwen-whisper": {
+        "rows": 1000,
+        "terms_included": 1333,
+        "terms_total": 1427,
+        "included_fraction": 0.9341275402943238,
+        "matches_existing_order": 64,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max20-haas-qwen-whisper.jsonl"
+      },
+      "max32-haas-qwen": {
+        "rows": 1000,
+        "terms_included": 1308,
+        "terms_total": 1427,
+        "included_fraction": 0.9166082690960056,
+        "matches_existing_order": 58,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max32-haas-qwen.jsonl"
+      },
+      "max32-haas-qwen-whisper": {
+        "rows": 1000,
+        "terms_included": 1334,
+        "terms_total": 1427,
+        "included_fraction": 0.9348283111422565,
+        "matches_existing_order": 57,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max32-haas-qwen-whisper.jsonl"
+      },
+      "max48-haas-qwen": {
+        "rows": 1000,
+        "terms_included": 1308,
+        "terms_total": 1427,
+        "included_fraction": 0.9166082690960056,
+        "matches_existing_order": 58,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max48-haas-qwen.jsonl"
+      },
+      "max48-haas-qwen-whisper": {
+        "rows": 1000,
+        "terms_included": 1334,
+        "terms_total": 1427,
+        "included_fraction": 0.9348283111422565,
+        "matches_existing_order": 57,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/val/max48-haas-qwen-whisper.jsonl"
+      }
+    },
+    "inputs": {
+      "manifest": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl",
+        "sha256": "b51bfebe8d5fc12c49fb84e9e84659b73573a33fc7fcab375f6d438f69fd1c2b"
+      },
+      "first_pass": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen06-val-plain.jsonl",
+        "sha256": "da06a7367f16244c3abd69dddd5087c5ffb6e8567412166100145ff77fc5ee4a"
+      },
+      "qwen": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen06-firstpass.jsonl",
+        "sha256": "b1d5accbd48ff64c59d01fd139e6db294646d5e4487507ee6a02e4e227237401"
+      },
+      "whisper": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-whisper-firstpass.jsonl",
+        "sha256": "5261da2f012cc4cc690c593ae4b5c2ef247e961eac6bb17e2cef1367af462e82"
+      },
+      "existing_glossary": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen06-val.jsonl",
+        "sha256": "81973f8b226071d31c68b90021e70da5e27d5491260fb08bee4343bbf9885c13"
+      },
+      "glossary_1": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/glossary-v1.jsonl",
+        "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+      },
+      "glossary_2": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/glossary-v2.jsonl",
+        "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+      }
+    }
+  },
+  "test_novel": {
+    "rows": 500,
+    "glossary_pool_entries": 31332,
+    "excluded_terms": 84,
+    "gold_term_instances": 500,
+    "variants": {
+      "max20-haas-qwen": {
+        "rows": 500,
+        "terms_included": 369,
+        "terms_total": 500,
+        "included_fraction": 0.738,
+        "matches_existing_order": 500,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max20-haas-qwen.jsonl"
+      },
+      "max20-haas-qwen-whisper": {
+        "rows": 500,
+        "terms_included": 393,
+        "terms_total": 500,
+        "included_fraction": 0.786,
+        "matches_existing_order": 349,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max20-haas-qwen-whisper.jsonl"
+      },
+      "max32-haas-qwen": {
+        "rows": 500,
+        "terms_included": 414,
+        "terms_total": 500,
+        "included_fraction": 0.828,
+        "matches_existing_order": 41,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max32-haas-qwen.jsonl"
+      },
+      "max32-haas-qwen-whisper": {
+        "rows": 500,
+        "terms_included": 435,
+        "terms_total": 500,
+        "included_fraction": 0.87,
+        "matches_existing_order": 34,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max32-haas-qwen-whisper.jsonl"
+      },
+      "max48-haas-qwen": {
+        "rows": 500,
+        "terms_included": 429,
+        "terms_total": 500,
+        "included_fraction": 0.858,
+        "matches_existing_order": 41,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max48-haas-qwen.jsonl"
+      },
+      "max48-haas-qwen-whisper": {
+        "rows": 500,
+        "terms_included": 450,
+        "terms_total": 500,
+        "included_fraction": 0.9,
+        "matches_existing_order": 34,
+        "output": "/home/maru/voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/glossaries/test-novel/max48-haas-qwen-whisper.jsonl"
+      }
+    },
+    "inputs": {
+      "manifest": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/test-novel.jsonl",
+        "sha256": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac"
+      },
+      "first_pass": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/a-plain.jsonl",
+        "sha256": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233"
+      },
+      "qwen": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen06-firstpass.jsonl",
+        "sha256": "7cd8359225c28ddc7e815a561b286b95af6a642c3264f76a98ca3c10bd7f5274"
+      },
+      "whisper": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-whisper-firstpass.jsonl",
+        "sha256": "d54d83fb7ebb7474fe2a4f81814e285efc30adc6d4dcd819b7f713e0ef28f17e"
+      },
+      "existing_glossary": {
+        "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen06-test-novel.jsonl",
+        "sha256": "74375d49a28a7141d4b283c217da78f1a9b985a0181a7c1f3067feacf0e834e0"
+      },
+      "glossary_1": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/glossary-v1.jsonl",
+        "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+      },
+      "glossary_2": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/glossary-v2.jsonl",
+        "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+      },
+      "exclusions": {
+        "path": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/exclude-v2-83.txt",
+        "sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e"
+      }
+    }
+  }
+}

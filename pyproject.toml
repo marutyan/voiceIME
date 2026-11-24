@@ -1,0 +1,31 @@
+[project]
+name = "voiceime"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "marutyan", email = "marutyan310@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.4.0",
+    "mlx>=0.32.4",
+    "mlx-audio[stt]==0.6.7",
+    "mlx-lm>=0.32.2",
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.5.5",
+    "parakeet-mlx>=0.7.0",
+    "pyyaml>=6.0.3",
+    "rapidfuzz>=3.14.6",
+    "sherpa-onnx>=2.0.2",
+    "soundfile>=0.14.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

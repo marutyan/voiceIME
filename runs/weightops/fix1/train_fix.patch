@@ -1,0 +1,84 @@
+--- ../rsi1/train_rsi.py	2026-11-23 16:28:10.778239681 +0900
++++ train_fix.py	2026-11-23 19:15:02.832490740 +0900
+@@ -27,7 +27,7 @@
+ from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+ 
+ from model_loader import load_formatter_model
+-from train_support import AugmentedDataset, ProjectedLossTrainer
++from train_support import AugmentedDataset, ProjectedLossTrainer, target_for_inputs, without_katakana_terms
+ 
+ from voiceime.formatter.glossary import (
+     DEFAULT_MAX_ENTRIES,
+@@ -377,7 +377,9 @@
+             retrieved, gold, self.pool, rng,
+             self.args.glossary_drop_prob, self.args.max_distractors, self.args.max_glossary,
+         )
+-        return tokenize_pair(self.tokenizer, asr_input, glossary, row["target_text"], self.args.max_length)
++        glossary = without_katakana_terms(glossary, row)
++        target = target_for_inputs(row, asr_input, glossary)
++        return tokenize_pair(self.tokenizer, asr_input, glossary, target, self.args.max_length)
+ 
+ 
+ def make_collator(pad_id: int):
+@@ -408,7 +410,7 @@
+         help="Qwen3.5の構成に応じたmodel_loaderを使う",
+     )
+     p.add_argument("--train", required=True)
+-    p.add_argument("--augmentation", required=True, help="監査済みの用語差し替えJSONL")
++    p.add_argument("--augmentation", required=True, help="omittedの語を直した用語差し替えJSONL")
+     p.add_argument("--val", required=True)
+     p.add_argument("--input-field", default="spoken_text", help="入力に使う欄（ASRの出力を入れた欄に差し替えられる）")
+     p.add_argument("--train-asr-run", help="学習の入力をASRの推論結果の`hyp`にする")
+--- ../rsi1/train_support.py	2026-11-23 16:23:05.447268119 +0900
++++ train_support.py	2026-11-23 19:15:02.832490740 +0900
+@@ -1,4 +1,4 @@
+-"""用語差し替え行を条件Dの学習へ追加し、損失対象の語だけに語彙射影を行う。"""
++"""用語差し替え行を条件Dの学習へ追加し、損失対象の語だけに語彙射影を行う。omitted語の正解文を一覧・入力の表記と食い違わせない。"""
+ 
+ import random
+ 
+@@ -9,6 +9,35 @@
+ from voiceime.formatter.glossary import entry_from_record
+ from voiceime.formatter.prompt import FormatterInput
+ 
++from fix_omitted_terms import has_surface, in_list
++
++
++def without_katakana_terms(glossary, row):
++    """正解文で読みのまま残すomitted語の表記を一覧から除き、一覧と正解文の食い違いを学習させない。
++
++    selectorが学習中に一覧を作る行と、無作為に混ぜる語は事前に確かめられないため、ここで除く。
++    """
++    excluded = set(row.get("katakana_terms", ()))
++    if not excluded:
++        return glossary
++    return [entry for entry in glossary
++            if (entry.surface if hasattr(entry, "surface") else entry["surface"]) not in excluded]
++
++
++def target_for_inputs(row, inputs, glossary):
++    """学習時に一覧を作る行で、omitted語の表記が一覧かsegment-merge後の文にあれば、読みを表記へ書き換えた正解文を返す。
++
++    事前の一覧がある行と同じ規則2を、取り出しのたびに決まる一覧と合成ASR文へ当てる。
++    """
++    rewrite = row.get("cue_rewrite")
++    if not rewrite:
++        return row["target_text"]
++    surface = rewrite["surface"]
++    listed = in_list([{"surface": entry.surface} for entry in glossary], surface)
++    if listed or has_surface(inputs.combined_text, surface):
++        return rewrite["target_text"]
++    return row["target_text"]
++
+ 
+ class AugmentedDataset(torch.utils.data.Dataset):
+     """固定した3入力と一覧を渡し、設定された率で正解語だけを一覧から抜く。"""
+@@ -28,7 +57,7 @@
+         row = self.rows[index]
+         inputs = FormatterInput(first_pass=row["first_pass"], combined_text=row["combined_text"],
+                                 qwen_hypothesis=row["qwen_hypothesis"] or None)
+-        glossary = row["glossary"]
++        glossary = without_katakana_terms(row["glossary"], row)
+         if self.drop:
+             gold = set(row["terms"])
+             rng = random.Random(int(torch.randint(0, 2**31 - 1, (1,)).item()))

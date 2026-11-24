@@ -1,0 +1,48 @@
+{
+  "train_rows_before": 95934,
+  "train_rows_after": 95931,
+  "input_asr_rows": {
+    "train-available-12000.jsonl": 12000,
+    "train-topup44970.jsonl": 44970,
+    "legacy": 9522
+  },
+  "kept_by_source": {
+    "without_asr": 29442,
+    "legacy": 9522,
+    "train-topup44970.jsonl": 44968,
+    "train-available-12000.jsonl": 11999
+  },
+  "omitted_decisions_by_source": {
+    "train-available-12000.jsonl": {
+      "rule2-list": 321,
+      "rule2-list+merge": 750,
+      "rule2-merge": 24,
+      "rule2-reading-count-2": 1,
+      "rule3-no-cue": 278
+    },
+    "train-topup44970.jsonl": {
+      "rule2-list": 1779,
+      "rule2-list+merge": 3941,
+      "rule2-merge": 83,
+      "rule2-reading-count-2": 2,
+      "rule3-no-cue": 1193
+    }
+  },
+  "augmentation_rows": 36778,
+  "augmentation_sha256": "7c83f2e7f41d420233e7a975eace486eebbed9973b4b7e866e6343e26e177496",
+  "learned_types": 11842,
+  "excluded_omitted_types_normalized": 5772,
+  "excluded_augmentation_types_normalized": 21497,
+  "eligible_drop_types": 1424,
+  "sha256": {
+    "/home/maru/voiceime-work-fr3/inputs/sft3-20261122/train-sft3.jsonl": "528f5575eb567ae83422d45d457ee7077087e842ccb54f23f1b11b905e899584",
+    "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/train-available-12000.jsonl": "c4c6052d5a324d54a18d0e96f7d22c6bb41d7c5408f50ecbc3f2fe59d0b3087b",
+    "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/train-topup44970.jsonl": "37a238ef358f67a864a704d341f63b15c1e626315925d5cb38be95f8a6082501",
+    "/home/maru/voiceime-work-wops/full1/data/train-fixed.jsonl": "d84c87c0341174dfa3a007ad6b7885bcac338a9d301e7d64279dad910db4d981",
+    "/home/maru/voiceime-work-wops/full1/data/seen-drop-terms.txt": "31524a970f565b3a8f3038729ccef7b1607a66ec00715f66151e288da7246761",
+    "/home/maru/voiceime-work-wops/full1/data/train-runs/first-pass.jsonl": "d9c7081ab8ce8a2b7977455f358e8fdce747af0f44c92d1733981fb18de61d39",
+    "/home/maru/voiceime-work-wops/full1/data/train-runs/formatter-glossary.jsonl": "b6191f91c6291e39ef7f776701b6777d475ef2cc782aded698b8715f5de1a5a0",
+    "/home/maru/voiceime-work-wops/full1/data/train-runs/qwen06-hypothesis.jsonl": "ba76c1689f5ecee84aae3cf5a82d0b8441c69c2ebf8806e75a1729120f90fb62",
+    "/home/maru/voiceime-work-wops/full1/data/train-runs/segment-merge.jsonl": "35165482412585b69e245a0424f42a3e90f4d6e5f84e9b29ab290b9b39dc7290"
+  }
+}

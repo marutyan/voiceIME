@@ -1,0 +1,50 @@
+{"surface": "COCO", "dictionary_surface": "COCO", "expected": ["ココ"], "verified": [], "already_known": ["ココ"]}
+{"surface": "RAG", "dictionary_surface": "RAG", "expected": ["ラグ"], "verified": ["ラグ"], "already_known": ["ラグ"]}
+{"surface": "CORS", "dictionary_surface": "CORS", "expected": ["コルス"], "verified": [], "already_known": []}
+{"surface": "ViT", "dictionary_surface": "ViT", "expected": ["ビット"], "verified": [], "already_known": []}
+{"surface": "tuple", "status": "辞書表記なし・曖昧", "expected": ["タプル", "チュープル"]}
+{"surface": "daemon", "status": "辞書表記なし・曖昧", "expected": ["デーモン"]}
+{"surface": "PaaS", "dictionary_surface": "PaaS", "expected": ["パース"], "verified": ["パース"], "already_known": ["パース"]}
+{"surface": "cron", "dictionary_surface": "cron", "expected": ["クーロン", "クロン"], "verified": [], "already_known": ["クーロン", "クロン"]}
+{"surface": "IJCAI", "dictionary_surface": "IJCAI", "expected": ["イジカイ"], "verified": [], "already_known": []}
+{"surface": "LoRA", "dictionary_surface": "LoRA", "expected": ["ローラ"], "verified": [], "already_known": ["ローラ"]}
+{"surface": "NumPy", "dictionary_surface": "NumPy", "expected": ["ナムパイ", "ナンパイ"], "verified": [], "already_known": ["ナムパイ"]}
+{"surface": "FIFO", "dictionary_surface": "FIFO", "expected": ["ファイフォ"], "verified": [], "already_known": ["ファイフォ"]}
+{"surface": "awk", "dictionary_surface": "awk", "expected": ["オーク"], "verified": ["オーク"], "already_known": ["オーク"]}
+{"surface": "AAAI", "dictionary_surface": "AAAI", "expected": ["トリプルエーアイ"], "verified": [], "already_known": []}
+{"surface": "systemd", "dictionary_surface": "systemd", "expected": ["システムディー"], "verified": ["システムディー"], "already_known": ["システムディー"]}
+{"surface": "RAID", "dictionary_surface": "RAID", "expected": ["レイド"], "verified": [], "already_known": ["レイド"]}
+{"surface": "curl", "status": "辞書表記なし・曖昧", "expected": ["カール"]}
+{"surface": "null", "status": "辞書表記なし・曖昧", "expected": ["ヌル", "ナル"]}
+{"surface": "ReLU", "dictionary_surface": "ReLU", "expected": ["レル", "レルー"], "verified": ["レル", "レルー"], "already_known": ["レル", "レルー"]}
+{"surface": "VLAN", "dictionary_surface": "VLAN", "expected": ["ブイラン"], "verified": ["ブイラン"], "already_known": ["ブイラン"]}
+{"surface": "rsync", "dictionary_surface": "rsync", "expected": ["アールシンク"], "verified": ["アールシンク"], "already_known": ["アールシンク"]}
+{"surface": "zsh", "dictionary_surface": "Zsh", "expected": ["ジーシェル", "ズィーシェル"], "verified": ["ズィーシェル"], "already_known": ["ズィーシェル"]}
+{"surface": "SIMD", "dictionary_surface": "SIMD", "expected": ["シムディー"], "verified": ["シムディー"], "already_known": ["シムディー"]}
+{"surface": "BERT", "dictionary_surface": "BERT", "expected": ["バート"], "verified": ["バート"], "already_known": ["バート"]}
+{"surface": "kubectl", "dictionary_surface": "kubectl", "expected": ["キューブコントロール", "キューブシーティーエル", "クーベクトル"], "verified": [], "already_known": ["キューブコントロール"]}
+{"surface": "IAM", "dictionary_surface": "IAM", "expected": ["アイアム"], "verified": ["アイアム"], "already_known": []}
+{"surface": "cuDNN", "dictionary_surface": "cuDNN", "expected": ["クーディーエヌエヌ"], "verified": [], "already_known": []}
+{"surface": "SCSI", "dictionary_surface": "SCSI", "expected": ["スカジー"], "verified": ["スカジー"], "already_known": ["スカジー"]}
+{"surface": "etcd", "dictionary_surface": "etcd", "expected": ["エトセディー"], "verified": [], "already_known": []}
+{"surface": "YOLO", "dictionary_surface": "YOLO", "expected": ["ヨロ"], "verified": ["ヨロ"], "already_known": ["ヨロ"]}
+{"surface": "Qt", "status": "辞書表記なし・曖昧", "expected": ["キュート"]}
+{"surface": "Jupyter", "dictionary_surface": "Jupyter", "expected": ["ジュピター", "ジュパイター"], "verified": [], "already_known": ["ジュピター"]}
+{"surface": "PostgreSQL", "dictionary_surface": "PostgreSQL", "expected": ["ポスグレ"], "verified": [], "already_known": []}
+{"surface": "Nuxt", "dictionary_surface": "Nuxt", "expected": ["ナクスト"], "verified": [], "already_known": ["ナクスト"]}
+{"surface": "SciPy", "dictionary_surface": "SciPy", "expected": ["サイパイ"], "verified": ["サイパイ"], "already_known": ["サイパイ"]}
+{"surface": "TOML", "dictionary_surface": "TOML", "expected": ["トムル"], "verified": ["トムル"], "already_known": ["トムル"]}
+{"surface": "DDoS", "dictionary_surface": "DDoS", "expected": ["ディードス"], "verified": ["ディードス"], "already_known": []}
+{"surface": "GIF", "dictionary_surface": "GIF", "expected": ["ジフ", "ギフ"], "verified": [], "already_known": ["ジフ", "ギフ"]}
+{"surface": "ROUGE", "dictionary_surface": "ROUGE", "expected": ["ルージュ"], "verified": [], "already_known": ["ルージュ"]}
+{"surface": "IaaS", "dictionary_surface": "IaaS", "expected": ["イアース", "アイアース"], "verified": [], "already_known": ["アイアース"]}
+{"surface": "RISC-V", "dictionary_surface": "RISC-V", "expected": ["リスクファイブ"], "verified": ["リスクファイブ"], "already_known": ["リスクファイブ"]}
+{"surface": "CUDA", "dictionary_surface": "CUDA", "expected": ["クーダ"], "verified": ["クーダ"], "already_known": ["クーダ"]}
+{"surface": "CRUD", "dictionary_surface": "CRUD", "expected": ["クラッド"], "verified": ["クラッド"], "already_known": ["クラッド"]}
+{"surface": "ASIC", "dictionary_surface": "ASIC", "expected": ["エーシック"], "verified": ["エーシック"], "already_known": ["エーシック"]}
+{"surface": "CSRF", "dictionary_surface": "CSRF", "expected": ["シーサーフ"], "verified": ["シーサーフ"], "already_known": []}
+{"surface": "Ubuntu", "dictionary_surface": "Ubuntu", "expected": ["ウブントゥ"], "verified": [], "already_known": ["ウブントゥ"]}
+{"surface": "NAACL", "dictionary_surface": "NAACL", "expected": ["ナックル"], "verified": [], "already_known": []}
+{"surface": "ASCII", "dictionary_surface": "ASCII", "expected": ["アスキー"], "verified": [], "already_known": ["アスキー"]}
+{"surface": "GNOME", "dictionary_surface": "GNOME", "expected": ["グノーム"], "verified": ["グノーム"], "already_known": ["グノーム"]}
+{"surface": "JWT", "dictionary_surface": "JWT", "expected": ["ジョット"], "verified": [], "already_known": []}

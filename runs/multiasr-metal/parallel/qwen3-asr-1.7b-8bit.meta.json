@@ -1,0 +1,37 @@
+{
+  "multi": "qwen3-asr-1.7b-8bit",
+  "haas": "haas-ja-v1.0-speechcpp-q8_0",
+  "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+  "formatter": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "git_commit": "b63e22db003422178eb7ba9048b476fbb0366d0c",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-22T12:50:21.876541+00:00",
+  "top_processes_before": [
+    "81130  80.4 240880 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  34.8 101152 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  14.9  95776 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  11.4  20704 /usr/sbin/coreaudiod",
+    "51709   4.2 309520 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "12220   2.5  53472 /System/Applications/App Store.app/Contents/MacOS/App Store",
+    "233   2.0  15264 /usr/libexec/airportd",
+    "301   1.7  43744 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 94.0,
+    "load1": 4.61,
+    "swap_used_gb": 2.669189453125
+  },
+  "model_load_s": 2.3209855830064043,
+  "mlx_peak_memory_gb": 4.273864896,
+  "finished_at": "2026-11-22T12:53:49.705925+00:00",
+  "top_processes_after": [
+    "81130  59.1 174672 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python",
+    "173  48.1  98832 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  26.4  93856 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "87869  15.6  82256 /Applications/Muse.app/Contents/MacOS/Muse",
+    "22915  11.0  23776 /System/Library/ExtensionKit/Extensions/DisplaysExt.appex/Contents/MacOS/DisplaysExt",
+    "301   3.4  41632 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "18382   3.2   7104 /usr/libexec/trustd",
+    "284   3.1   6896 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ]
+}

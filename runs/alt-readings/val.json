@@ -1,0 +1,303 @@
+{
+  "split": "val",
+  "rows": 1000,
+  "entries": 24978,
+  "gold_not_in_glossary": 0,
+  "inputs": {
+    "manifest": {
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/tts/val/manifest.jsonl",
+      "sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6"
+    },
+    "exclude": {
+      "path": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-plus-heldout.txt",
+      "sha256": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f"
+    },
+    "glossary_v1": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "glossary_v2": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary-v2.jsonl",
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+    },
+    "haas": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen06-val-plain.jsonl",
+      "sha256": "da06a7367f16244c3abd69dddd5087c5ffb6e8567412166100145ff77fc5ee4a"
+    },
+    "qwen06": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen06-firstpass.jsonl",
+      "sha256": "b1d5accbd48ff64c59d01fd139e6db294646d5e4487507ee6a02e4e227237401"
+    },
+    "qwen17": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen17-firstpass.jsonl",
+      "sha256": "7747b2efdb440af6e26d2cc984b5b9baea128a6501ab0faf866d44daf90e3ae2"
+    }
+  },
+  "conditions": {
+    "haas": {
+      "baseline": {
+        "20": {
+          "selected": 17602,
+          "gold_hits": 1216,
+          "rows_with_gold_hit": 780,
+          "false_selections": 16386,
+          "gold_total": 1427,
+          "recall": 0.8521373510861948,
+          "false_selections_per_row": 16.386,
+          "selection_median_ms_at_max_cap": 5.699977045878768
+        },
+        "32": {
+          "selected": 25874,
+          "gold_hits": 1218,
+          "rows_with_gold_hit": 780,
+          "false_selections": 24656,
+          "gold_total": 1427,
+          "recall": 0.8535388927820603,
+          "false_selections_per_row": 24.656,
+          "selection_median_ms_at_max_cap": 5.699977045878768
+        }
+      },
+      "rules": {
+        "20": {
+          "selected": 17602,
+          "gold_hits": 1216,
+          "rows_with_gold_hit": 780,
+          "false_selections": 16386,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 0,
+          "false_selections_dropped": 0,
+          "gold_total": 1427,
+          "recall": 0.8521373510861948,
+          "false_selections_per_row": 16.386,
+          "selection_median_ms_at_max_cap": 5.861235782504082
+        },
+        "32": {
+          "selected": 25874,
+          "gold_hits": 1218,
+          "rows_with_gold_hit": 780,
+          "false_selections": 24656,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 0,
+          "false_selections_dropped": 0,
+          "gold_total": 1427,
+          "recall": 0.8535388927820603,
+          "false_selections_per_row": 24.656,
+          "selection_median_ms_at_max_cap": 5.861235782504082
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 17602,
+          "gold_hits": 1217,
+          "rows_with_gold_hit": 780,
+          "false_selections": 16385,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 3,
+          "gold_total": 1427,
+          "recall": 0.8528381219341276,
+          "false_selections_per_row": 16.385,
+          "selection_median_ms_at_max_cap": 5.740776425227523
+        },
+        "32": {
+          "selected": 25875,
+          "gold_hits": 1219,
+          "rows_with_gold_hit": 780,
+          "false_selections": 24656,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 2,
+          "gold_total": 1427,
+          "recall": 0.854239663629993,
+          "false_selections_per_row": 24.656,
+          "selection_median_ms_at_max_cap": 5.740776425227523
+        }
+      }
+    },
+    "qwen06": {
+      "baseline": {
+        "20": {
+          "selected": 18090,
+          "gold_hits": 1312,
+          "rows_with_gold_hit": 813,
+          "false_selections": 16778,
+          "gold_total": 1427,
+          "recall": 0.9194113524877365,
+          "false_selections_per_row": 16.778,
+          "selection_median_ms_at_max_cap": 11.459610657766461
+        },
+        "32": {
+          "selected": 27114,
+          "gold_hits": 1314,
+          "rows_with_gold_hit": 813,
+          "false_selections": 25800,
+          "gold_total": 1427,
+          "recall": 0.920812894183602,
+          "false_selections_per_row": 25.8,
+          "selection_median_ms_at_max_cap": 11.459610657766461
+        }
+      },
+      "rules": {
+        "20": {
+          "selected": 18090,
+          "gold_hits": 1312,
+          "rows_with_gold_hit": 813,
+          "false_selections": 16778,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 2,
+          "gold_total": 1427,
+          "recall": 0.9194113524877365,
+          "false_selections_per_row": 16.778,
+          "selection_median_ms_at_max_cap": 11.46609103307128
+        },
+        "32": {
+          "selected": 27114,
+          "gold_hits": 1314,
+          "rows_with_gold_hit": 813,
+          "false_selections": 25800,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 2,
+          "gold_total": 1427,
+          "recall": 0.920812894183602,
+          "false_selections_per_row": 25.8,
+          "selection_median_ms_at_max_cap": 11.46609103307128
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 18090,
+          "gold_hits": 1313,
+          "rows_with_gold_hit": 813,
+          "false_selections": 16777,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 7,
+          "false_selections_dropped": 8,
+          "gold_total": 1427,
+          "recall": 0.9201121233356693,
+          "false_selections_per_row": 16.777,
+          "selection_median_ms_at_max_cap": 11.41825201921165
+        },
+        "32": {
+          "selected": 27114,
+          "gold_hits": 1315,
+          "rows_with_gold_hit": 813,
+          "false_selections": 25799,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 5,
+          "false_selections_dropped": 6,
+          "gold_total": 1427,
+          "recall": 0.9215136650315346,
+          "false_selections_per_row": 25.799,
+          "selection_median_ms_at_max_cap": 11.41825201921165
+        }
+      }
+    },
+    "qwen17": {
+      "baseline": {
+        "20": {
+          "selected": 17964,
+          "gold_hits": 1324,
+          "rows_with_gold_hit": 818,
+          "false_selections": 16640,
+          "gold_total": 1427,
+          "recall": 0.9278206026629292,
+          "false_selections_per_row": 16.64,
+          "selection_median_ms_at_max_cap": 10.900268098339438
+        },
+        "32": {
+          "selected": 26858,
+          "gold_hits": 1326,
+          "rows_with_gold_hit": 818,
+          "false_selections": 25532,
+          "gold_total": 1427,
+          "recall": 0.9292221443587947,
+          "false_selections_per_row": 25.532,
+          "selection_median_ms_at_max_cap": 10.900268098339438
+        }
+      },
+      "rules": {
+        "20": {
+          "selected": 17964,
+          "gold_hits": 1324,
+          "rows_with_gold_hit": 818,
+          "false_selections": 16640,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 1,
+          "false_selections_dropped": 1,
+          "gold_total": 1427,
+          "recall": 0.9278206026629292,
+          "false_selections_per_row": 16.64,
+          "selection_median_ms_at_max_cap": 10.931455995887518
+        },
+        "32": {
+          "selected": 26858,
+          "gold_hits": 1326,
+          "rows_with_gold_hit": 818,
+          "false_selections": 25532,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 1,
+          "false_selections_dropped": 1,
+          "gold_total": 1427,
+          "recall": 0.9292221443587947,
+          "false_selections_per_row": 25.532,
+          "selection_median_ms_at_max_cap": 10.931455995887518
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 17964,
+          "gold_hits": 1325,
+          "rows_with_gold_hit": 818,
+          "false_selections": 16639,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 3,
+          "false_selections_dropped": 4,
+          "gold_total": 1427,
+          "recall": 0.928521373510862,
+          "false_selections_per_row": 16.639,
+          "selection_median_ms_at_max_cap": 10.926399612799287
+        },
+        "32": {
+          "selected": 26858,
+          "gold_hits": 1327,
+          "rows_with_gold_hit": 818,
+          "false_selections": 25531,
+          "gold_gained": 1,
+          "gold_lost": 0,
+          "false_selections_added": 3,
+          "false_selections_dropped": 4,
+          "gold_total": 1427,
+          "recall": 0.9299229152067274,
+          "false_selections_per_row": 25.531,
+          "selection_median_ms_at_max_cap": 10.926399612799287
+        }
+      }
+    }
+  },
+  "val_selection_scores": {
+    "rules": 0,
+    "combined": 22
+  },
+  "chosen": "combined",
+  "frozen_sha256": {
+    "selector": "3ef2a1f3d1088355b977a87c846bec470ffe4f3fa0a4705f6f82e7f80c62247a",
+    "evaluation": "288d34dc99a0e1c8e098a5cf171df611f6852c3813afc5fac89c12b197234d7d",
+    "glossary_v1": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "glossary_v2": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "rules": "fd5fd38707dc104453777f0e70fb4e8839d692892eab4f45648212f2edce9f7d",
+    "combined": "63944a8b7d0cce0cbd20874df64b9c13bea91051d4fbba0d731ec83dcb229e1c"
+  }
+}

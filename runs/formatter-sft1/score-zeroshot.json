@@ -1,0 +1,570 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+  "duration_source": "est_seconds",
+  "results": [
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/rules.jsonl",
+      "system": "rules",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 1817,
+        "substitutions": 171,
+        "insertions": 1607,
+        "deletions": 39,
+        "reference_characters": 9234,
+        "rate": 0.19677279618800086
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 208,
+        "total": 273,
+        "accuracy": 0.7619047619047619,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 67
+      },
+      "fillers": {
+        "residual_count": 26,
+        "manifest_count": 308,
+        "residual_rate": 0.08441558441558442
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 891,
+            "substitutions": 34,
+            "insertions": 850,
+            "deletions": 7,
+            "reference_characters": 1419,
+            "rate": 0.627906976744186
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 244,
+            "substitutions": 78,
+            "insertions": 146,
+            "deletions": 20,
+            "reference_characters": 1018,
+            "rate": 0.23968565815324164
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.15,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 163,
+            "substitutions": 6,
+            "insertions": 156,
+            "deletions": 1,
+            "reference_characters": 1015,
+            "rate": 0.1605911330049261
+          },
+          "exact_matches": 9,
+          "exact_match_rate": 0.45,
+          "suspected_responses": 3,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 5,
+            "substitutions": 3,
+            "insertions": 2,
+            "deletions": 0,
+            "reference_characters": 1087,
+            "rate": 0.004599816007359705
+          },
+          "exact_matches": 27,
+          "exact_match_rate": 0.9310344827586207,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 170,
+            "substitutions": 18,
+            "insertions": 147,
+            "deletions": 5,
+            "reference_characters": 1015,
+            "rate": 0.16748768472906403
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.1875,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.007427562493830919,
+          "p90_s": 0.011243695858865976
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.0044467294937931,
+            "p90_s": 0.007070521009154618
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.007342499971855432,
+            "p90_s": 0.010490458726417273
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.011007521010469645,
+            "p90_s": 0.015624304511584345
+          }
+        },
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/qwen3.5-0.8b-zeroshot.jsonl",
+      "system": "qwen3.5-0.8b-zeroshot",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 4783,
+        "substitutions": 1000,
+        "insertions": 2613,
+        "deletions": 1170,
+        "reference_characters": 9234,
+        "rate": 0.5179770413688543
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 180,
+        "total": 273,
+        "accuracy": 0.6593406593406593,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 83
+      },
+      "fillers": {
+        "residual_count": 39,
+        "manifest_count": 308,
+        "residual_rate": 0.1266233766233766
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 962,
+            "substitutions": 207,
+            "insertions": 590,
+            "deletions": 165,
+            "reference_characters": 1419,
+            "rate": 0.6779422128259338
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.027777777777777776,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 458,
+            "substitutions": 160,
+            "insertions": 133,
+            "deletions": 165,
+            "reference_characters": 1018,
+            "rate": 0.449901768172888
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.05,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 736,
+            "substitutions": 215,
+            "insertions": 461,
+            "deletions": 60,
+            "reference_characters": 1015,
+            "rate": 0.7251231527093596
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.05,
+          "suspected_responses": 6,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 416,
+            "substitutions": 37,
+            "insertions": 324,
+            "deletions": 55,
+            "reference_characters": 1087,
+            "rate": 0.3827046918123275
+          },
+          "exact_matches": 13,
+          "exact_match_rate": 0.4482758620689655,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 381,
+            "substitutions": 38,
+            "insertions": 142,
+            "deletions": 201,
+            "reference_characters": 1015,
+            "rate": 0.3753694581280788
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.21668745850911364,
+          "p90_s": 0.39501342524308714
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.1334477704949677,
+            "p90_s": 0.25330187543295324
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.2050462290062569,
+            "p90_s": 0.3441777293686755
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.32690337451640517,
+            "p90_s": 0.5824905296089129
+          }
+        },
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/lfm2.5-1.2b-jp-zeroshot.jsonl",
+      "system": "lfm2.5-1.2b-jp-zeroshot",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 25643,
+        "substitutions": 4603,
+        "insertions": 20739,
+        "deletions": 301,
+        "reference_characters": 9234,
+        "rate": 2.777019709768248
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 231,
+        "total": 273,
+        "accuracy": 0.8461538461538461,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 164
+      },
+      "fillers": {
+        "residual_count": 16,
+        "manifest_count": 308,
+        "residual_rate": 0.05194805194805195
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 4759,
+            "substitutions": 736,
+            "insertions": 4002,
+            "deletions": 21,
+            "reference_characters": 1419,
+            "rate": 3.353770260747005
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.027777777777777776,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 2198,
+            "substitutions": 460,
+            "insertions": 1724,
+            "deletions": 14,
+            "reference_characters": 1018,
+            "rate": 2.1591355599214146
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 3624,
+            "substitutions": 640,
+            "insertions": 2971,
+            "deletions": 13,
+            "reference_characters": 1015,
+            "rate": 3.5704433497536945
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": 17,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 4131,
+            "substitutions": 681,
+            "insertions": 3420,
+            "deletions": 30,
+            "reference_characters": 1087,
+            "rate": 3.8003679852805887
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 3503,
+            "substitutions": 576,
+            "insertions": 2879,
+            "deletions": 48,
+            "reference_characters": 1015,
+            "rate": 3.4512315270935963
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.519612000498455,
+          "p90_s": 0.811376883322373
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.3659147710422985,
+            "p90_s": 0.544052874960471
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.5079787914874032,
+            "p90_s": 0.7196433083736339
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.8250889789778739,
+            "p90_s": 1.073890166694764
+          }
+        },
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/gemma-4-e2b-zeroshot.jsonl",
+      "system": "gemma-4-e2b-zeroshot",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 1759,
+        "substitutions": 589,
+        "insertions": 831,
+        "deletions": 339,
+        "reference_characters": 9234,
+        "rate": 0.19049166125189518
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 252,
+        "total": 273,
+        "accuracy": 0.9230769230769231,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 33
+      },
+      "fillers": {
+        "residual_count": 2,
+        "manifest_count": 308,
+        "residual_rate": 0.006493506493506494
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 692,
+            "substitutions": 75,
+            "insertions": 563,
+            "deletions": 54,
+            "reference_characters": 1419,
+            "rate": 0.48766737138830163
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.027777777777777776,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 311,
+            "substitutions": 118,
+            "insertions": 57,
+            "deletions": 136,
+            "reference_characters": 1018,
+            "rate": 0.3055009823182711
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.05,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 205,
+            "substitutions": 60,
+            "insertions": 98,
+            "deletions": 47,
+            "reference_characters": 1015,
+            "rate": 0.2019704433497537
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.3,
+          "suspected_responses": 2,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 32,
+            "substitutions": 13,
+            "insertions": 15,
+            "deletions": 4,
+            "reference_characters": 1087,
+            "rate": 0.029438822447102116
+          },
+          "exact_matches": 25,
+          "exact_match_rate": 0.8620689655172413,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 254,
+            "substitutions": 129,
+            "insertions": 98,
+            "deletions": 27,
+            "reference_characters": 1015,
+            "rate": 0.25024630541871923
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.1875,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.4128633755026385,
+          "p90_s": 0.7006037080893293
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.2534817080013454,
+            "p90_s": 0.36611045856261626
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.40213225001934916,
+            "p90_s": 0.6277997787110507
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.6872061665053479,
+            "p90_s": 0.8574914298718795
+          }
+        },
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}

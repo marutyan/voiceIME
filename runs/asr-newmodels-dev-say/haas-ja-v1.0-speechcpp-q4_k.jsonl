@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ゲットハブにプッシュしました。", "latency_s": 0.03759250009898096}
+{"id": "dev-say-0002", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ロッカーを再起動します。", "latency_s": 0.05001558305229992}
+{"id": "dev-say-0003", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "gygorca1のバージョンを上げます。", "latency_s": 0.05110124999191612}
+{"id": "dev-say-0004", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "jasonで返してください。", "latency_s": 0.04631283390335739}
+{"id": "dev-say-0005", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "空腹が見つからないです。", "latency_s": 0.03419837506953627}
+{"id": "dev-say-0006", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "slackに貼っておきます。", "latency_s": 0.04577312502078712}
+{"id": "dev-say-0007", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "まあ、mlxで十分早いです。", "latency_s": 0.04580791597254574}
+{"id": "dev-say-0008", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "loveのいやエンベリングの精度が低いです。", "latency_s": 0.049777291947975755}
+{"id": "dev-say-0009", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "部分とレビュードが落ちます。", "latency_s": 0.03615604201331735}
+{"id": "dev-say-0010", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "えー、colab のセッションを止めました。", "latency_s": 0.04842875001486391}
+{"id": "dev-say-0011", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ローラーで微調整します。", "latency_s": 0.03635808301623911}
+{"id": "dev-say-0012", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "なんか、vsコードが重いです。", "latency_s": 0.045605374965816736}
+{"id": "dev-say-0013", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ウィスパーの小さいモデルを試します。", "latency_s": 0.04506658297032118}
+{"id": "dev-say-0014", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "トランスフォーマーのアテンションの部分をもう少し軽くしたいんですけど、何かいい方法はありますか。", "latency_s": 0.08876979199703783}
+{"id": "dev-say-0015", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ハギングフェイスからモデルをダウンロードしてmlx の形式に変換してから、手元のmacで動かします。", "latency_s": 0.0923906669486314}
+{"id": "dev-say-0016", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "バッチサイズを32に、いや16に下げたら vrにおさまりました。", "latency_s": 0.07055216690059751}
+{"id": "dev-say-0017", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "gig、hubactio nsのワークフローでtyg estが失敗しているので、rogを確認してもらえますか", "latency_s": 0.10799145803321153}
+{"id": "dev-say-0018", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "まあとりあえずパンダスでcsvを読み込んで、欠損値を確認してみましょう。", "latency_s": 0.06804675003513694}
+{"id": "dev-say-0019", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "a reactのコンポーネントが2回レンダリングされる問題はストリクトモードのせいだと思います。", "latency_s": 0.07579283392988145}
+{"id": "dev-say-0020", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ポスグレのインデックスを貼ったら、クエリが10倍くらい速くなりました。", "latency_s": 0.06282470899168402}
+{"id": "dev-say-0021", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "mune、そのラーメングレートが高すぎて、ロスが発散しているかもしれないです。", "latency_s": 0.07323620899114758}
+{"id": "dev-say-0022", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "クバネティスのとんどが、メモリ不足で起きているみたいです。", "latency_s": 0.05190062499605119}
+{"id": "dev-say-0023", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "opnaiのapiキーを環境変数に入れて、fast apiのサーバから呼び出します。", "latency_s": 0.08664354193024337}
+{"id": "dev-say-0024", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ユーザーのタイプスクリプトの方エラーが計30件くらい出ています。", "latency_s": 0.06801662500947714}
+{"id": "dev-say-0025", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "w&bで学習曲線を見ると絵トック 5あたりから過学習しています。", "latency_s": 0.07190658303443342}
+{"id": "dev-say-0026", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ロッカーファイルのいやロッカーコンポーズの設定を見直してください。", "latency_s": 0.0655352909816429}
+{"id": "dev-say-0027", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ヨロで物体検出をしてから、セグメントエンシングでマスクを作ります。", "latency_s": 0.06925058306660503}
+{"id": "dev-say-0028", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "xcod でビュルドすると、swiftuiのプレビューが、なんかかたまるんですよ。", "latency_s": 0.08347887499257922}
+{"id": "dev-say-0029", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ええと、今日のミーティングでは、まずラブのパイプラインの評価結果を共有して、その後、レンベリングモデルをあのopenaiのものからオープンソースのものに切り替えるかどうかを決めたいと思います。", "latency_s": 0.16529745794832706}
+{"id": "dev-say-0030", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "学習はコラボのa 1チャンドレンドで回して、チェックポイントは google ドライブに保存して、推論だけ手元のm3 proで動かす予定です。", "latency_s": 0.12245587504003197}
+{"id": "dev-say-0031", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "あの、さっきのプルリクなんですけど、リベースしたらコンフリクトが出たので、ええマージは明日に、いや、今日の夕方にやります。", "latency_s": 0.0948079579975456}
+{"id": "dev-say-0032", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ラマの8ビールを4 ビットに量子化して、mlxl m で動かしてみたら、1秒あたり40とおくんくらい出ました。", "latency_s": 0.10692162497434765}
+{"id": "dev-say-0033", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "pythonの仮想環境はuvで管理して、依存関係はpiprojectomolに書いておけば他の人も同じ環境を再現できます。", "latency_s": 0.10173141700215638}
+{"id": "dev-say-0034", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "なんか、next jsのアップデートの後から、ビルドが凄くおそくなっていて、えターボパックを向こうにすると、まぁ...元に戻るみたいです。", "latency_s": 0.11313695798162371}
+{"id": "dev-say-0035", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "非評価には、cerと用語の正答率を使って、ベースラインのミスパーラージv3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 0.1099637079751119}
+{"id": "dev-say-0036", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ボスのトークンの有効期限が切れていて、リフレッシュトークンで再取得する処理が、そのうまく動いていないようです。", "latency_s": 0.09597529098391533}
+{"id": "dev-say-0037", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "os-romvだからs3にファイルを書き込むときに、b&mのロールの権限が足りなくて、アクセスdnidedのエラーが出ています。", "latency_s": 0.0908867500256747}
+{"id": "dev-say-0038", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "ビジョントランスフォーマーとresnetを、同じデータ拡張と同じエポック数で比べて、その後アブレーションをやります。", "latency_s": 0.09503420791588724}
+{"id": "dev-say-0039", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "coremlに変換したモデルをニューラルエンジンで動かすと、gpuより消費電力が少なくて、まあバッテリーの持ちがかなりよくなります。", "latency_s": 0.1167089999653399}
+{"id": "dev-say-0040", "system": "haas-ja-v1.0-speechcpp-q4_k", "stage": "asr", "hyp": "テラフォームで作ったリソースと、手で作ったリソースがまざっていて、ステートファイルが、あの実さいの状態とズレているので、インポートしなおします。", "latency_s": 0.1173067920608446}

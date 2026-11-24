@@ -1,0 +1,20 @@
+{
+  "val": {
+    "rows": 1000,
+    "terms": 1427,
+    "correct": 1361,
+    "included": 1310,
+    "included_correct": 1281,
+    "excluded": 117,
+    "excluded_correct": 80
+  },
+  "test_novel": {
+    "rows": 500,
+    "terms": 500,
+    "correct": 330,
+    "included": 369,
+    "included_correct": 291,
+    "excluded": 131,
+    "excluded_correct": 39
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "source_commit": "4d083adf85efd3ad29fbab95d6a656fbc44068f0",
+  "policy": "segment-merge",
+  "merge_threshold": 0.8,
+  "speech_model": "Haas-ja-v1.0 Q8_0",
+  "speech_model_sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb",
+  "speechcpp_commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+  "glossary_files": {
+    "glossary.jsonl": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+      "bytes": 211205,
+      "lines": 1458
+    },
+    "glossary-v2.jsonl": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary-v2.jsonl",
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+      "bytes": 5856986,
+      "lines": 31415
+    },
+    "glossary-v2-excluded.txt": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary-v2-excluded.txt",
+      "sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+      "bytes": 1271,
+      "lines": 84
+    }
+  },
+  "derived_terms": {
+    "v2_excluded_terms": {
+      "count": 83,
+      "sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e"
+    },
+    "v2_heldout_surfaces": {
+      "count": 6365,
+      "sha256": "d3c679190add7d874e33866b039557f53e2156f07dae4ffeeb5c98c365098596"
+    },
+    "test_novel_terms": {
+      "count": 500,
+      "sha256": "6d8f4a9d777dfbe7261de994fb706a9b4f21e1f5d06cdb0dc6bb6f61f6b40535"
+    }
+  },
+  "conditions": {
+    "a-include-novel": {
+      "excluded_term_count": 83,
+      "excluded_in_merged_glossary": 83,
+      "candidate_surface_count": 31332,
+      "exclude_file": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-83.txt",
+      "exclude_file_sha256": "16b1e0d83c93a29bf68127fd4889643ceac9e59ff0dfa03b6dac90f5a57ec8bd"
+    },
+    "a-exclude-novel": {
+      "excluded_term_count": 583,
+      "excluded_in_merged_glossary": 583,
+      "candidate_surface_count": 30832,
+      "exclude_file": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-plus-novel.txt",
+      "exclude_file_sha256": "dc14daa8ed0604799ea5d03362c13342da759cb7b07957c2a2f8bb6454bff7d3"
+    },
+    "b-c-exclude-heldout": {
+      "excluded_term_count": 6437,
+      "excluded_in_merged_glossary": 6437,
+      "candidate_surface_count": 24978,
+      "exclude_file": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-plus-heldout.txt",
+      "exclude_file_sha256": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f"
+    }
+  },
+  "inputs": {
+    "test_novel_manifest": {
+      "path": "/home/maru/voiceime-work-tts/outputs/r3-test-novel-20261122/manifest.jsonl",
+      "sha256": "d3500fd1402cc1d3f58ffa0de804727a3e90b68402f9ba5c74f4a245431699d4",
+      "rows": 500
+    },
+    "val_manifest": {
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/tts/val/manifest.jsonl",
+      "sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6",
+      "rows": 1000
+    },
+    "old_train_manifest": {
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/tts/train/manifest.jsonl",
+      "sha256": "8b2ccc9a0dc83f06f7e8323de2c9ff6e43b110145d55216b6d9f943fe0d86e98",
+      "rows": 9990
+    },
+    "r3_train_manifest": {
+      "path": "/home/maru/voiceime-work-tts/outputs/r3-train-20261122/manifest.jsonl",
+      "sha256": "6ce5ea823cb70ca26cbf692c42815bb64ceedd4c979c9af6aa8eec6e4cf8c96e",
+      "rows": 12000
+    },
+    "dev_user_manifest": {
+      "path": "/home/maru/voiceime-work-asr/data/dev-user-five/manifest.jsonl",
+      "sha256": "3b82169a724d0e6569a60bd10f375c83681d535ae9a0f7d12708c9124d0c68e6",
+      "rows": 5
+    }
+  },
+  "test_synth": "not run; the manifest scan under /home/maru/voiceime-work* found no test-synth audio manifest; voiceime-work-fr3/repo/runs/asr-tts contained only prior ASR hypothesis JSONLs"
+}

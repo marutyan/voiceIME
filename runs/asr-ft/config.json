@@ -1,0 +1,113 @@
+{
+  "worktree_revision": "edecbd2d75296b5f6a590a9932004ac72670585f",
+  "qwen_asr_revision": "7c6daf77a2421100f5fb066495372c00129d39ff",
+  "base_checkpoint_revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+  "base_checkpoint_config_sha256": "76d3ae4601ce939830b2517f4a6cadb86cc51316c3900af6b020b051c21a478c",
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "qwen-asr": "0.0.6",
+    "transformers": "4.57.6",
+    "datasets": "5.0.1",
+    "accelerate": "1.12.0",
+    "soundfile": "0.14.0",
+    "safetensors": "0.8.0"
+  },
+  "runs": {
+    "ASRFT-a": {
+      "model": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+      "train": "data/train-mixed.jsonl",
+      "val": "data/val.jsonl",
+      "out": "models/ASRFT-a",
+      "lr": 1e-05,
+      "epochs": 1,
+      "batch": 8,
+      "grad_acc": 16,
+      "queue": "60-asrft-a-train-retry2"
+    },
+    "ASRFT-b": {
+      "model": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+      "train": "data/train-mixed.jsonl",
+      "val": "data/val.jsonl",
+      "out": "models/ASRFT-b",
+      "lr": 3e-05,
+      "epochs": 2,
+      "batch": 8,
+      "grad_acc": 16,
+      "queue": "60-asrft-b-train-retry2"
+    },
+    "ASRFT-c": {
+      "model": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+      "train": "data/train-synthetic.jsonl",
+      "val": "data/val.jsonl",
+      "out": "models/ASRFT-c",
+      "lr": 1e-05,
+      "epochs": 1,
+      "batch": 8,
+      "grad_acc": 16,
+      "queue": "60-asrft-c-train-retry2"
+    }
+  },
+  "training": {
+    "seed": 0,
+    "data_seed": 0,
+    "trainable_parameters": 782426112,
+    "precision": "FP32 weights, BF16 autocast",
+    "optimizer": "adamw_torch",
+    "scheduler": "linear",
+    "warmup_ratio": 0.02,
+    "max_grad_norm": 1.0,
+    "tf32": true,
+    "cudnn_sdpa": false,
+    "eval_steps": 200,
+    "eval_epoch_end": true,
+    "checkpoint_selection": "minimum synthetic validation loss",
+    "language": "Japanese",
+    "context": ""
+  },
+  "evaluation": {
+    "asr_batch_size": 8,
+    "asr_dtype": "bfloat16",
+    "asr_max_tokens": 512,
+    "haas_hint_max_terms": 16,
+    "haas_hint_max_characters": 240,
+    "merge_min_reading_similarity": 0.8,
+    "formatter_checkpoint": "/home/maru/voiceime-work-wops/full1/outputs/FULL-scratch/best",
+    "formatter_batch_size": 32,
+    "glossary_caps": [
+      20,
+      32,
+      48
+    ],
+    "queue": [
+      "60-asrft-original-eval-retry1",
+      "60-asrft-a-eval-retry1",
+      "60-asrft-b-eval-retry1",
+      "60-asrft-c-eval-retry1"
+    ]
+  },
+  "script_sha256": {
+    "prepare.py": "4b6439983864fbcbec5733822eb8259e097ed171fa4e78eef30d1a9d134c2e87",
+    "train.py": "e28793d148afce99d6a55af7a1ee8060cdd7f404d2c9dd959d7e00efc9886d54",
+    "train-job.sh": "3e80a4c24b76b03d2b37e52445c2bdc888056af972fc0d342951eab7b726da7a",
+    "evaluate.py": "94bc8bd7d045b297ca89a372713e38b8e3f73c6ea5802433e627f2f360ab263c",
+    "eval-job.sh": "254460fb5cc85382d8bd6a4e035d82b9f46b55a620a2adfc86bb7c95bea9c84d",
+    "preflight-eval.sh": "2eee4592630d5ca9e1e7023487b9c641531b49c1f59c97faea0945a941054ce3",
+    "monitor.py": "42e4e387bfd594909e98e90a950c742b145ff37f1bcea37d605028fa0ffdfb5e",
+    "summarize.py": "e31f3179a93c3227b6f49e9ec391435eea589560323e69ebf80bb1c6a3d290fd"
+  },
+  "reference_sha256": {
+    "voiceime-work-asr/r3-multiasr-20261122/scripts/multiasr_runner.py": "9e89f00eae5518f4a57b029e14c23ec9b87a0b731f615d53cc82ba61cbe8c3ad",
+    "voiceime-work-asr/r3-multiasr-train-20261123/scripts/train_pipeline.py": "7faf698cb45eb321735fe4f838aa7109675d8e917d4626b96d9be9b4c0756f0b",
+    "voiceime-work-fr3/overlays/glossary-main-c2ad276.py": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+    "voiceime-work-fr3/inputs/glossary-capacity-20261123-corrected/selection-audit.json": "5c56647bc7d6f2ef33363087388e66098a18f47e016ecfd9300cefb665d28c93",
+    "voiceime-work-fr3/repo/train/formatter/eval_transformers.py": "478dde2afcb4480acbbfebc6f7d559a8404f1fe675b1e3bcc8589c876fbe1f87",
+    "voiceime-work-wops/fix1/capacity-eval.sh": "14f4e968d122ea25b19d0fa6ff185a9e8d228d873e91f056bf6a105ac7fdf744",
+    "voiceime-work-wops/full1/outputs/FULL-scratch/best/config.json": "97254ba6bb38e3d70e0b1fbe23c3a7ae448fb5130a57fa3e1c69e53d316ac480",
+    "voiceime-work-qwenasr/Qwen3-ASR/finetuning/qwen3_asr_sft.py": "6f3e5cc530d9da9ff405144fc94a5c4790018eaf956dbc623634818160418976",
+    "voiceime-work-wops/full1/outputs/FULL-scratch/best/model.safetensors": "f9aa66f9e25fd5db2b983d733393a4801a85c11efd282aba68de9f46e8246556",
+    "voiceime-work-asr/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-Q8_0.gguf": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb",
+    "voiceime-work-asr/speech.cpp/build-cuda-toolkit/speech": "263cf00fd3caadbb09e6deb217874de0e5e709ee596a2fe4529796270a746814",
+    "voiceime-work-asrft/evaluation/base/pipeline-baseline.json": "1acd5010456432129c17318b16d192acef7ec78c9652b9ce2f5a4d6cb322a54a"
+  }
+}

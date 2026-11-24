@@ -1,0 +1,8 @@
+ %CPU COMM
+ 92.5 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/MacOS/ApplicationsStorageExtension
+ 73.2 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/StorageManagementService
+ 22.0 claude
+ %CPU COMM
+ 94.2 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/StorageManagementService
+ 15.9 /System/Library/ExtensionKit/Extensions/Storage.appex/Contents/MacOS/Storage
+ 15.5 /usr/sbin/coreaudiod

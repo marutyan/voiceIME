@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "GitHubにプッシュしました。", "latency_s": 0.691508625051938}
+{"id": "dev-say-0002", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、Dockerを再起動します。", "latency_s": 0.6849257920403033}
+{"id": "dev-say-0003", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "TYTORCHのバージョンを上げます。", "latency_s": 0.6800297499867156}
+{"id": "dev-say-0004", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのレイソンで返してください", "latency_s": 0.6701685829320922}
+{"id": "dev-say-0005", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "空打が見つからないです。", "latency_s": 0.6998537080362439}
+{"id": "dev-say-0006", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "SLACKに貼っておきます。", "latency_s": 0.6986150000011548}
+{"id": "dev-say-0007", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "まあ、MLXで十分早いです。", "latency_s": 0.6860806660261005}
+{"id": "dev-say-0008", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ラグの、いや、エンベリングの精度が低いです。", "latency_s": 0.7284524169517681}
+{"id": "dev-say-0009", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "グッズでビルドが起きます。", "latency_s": 0.678247292060405}
+{"id": "dev-say-0010", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "COLABのセッションを止めました", "latency_s": 0.6745389580028132}
+{"id": "dev-say-0011", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "動画で微調整します。", "latency_s": 0.6616247080964968}
+{"id": "dev-say-0012", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "なんか、VSコードが重いです。", "latency_s": 0.6779811250744388}
+{"id": "dev-say-0013", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ウィスパーの小さいモデルを試します。", "latency_s": 0.6883566250326112}
+{"id": "dev-say-0014", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、トランスフォーマーのアテンションの部分を、もう少し軽くしたいんですけど、何かいい方法ありますか?", "latency_s": 0.7975893749389797}
+{"id": "dev-say-0015", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "ハギングフェイスからモデルをダウンロードして、MLXの形式に変換してから、手元のMacで動かします。", "latency_s": 0.7881731250090525}
+{"id": "dev-say-0016", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あのバッキサイズを32にいや16に下げたらグイラムに収まりました", "latency_s": 0.7447626660577953}
+{"id": "dev-say-0017", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "GIT、HUBACTIONSのワークフローでTYPSTが失敗しているので、ログを確認してもらえますか。", "latency_s": 0.8016077920328826}
+{"id": "dev-say-0018", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "まあ、とりあえずPandasでCSVを読み込んで、欠損値を確認してみましょう。", "latency_s": 0.7607808749889955}
+{"id": "dev-say-0019", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "A. Reactのコンポーネントが2回レンダリングされる問題は、ストリクトモードのせいだと思います。", "latency_s": 0.7695243750931695}
+{"id": "dev-say-0020", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "とすぐれのインデックスを張ったら、クエリが10倍くらい速くなりました。", "latency_s": 0.7399039579322562}
+{"id": "dev-say-0021", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "うーん、そのラーニングレートが高すぎて、ロスが発散しているかもしれないです。", "latency_s": 0.7437540839891881}
+{"id": "dev-say-0022", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "クバレティスのポンドがメモリ不足で起きているみたいです。", "latency_s": 0.72052158403676}
+{"id": "dev-say-0023", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "OPLAIのAPIキーを環境変数に入れて、FAST APIのサーバーから呼び出します。", "latency_s": 0.7522602080134675}
+{"id": "dev-say-0024", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、TypeScriptの方エラーが、えー、30件くらい出ています。", "latency_s": 0.7163770410697907}
+{"id": "dev-say-0025", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "W&Bで学習曲線を見ると、エトック語辺りから、下学習しています。", "latency_s": 0.7425168750341982}
+{"id": "dev-say-0026", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Dockerファイルの、いや、Docker Composeの設定を見直してください。", "latency_s": 0.7330114160431549}
+{"id": "dev-say-0027", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ヨロで物体検出をしてから、セグメントエディシングでマスクを作ります。", "latency_s": 0.7501632500207052}
+{"id": "dev-say-0028", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "XCODEでビルドするとSWIFTUIのプレビューがなんか固まるんですよね", "latency_s": 0.7594380839727819}
+{"id": "dev-say-0029", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、今日のミーティングでは、まず、ラグのパイプラインの評価結果を共有して、その後、エンベリングモデルを、あのオープンAIのものからオープンソースのものに切り替えるかどうかを決めたいと思います。", "latency_s": 0.9372098750900477}
+{"id": "dev-say-0030", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "学習はコラボのA100で回して、チェックポイントはGoogleドライブに保存して、推論だけ手元のM3 Proで動かす予定です。", "latency_s": 0.815124666900374}
+{"id": "dev-say-0031", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、さっきのプルリクなんですけど、リベースしたらコンフリクトが出たので、えー、マージは明日に、いや、今日の夕方にやります。", "latency_s": 0.8228763750521466}
+{"id": "dev-say-0032", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えっと、ラマの8Bを4bitに量子化してMLXLMで動かしてみたら1秒あたり40トークンくらい出ました。", "latency_s": 0.7904192920541391}
+{"id": "dev-say-0033", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "Pythonの仮想環境はUVで管理して、依存関係はPyproject.tomrに書いておけば、他の人も同じ環境を再現できます。", "latency_s": 0.8528622919693589}
+{"id": "dev-say-0034", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "なんか、Next.jsのアップデートの後から、ビルドがすごく遅くなっていて、えー、ターボパックを無効にすると、まあ、元に戻るみたいです。", "latency_s": 0.8327242080122232}
+{"id": "dev-say-0035", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "評価には、CERと両方の正当率を使って、ベースラインのウィスパーラージV3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 0.8316910410067067}
+{"id": "dev-say-0036", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "あの、オースのトークンの有効期限が切れていて、えー、リフレッシュトークンで再取得する処理が、その、うまく動いていないようです。", "latency_s": 0.8545339170377702}
+{"id": "dev-say-0037", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "OZのRAM部だからS3にファイルを書き込むときに、EMのロールの権限が足りなくて、アクサスDニードのエラーが出ています。", "latency_s": 0.8348645829828456}
+{"id": "dev-say-0038", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "えーと、ビジョン・トランスフォーマーとレズネットを、同じデータ拡張と同じエポック数で比べて、その後、アブレーションをやります。", "latency_s": 0.8582601670641452}
+{"id": "dev-say-0039", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "COREMLに変換したモデルをニューラルエンジンで動かすと、GPUより消費電力が少なくて、まあ、バッテリーの持ちがかなり良くなります。", "latency_s": 0.8585509579861537}
+{"id": "dev-say-0040", "system": "whisper-large-v3-turbo", "stage": "asr", "hyp": "うーん、テラフォームで作ったリソースと手で作ったリソースが混ざっていて、ステートファイルがあの実際の状態とずれているのでインポートし直します。", "latency_s": 0.8542400000151247}

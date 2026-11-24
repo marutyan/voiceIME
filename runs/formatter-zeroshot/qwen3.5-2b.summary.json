@@ -1,0 +1,28 @@
+{
+  "system": "qwen3.5-2b",
+  "model": "mlx-community/Qwen3.5-2B-MLX-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-pilot-scratch.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": null,
+    "model": "mlx-community/Qwen3.5-2B-MLX-4bit",
+    "system": null,
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/qwen3.5-2b.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot/input-glossary-196.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": false,
+    "limit": null
+  },
+  "n": 30,
+  "glossary_size": 196,
+  "load_and_warmup_s": 10.020371166989207,
+  "format_latency_median_s": 0.39113268750952557,
+  "format_latency_p90_s": 0.5223024831386284,
+  "latency_median_s": 0.39113268750952557,
+  "mean_glossary_entries": 2.6666666666666665,
+  "generation_tps_median": 99.45784119783494,
+  "peak_memory_gb": 1.600121714,
+  "truncated": 0
+}

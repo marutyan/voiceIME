@@ -1,0 +1,13 @@
+{
+  "split": "val",
+  "rows_per_mode": 1000,
+  "cap": 32,
+  "baseline_commit": "a703ba2",
+  "baseline_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "current_sha256": "3ef2a1f3d1088355b977a87c846bec470ffe4f3fa0a4705f6f82e7f80c62247a",
+  "order_mismatches": {
+    "haas": 0,
+    "qwen06": 0,
+    "qwen17": 0
+  }
+}

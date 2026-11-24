@@ -1,0 +1,159 @@
+--- train.py
++++ train_real.py
+@@ -24,11 +24,10 @@
+ from pathlib import Path
+ 
+ import torch
+-from transformers import AutoTokenizer, Trainer, TrainingArguments
++from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+ 
+ from model_loader import load_formatter_model
+-
+-from model_loader import load_formatter_model
++from train_support import AugmentedDataset, ProjectedLossTrainer
+ 
+ from voiceime.formatter.glossary import (
+     DEFAULT_MAX_ENTRIES,
+@@ -49,6 +48,34 @@
+     simulate_asr_noise,
+     to_user_punctuation,
+ )  # 同じdirの train/formatter/asr_noise.py
++
++
++class PreparedDataset(torch.utils.data.Dataset):
++    """区間ごとに確定した条件Dの入力と正解文を、そのまま学習に渡す。"""
++
++    def __init__(self, rows, tokenizer, args):
++        """字幕で確定した教師文と保存済みの仮説・用語一覧を受け取る。"""
++        self.rows = rows
++        self.tokenizer = tokenizer
++        self.max_length = args.max_length
++
++    def __len__(self):
++        """確定した学習行数を返す。"""
++        return len(self.rows)
++
++    def __getitem__(self, index):
++        """3種類のASR結果と、取得時の固定用語一覧をトークン化する。"""
++        row = self.rows[index]
++        voice = FormatterInput(
++            first_pass=row["first_pass"], combined_text=row["combined_text"],
++            qwen_hypothesis=row["qwen_hypothesis"] or None,
++        )
++        glossary = [entry_from_record(entry) for entry in row["glossary"]]
++        return tokenize_pair(
++            self.tokenizer, voice, glossary, row["target_text"],
++            self.max_length, style_target=False,
++        )
++
+ 
+ # 損失を計算しない位置のラベル（PyTorchのcross entropyが無視する値）。
+ IGNORE_INDEX = -100
+@@ -152,12 +179,15 @@
+     return kept[:max_entries]
+ 
+ 
+-def tokenize_pair(tokenizer, input_text: str | FormatterInput, glossary: list[GlossaryEntry], target: str, max_length: int) -> dict:
++def tokenize_pair(tokenizer, input_text: str | FormatterInput, glossary: list[GlossaryEntry],
++                  target: str, max_length: int, *, style_target: bool = True) -> dict:
+     """プロンプトと応答をtoken化し、応答部分だけに損失がかかるラベルを作る。
+ 
+     プロンプトは推論時と同じく単独でtoken化し、応答は続きとしてtoken化する。
+     """
+-    prompt, completion = render_training_pair(tokenizer, input_text, glossary, apply_output_style(target))
++    if style_target:
++        target = apply_output_style(target)
++    prompt, completion = render_training_pair(tokenizer, input_text, glossary, target)
+     prompt_ids = tokenizer(prompt, add_special_tokens=needs_special_tokens(tokenizer, prompt))["input_ids"]
+     completion_ids = tokenizer(completion, add_special_tokens=False)["input_ids"]
+     input_ids = (prompt_ids + completion_ids)[:max_length]
+@@ -409,6 +439,8 @@
+         help="Qwen3.5の構成に応じたmodel_loaderを使う",
+     )
+     p.add_argument("--train", required=True)
++    p.add_argument("--real", required=True, help="字幕と照合済みの実音声JSONL")
++    p.add_argument("--augmentation", required=True, help="omitted語を修正済みの用語差し替えJSONL")
+     p.add_argument("--val", required=True)
+     p.add_argument("--input-field", default="spoken_text", help="入力に使う欄（ASRの出力を入れた欄に差し替えられる）")
+     p.add_argument("--train-asr-run", help="学習の入力をASRの推論結果の`hyp`にする")
+@@ -573,6 +605,12 @@
+                                  asr_hyps=train_asr_hyps, nohint_hyps=train_nohint_hyps,
+                                  combined_hyps=train_combined_hyps, qwen_hyps=train_qwen_hyps,
+                                  selected_glossaries=train_selected_glossaries)
++    real_rows = read_jsonl(args.real)
++    swap_rows = read_jsonl(args.augmentation)
++    train_set = torch.utils.data.ConcatDataset((
++        train_set, AugmentedDataset(swap_rows, tokenizer, args), PreparedDataset(real_rows, tokenizer, args),
++    ))
++    print(f"学習データ: 元 {len(train_rows)} 件、実音声 {len(real_rows)} 件、差し替え {len(swap_rows)} 件", flush=True)
+     val_set = FormatterDataset(val_rows, val_inputs, val_pool, tokenizer, args, train=False,
+                                asr_hyps=val_asr_hyps, nohint_hyps=val_nohint_hyps,
+                                combined_hyps=val_combined_hyps, qwen_hyps=val_qwen_hyps,
+@@ -589,9 +627,9 @@
+         logging_steps=10,
+         eval_strategy="steps",
+         eval_steps=args.eval_steps,
+-        save_strategy="steps",
+-        save_steps=args.eval_steps,
+-        save_total_limit=2,
++        save_strategy="best",
++        save_total_limit=1,
++        save_only_model=True,
+         # Qwen3.5の保存keyはロード時に接頭辞が正規化されるため、Trainerの直接読込を避ける。
+         load_best_model_at_end=False,
+         metric_for_best_model="eval_loss",
+@@ -604,38 +642,30 @@
+         remove_unused_columns=False,
+         report_to="none",
+     )
+-    trainer = Trainer(model=model, args=training_args, train_dataset=train_set, eval_dataset=val_set,
+-                      data_collator=make_collator(pad_id))
++    trainer = ProjectedLossTrainer(
++        model=model, args=training_args, train_dataset=train_set, eval_dataset=val_set,
++        data_collator=make_collator(pad_id), processing_class=tokenizer,
++    )
+     trainer.train(resume_from_checkpoint=args.resume_from_checkpoint)
+     best_checkpoint = trainer.state.best_model_checkpoint
+     if best_checkpoint is None or not Path(best_checkpoint).is_dir():
+         raise RuntimeError("val損失で選ばれたcheckpointが見つかりません")
+-    # from_pretrainedを通してkey名をモデル形式へ合わせてから、学習済みモデルへ厳密に反映する。
+-    best_model = (
+-        load_formatter_model(best_checkpoint, dtype=weights_dtype)
+-        if args.use_model_loader
+-        else AutoModelForCausalLM.from_pretrained(best_checkpoint, dtype=weights_dtype)
+-    )
+-    trainer.model.load_state_dict(best_model.state_dict(), strict=True)
+-    del best_model
+-    best_eval = trainer.evaluate()
+-
+-    final = trainer.model
+-    if args.method == "lora" and args.save_adapter_only:
+-        final.save_pretrained(out / "adapter", safe_serialization=True)
+-        tokenizer.save_pretrained(out / "adapter")
+-    else:
+-        if args.method == "lora":
+-            final = final.merge_and_unload()
+-        # 持ち帰る量を半分にするためbf16で保存する（手元ではさらに4bitへ量子化する）。
+-        final.to(torch.bfloat16).save_pretrained(out / "final", safe_serialization=True)
+-        tokenizer.save_pretrained(out / "final")
++    # 追加学習の最終stepと、val loss最良のstepを別々に保存する。
++    trainer.model.to(torch.bfloat16)
++    trainer.save_model(out / "final")
++    best_dir = out / "best"
++    Path(best_checkpoint).rename(best_dir)
+     summary = {
+         "args": vars(args),
+         "cudnn_sdp_enabled": torch.backends.cuda.cudnn_sdp_enabled(),
+         "learning_rate": learning_rate,
+-        "best_checkpoint": trainer.state.best_model_checkpoint,
+-        "best_eval_loss": best_eval["eval_loss"],
++        "best_checkpoint": str(best_dir),
++        "best_step": trainer.state.best_global_step,
++        "best_eval_loss": trainer.state.best_metric,
++        "last_step": trainer.state.global_step,
++        "original_rows": len(train_rows),
++        "real_rows": len(real_rows),
++        "swap_rows": len(swap_rows),
+         "log_history": trainer.state.log_history,
+     }
+     (out / "train_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2))

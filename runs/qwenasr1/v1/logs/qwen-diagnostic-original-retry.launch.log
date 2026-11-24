@@ -1,0 +1,66 @@
+run=qwen-diagnostic-original-retry physical_gpu=2
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 128 examples [00:00, 49636.73 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 0 examples [00:00, ? examples/s]
+Traceback (most recent call last):
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/builder.py", line 1827, in _prepare_split_single
+    for key, table in generator:
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/packaged_modules/json/json.py", line 343, in _generate_tables
+    self._cast_table(pa_table, json_field_paths=json_field_paths),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/packaged_modules/json/json.py", line 132, in _cast_table
+    pa_table = table_cast(pa_table, self.info.features.arrow_schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/table.py", line 2378, in table_cast
+    return cast_table_to_schema(table, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/table.py", line 2306, in cast_table_to_schema
+    raise CastError(
+datasets.table.CastError: Couldn't cast
+id: string
+audio: string
+text: string
+prompt: string
+hinted: bool
+target_text: string
+terms: list<item: string>
+  child 0, item: string
+glossary: list<item: struct<surface: string, readings: list<item: string>>>
+  child 0, item: struct<surface: string, readings: list<item: string>>
+      child 0, surface: string
+      child 1, readings: list<item: string>
+          child 0, item: string
+fillers: int64
+tags: list<item: string>
+  child 0, item: string
+to
+{'id': Value('string'), 'audio': Value('string'), 'text': Value('string'), 'prompt': Value('string'), 'hinted': Value('bool')}
+because column names don't match
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py", line 339, in <module>
+    main()
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py", line 263, in main
+    raw_ds = load_dataset(
+             ^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/load.py", line 1716, in load_dataset
+    builder_instance.download_and_prepare(
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/builder.py", line 901, in download_and_prepare
+    self._download_and_prepare(
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/builder.py", line 962, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/builder.py", line 1694, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/datasets/builder.py", line 1880, in _prepare_split_single
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.exceptions.DatasetGenerationError: An error occurred while generating the dataset

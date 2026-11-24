@@ -1,0 +1,16 @@
+Sat Nov 21 16:12:05 JST 2026
+  PID  %CPU    RSS     ELAPSED COMM
+  173  47.9 167232 12-00:45:05 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+24746  30.8 133552 01-16:36:12 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+23707  17.1 526288    23:49:13 claude
+95584  15.3 714848       04:58 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+51378  10.6  20560    04:45:34 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+  340   6.4  41904 12-00:45:02 /usr/sbin/coreaudiod
+  301   5.9  45824 12-00:45:03 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+12120   2.1  76720 11-23:55:22 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService
+24747   2.1  87104 01-16:36:12 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+  166   1.6  21744 12-00:45:05 /usr/sbin/bluetoothd
+80707   1.5 132176       37:50 codex
+{ 4.12 3.47 3.44 }
+total = 3072.00M  used = 1648.00M  free = 1424.00M  (encrypted)
+"Device Utilization %"=96

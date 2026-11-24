@@ -1,0 +1,31 @@
+{
+  "system": "devuser-sel2+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "data/dev-user/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "runs/term-select/metal2/devuser-asr.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "devuser-sel2+sft2-qwen",
+    "out": "runs/term-select/metal2/e2e-devuser.jsonl",
+    "glossary": [
+      "data/text/glossary.jsonl"
+    ],
+    "exclude_terms": null,
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 100,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 2.7544012090656906,
+  "format_latency_median_s": 0.26126899948576465,
+  "format_latency_p90_s": 0.35449469557497654,
+  "latency_median_s": 0.735432083485648,
+  "mean_glossary_entries": 14.57,
+  "generation_tps_median": 215.8229031196734,
+  "peak_memory_gb": 0.891742308,
+  "truncated": 1
+}

@@ -1,0 +1,84 @@
+# 第1版の方針でカタカナと決めた語と、学習文・評価データの正解でカタカナで書かれている語。第3弾では用語として使わない。
+Affinity
+Agentic Workflow
+Agile
+All-Gather
+All-Reduce
+Beam Search
+Best Paper Award
+Bi-Encoder
+CFG Scale
+CVPR Workshop
+Chain-of-Thought
+Cloud Debugger
+ConfigMap
+Context API
+ConvNet
+Cosine Similarity
+Cross-Attention
+Cross-Encoder
+DaemonSet
+Dense
+Depthwise Convolution
+DevOps
+Dice Loss
+Diffusion Model
+Earth Mover's Distance
+Eventual Consistency
+F1-score
+Few-shot Prompting
+Formatter
+Fused Kernel
+GitOps
+Gradient Accumulation
+Gradient Checkpointing
+Hooks
+Implicit Neural Representation
+Ingress
+JS Divergence
+KV Cache
+Kullback-Leibler
+L1
+L1 Loss
+L2
+L2 Loss
+Language Server
+Liveness Probe
+Load Balancer
+Lp norm
+MLOps
+Markdown
+Masked Language Model
+Multi-GPU
+Mutex
+N-gram
+Parameter-Efficient Fine-Tuning
+Pearson Correlation
+Pointwise Convolution
+Prefix Tuning
+R-squared
+ReLU
+Readiness Probe
+ReplicaSet
+Scaled Dot-Product Attention
+Self-Attention
+Semaphore
+Shadow DOM
+Softmax
+Spearman Correlation
+StatefulSet
+Strong Consistency
+Structure from Motion
+Top-p
+Total Variation
+Wasserstein distance
+Web Components
+Weight Standardization
+epsilon
+exception
+hidden_size
+num_heads
+parse
+pull request
+rebase
+repo

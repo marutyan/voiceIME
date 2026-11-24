@@ -1,0 +1,343 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/test-novel.jsonl",
+  "manifest_count": 500,
+  "models": {
+    "A": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 189,
+      "excluded": 157,
+      "excluded_correct": 8,
+      "included_misses": {
+        "different_output": 120,
+        "dropped": 34
+      },
+      "selected_term_count": {
+        "20": 428,
+        "2": 1,
+        "0": 4,
+        "19": 7,
+        "17": 5,
+        "6": 5,
+        "9": 3,
+        "3": 4,
+        "16": 9,
+        "11": 3,
+        "10": 4,
+        "13": 5,
+        "12": 4,
+        "15": 6,
+        "18": 3,
+        "1": 2,
+        "8": 3,
+        "14": 1,
+        "7": 1,
+        "4": 2
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.5510204081632653,
+      "excluded_accuracy": 0.050955414012738856,
+      "glossary_pool_size": 31332
+    },
+    "B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 222,
+      "excluded": 157,
+      "excluded_correct": 21,
+      "included_misses": {
+        "dropped": 28,
+        "different_output": 92,
+        "reading_as_is": 1
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6472303206997084,
+      "excluded_accuracy": 0.1337579617834395,
+      "glossary_pool_size": 31332
+    },
+    "C": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 214,
+      "excluded": 157,
+      "excluded_correct": 20,
+      "included_misses": {
+        "dropped": 31,
+        "different_output": 91,
+        "reading_as_is": 7
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6239067055393586,
+      "excluded_accuracy": 0.12738853503184713,
+      "glossary_pool_size": 31332
+    },
+    "B-2B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 221,
+      "excluded": 157,
+      "excluded_correct": 11,
+      "included_misses": {
+        "different_output": 98,
+        "dropped": 23,
+        "reading_as_is": 1
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6443148688046647,
+      "excluded_accuracy": 0.07006369426751592,
+      "glossary_pool_size": 31332
+    },
+    "B-clean": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 265,
+      "excluded": 157,
+      "excluded_correct": 16,
+      "included_misses": {
+        "dropped": 16,
+        "different_output": 61,
+        "reading_as_is": 1
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7725947521865889,
+      "excluded_accuracy": 0.10191082802547771,
+      "glossary_pool_size": 31332
+    },
+    "B-drop0": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 263,
+      "excluded": 157,
+      "excluded_correct": 15,
+      "included_misses": {
+        "different_output": 63,
+        "dropped": 16,
+        "reading_as_is": 1
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7667638483965015,
+      "excluded_accuracy": 0.09554140127388536,
+      "glossary_pool_size": 31332
+    },
+    "B-no-distractors": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 236,
+      "excluded": 157,
+      "excluded_correct": 16,
+      "included_misses": {
+        "dropped": 21,
+        "different_output": 84,
+        "reading_as_is": 2
+      },
+      "selected_term_count": {
+        "20": 443,
+        "2": 1,
+        "0": 4,
+        "17": 3,
+        "6": 5,
+        "9": 3,
+        "3": 3,
+        "19": 4,
+        "16": 7,
+        "11": 2,
+        "10": 3,
+        "13": 4,
+        "12": 4,
+        "18": 1,
+        "15": 3,
+        "1": 2,
+        "8": 3,
+        "5": 1,
+        "14": 1,
+        "7": 2,
+        "4": 1
+      },
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6880466472303207,
+      "excluded_accuracy": 0.10191082802547771,
+      "glossary_pool_size": 31332
+    }
+  },
+  "selector_match_vs_B": {
+    "A": {
+      "glossary_exact_match": 218,
+      "formatter_input_exact_match": 0
+    },
+    "B": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 500
+    },
+    "C": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 0
+    },
+    "B-2B": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 500
+    },
+    "B-clean": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 500
+    },
+    "B-drop0": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 500
+    },
+    "B-no-distractors": {
+      "glossary_exact_match": 500,
+      "formatter_input_exact_match": 500
+    }
+  },
+  "selector_match_vs_SFT2": {
+    "A": 500,
+    "B": 218,
+    "C": 218,
+    "B-2B": 218,
+    "B-clean": 218,
+    "B-drop0": 218,
+    "B-no-distractors": 218
+  },
+  "input_export": "runs/formatter-sft3/inputs/test-novel-main-selector-actual-inputs.jsonl",
+  "input_export_rows": 3500,
+  "prompt_source": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/src/voiceime/formatter/prompt.py",
+  "source_sha256": {
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/a-plain.jsonl": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/a-segment-merge.jsonl": "9c46460c342ac7d0c247df00ab1c2df0acc673afa75774a1654393ed8fde4f84",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/glossary-v1.jsonl": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/glossary-v2.jsonl": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/exclude-v2-83.txt": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+    "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/src/voiceime/formatter/prompt.py": "5ef23d6f500c657d3c64294011f97942bd9c4dad817103a7f5eca20ef9c9266c",
+    "runs/formatter-sft3/main-selector-reeval-20261122/A/test-novel/test-novel-include-novel.jsonl": "2fb235ab0555806764a411d1c4c4dc5c8595d3b545688ca07d9b688dffb69bb3",
+    "runs/formatter-sft3/main-selector-reeval-20261122/B/test-novel/test-novel-include-novel.jsonl": "d5b751e665c492b20e1b8b920d237de3481d2bf5f7aca5e741b2711e8928772b",
+    "runs/formatter-sft3/main-selector-reeval-20261122/C/test-novel/test-novel-include-novel.jsonl": "5633ee87cb078725ef12cb166f416e3319f257d429646c1e90d21f380c0b0cc3",
+    "runs/formatter-sft3/main-selector-reeval-20261122/B-2B/test-novel/test-novel-include-novel.jsonl": "96b2fcbed78efe85a29093c7084f76a750eccc305b70395ae3700b69ccaec2fe",
+    "runs/formatter-sft3/main-selector-reeval-20261122/B-clean/test-novel/test-novel-include-novel.jsonl": "6328d66e606df3918c5d76943f534328c962902551b43818e854f646b468cb55",
+    "runs/formatter-sft3/main-selector-reeval-20261122/B-drop0/test-novel/test-novel-include-novel.jsonl": "a8ef795208cc2c5585ad312ec8e88e514c07e73273b70797ea3f1f7a62e45b6a",
+    "runs/formatter-sft3/main-selector-reeval-20261122/B-no-distractors/test-novel/test-novel-include-novel.jsonl": "768fa7dbe8e4197f88ae2ca1830be62f04ed88fcd61bb6b03275089cf0664bd1",
+    "/Users/marutyan/PrivateDev/voiceIME/runs/test-novel-sel2/e2e-include-novel.jsonl": "8ebd79acba0466a0eff955311a4acc638ca5b0b2031fd5c58ddd72f34c51863a"
+  }
+}

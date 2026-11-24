@@ -1,0 +1,15 @@
+{
+  "seed": 0,
+  "dictionary_sha256": "3c1faa0f1ff2c2d2c4b6a50b1471bb54f22d95c8d3c567372beed5a60e899483",
+  "splits": {
+    "train-custom": {
+      "eligible_sentences": 1757,
+      "selected": 1757,
+      "term_types": 347,
+      "planned_limit": 20000,
+      "max_per_term": 7,
+      "source_rows": 56970,
+      "input_sha256": "d2558637d80081726c525061801e3597d37821c06515923b50aee9d3b8881035"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "GitHubにプッシュしました。", "latency_s": 0.9939008330693468}
+{"id": "dev-say-0002", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えーと、Dockerを再起動します。", "latency_s": 1.0400811249855906}
+{"id": "dev-say-0003", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "Torchのバージョンを上げます", "latency_s": 1.0460052080452442}
+{"id": "dev-say-0004", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "レイソンで返してください", "latency_s": 0.970748541993089}
+{"id": "dev-say-0005", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "クーラが見つからないです", "latency_s": 0.9721322080586106}
+{"id": "dev-say-0006", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "SLACKに貼っておきます。", "latency_s": 0.9782465409953147}
+{"id": "dev-say-0007", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "まあ、MLXで十分早いです。", "latency_s": 1.0111564999679103}
+{"id": "dev-say-0008", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "ラグの、いや、エンベリングの精度が低いです。", "latency_s": 1.2012859580572695}
+{"id": "dev-say-0009", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "グッズでビルドが起きます", "latency_s": 1.0029135420918465}
+{"id": "dev-say-0010", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "COLABのセッションを止めました", "latency_s": 1.0406292909756303}
+{"id": "dev-say-0011", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "ローアで微調整します", "latency_s": 0.9411119999131188}
+{"id": "dev-say-0012", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "なんか、VSコードが重いです。", "latency_s": 1.0189553749514744}
+{"id": "dev-say-0013", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "ウィスパーの小さいモデルを試します。", "latency_s": 1.1151542080333456}
+{"id": "dev-say-0014", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えーと、トランスフォーマーのAttentionの部分を、もう少し軽くしたいんですけど、何かいい方法はありますか?", "latency_s": 1.6429405000526458}
+{"id": "dev-say-0015", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "Hugging Faceからモデルをダウンロードして、MLXの形式に変換してから、手元のMacで動かします。", "latency_s": 1.5673124169697985}
+{"id": "dev-say-0016", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "バッキサイズを32に、いや16に下げたら、Vラムに収まりました。", "latency_s": 1.379727500025183}
+{"id": "dev-say-0017", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "GIT、HUBACT IONSのワークフローでpytestが失敗しているのでログを確認してもらえますか", "latency_s": 1.658731292001903}
+{"id": "dev-say-0018", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "まあ、とりあえずPandasでCSVを読み込んで、欠損値を確認してみましょう。", "latency_s": 1.4907494169892743}
+{"id": "dev-say-0019", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えー、リアクトのコンポーネントが2回レンダリングされる問題は、Strict Modeのせいだと思います。", "latency_s": 1.492216291022487}
+{"id": "dev-say-0020", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "おすぐれのインデックスを貼ったらクエリが10倍くらい速くなりました", "latency_s": 1.3507610000669956}
+{"id": "dev-say-0021", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "うーん、その、ラーニングレートが高すぎて、lossが発散しているかもしれないです。", "latency_s": 1.4125204589217901}
+{"id": "dev-say-0022", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "KubernetesのPodがメモリ不足で起きているみたいです", "latency_s": 1.1339254999766126}
+{"id": "dev-say-0023", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "OPL AIのAPIキーを環境変数に入れてFastAPIのサーバーから呼び出します", "latency_s": 1.4366874169791117}
+{"id": "dev-say-0024", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "あの、TypeScriptの型エラーが、えー、30件くらい出ています。", "latency_s": 1.2422725829528645}
+{"id": "dev-say-0025", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "W&Bで学習曲線を見ると、epoch5あたりから、下学習しています。", "latency_s": 1.3415609580697492}
+{"id": "dev-say-0026", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "Dockerファイルの、いや、Docker Composeの設定を見直してください。", "latency_s": 1.3048686670372263}
+{"id": "dev-say-0027", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えっと、ヨロで物体検出をしてから、Segment Anythingでマスクを作ります。", "latency_s": 1.375252875033766}
+{"id": "dev-say-0028", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "XCODEでビルドするとSwiftUIのプレビューがなんか固まるんですよね", "latency_s": 1.4736712090671062}
+{"id": "dev-say-0029", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えーと、今日のミーティングでは、まずラグのパイプラインの評価結果を共有して、その後、エンベリングモデルを、あのOpenAIのものから、オープンソースのものに、切り替えるかどうかを決めたいと思います。", "latency_s": 2.391910166013986}
+{"id": "dev-say-0030", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "学習は、コラボのA100で回して、checkpointはGoogle Driveに保存して、推論だけ、手元のM3 Proで動かす予定です。", "latency_s": 1.8542383749736473}
+{"id": "dev-say-0031", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "あの、さっきのプルリクなんですけど、rebaseしたらconflictが出たので、えー、mergeは明日に、いや、今日の夕方にやります。", "latency_s": 1.8002641249913722}
+{"id": "dev-say-0032", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えーと、LAMAの8Bを4bitに量子化して、MLX-LMで動かしてみたら、1秒あたり40トークンくらい出ました。", "latency_s": 1.7533459579572082}
+{"id": "dev-say-0033", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "Pythonの仮想環境はUVで管理して、依存関係はpyproject.tomlに書いておけば、他の人も同じ環境を再現できます。", "latency_s": 1.9465625829761848}
+{"id": "dev-say-0034", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "なんか、Next.jsのアップデートの後から、ビルドがすごく遅くなっていて、えー、Turbopackを無効にすると、まあ、元に戻るみたいです。", "latency_s": 1.8545429999940097}
+{"id": "dev-say-0035", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "評価には、CERと両語の正答率を使って、ベースラインのWhisper large-v3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 1.851751417038031}
+{"id": "dev-say-0036", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "あの、オースのトークンの有効期限が切れていて、えー、refresh tokenで再取得する処理が、その、うまく動いていないようです。", "latency_s": 1.8056767089292407}
+{"id": "dev-say-0037", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "OZのLambdaからS3にファイルを書き込むときに、IAMのロールの権限が足りなくて、AccessDeniedのエラーが出ています。", "latency_s": 1.8835790830198675}
+{"id": "dev-say-0038", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "えーと、Vision TransformerとResNetを同じデータ拡張と同じepoch数で比べて、その後、ablationをやります。", "latency_s": 1.5853705829940736}
+{"id": "dev-say-0039", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "Coremlに変換したモデルを Neural Engineで動かすとGPUより消費電力が少なくてまあ、バッテリーの持ちがかなり良くなります", "latency_s": 1.8396754160057753}
+{"id": "dev-say-0040", "system": "whisper-large-v3+glossary", "stage": "asr", "hyp": "うーん、テラフォームで作ったリソースと、手で作ったリソースが混ざっていて、ステートファイルが、あの、実際の状態とずれているので、インポートし直します。", "latency_s": 2.0684178749797866}

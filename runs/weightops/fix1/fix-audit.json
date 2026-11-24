@@ -1,0 +1,179 @@
+{
+  "train_rows_before": 95934,
+  "train_rows_after": 95931,
+  "train_omitted_rows": 8372,
+  "train_omitted_rows_prebuilt_list": 1374,
+  "train_decisions": {
+    "rule2-list": 321,
+    "rule2-list+merge": 750,
+    "rule2-merge": 24,
+    "rule2-reading-count-2": 1,
+    "rule3-no-cue": 278,
+    "rule4-reading-count-2": 2,
+    "rule4-rewrite-if-cue": 6996
+  },
+  "augmentation_rows_before": 36780,
+  "augmentation_rows_after": 36778,
+  "augmentation_omitted_source_rows": 1824,
+  "augmentation_decisions": {
+    "rule2-list": 1415,
+    "rule2-list+merge": 162,
+    "rule2-merge": 20,
+    "rule2-reading-count-2": 2,
+    "rule3-no-cue": 225
+  },
+  "leftover_before": {
+    "train_prebuilt": {
+      "rows": 3368,
+      "rows_other_term_reading6": 431,
+      "rows_omitted_term": 1072
+    },
+    "augmentation": {
+      "rows": 5140,
+      "rows_omitted_term": 1579,
+      "rows_other_term_reading6": 571
+    }
+  },
+  "leftover_after": {
+    "train_prebuilt": [
+      {
+        "rows": 2380,
+        "rows_other_term_reading6": 174
+      },
+      []
+    ],
+    "augmentation": [
+      {
+        "rows": 3705,
+        "rows_other_term_reading6": 146
+      },
+      []
+    ]
+  },
+  "val": {
+    "/home/maru/voiceime-work-fr3/inputs/val-select.jsonl": {
+      "rows": 970,
+      "rows_with_omitted_terms": 0,
+      "leftover": [
+        {
+          "rows": 90,
+          "rows_other_term_reading6": 3
+        },
+        []
+      ]
+    },
+    "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl": {
+      "rows": 1000,
+      "rows_with_omitted_terms": 0,
+      "leftover": [
+        {
+          "rows": 95,
+          "rows_other_term_reading6": 3
+        },
+        []
+      ]
+    }
+  },
+  "rewrite_examples": [
+    {
+      "id": "train-v3-000027",
+      "before": "Viteのビルドをアマゾンコグニート経由で自動化する。Radeon RX 7700 XTで検証済みだ。",
+      "after": "ViteのビルドをAmazon Cognito経由で自動化する。Radeon RX 7700 XTで検証済みだ。"
+    },
+    {
+      "id": "train-v3-000035",
+      "before": "スマートフォンの設定画面で、Schneider Electricのアプリを動かしたときに、アーグソートの処理で止まってしまうみたいです。no problemだと思ってたんですけど、やっぱり再起動が必要そうですね。",
+      "after": "スマートフォンの設定画面で、Schneider Electricのアプリを動かしたときに、argsortの処理で止まってしまうみたいです。no problemだと思ってたんですけど、やっぱり再起動が必要そうですね。"
+    },
+    {
+      "id": "train-v3-000036",
+      "before": "TCP Proxyの負荷が高すぎる。Springerの論文にあった構成を参考に、エフエフエムペグの処理を分散させる。サーバー増強が必要だ。",
+      "after": "TCP Proxyの負荷が高すぎる。Springerの論文にあった構成を参考に、FFmpegの処理を分散させる。サーバー増強が必要だ。"
+    },
+    {
+      "id": "train-v3-000041",
+      "before": "バグ調査。CommonJSのモジュール読み込みでエラー。コーヒースクリプトの設定、もしかして原因か。SI unitの計算が0.5秒ずれてる可能性高い。",
+      "after": "バグ調査。CommonJSのモジュール読み込みでエラー。CoffeeScriptの設定、もしかして原因か。SI unitの計算が0.5秒ずれてる可能性高い。"
+    },
+    {
+      "id": "train-v3-000052",
+      "before": "ここのスリーウェイハンドシェイクの処理、簡潔に書いたほうがいいかも。Airflow Schedulerの動作負荷が気になるし。",
+      "after": "ここのThree-way Handshakeの処理、簡潔に書いたほうがいいかも。Airflow Schedulerの動作負荷が気になるし。"
+    },
+    {
+      "id": "train-v3-000102",
+      "before": "本番環境で障害が起きていて、今2人で調査しています。原因は、ロンゲストプレフィックスマッチの処理で、10秒以上の遅延が発生していることみたいです。とりあえずサーバーを3台に増やして、負荷を分散させて様子を見ます。1時間後には復旧する見込みです。",
+      "after": "本番環境で障害が起きていて、今2人で調査しています。原因は、Longest Prefix Matchの処理で、10秒以上の遅延が発生していることみたいです。とりあえずサーバーを3台に増やして、負荷を分散させて様子を見ます。1時間後には復旧する見込みです。"
+    },
+    {
+      "id": "train-v3-000114",
+      "before": "ビルドが通らない。ボラタイルな変数の扱いが原因か。コンパイラの最適化を切り替えてもダメだったので、この挙動の修正はmust haveな対応。原因が特定できるまで、一旦別の機能の実装に回る。",
+      "after": "ビルドが通らない。volatileな変数の扱いが原因か。コンパイラの最適化を切り替えてもダメだったので、この挙動の修正はmust haveな対応。原因が特定できるまで、一旦別の機能の実装に回る。"
+    },
+    {
+      "id": "train-v3-000140",
+      "before": "M1 Proからエーオーエスピーにファイルを送りたいんだけど、やり方教えて？",
+      "after": "M1 ProからAOSPにファイルを送りたいんだけど、やり方教えて？"
+    },
+    {
+      "id": "train-v3-000368",
+      "before": "前回のパフォーマンス改善についてですが、シネマシンでの処理負荷がかなり高いことが分かりました。内部的な計算処理を見直して、メモリの消費量を抑えることで、全体の動作をスムーズにできると考えています。修正案をまとめるので、後ほど確認してください。",
+      "after": "前回のパフォーマンス改善についてですが、Cinemachineでの処理負荷がかなり高いことが分かりました。内部的な計算処理を見直して、メモリの消費量を抑えることで、全体の動作をスムーズにできると考えています。修正案をまとめるので、後ほど確認してください。"
+    },
+    {
+      "id": "train-v3-000450",
+      "before": "レビューでTerserの設定を直せと言われた。じゃなくて、設定じゃなくて、エスブイジーニテンゼロの出力形式を修正すべきだと思う。",
+      "after": "レビューでTerserの設定を直せと言われた。じゃなくて、設定じゃなくて、SVG 2.0の出力形式を修正すべきだと思う。"
+    },
+    {
+      "id": "train-v3-000529",
+      "before": "先ほどのWordPress Studioの設定ファイルですが、共有フォルダに保存いたしました。お手数ですが、アンペアの数値もご確認いただけますでしょうか。",
+      "after": "先ほどのWordPress Studioの設定ファイルですが、共有フォルダに保存いたしました。お手数ですが、Aの数値もご確認いただけますでしょうか。"
+    },
+    {
+      "id": "train-v3-000544",
+      "before": "学会発表用スライドに、トーチクオンタイルを用いた解析結果を追加。Multi-AZ構成での検証と、NFS v4.1の性能比較を追記。",
+      "after": "学会発表用スライドに、torch.quantileを用いた解析結果を追加。Multi-AZ構成での検証と、NFS v4.1の性能比較を追記。"
+    },
+    {
+      "id": "train-v3-000603",
+      "before": "新しいパソコンの購入についてですが、OpenRTBの解析用にサイソンを導入したいと考えております。ご確認いただけますでしょうか。",
+      "after": "新しいパソコンの購入についてですが、OpenRTBの解析用にCythonを導入したいと考えております。ご確認いただけますでしょうか。"
+    },
+    {
+      "id": "train-v3-000658",
+      "before": "再現実験やってみたんだけど、どうしても数値が合わないんだよね。シセロの設定をそのまま使ってるはずなのに、結果が全然違う。どうしてこうなるのか、正直全然わからないから、一度一緒に確認してほしいな。",
+      "after": "再現実験やってみたんだけど、どうしても数値が合わないんだよね。CICEROの設定をそのまま使ってるはずなのに、結果が全然違う。どうしてこうなるのか、正直全然わからないから、一度一緒に確認してほしいな。"
+    },
+    {
+      "id": "train-v3-000719",
+      "before": "訓練データと検証データの分割比率を8対2にする。ケラスハブのデータを使って検証する。",
+      "after": "訓練データと検証データの分割比率を8対2にする。Keras Hubのデータを使って検証する。"
+    },
+    {
+      "id": "train-v3-000785",
+      "before": "Swiftのメモリ不足を解消するために、ラーニングレートディケイを調整。sounds good。",
+      "after": "Swiftのメモリ不足を解消するために、Learning Rate Decayを調整。sounds good。"
+    },
+    {
+      "id": "train-v3-000867",
+      "before": "デフォーマブルコンブネットのハイパーパラメータを調整。",
+      "after": "Deformable ConvNetsのハイパーパラメータを調整。"
+    },
+    {
+      "id": "train-v3-000917",
+      "before": "学習が収束しないので、原因を切り分けたいです。具体的には、\n- 学習率を下げる\n- バッチサイズを調整する\n- ナレッジエンベディングの次元数を見直す\nの3つを試してみます。",
+      "after": "学習が収束しないので、原因を切り分けたいです。具体的には、\n- 学習率を下げる\n- バッチサイズを調整する\n- Knowledge Embeddingの次元数を見直す\nの3つを試してみます。"
+    },
+    {
+      "id": "train-v3-000943",
+      "before": "バックアップデータを2時間おきに保存する設定をお願いできますか。エイチディーエフエスの保存先も確認してほしいです。",
+      "after": "バックアップデータを2時間おきに保存する設定をお願いできますか。HDFSの保存先も確認してほしいです。"
+    },
+    {
+      "id": "train-v3-000958",
+      "before": "WithCancelを追加して、オーオースアップの処理を修正。just in case、ログ出力も増やした。",
+      "after": "WithCancelを追加して、OAuth Appの処理を修正。just in case、ログ出力も増やした。"
+    }
+  ]
+}

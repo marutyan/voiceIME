@@ -1,0 +1,141 @@
+== ASR v1-t16-s75 03:26:28
+v1-t16-s75: 100件
+100件をruns/v2gloss/asr-v1-t16-s75.jsonlへ書いた
+== ASR v2-t16-s75 03:27:00
+v2-t16-s75: 100件
+100件をruns/v2gloss/asr-v2-t16-s75.jsonlへ書いた
+== ASR v2-t8-s75 03:27:52
+v2-t8-s75: 100件
+100件をruns/v2gloss/asr-v2-t8-s75.jsonlへ書いた
+== ASR v2-t16-s90 03:28:45
+v2-t16-s90: 100件
+100件をruns/v2gloss/asr-v2-t16-s90.jsonlへ書いた
+== ASR v2-t8-s90 03:29:36
+v2-t8-s90: 100件
+100件をruns/v2gloss/asr-v2-t8-s90.jsonlへ書いた
+== ASR v2-t16-s100 03:30:30
+v2-t16-s100: 100件
+100件をruns/v2gloss/asr-v2-t16-s100.jsonlへ書いた
+== FMT v1-t16-s75 03:31:26
+{
+  "system": "v1-t16-s75+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 6.739400292048231,
+  "format_latency_median_s": 0.26336781249847263,
+  "format_latency_p90_s": 0.3582413208321668,
+  "latency_median_s": 0.5620968965231441,
+  "mean_glossary_entries": 13.75,
+  "generation_tps_median": 211.95315638182086,
+  "peak_memory_gb": 0.95369612,
+  "truncated": 0
+}
+== FMT v2-t16-s75 03:31:58
+== FMT v2-t16-s75 03:37:33
+{
+  "system": "v2-t16-s75+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 3.341678333003074,
+  "format_latency_median_s": 0.45695660449564457,
+  "format_latency_p90_s": 0.6342703499714845,
+  "latency_median_s": 0.9357832705718465,
+  "mean_glossary_entries": 17.84,
+  "generation_tps_median": 210.38767084514535,
+  "peak_memory_gb": 0.977026936,
+  "truncated": 0
+}
+== FMT v2-t8-s75 03:38:24
+{
+  "system": "v2-t8-s75+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 3.1001673330320045,
+  "format_latency_median_s": 0.49856814596569166,
+  "format_latency_p90_s": 0.669821620709263,
+  "latency_median_s": 0.9706722495611757,
+  "mean_glossary_entries": 17.84,
+  "generation_tps_median": 204.4880312101381,
+  "peak_memory_gb": 0.977026936,
+  "truncated": 0
+}
+== FMT v2-t16-s90 03:39:17
+{
+  "system": "v2-t16-s90+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 3.643900917028077,
+  "format_latency_median_s": 0.49231733300257474,
+  "format_latency_p90_s": 0.6869421711191536,
+  "latency_median_s": 0.966175832960289,
+  "mean_glossary_entries": 17.84,
+  "generation_tps_median": 201.5494778423072,
+  "peak_memory_gb": 0.976158584,
+  "truncated": 0
+}
+== FMT v2-t8-s90 03:40:10
+{
+  "system": "v2-t8-s90+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 2.8996110000880435,
+  "format_latency_median_s": 0.46241970849223435,
+  "format_latency_p90_s": 0.6300331878359431,
+  "latency_median_s": 0.9771672704373486,
+  "mean_glossary_entries": 17.84,
+  "generation_tps_median": 220.00889752099363,
+  "peak_memory_gb": 0.977026936,
+  "truncated": 0
+}
+== FMT v2-t16-s100 03:41:00
+{
+  "system": "v2-t16-s100+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 2.9220774159766734,
+  "format_latency_median_s": 0.47335035452852026,
+  "format_latency_p90_s": 0.671668970794417,
+  "latency_median_s": 0.971394480089657,
+  "mean_glossary_entries": 17.84,
+  "generation_tps_median": 217.6027487492003,
+  "peak_memory_gb": 0.977026936,
+  "truncated": 0
+}
+== done 03:41:50
+== FMT asr v1 / fmt v2 03:42:23
+{
+  "system": "v1-t16-s75+sft2-qwen-fmtv2",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 3.029069915995933,
+  "format_latency_median_s": 0.47018068755278364,
+  "format_latency_p90_s": 0.638963658339344,
+  "latency_median_s": 0.7822006464703009,
+  "mean_glossary_entries": 17.77,
+  "generation_tps_median": 210.59274609377525,
+  "peak_memory_gb": 1.01036428,
+  "truncated": 0
+}
+== FMT asr v2 / fmt v1 03:43:14
+{
+  "system": "v2-t16-s75+sft2-qwen-fmtv1",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "n": 100,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 2.733443707926199,
+  "format_latency_median_s": 0.2585391254979186,
+  "format_latency_p90_s": 0.3503675877116622,
+  "latency_median_s": 0.7454058545990847,
+  "mean_glossary_entries": 14.21,
+  "generation_tps_median": 211.2679205941664,
+  "peak_memory_gb": 0.967393144,
+  "truncated": 0
+}
+== done 03:43:42

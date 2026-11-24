@@ -1,0 +1,220 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/runs/formatter-sft3/inputs/audit-source/test-novel.jsonl",
+  "manifest_count": 500,
+  "ids_identical_in_order": {
+    "manifest": true,
+    "ASR first": true,
+    "ASR second/combined": true,
+    "SFT2": true,
+    "A": true,
+    "B": true,
+    "C": true,
+    "B-2B": true,
+    "B-clean": true,
+    "B-no-distractors": true,
+    "B-drop0": true
+  },
+  "input_match_counts": {
+    "SFT2_second_pass_match": 500,
+    "A_expected_input": 500,
+    "B_expected_input": 500,
+    "C_expected_input": 500,
+    "B-2B_expected_input": 500,
+    "B-clean_expected_input": 500,
+    "B-no-distractors_expected_input": 500,
+    "B-drop0_expected_input": 500
+  },
+  "glossary_pool": {
+    "sft2_entries": 31332,
+    "sft3_entries": 31332,
+    "excluded_surfaces": 83
+  },
+  "models": {
+    "A": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 189,
+      "excluded": 157,
+      "excluded_correct": 8,
+      "miss_categories_included": {
+        "omitted_or_other_text": 153,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 120,
+        "dropped": 34
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.5510204081632653,
+      "excluded_accuracy": 0.050955414012738856
+    },
+    "B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 235,
+      "excluded": 157,
+      "excluded_correct": 18,
+      "miss_categories_included": {
+        "omitted_or_other_text": 106,
+        "other_glossary_term_same_reading": 1,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "dropped": 26,
+        "different_output": 81,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.685131195335277,
+      "excluded_accuracy": 0.11464968152866242
+    },
+    "C": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 228,
+      "excluded": 157,
+      "excluded_correct": 15,
+      "miss_categories_included": {
+        "omitted_or_other_text": 107,
+        "reading_as_is": 7,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "dropped": 29,
+        "different_output": 79,
+        "reading_as_is": 7
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6647230320699709,
+      "excluded_accuracy": 0.09554140127388536
+    },
+    "B-2B": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 234,
+      "excluded": 157,
+      "excluded_correct": 6,
+      "miss_categories_included": {
+        "omitted_or_other_text": 108,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 86,
+        "dropped": 23
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.6822157434402333,
+      "excluded_accuracy": 0.03821656050955414
+    },
+    "B-clean": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 274,
+      "excluded": 157,
+      "excluded_correct": 12,
+      "miss_categories_included": {
+        "omitted_or_other_text": 67,
+        "other_glossary_term_same_reading": 2
+      },
+      "failure_output_types": {
+        "dropped": 11,
+        "different_output": 58
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7988338192419825,
+      "excluded_accuracy": 0.07643312101910828
+    },
+    "B-no-distractors": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 250,
+      "excluded": 157,
+      "excluded_correct": 13,
+      "miss_categories_included": {
+        "omitted_or_other_text": 89,
+        "other_glossary_term_same_reading": 2,
+        "reading_as_is": 2
+      },
+      "failure_output_types": {
+        "dropped": 20,
+        "different_output": 71,
+        "reading_as_is": 2
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7288629737609329,
+      "excluded_accuracy": 0.08280254777070063
+    },
+    "B-drop0": {
+      "examples": 500,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 267,
+      "excluded": 157,
+      "excluded_correct": 13,
+      "miss_categories_included": {
+        "omitted_or_other_text": 74,
+        "other_glossary_term_same_reading": 1,
+        "reading_as_is": 1
+      },
+      "failure_output_types": {
+        "different_output": 58,
+        "dropped": 17,
+        "reading_as_is": 1
+      },
+      "glossary_pool_size": 31332,
+      "selected_order_matches_sft2": 500,
+      "selected_entries_missing_from_pool": 0,
+      "included_accuracy": 0.7784256559766763,
+      "excluded_accuracy": 0.08280254777070063
+    },
+    "SFT2": {
+      "examples": 500,
+      "glossary_pool_size": 31332,
+      "selected_order_matches_A": 500,
+      "selected_entries_missing_from_pool": 0,
+      "terms": 500,
+      "included": 343,
+      "included_correct": 218,
+      "excluded": 157,
+      "excluded_correct": 7,
+      "miss_categories_included": {
+        "omitted_or_other_text": 124,
+        "other_glossary_term_same_reading": 1
+      },
+      "failure_output_types": {
+        "different_output": 88,
+        "dropped": 37
+      },
+      "included_accuracy": 0.6355685131195336,
+      "excluded_accuracy": 0.044585987261146494
+    }
+  },
+  "source_sha256": {
+    "test-novel.jsonl": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "a-plain.jsonl": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "a-segment-merge.jsonl": "9c46460c342ac7d0c247df00ab1c2df0acc673afa75774a1654393ed8fde4f84",
+    "test-novel-include-novel.jsonl": "5955be3fff93fae87bbbc1417f487607ca64bd3558ce86f1ef782b87ec1b064b",
+    "e2e-include-novel.jsonl/test-novel-sel2": "8ebd79acba0466a0eff955311a4acc638ca5b0b2031fd5c58ddd72f34c51863a",
+    "prompt.py": "5ef23d6f500c657d3c64294011f97942bd9c4dad817103a7f5eca20ef9c9266c"
+  },
+  "prompt_source": "/Users/marutyan/PrivateDev/voiceIME-wt/formatter-r3/src/voiceime/formatter/prompt.py",
+  "export": "runs/formatter-sft3/inputs/test-novel-frozen-list-variants-drop0-inputs.jsonl"
+}

@@ -1,0 +1,10 @@
+{
+  "rows": 1755,
+  "term_types": 347,
+  "tts_asr_rows": 1757,
+  "excluded_novel_surface_rows": 2,
+  "tts": "/home/maru/voiceime-work-custom/tts/train-custom",
+  "asr": "/home/maru/voiceime-work-custom/asr/train-custom",
+  "train": "/home/maru/voiceime-work-custom/train-material/train.jsonl",
+  "planned": 1757
+}

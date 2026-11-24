@@ -1,0 +1,1 @@
+{"model": "sft1-gemma-4-e2b-lora", "prompt_tokens": 428, "prefix_tokens": 191, "target_tokens_50chars": 22, "chars_per_token": 2.27, "full_prefill_s": 0.1633, "full_decode_tps": 75.9, "full_est_latency_10s_s": 0.466, "cached_prefill_s": 0.1077, "cached_decode_tps": 75.8, "cached_est_latency_10s_s": 0.411, "peak_memory_gb": 3.177, "weights_gb": 2.604}

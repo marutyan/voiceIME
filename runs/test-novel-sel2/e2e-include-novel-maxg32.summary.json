@@ -1,0 +1,32 @@
+{
+  "system": "sft2-maxg32",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "runs/asr-tts/r3-audio-20261122/test-novel-source.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "../voiceIME-wt/r3-audio/runs/asr-tts/r3-twopass-20261122/a-test-novel-include-novel-segment-merge.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "sft2-maxg32",
+    "out": "runs/test-novel-sel2/e2e-include-novel-maxg32.jsonl",
+    "glossary": [
+      "data/text/glossary.jsonl",
+      "data/text/glossary-v2.jsonl"
+    ],
+    "exclude_terms": "data/text/glossary-v2-excluded.txt",
+    "glossary_mode": "select",
+    "max_glossary": 32,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 500,
+  "glossary_size": 31332,
+  "load_and_warmup_s": 2.981750624952838,
+  "format_latency_median_s": 0.2476327499607578,
+  "format_latency_p90_s": 0.3806063836091198,
+  "latency_median_s": 0.7284025125554763,
+  "mean_glossary_entries": 28.102,
+  "generation_tps_median": 217.062779865376,
+  "peak_memory_gb": 1.213714428,
+  "truncated": 1
+}

@@ -1,0 +1,2 @@
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_interleaved', 'mrope_section'}
+WARNING: 整形出力の生成を繰り返しで打ち切り、認識結果を使います

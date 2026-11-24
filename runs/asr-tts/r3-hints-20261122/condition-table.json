@@ -1,0 +1,629 @@
+{
+  "best_condition": {
+    "criterion": "val segment-merge reading-aligned CER ascending; tie by more exact terms, lower hint cap, then alpha nearer default 2",
+    "condition": {
+      "name": "val-old-main-selector-k16-alpha2-guardtrue",
+      "dataset": "val",
+      "selector": "main-priority-first-2026-11-22",
+      "max_terms": 16,
+      "max_chars": 240,
+      "keywords_alpha": 2,
+      "keywords_guard": true,
+      "two_pass_policy": "segment-merge",
+      "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+    },
+    "val_metrics": {
+      "condition": {
+        "name": "val-old-main-selector-k16-alpha2-guardtrue",
+        "dataset": "val",
+        "selector": "main-priority-first-2026-11-22",
+        "max_terms": 16,
+        "max_chars": 240,
+        "keywords_alpha": 2,
+        "keywords_guard": true,
+        "two_pass_policy": "segment-merge",
+        "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+      },
+      "rows": 1000,
+      "hinted_gold_terms": 1209,
+      "total_terms": 1427,
+      "hints_mean": 14.231,
+      "no_hint_rows": 40,
+      "two_pass_raw": {
+        "exact_surface_terms": 1018,
+        "total_terms": 1427,
+        "exact_surface_rate": 0.713384723195515,
+        "reading_aligned_cer": {
+          "edit_errors": 6805,
+          "substitutions": 4249,
+          "insertions": 608,
+          "deletions": 1948,
+          "reference_characters": 59343,
+          "rate": 0.11467232866555449
+        }
+      },
+      "segment_merge": {
+        "exact_surface_terms": 909,
+        "total_terms": 1427,
+        "exact_surface_rate": 0.6370007007708479,
+        "reading_aligned_cer": {
+          "edit_errors": 6279,
+          "substitutions": 3781,
+          "insertions": 447,
+          "deletions": 2051,
+          "reference_characters": 59343,
+          "rate": 0.10580860421616703
+        }
+      },
+      "mean_second_pass_latency_s": 0.22318872636486775
+    }
+  },
+  "datasets": {
+    "testnovel": {
+      "label": "test-novel",
+      "manifest_sha256": "d3500fd1402cc1d3f58ffa0de804727a3e90b68402f9ba5c74f4a245431699d4",
+      "rows": 500,
+      "conditions": [
+        {
+          "condition": {
+            "name": "testnovel-old-main-selector-k16-alpha2-guardtrue",
+            "dataset": "testnovel",
+            "selector": "main-priority-first-2026-11-22",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 2,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 303,
+          "total_terms": 500,
+          "hints_mean": 14.888,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 235,
+            "total_terms": 500,
+            "exact_surface_rate": 0.47,
+            "reading_aligned_cer": {
+              "edit_errors": 4942,
+              "substitutions": 3227,
+              "insertions": 394,
+              "deletions": 1321,
+              "reference_characters": 31167,
+              "rate": 0.15856514903583918
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 204,
+            "total_terms": 500,
+            "exact_surface_rate": 0.408,
+            "reading_aligned_cer": {
+              "edit_errors": 4276,
+              "substitutions": 2660,
+              "insertions": 243,
+              "deletions": 1373,
+              "reference_characters": 31167,
+              "rate": 0.1371963936214586
+            }
+          },
+          "mean_second_pass_latency_s": 0.2571273958515376
+        },
+        {
+          "condition": {
+            "name": "testnovel-newselector-k16-alpha1-guardtrue",
+            "dataset": "testnovel",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 1.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 319,
+          "total_terms": 500,
+          "hints_mean": 14.848,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 232,
+            "total_terms": 500,
+            "exact_surface_rate": 0.464,
+            "reading_aligned_cer": {
+              "edit_errors": 4060,
+              "substitutions": 2538,
+              "insertions": 239,
+              "deletions": 1283,
+              "reference_characters": 31167,
+              "rate": 0.13026598646003787
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 210,
+            "total_terms": 500,
+            "exact_surface_rate": 0.42,
+            "reading_aligned_cer": {
+              "edit_errors": 4207,
+              "substitutions": 2605,
+              "insertions": 228,
+              "deletions": 1374,
+              "reference_characters": 31167,
+              "rate": 0.13498251355600474
+            }
+          },
+          "mean_second_pass_latency_s": 0.2259299462097697
+        },
+        {
+          "condition": {
+            "name": "testnovel-newselector-k16-alpha2-guardtrue",
+            "dataset": "testnovel",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 319,
+          "total_terms": 500,
+          "hints_mean": 14.848,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 244,
+            "total_terms": 500,
+            "exact_surface_rate": 0.488,
+            "reading_aligned_cer": {
+              "edit_errors": 4876,
+              "substitutions": 3185,
+              "insertions": 375,
+              "deletions": 1316,
+              "reference_characters": 31167,
+              "rate": 0.15644752462540507
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 212,
+            "total_terms": 500,
+            "exact_surface_rate": 0.424,
+            "reading_aligned_cer": {
+              "edit_errors": 4281,
+              "substitutions": 2670,
+              "insertions": 243,
+              "deletions": 1368,
+              "reference_characters": 31167,
+              "rate": 0.13735681971315813
+            }
+          },
+          "mean_second_pass_latency_s": 0.23701041232468562
+        },
+        {
+          "condition": {
+            "name": "testnovel-newselector-k16-alpha4-guardtrue",
+            "dataset": "testnovel",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 4.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 319,
+          "total_terms": 500,
+          "hints_mean": 14.848,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 251,
+            "total_terms": 500,
+            "exact_surface_rate": 0.502,
+            "reading_aligned_cer": {
+              "edit_errors": 6698,
+              "substitutions": 4470,
+              "insertions": 642,
+              "deletions": 1586,
+              "reference_characters": 31167,
+              "rate": 0.21490679244072255
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 200,
+            "total_terms": 500,
+            "exact_surface_rate": 0.4,
+            "reading_aligned_cer": {
+              "edit_errors": 4220,
+              "substitutions": 2612,
+              "insertions": 230,
+              "deletions": 1378,
+              "reference_characters": 31167,
+              "rate": 0.1353996213944236
+            }
+          },
+          "mean_second_pass_latency_s": 0.2695599324773066
+        },
+        {
+          "condition": {
+            "name": "testnovel-newselector-k32-alpha2-guardtrue",
+            "dataset": "testnovel",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 32,
+            "max_chars": 480,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 360,
+          "total_terms": 500,
+          "hints_mean": 27.428,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 255,
+            "total_terms": 500,
+            "exact_surface_rate": 0.51,
+            "reading_aligned_cer": {
+              "edit_errors": 5289,
+              "substitutions": 3529,
+              "insertions": 444,
+              "deletions": 1316,
+              "reference_characters": 31167,
+              "rate": 0.16969871979978823
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 214,
+            "total_terms": 500,
+            "exact_surface_rate": 0.428,
+            "reading_aligned_cer": {
+              "edit_errors": 4353,
+              "substitutions": 2726,
+              "insertions": 259,
+              "deletions": 1368,
+              "reference_characters": 31167,
+              "rate": 0.13966695543363172
+            }
+          },
+          "mean_second_pass_latency_s": 0.270183992035687
+        },
+        {
+          "condition": {
+            "name": "testnovel-newselector-k48-alpha2-guardtrue",
+            "dataset": "testnovel",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 48,
+            "max_chars": 720,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/a-test-novel-include-novel-trace.jsonl"
+          },
+          "rows": 500,
+          "hinted_gold_terms": 378,
+          "total_terms": 500,
+          "hints_mean": 36.922,
+          "no_hint_rows": 4,
+          "two_pass_raw": {
+            "exact_surface_terms": 259,
+            "total_terms": 500,
+            "exact_surface_rate": 0.518,
+            "reading_aligned_cer": {
+              "edit_errors": 5426,
+              "substitutions": 3652,
+              "insertions": 437,
+              "deletions": 1337,
+              "reference_characters": 31167,
+              "rate": 0.17409439471235602
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 212,
+            "total_terms": 500,
+            "exact_surface_rate": 0.424,
+            "reading_aligned_cer": {
+              "edit_errors": 4343,
+              "substitutions": 2717,
+              "insertions": 255,
+              "deletions": 1371,
+              "reference_characters": 31167,
+              "rate": 0.1393461032502326
+            }
+          },
+          "mean_second_pass_latency_s": 0.22354348658584058
+        }
+      ]
+    },
+    "val": {
+      "label": "val",
+      "manifest_sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6",
+      "rows": 1000,
+      "conditions": [
+        {
+          "condition": {
+            "name": "val-old-main-selector-k16-alpha2-guardtrue",
+            "dataset": "val",
+            "selector": "main-priority-first-2026-11-22",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 2,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1209,
+          "total_terms": 1427,
+          "hints_mean": 14.231,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 1018,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.713384723195515,
+            "reading_aligned_cer": {
+              "edit_errors": 6805,
+              "substitutions": 4249,
+              "insertions": 608,
+              "deletions": 1948,
+              "reference_characters": 59343,
+              "rate": 0.11467232866555449
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 909,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.6370007007708479,
+            "reading_aligned_cer": {
+              "edit_errors": 6279,
+              "substitutions": 3781,
+              "insertions": 447,
+              "deletions": 2051,
+              "reference_characters": 59343,
+              "rate": 0.10580860421616703
+            }
+          },
+          "mean_second_pass_latency_s": 0.22318872636486775
+        },
+        {
+          "condition": {
+            "name": "val-newselector-k16-alpha1-guardtrue",
+            "dataset": "val",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 1.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1211,
+          "total_terms": 1427,
+          "hints_mean": 14.224,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 970,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.6797477224947442,
+            "reading_aligned_cer": {
+              "edit_errors": 5887,
+              "substitutions": 3542,
+              "insertions": 423,
+              "deletions": 1922,
+              "reference_characters": 59343,
+              "rate": 0.09920293884704177
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 898,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.629292221443588,
+            "reading_aligned_cer": {
+              "edit_errors": 6290,
+              "substitutions": 3832,
+              "insertions": 410,
+              "deletions": 2048,
+              "reference_characters": 59343,
+              "rate": 0.10599396727499452
+            }
+          },
+          "mean_second_pass_latency_s": 0.21178337884671056
+        },
+        {
+          "condition": {
+            "name": "val-newselector-k16-alpha2-guardtrue",
+            "dataset": "val",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1211,
+          "total_terms": 1427,
+          "hints_mean": 14.224,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 1019,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.7140854940434478,
+            "reading_aligned_cer": {
+              "edit_errors": 6855,
+              "substitutions": 4310,
+              "insertions": 615,
+              "deletions": 1930,
+              "reference_characters": 59343,
+              "rate": 0.11551488802386128
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 911,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.6384022424667134,
+            "reading_aligned_cer": {
+              "edit_errors": 6386,
+              "substitutions": 3882,
+              "insertions": 460,
+              "deletions": 2044,
+              "reference_characters": 59343,
+              "rate": 0.10761168124294357
+            }
+          },
+          "mean_second_pass_latency_s": 0.217471641657874
+        },
+        {
+          "condition": {
+            "name": "val-newselector-k16-alpha4-guardtrue",
+            "dataset": "val",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 16,
+            "max_chars": 240,
+            "keywords_alpha": 4.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1211,
+          "total_terms": 1427,
+          "hints_mean": 14.224,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 1030,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.7217939733707078,
+            "reading_aligned_cer": {
+              "edit_errors": 10576,
+              "substitutions": 7014,
+              "insertions": 1268,
+              "deletions": 2294,
+              "reference_characters": 59343,
+              "rate": 0.17821815546905279
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 899,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.6299929922915207,
+            "reading_aligned_cer": {
+              "edit_errors": 6364,
+              "substitutions": 3853,
+              "insertions": 462,
+              "deletions": 2049,
+              "reference_characters": 59343,
+              "rate": 0.10724095512528857
+            }
+          },
+          "mean_second_pass_latency_s": 0.18364700580993668
+        },
+        {
+          "condition": {
+            "name": "val-newselector-k32-alpha2-guardtrue",
+            "dataset": "val",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 32,
+            "max_chars": 480,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1218,
+          "total_terms": 1427,
+          "hints_mean": 25.524,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 1003,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.7028731604765242,
+            "reading_aligned_cer": {
+              "edit_errors": 7624,
+              "substitutions": 4943,
+              "insertions": 734,
+              "deletions": 1947,
+              "reference_characters": 59343,
+              "rate": 0.12847345095461976
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 898,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.629292221443588,
+            "reading_aligned_cer": {
+              "edit_errors": 6548,
+              "substitutions": 3991,
+              "insertions": 508,
+              "deletions": 2049,
+              "reference_characters": 59343,
+              "rate": 0.11034157356385757
+            }
+          },
+          "mean_second_pass_latency_s": 0.3075706320405006
+        },
+        {
+          "condition": {
+            "name": "val-newselector-k48-alpha2-guardtrue",
+            "dataset": "val",
+            "selector": "term-select-9fffc64-priority-score-2to1",
+            "max_terms": 48,
+            "max_chars": 720,
+            "keywords_alpha": 2.0,
+            "keywords_guard": true,
+            "two_pass_policy": "segment-merge",
+            "merge_min_reading_similarity": 0.8,
+            "baseline_trace": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-trace.jsonl"
+          },
+          "rows": 1000,
+          "hinted_gold_terms": 1218,
+          "total_terms": 1427,
+          "hints_mean": 33.865,
+          "no_hint_rows": 40,
+          "two_pass_raw": {
+            "exact_surface_terms": 1000,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.700770847932726,
+            "reading_aligned_cer": {
+              "edit_errors": 8128,
+              "substitutions": 5336,
+              "insertions": 834,
+              "deletions": 1958,
+              "reference_characters": 59343,
+              "rate": 0.1369664492863522
+            }
+          },
+          "segment_merge": {
+            "exact_surface_terms": 894,
+            "total_terms": 1427,
+            "exact_surface_rate": 0.626489138051857,
+            "reading_aligned_cer": {
+              "edit_errors": 6531,
+              "substitutions": 3970,
+              "insertions": 501,
+              "deletions": 2060,
+              "reference_characters": 59343,
+              "rate": 0.11005510338203327
+            }
+          },
+          "mean_second_pass_latency_s": 0.19204152999422514
+        }
+      ]
+    }
+  },
+  "testnovel_hint_correct_but_raw_second_missed": 69,
+  "miss_candidates_path": "/home/maru/voiceime-work-asr/r3-hints-20261122/outputs/best/miss-candidates-testnovel.jsonl"
+}

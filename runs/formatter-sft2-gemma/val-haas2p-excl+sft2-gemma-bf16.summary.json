@@ -1,0 +1,22 @@
+{
+  "system": "val-haas2p-excl+sft2-gemma-bf16",
+  "model": "models/formatter/sft2-gemma-4-e2b-lora/merged-bf16",
+  "runtime": "Transformers",
+  "runtime_dtype": "bfloat16",
+  "decoding": "greedy",
+  "max_new_tokens_rule": "max(64, floor(input_tokens * 1.5))",
+  "repetition_stop": "not applied during batched inference",
+  "n": 1000,
+  "glossary_size": 1200,
+  "excluded_term_count": 258,
+  "mean_glossary_entries": 14.736,
+  "batch_size": 64,
+  "batches": 16,
+  "generation_wall_s": 55.767453115200624,
+  "generation_tokens": 24575,
+  "generation_tokens_per_second": 440.66921882257435,
+  "format_latency_mean_s_amortized": 0.05576745311520062,
+  "length_limited": 1,
+  "max_memory_allocated_gb": 13.723627008,
+  "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+}

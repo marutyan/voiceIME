@@ -1,0 +1,31 @@
+{
+  "system": "segmerge+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "data/dev-user/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "runs/segment-merge/asr-v1-t16-s75.segment-merge.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "segmerge+sft2-qwen",
+    "out": "runs/segment-merge/e2e-segmerge+sft2-qwen.jsonl",
+    "glossary": [
+      "data/text/glossary.jsonl"
+    ],
+    "exclude_terms": null,
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 100,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 2.8572868750197813,
+  "format_latency_median_s": 0.26074506249278784,
+  "format_latency_p90_s": 0.3574219997157343,
+  "latency_median_s": 0.5667156245326623,
+  "mean_glossary_entries": 13.29,
+  "generation_tps_median": 208.32201521574564,
+  "peak_memory_gb": 0.912482168,
+  "truncated": 0
+}

@@ -1,0 +1,1506 @@
+{
+  "latin_glossary_surfaces": 31133,
+  "inputs": {
+    "english_words_sha256": "be41ad97963bf8dabedd5871d5d691596175269d540956b0f9965a885c2bbab9",
+    "glossary_sha256": [
+      "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+      "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+    ],
+    "wikidata_sha256": {
+      "wikidata-base.tsv": "2c7297aa9aaf7dcfd4b9c2af156c244d83c8077831bae7c2293c8134b0da8b36",
+      "wikidata-technical.tsv": "dbfedc1e03c4c3d0f46ce3d4753c02af0e41f3728a281777507ceb6445dd092b",
+      "wikidata-research.tsv": "08b13d7a32d51b5c877796580572acf879a6efb7920299ac0eab54189a992f94",
+      "wikidata-excluded.tsv": "8591456dad7a6c343cc1e75d943cf0b896ea1c9e1ecda35a1cfc35380af4dded"
+    }
+  },
+  "seed_surfaces": 99,
+  "seed_pairs": 118,
+  "seed_existing_pairs": [
+    [
+      "apt",
+      "アプト"
+    ],
+    [
+      "arXiv",
+      "アーカイブ"
+    ],
+    [
+      "ASCII",
+      "アスキー"
+    ],
+    [
+      "ASIC",
+      "エーシック"
+    ],
+    [
+      "awk",
+      "オーク"
+    ],
+    [
+      "Azure",
+      "アジュール"
+    ],
+    [
+      "BERT",
+      "バート"
+    ],
+    [
+      "BIOS",
+      "バイオス"
+    ],
+    [
+      "BLEU",
+      "ブルー"
+    ],
+    [
+      "COCO",
+      "ココ"
+    ],
+    [
+      "cron",
+      "クロン"
+    ],
+    [
+      "CRUD",
+      "クラッド"
+    ],
+    [
+      "CUDA",
+      "クーダ"
+    ],
+    [
+      "Deno",
+      "ディーノ"
+    ],
+    [
+      "enum",
+      "イーナム"
+    ],
+    [
+      "FIFO",
+      "ファイフォ"
+    ],
+    [
+      "GAN",
+      "ガン"
+    ],
+    [
+      "GELU",
+      "ゲル"
+    ],
+    [
+      "GIF",
+      "ギフ"
+    ],
+    [
+      "GIF",
+      "ジフ"
+    ],
+    [
+      "GNOME",
+      "グノーム"
+    ],
+    [
+      "grep",
+      "グレップ"
+    ],
+    [
+      "IaaS",
+      "アイアース"
+    ],
+    [
+      "JPEG",
+      "ジェイペグ"
+    ],
+    [
+      "JSON",
+      "ジェイソン"
+    ],
+    [
+      "Jupyter",
+      "ジュピター"
+    ],
+    [
+      "Kaggle",
+      "カグル"
+    ],
+    [
+      "kubectl",
+      "キューブコントロール"
+    ],
+    [
+      "LaTeX",
+      "ラテック"
+    ],
+    [
+      "LaTeX",
+      "ラテフ"
+    ],
+    [
+      "LIFO",
+      "ライフォ"
+    ],
+    [
+      "LoRA",
+      "ローラ"
+    ],
+    [
+      "mAP",
+      "マップ"
+    ],
+    [
+      "NAT",
+      "ナット"
+    ],
+    [
+      "nginx",
+      "エンジンエックス"
+    ],
+    [
+      "NumPy",
+      "ナムパイ"
+    ],
+    [
+      "Nuxt",
+      "ナクスト"
+    ],
+    [
+      "OAuth",
+      "オーオース"
+    ],
+    [
+      "PaaS",
+      "パース"
+    ],
+    [
+      "PyPI",
+      "パイピーアイ"
+    ],
+    [
+      "RAG",
+      "ラグ"
+    ],
+    [
+      "RAID",
+      "レイド"
+    ],
+    [
+      "Redis",
+      "レディス"
+    ],
+    [
+      "regex",
+      "リジェックス"
+    ],
+    [
+      "ReLU",
+      "レルー"
+    ],
+    [
+      "RISC-V",
+      "リスクファイブ"
+    ],
+    [
+      "ROUGE",
+      "ルージュ"
+    ],
+    [
+      "rsync",
+      "アールシンク"
+    ],
+    [
+      "SaaS",
+      "サース"
+    ],
+    [
+      "SciPy",
+      "サイパイ"
+    ],
+    [
+      "sed",
+      "セド"
+    ],
+    [
+      "SIMD",
+      "シムディー"
+    ],
+    [
+      "sudo",
+      "スド"
+    ],
+    [
+      "systemd",
+      "システムディー"
+    ],
+    [
+      "TeX",
+      "テフ"
+    ],
+    [
+      "tmux",
+      "ティーマックス"
+    ],
+    [
+      "TOML",
+      "トムル"
+    ],
+    [
+      "Ubuntu",
+      "ウブントゥ"
+    ],
+    [
+      "vim",
+      "ビム"
+    ],
+    [
+      "vim",
+      "ヴィム"
+    ],
+    [
+      "Vite",
+      "ヴィート"
+    ],
+    [
+      "VLAN",
+      "ブイラン"
+    ],
+    [
+      "WASM",
+      "ワズム"
+    ],
+    [
+      "Wayland",
+      "ウェイランド"
+    ],
+    [
+      "YAML",
+      "ヤムル"
+    ],
+    [
+      "YOLO",
+      "ヨロ"
+    ],
+    [
+      "zsh",
+      "ズィーシェル"
+    ]
+  ],
+  "seed_letter_by_letter_pairs": [
+    [
+      "K8s",
+      "ケーハチエス"
+    ]
+  ],
+  "seed_target_pairs": 50,
+  "seed_target_surfaces": 45,
+  "seed_missing_pairs": [
+    [
+      "AAAI",
+      "トリプルエーアイ"
+    ],
+    [
+      "apt",
+      "アプト"
+    ],
+    [
+      "arXiv",
+      "アーカイブ"
+    ],
+    [
+      "ASCII",
+      "アスキー"
+    ],
+    [
+      "ASIC",
+      "エーシック"
+    ],
+    [
+      "awk",
+      "オーク"
+    ],
+    [
+      "Azure",
+      "アジュール"
+    ],
+    [
+      "BERT",
+      "バート"
+    ],
+    [
+      "BIOS",
+      "バイオス"
+    ],
+    [
+      "BLEU",
+      "ブルー"
+    ],
+    [
+      "char",
+      "キャラ"
+    ],
+    [
+      "char",
+      "チャー"
+    ],
+    [
+      "chmod",
+      "チェンジモード"
+    ],
+    [
+      "chown",
+      "チェンジオウン"
+    ],
+    [
+      "chown",
+      "チョウン"
+    ],
+    [
+      "COCO",
+      "ココ"
+    ],
+    [
+      "COLING",
+      "コーリング"
+    ],
+    [
+      "CORS",
+      "コルス"
+    ],
+    [
+      "cron",
+      "クロン"
+    ],
+    [
+      "cron",
+      "クーロン"
+    ],
+    [
+      "CRUD",
+      "クラッド"
+    ],
+    [
+      "CSRF",
+      "シーサーフ"
+    ],
+    [
+      "CUDA",
+      "クーダ"
+    ],
+    [
+      "cuDNN",
+      "クーディーエヌエヌ"
+    ],
+    [
+      "daemon",
+      "デーモン"
+    ],
+    [
+      "DDoS",
+      "ディードス"
+    ],
+    [
+      "Deno",
+      "ディーノ"
+    ],
+    [
+      "DETR",
+      "デター"
+    ],
+    [
+      "enum",
+      "イーナム"
+    ],
+    [
+      "enum",
+      "エナム"
+    ],
+    [
+      "etcd",
+      "エトセディー"
+    ],
+    [
+      "FIFO",
+      "ファイフォ"
+    ],
+    [
+      "GAN",
+      "ガン"
+    ],
+    [
+      "GELU",
+      "ゲル"
+    ],
+    [
+      "GIF",
+      "ギフ"
+    ],
+    [
+      "GIF",
+      "ジフ"
+    ],
+    [
+      "GNOME",
+      "グノーム"
+    ],
+    [
+      "GNU",
+      "グヌー"
+    ],
+    [
+      "grep",
+      "グレップ"
+    ],
+    [
+      "IaaS",
+      "アイアース"
+    ],
+    [
+      "IaaS",
+      "イアース"
+    ],
+    [
+      "IAM",
+      "アイアム"
+    ],
+    [
+      "ICLR",
+      "アイクリア"
+    ],
+    [
+      "IJCAI",
+      "イジカイ"
+    ],
+    [
+      "JPEG",
+      "ジェイペグ"
+    ],
+    [
+      "JSON",
+      "ジェイソン"
+    ],
+    [
+      "Jupyter",
+      "ジュパイター"
+    ],
+    [
+      "Jupyter",
+      "ジュピター"
+    ],
+    [
+      "JWT",
+      "ジョット"
+    ],
+    [
+      "K8s",
+      "クーバネティス"
+    ],
+    [
+      "K8s",
+      "ケーハチエス"
+    ],
+    [
+      "Kaggle",
+      "カグル"
+    ],
+    [
+      "kubectl",
+      "キューブコントロール"
+    ],
+    [
+      "kubectl",
+      "キューブシーティーエル"
+    ],
+    [
+      "kubectl",
+      "クーベクトル"
+    ],
+    [
+      "LaTeX",
+      "ラテック"
+    ],
+    [
+      "LaTeX",
+      "ラテフ"
+    ],
+    [
+      "LIFO",
+      "ライフォ"
+    ],
+    [
+      "LoRA",
+      "ローラ"
+    ],
+    [
+      "mAP",
+      "マップ"
+    ],
+    [
+      "MySQL",
+      "マイシークェル"
+    ],
+    [
+      "NAACL",
+      "ナックル"
+    ],
+    [
+      "NAT",
+      "ナット"
+    ],
+    [
+      "NeurIPS",
+      "ニューリプス"
+    ],
+    [
+      "nginx",
+      "エンジンエックス"
+    ],
+    [
+      "null",
+      "ナル"
+    ],
+    [
+      "null",
+      "ヌル"
+    ],
+    [
+      "NumPy",
+      "ナムパイ"
+    ],
+    [
+      "NumPy",
+      "ナンパイ"
+    ],
+    [
+      "Nuxt",
+      "ナクスト"
+    ],
+    [
+      "OAuth",
+      "オーオース"
+    ],
+    [
+      "PaaS",
+      "パース"
+    ],
+    [
+      "PNG",
+      "ピング"
+    ],
+    [
+      "PoC",
+      "ポック"
+    ],
+    [
+      "PyPI",
+      "パイピーアイ"
+    ],
+    [
+      "RAG",
+      "ラグ"
+    ],
+    [
+      "RAID",
+      "レイド"
+    ],
+    [
+      "Redis",
+      "レディス"
+    ],
+    [
+      "regex",
+      "リジェックス"
+    ],
+    [
+      "regex",
+      "レジェックス"
+    ],
+    [
+      "ReLU",
+      "レル"
+    ],
+    [
+      "ReLU",
+      "レルー"
+    ],
+    [
+      "RISC-V",
+      "リスクファイブ"
+    ],
+    [
+      "ROUGE",
+      "ルージュ"
+    ],
+    [
+      "rsync",
+      "アールシンク"
+    ],
+    [
+      "SaaS",
+      "サース"
+    ],
+    [
+      "SAML",
+      "サムル"
+    ],
+    [
+      "SciPy",
+      "サイパイ"
+    ],
+    [
+      "SCSI",
+      "スカジー"
+    ],
+    [
+      "sed",
+      "セド"
+    ],
+    [
+      "SIMD",
+      "シムディー"
+    ],
+    [
+      "sudo",
+      "スド"
+    ],
+    [
+      "sudo",
+      "スードゥー"
+    ],
+    [
+      "systemd",
+      "システムディー"
+    ],
+    [
+      "TeX",
+      "テフ"
+    ],
+    [
+      "tmux",
+      "ティーマックス"
+    ],
+    [
+      "TOML",
+      "トムル"
+    ],
+    [
+      "tuple",
+      "チュープル"
+    ],
+    [
+      "Ubuntu",
+      "ウブントゥ"
+    ],
+    [
+      "vim",
+      "ビム"
+    ],
+    [
+      "vim",
+      "ヴィム"
+    ],
+    [
+      "ViT",
+      "ビット"
+    ],
+    [
+      "Vite",
+      "ヴィート"
+    ],
+    [
+      "VLAN",
+      "ブイラン"
+    ],
+    [
+      "WASM",
+      "ワズム"
+    ],
+    [
+      "Wayland",
+      "ウェイランド"
+    ],
+    [
+      "YAML",
+      "ヤムル"
+    ],
+    [
+      "YOLO",
+      "ヨロ"
+    ],
+    [
+      "zsh",
+      "ジーシェル"
+    ],
+    [
+      "zsh",
+      "ズィーシェル"
+    ]
+  ],
+  "Wikipedia-ja": {
+    "pairs": 5558,
+    "surfaces": 5452,
+    "in_glossary_pairs": 231,
+    "new_pairs": 5327,
+    "new_surfaces": 5238,
+    "seed_hit_surfaces": 7,
+    "seed_hit_pairs": 7,
+    "seed_hits": [
+      [
+        "curl",
+        "カール"
+      ],
+      [
+        "GUI",
+        "グイ"
+      ],
+      [
+        "Qt",
+        "キュート"
+      ],
+      [
+        "SIGGRAPH",
+        "シーグラフ"
+      ],
+      [
+        "SQL",
+        "シークェル"
+      ],
+      [
+        "Svelte",
+        "スベルト"
+      ],
+      [
+        "tuple",
+        "タプル"
+      ]
+    ],
+    "sample": [
+      {
+        "surface": "Eclipse",
+        "reading": "イクリプス",
+        "source": "Wikipedia-ja",
+        "evidence": "「Eclipse (統合開発環境)」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110359849",
+        "in_glossary": true
+      },
+      {
+        "surface": "Zemax OpticStudio",
+        "reading": "ゼマックスオプティックスタジオ",
+        "source": "Wikipedia-ja",
+        "evidence": "「Zemax OpticStudio」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=101828152",
+        "in_glossary": false
+      },
+      {
+        "surface": "98NOTE",
+        "reading": "キュウハチノート",
+        "source": "Wikipedia-ja",
+        "evidence": "「98NOTE」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107153425",
+        "in_glossary": false
+      },
+      {
+        "surface": "ARROWS Tab FJT21",
+        "reading": "アローズタブエフジェイティニーイチ",
+        "source": "Wikipedia-ja",
+        "evidence": "「FJT21」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=96982730",
+        "in_glossary": false
+      },
+      {
+        "surface": "Yibit",
+        "reading": "ヨビビット",
+        "source": "Wikipedia-ja",
+        "evidence": "「ヨビビット」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=102395154",
+        "in_glossary": false
+      },
+      {
+        "surface": "Disqus",
+        "reading": "ディスカス",
+        "source": "Wikipedia-ja",
+        "evidence": "「Disqus」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=98191768",
+        "in_glossary": false
+      },
+      {
+        "surface": "Turion II",
+        "reading": "テュリオンツー",
+        "source": "Wikipedia-ja",
+        "evidence": "「Turion II」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=106947016",
+        "in_glossary": false
+      },
+      {
+        "surface": "Parallels Virtuozzo Containers",
+        "reading": "パラレルスバーチュオッゾコンテナ",
+        "source": "Wikipedia-ja",
+        "evidence": "「Parallels Virtuozzo Containers」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107522980",
+        "in_glossary": false
+      },
+      {
+        "surface": "Power.org",
+        "reading": "パワードットオーグ",
+        "source": "Wikipedia-ja",
+        "evidence": "「Power.org」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108944659",
+        "in_glossary": false
+      },
+      {
+        "surface": "DocuPortal",
+        "reading": "ドキュポータル",
+        "source": "Wikipedia-ja",
+        "evidence": "「DocuPortal」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110037700",
+        "in_glossary": false
+      },
+      {
+        "surface": "NOS:Network Operating System",
+        "reading": "ネットワークオペレーティングシステム",
+        "source": "Wikipedia-ja",
+        "evidence": "「ネットワークオペレーティングシステム」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=109455818",
+        "in_glossary": false
+      },
+      {
+        "surface": "Narcissus",
+        "reading": "ナルシサス",
+        "source": "Wikipedia-ja",
+        "evidence": "「Narcissus」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=74944354",
+        "in_glossary": false
+      },
+      {
+        "surface": "SPOT",
+        "reading": "スポット",
+        "source": "Wikipedia-ja",
+        "evidence": "「スポット (通信機器)」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=105439806",
+        "in_glossary": false
+      },
+      {
+        "surface": "GnomeBaker",
+        "reading": "グノームベイカー",
+        "source": "Wikipedia-ja",
+        "evidence": "「GnomeBaker」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=109787050",
+        "in_glossary": false
+      },
+      {
+        "surface": "Bonjour",
+        "reading": "ボンジュール",
+        "source": "Wikipedia-ja",
+        "evidence": "「Bonjour」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=111446039",
+        "in_glossary": false
+      },
+      {
+        "surface": "1chipMSX",
+        "reading": "ワンチップエムエスエックス",
+        "source": "Wikipedia-ja",
+        "evidence": "「1チップMSX」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107278173",
+        "in_glossary": false
+      },
+      {
+        "surface": "Talby",
+        "reading": "タルビー",
+        "source": "Wikipedia-ja",
+        "evidence": "「Talby」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110663192",
+        "in_glossary": false
+      },
+      {
+        "surface": "SolidDB",
+        "reading": "ソリッドディービー",
+        "source": "Wikipedia-ja",
+        "evidence": "「SolidDB」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=81001004",
+        "in_glossary": false
+      },
+      {
+        "surface": "AxKit",
+        "reading": "アックスキット",
+        "source": "Wikipedia-ja",
+        "evidence": "「AxKit」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=104596547",
+        "in_glossary": false
+      },
+      {
+        "surface": "docomo NEXT series GALAXY NEXUS SC-04D",
+        "reading": "ドコモネクストシリーズギャラクシーネクサスエスシィーゼロヨンディー",
+        "source": "Wikipedia-ja",
+        "evidence": "「SC-04D」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107128697",
+        "in_glossary": false
+      },
+      {
+        "surface": "WebXR Device API",
+        "reading": "ウェブエックスアールデバイスエーピーアイ",
+        "source": "Wikipedia-ja",
+        "evidence": "「WebXR Device API」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=82207928",
+        "in_glossary": false
+      },
+      {
+        "surface": "OpenMusic",
+        "reading": "オープンミュージック",
+        "source": "Wikipedia-ja",
+        "evidence": "「OpenMusic」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=106511088",
+        "in_glossary": false
+      },
+      {
+        "surface": "Intel Core M",
+        "reading": "インテルコアエム",
+        "source": "Wikipedia-ja",
+        "evidence": "「Intel Core M」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108401910",
+        "in_glossary": false
+      },
+      {
+        "surface": "Apache Axis2",
+        "reading": "アパッチアクシスツー",
+        "source": "Wikipedia-ja",
+        "evidence": "「Apache Axis2」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110073092",
+        "in_glossary": false
+      },
+      {
+        "surface": "SignalNow Professional",
+        "reading": "シグナルナウプロフェッショナル",
+        "source": "Wikipedia-ja",
+        "evidence": "「SignalNow Professional」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=103519927",
+        "in_glossary": false
+      },
+      {
+        "surface": "Ludia",
+        "reading": "ルディア",
+        "source": "Wikipedia-ja",
+        "evidence": "「Ludia」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108274589",
+        "in_glossary": false
+      },
+      {
+        "surface": "testbed",
+        "reading": "テストベッド",
+        "source": "Wikipedia-ja",
+        "evidence": "「テストベッド」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=104457504",
+        "in_glossary": false
+      },
+      {
+        "surface": "Google Classroom",
+        "reading": "グーグルクラスルーム",
+        "source": "Wikipedia-ja",
+        "evidence": "「Google Classroom」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=106770270",
+        "in_glossary": false
+      },
+      {
+        "surface": "Blackmagic Fusion",
+        "reading": "ブラックマジックフュージョン",
+        "source": "Wikipedia-ja",
+        "evidence": "「Blackmagic Fusion」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110259667",
+        "in_glossary": false
+      },
+      {
+        "surface": "Bonite",
+        "reading": "ボニット",
+        "source": "Wikipedia-ja",
+        "evidence": "「Bonite」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108052167",
+        "in_glossary": false
+      }
+    ],
+    "counts": {
+      "pages": 3123022,
+      "article_pages": 1525534,
+      "articles_with_mentions": 251126,
+      "redirect_pages": 958497,
+      "category_pages": 326285,
+      "plain_english": 2995,
+      "unverified_article_topic": 75374,
+      "out_of_scope_articles": 173279,
+      "letter_by_letter": 542,
+      "label_without_phonetic_match": 667,
+      "existing_reading": 788,
+      "expanded_abbreviation": 97,
+      "kana_redirect_matches": 103,
+      "redirect_matches": 6,
+      "invalid_form_or_reading": 2
+    }
+  },
+  "Wikidata": {
+    "pairs": 427,
+    "surfaces": 398,
+    "in_glossary_pairs": 32,
+    "new_pairs": 395,
+    "new_surfaces": 369,
+    "seed_hit_surfaces": 1,
+    "seed_hit_pairs": 1,
+    "seed_hits": [
+      [
+        "PostgreSQL",
+        "ポスグレ"
+      ]
+    ],
+    "sample": [
+      {
+        "surface": "ZAIKO",
+        "reading": "ザイコ",
+        "source": "Wikidata",
+        "evidence": "Q111182314「ZAIKO」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q111182314",
+        "in_glossary": false
+      },
+      {
+        "surface": "DingTalk",
+        "reading": "ディントーク",
+        "source": "Wikidata",
+        "evidence": "Q55609616「DingTalk」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q55609616",
+        "in_glossary": false
+      },
+      {
+        "surface": "Shiira",
+        "reading": "シイラ",
+        "source": "Wikidata",
+        "evidence": "Q1149857「Shiira」日本語ラベル (P31=Q6368) https://www.wikidata.org/wiki/Q1149857",
+        "in_glossary": false
+      },
+      {
+        "surface": "Abema",
+        "reading": "アベマ",
+        "source": "Wikidata",
+        "evidence": "Q105741063「Abema」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q105741063",
+        "in_glossary": false
+      },
+      {
+        "surface": "Animation:Master",
+        "reading": "アニメーションマスター",
+        "source": "Wikidata",
+        "evidence": "Q2653036「Animation:Master」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q2653036",
+        "in_glossary": false
+      },
+      {
+        "surface": "Shazam",
+        "reading": "シャザム",
+        "source": "Wikidata",
+        "evidence": "Q1195495「Shazam」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q1195495",
+        "in_glossary": false
+      },
+      {
+        "surface": "Wikibase",
+        "reading": "ウィキベース",
+        "source": "Wikidata",
+        "evidence": "Q16354758「Wikibase」日本語ラベル (P31=Q1130645) https://www.wikidata.org/wiki/Q16354758",
+        "in_glossary": false
+      },
+      {
+        "surface": "Smallworld",
+        "reading": "スモールワールド",
+        "source": "Wikidata",
+        "evidence": "Q1376225「Smallworld」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q1376225",
+        "in_glossary": false
+      },
+      {
+        "surface": "Cookpad",
+        "reading": "クックパッド",
+        "source": "Wikidata",
+        "evidence": "Q131319373「Cookpad」日本語ラベル (P31=Q620615) https://www.wikidata.org/wiki/Q131319373",
+        "in_glossary": false
+      },
+      {
+        "surface": "Portmap",
+        "reading": "ポートマッパー",
+        "source": "Wikidata",
+        "evidence": "Q1412477「Portmap」日本語別名 (P31=Q7397) https://www.wikidata.org/wiki/Q1412477",
+        "in_glossary": false
+      },
+      {
+        "surface": "mozc",
+        "reading": "モズク",
+        "source": "Wikidata",
+        "evidence": "Q114801359「mozc」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q114801359",
+        "in_glossary": false
+      },
+      {
+        "surface": "NeoOffice",
+        "reading": "ネオオフィス",
+        "source": "Wikidata",
+        "evidence": "Q1361518「NeoOffice」日本語別名 (P31=Q166142) https://www.wikidata.org/wiki/Q1361518",
+        "in_glossary": false
+      },
+      {
+        "surface": "DELISH KITCHEN",
+        "reading": "デリッシュキッチン",
+        "source": "Wikidata",
+        "evidence": "Q131323271「DELISH KITCHEN」日本語ラベル (P31=Q620615) https://www.wikidata.org/wiki/Q131323271",
+        "in_glossary": false
+      },
+      {
+        "surface": "Urbit",
+        "reading": "アービット",
+        "source": "Wikidata",
+        "evidence": "Q64919023「Urbit」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q64919023",
+        "in_glossary": false
+      },
+      {
+        "surface": "Minecraft data pack",
+        "reading": "マインクラフトノデタパ",
+        "source": "Wikidata",
+        "evidence": "Q116908523「Minecraft data pack」日本語別名 (P31=Q235557) https://www.wikidata.org/wiki/Q116908523",
+        "in_glossary": false
+      },
+      {
+        "surface": "Mesen",
+        "reading": "メセン",
+        "source": "Wikidata",
+        "evidence": "Q100995275「Mesen」日本語ラベル (P31=Q202871) https://www.wikidata.org/wiki/Q100995275",
+        "in_glossary": false
+      },
+      {
+        "surface": "Waze",
+        "reading": "ワズ",
+        "source": "Wikidata",
+        "evidence": "Q942327「Waze」日本語ラベル (P31=Q620615) https://www.wikidata.org/wiki/Q942327",
+        "in_glossary": false
+      },
+      {
+        "surface": "PeerCast",
+        "reading": "ピアカス",
+        "source": "Wikidata",
+        "evidence": "Q1191945「PeerCast」日本語別名 (P31=Q341) https://www.wikidata.org/wiki/Q1191945",
+        "in_glossary": false
+      },
+      {
+        "surface": "Flickr",
+        "reading": "フリッカー",
+        "source": "Wikidata",
+        "evidence": "Q103204「Flickr」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q103204",
+        "in_glossary": false
+      },
+      {
+        "surface": "Baidu Tieba",
+        "reading": "バイドゥティエバー",
+        "source": "Wikidata",
+        "evidence": "Q837827「Baidu Tieba」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q837827",
+        "in_glossary": false
+      },
+      {
+        "surface": "WikiData Remote editor",
+        "reading": "ウィキデータリモートエディタ",
+        "source": "Wikidata",
+        "evidence": "Q74832502「WikiData Remote editor」日本語ラベル (P31=Q341) https://www.wikidata.org/wiki/Q74832502",
+        "in_glossary": false
+      },
+      {
+        "surface": "Taobao",
+        "reading": "タオバオ",
+        "source": "Wikidata",
+        "evidence": "Q2117484「Taobao」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q2117484",
+        "in_glossary": false
+      },
+      {
+        "surface": "Aarogya Setu",
+        "reading": "アローギャセツ",
+        "source": "Wikidata",
+        "evidence": "Q90565214「Aarogya Setu」日本語ラベル (P31=Q620615) https://www.wikidata.org/wiki/Q90565214",
+        "in_glossary": false
+      },
+      {
+        "surface": "Piccoma",
+        "reading": "ピッコマ",
+        "source": "Wikidata",
+        "evidence": "Q118315782「Piccoma」日本語ラベル (P31=Q620615) https://www.wikidata.org/wiki/Q118315782",
+        "in_glossary": false
+      },
+      {
+        "surface": "Panoweaver",
+        "reading": "パノウィーヴァー",
+        "source": "Wikidata",
+        "evidence": "Q11239337「Panoweaver」日本語別名 (P31=Q166142) https://www.wikidata.org/wiki/Q11239337",
+        "in_glossary": false
+      },
+      {
+        "surface": "Archivematica",
+        "reading": "アーカイブマティカ",
+        "source": "Wikidata",
+        "evidence": "Q37610516「Archivematica」日本語ラベル (P31=Q341) https://www.wikidata.org/wiki/Q37610516",
+        "in_glossary": false
+      },
+      {
+        "surface": "Corel Ventura",
+        "reading": "コーレルヴェントゥーラ",
+        "source": "Wikidata",
+        "evidence": "Q1132555「Corel Ventura」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q1132555",
+        "in_glossary": false
+      },
+      {
+        "surface": "radiko",
+        "reading": "ラジコ",
+        "source": "Wikidata",
+        "evidence": "Q10859793「radiko」日本語別名 (P31=Q620615) https://www.wikidata.org/wiki/Q10859793",
+        "in_glossary": false
+      },
+      {
+        "surface": "Mitsumori Lab",
+        "reading": "ミツモリラボ",
+        "source": "Wikidata",
+        "evidence": "Q139603414「Mitsumori Lab」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q139603414",
+        "in_glossary": false
+      },
+      {
+        "surface": "Greenfield",
+        "reading": "グリーンフィールド",
+        "source": "Wikidata",
+        "evidence": "Q105580759「Greenfield」日本語ラベル (P31=Q7397) https://www.wikidata.org/wiki/Q105580759",
+        "in_glossary": false
+      }
+    ],
+    "counts": {
+      "excluded_entities": 42,
+      "wikidata-base.tsv": 8288,
+      "invalid_form_or_reading": 8406,
+      "existing_reading": 103,
+      "label_without_phonetic_match": 195,
+      "plain_english": 340,
+      "letter_by_letter": 8,
+      "out_of_scope_rows": 105,
+      "wikidata-technical.tsv": 1366,
+      "wikidata-research.tsv": 16
+    }
+  },
+  "combined": {
+    "pairs": 5881,
+    "surfaces": 5742,
+    "in_glossary_pairs": 256,
+    "new_pairs": 5625,
+    "new_surfaces": 5506,
+    "seed_hit_surfaces": 8,
+    "seed_hit_pairs": 8,
+    "seed_hits": [
+      [
+        "curl",
+        "カール"
+      ],
+      [
+        "GUI",
+        "グイ"
+      ],
+      [
+        "PostgreSQL",
+        "ポスグレ"
+      ],
+      [
+        "Qt",
+        "キュート"
+      ],
+      [
+        "SIGGRAPH",
+        "シーグラフ"
+      ],
+      [
+        "SQL",
+        "シークェル"
+      ],
+      [
+        "Svelte",
+        "スベルト"
+      ],
+      [
+        "tuple",
+        "タプル"
+      ]
+    ],
+    "sample": [
+      {
+        "surface": "Doom WAD",
+        "reading": "ドゥームワッド",
+        "source": "Wikipedia-ja",
+        "evidence": "「Doomの改造」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110327713",
+        "in_glossary": false
+      },
+      {
+        "surface": "WebXR Device API",
+        "reading": "ウェブエックスアールデバイスエーピーアイ",
+        "source": "Wikipedia-ja",
+        "evidence": "「WebXR Device API」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=82207928",
+        "in_glossary": false
+      },
+      {
+        "surface": "98NOTE",
+        "reading": "キュウハチノート",
+        "source": "Wikipedia-ja",
+        "evidence": "「98NOTE」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107153425",
+        "in_glossary": false
+      },
+      {
+        "surface": "Archivematica",
+        "reading": "アーカイヴマティカ",
+        "source": "Wikidata",
+        "evidence": "Q37610516「Archivematica」日本語別名 (P31=Q341) https://www.wikidata.org/wiki/Q37610516",
+        "in_glossary": false
+      },
+      {
+        "surface": "web server benchmarking",
+        "reading": "ウェブサーバーベンチマーク",
+        "source": "Wikipedia-ja",
+        "evidence": "「ウェブサーバーベンチマーク」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=93719251",
+        "in_glossary": false
+      },
+      {
+        "surface": "WordWise",
+        "reading": "ワードワイズ",
+        "source": "Wikipedia-ja",
+        "evidence": "「WordWise」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108626127",
+        "in_glossary": false
+      },
+      {
+        "surface": "DEPO-NET",
+        "reading": "デポネット",
+        "source": "Wikipedia-ja",
+        "evidence": "「DEPO-NET」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=100745732",
+        "in_glossary": false
+      },
+      {
+        "surface": "Steamroller",
+        "reading": "スチームローラー",
+        "source": "Wikipedia-ja",
+        "evidence": "「Steamroller (マイクロアーキテクチャ)」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=103692521",
+        "in_glossary": false
+      },
+      {
+        "surface": "null modem",
+        "reading": "ヌルモデム",
+        "source": "Wikipedia-ja",
+        "evidence": "「ヌルモデム」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=107706767",
+        "in_glossary": false
+      },
+      {
+        "surface": "PandaBoard",
+        "reading": "パンダボード",
+        "source": "Wikipedia-ja",
+        "evidence": "「PandaBoard」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=79393302",
+        "in_glossary": false
+      },
+      {
+        "surface": "docomo STYLE series N-03D",
+        "reading": "ドコモスタイルシリーズエヌゼロサンディー",
+        "source": "Wikipedia-ja",
+        "evidence": "「N-03D」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=103514873",
+        "in_glossary": false
+      },
+      {
+        "surface": "multicast",
+        "reading": "マルチキャスト",
+        "source": "Wikipedia-ja",
+        "evidence": "「マルチキャスト」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=102168213",
+        "in_glossary": false
+      },
+      {
+        "surface": "MonaOS",
+        "reading": "モナ",
+        "source": "Wikidata",
+        "evidence": "Q3276752「MonaOS」日本語別名 (P31=Q1130645) https://www.wikidata.org/wiki/Q3276752",
+        "in_glossary": false
+      },
+      {
+        "surface": "SEG CLIP",
+        "reading": "セグクリップ",
+        "source": "Wikipedia-ja",
+        "evidence": "「SEG CLIP」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=104833602",
+        "in_glossary": false
+      },
+      {
+        "surface": "GALAXY Note 4",
+        "reading": "ギャラクシーノートフォー",
+        "source": "Wikipedia-ja",
+        "evidence": "「Samsung Galaxy Note 4」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=102528553",
+        "in_glossary": false
+      },
+      {
+        "surface": "Black October",
+        "reading": "ブラックオクトーバー",
+        "source": "Wikipedia-ja",
+        "evidence": "「ブラック・オクトーバー」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=111599954",
+        "in_glossary": false
+      },
+      {
+        "surface": "1chipMSX",
+        "reading": "ワンチップエムエスエックス",
+        "source": "Wikipedia-ja",
+        "evidence": "「1チップMSX」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107278173",
+        "in_glossary": false
+      },
+      {
+        "surface": "SnapCal",
+        "reading": "スナップカル",
+        "source": "Wikipedia-ja",
+        "evidence": "「Snapcal」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=111542980",
+        "in_glossary": false
+      },
+      {
+        "surface": "San Francisco",
+        "reading": "サンフランシスコ",
+        "source": "Wikipedia-ja",
+        "evidence": "「San Francisco (2014年の書体)」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107425715",
+        "in_glossary": false
+      },
+      {
+        "surface": "AVENUE",
+        "reading": "アベニュー",
+        "source": "Wikipedia-ja",
+        "evidence": "「AVENUE」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=109660991",
+        "in_glossary": false
+      },
+      {
+        "surface": "DIGITAL HiNote",
+        "reading": "デジタルハイノート",
+        "source": "Wikipedia-ja",
+        "evidence": "「DIGITAL HiNote」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=107099822",
+        "in_glossary": false
+      },
+      {
+        "surface": "TrueCrypt",
+        "reading": "トゥルークリプト",
+        "source": "Wikipedia-ja",
+        "evidence": "「TrueCrypt」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=108414322",
+        "in_glossary": false
+      },
+      {
+        "surface": "NetWare",
+        "reading": "ネットウェア",
+        "source": "Wikipedia-ja",
+        "evidence": "「NetWare」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110643620",
+        "in_glossary": false
+      },
+      {
+        "surface": "Hyperlink",
+        "reading": "ハイパーリンク",
+        "source": "Wikipedia-ja",
+        "evidence": "「ハイパーリンク」（仮名の見出しと併記） https://ja.wikipedia.org/w/index.php?oldid=111210837",
+        "in_glossary": false
+      },
+      {
+        "surface": "Ansem",
+        "reading": "アンセム",
+        "source": "Wikipedia-ja",
+        "evidence": "「Ansem」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=92380526",
+        "in_glossary": false
+      },
+      {
+        "surface": "Xperia Z Ultra",
+        "reading": "エクスペリアゼットウルトラ",
+        "source": "Wikipedia-ja",
+        "evidence": "「Xperia Z Ultra」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=109368343",
+        "in_glossary": false
+      },
+      {
+        "surface": "Red Hat Linux",
+        "reading": "レッドハットリナックス",
+        "source": "Wikipedia-ja",
+        "evidence": "「Red Hat Linux」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=110644080",
+        "in_glossary": false
+      },
+      {
+        "surface": "KYRO",
+        "reading": "カイロ",
+        "source": "Wikipedia-ja",
+        "evidence": "「KYRO」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=97128469",
+        "in_glossary": false
+      },
+      {
+        "surface": "SoftBank 831SH",
+        "reading": "ソフトバンクハチサンイチエスエイチ",
+        "source": "Wikipedia-ja",
+        "evidence": "「SoftBank 831SH」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=106946298",
+        "in_glossary": false
+      },
+      {
+        "surface": "GConf",
+        "reading": "ジーコンフ",
+        "source": "Wikipedia-ja",
+        "evidence": "「GConf」（英字の直後） https://ja.wikipedia.org/w/index.php?oldid=104601189",
+        "in_glossary": false
+      }
+    ],
+    "cross_source_duplicates": 104,
+    "output_by_source": {
+      "Wikipedia-ja": 5558,
+      "Wikidata": 323
+    },
+    "sha256": "c233383533111e322959fc643eefd517a450644f91ac082b26680e501f44aaec"
+  }
+}

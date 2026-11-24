@@ -1,0 +1,6 @@
+{
+  "train_videos": 898,
+  "eval_videos": 347,
+  "shared_videos": 345,
+  "eval_clips_from_shared_videos": 498
+}

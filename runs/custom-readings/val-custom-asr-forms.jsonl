@@ -1,0 +1,76 @@
+{"asr": "first_pass", "surface": "AWS Lambda", "forms": [{"category": "漢字や別の語", "text": "ramda", "count": 1}]}
+{"asr": "first_pass", "surface": "Airbnb", "forms": [{"category": "漢字や別の語", "text": "aib", "count": 1}, {"category": "漢字や別の語", "text": "エアウィ", "count": 1}]}
+{"asr": "first_pass", "surface": "AnimateDiff", "forms": [{"category": "慣習読みの仮名", "text": "アニメディフ", "count": 1}]}
+{"asr": "first_pass", "surface": "BEiT", "forms": [{"category": "慣習読みの仮名", "text": "ベイト", "count": 1}, {"category": "漢字や別の語", "text": "bat", "count": 1}]}
+{"asr": "first_pass", "surface": "CIDR", "forms": [{"category": "慣習読みの仮名", "text": "サイダ", "count": 2}]}
+{"asr": "first_pass", "surface": "Cloud SQL", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "漢字や別の語", "text": "クラウドシーケル", "count": 1}]}
+{"asr": "first_pass", "surface": "DDoS", "forms": [{"category": "正しい表記", "text": "ddos", "count": 1}, {"category": "漢字や別の語", "text": "dds", "count": 1}]}
+{"asr": "first_pass", "surface": "DSPy", "forms": [{"category": "正しい表記", "text": "dspy", "count": 2}]}
+{"asr": "first_pass", "surface": "E2E", "forms": [{"category": "慣習読みの仮名", "text": "エンドトゥエンド", "count": 1}]}
+{"asr": "first_pass", "surface": "Firebase Cloud Messaging", "forms": [{"category": "漢字や別の語", "text": "fcm", "count": 2}]}
+{"asr": "first_pass", "surface": "GNU", "forms": [{"category": "慣習読みの仮名", "text": "グヌ", "count": 1}]}
+{"asr": "first_pass", "surface": "Gaussian Splatting", "forms": [{"category": "慣習読みの仮名", "text": "ガウスプラッティング", "count": 1}]}
+{"asr": "first_pass", "surface": "HDD", "forms": [{"category": "慣習読みの仮名", "text": "ハードディスク", "count": 1}]}
+{"asr": "first_pass", "surface": "IAM", "forms": [{"category": "慣習読みの仮名", "text": "アイアム", "count": 1}]}
+{"asr": "first_pass", "surface": "ICLR", "forms": [{"category": "慣習読みの仮名", "text": "アイクリア", "count": 2}]}
+{"asr": "first_pass", "surface": "IJCAI", "forms": [{"category": "漢字や別の語", "text": "二次会", "count": 1}, {"category": "漢字や別の語", "text": "維持会", "count": 1}]}
+{"asr": "first_pass", "surface": "IntelliJ IDEA", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "慣習読みの仮名", "text": "インテリ", "count": 1}]}
+{"asr": "first_pass", "surface": "K8s", "forms": [{"category": "漢字や別の語", "text": "クーヴァネティス", "count": 1}]}
+{"asr": "first_pass", "surface": "Logicool", "forms": [{"category": "漢字や別の語", "text": "路地", "count": 1}]}
+{"asr": "first_pass", "surface": "MR", "forms": [{"category": "慣習読みの仮名", "text": "マージリクエスト", "count": 2}]}
+{"asr": "first_pass", "surface": "MS-COCO", "forms": [{"category": "漢字や別の語", "text": "mスコ", "count": 1}]}
+{"asr": "first_pass", "surface": "Memcached", "forms": [{"category": "漢字や別の語", "text": "memキャッシュ", "count": 1}]}
+{"asr": "first_pass", "surface": "MySQL", "forms": [{"category": "漢字や別の語", "text": "前シーケル", "count": 1}]}
+{"asr": "first_pass", "surface": "None", "forms": [{"category": "慣習読みの仮名", "text": "ノン", "count": 1}]}
+{"asr": "first_pass", "surface": "Oh My Zsh", "forms": [{"category": "漢字や別の語", "text": "omyzsel", "count": 1}, {"category": "漢字や別の語", "text": "オーマイzシェル", "count": 1}]}
+{"asr": "first_pass", "surface": "Parquet", "forms": [{"category": "慣習読みの仮名", "text": "パルケ", "count": 1}, {"category": "漢字や別の語", "text": "パル系", "count": 1}]}
+{"asr": "first_pass", "surface": "SAML", "forms": [{"category": "慣習読みの仮名", "text": "サムル", "count": 2}]}
+{"asr": "first_pass", "surface": "SELU", "forms": [{"category": "慣習読みの仮名", "text": "セル", "count": 2}, {"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "SHA", "forms": [{"category": "慣習読みの仮名", "text": "シャ", "count": 2}]}
+{"asr": "first_pass", "surface": "SQL Database", "forms": [{"category": "漢字や別の語", "text": "シーケルデータベース", "count": 1}]}
+{"asr": "first_pass", "surface": "Svelte", "forms": [{"category": "漢字や別の語", "text": "スヴェルト", "count": 1}, {"category": "慣習読みの仮名", "text": "スベルト", "count": 1}]}
+{"asr": "first_pass", "surface": "Visual Studio Code", "forms": [{"category": "漢字や別の語", "text": "vsコード", "count": 1}]}
+{"asr": "first_pass", "surface": "Vitest", "forms": [{"category": "漢字や別の語", "text": "ビテスト", "count": 1}]}
+{"asr": "first_pass", "surface": "Vue.js", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "reflog", "forms": [{"category": "慣習読みの仮名", "text": "リフログ", "count": 1}]}
+{"asr": "first_pass", "surface": "shadcn/ui", "forms": [{"category": "漢字や別の語", "text": "chadcn", "count": 1}]}
+{"asr": "first_pass", "surface": "stdin", "forms": [{"category": "慣習読みの仮名", "text": "スタディン", "count": 1}]}
+{"asr": "first_pass", "surface": "stdout", "forms": [{"category": "慣習読みの仮名", "text": "スタダウト", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "AWS Lambda", "forms": [{"category": "慣習読みの仮名", "text": "ラムダ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Airbnb", "forms": [{"category": "漢字や別の語", "text": "AirV", "count": 1}, {"category": "正しい表記", "text": "AirBnB", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "AnimateDiff", "forms": [{"category": "慣習読みの仮名", "text": "アニメディフ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "BEiT", "forms": [{"category": "漢字や別の語", "text": "レイト", "count": 1}, {"category": "慣習読みの仮名", "text": "ベイト", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "CIDR", "forms": [{"category": "慣習読みの仮名", "text": "サイダ", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "Cloud SQL", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "漢字や別の語", "text": "クラウドシーケル", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "DDoS", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "慣習読みの仮名", "text": "ディードス", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "DSPy", "forms": [{"category": "正しい表記", "text": "DSPY", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "E2E", "forms": [{"category": "漢字や別の語", "text": "エンド to エンド", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Firebase Cloud Messaging", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "漢字や別の語", "text": "F C M", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "GNU", "forms": [{"category": "慣習読みの仮名", "text": "グヌ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Gaussian Splatting", "forms": [{"category": "慣習読みの仮名", "text": "ガウスプラッティング", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "HDD", "forms": [{"category": "慣習読みの仮名", "text": "ハードディスク", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "IAM", "forms": [{"category": "漢字や別の語", "text": "I M U", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "ICLR", "forms": [{"category": "慣習読みの仮名", "text": "アイクリア", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "IJCAI", "forms": [{"category": "判定不能", "text": "", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "IntelliJ IDEA", "forms": [{"category": "判定不能", "text": "", "count": 1}, {"category": "慣習読みの仮名", "text": "インテリ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "K8s", "forms": [{"category": "漢字や別の語", "text": "Kubernetes", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Logicool", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "MR", "forms": [{"category": "慣習読みの仮名", "text": "マージリクエスト", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "MS-COCO", "forms": [{"category": "漢字や別の語", "text": "M すここ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Memcached", "forms": [{"category": "慣習読みの仮名", "text": "メムキャッシュ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "MySQL", "forms": [{"category": "漢字や別の語", "text": "マイシーケル", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "None", "forms": [{"category": "漢字や別の語", "text": "論", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Oh My Zsh", "forms": [{"category": "漢字や別の語", "text": "オーマイ z シール", "count": 1}, {"category": "漢字や別の語", "text": "Open API", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Parquet", "forms": [{"category": "慣習読みの仮名", "text": "パルケ", "count": 1}, {"category": "漢字や別の語", "text": "パル形", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "SAML", "forms": [{"category": "慣習読みの仮名", "text": "サムル", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "SELU", "forms": [{"category": "慣習読みの仮名", "text": "セル", "count": 3}]}
+{"asr": "qwen_hypothesis", "surface": "SHA", "forms": [{"category": "判定不能", "text": "", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "SQL Database", "forms": [{"category": "漢字や別の語", "text": "シーケルデータベース", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Svelte", "forms": [{"category": "慣習読みの仮名", "text": "スベルト", "count": 2}]}
+{"asr": "qwen_hypothesis", "surface": "Visual Studio Code", "forms": [{"category": "漢字や別の語", "text": "VSコード", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Vitest", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Vue.js", "forms": [{"category": "慣習読みの仮名", "text": "ビュ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "reflog", "forms": [{"category": "慣習読みの仮名", "text": "リフログ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "shadcn/ui", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "stdin", "forms": [{"category": "慣習読みの仮名", "text": "スタディン", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "stdout", "forms": [{"category": "漢字や別の語", "text": "スタート", "count": 1}]}

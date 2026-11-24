@@ -1,0 +1,11 @@
+{
+  "pid": 889600,
+  "gpu": 2,
+  "all_samples": 299,
+  "loaded_memory_threshold_mib": 10000,
+  "loaded_samples": 272,
+  "loaded_average_gpu_utilization_pct": 18.636029411764707,
+  "loaded_nonzero_samples": 110,
+  "loaded_max_gpu_utilization_pct": 100,
+  "csv": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/logs/qwen-v2-pipeline-pilot-ioopt-w16-gpu.csv"
+}

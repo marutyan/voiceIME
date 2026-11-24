@@ -1,0 +1,13 @@
+# 技術分野の型を指定し、英語ラベルと日本語ラベル・別名をまとめて取得する。
+SELECT ?item ?en ?name ?prop ?type WHERE {
+  VALUES ?type {
+    wd:Q7397 wd:Q166142 wd:Q341 wd:Q1130645 wd:Q9135 wd:Q188860 wd:Q271680
+    wd:Q620615 wd:Q6368 wd:Q1995545 wd:Q1033951 wd:Q9143 wd:Q21562092 wd:Q37045
+    wd:Q132364 wd:Q235557 wd:Q494823 wd:Q2481505 wd:Q240831 wd:Q272683 wd:Q165678
+    wd:Q5297 wd:Q176165 wd:Q3932296 wd:Q121117 wd:Q127867413 wd:Q110688486 wd:Q16338
+  }
+  ?item wdt:P31 ?type; rdfs:label ?en .
+  VALUES ?prop { rdfs:label skos:altLabel }
+  ?item ?prop ?name .
+  FILTER(LANG(?en)="en" && LANG(?name)="ja")
+}

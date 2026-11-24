@@ -1,0 +1,15 @@
+Sat Nov 21 16:15:38 JST 2026
+  PID  %CPU    RSS     ELAPSED COMM
+80852  16.3  85744 01-09:14:42 /Applications/Herdr.app/Contents/MacOS/Herdr
+  173   9.4 152208 12-00:48:38 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  301   8.1  44256 12-00:48:36 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+ 1968   6.6  29360 12-00:44:57 /Applications/RunCatNeo.app/Contents/MacOS/RunCatNeo
+23707   5.5 606912    23:52:46 claude
+  340   3.8  23392 12-00:48:35 /usr/sbin/coreaudiod
+99825   2.5 213360       00:05 /Users/marutyan/.local/bin/agy
+  150   1.7  14336 12-00:48:38 /usr/libexec/locationd
+12120   1.7  53552 11-23:58:55 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService
+24729   0.9 391440 01-16:39:47 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  270   0.9   6592 12-00:48:37 /usr/sbin/mDNSResponder
+{ 3.29 3.34 3.39 }
+total = 3072.00M  used = 1648.00M  free = 1424.00M  (encrypted)

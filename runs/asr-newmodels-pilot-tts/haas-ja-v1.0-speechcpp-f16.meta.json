@@ -1,0 +1,154 @@
+{
+  "system": "haas-ja-v1.0-speechcpp-f16",
+  "model": "haas-ja-v1.0-speechcpp-f16",
+  "backend": "speechcpp",
+  "source": "/Users/marutyan/PrivateDev/voiceIME/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-F16.gguf",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:58:51.148460+00:00",
+  "top_processes_before": [
+    "173  54.6  96304 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852   8.8  52112 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340   3.6  12896 /usr/sbin/coreaudiod",
+    "284   3.0   6352 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd",
+    "212   2.8   5840 /usr/libexec/trustd",
+    "301   2.6  47120 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "102   2.3   4640 /usr/libexec/smd",
+    "711   2.2  28496 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 82.0,
+    "load1": 2.53,
+    "swap_used_gb": 7.56146484375
+  },
+  "model_load_s": 0.5053603330161422,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 56.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 86.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 89.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 86.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 87.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 87.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 83.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 87.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 85.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 84.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 88.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 83.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 86.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 80.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 83.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 87.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 86.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 87.0,
+      "load1": 2.53,
+      "swap_used_gb": 7.56146484375
+    }
+  ],
+  "mlx_peak_memory_gb": 0.0,
+  "max_rss_gb": 0.045678592,
+  "child_max_rss_gb": 1.346486272,
+  "finished_at": "2026-11-20T09:58:53.531579+00:00",
+  "top_processes_after": [
+    "173  54.1  97056 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "340  16.5  12896 /usr/sbin/coreaudiod",
+    "80852   9.8  52688 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "89385   4.4  44608 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "1205   1.7  33264 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+    "12120   1.7  11584 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService",
+    "89420   1.1   9280 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "12577   1.0   9088 /Applications/Aqua Voice.app/Contents/Resources/resources/AquaMacOSBridge.app/Contents/MacOS/AquaMacOSBridge"
+  ]
+}

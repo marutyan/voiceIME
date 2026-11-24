@@ -1,0 +1,75 @@
+split	cap	id	term	occurrence	class	reason	evidence	rank_at_75	indexed_score_at_0	merged_exact	c_asr	c_fragment	added_by
+val	20	synth-val-000004	ASR	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-000051	SemVer	1	A	merged_absent	merged_absent	2		0			{}
+val	20	synth-val-000073	OAuth	1	C	sound_drop				0	haas	オース	"{""score60"":1,""score65"":1}"
+val	20	synth-val-000082	BiFPN	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-000124	arXiv	1	C	kanji				0	haas	悪人	{}
+val	20	synth-val-000129	timm	1	C	kana				0	haas	ティン	{}
+val	20	synth-val-000131	GELU	1	C	latin				0	haas	lu	{}
+val	20	synth-val-000165	COCO	1	C	kanji				0	qwen	高校	{}
+val	20	synth-val-000166	Sourcetree	1	C	kanji				0	haas	総和設定	{}
+val	20	synth-val-000172	SuperGLUE	1	B	not_indexed	raw_kana			0			{}
+val	20	synth-val-000209	SFTP	1	A	merged_present	merged_present	3		1			{}
+val	20	synth-val-000214	Parquet	1	C	kana				0	haas	パーケ	{}
+val	20	synth-val-000266	NATS	1	C	kana				0	haas	ネッテス	{}
+val	20	synth-val-000272	CRM	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-000293	Yarn	1	A	merged_present	merged_present	2		1			{}
+val	20	synth-val-000294	containerd	1	C	mixed				0	haas	根底nd	{}
+val	20	synth-val-000299	TFLite	1	A	merged_present	merged_present	2		1			{}
+val	20	synth-val-000311	BookCorpus	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-000324	EbSynth	1	C	kana				0	haas	イビシント	{}
+val	20	synth-val-000335	self	1	C	kanji				0	haas	政府	{}
+val	20	synth-val-000340	LoRA	1	C	kanji				0	haas	ローアの絵	{}
+val	20	synth-val-000445	ConvNeXt-Tiny	1	C	partial				0	qwen	コンブネクスティに	{}
+val	20	synth-val-000445	ViT-Base	1	C	latin				0	haas	ytベース	{}
+val	20	synth-val-000465	chown	1	C	kana				0	haas	ょんう	{}
+val	20	synth-val-000529	Byte-level BPE	1	A	merged_absent	merged_absent	4		0			{}
+val	20	synth-val-000565	MATH	1	C	kana				0	haas	マストヒューマネバール	{}
+val	20	synth-val-000636	OpenAI API	1	A	merged_absent	merged_absent	5		0			{}
+val	20	synth-val-000677	arXiv Preprint	1	C	kana				0	qwen	アーリーグプリプリント	{}
+val	20	synth-val-000713	Auth0	1	A	merged_absent	merged_absent	7		0			{}
+val	20	synth-val-000736	ASML	1	A	merged_absent	merged_absent	5		0			{}
+val	20	synth-val-000755	ConvNeXt-Tiny	1	C	partial				0	qwen	コンブネクスティニ	{}
+val	20	synth-val-000775	None	1	B	not_indexed	raw_kana			0			"{""reading0"":1,""reading1"":1}"
+val	20	synth-val-000830	state_dict	1	A	merged_absent	merged_absent	1		0			{}
+val	20	synth-val-000836	NAS	1	A	merged_absent	merged_absent	1		0			{}
+val	20	synth-val-000852	Koa	1	C	kana				0	haas	こう	{}
+val	20	synth-val-000869	CVE	1	C	latin				0	haas	cv	{}
+val	20	synth-val-000929	SciPy	1	D	surface_variant	surface_variant	11		0			{}
+val	20	synth-val-000948	Cassandra	1	C	kanji				0	haas	河川寺	{}
+val	20	synth-val-000996	Sequelize	1	C	kana				0	haas	セキリズ	{}
+val	20	synth-val-000996	styled-components	1	C	kana				0	qwen	スタイルコポメロツ	{}
+val	20	synth-val-001076	Vitest	1	A	merged_absent	merged_absent	4		0			{}
+val	20	synth-val-001085	K8s	1	C	kanji				0	haas	検閲	{}
+val	20	synth-val-001154	RAFT	1	C	kana				0	haas	ラルエピト	{}
+val	20	synth-val-001267	pytest	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-001333	TLS	1	A	merged_absent	merged_absent	5		0			{}
+val	20	synth-val-001353	MAC	1	D	surface_variant	surface_variant	1		0			{}
+val	20	synth-val-001363	Activity	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-001400	DispNet	1	C	kana				0	qwen	ディスバレント	{}
+val	20	synth-val-001407	TUI	1	C	kanji				0	haas	周囲	{}
+val	20	synth-val-001424	M3	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-001453	ICCV	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-001459	DPM-Solver	1	C	latin				0	haas	dpmソーバー	{}
+val	20	synth-val-001465	ELK Stack	1	A	merged_absent	merged_absent	1		0			{}
+val	20	synth-val-001473	Zsh	1	D	surface_variant	surface_variant			0			{}
+val	20	synth-val-001512	Lookahead	1	C	kana				0	haas	ルクエコ	"{""score60"":1,""score65"":1}"
+val	20	synth-val-001600	macOS Sonoma	1	C	latin				0	qwen	MacOSのま	{}
+val	20	synth-val-001697	Retrofit	1	C	kana				0	haas	ルトーフィストゥ	"{""score60"":1,""score65"":1,""score70"":1}"
+val	20	synth-val-001701	KL	1	C	sound_drop				0	haas	ケール	{}
+val	20	synth-val-001709	output_logits	1	C	kana				0	qwen	アウトロキダス	{}
+val	20	synth-val-001779	BEiT	1	C	latin				0	haas	bit	{}
+val	20	synth-val-001795	Annoy	1	C	kanji				0	qwen	あの意	"{""reading0"":2,""reading1"":2}"
+val	20	synth-val-001815	pyenv	1	D	surface_variant	surface_variant			0			{}
+val	20	synth-val-001823	Edge	1	C	sound_drop				0	haas	エジ	{}
+val	20	synth-val-001834	CocoaPods	1	C	kana		29		0	qwen	ここはポッツ	"{""cap48"":1,""cap64"":1}"
+val	20	synth-val-001856	Tailwind CSS	1	A	merged_absent	merged_absent	2		0			{}
+val	20	synth-val-001865	UIKit	1	C	kana				0	haas	キューイティ	{}
+val	20	synth-val-001879	GitHub Copilot	1	A	merged_present	merged_present	5		1			{}
+val	20	synth-val-001885	GraphQL	1	A	merged_absent	merged_absent	2		0			{}
+val	20	synth-val-001887	PaLM	1	C	kana				0	qwen	パエルム	{}
+val	20	synth-val-001891	CER	1	C	latin				0	haas	cr	{}
+val	20	synth-val-001962	SELU	1	C	latin				0	haas	ser	{}
+val	20	synth-val-001966	Rust	1	A	merged_present	merged_present	1		1			{}
+val	20	synth-val-001971	Hits@K	1	C	kanji				0	haas	筆頭計	{}
+val	20	synth-val-001974	GNU	1	C	kana				0	haas	ジューヌー	{}

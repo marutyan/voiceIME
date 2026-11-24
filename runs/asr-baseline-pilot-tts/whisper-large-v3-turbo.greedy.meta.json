@@ -1,0 +1,153 @@
+{
+  "system": "whisper-large-v3-turbo.greedy",
+  "model": "whisper-large-v3-turbo",
+  "backend": "mlx-whisper",
+  "source": "mlx-community/whisper-large-v3-turbo",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "f54481b68dd9698159a154cf49e67b223a89fe1e",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:20:27.899115+00:00",
+  "top_processes_before": [
+    "173  51.9 155184 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "23707  31.5 611952 claude",
+    "80852  24.6 112096 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "18300   7.5 562864 claude",
+    "340   6.3  40000 /usr/sbin/coreaudiod",
+    "53919   5.5  26368 uv",
+    "86643   3.7  52128 /Applications/Muse.app/Contents/MacOS/Muse",
+    "53928   3.5  30320 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 63.0,
+    "load1": 2.7,
+    "swap_used_gb": 5.682431640625
+  },
+  "model_load_s": 1.4795913329580799,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 82.0,
+      "load1": 2.7,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 99.0,
+      "load1": 2.7,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 98.0,
+      "load1": 2.7,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 99.0,
+      "load1": 2.7,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 98.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 98.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 99.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 99.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 98.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 99.0,
+      "load1": 2.48,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 99.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 98.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 98.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 99.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 99.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 99.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 99.0,
+      "load1": 2.52,
+      "swap_used_gb": 5.682431640625
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 99.0,
+      "load1": 2.4,
+      "swap_used_gb": 5.682431640625
+    }
+  ],
+  "mlx_peak_memory_gb": 2.457348906,
+  "max_rss_gb": 1.836023808,
+  "finished_at": "2026-11-20T09:20:44.101742+00:00",
+  "top_processes_after": [
+    "142  58.7   7360 /usr/libexec/opendirectoryd",
+    "173  48.0 136000 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "49429  17.4  15520 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd",
+    "80852  15.5 102448 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "53928  13.7 1748288 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "54293  12.1  39632 chezmoi",
+    "23707   6.5 577760 claude",
+    "284   4.2   6736 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ]
+}

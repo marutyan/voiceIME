@@ -1,0 +1,153 @@
+{
+  "system": "granite-speech-5.0-2b",
+  "model": "granite-speech-5.0-2b",
+  "backend": "mlx-audio-llm",
+  "source": "ibm-granite/granite-speech-5.0-2b",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T10:00:52.330182+00:00",
+  "top_processes_before": [
+    "173  55.4 102544 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "91030  15.0  30672 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "46169  10.5 334864 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "80852  10.1  52464 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "91027   3.6  26320 uv",
+    "212   3.4   6704 /usr/libexec/trustd",
+    "102   2.9   4752 /usr/libexec/smd",
+    "284   2.9   6592 /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 91.0,
+    "load1": 2.77,
+    "swap_used_gb": 7.37396484375
+  },
+  "model_load_s": 2.769132624962367,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 82.0,
+      "load1": 3.03,
+      "swap_used_gb": 7.35833984375
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 99.0,
+      "load1": 3.03,
+      "swap_used_gb": 7.35833984375
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 98.0,
+      "load1": 3.03,
+      "swap_used_gb": 7.35833984375
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 99.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.35052734375
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 98.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.31927734375
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 98.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.31927734375
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 98.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.31927734375
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 98.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.31927734375
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 99.0,
+      "load1": 3.1,
+      "swap_used_gb": 7.31927734375
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 99.0,
+      "load1": 3.1,
+      "swap_used_gb": 6.885009765625
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 98.0,
+      "load1": 3.1,
+      "swap_used_gb": 6.27240234375
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 98.0,
+      "load1": 3.17,
+      "swap_used_gb": 6.2724609375
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 99.0,
+      "load1": 3.17,
+      "swap_used_gb": 6.2724609375
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 97.0,
+      "load1": 3.17,
+      "swap_used_gb": 6.2724609375
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 98.0,
+      "load1": 3.17,
+      "swap_used_gb": 6.2724609375
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 99.0,
+      "load1": 3.23,
+      "swap_used_gb": 6.2646484375
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 99.0,
+      "load1": 3.23,
+      "swap_used_gb": 6.2646484375
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 98.0,
+      "load1": 3.23,
+      "swap_used_gb": 6.2646484375
+    }
+  ],
+  "mlx_peak_memory_gb": 6.725708936,
+  "max_rss_gb": 4.227989504,
+  "finished_at": "2026-11-20T10:01:20.166774+00:00",
+  "top_processes_after": [
+    "173  61.1 105392 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "91030  20.3 1560864 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852  13.9  51632 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "46169  11.5 331328 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "340   3.2  28688 /usr/sbin/coreaudiod",
+    "24746   2.6  58512 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)",
+    "711   2.5  30496 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+    "1   2.4  17024 /sbin/launchd"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "system": "qwen3-asr-0.6b-bf16",
+  "model": "qwen3-asr-0.6b-bf16",
+  "backend": "mlx-audio-llm",
+  "source": "mlx-community/Qwen3-ASR-0.6B-bf16",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:59:01.923131+00:00",
+  "top_processes_before": [
+    "173  54.4 100000 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852   8.6  52768 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "438   7.8 121520 /Applications/Notion Calendar.app/Contents/Frameworks/Notion Calendar Helper (Renderer).app/Contents/MacOS/Notion Calendar Helper (Renderer)",
+    "1968   6.7  22560 /Applications/RunCatNeo.app/Contents/MacOS/RunCatNeo",
+    "46169   5.6 332912 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "340   5.0  12896 /usr/sbin/coreaudiod",
+    "425   4.8  64320 /Applications/Notion Calendar.app/Contents/MacOS/Notion Calendar",
+    "301   2.3  47120 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 68.0,
+    "load1": 2.61,
+    "swap_used_gb": 7.55365234375
+  },
+  "model_load_s": 2.38394120906014,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 68.0,
+      "load1": 2.61,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 96.0,
+      "load1": 2.61,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.55365234375
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.54583984375
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.54583984375
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.54583984375
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.53802734375
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.50677734375
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.49115234375
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 95.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.48333984375
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 94.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.47552734375
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 96.0,
+      "load1": 2.56,
+      "swap_used_gb": 7.47552734375
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 95.0,
+      "load1": 2.67,
+      "swap_used_gb": 7.47552734375
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 96.0,
+      "load1": 2.67,
+      "swap_used_gb": 7.47552734375
+    }
+  ],
+  "mlx_peak_memory_gb": 2.386296004,
+  "max_rss_gb": 1.908424704,
+  "finished_at": "2026-11-20T09:59:11.078067+00:00",
+  "top_processes_after": [
+    "173  56.3 101488 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "89768  32.0 1862880 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852   8.2  52864 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340   3.2  12896 /usr/sbin/coreaudiod",
+    "711   2.9  28496 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+    "1960   2.0  27008 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logioptionsplus_agent",
+    "145   1.8   7520 /System/Library/CoreServices/launchservicesd",
+    "12120   1.7  11600 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService"
+  ]
+}

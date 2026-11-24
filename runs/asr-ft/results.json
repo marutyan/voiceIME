@@ -1,0 +1,935 @@
+{
+  "base": {
+    "asr": {
+      "val": {
+        "cer": {
+          "edit_errors": 8352,
+          "substitutions": 4816,
+          "insertions": 429,
+          "deletions": 3107,
+          "reference_characters": 59343,
+          "rate": 0.14074111521156665
+        },
+        "terms": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 223,
+          "exact_surface_accuracy": 0.15627189908899788,
+          "normalized_surface_instances": 457,
+          "normalized_surface_accuracy": 0.32025227750525576,
+          "rows_with_any_exact_term": 192,
+          "rows_with_any_normalized_term": 365,
+          "rows": 1000
+        }
+      },
+      "test-novel": {
+        "cer": {
+          "edit_errors": 4613,
+          "substitutions": 2713,
+          "insertions": 222,
+          "deletions": 1678,
+          "reference_characters": 31167,
+          "rate": 0.14800911220200855
+        },
+        "terms": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 31,
+          "exact_surface_accuracy": 0.062,
+          "normalized_surface_instances": 73,
+          "normalized_surface_accuracy": 0.146,
+          "rows_with_any_exact_term": 31,
+          "rows_with_any_normalized_term": 73,
+          "rows": 500
+        }
+      },
+      "real-eval": {
+        "rows": 500,
+        "cer": {
+          "edit_errors": 2085,
+          "substitutions": 1151,
+          "insertions": 541,
+          "deletions": 393,
+          "reference_characters": 14839,
+          "rate": 0.1405081204932947
+        }
+      },
+      "pub-eval": {
+        "rows": 300,
+        "cer": {
+          "edit_errors": 5251,
+          "substitutions": 1365,
+          "insertions": 1107,
+          "deletions": 2779,
+          "reference_characters": 10392,
+          "rate": 0.505292532717475
+        }
+      }
+    },
+    "pipeline": {
+      "val": {
+        "20": {
+          "rows": 1000,
+          "terms_listed": 1306,
+          "terms_correct": 1354,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1234,
+            "substitutions": 261,
+            "insertions": 549,
+            "deletions": 424,
+            "reference_characters": 47431,
+            "rate": 0.026016740106681285
+          }
+        },
+        "32": {
+          "rows": 1000,
+          "terms_listed": 1309,
+          "terms_correct": 1352,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1258,
+            "substitutions": 265,
+            "insertions": 586,
+            "deletions": 407,
+            "reference_characters": 47431,
+            "rate": 0.026522738293521114
+          }
+        },
+        "48": {
+          "rows": 1000,
+          "terms_listed": 1309,
+          "terms_correct": 1351,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1285,
+            "substitutions": 271,
+            "insertions": 573,
+            "deletions": 441,
+            "reference_characters": 47431,
+            "rate": 0.027091986253715925
+          }
+        }
+      },
+      "test-novel": {
+        "20": {
+          "rows": 500,
+          "terms_listed": 369,
+          "terms_correct": 379,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 1045,
+            "substitutions": 351,
+            "insertions": 258,
+            "deletions": 436,
+            "reference_characters": 25921,
+            "rate": 0.04031480266965009
+          }
+        },
+        "32": {
+          "rows": 500,
+          "terms_listed": 414,
+          "terms_correct": 404,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 932,
+            "substitutions": 296,
+            "insertions": 241,
+            "deletions": 395,
+            "reference_characters": 25921,
+            "rate": 0.0359554029551329
+          }
+        },
+        "48": {
+          "rows": 500,
+          "terms_listed": 429,
+          "terms_correct": 413,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 874,
+            "substitutions": 248,
+            "insertions": 242,
+            "deletions": 384,
+            "reference_characters": 25921,
+            "rate": 0.03371783496007098
+          }
+        }
+      }
+    },
+    "haas": {
+      "val": {
+        "rows": 1000,
+        "rerun": 49,
+        "reused": 951,
+        "changed_merge": 3,
+        "original_hint_matches": 1000,
+        "original_merge_matches": 1000
+      },
+      "test-novel": {
+        "rows": 500,
+        "rerun": 4,
+        "reused": 496,
+        "changed_merge": 0,
+        "original_hint_matches": 500,
+        "original_merge_matches": 500
+      }
+    },
+    "eval_job": {
+      "state": "done",
+      "gpu": "3",
+      "rc": "0",
+      "seconds": "461",
+      "mean_util": "17.2",
+      "samples": "16"
+    }
+  },
+  "a": {
+    "asr": {
+      "val": {
+        "cer": {
+          "edit_errors": 3302,
+          "substitutions": 2215,
+          "insertions": 666,
+          "deletions": 421,
+          "reference_characters": 59343,
+          "rate": 0.055642620022580594
+        },
+        "terms": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 1117,
+          "exact_surface_accuracy": 0.782761037140855,
+          "normalized_surface_instances": 1207,
+          "normalized_surface_accuracy": 0.8458304134548003,
+          "rows_with_any_exact_term": 728,
+          "rows_with_any_normalized_term": 764,
+          "rows": 1000
+        }
+      },
+      "test-novel": {
+        "cer": {
+          "edit_errors": 3137,
+          "substitutions": 2248,
+          "insertions": 517,
+          "deletions": 372,
+          "reference_characters": 31167,
+          "rate": 0.1006513299323002
+        },
+        "terms": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 241,
+          "exact_surface_accuracy": 0.482,
+          "normalized_surface_instances": 328,
+          "normalized_surface_accuracy": 0.656,
+          "rows_with_any_exact_term": 241,
+          "rows_with_any_normalized_term": 328,
+          "rows": 500
+        }
+      },
+      "real-eval": {
+        "rows": 500,
+        "cer": {
+          "edit_errors": 1712,
+          "substitutions": 860,
+          "insertions": 429,
+          "deletions": 423,
+          "reference_characters": 14839,
+          "rate": 0.11537165577195228
+        }
+      },
+      "pub-eval": {
+        "rows": 300,
+        "cer": {
+          "edit_errors": 4998,
+          "substitutions": 1333,
+          "insertions": 945,
+          "deletions": 2720,
+          "reference_characters": 10392,
+          "rate": 0.4809468822170901
+        }
+      }
+    },
+    "pipeline": {
+      "val": {
+        "20": {
+          "rows": 1000,
+          "terms_listed": 1377,
+          "terms_correct": 1360,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1201,
+            "substitutions": 195,
+            "insertions": 564,
+            "deletions": 442,
+            "reference_characters": 47431,
+            "rate": 0.025320992599776517
+          }
+        },
+        "32": {
+          "rows": 1000,
+          "terms_listed": 1377,
+          "terms_correct": 1359,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1239,
+            "substitutions": 216,
+            "insertions": 572,
+            "deletions": 451,
+            "reference_characters": 47431,
+            "rate": 0.02612215639560625
+          }
+        },
+        "48": {
+          "rows": 1000,
+          "terms_listed": 1377,
+          "terms_correct": 1355,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1282,
+            "substitutions": 232,
+            "insertions": 590,
+            "deletions": 460,
+            "reference_characters": 47431,
+            "rate": 0.027028736480360947
+          }
+        }
+      },
+      "test-novel": {
+        "20": {
+          "rows": 500,
+          "terms_listed": 436,
+          "terms_correct": 419,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 864,
+            "substitutions": 240,
+            "insertions": 250,
+            "deletions": 374,
+            "reference_characters": 25921,
+            "rate": 0.033332047374715484
+          }
+        },
+        "32": {
+          "rows": 500,
+          "terms_listed": 464,
+          "terms_correct": 427,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 823,
+            "substitutions": 224,
+            "insertions": 225,
+            "deletions": 374,
+            "reference_characters": 25921,
+            "rate": 0.03175031827475792
+          }
+        },
+        "48": {
+          "rows": 500,
+          "terms_listed": 470,
+          "terms_correct": 427,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 842,
+            "substitutions": 235,
+            "insertions": 230,
+            "deletions": 377,
+            "reference_characters": 25921,
+            "rate": 0.03248331468693338
+          }
+        }
+      }
+    },
+    "haas": {
+      "val": {
+        "rows": 1000,
+        "rerun": 765,
+        "reused": 235,
+        "changed_merge": 53,
+        "original_hint_matches": 1000,
+        "original_merge_matches": 1000
+      },
+      "test-novel": {
+        "rows": 500,
+        "rerun": 437,
+        "reused": 63,
+        "changed_merge": 57,
+        "original_hint_matches": 500,
+        "original_merge_matches": 500
+      }
+    },
+    "eval_job": {
+      "state": "done",
+      "gpu": "3",
+      "rc": "0",
+      "seconds": "491",
+      "mean_util": "29.2",
+      "samples": "17"
+    },
+    "train_job": {
+      "state": "done",
+      "gpu": "1",
+      "rc": "0",
+      "seconds": "2806",
+      "mean_util": "56.5",
+      "samples": "94"
+    },
+    "train_summary": {
+      "steps": 559,
+      "epoch": 1.0,
+      "metrics": {
+        "epoch": 1.0,
+        "step": 559,
+        "total_flos": 9.386992153873613e+16,
+        "train_loss": 0.1759638726604646,
+        "train_runtime": 2785.2132,
+        "train_samples_per_second": 25.66,
+        "train_steps_per_second": 0.201
+      }
+    },
+    "loss": {
+      "evaluations": [
+        {
+          "step": 200,
+          "loss": 0.1195390373468399
+        },
+        {
+          "step": 400,
+          "loss": 0.0975680723786354
+        },
+        {
+          "step": 559,
+          "loss": 0.09214828163385391
+        }
+      ],
+      "best": {
+        "step": 559,
+        "loss": 0.09214828163385391
+      }
+    },
+    "checkpoints": {
+      "best": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "c84b7213b19130a013557af539cd3d059e5d4f81265edb73f7f8071b45dd80cd"
+          }
+        }
+      },
+      "final": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "c84b7213b19130a013557af539cd3d059e5d4f81265edb73f7f8071b45dd80cd"
+          }
+        }
+      }
+    }
+  },
+  "b": {
+    "asr": {
+      "val": {
+        "cer": {
+          "edit_errors": 2238,
+          "substitutions": 1463,
+          "insertions": 469,
+          "deletions": 306,
+          "reference_characters": 59343,
+          "rate": 0.037712956877812044
+        },
+        "terms": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 1257,
+          "exact_surface_accuracy": 0.8808689558514365,
+          "normalized_surface_instances": 1285,
+          "normalized_surface_accuracy": 0.900490539593553,
+          "rows_with_any_exact_term": 794,
+          "rows_with_any_normalized_term": 806,
+          "rows": 1000
+        }
+      },
+      "test-novel": {
+        "cer": {
+          "edit_errors": 3133,
+          "substitutions": 2220,
+          "insertions": 511,
+          "deletions": 402,
+          "reference_characters": 31167,
+          "rate": 0.10052298905894054
+        },
+        "terms": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 206,
+          "exact_surface_accuracy": 0.412,
+          "normalized_surface_instances": 274,
+          "normalized_surface_accuracy": 0.548,
+          "rows_with_any_exact_term": 206,
+          "rows_with_any_normalized_term": 274,
+          "rows": 500
+        }
+      },
+      "real-eval": {
+        "rows": 500,
+        "cer": {
+          "edit_errors": 1711,
+          "substitutions": 911,
+          "insertions": 367,
+          "deletions": 433,
+          "reference_characters": 14839,
+          "rate": 0.11530426578610418
+        }
+      },
+      "pub-eval": {
+        "rows": 300,
+        "cer": {
+          "edit_errors": 5084,
+          "substitutions": 1393,
+          "insertions": 866,
+          "deletions": 2825,
+          "reference_characters": 10392,
+          "rate": 0.48922247882986913
+        }
+      }
+    },
+    "pipeline": {
+      "val": {
+        "20": {
+          "rows": 1000,
+          "terms_listed": 1398,
+          "terms_correct": 1375,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1210,
+            "substitutions": 194,
+            "insertions": 575,
+            "deletions": 441,
+            "reference_characters": 47431,
+            "rate": 0.025510741919841453
+          }
+        },
+        "32": {
+          "rows": 1000,
+          "terms_listed": 1398,
+          "terms_correct": 1373,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1220,
+            "substitutions": 199,
+            "insertions": 573,
+            "deletions": 448,
+            "reference_characters": 47431,
+            "rate": 0.02572157449769138
+          }
+        },
+        "48": {
+          "rows": 1000,
+          "terms_listed": 1398,
+          "terms_correct": 1367,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1272,
+            "substitutions": 238,
+            "insertions": 580,
+            "deletions": 454,
+            "reference_characters": 47431,
+            "rate": 0.026817903902511014
+          }
+        }
+      },
+      "test-novel": {
+        "20": {
+          "rows": 500,
+          "terms_listed": 427,
+          "terms_correct": 395,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 932,
+            "substitutions": 254,
+            "insertions": 259,
+            "deletions": 419,
+            "reference_characters": 25921,
+            "rate": 0.0359554029551329
+          }
+        },
+        "32": {
+          "rows": 500,
+          "terms_listed": 459,
+          "terms_correct": 410,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 879,
+            "substitutions": 219,
+            "insertions": 266,
+            "deletions": 394,
+            "reference_characters": 25921,
+            "rate": 0.03391072875274874
+          }
+        },
+        "48": {
+          "rows": 500,
+          "terms_listed": 464,
+          "terms_correct": 410,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 866,
+            "substitutions": 210,
+            "insertions": 266,
+            "deletions": 390,
+            "reference_characters": 25921,
+            "rate": 0.03340920489178658
+          }
+        }
+      }
+    },
+    "haas": {
+      "val": {
+        "rows": 1000,
+        "rerun": 773,
+        "reused": 227,
+        "changed_merge": 53,
+        "original_hint_matches": 1000,
+        "original_merge_matches": 1000
+      },
+      "test-novel": {
+        "rows": 500,
+        "rerun": 438,
+        "reused": 62,
+        "changed_merge": 58,
+        "original_hint_matches": 500,
+        "original_merge_matches": 500
+      }
+    },
+    "eval_job": {
+      "state": "done",
+      "gpu": "2",
+      "rc": "0",
+      "seconds": "1502",
+      "mean_util": "15.8",
+      "samples": "50"
+    },
+    "train_job": {
+      "state": "done",
+      "gpu": "2",
+      "rc": "0",
+      "seconds": "5158",
+      "mean_util": "66.5",
+      "samples": "171"
+    },
+    "train_summary": {
+      "steps": 1118,
+      "epoch": 2.0,
+      "metrics": {
+        "epoch": 2.0,
+        "step": 1118,
+        "total_flos": 1.8786004661541274e+17,
+        "train_loss": 0.13758996171686858,
+        "train_runtime": 5137.8905,
+        "train_samples_per_second": 27.82,
+        "train_steps_per_second": 0.218
+      }
+    },
+    "loss": {
+      "evaluations": [
+        {
+          "step": 200,
+          "loss": 0.12968310713768005
+        },
+        {
+          "step": 400,
+          "loss": 0.09637077152729034
+        },
+        {
+          "step": 559,
+          "loss": 0.0915793851017952
+        },
+        {
+          "step": 600,
+          "loss": 0.09531953185796738
+        },
+        {
+          "step": 800,
+          "loss": 0.08424904942512512
+        },
+        {
+          "step": 1000,
+          "loss": 0.0727350190281868
+        },
+        {
+          "step": 1118,
+          "loss": 0.0724770724773407
+        }
+      ],
+      "best": {
+        "step": 1118,
+        "loss": 0.0724770724773407
+      }
+    },
+    "checkpoints": {
+      "best": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "c7dd20dbdf4bcd4c507db842da035a8f2baa5c86f1aeb6a9e1995f69a3fda3ed"
+          }
+        }
+      },
+      "final": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "c7dd20dbdf4bcd4c507db842da035a8f2baa5c86f1aeb6a9e1995f69a3fda3ed"
+          }
+        }
+      }
+    }
+  },
+  "c": {
+    "asr": {
+      "val": {
+        "cer": {
+          "edit_errors": 3195,
+          "substitutions": 2141,
+          "insertions": 628,
+          "deletions": 426,
+          "reference_characters": 59343,
+          "rate": 0.053839542995804054
+        },
+        "terms": {
+          "target_term_instances": 1427,
+          "exact_surface_instances": 1147,
+          "exact_surface_accuracy": 0.8037841625788367,
+          "normalized_surface_instances": 1217,
+          "normalized_surface_accuracy": 0.8528381219341276,
+          "rows_with_any_exact_term": 739,
+          "rows_with_any_normalized_term": 770,
+          "rows": 1000
+        }
+      },
+      "test-novel": {
+        "cer": {
+          "edit_errors": 3064,
+          "substitutions": 2218,
+          "insertions": 482,
+          "deletions": 364,
+          "reference_characters": 31167,
+          "rate": 0.0983091089934867
+        },
+        "terms": {
+          "target_term_instances": 500,
+          "exact_surface_instances": 241,
+          "exact_surface_accuracy": 0.482,
+          "normalized_surface_instances": 329,
+          "normalized_surface_accuracy": 0.658,
+          "rows_with_any_exact_term": 241,
+          "rows_with_any_normalized_term": 329,
+          "rows": 500
+        }
+      },
+      "real-eval": {
+        "rows": 500,
+        "cer": {
+          "edit_errors": 3641,
+          "substitutions": 2030,
+          "insertions": 1043,
+          "deletions": 568,
+          "reference_characters": 14839,
+          "rate": 0.2453669384729429
+        }
+      },
+      "pub-eval": {
+        "rows": 300,
+        "cer": {
+          "edit_errors": 6007,
+          "substitutions": 1509,
+          "insertions": 1383,
+          "deletions": 3115,
+          "reference_characters": 10392,
+          "rate": 0.5780408006158584
+        }
+      }
+    },
+    "pipeline": {
+      "val": {
+        "20": {
+          "rows": 1000,
+          "terms_listed": 1379,
+          "terms_correct": 1361,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1238,
+            "substitutions": 220,
+            "insertions": 583,
+            "deletions": 435,
+            "reference_characters": 47431,
+            "rate": 0.026101073137821257
+          }
+        },
+        "32": {
+          "rows": 1000,
+          "terms_listed": 1379,
+          "terms_correct": 1359,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1254,
+            "substitutions": 235,
+            "insertions": 576,
+            "deletions": 443,
+            "reference_characters": 47431,
+            "rate": 0.026438405262381143
+          }
+        },
+        "48": {
+          "rows": 1000,
+          "terms_listed": 1379,
+          "terms_correct": 1353,
+          "terms_total": 1427,
+          "cer": {
+            "edit_errors": 1290,
+            "substitutions": 246,
+            "insertions": 594,
+            "deletions": 450,
+            "reference_characters": 47431,
+            "rate": 0.02719740254264089
+          }
+        }
+      },
+      "test-novel": {
+        "20": {
+          "rows": 500,
+          "terms_listed": 441,
+          "terms_correct": 421,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 840,
+            "substitutions": 207,
+            "insertions": 253,
+            "deletions": 380,
+            "reference_characters": 25921,
+            "rate": 0.032406157169862275
+          }
+        },
+        "32": {
+          "rows": 500,
+          "terms_listed": 467,
+          "terms_correct": 432,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 902,
+            "substitutions": 227,
+            "insertions": 308,
+            "deletions": 367,
+            "reference_characters": 25921,
+            "rate": 0.03479804019906639
+          }
+        },
+        "48": {
+          "rows": 500,
+          "terms_listed": 474,
+          "terms_correct": 431,
+          "terms_total": 500,
+          "cer": {
+            "edit_errors": 788,
+            "substitutions": 196,
+            "insertions": 230,
+            "deletions": 362,
+            "reference_characters": 25921,
+            "rate": 0.030400061726013658
+          }
+        }
+      }
+    },
+    "haas": {
+      "val": {
+        "rows": 1000,
+        "rerun": 768,
+        "reused": 232,
+        "changed_merge": 55,
+        "original_hint_matches": 1000,
+        "original_merge_matches": 1000
+      },
+      "test-novel": {
+        "rows": 500,
+        "rerun": 445,
+        "reused": 55,
+        "changed_merge": 62,
+        "original_hint_matches": 500,
+        "original_merge_matches": 500
+      }
+    },
+    "eval_job": {
+      "state": "done",
+      "gpu": "3",
+      "rc": "0",
+      "seconds": "478",
+      "mean_util": "23.6",
+      "samples": "16"
+    },
+    "train_job": {
+      "state": "done",
+      "gpu": "3",
+      "rc": "0",
+      "seconds": "2249",
+      "mean_util": "60.6",
+      "samples": "75"
+    },
+    "train_summary": {
+      "steps": 445,
+      "epoch": 1.0,
+      "metrics": {
+        "epoch": 1.0,
+        "step": 445,
+        "total_flos": 7.752565166196326e+16,
+        "train_loss": 0.11328877016399684,
+        "train_runtime": 2229.7887,
+        "train_samples_per_second": 25.542,
+        "train_steps_per_second": 0.2
+      }
+    },
+    "loss": {
+      "evaluations": [
+        {
+          "step": 200,
+          "loss": 0.10671787708997726
+        },
+        {
+          "step": 400,
+          "loss": 0.09448029845952988
+        },
+        {
+          "step": 445,
+          "loss": 0.09023379534482956
+        }
+      ],
+      "best": {
+        "step": 445,
+        "loss": 0.09023379534482956
+      }
+    },
+    "checkpoints": {
+      "best": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "5a3903eae39166d344f3703cda4645fa92f10bd6c1dff90fa29113306f8b424a"
+          }
+        }
+      },
+      "final": {
+        "elements": 782426112,
+        "nonfinite": 0,
+        "files": {
+          "model.safetensors": {
+            "bytes": 3129778392,
+            "sha256": "5a3903eae39166d344f3703cda4645fa92f10bd6c1dff90fa29113306f8b424a"
+          }
+        }
+      }
+    }
+  }
+}

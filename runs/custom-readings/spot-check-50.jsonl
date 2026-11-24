@@ -1,0 +1,50 @@
+{"surface": "Visual Studio Code", "readings": ["ブイエスコード"], "homophones": {"ブイエスコード": ["VS Code"]}}
+{"surface": "atan", "readings": ["アタン"]}
+{"surface": "AWS Direct Connect Gateway", "readings": ["ダイレクトコネクト"], "homophones": {"ダイレクトコネクト": ["AWS Direct Connect", "Direct Connect"]}}
+{"surface": "Profile Guided Optimization", "readings": ["ピージーオー"], "homophones": {"ピージーオー": ["PGO"]}}
+{"surface": "process.stdin", "readings": ["ステディン"]}
+{"surface": "jax.jit", "readings": ["ジット"], "homophones": {"ジット": ["JIT", "torch.jit"]}}
+{"surface": "Zope SQLAlchemy", "readings": ["シークェルアルケミー", "ゾープ"], "homophones": {"ゾープ": ["Zope"]}}
+{"surface": "Route 53", "readings": ["ルートゴーサン"], "homophones": {"ルートゴーサン": ["Amazon Route 53"]}}
+{"surface": "git fetch", "readings": ["フェッチ"]}
+{"surface": "Top of Rack", "readings": ["トール"]}
+{"surface": "yo", "readings": ["ヨー"]}
+{"surface": "Multi-armed Bandit", "readings": ["エムエービー"], "homophones": {"エムエービー": ["MAB"]}}
+{"surface": "nullptr", "readings": ["ヌルポ"], "homophones": {"ヌルポ": ["NullPointerException"]}}
+{"surface": "Fast Fourier Transform", "readings": ["エフエフティー"], "homophones": {"エフエフティー": ["FFT"]}}
+{"surface": "Qwen-Image", "readings": ["クウェン"], "homophones": {"クウェン": ["Qwen", "Qwen 2.5", "Qwen 2.5 VL", "Qwen 3", "Qwen 3.5", "Qwen 3.6", "Qwen ASR", "Qwen Agent", "Qwen-Audio", "Qwen-Code", "Qwen-MoE", "Qwen-VL", "Qwen2-Audio", "Qwen2-Math", "Qwen2-VL", "Qwen2.5-Coder", "Qwen2.5-Omni", "Qwen3-ASR", "Qwen3-VL"]}}
+{"surface": "Fast Gradient Sign Method", "readings": ["エフジーエスエム"], "homophones": {"エフジーエスエム": ["FGSM"]}}
+{"surface": "Cloud Pub/Sub", "readings": ["パブサブ"], "homophones": {"パブサブ": ["Pub/Sub"]}}
+{"surface": "Path.mkdir", "readings": ["エムケーディール"]}
+{"surface": "sktime", "readings": ["スケイタイム"]}
+{"surface": "GFLOPs", "readings": ["フロップス"], "homophones": {"フロップス": ["FLOPS"]}}
+{"surface": "SHA", "readings": ["シャー"]}
+{"surface": "Cloudflare WARP", "readings": ["ワープ"]}
+{"surface": "Automatic1111", "readings": ["アトイチ"]}
+{"surface": "SSH config", "readings": ["コンフィグ"], "homophones": {"コンフィグ": ["@Configuration", "Config"]}}
+{"surface": "fp-ts", "readings": ["エフピーティーエス"]}
+{"surface": "tf.nn", "readings": ["エヌエヌ"], "homophones": {"エヌエヌ": ["torch.nn"]}}
+{"surface": "CodeLlama 34B", "readings": ["コードラマ"], "homophones": {"コードラマ": ["Code Llama", "CodeLlama 13B", "CodeLlama 70B", "CodeLlama 7B"]}}
+{"surface": "The Composable Architecture", "readings": ["ティーシーエー"], "homophones": {"ティーシーエー": ["TCA"]}}
+{"surface": "dest", "readings": ["デスティネーション"]}
+{"surface": "SNOMED CT", "readings": ["スノメッド"]}
+{"surface": "Markov Chain Monte Carlo", "readings": ["エムシーエムシー"], "homophones": {"エムシーエムシー": ["MCMC"]}}
+{"surface": "sys.stderr", "readings": ["シスステダー"]}
+{"surface": "eslint-plugin-jsdoc", "readings": ["ジェイエスドック"], "homophones": {"ジェイエスドック": ["JSDoc"]}}
+{"surface": "riscv-none-elf", "readings": ["リスクブイ"]}
+{"surface": "Progressive GAN", "readings": ["プログガン"], "homophones": {"プログガン": ["ProgGAN"]}}
+{"surface": "Amazon Redshift", "readings": ["レッドシフト"], "homophones": {"レッドシフト": ["Redshift"]}}
+{"surface": "stunnel", "readings": ["スタネル"]}
+{"surface": "@Component", "readings": ["コンポーネント"]}
+{"surface": "ChromaDB", "readings": ["クロマ"], "homophones": {"クロマ": ["Chroma"]}}
+{"surface": "XLM-RoBERTa", "readings": ["ロベルタ"], "homophones": {"ロベルタ": ["RoBERTa"]}}
+{"surface": "1080p", "readings": ["フルエイチディー"]}
+{"surface": "logrotate", "readings": ["ログローテ"]}
+{"surface": "SnowSQL", "readings": ["スノウスィークェル"]}
+{"surface": "PL/SQL", "readings": ["ピーエルシークェル"]}
+{"surface": "SQL Database", "readings": ["シークェルデータベース"]}
+{"surface": "Amazon Route 53", "readings": ["ルートゴーサン"], "homophones": {"ルートゴーサン": ["Route 53"]}}
+{"surface": "LGBMClassifier", "readings": ["ライトジービーエムクラシファイア"]}
+{"surface": "torch.nn", "readings": ["エヌエヌ"], "homophones": {"エヌエヌ": ["tf.nn"]}}
+{"surface": "NCCL", "readings": ["ニックル"]}
+{"surface": "Open Policy Agent", "readings": ["オーパ"]}

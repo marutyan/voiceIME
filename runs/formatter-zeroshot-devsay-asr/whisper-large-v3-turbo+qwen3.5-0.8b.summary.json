@@ -1,0 +1,28 @@
+{
+  "system": "whisper-large-v3-turbo+qwen3.5-0.8b",
+  "model": "mlx-community/Qwen3.5-0.8B-MLX-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/asr-baseline-dev-say/whisper-large-v3-turbo.jsonl",
+    "model": "mlx-community/Qwen3.5-0.8B-MLX-4bit",
+    "system": "whisper-large-v3-turbo+qwen3.5-0.8b",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-zeroshot-devsay-asr/whisper-large-v3-turbo+qwen3.5-0.8b.jsonl",
+    "glossary": null,
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 40,
+  "glossary_size": 74,
+  "load_and_warmup_s": 9.510285625001416,
+  "format_latency_median_s": 0.16407470853300765,
+  "format_latency_p90_s": 0.315651195216924,
+  "latency_median_s": 0.905757874425035,
+  "mean_glossary_entries": 2.025,
+  "generation_tps_median": 188.12854078985436,
+  "peak_memory_gb": 0.758471274,
+  "truncated": 3
+}

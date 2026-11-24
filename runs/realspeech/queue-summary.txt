@@ -1,0 +1,9 @@
+81-real-asr-00.util: gpu=1 rc=0 seconds=1200 mean_util=19.6 samples=40
+81-real-asr-01.util: gpu=1 rc=0 seconds=1577 mean_util=25.3 samples=52
+81-real-asr-02.util: gpu=1 rc=0 seconds=882 mean_util=16.9 samples=30
+81-real-asr-03.util: gpu=3 rc=0 seconds=1270 mean_util=21.6 samples=43
+81-real-pub-eval.util: gpu=2 rc=0 seconds=224 mean_util=2.5 samples=8
+82-real-rsi-eval.util: gpu=1 rc=0 seconds=97 mean_util=20.8 samples=4
+82-real-teacher.util: gpu=2 rc=0 seconds=465 mean_util=45.2 samples=16
+83-real-train.util: gpu=2 rc=0 seconds=4908 mean_util=95.7 samples=163
+84-real-eval.util: gpu=2 rc=0 seconds=105 mean_util=24.0 samples=4

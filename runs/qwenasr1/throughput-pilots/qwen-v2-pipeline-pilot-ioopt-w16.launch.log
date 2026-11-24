@@ -1,0 +1,47 @@
+run=qwen-v2-pipeline-pilot-ioopt-w16 physical_gpu=2
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[training] froze thinker.audio_tower
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_v2_ioopt.py:428: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CastFloatInputsTrainer.__init__`. Use `processing_class` instead.
+  trainer = CastFloatInputsTrainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 151645, 'pad_token_id': 151643}.
+  0%|          | 0/30 [00:00<?, ?it/s][gradient-diagnostic] {"max_grad_norm": 1.0, "nonfinite_module_counts": {}, "nonfinite_parameter_count": 0, "nonfinite_parameters": [], "optimizer_step": 1}
+  3%|▎         | 1/30 [00:45<21:50, 45.19s/it]                                                3%|▎         | 1/30 [00:45<21:50, 45.19s/it]  7%|▋         | 2/30 [01:16<17:17, 37.05s/it]                                                7%|▋         | 2/30 [01:16<17:17, 37.05s/it] 10%|█         | 3/30 [01:33<12:35, 27.99s/it]                                               10%|█         | 3/30 [01:33<12:35, 27.99s/it] 13%|█▎        | 4/30 [01:50<10:07, 23.36s/it]                                               13%|█▎        | 4/30 [01:50<10:07, 23.36s/it] 17%|█▋        | 5/30 [02:02<08:05, 19.44s/it]                                               17%|█▋        | 5/30 [02:02<08:05, 19.44s/it] 20%|██        | 6/30 [02:13<06:36, 16.51s/it]                                               20%|██        | 6/30 [02:13<06:36, 16.51s/it] 23%|██▎       | 7/30 [02:22<05:26, 14.21s/it]                                               23%|██▎       | 7/30 [02:22<05:26, 14.21s/it] 27%|██▋       | 8/30 [02:34<04:57, 13.51s/it]                                               27%|██▋       | 8/30 [02:34<04:57, 13.51s/it] 30%|███       | 9/30 [02:46<04:30, 12.86s/it]                                               30%|███       | 9/30 [02:46<04:30, 12.86s/it] 33%|███▎      | 10/30 [02:56<04:01, 12.06s/it]                                                33%|███▎      | 10/30 [02:56<04:01, 12.06s/it] 37%|███▋      | 11/30 [03:03<03:21, 10.61s/it]                                                37%|███▋      | 11/30 [03:03<03:21, 10.61s/it] 40%|████      | 12/30 [03:10<02:52,  9.56s/it]                                                40%|████      | 12/30 [03:10<02:52,  9.56s/it] 43%|████▎     | 13/30 [03:20<02:44,  9.68s/it]                                                43%|████▎     | 13/30 [03:20<02:44,  9.68s/it] 47%|████▋     | 14/30 [03:28<02:26,  9.14s/it]                                                47%|████▋     | 14/30 [03:28<02:26,  9.14s/it] 50%|█████     | 15/30 [03:33<01:58,  7.87s/it]                                                50%|█████     | 15/30 [03:33<01:58,  7.87s/it] 53%|█████▎    | 16/30 [03:43<01:58,  8.49s/it]                                                53%|█████▎    | 16/30 [03:43<01:58,  8.49s/it] 57%|█████▋    | 17/30 [03:50<01:45,  8.11s/it]                                                57%|█████▋    | 17/30 [03:50<01:45,  8.11s/it] 60%|██████    | 18/30 [03:57<01:31,  7.59s/it]                                                60%|██████    | 18/30 [03:57<01:31,  7.59s/it] 63%|██████▎   | 19/30 [04:06<01:28,  8.02s/it]                                                63%|██████▎   | 19/30 [04:06<01:28,  8.02s/it] 67%|██████▋   | 20/30 [04:11<01:11,  7.17s/it]                                                67%|██████▋   | 20/30 [04:11<01:11,  7.17s/it] 70%|███████   | 21/30 [04:19<01:05,  7.33s/it]                                                70%|███████   | 21/30 [04:19<01:05,  7.33s/it] 73%|███████▎  | 22/30 [04:26<00:57,  7.24s/it]                                                73%|███████▎  | 22/30 [04:26<00:57,  7.24s/it] 77%|███████▋  | 23/30 [04:32<00:48,  6.95s/it]                                                77%|███████▋  | 23/30 [04:32<00:48,  6.95s/it] 80%|████████  | 24/30 [04:40<00:43,  7.21s/it]                                                80%|████████  | 24/30 [04:40<00:43,  7.21s/it] 83%|████████▎ | 25/30 [04:50<00:40,  8.01s/it]                                                83%|████████▎ | 25/30 [04:50<00:40,  8.01s/it] 87%|████████▋ | 26/30 [04:56<00:30,  7.52s/it]                                                87%|████████▋ | 26/30 [04:56<00:30,  7.52s/it] 90%|█████████ | 27/30 [05:03<00:22,  7.46s/it]                                                90%|█████████ | 27/30 [05:03<00:22,  7.46s/it] 93%|█████████▎| 28/30 [05:11<00:15,  7.55s/it]                                                93%|█████████▎| 28/30 [05:11<00:15,  7.55s/it] 97%|█████████▋| 29/30 [05:18<00:07,  7.46s/it]                                                97%|█████████▋| 29/30 [05:18<00:07,  7.46s/it]100%|██████████| 30/30 [05:24<00:00,  7.03s/it]                                               100%|██████████| 30/30 [05:24<00:00,  7.03s/it]                                               100%|██████████| 30/30 [05:28<00:00,  7.03s/it]100%|██████████| 30/30 [05:28<00:00, 10.96s/it]
+{'loss': 5.5591, 'grad_norm': 294.0, 'learning_rate': 0.0, 'epoch': 0.01}
+{'loss': 5.8577, 'grad_norm': 322.0, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.03}
+{'loss': 4.524, 'grad_norm': 255.0, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.04}
+{'loss': 4.004, 'grad_norm': 251.0, 'learning_rate': 1e-05, 'epoch': 0.05}
+{'loss': 1.8724, 'grad_norm': 74.5, 'learning_rate': 9.62962962962963e-06, 'epoch': 0.06}
+{'loss': 1.5535, 'grad_norm': 40.25, 'learning_rate': 9.25925925925926e-06, 'epoch': 0.08}
+{'loss': 1.4829, 'grad_norm': 38.5, 'learning_rate': 8.888888888888888e-06, 'epoch': 0.09}
+{'loss': 1.4428, 'grad_norm': 34.25, 'learning_rate': 8.518518518518519e-06, 'epoch': 0.1}
+{'loss': 1.3338, 'grad_norm': 35.0, 'learning_rate': 8.148148148148148e-06, 'epoch': 0.12}
+{'loss': 1.2669, 'grad_norm': 27.125, 'learning_rate': 7.77777777777778e-06, 'epoch': 0.13}
+{'loss': 1.2473, 'grad_norm': 25.75, 'learning_rate': 7.4074074074074075e-06, 'epoch': 0.14}
+{'loss': 1.2976, 'grad_norm': 24.5, 'learning_rate': 7.0370370370370375e-06, 'epoch': 0.15}
+{'loss': 1.0888, 'grad_norm': 21.5, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.17}
+{'loss': 1.2052, 'grad_norm': 20.25, 'learning_rate': 6.296296296296297e-06, 'epoch': 0.18}
+{'loss': 1.2376, 'grad_norm': 22.125, 'learning_rate': 5.925925925925926e-06, 'epoch': 0.19}
+{'loss': 1.1516, 'grad_norm': 21.375, 'learning_rate': 5.555555555555557e-06, 'epoch': 0.2}
+{'loss': 1.1692, 'grad_norm': 19.375, 'learning_rate': 5.185185185185185e-06, 'epoch': 0.22}
+{'loss': 1.1324, 'grad_norm': 19.875, 'learning_rate': 4.814814814814815e-06, 'epoch': 0.23}
+{'loss': 1.1824, 'grad_norm': 20.625, 'learning_rate': 4.444444444444444e-06, 'epoch': 0.24}
+{'loss': 1.1121, 'grad_norm': 17.875, 'learning_rate': 4.074074074074074e-06, 'epoch': 0.26}
+{'loss': 0.9897, 'grad_norm': 19.25, 'learning_rate': 3.7037037037037037e-06, 'epoch': 0.27}
+{'loss': 1.1547, 'grad_norm': 20.25, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.28}
+{'loss': 1.0911, 'grad_norm': 18.375, 'learning_rate': 2.962962962962963e-06, 'epoch': 0.29}
+{'loss': 1.1469, 'grad_norm': 17.875, 'learning_rate': 2.5925925925925925e-06, 'epoch': 0.31}
+{'loss': 1.0348, 'grad_norm': 17.25, 'learning_rate': 2.222222222222222e-06, 'epoch': 0.32}
+{'loss': 1.0304, 'grad_norm': 17.125, 'learning_rate': 1.8518518518518519e-06, 'epoch': 0.33}
+{'loss': 1.0657, 'grad_norm': 20.125, 'learning_rate': 1.4814814814814815e-06, 'epoch': 0.35}
+{'loss': 0.8931, 'grad_norm': 17.625, 'learning_rate': 1.111111111111111e-06, 'epoch': 0.36}
+{'loss': 1.1342, 'grad_norm': 19.625, 'learning_rate': 7.407407407407407e-07, 'epoch': 0.37}
+{'loss': 1.0005, 'grad_norm': 16.875, 'learning_rate': 3.7037037037037036e-07, 'epoch': 0.38}
+{'train_runtime': 328.8003, 'train_samples_per_second': 11.679, 'train_steps_per_second': 0.091, 'train_loss': 1.7087547540664674, 'epoch': 0.38}

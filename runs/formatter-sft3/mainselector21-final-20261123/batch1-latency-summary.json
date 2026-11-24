@@ -1,0 +1,14 @@
+{
+  "0.8B": {
+    "n": 1000,
+    "median_format_latency_s": 0.44758810999337584,
+    "mean_format_latency_s": 0.5201299757906236,
+    "p90_format_latency_s": 0.8624346968717873
+  },
+  "2B": {
+    "n": 1000,
+    "median_format_latency_s": 0.4593697974923998,
+    "mean_format_latency_s": 0.5277457944962661,
+    "p90_format_latency_s": 0.8811756519135088
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "system": "haas+qwen17+sft2",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/man-qwen17-val.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "../voiceIME-wt/r3-audio/runs/asr-tts/r3-multiasr-20261122/outputs/twopass/haas-plus-qwen17-val-segment-merge.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "haas+qwen17+sft2",
+    "out": "runs/multiasr-e2e/e2e-qwen17-val.jsonl",
+    "glossary": null,
+    "exclude_terms": null,
+    "glossary_mode": "row",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 1000,
+  "glossary_size": 4905,
+  "load_and_warmup_s": 2.638254375080578,
+  "format_latency_median_s": 0.18919122900115326,
+  "format_latency_p90_s": 0.29573406256968154,
+  "latency_median_s": 0.6317676106700674,
+  "mean_glossary_entries": 17.964,
+  "generation_tps_median": 227.81374973113083,
+  "peak_memory_gb": 1.005563768,
+  "truncated": 0
+}

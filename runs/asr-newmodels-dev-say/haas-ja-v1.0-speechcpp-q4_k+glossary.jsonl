@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "GitHubにプッシュしました。", "latency_s": 0.03708249994087964}
+{"id": "dev-say-0002", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "ロッカーを再起動します。", "latency_s": 0.05390629102475941}
+{"id": "dev-say-0003", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "gygorca1のバージョンを上げます。", "latency_s": 0.05548658303450793}
+{"id": "dev-say-0004", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "jasonで返してください。", "latency_s": 0.04591341700870544}
+{"id": "dev-say-0005", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "CUDAが見つからないです。", "latency_s": 0.03733304189518094}
+{"id": "dev-say-0006", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Slackに貼っておきます。", "latency_s": 0.04607566702179611}
+{"id": "dev-say-0007", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "まあ、MLXで十分早いです。", "latency_s": 0.04925766703672707}
+{"id": "dev-say-0008", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "loveのいやEmbeddingの精度が低いです。", "latency_s": 0.05534987500868738}
+{"id": "dev-say-0009", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "部分とレビュードが落ちます。", "latency_s": 0.038662125007249415}
+{"id": "dev-say-0010", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "えー、Colab のセッションを止めました。", "latency_s": 0.05358483293093741}
+{"id": "dev-say-0011", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "LoRAーで微調整します。", "latency_s": 0.0361644170479849}
+{"id": "dev-say-0012", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "なんか、vsコードが重いです。", "latency_s": 0.04837095900438726}
+{"id": "dev-say-0013", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Whisperの小さいモデルを試します。", "latency_s": 0.04831924999598414}
+{"id": "dev-say-0014", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "TransformerのAttention部分をもう少し軽くしたいんですけど、何かいい方法はありますか。", "latency_s": 0.09311404207255691}
+{"id": "dev-say-0015", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Hugging FaceからモデルをダウンロードしてMLX の形式に変換してから、手元のMacで動かします。", "latency_s": 0.10201774991583079}
+{"id": "dev-say-0016", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "バッチサイズを32に、いや16に下げたら vrにおさまりました。", "latency_s": 0.07727258396334946}
+{"id": "dev-say-0017", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "github actio nsのワークフローでtyg estが失敗しているので、rogを確認してもらえますか", "latency_s": 0.11310674995183945}
+{"id": "dev-say-0018", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "まあとりあえずpandasでCSVを読み込んで、欠損値を確認してみましょう。", "latency_s": 0.07624950003810227}
+{"id": "dev-say-0019", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "a Reactのコンポーネントが2回レンダリングされる問題はStrict Modeのせいだと思います。", "latency_s": 0.08496445894706994}
+{"id": "dev-say-0020", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "PostgreSQLのインデックスを貼ったら、クエリが10倍くらい速くなりました。", "latency_s": 0.07547499996144325}
+{"id": "dev-say-0021", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "loss、そのlearning rateが高すぎて、lossが発散しているかもしれないです。", "latency_s": 0.07434612500946969}
+{"id": "dev-say-0022", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Kubernetesのとんどが、メモリ不足で起きているみたいです。", "latency_s": 0.05534341698512435}
+{"id": "dev-say-0023", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "opnaiのAPIキーを環境変数に入れて、fast APIのサーバから呼び出します。", "latency_s": 0.09239629108924419}
+{"id": "dev-say-0024", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "TypeScriptのTypeScriptの方エラーが計30件くらい出ています。", "latency_s": 0.07171591697260737}
+{"id": "dev-say-0025", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "W&Bで学習曲線を見ると絵トック 5あたりから過学習しています。", "latency_s": 0.07365704199764878}
+{"id": "dev-say-0026", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Docker ComposeDocker Composeの設定を見直してください。", "latency_s": 0.06930037506390363}
+{"id": "dev-say-0027", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "YOLOで物体検出をしてから、Segment Anythingでマスクを作ります。", "latency_s": 0.07662475004326552}
+{"id": "dev-say-0028", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Xcodeでビュルドすると、SwiftUIのプレビューが、なんかかたまるんですよ。", "latency_s": 0.091422124998644}
+{"id": "dev-say-0029", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "ええと、今日のミーティングでは、まずRAGのパイプラインの評価結果を共有して、その後、レンベリングモデルをあのOpenAIのものからOpenAIドに切り替えるかどうかを決めたいと思います。", "latency_s": 0.1725400839932263}
+{"id": "dev-say-0030", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "学習はColabのA100mrendaして、checkpointは Google Driveに保存して、推論だけ手元のM3 Proで動かす予定です。", "latency_s": 0.11954204202629626}
+{"id": "dev-say-0031", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "あの、さっきのPRなんですけど、rebaseしたらconflictが出たので、ええmergeは明日に、いや、今日の夕方にやります。", "latency_s": 0.10848354105837643}
+{"id": "dev-say-0032", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Llamaの8ビールを4 ビットに量子化して、mlxl m で動かしてみたら、1秒あたり40とおくんくらい出ました。", "latency_s": 0.113307207939215}
+{"id": "dev-say-0033", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Pythonの仮想環境はuvで管理して、依存関係はpyproject.tomolに書いておけば他の人も同じ環境を再現できます。", "latency_s": 0.10895658400841057}
+{"id": "dev-say-0034", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "なんか、Next.jsのアップデートの後から、ビルドが凄くおそくなっていて、えTurbopackを向こうにすると、まぁ...元に戻るみたいです。", "latency_s": 0.12114262499380857}
+{"id": "dev-say-0035", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "非評価には、CERと用語の正答率を使って、ベースラインのWhisper large-v3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 0.1236306669889018}
+{"id": "dev-say-0036", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "OAuthトークンの有効期限が切れていて、refresh tokenで再取得する処理が、そのうまく動いていないようです。", "latency_s": 0.11298166704364121}
+{"id": "dev-say-0037", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "os LambdaからS3にファイルを書き込むときに、b&mのロールの権限が足りなくて、AccessDeniedのエラーが出ています。", "latency_s": 0.10239200002979487}
+{"id": "dev-say-0038", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Vision TransformerとResNetを、同じデータ拡張と同じepoch数で比べて、その後ablationをやります。", "latency_s": 0.1116103749955073}
+{"id": "dev-say-0039", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Core ML変換したモデルをNeural Engineで動かすと、GPUより消費電力が少なくて、まあバッテリーの持ちがかなりよくなります。", "latency_s": 0.11641379201319069}
+{"id": "dev-say-0040", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Terraformで作ったリソースと、手で作ったリソースがまざっていて、stateファイルが、あの実さいの状態とズレているので、importしなおします。", "latency_s": 0.12486179207917303}

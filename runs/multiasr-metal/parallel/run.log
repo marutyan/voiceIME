@@ -1,0 +1,16 @@
+== qwen3-asr-0.6b-4bit 21:46:20
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_interleaved', 'mrope_section'}
+50件を/Users/marutyan/PrivateDev/voiceIME/runs/multiasr-metal/parallel/qwen3-asr-0.6b-4bit.jsonlへ書いた
+== qwen3-asr-1.7b-4bit 21:47:56
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section', 'mrope_interleaved'}
+50件を/Users/marutyan/PrivateDev/voiceIME/runs/multiasr-metal/parallel/qwen3-asr-1.7b-4bit.jsonlへ書いた
+== qwen3-asr-1.7b-8bit 21:50:20
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section', 'mrope_interleaved'}
+50件を/Users/marutyan/PrivateDev/voiceIME/runs/multiasr-metal/parallel/qwen3-asr-1.7b-8bit.jsonlへ書いた
+== whisper-large-v3-turbo-q8 21:53:50
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section', 'mrope_interleaved'}
+50件を/Users/marutyan/PrivateDev/voiceIME/runs/multiasr-metal/parallel/whisper-large-v3-turbo-q8.jsonlへ書いた
+== whisper-large-v3-turbo 21:56:41
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section', 'mrope_interleaved'}
+50件を/Users/marutyan/PrivateDev/voiceIME/runs/multiasr-metal/parallel/whisper-large-v3-turbo.jsonlへ書いた
+== done 21:59:33

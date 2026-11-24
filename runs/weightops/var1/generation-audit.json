@@ -1,0 +1,389 @@
+{
+  "seed": 173,
+  "counts": {
+    "positive": 24000,
+    "positive_listed_terms_removed": 0,
+    "positive_changed_2_passes": 9766,
+    "positive_changed_3_passes": 10686,
+    "positive_changed_1_passes": 3548,
+    "positive_second_version_rows": 5009,
+    "positive_source_rows": 18991,
+    "negative": 9600,
+    "negative_listed_terms_removed": 0,
+    "negative_replaced_distractor_rows": 8790,
+    "negative_source_rows": 9600
+  },
+  "distribution": {
+    "positive": {
+      "別読みファイル": 15391,
+      "1文字脱落": 15466,
+      "語尾": 883,
+      "長音": 18697,
+      "促音": 4609,
+      "置換": 4091
+    },
+    "negative": {
+      "distance_2": 9437,
+      "distance_1": 163
+    }
+  },
+  "term_types": {
+    "positive": 4618,
+    "negative": 1001
+  },
+  "sha256": {
+    "glossary-alt-readings.jsonl": "63944a8b7d0cce0cbd20874df64b9c13bea91051d4fbba0d731ec83dcb229e1c",
+    "augmentation-fixed.jsonl": "7c83f2e7f41d420233e7a975eace486eebbed9973b4b7e866e6343e26e177496",
+    "augmentation-var.jsonl": "66715efda7445986f05d8e405781ebc2dd5db8ca9654470ef0a57f331c127fb7"
+  },
+  "examples": [
+    {
+      "mode": "positive",
+      "source_id": "train-v3-001231",
+      "target": "python-dateutilのバージョン更新。G903の設定変更。Vertex Buffer Objectの最適化。",
+      "term": "G903",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "g903"
+          ],
+          "to": "ジーナインゼロスリー",
+          "kind": "別読みファイル"
+        },
+        "combined_text": {
+          "from": [
+            "g903"
+          ],
+          "to": "ジーキュウマルサ",
+          "kind": "1文字脱落"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-015647",
+      "target": "Babelのバージョン2の依存関係の衝突が起きてる。let me check。",
+      "term": "Babel",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "バベル"
+          ],
+          "to": "バベー",
+          "kind": "語尾"
+        },
+        "combined_text": {
+          "from": [
+            "Babel"
+          ],
+          "to": "バベー",
+          "kind": "語尾"
+        },
+        "qwen_hypothesis": {
+          "from": [
+            "バベル"
+          ],
+          "to": "バーベル",
+          "kind": "長音"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-041662",
+      "target": "依存関係で衝突が起きていて。go.pkg.go.devのバージョンを2.1から3.0に上げたら、bytearrayの型周りでエラーが出ます。どう解決すべきでしょうか。",
+      "term": "bytearray",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "バイトアレイ"
+          ],
+          "to": "バイトレイ",
+          "kind": "1文字脱落"
+        },
+        "combined_text": {
+          "from": [
+            "bytearray"
+          ],
+          "to": "バーイトアレイ",
+          "kind": "長音"
+        },
+        "qwen_hypothesis": {
+          "from": [
+            "バイトアレイ"
+          ],
+          "to": "バイートアレイ",
+          "kind": "長音"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-032880",
+      "target": "この負荷試験のシナリオなんですけど、HCIの観点から、ユーザーの同時接続数をもっと増やして検証したほうがいいと思います。今の設定だと、実際の運用環境の負荷を十分に再現できていない気がしますので。",
+      "term": "HCI",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "hci"
+          ],
+          "to": "イチシーアイ",
+          "kind": "1文字脱落"
+        },
+        "combined_text": {
+          "from": [
+            "HCI"
+          ],
+          "to": "エイチシーア",
+          "kind": "1文字脱落"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-031111",
+      "target": "今回の実験なんですけど、ベースラインと比べて、Logit Matchingを使ったほうが、ほぼ変わらないですね。",
+      "term": "Logit Matching",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "ロジットマッチング"
+          ],
+          "to": "ロジットマッング",
+          "kind": "1文字脱落"
+        },
+        "combined_text": {
+          "from": [
+            "Logit Matching"
+          ],
+          "to": "ロジットマッティング",
+          "kind": "別読みファイル"
+        },
+        "qwen_hypothesis": {
+          "from": [
+            "ロジットマッチング"
+          ],
+          "to": "ロジットマチング",
+          "kind": "別読みファイル"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "synth-train-038113",
+      "target": "Swin-Unetの推論を高速化した。NCCLを使って通信を最適化することで、HellaSwagのベンチマーク結果も改善した。",
+      "term": "HellaSwag",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "ヘラスワグ"
+          ],
+          "to": "ヘラスワ",
+          "kind": "1文字脱落"
+        },
+        "combined_text": {
+          "from": [
+            "HellaSwag"
+          ],
+          "to": "ヘーラスワグ",
+          "kind": "長音"
+        },
+        "qwen_hypothesis": {
+          "from": [
+            "ヘラスワグ"
+          ],
+          "to": "ヘラスーワグ",
+          "kind": "長音"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-000885",
+      "target": "学会発表のデモ用に、warmup_ratioを0.1から0.05に下げてみて。その方が安定しそうだし。",
+      "term": "warmup_ratio",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "ウォームアップレシオ"
+          ],
+          "to": "ウォームップレシオ",
+          "kind": "1文字脱落"
+        },
+        "combined_text": {
+          "from": [
+            "warmup_ratio"
+          ],
+          "to": "ウームアップレシオ",
+          "kind": "1文字脱落"
+        },
+        "qwen_hypothesis": {
+          "from": [
+            "ウォームアップレシオ"
+          ],
+          "to": "ウォームアプレシオ",
+          "kind": "別読みファイル"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "synth-train-015300",
+      "target": "監視設定。GitLabでのVPAの設定、確認。急ぎ。",
+      "term": "GitLab",
+      "changes": {
+        "qwen_hypothesis": {
+          "from": [
+            "GitLab"
+          ],
+          "to": "ギットラ",
+          "kind": "1文字脱落"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-035048",
+      "target": "Active Directoryの権限を、1番上のグループだけに設定した。",
+      "term": "Active Directory",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "アクティブディレクトリ"
+          ],
+          "to": "アクチブディレクトリ",
+          "kind": "別読みファイル"
+        },
+        "combined_text": {
+          "from": [
+            "Active Directory"
+          ],
+          "to": "アクティブディレークトリ",
+          "kind": "長音"
+        }
+      }
+    },
+    {
+      "mode": "positive",
+      "source_id": "train-v3-051941",
+      "target": "論文の締め切りまであと3日しかないから、急いで！Few-shot Detectionの箇所の説明をもっと簡潔に書き直して。特にDoFの計算式の説明が冗長すぎるから、1段落にまとめてくれ。",
+      "term": "DoF",
+      "changes": {
+        "first_pass": {
+          "from": [
+            "dof"
+          ],
+          "to": "ジーオーエフ",
+          "kind": "別読みファイル"
+        },
+        "combined_text": {
+          "from": [
+            "DoF"
+          ],
+          "to": "ディーオーエッフ",
+          "kind": "促音"
+        }
+      }
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-028393",
+      "target": "本番環境でネットワーク断が発生。原因はCIDRの設定ミスによるルートの重複だった。再発防止策として設定の自動バリデーションを導入すべきだ。今回のダウンタイムで消費したGPU Hoursのコストも計算に入れて報告書にまとめる。",
+      "word": "ネットワーク",
+      "term": "netlink",
+      "reading": "ネットリンク",
+      "distance": 2,
+      "evicted": "SegNet"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-001231",
+      "target": "python-dateutilのバージョン更新。G903の設定変更。Vertex Buffer Objectの最適化。",
+      "word": "バージョン",
+      "term": "sys.version",
+      "reading": "シスバージョン",
+      "distance": 2,
+      "evicted": "kobject"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-015647",
+      "target": "Babelのバージョン2の依存関係の衝突が起きてる。let me check。",
+      "word": "バージョン",
+      "term": "Subversion",
+      "reading": "サブバージョン",
+      "distance": 2,
+      "evicted": "N2D"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-041662",
+      "target": "依存関係で衝突が起きていて。go.pkg.go.devのバージョンを2.1から3.0に上げたら、bytearrayの型周りでエラーが出ます。どう解決すべきでしょうか。",
+      "word": "バージョン",
+      "term": "Subversion",
+      "reading": "サブバージョン",
+      "distance": 2,
+      "evicted": "DKG"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-032880",
+      "target": "この負荷試験のシナリオなんですけど、HCIの観点から、ユーザーの同時接続数をもっと増やして検証したほうがいいと思います。今の設定だと、実際の運用環境の負荷を十分に再現できていない気がしますので。",
+      "word": "ユーザー",
+      "term": "OC",
+      "reading": "オーシー",
+      "distance": 2,
+      "evicted": "CNAPP"
+    },
+    {
+      "mode": "negative",
+      "source_id": "synth-train-007595",
+      "target": "データベースの移行作業。新しいサーバーへのデータ移送。整合性の確認が必要。",
+      "word": "データベース",
+      "term": "Sieve-based",
+      "reading": "シーブベース",
+      "distance": 2,
+      "evicted": "CABAC"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-050365",
+      "target": "ShapeNetを使った比較実験の結果、\n- 精度\n- 計算時間\n- メモリ使用量\nの3つでベースラインを上回った。",
+      "word": "ベースライン",
+      "term": "B-spline",
+      "reading": "ビースプライン",
+      "distance": 2,
+      "evicted": "ENet"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-031111",
+      "target": "今回の実験なんですけど、ベースラインと比べて、Logit Matchingを使ったほうが、ほぼ変わらないですね。",
+      "word": "ベースライン",
+      "term": "coerceIn",
+      "reading": "コースイン",
+      "distance": 2,
+      "evicted": "allMatch"
+    },
+    {
+      "mode": "negative",
+      "source_id": "synth-train-038113",
+      "target": "Swin-Unetの推論を高速化した。NCCLを使って通信を最適化することで、HellaSwagのベンチマーク結果も改善した。",
+      "word": "ベンチマーク",
+      "term": "CIS Benchmarks",
+      "reading": "シスベンチマーク",
+      "distance": 2,
+      "evicted": "SegNet"
+    },
+    {
+      "mode": "negative",
+      "source_id": "train-v3-047022",
+      "target": "このプロジェクトのライブラリを最新にしたい。特にBinaryHeapを使っている箇所のコードが古くなってて、今のバージョンだと警告が出るから、いい感じに書き直して。あと、依存関係で競合が出ないか確認してから更新してね。",
+      "word": "プロジェクト",
+      "term": "pin-project",
+      "reading": "ピンプロジェクト",
+      "distance": 2,
+      "evicted": "Hive"
+    }
+  ]
+}

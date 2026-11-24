@@ -1,0 +1,10 @@
+{
+  "rows": 36780,
+  "max_swaps_per_term": 3,
+  "qwen_nonempty": 8123,
+  "qwen_additional_matches": 0,
+  "augmentation_sha256": "9b2f8f37dcda4ad08a34c93110fd2647f3c00357a564588116483a5181156ded",
+  "replacement_unique_seen_in_original_targets": 2415,
+  "replacement_unique_absent_from_original_targets": 12085,
+  "replacement_rows_absent_from_original_targets": 33540
+}

@@ -1,0 +1,1010 @@
+{
+  "FULL-scratch": {
+    "capacity": {
+      "val": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1240,
+              "substitutions": 266,
+              "insertions": 544,
+              "deletions": 430,
+              "reference_characters": 47431,
+              "rate": 0.026143239653391243
+            },
+            "correct": 1353,
+            "terms": 1427,
+            "missed": 74,
+            "missed_listed": 27,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 75,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1240,
+              "substitutions": 261,
+              "insertions": 547,
+              "deletions": 432,
+              "reference_characters": 47431,
+              "rate": 0.026143239653391243
+            },
+            "correct": 1354,
+            "terms": 1427,
+            "missed": 73,
+            "missed_listed": 26,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 75,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 483,
+              "substitutions": 83,
+              "insertions": 225,
+              "deletions": 175,
+              "reference_characters": 7777,
+              "rate": 0.062106210621062106
+            },
+            "exact_matches": 132,
+            "exact_match_rate": 0.6502463054187192,
+            "suspected_responses": null
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1268,
+              "substitutions": 269,
+              "insertions": 583,
+              "deletions": 416,
+              "reference_characters": 47431,
+              "rate": 0.026733570871371043
+            },
+            "correct": 1351,
+            "terms": 1427,
+            "missed": 76,
+            "missed_listed": 30,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 73,
+            "unspoken_insertions": 33,
+            "unspoken_listed_insertions": 33
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1268,
+              "substitutions": 264,
+              "insertions": 586,
+              "deletions": 418,
+              "reference_characters": 47431,
+              "rate": 0.026733570871371043
+            },
+            "correct": 1352,
+            "terms": 1427,
+            "missed": 75,
+            "missed_listed": 29,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 73,
+            "unspoken_insertions": 33,
+            "unspoken_listed_insertions": 33
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 485,
+              "substitutions": 85,
+              "insertions": 238,
+              "deletions": 162,
+              "reference_characters": 7777,
+              "rate": 0.062363379195062366
+            },
+            "exact_matches": 132,
+            "exact_match_rate": 0.6502463054187192,
+            "suspected_responses": null
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1299,
+              "substitutions": 277,
+              "insertions": 573,
+              "deletions": 449,
+              "reference_characters": 47431,
+              "rate": 0.027387151862705825
+            },
+            "correct": 1349,
+            "terms": 1427,
+            "missed": 78,
+            "missed_listed": 31,
+            "missed_in_merge": 14,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 72,
+            "unspoken_insertions": 35,
+            "unspoken_listed_insertions": 35
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1287,
+              "substitutions": 263,
+              "insertions": 576,
+              "deletions": 448,
+              "reference_characters": 47431,
+              "rate": 0.02713415276928591
+            },
+            "correct": 1351,
+            "terms": 1427,
+            "missed": 76,
+            "missed_listed": 29,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 72,
+            "unspoken_insertions": 35,
+            "unspoken_listed_insertions": 35
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 497,
+              "substitutions": 82,
+              "insertions": 252,
+              "deletions": 163,
+              "reference_characters": 7777,
+              "rate": 0.0639063906390639
+            },
+            "exact_matches": 132,
+            "exact_match_rate": 0.6502463054187192,
+            "suspected_responses": null
+          }
+        }
+      },
+      "test-novel": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1053,
+              "substitutions": 356,
+              "insertions": 258,
+              "deletions": 439,
+              "reference_characters": 25921,
+              "rate": 0.04062343273793449
+            },
+            "correct": 378,
+            "terms": 500,
+            "missed": 122,
+            "missed_listed": 26,
+            "missed_in_merge": 7,
+            "unspoken_insertions": 40,
+            "unspoken_listed_insertions": 39
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1040,
+              "substitutions": 343,
+              "insertions": 253,
+              "deletions": 444,
+              "reference_characters": 25921,
+              "rate": 0.04012190887697234
+            },
+            "correct": 378,
+            "terms": 500,
+            "missed": 122,
+            "missed_listed": 26,
+            "missed_in_merge": 7,
+            "unspoken_insertions": 42,
+            "unspoken_listed_insertions": 41
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 940,
+              "substitutions": 301,
+              "insertions": 241,
+              "deletions": 398,
+              "reference_characters": 25921,
+              "rate": 0.036264033023417304
+            },
+            "correct": 403,
+            "terms": 500,
+            "missed": 97,
+            "missed_listed": 32,
+            "missed_in_merge": 6,
+            "unspoken_insertions": 41,
+            "unspoken_listed_insertions": 41
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 926,
+              "substitutions": 283,
+              "insertions": 243,
+              "deletions": 400,
+              "reference_characters": 25921,
+              "rate": 0.0357239304039196
+            },
+            "correct": 403,
+            "terms": 500,
+            "missed": 97,
+            "missed_listed": 32,
+            "missed_in_merge": 6,
+            "unspoken_insertions": 42,
+            "unspoken_listed_insertions": 42
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 882,
+              "substitutions": 253,
+              "insertions": 242,
+              "deletions": 387,
+              "reference_characters": 25921,
+              "rate": 0.034026465028355386
+            },
+            "correct": 412,
+            "terms": 500,
+            "missed": 88,
+            "missed_listed": 34,
+            "missed_in_merge": 6,
+            "unspoken_insertions": 41,
+            "unspoken_listed_insertions": 41
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 876,
+              "substitutions": 250,
+              "insertions": 239,
+              "deletions": 387,
+              "reference_characters": 25921,
+              "rate": 0.033794992477142086
+            },
+            "correct": 412,
+            "terms": 500,
+            "missed": 88,
+            "missed_listed": 34,
+            "missed_in_merge": 6,
+            "unspoken_insertions": 42,
+            "unspoken_listed_insertions": 42
+          }
+        }
+      }
+    },
+    "val_variants": {
+      "raw": {
+        "cer": {
+          "edit_errors": 562,
+          "substitutions": 101,
+          "insertions": 258,
+          "deletions": 203,
+          "reference_characters": 22233,
+          "rate": 0.02527774029595646
+        },
+        "correct": 831,
+        "terms": 864,
+        "missed": 33,
+        "missed_listed": 18,
+        "missed_in_merge": 0,
+        "unspoken_insertions": 24,
+        "unspoken_listed_insertions": 24
+      },
+      "restored": {
+        "cer": {
+          "edit_errors": 574,
+          "substitutions": 110,
+          "insertions": 261,
+          "deletions": 203,
+          "reference_characters": 22233,
+          "rate": 0.025817478522916385
+        },
+        "correct": 831,
+        "terms": 864,
+        "missed": 33,
+        "missed_listed": 18,
+        "missed_in_merge": 0,
+        "unspoken_insertions": 24,
+        "unspoken_listed_insertions": 24
+      },
+      "changed_terms": {
+        "total": 447,
+        "correct": 432,
+        "clean_correct": 437,
+        "by_changed_passes": {
+          "1": {
+            "total": 56,
+            "correct": 54,
+            "clean_correct": 53
+          },
+          "2": {
+            "total": 163,
+            "correct": 157,
+            "clean_correct": 160
+          },
+          "3": {
+            "total": 228,
+            "correct": 221,
+            "clean_correct": 224
+          }
+        }
+      }
+    }
+  },
+  "VAR-cont": {
+    "capacity": {
+      "val": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1258,
+              "substitutions": 259,
+              "insertions": 615,
+              "deletions": 384,
+              "reference_characters": 47431,
+              "rate": 0.026522738293521114
+            },
+            "correct": 1352,
+            "terms": 1427,
+            "missed": 75,
+            "missed_listed": 26,
+            "missed_in_merge": 11,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 73,
+            "unspoken_insertions": 33,
+            "unspoken_listed_insertions": 33
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1250,
+              "substitutions": 252,
+              "insertions": 617,
+              "deletions": 381,
+              "reference_characters": 47431,
+              "rate": 0.02635407223124117
+            },
+            "correct": 1354,
+            "terms": 1427,
+            "missed": 73,
+            "missed_listed": 24,
+            "missed_in_merge": 10,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 73,
+            "unspoken_insertions": 33,
+            "unspoken_listed_insertions": 33
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 437,
+              "substitutions": 77,
+              "insertions": 248,
+              "deletions": 112,
+              "reference_characters": 7777,
+              "rate": 0.05619133341905619
+            },
+            "exact_matches": 134,
+            "exact_match_rate": 0.6600985221674877,
+            "suspected_responses": null
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1331,
+              "substitutions": 282,
+              "insertions": 614,
+              "deletions": 435,
+              "reference_characters": 47431,
+              "rate": 0.0280618161118256
+            },
+            "correct": 1346,
+            "terms": 1427,
+            "missed": 81,
+            "missed_listed": 32,
+            "missed_in_merge": 14,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 70,
+            "unspoken_insertions": 40,
+            "unspoken_listed_insertions": 40
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1331,
+              "substitutions": 282,
+              "insertions": 617,
+              "deletions": 432,
+              "reference_characters": 47431,
+              "rate": 0.0280618161118256
+            },
+            "correct": 1347,
+            "terms": 1427,
+            "missed": 80,
+            "missed_listed": 31,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 70,
+            "unspoken_insertions": 40,
+            "unspoken_listed_insertions": 40
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 467,
+              "substitutions": 83,
+              "insertions": 244,
+              "deletions": 140,
+              "reference_characters": 7777,
+              "rate": 0.06004886202906005
+            },
+            "exact_matches": 134,
+            "exact_match_rate": 0.6600985221674877,
+            "suspected_responses": null
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1309,
+              "substitutions": 295,
+              "insertions": 597,
+              "deletions": 417,
+              "reference_characters": 47431,
+              "rate": 0.027597984440555754
+            },
+            "correct": 1348,
+            "terms": 1427,
+            "missed": 79,
+            "missed_listed": 31,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 71,
+            "unspoken_insertions": 34,
+            "unspoken_listed_insertions": 34
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1297,
+              "substitutions": 281,
+              "insertions": 600,
+              "deletions": 416,
+              "reference_characters": 47431,
+              "rate": 0.02734498534713584
+            },
+            "correct": 1350,
+            "terms": 1427,
+            "missed": 77,
+            "missed_listed": 29,
+            "missed_in_merge": 12,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 71,
+            "unspoken_insertions": 34,
+            "unspoken_listed_insertions": 34
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 455,
+              "substitutions": 94,
+              "insertions": 239,
+              "deletions": 122,
+              "reference_characters": 7777,
+              "rate": 0.05850585058505851
+            },
+            "exact_matches": 135,
+            "exact_match_rate": 0.6650246305418719,
+            "suspected_responses": null
+          }
+        }
+      },
+      "test-novel": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1054,
+              "substitutions": 355,
+              "insertions": 265,
+              "deletions": 434,
+              "reference_characters": 25921,
+              "rate": 0.040662011496470044
+            },
+            "correct": 380,
+            "terms": 500,
+            "missed": 120,
+            "missed_listed": 27,
+            "missed_in_merge": 8,
+            "unspoken_insertions": 44,
+            "unspoken_listed_insertions": 43
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1045,
+              "substitutions": 345,
+              "insertions": 262,
+              "deletions": 438,
+              "reference_characters": 25921,
+              "rate": 0.04031480266965009
+            },
+            "correct": 380,
+            "terms": 500,
+            "missed": 120,
+            "missed_listed": 27,
+            "missed_in_merge": 8,
+            "unspoken_insertions": 44,
+            "unspoken_listed_insertions": 43
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 967,
+              "substitutions": 305,
+              "insertions": 234,
+              "deletions": 428,
+              "reference_characters": 25921,
+              "rate": 0.03730565950387717
+            },
+            "correct": 402,
+            "terms": 500,
+            "missed": 98,
+            "missed_listed": 33,
+            "missed_in_merge": 8,
+            "unspoken_insertions": 45,
+            "unspoken_listed_insertions": 44
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 967,
+              "substitutions": 305,
+              "insertions": 234,
+              "deletions": 428,
+              "reference_characters": 25921,
+              "rate": 0.03730565950387717
+            },
+            "correct": 402,
+            "terms": 500,
+            "missed": 98,
+            "missed_listed": 33,
+            "missed_in_merge": 8,
+            "unspoken_insertions": 45,
+            "unspoken_listed_insertions": 44
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 950,
+              "substitutions": 279,
+              "insertions": 241,
+              "deletions": 430,
+              "reference_characters": 25921,
+              "rate": 0.03664982060877281
+            },
+            "correct": 410,
+            "terms": 500,
+            "missed": 90,
+            "missed_listed": 35,
+            "missed_in_merge": 7,
+            "unspoken_insertions": 44,
+            "unspoken_listed_insertions": 43
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 938,
+              "substitutions": 272,
+              "insertions": 235,
+              "deletions": 431,
+              "reference_characters": 25921,
+              "rate": 0.03618687550634621
+            },
+            "correct": 410,
+            "terms": 500,
+            "missed": 90,
+            "missed_listed": 35,
+            "missed_in_merge": 7,
+            "unspoken_insertions": 45,
+            "unspoken_listed_insertions": 44
+          }
+        }
+      }
+    },
+    "val_variants": {
+      "raw": {
+        "cer": {
+          "edit_errors": 588,
+          "substitutions": 114,
+          "insertions": 270,
+          "deletions": 204,
+          "reference_characters": 22233,
+          "rate": 0.026447173121036296
+        },
+        "correct": 827,
+        "terms": 864,
+        "missed": 37,
+        "missed_listed": 21,
+        "missed_in_merge": 3,
+        "unspoken_insertions": 21,
+        "unspoken_listed_insertions": 21
+      },
+      "restored": {
+        "cer": {
+          "edit_errors": 588,
+          "substitutions": 114,
+          "insertions": 273,
+          "deletions": 201,
+          "reference_characters": 22233,
+          "rate": 0.026447173121036296
+        },
+        "correct": 828,
+        "terms": 864,
+        "missed": 36,
+        "missed_listed": 20,
+        "missed_in_merge": 2,
+        "unspoken_insertions": 21,
+        "unspoken_listed_insertions": 21
+      },
+      "changed_terms": {
+        "total": 447,
+        "correct": 432,
+        "clean_correct": 437,
+        "by_changed_passes": {
+          "1": {
+            "total": 56,
+            "correct": 53,
+            "clean_correct": 52
+          },
+          "2": {
+            "total": 163,
+            "correct": 157,
+            "clean_correct": 159
+          },
+          "3": {
+            "total": 228,
+            "correct": 222,
+            "clean_correct": 226
+          }
+        }
+      }
+    }
+  },
+  "VAR-scratch": {
+    "capacity": {
+      "val": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1468,
+              "substitutions": 327,
+              "insertions": 644,
+              "deletions": 497,
+              "reference_characters": 47431,
+              "rate": 0.03095022242836963
+            },
+            "correct": 1346,
+            "terms": 1427,
+            "missed": 81,
+            "missed_listed": 27,
+            "missed_in_merge": 14,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 68,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1456,
+              "substitutions": 318,
+              "insertions": 647,
+              "deletions": 491,
+              "reference_characters": 47431,
+              "rate": 0.030697223334949716
+            },
+            "correct": 1348,
+            "terms": 1427,
+            "missed": 79,
+            "missed_listed": 25,
+            "missed_in_merge": 12,
+            "seen_unlisted_total": 122,
+            "seen_unlisted_correct": 68,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 621,
+              "substitutions": 96,
+              "insertions": 302,
+              "deletions": 223,
+              "reference_characters": 7777,
+              "rate": 0.07985084222707985
+            },
+            "exact_matches": 122,
+            "exact_match_rate": 0.6009852216748769,
+            "suspected_responses": null
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1467,
+              "substitutions": 322,
+              "insertions": 632,
+              "deletions": 513,
+              "reference_characters": 47431,
+              "rate": 0.030929139170584638
+            },
+            "correct": 1347,
+            "terms": 1427,
+            "missed": 80,
+            "missed_listed": 29,
+            "missed_in_merge": 16,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 68,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1445,
+              "substitutions": 307,
+              "insertions": 635,
+              "deletions": 503,
+              "reference_characters": 47431,
+              "rate": 0.030465307499314795
+            },
+            "correct": 1350,
+            "terms": 1427,
+            "missed": 77,
+            "missed_listed": 26,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 68,
+            "unspoken_insertions": 30,
+            "unspoken_listed_insertions": 30
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 615,
+              "substitutions": 95,
+              "insertions": 293,
+              "deletions": 227,
+              "reference_characters": 7777,
+              "rate": 0.07907933650507908
+            },
+            "exact_matches": 123,
+            "exact_match_rate": 0.6059113300492611,
+            "suspected_responses": null
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1509,
+              "substitutions": 354,
+              "insertions": 638,
+              "deletions": 517,
+              "reference_characters": 47431,
+              "rate": 0.031814635997554346
+            },
+            "correct": 1342,
+            "terms": 1427,
+            "missed": 85,
+            "missed_listed": 32,
+            "missed_in_merge": 16,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 66,
+            "unspoken_insertions": 32,
+            "unspoken_listed_insertions": 32
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1487,
+              "substitutions": 339,
+              "insertions": 641,
+              "deletions": 507,
+              "reference_characters": 47431,
+              "rate": 0.031350804326284495
+            },
+            "correct": 1345,
+            "terms": 1427,
+            "missed": 82,
+            "missed_listed": 29,
+            "missed_in_merge": 13,
+            "seen_unlisted_total": 119,
+            "seen_unlisted_correct": 66,
+            "unspoken_insertions": 32,
+            "unspoken_listed_insertions": 32
+          },
+          "self_correction": {
+            "count": 203,
+            "cer": {
+              "edit_errors": 626,
+              "substitutions": 98,
+              "insertions": 297,
+              "deletions": 231,
+              "reference_characters": 7777,
+              "rate": 0.0804937636620805
+            },
+            "exact_matches": 121,
+            "exact_match_rate": 0.5960591133004927,
+            "suspected_responses": null
+          }
+        }
+      },
+      "test-novel": {
+        "max20-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 1092,
+              "substitutions": 364,
+              "insertions": 276,
+              "deletions": 452,
+              "reference_characters": 25921,
+              "rate": 0.04212800432082096
+            },
+            "correct": 376,
+            "terms": 500,
+            "missed": 124,
+            "missed_listed": 27,
+            "missed_in_merge": 5,
+            "unspoken_insertions": 47,
+            "unspoken_listed_insertions": 44
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 1077,
+              "substitutions": 347,
+              "insertions": 277,
+              "deletions": 453,
+              "reference_characters": 25921,
+              "rate": 0.0415493229427877
+            },
+            "correct": 376,
+            "terms": 500,
+            "missed": 124,
+            "missed_listed": 27,
+            "missed_in_merge": 5,
+            "unspoken_insertions": 47,
+            "unspoken_listed_insertions": 44
+          }
+        },
+        "max32-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 926,
+              "substitutions": 309,
+              "insertions": 236,
+              "deletions": 381,
+              "reference_characters": 25921,
+              "rate": 0.0357239304039196
+            },
+            "correct": 406,
+            "terms": 500,
+            "missed": 94,
+            "missed_listed": 32,
+            "missed_in_merge": 3,
+            "unspoken_insertions": 48,
+            "unspoken_listed_insertions": 48
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 920,
+              "substitutions": 305,
+              "insertions": 233,
+              "deletions": 382,
+              "reference_characters": 25921,
+              "rate": 0.0354924578527063
+            },
+            "correct": 406,
+            "terms": 500,
+            "missed": 94,
+            "missed_listed": 32,
+            "missed_in_merge": 3,
+            "unspoken_insertions": 48,
+            "unspoken_listed_insertions": 48
+          }
+        },
+        "max48-haas-qwen": {
+          "raw": {
+            "cer": {
+              "edit_errors": 902,
+              "substitutions": 296,
+              "insertions": 242,
+              "deletions": 364,
+              "reference_characters": 25921,
+              "rate": 0.03479804019906639
+            },
+            "correct": 408,
+            "terms": 500,
+            "missed": 92,
+            "missed_listed": 40,
+            "missed_in_merge": 5,
+            "unspoken_insertions": 44,
+            "unspoken_listed_insertions": 43
+          },
+          "restored": {
+            "cer": {
+              "edit_errors": 896,
+              "substitutions": 292,
+              "insertions": 239,
+              "deletions": 365,
+              "reference_characters": 25921,
+              "rate": 0.03456656764785309
+            },
+            "correct": 408,
+            "terms": 500,
+            "missed": 92,
+            "missed_listed": 40,
+            "missed_in_merge": 5,
+            "unspoken_insertions": 44,
+            "unspoken_listed_insertions": 43
+          }
+        }
+      }
+    },
+    "val_variants": {
+      "raw": {
+        "cer": {
+          "edit_errors": 741,
+          "substitutions": 154,
+          "insertions": 263,
+          "deletions": 324,
+          "reference_characters": 22233,
+          "rate": 0.033328835514775335
+        },
+        "correct": 821,
+        "terms": 864,
+        "missed": 43,
+        "missed_listed": 21,
+        "missed_in_merge": 4,
+        "unspoken_insertions": 18,
+        "unspoken_listed_insertions": 18
+      },
+      "restored": {
+        "cer": {
+          "edit_errors": 719,
+          "substitutions": 139,
+          "insertions": 266,
+          "deletions": 314,
+          "reference_characters": 22233,
+          "rate": 0.03233931543201547
+        },
+        "correct": 824,
+        "terms": 864,
+        "missed": 40,
+        "missed_listed": 18,
+        "missed_in_merge": 1,
+        "unspoken_insertions": 18,
+        "unspoken_listed_insertions": 18
+      },
+      "changed_terms": {
+        "total": 447,
+        "correct": 437,
+        "clean_correct": 436,
+        "by_changed_passes": {
+          "1": {
+            "total": 56,
+            "correct": 54,
+            "clean_correct": 54
+          },
+          "2": {
+            "total": 163,
+            "correct": 156,
+            "clean_correct": 157
+          },
+          "3": {
+            "total": 228,
+            "correct": 227,
+            "clean_correct": 225
+          }
+        }
+      }
+    }
+  }
+}

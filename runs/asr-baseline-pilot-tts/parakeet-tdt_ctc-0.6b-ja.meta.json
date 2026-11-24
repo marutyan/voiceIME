@@ -1,0 +1,153 @@
+{
+  "system": "parakeet-tdt_ctc-0.6b-ja",
+  "model": "parakeet-tdt_ctc-0.6b-ja",
+  "backend": "parakeet-mlx",
+  "source": "mlx-community/parakeet-tdt_ctc-0.6b-ja",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "f54481b68dd9698159a154cf49e67b223a89fe1e",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:23:08.856276+00:00",
+  "top_processes_before": [
+    "59112  83.7 371408 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "173  55.2 105536 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  12.8  61408 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "60197  10.2  35040 /Users/marutyan/.local/bin/chezmoi",
+    "225   9.1   8256 /usr/libexec/lsd",
+    "23707   6.8 597024 claude",
+    "269   6.6  10272 /usr/libexec/syspolicyd",
+    "53945   5.4  61712 /Users/marutyan/.local/share/uv/tools/pytest/bin/python"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 95.0,
+    "load1": 2.79,
+    "swap_used_gb": 5.674619140625
+  },
+  "model_load_s": 0.7635564169613644,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 40.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 92.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 94.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 94.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 91.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 91.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 91.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 90.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 91.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 93.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 92.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 89.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 92.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 94.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 93.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 94.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 93.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 93.0,
+      "load1": 2.79,
+      "swap_used_gb": 5.674619140625
+    }
+  ],
+  "mlx_peak_memory_gb": 2.034406914,
+  "max_rss_gb": 0.919109632,
+  "finished_at": "2026-11-20T09:23:13.058317+00:00",
+  "top_processes_after": [
+    "173  53.3 104400 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "23707  52.0 571536 claude",
+    "53945  42.3  60496 /Users/marutyan/.local/share/uv/tools/pytest/bin/python",
+    "60213  28.1 897568 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "105  11.0   4672 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd",
+    "80852  10.6  59408 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "130   4.2  11728 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds",
+    "340   3.7  14816 /usr/sbin/coreaudiod"
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "conditions": {
+    "commit": "faed4fe6dabcd1db5024364c1bf074769f667951",
+    "selector_comparison": "old is pre-change priority-first, new is score-first with priority only on equal scores",
+    "min_score": 75.0,
+    "max_ranked_candidates": 32,
+    "reported_hit_cutoffs": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "hint_term_limits": [
+      8,
+      16,
+      24,
+      32
+    ],
+    "hint_character_limit": 240,
+    "hint_format": "surface=reading; UTF-8 characters counted as Python string length; newline-separated",
+    "formatter_term_limits": [
+      8,
+      16,
+      24,
+      32
+    ],
+    "unrelated_definition": "selected surface is absent from that utterance's gold terms",
+    "short_interior_definition": "selected non-gold entry has a two-kana reading matching strictly inside a normalized script run",
+    "dictionary": {
+      "v1_sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+      "v2_sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+      "excluded_list_sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+      "entries_after_exclusions": 31332,
+      "excluded_entries_removed": 83
+    },
+    "inputs": {
+      "dev_user_source_sha256": "f6e6984bba39ea79241a451941e21c5461296026db0ba42520950bea58880f0b",
+      "dev_user_first_pass_sha256": "8e84e4f94a8e628cbfa430edeeb2f8dd8e9126a5e4ecb6247ea5711d24c181a2",
+      "test_novel_source_sha256": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+      "test_novel_first_pass_sha256": "d0d29ecbb4351700e9098d0d0de23225cde238de07b4fda62388018188e754d8",
+      "val_source_sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6",
+      "val_first_pass_sha256": "64122926c8dc9a9333d9c8e4a9adb04fab2309e4d9a7313f66228d2b9bc00708"
+    },
+    "selection_time_unit": "milliseconds per utterance, index build excluded, max_entries=32"
+  },
+  "datasets": {
+    "dev-user": {
+      "old": {
+        "selector": "old_priority_first",
+        "utterances": 100,
+        "gold_terms_available": 67,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 52,
+          "8": 59,
+          "16": 59,
+          "32": 59
+        },
+        "hit_rates": {
+          "4": 0.7761194029850746,
+          "8": 0.8805970149253731,
+          "16": 0.8805970149253731,
+          "32": 0.8805970149253731
+        },
+        "unrelated_candidates_at_16": 1255,
+        "unrelated_short_read_strictly_inside_at_16": 4,
+        "selection_ms_median_at_32": 2.920937491580844,
+        "selection_ms_p90_at_32": 11.107933288440108,
+        "index_build_ms": 465.814333059825,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 6.88
+            },
+            "16": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 12.87
+            },
+            "24": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 14.63
+            },
+            "32": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 14.63
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 6.88
+            },
+            "16": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 13.14
+            },
+            "24": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 18.97
+            },
+            "32": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 24.07
+            }
+          }
+        }
+      },
+      "new": {
+        "selector": "new_score_first_with_single_letter_readings",
+        "utterances": 100,
+        "gold_terms_available": 67,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 49,
+          "8": 54,
+          "16": 59,
+          "32": 59
+        },
+        "hit_rates": {
+          "4": 0.7313432835820896,
+          "8": 0.8059701492537313,
+          "16": 0.8805970149253731,
+          "32": 0.8805970149253731
+        },
+        "unrelated_candidates_at_16": 1255,
+        "unrelated_short_read_strictly_inside_at_16": 3,
+        "selection_ms_median_at_32": 2.824270515702665,
+        "selection_ms_p90_at_32": 11.682791006751362,
+        "index_build_ms": 494.8954579886049,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 54,
+              "hit_rate": 0.8059701492537313,
+              "mean_selected_terms": 6.88
+            },
+            "16": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 12.84
+            },
+            "24": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 14.47
+            },
+            "32": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 14.47
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 54,
+              "hit_rate": 0.8059701492537313,
+              "mean_selected_terms": 6.88
+            },
+            "16": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 13.14
+            },
+            "24": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 18.97
+            },
+            "32": {
+              "gold_hits": 59,
+              "hit_rate": 0.8805970149253731,
+              "mean_selected_terms": 24.07
+            }
+          }
+        }
+      }
+    },
+    "test-novel": {
+      "old": {
+        "selector": "old_priority_first",
+        "utterances": 500,
+        "gold_terms_available": 500,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 69,
+          "8": 195,
+          "16": 306,
+          "32": 360
+        },
+        "hit_rates": {
+          "4": 0.138,
+          "8": 0.39,
+          "16": 0.612,
+          "32": 0.72
+        },
+        "unrelated_candidates_at_16": 7301,
+        "unrelated_short_read_strictly_inside_at_16": 8,
+        "selection_ms_median_at_32": 3.2611669739708304,
+        "selection_ms_p90_at_32": 8.249095233622938,
+        "index_build_ms": 466.2378750508651,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 195,
+              "hit_rate": 0.39,
+              "mean_selected_terms": 7.81
+            },
+            "16": {
+              "gold_hits": 303,
+              "hit_rate": 0.606,
+              "mean_selected_terms": 14.914
+            },
+            "24": {
+              "gold_hits": 311,
+              "hit_rate": 0.622,
+              "mean_selected_terms": 16.396
+            },
+            "32": {
+              "gold_hits": 311,
+              "hit_rate": 0.622,
+              "mean_selected_terms": 16.396
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 195,
+              "hit_rate": 0.39,
+              "mean_selected_terms": 7.81
+            },
+            "16": {
+              "gold_hits": 306,
+              "hit_rate": 0.612,
+              "mean_selected_terms": 15.214
+            },
+            "24": {
+              "gold_hits": 345,
+              "hit_rate": 0.69,
+              "mean_selected_terms": 22.046
+            },
+            "32": {
+              "gold_hits": 360,
+              "hit_rate": 0.72,
+              "mean_selected_terms": 28.162
+            }
+          }
+        }
+      },
+      "new": {
+        "selector": "new_score_first_with_single_letter_readings",
+        "utterances": 500,
+        "gold_terms_available": 500,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 226,
+          "8": 303,
+          "16": 341,
+          "32": 364
+        },
+        "hit_rates": {
+          "4": 0.452,
+          "8": 0.606,
+          "16": 0.682,
+          "32": 0.728
+        },
+        "unrelated_candidates_at_16": 7270,
+        "unrelated_short_read_strictly_inside_at_16": 10,
+        "selection_ms_median_at_32": 3.2947705476544797,
+        "selection_ms_p90_at_32": 8.407482737675313,
+        "index_build_ms": 495.81833404954523,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 303,
+              "hit_rate": 0.606,
+              "mean_selected_terms": 7.81
+            },
+            "16": {
+              "gold_hits": 339,
+              "hit_rate": 0.678,
+              "mean_selected_terms": 14.826
+            },
+            "24": {
+              "gold_hits": 340,
+              "hit_rate": 0.68,
+              "mean_selected_terms": 16.228
+            },
+            "32": {
+              "gold_hits": 340,
+              "hit_rate": 0.68,
+              "mean_selected_terms": 16.228
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 303,
+              "hit_rate": 0.606,
+              "mean_selected_terms": 7.81
+            },
+            "16": {
+              "gold_hits": 341,
+              "hit_rate": 0.682,
+              "mean_selected_terms": 15.222
+            },
+            "24": {
+              "gold_hits": 358,
+              "hit_rate": 0.716,
+              "mean_selected_terms": 22.066
+            },
+            "32": {
+              "gold_hits": 364,
+              "hit_rate": 0.728,
+              "mean_selected_terms": 28.216
+            }
+          }
+        }
+      }
+    },
+    "val": {
+      "old": {
+        "selector": "old_priority_first",
+        "utterances": 1000,
+        "gold_terms_available": 1427,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 1084,
+          "8": 1178,
+          "16": 1202,
+          "32": 1204
+        },
+        "hit_rates": {
+          "4": 0.759635599159075,
+          "8": 0.8255080588647512,
+          "16": 0.8423265592151367,
+          "32": 0.8437281009110021
+        },
+        "unrelated_candidates_at_16": 13222,
+        "unrelated_short_read_strictly_inside_at_16": 16,
+        "selection_ms_median_at_32": 2.7834789943881333,
+        "selection_ms_p90_at_32": 8.922933472786099,
+        "index_build_ms": 491.05704203248024,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 1178,
+              "hit_rate": 0.8255080588647512,
+              "mean_selected_terms": 7.507
+            },
+            "16": {
+              "gold_hits": 1202,
+              "hit_rate": 0.8423265592151367,
+              "mean_selected_terms": 14.197
+            },
+            "24": {
+              "gold_hits": 1202,
+              "hit_rate": 0.8423265592151367,
+              "mean_selected_terms": 15.876
+            },
+            "32": {
+              "gold_hits": 1202,
+              "hit_rate": 0.8423265592151367,
+              "mean_selected_terms": 15.876
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 1178,
+              "hit_rate": 0.8255080588647512,
+              "mean_selected_terms": 7.507
+            },
+            "16": {
+              "gold_hits": 1202,
+              "hit_rate": 0.8423265592151367,
+              "mean_selected_terms": 14.424
+            },
+            "24": {
+              "gold_hits": 1204,
+              "hit_rate": 0.8437281009110021,
+              "mean_selected_terms": 20.549
+            },
+            "32": {
+              "gold_hits": 1204,
+              "hit_rate": 0.8437281009110021,
+              "mean_selected_terms": 25.856
+            }
+          }
+        }
+      },
+      "new": {
+        "selector": "new_score_first_with_single_letter_readings",
+        "utterances": 1000,
+        "gold_terms_available": 1427,
+        "gold_terms_not_in_glossary": 0,
+        "hit_counts": {
+          "4": 988,
+          "8": 1070,
+          "16": 1130,
+          "32": 1178
+        },
+        "hit_rates": {
+          "4": 0.6923615977575333,
+          "8": 0.7498248072880168,
+          "16": 0.7918710581639804,
+          "32": 0.8255080588647512
+        },
+        "unrelated_candidates_at_16": 13294,
+        "unrelated_short_read_strictly_inside_at_16": 12,
+        "selection_ms_median_at_32": 2.7606039657257497,
+        "selection_ms_p90_at_32": 9.007037780247629,
+        "index_build_ms": 470.6860830774531,
+        "limit_sensitivity": {
+          "asr_hints_surface_reading_240_chars": {
+            "8": {
+              "gold_hits": 1070,
+              "hit_rate": 0.7498248072880168,
+              "mean_selected_terms": 7.507
+            },
+            "16": {
+              "gold_hits": 1128,
+              "hit_rate": 0.7904695164681149,
+              "mean_selected_terms": 14.209
+            },
+            "24": {
+              "gold_hits": 1142,
+              "hit_rate": 0.8002803083391731,
+              "mean_selected_terms": 15.907
+            },
+            "32": {
+              "gold_hits": 1142,
+              "hit_rate": 0.8002803083391731,
+              "mean_selected_terms": 15.907
+            }
+          },
+          "formatter_terms": {
+            "8": {
+              "gold_hits": 1070,
+              "hit_rate": 0.7498248072880168,
+              "mean_selected_terms": 7.507
+            },
+            "16": {
+              "gold_hits": 1130,
+              "hit_rate": 0.7918710581639804,
+              "mean_selected_terms": 14.424
+            },
+            "24": {
+              "gold_hits": 1160,
+              "hit_rate": 0.8128941836019622,
+              "mean_selected_terms": 20.55
+            },
+            "32": {
+              "gold_hits": 1178,
+              "hit_rate": 0.8255080588647512,
+              "mean_selected_terms": 25.868
+            }
+          }
+        }
+      }
+    }
+  },
+  "test_novel_trace": {
+    "trace_sha256": "d3871027d7d2dfbf3fc68cabcbf7b645a2425b3271018f7e48b0bf3cf9e99768",
+    "utterances": 500,
+    "first_pass_matches_plain": 500,
+    "gold_terms_in_actual_hints": 303,
+    "unrelated_actual_hints": 7141,
+    "selected_hint_count": 7444
+  }
+}

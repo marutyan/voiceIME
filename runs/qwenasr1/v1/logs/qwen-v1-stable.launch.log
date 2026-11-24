@@ -1,0 +1,20 @@
+run=qwen-v1-stable physical_gpu=2
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 3340 examples [00:00, 384597.81 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 200 examples [00:00, 90805.46 examples/s]
+Map (num_proc=1):   0%|          | 0/3340 [00:00<?, ? examples/s]Map (num_proc=1):   6%|▌         | 193/3340 [00:00<00:11, 284.00 examples/s]Map (num_proc=1):  30%|██▉       | 1000/3340 [00:00<00:01, 1494.31 examples/s]Map (num_proc=1):  47%|████▋     | 1576/3340 [00:00<00:00, 2281.60 examples/s]Map (num_proc=1):  63%|██████▎   | 2098/3340 [00:01<00:00, 2891.96 examples/s]Map (num_proc=1):  89%|████████▊ | 2963/3340 [00:01<00:00, 3780.84 examples/s]Map (num_proc=1): 100%|██████████| 3340/3340 [00:01<00:00, 2414.23 examples/s]
+Map (num_proc=1):   0%|          | 0/200 [00:00<?, ? examples/s]Map (num_proc=1): 100%|██████████| 200/200 [00:00<00:00, 342.18 examples/s]Map (num_proc=1): 100%|██████████| 200/200 [00:00<00:00, 283.86 examples/s]
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py:311: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CastFloatInputsTrainer.__init__`. Use `processing_class` instead.
+  trainer = CastFloatInputsTrainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 151645, 'pad_token_id': 151643}.
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [01:36<41:53, 96.66s/it]                                              {'loss': 67.753, 'grad_norm': nan, 'learning_rate': 0.0, 'epoch': 0.04}
+  4%|▎         | 1/27 [01:36<41:53, 96.66s/it]  7%|▋         | 2/27 [02:30<29:47, 71.51s/it]                                              {'loss': 0.0, 'grad_norm': nan, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.08}
+  7%|▋         | 2/27 [02:30<29:47, 71.51s/it]Terminated

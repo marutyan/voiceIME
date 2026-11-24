@@ -1,0 +1,149 @@
+{
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+  "duration_source": "est_seconds",
+  "results": [
+    {
+      "run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/sft1-lfm2.5-1.2b-jp-full.jsonl",
+      "system": "sft1-lfm2.5-1.2b-jp-full",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 200,
+        "evaluated": 200,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 248,
+        "substitutions": 24,
+        "insertions": 136,
+        "deletions": 88,
+        "reference_characters": 9234,
+        "rate": 0.026857266623348496
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 262,
+        "total": 273,
+        "accuracy": 0.9597069597069597,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 5,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 2,
+        "manifest_count": 308,
+        "residual_rate": 0.006493506493506494
+      },
+      "tags": {
+        "self_correction": {
+          "count": 36,
+          "cer": {
+            "edit_errors": 119,
+            "substitutions": 2,
+            "insertions": 84,
+            "deletions": 33,
+            "reference_characters": 1419,
+            "rate": 0.08386187455954898
+          },
+          "exact_matches": 26,
+          "exact_match_rate": 0.7222222222222222,
+          "suspected_responses": null,
+          "manifest_count": 36
+        },
+        "english_phrase": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 15,
+            "substitutions": 3,
+            "insertions": 4,
+            "deletions": 8,
+            "reference_characters": 1018,
+            "rate": 0.014734774066797643
+          },
+          "exact_matches": 16,
+          "exact_match_rate": 0.8,
+          "suspected_responses": null,
+          "manifest_count": 20
+        },
+        "instruction_like": {
+          "count": 20,
+          "cer": {
+            "edit_errors": 62,
+            "substitutions": 5,
+            "insertions": 56,
+            "deletions": 1,
+            "reference_characters": 1015,
+            "rate": 0.061083743842364535
+          },
+          "exact_matches": 15,
+          "exact_match_rate": 0.75,
+          "suspected_responses": 0,
+          "manifest_count": 20
+        },
+        "no_change": {
+          "count": 29,
+          "cer": {
+            "edit_errors": 0,
+            "substitutions": 0,
+            "insertions": 0,
+            "deletions": 0,
+            "reference_characters": 1087,
+            "rate": 0.0
+          },
+          "exact_matches": 29,
+          "exact_match_rate": 1.0,
+          "suspected_responses": null,
+          "manifest_count": 29
+        },
+        "list": {
+          "count": 16,
+          "cer": {
+            "edit_errors": 58,
+            "substitutions": 4,
+            "insertions": 34,
+            "deletions": 20,
+            "reference_characters": 1015,
+            "rate": 0.05714285714285714
+          },
+          "exact_matches": 8,
+          "exact_match_rate": 0.5,
+          "suspected_responses": null,
+          "manifest_count": 16
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 200,
+          "median_s": 0.32008187496103346,
+          "p90_s": 0.5035441206069663
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 26,
+            "median_s": 0.19377593754325062,
+            "p90_s": 0.32463802048005164
+          },
+          "5-15s": {
+            "count": 142,
+            "median_s": 0.3107681875117123,
+            "p90_s": 0.452129025082104
+          },
+          ">15s": {
+            "count": 32,
+            "median_s": 0.4934641455183737,
+            "p90_s": 0.6241563088726253
+          }
+        },
+        "unknown_duration_rows": 0,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}

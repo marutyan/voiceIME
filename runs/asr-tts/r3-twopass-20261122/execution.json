@@ -1,0 +1,140 @@
+{
+  "source_snapshot_commit": "4d083adf85efd3ad29fbab95d6a656fbc44068f0",
+  "main_head_after_run": "5f7225a93f22edd1d951e7b63c98d1a9dca858be",
+  "src_voiceime_changed_after_snapshot": false,
+  "policy": "segment-merge",
+  "merge_min_reading_similarity": 0.8,
+  "device": "faculty H100 through voiceime-queue",
+  "decode": "speech.cpp CUDA encoder with CPU decode (--decode-on-cpu)",
+  "worker_process_name": "voiceime-r3audio-twopass-worker",
+  "worker_layout": {
+    "a_test_novel": {
+      "workers": 24,
+      "threads_each": 3
+    },
+    "b_and_c": {
+      "workers_per_job": 18,
+      "threads_each": 3
+    },
+    "parity": {
+      "workers": 1,
+      "threads_each": 2
+    }
+  },
+  "jobs": [
+    {
+      "job": "05-r3twopass-a-parity-testnovel",
+      "gpu": 2,
+      "return_code": 0,
+      "seconds": 100,
+      "mean_gpu_util_percent": 15.8,
+      "samples": 4
+    },
+    {
+      "job": "05-r3twopass-b-val-oldtrain",
+      "gpu": 2,
+      "return_code": 0,
+      "seconds": 550,
+      "mean_gpu_util_percent": 42.6,
+      "samples": 19
+    },
+    {
+      "job": "05-r3twopass-c-r3train",
+      "gpu": 3,
+      "return_code": 0,
+      "seconds": 824,
+      "mean_gpu_util_percent": 29.1,
+      "samples": 28
+    }
+  ],
+  "total_gpu_seconds": 1474,
+  "total_gpu_hours": 0.40944444444444444,
+  "parity_vs_mac": {
+    "compared_ids": 5,
+    "plain_exact_matches": 5,
+    "plain_char_distance_sum": 0,
+    "twopass_exact_matches": 5,
+    "twopass_char_distance_sum": 0
+  },
+  "test_novel_condition_comparison": {
+    "rows_per_condition": 500,
+    "plain_hyp_same_between_conditions": 500,
+    "twopass_hyp_different_between_conditions": 214,
+    "twopass_char_distance_sum_between_conditions": 1889
+  },
+  "latency_summary_s": {
+    "dev-user-five-parity": {
+      "rows": 5,
+      "speaker_count": 1,
+      "mean_first_pass_latency_s": 0.10308702383190393,
+      "mean_second_pass_latency_s": 0.0738030910026282,
+      "mean_two_pass_latency_s": 0.17689011483453215
+    },
+    "a-test-novel-include-novel": {
+      "rows": 500,
+      "speaker_count": 6,
+      "mean_first_pass_latency_s": 0.22819612042093648,
+      "mean_second_pass_latency_s": 0.2571273958515376,
+      "mean_two_pass_latency_s": 0.48532351627247405
+    },
+    "a-test-novel-exclude-novel": {
+      "rows": 500,
+      "speaker_count": 6,
+      "mean_first_pass_latency_s": 0.23674182292539625,
+      "mean_second_pass_latency_s": 0.2580164060611278,
+      "mean_two_pass_latency_s": 0.49475822898652405
+    },
+    "b-val": {
+      "rows": 1000,
+      "speaker_count": 24,
+      "mean_first_pass_latency_s": 0.19798594626551494,
+      "mean_second_pass_latency_s": 0.22318872636486775,
+      "mean_two_pass_latency_s": 0.4211746726303827
+    },
+    "b-oldtrain": {
+      "rows": 9990,
+      "speaker_count": 24,
+      "mean_first_pass_latency_s": 0.1977702881852575,
+      "mean_second_pass_latency_s": 0.22842260434595707,
+      "mean_two_pass_latency_s": 0.42619289253121456
+    },
+    "c-r3train": {
+      "rows": 12000,
+      "speaker_count": 24,
+      "mean_first_pass_latency_s": 0.22744131358379188,
+      "mean_second_pass_latency_s": 0.26046771961186704,
+      "mean_two_pass_latency_s": 0.48790903319565887
+    }
+  },
+  "rows": {
+    "dev_user_parity": 5,
+    "a_include_novel": 500,
+    "a_exclude_novel": 500,
+    "b_val": 1000,
+    "b_oldtrain": 9990,
+    "c_r3train": 12000
+  },
+  "validation": {
+    "all_eval_files_have_exact_fields": [
+      "id",
+      "system",
+      "stage",
+      "hyp",
+      "latency_s"
+    ],
+    "unique_ids_and_manifest_order": true,
+    "trace_matches_eval_hypotheses_and_latency": true
+  },
+  "test_synth": "not run; the full manifest scan under /home/maru/voiceime-work* found no test-synth audio manifest; only prior hypothesis JSONLs were present under voiceime-work-fr3/repo/runs/asr-tts",
+  "audio_transferred_to_local": false,
+  "own_worker_processes_after_completion": 0,
+  "speechcpp": {
+    "commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+    "ggml_commit": "79b50d239d0b88852814c873db0d85d43ed66d9b",
+    "cuda_toolkit": "12.8.93",
+    "gcc": "13.3.0",
+    "cmake_build_type": "Release",
+    "ggml_cuda": true,
+    "gguf_sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb"
+  }
+}

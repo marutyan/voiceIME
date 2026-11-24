@@ -1,0 +1,13 @@
+{
+  "metadata_videos": 79962,
+  "manual_caption_videos": 5182,
+  "metadata_shards": 108,
+  "excluded_pub_eval_videos": 93,
+  "eligible_videos": 1465,
+  "eligible_clips_after_cap": 27721,
+  "selected_clips": 30000,
+  "selected_videos": 1465,
+  "selected_supplemental_clips": 2279,
+  "selected_audio_ms": 177767470,
+  "selected_shards": 102
+}

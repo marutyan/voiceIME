@@ -1,0 +1,15 @@
+Sat Nov 21 16:09:41 JST 2026
+  PID  %CPU    RSS     ELAPSED COMM
+23707  12.3 532496    23:46:49 claude
+80852  10.2  73440 01-09:08:45 /Applications/Herdr.app/Contents/MacOS/Herdr
+  340   9.5  23008 12-00:42:38 /usr/sbin/coreaudiod
+  173   7.4 160592 12-00:42:41 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  301   6.3  45152 12-00:42:39 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+83974   5.3 130000       33:14 codex
+12120   2.2  23568 11-23:52:58 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService
+  711   1.6  53008 12-00:42:08 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+  166   1.5  15792 12-00:42:41 /usr/sbin/bluetoothd
+  169   1.2   4960 12-00:42:41 /usr/libexec/corebrightnessd
+  150   1.2  15344 12-00:42:41 /usr/libexec/locationd
+{ 2.77 3.28 3.40 }
+total = 3072.00M  used = 1656.00M  free = 1416.00M  (encrypted)

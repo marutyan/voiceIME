@@ -1,0 +1,535 @@
+<<<yomiyasu:material ASR統計 runs/pubdata/metrics.json>>>
+{
+  "split": "pub-eval",
+  "segments": 300,
+  "expected_term_occurrences": 381,
+  "read_aligned_cer_for_caption_check": {
+    "reference_output": "v1_plain",
+    "threshold_exclusive": 0.5,
+    "excluded_segments": 95,
+    "retained_segments": 205,
+    "selection_uses_term_accuracy": false
+  },
+  "glossary_coverage": {
+    "v1": {
+      "raw_entries": 1458,
+      "unique_surfaces_after_exclusion": 1458,
+      "excluded_terms": 0,
+      "expected_occurrences": 381,
+      "covered_occurrences": 177,
+      "occurrence_coverage": 0.4645669291338583,
+      "unique_expected_surfaces": 149,
+      "unique_covered_surfaces": 61
+    },
+    "v1_plus_v2_excluding_terms": {
+      "raw_entries": 32873,
+      "unique_surfaces_after_exclusion": 31332,
+      "excluded_terms": 83,
+      "expected_occurrences": 381,
+      "covered_occurrences": 381,
+      "occurrence_coverage": 1.0,
+      "unique_expected_surfaces": 149,
+      "unique_covered_surfaces": 149
+    }
+  },
+  "conditions": {
+    "v1_plain": {
+      "results_file": "plain-v1.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 7,
+              "loose_correct": 30,
+              "total": 381,
+              "exact_accuracy": 0.01837270341207349,
+              "loose_accuracy": 0.07874015748031496
+            },
+            "english_caption": {
+              "exact_correct": 7,
+              "loose_correct": 12,
+              "total": 348,
+              "exact_accuracy": 0.020114942528735632,
+              "loose_accuracy": 0.034482758620689655
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 18,
+              "total": 33,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.5454545454545454
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4617,
+            "substitutions": 972,
+            "insertions": 607,
+            "deletions": 3038,
+            "reference_characters": 11042,
+            "rate": 0.418130773410614
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.33343732892535627,
+            "p90_s": 0.6096351204439998
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 5,
+              "loose_correct": 26,
+              "total": 263,
+              "exact_accuracy": 0.019011406844106463,
+              "loose_accuracy": 0.09885931558935361
+            },
+            "english_caption": {
+              "exact_correct": 5,
+              "loose_correct": 9,
+              "total": 238,
+              "exact_accuracy": 0.02100840336134454,
+              "loose_accuracy": 0.037815126050420166
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 17,
+              "total": 25,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.68
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 930,
+            "substitutions": 362,
+            "insertions": 192,
+            "deletions": 376,
+            "reference_characters": 7364,
+            "rate": 0.1262900597501358
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.32672559516504407,
+            "p90_s": 0.6014489848632365
+          }
+        }
+      }
+    },
+    "v1_segment_merge": {
+      "results_file": "two-pass-v1-segment-merge.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 84,
+              "loose_correct": 103,
+              "total": 381,
+              "exact_accuracy": 0.2204724409448819,
+              "loose_accuracy": 0.27034120734908135
+            },
+            "english_caption": {
+              "exact_correct": 80,
+              "loose_correct": 83,
+              "total": 348,
+              "exact_accuracy": 0.22988505747126436,
+              "loose_accuracy": 0.23850574712643677
+            },
+            "katakana_caption": {
+              "exact_correct": 4,
+              "loose_correct": 20,
+              "total": 33,
+              "exact_accuracy": 0.12121212121212122,
+              "loose_accuracy": 0.6060606060606061
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4637,
+            "substitutions": 989,
+            "insertions": 614,
+            "deletions": 3034,
+            "reference_characters": 11042,
+            "rate": 0.41994203948560044
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.5921412212774158,
+            "p90_s": 1.1031089721247564
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 78,
+              "loose_correct": 96,
+              "total": 263,
+              "exact_accuracy": 0.2965779467680608,
+              "loose_accuracy": 0.3650190114068441
+            },
+            "english_caption": {
+              "exact_correct": 74,
+              "loose_correct": 77,
+              "total": 238,
+              "exact_accuracy": 0.31092436974789917,
+              "loose_accuracy": 0.3235294117647059
+            },
+            "katakana_caption": {
+              "exact_correct": 4,
+              "loose_correct": 19,
+              "total": 25,
+              "exact_accuracy": 0.16,
+              "loose_accuracy": 0.76
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 947,
+            "substitutions": 375,
+            "insertions": 199,
+            "deletions": 373,
+            "reference_characters": 7364,
+            "rate": 0.12859858772406302
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.6425633640028536,
+            "p90_s": 1.1866992807481438
+          }
+        }
+      }
+    },
+    "v1v2_plain": {
+      "results_file": "plain-v1v2-excluded83.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 7,
+              "loose_correct": 30,
+              "total": 381,
+              "exact_accuracy": 0.01837270341207349,
+              "loose_accuracy": 0.07874015748031496
+            },
+            "english_caption": {
+              "exact_correct": 7,
+              "loose_correct": 12,
+              "total": 348,
+              "exact_accuracy": 0.020114942528735632,
+              "loose_accuracy": 0.034482758620689655
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 18,
+              "total": 33,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.5454545454545454
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4617,
+            "substitutions": 972,
+            "insertions": 607,
+            "deletions": 3038,
+            "reference_characters": 11042,
+            "rate": 0.418130773410614
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.4017476685112342,
+            "p90_s": 0.6579399703769014
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 5,
+              "loose_correct": 26,
+              "total": 263,
+              "exact_accuracy": 0.019011406844106463,
+              "loose_accuracy": 0.09885931558935361
+            },
+            "english_caption": {
+              "exact_correct": 5,
+              "loose_correct": 9,
+              "total": 238,
+              "exact_accuracy": 0.02100840336134454,
+              "loose_accuracy": 0.037815126050420166
+            },
+            "katakana_caption": {
+              "exact_correct": 0,
+              "loose_correct": 17,
+              "total": 25,
+              "exact_accuracy": 0.0,
+              "loose_accuracy": 0.68
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 930,
+            "substitutions": 362,
+            "insertions": 192,
+            "deletions": 376,
+            "reference_characters": 7364,
+            "rate": 0.1262900597501358
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.40029628900811076,
+            "p90_s": 0.648057433310896
+          }
+        }
+      }
+    },
+    "v1v2_segment_merge": {
+      "results_file": "two-pass-v1v2-excluded83-segment-merge.jsonl",
+      "metrics": {
+        "all": {
+          "segments": 300,
+          "terms": {
+            "all": {
+              "exact_correct": 135,
+              "loose_correct": 147,
+              "total": 381,
+              "exact_accuracy": 0.3543307086614173,
+              "loose_accuracy": 0.3858267716535433
+            },
+            "english_caption": {
+              "exact_correct": 125,
+              "loose_correct": 127,
+              "total": 348,
+              "exact_accuracy": 0.35919540229885055,
+              "loose_accuracy": 0.3649425287356322
+            },
+            "katakana_caption": {
+              "exact_correct": 10,
+              "loose_correct": 20,
+              "total": 33,
+              "exact_accuracy": 0.30303030303030304,
+              "loose_accuracy": 0.6060606060606061
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 4647,
+            "substitutions": 998,
+            "insertions": 618,
+            "deletions": 3031,
+            "reference_characters": 11042,
+            "rate": 0.42084767252309363
+          },
+          "latency_s": {
+            "count": 300,
+            "median_s": 0.7111117616295815,
+            "p90_s": 1.2435011942638086
+          }
+        },
+        "retained_after_cer_filter": {
+          "segments": 205,
+          "terms": {
+            "all": {
+              "exact_correct": 128,
+              "loose_correct": 139,
+              "total": 263,
+              "exact_accuracy": 0.4866920152091255,
+              "loose_accuracy": 0.5285171102661597
+            },
+            "english_caption": {
+              "exact_correct": 118,
+              "loose_correct": 120,
+              "total": 238,
+              "exact_accuracy": 0.4957983193277311,
+              "loose_accuracy": 0.5042016806722689
+            },
+            "katakana_caption": {
+              "exact_correct": 10,
+              "loose_correct": 19,
+              "total": 25,
+              "exact_accuracy": 0.4,
+              "loose_accuracy": 0.76
+            }
+          },
+          "read_aligned_cer": {
+            "edit_errors": 955,
+            "substitutions": 382,
+            "insertions": 200,
+            "deletions": 373,
+            "reference_characters": 7364,
+            "rate": 0.1296849538294405
+          },
+          "latency_s": {
+            "count": 205,
+            "median_s": 0.7928507456090301,
+            "p90_s": 1.293932327115908
+          }
+        }
+      }
+    }
+  }
+}
+<<<yomiyasu:material 実行条件 runs/pubdata/run-metadata.json>>>
+{
+  "experiment_date": "2026-11-22",
+  "source_commit": "3c0ab77d2ca031adb718fea3bf2d72f4cd7b5cbd",
+  "manifest": {
+    "local_path": "data/pubdata/pub-eval.jsonl",
+    "faculty_path": "/home/maru/voiceime-work-pubdata/final-manifest/pub-eval.jsonl",
+    "sha256": "be097a4fabf5bd8f8a34ac4908f715416f8e2070e4b0d9b9b6bf4677553367c9",
+    "segments": 300,
+    "expected_term_occurrences": 381
+  },
+  "asr": {
+    "system": "haas-ja-v1.0-speechcpp-q8_0",
+    "model_file": "Haas-616M-ja-v1.0-Q8_0.gguf",
+    "speech_cpp_version": "0.11.0",
+    "device": "cpu",
+    "workers": 4,
+    "threads_per_worker": 8,
+    "two_pass_policy": "segment-merge",
+    "segment_merge_min_reading_similarity": 0.8,
+    "hint_selection": {
+      "candidate_selector": "voiceime.formatter.glossary.select_glossary",
+      "minimum_score": 75,
+      "maximum_candidates": 20,
+      "hint_builder": "voiceime.engine.asr_hints",
+      "maximum_hints": 16,
+      "maximum_hint_characters": 240
+    },
+    "faculty_model_path": "/home/maru/voiceime-work-asr/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-Q8_0.gguf",
+    "source_overlay_notes": "commit 3c0ab77のsrc/voiceimeをtask作業場所へコピー。speech.cpp実行ファイルとモデルのhost path、CPU device引数、worker名だけをfaculty環境用に変更し、engineと評価metricの実装は変更していない。"
+  },
+  "glossaries": {
+    "v1_raw_entries": 1458,
+    "v2_raw_entries": 31415,
+    "excluded_terms": 83,
+    "v1_plus_v2_merged_surface_entries_after_exclusion": 31332,
+    "v1_expected_term_coverage": 177,
+    "v1_plus_v2_expected_term_coverage": 381,
+    "v1_faculty_path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+    "v2_faculty_path": "/home/maru/voiceime-work-pubdata/glossary-v2.jsonl",
+    "excluded_terms_faculty_path": "/home/maru/voiceime-work-pubdata/glossary-v2-excluded.txt"
+  },
+  "execution": {
+    "faculty_started_at": "2026-11-22T06:46:50+09:00",
+    "faculty_completed_at": "2026-11-22T06:52:13+09:00",
+    "v1_batch_seconds": 59,
+    "v1_plus_v2_batch_seconds": 263,
+    "initial_attempt": "Pythonのexec -aによりvenvの解決先が外れ、soundfile import時に停止。音声認識開始前に起きたため、通常のvenv起動へ直して全件を再実行。",
+    "remaining_task_processes_after_completion": 0,
+    "host": "faculty",
+    "result_directory": "/home/maru/voiceime-work-pubdata/asr-results/2026-11-22-cpu-segment-merge"
+  },
+  "caption_filter": {
+    "reference_output": "v1_plain",
+    "threshold_exclusive": 0.5,
+    "excluded_segments": 95,
+    "retained_segments": 205,
+    "selection_uses_term_accuracy": false
+  },
+  "local_files": {
+    "runs/pubdata/plain-v1.jsonl": {
+      "bytes": 62917,
+      "sha256": "c727b242b62b3a46bc8e2b1080da1aef1b6f4c170387cd8e58c8060259caa52e",
+      "rows": 300
+    },
+    "runs/pubdata/two-pass-v1-segment-merge.jsonl": {
+      "bytes": 65171,
+      "sha256": "f71920531921895d99628b4eb22e8a0e4ded0230a09b7b82e59ad7551449bd7e",
+      "rows": 300
+    },
+    "runs/pubdata/plain-v1v2-excluded83.jsonl": {
+      "bytes": 62890,
+      "sha256": "212647b1c815a8bdd8ee8a7d675a308c9875adc6aea4dd6d9ff227af80b63c73",
+      "rows": 300
+    },
+    "runs/pubdata/two-pass-v1v2-excluded83-segment-merge.jsonl": {
+      "bytes": 64997,
+      "sha256": "fde21536f9ad8f073bb5e71b103a8b171a87fa06ee76da5479df3dbd2b9f79af",
+      "rows": 300
+    },
+    "runs/pubdata/high-cer-exclusions.jsonl": {
+      "bytes": 43213,
+      "sha256": "cdbfda6b8a3ecd0dc5d6ce7a2624cef8519a4cdc1d1fd44e9f280b43f3f8be8d",
+      "rows": 95
+    },
+    "runs/pubdata/metrics.json": {
+      "bytes": 11196,
+      "sha256": "e9423f2f8e764a4e653641566c82a5d573f310109eef4dc6bdb69f3858e27d7b",
+      "rows": null
+    }
+  },
+  "asr_and_metric_files_bytes_excluding_this_metadata": 310384,
+  "local_artifact_directory": "runs/pubdata"
+}
+<<<yomiyasu:material CERと用語正答率の定義 (docs/PLAN.md:49-52)>>>
+- **CER**：Unicode NFKC正規化、英字の小文字化、句読点と空白の除去を行った後の、文字単位の編集距離÷正解の文字数。2026-11-22から、同じ語の書き方の違い（「パーセント」と「%」、「とき」と「時」）は誤りに数えない（本人の承認。一覧は`src/voiceime/eval/metrics.py`の`CER_EQUIVALENT_FORMS`）。整形の出力は、数字の直後の「パーセント」を「%」で書く（本人の希望。`src/voiceime/formatter/style.py`）。
+- **ASR単体のCER**：正解は`spoken_text`とする。ただし用語をカタカナで書くか英字で書くかの差で値が変わらないよう、正解と出力の両方で、その行の`glossary`の`surface`（大文字小文字を区別しない）を最初の`readings`へ置き換えてからCERを計算する（「読み揃えCER」）。整形後（`stage: e2e`）のCERは`target_text`を正解とし、読み揃えはしない。
+- **用語の正答率**：正解文に含まれる用語のうち、出力に正確な表記（大文字小文字を含む）で現れた割合。ASR単体の評価では、カタカナ読みでの一致を「緩い正答率」として別に出す。
+- **見えない用語の正答率**：推論時に用語集から除いた語（`--exclude-terms`で指定し、ASRのヒントにも整形LLMの参考にも渡さない語）だけを対象にした用語の正答率。正解文の`terms`に現れる語からseed 0で30%を選んで一覧を作り、評価（`voiceime.eval.report --unseen-terms`）では「見えない用語」と「それ以外」に分けて同じ定義（厳密表記、ASR単体では緩い正答率も併記）で算出する。
+<<<yomiyasu:material two-pass policyとsegment-mergeしきい値 (src/voiceime/engine/__init__.py:45-49)>>>
+# two-passの再認識結果の選び方。既定のalwaysは従来の出力を保つ。
+TWO_PASS_POLICIES = ("always", "reading-near", "no-farther", "segment-merge")
+# 区間の元文字列と候補語の読みを比べる正規化Levenshtein類似度の下限。
+# valで0.60〜0.80を整形まで通して比べ、CERが最も低い0.80を選んだ（docs/experiments/2026-11-22-segment-merge.md）。
+SEGMENT_MERGE_MIN_READING_SIMILARITY = 0.80
+<<<yomiyasu:material two-passの候補選択と再認識 (src/voiceime/engine/__init__.py:913-944)>>>
+    if two_pass_policy not in TWO_PASS_POLICIES:
+        raise ValueError(f"two_pass_policyが不正: {two_pass_policy}")
+    first_pass = transcriber.transcribe(audio, None)
+    if not isinstance(first_pass.text, str):
+        raise TypeError("ASRの結果textは文字列ではない")
+    selected_from_speech = select_glossary(first_pass.text, glossary)
+    if not selected_from_speech:
+        return first_pass, first_pass
+    all_candidates = [*(screen_glossary or []), *selected_from_speech]
+    hints = asr_hints(all_candidates, hint_format)
+    if not hints:
+        return first_pass, first_pass
+    entries_by_surface: dict[str, GlossaryEntry] = {}
+    for entry in all_candidates:
+        entries_by_surface.setdefault(entry.surface, entry)
+    hinted_entries = [
+        entries_by_surface[term.surface]
+        for term in hints
+        if term.surface in entries_by_surface
+    ]
+    if two_pass_policy == "reading-near" and max(
+        (score_entry_readings(entry, first_pass.text) for entry in hinted_entries),
+        default=0.0,
+    ) < DEFAULT_MIN_SCORE:
+        return first_pass, first_pass
+
+    second_pass = transcriber.transcribe(audio, hints)
+    if two_pass_policy == "segment-merge":
+        merged = merge_two_pass_text(
+            first_pass.text, second_pass.text, hinted_entries
+        )
+        return first_pass, replace(second_pass, text=merged.text)
+<<<yomiyasu:material 候補選択の上限と類似度しきい値 (src/voiceime/formatter/glossary.py:23-26)>>>
+# プロンプトへ渡す用語の最大件数。件数が増えるほど整形の入力が長くなり遅くなる。
+DEFAULT_MAX_ENTRIES = 20
+# 部分一致の類似度（0〜100）の下限。4文字の読みで1文字違い（75）までを拾う値にしている。
+DEFAULT_MIN_SCORE = 75.0
+<<<yomiyasu:material 用語候補の選び方 (src/voiceime/formatter/glossary.py:456-467)>>>
+def select_glossary(
+    text: str,
+    entries: list[GlossaryEntry],
+    max_entries: int = DEFAULT_MAX_ENTRIES,
+    min_score: float = DEFAULT_MIN_SCORE,
+) -> list[GlossaryEntry]:
+    """ASRの出力`text`に近い語を類似度の高い順に最大`max_entries`件選ぶ。同点は用語集の順を保つ。"""
+    kana_runs = _text_runs(text, "kana", ignore_long_vowel=True)
+    latin_runs = _text_runs(text, "latin")
+    scored = [(score_entry(entry, text, kana_runs, latin_runs), i, entry) for i, entry in enumerate(entries)]
+    kept = sorted((s for s in scored if s[0] >= min_score), key=lambda s: (-s[0], s[1]))
+    return [e for _, _, e in kept[:max_entries]]
+<<<yomiyasu:material ASR hintの上限 (src/voiceime/engine/__init__.py:959-967)>>>
+def asr_hints(glossary: list[GlossaryEntry], hint_format: str) -> list[Term] | None:
+    """用語のsurfaceと最初のreadingを最大16語・240文字までASRへ渡す。"""
+    hints: list[Term] = []
+    for entry in glossary:
+        if any(term.surface == entry.surface for term in hints) or len(hints) >= ASR_GLOSSARY_MAX_TERMS:
+            continue
+        reading = entry.readings[0] if entry.readings else ""
+        if hint_format == "surface-reading" and not reading:
+            continue

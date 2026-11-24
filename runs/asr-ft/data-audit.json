@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "train-synthetic": 56953,
+    "train-mixed": 71468,
+    "val": 1000,
+    "test-novel": 500,
+    "real-eval": 500,
+    "pub-eval": 300
+  },
+  "synthetic_input": 56970,
+  "synthetic_excluded": 17,
+  "excluded_surface_rows": {
+    "k-means": 6,
+    "ini": 5,
+    "aot": 6
+  },
+  "novel_in_train": 0,
+  "train_eval_id_overlap": 0,
+  "train_eval_path_overlap": 0,
+  "pub_eval_video_overlap": 0,
+  "real_split_seed": 0,
+  "source_sha256": {
+    "synth_existing": "6ce5ea823cb70ca26cbf692c42815bb64ceedd4c979c9af6aa8eec6e4cf8c96e",
+    "synth_topup": "a2861110639f5feb6cf09b4f4930b099984a8f17a87732db45456e59d88218c4",
+    "val": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6",
+    "test-novel": "d3500fd1402cc1d3f58ffa0de804727a3e90b68402f9ba5c74f4a245431699d4",
+    "pub-eval": "be097a4fabf5bd8f8a34ac4908f715416f8e2070e4b0d9b9b6bf4677553367c9",
+    "real": "2bfcf49eefd9102b79d5a72dad6a69b4b8898a40635afa6189d4dd2488e9204b",
+    "novel_exclusions": "dc14daa8ed0604799ea5d03362c13342da759cb7b07957c2a2f8bb6454bff7d3",
+    "train_exclusions": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f",
+    "asr_existing": "c4c6052d5a324d54a18d0e96f7d22c6bb41d7c5408f50ecbc3f2fe59d0b3087b",
+    "asr_topup": "37a238ef358f67a864a704d341f63b15c1e626315925d5cb38be95f8a6082501",
+    "real_audio_shard-00": "d52e19e1e02e5ddd36c071a0c47c26e8d93262b20de149dffc527174e672d13e",
+    "real_audio_shard-01": "817f94aa41d31da232ed4170d4966a4bc6c79b0803492e93c31611fa44e7876e",
+    "real_audio_shard-02": "efb0c9a9bf293bce337cf72f6dccaa965b6e92c164ad11b1701584b3382b51bd",
+    "real_audio_shard-03": "4f2a23b0606b09045f35dd4b093042fcf96fd484b5c3f8bcc14275765dd99d96"
+  },
+  "prepared_sha256": {
+    "train-synthetic": "1d0b3cc516604d7c03e5286636b999b6bd84cf42f9aeef27102b50422febb089",
+    "train-mixed": "f67a6165d6deeca6dce9de17bd17fdecebf806bf5ac32f438cb1a8c7ea1ef628",
+    "val": "2a70bc298ca92a56133f42482923246e2ab3c2eb3a28b0cc2c27d6f6c4911422",
+    "test-novel": "0124f2edb53406eaeff6bd198a47f2d4632a8990b60c2de140f755ea7c0761f7",
+    "real-eval": "687cd04c620b22495a3d202708611aa18bc272dc22dd904cacb2cf5faea528ec",
+    "pub-eval": "cb4522ed8156b9f473c39fcec02a37d70c760f8cfc93e21b2ada40b459b156cb"
+  }
+}

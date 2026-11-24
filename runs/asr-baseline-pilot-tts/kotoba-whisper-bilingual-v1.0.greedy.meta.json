@@ -1,0 +1,153 @@
+{
+  "system": "kotoba-whisper-bilingual-v1.0.greedy",
+  "model": "kotoba-whisper-bilingual-v1.0",
+  "backend": "mlx-whisper",
+  "source": "/Users/marutyan/PrivateDev/voiceIME/models/asr/kotoba-whisper-bilingual-v1.0",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "f54481b68dd9698159a154cf49e67b223a89fe1e",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:21:54.093223+00:00",
+  "top_processes_before": [
+    "142  68.2   6576 /usr/libexec/opendirectoryd",
+    "173  45.7  98688 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "49429  23.1  15008 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd",
+    "23707  17.5 507328 claude",
+    "57820  12.6  30560 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "80852   8.7  58608 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "57814   4.5  26384 uv",
+    "340   3.1  20192 /usr/sbin/coreaudiod"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 97.0,
+    "load1": 3.2,
+    "swap_used_gb": 5.674619140625
+  },
+  "model_load_s": 1.265418375027366,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 87.0,
+      "load1": 3.2,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 99.0,
+      "load1": 3.2,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 98.0,
+      "load1": 3.2,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 98.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 99.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 98.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 99.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 99.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 99.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 99.0,
+      "load1": 3.42,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 99.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 98.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 98.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 98.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 98.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 99.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 99.0,
+      "load1": 3.23,
+      "swap_used_gb": 5.674619140625
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 99.0,
+      "load1": 3.29,
+      "swap_used_gb": 5.674619140625
+    }
+  ],
+  "mlx_peak_memory_gb": 2.35240449,
+  "max_rss_gb": 1.729282048,
+  "finished_at": "2026-11-20T09:22:08.921909+00:00",
+  "top_processes_after": [
+    "173  50.2 101936 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "80852  11.1  60416 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "23707   4.7 537136 claude",
+    "340   4.0  20192 /usr/sbin/coreaudiod",
+    "57820   3.5 1688752 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "301   1.8  43728 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "86643   1.8  43536 /Applications/Muse.app/Contents/MacOS/Muse",
+    "53945   1.6  58368 /Users/marutyan/.local/share/uv/tools/pytest/bin/python"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "coverage": "partial_available_audio_only",
+  "documented_full_train_rows": 56971,
+  "available_train_rows": 12000,
+  "unavailable_train_audio_rows": 44971,
+  "available_val_rows": 1000,
+  "shard_count": 3,
+  "batch_size": 32,
+  "sort": "global descending WAV duration; round-robin across three shards",
+  "train_manifest": {
+    "path": "/home/maru/voiceime-work-tts/outputs/r3-train-20261122/manifest.jsonl",
+    "sha256": "6ce5ea823cb70ca26cbf692c42815bb64ceedd4c979c9af6aa8eec6e4cf8c96e",
+    "rows": 12000
+  },
+  "val_manifest": {
+    "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/data/tts/val/manifest.jsonl",
+    "sha256": "89d96b02e9fa064b9b93f8c6ea21cea87fb19acc7b04aa26965661f7cb0424b6",
+    "rows": 1000
+  },
+  "haas_plain": {
+    "train": {
+      "path": "/home/maru/voiceime-work-asr/r3-train-20261122/train-plain.jsonl",
+      "sha256": "65305aaa5df19146eafbfbe7f0a2eb5abc5099e8435fec257a65c863a05d37d2"
+    },
+    "val": {
+      "path": "/home/maru/voiceime-work-asr/r3-twopass-20261122/outputs/b-val-plain.jsonl",
+      "sha256": "da06a7367f16244c3abd69dddd5087c5ffb6e8567412166100145ff77fc5ee4a"
+    }
+  },
+  "id_counts": {
+    "train": {
+      "rows": 12000,
+      "unique_ids": 12000
+    },
+    "val": {
+      "rows": 1000,
+      "unique_ids": 1000
+    }
+  },
+  "main_source_commit": "cab8b886084c42935227c904027dd790d0df17af",
+  "main_source_archive_sha256": "40ce43534a41d8d116dfd3dfbce12f393f462b8cbb18ecaca239ac276c7cc585",
+  "speech_cpp_commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+  "ggml_commit": "79b50d239d0b88852814c873db0d85d43ed66d9b",
+  "model": {
+    "repo_id": "Qwen/Qwen3-ASR-0.6B",
+    "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+    "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+  },
+  "speech_model": {
+    "path": "/home/maru/voiceime-work-asr/models/asr/haas-ja-v1.0-gguf/Haas-616M-ja-v1.0-Q8_0.gguf",
+    "sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb",
+    "speech_cpp_commit": "8d18924cd238b87c0297df112f7ff40783a6414f",
+    "ggml_commit": "79b50d239d0b88852814c873db0d85d43ed66d9b"
+  },
+  "glossary": {
+    "v1": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "v2": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary-v2.jsonl",
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+    },
+    "excluded": {
+      "path": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-plus-heldout.txt",
+      "sha256": "a9d1cc6d40475a2adb984cc28ad4a82fe6f8c7c9b46207ada61e2959c145da6f",
+      "unique_surface_count": 6437
+    },
+    "candidate_surface_count_after_exclusions": 24978
+  },
+  "selection": {
+    "source": "src/voiceime/formatter/glossary.py select_glossary on main",
+    "selection_text": "Haas first-pass hypothesis + newline + Qwen0.6B first-pass hypothesis",
+    "haas_hint_cap": "engine.asr_hints: 16 terms / 240 characters",
+    "formatter_glossary_cap": 20,
+    "two_pass_policy": "segment-merge",
+    "merge_min_reading_similarity": 0.8
+  },
+  "execution": {
+    "jobs": [
+      {
+        "shard": 0,
+        "rows": 4334,
+        "cuda_visible_devices": "2",
+        "qwen": {
+          "rows": 4334,
+          "elapsed_s": 809.1922570490278,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "2",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 4334,
+          "elapsed_s": 896.0543733048253,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "2",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 1720.8208474549465,
+        "outputs": {
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/qwen06-firstpass-shard-00.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/combined-shard-00.jsonl"
+        }
+      },
+      {
+        "shard": 1,
+        "rows": 4333,
+        "cuda_visible_devices": "3",
+        "qwen": {
+          "rows": 4333,
+          "elapsed_s": 807.280382034136,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "3",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 4333,
+          "elapsed_s": 896.1762575311586,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "3",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 1713.7874508281238,
+        "outputs": {
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/qwen06-firstpass-shard-01.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/combined-shard-01.jsonl"
+        }
+      },
+      {
+        "shard": 2,
+        "rows": 4333,
+        "cuda_visible_devices": "1",
+        "qwen": {
+          "rows": 4333,
+          "elapsed_s": 898.3622300769202,
+          "latency_s_definition": "Qwen batch inference wall time divided by the batch item count; audio loading excluded",
+          "batch_size": 32,
+          "model": {
+            "repo_id": "Qwen/Qwen3-ASR-0.6B",
+            "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+            "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+          },
+          "torch": "2.11.0+cu128",
+          "gpu": "NVIDIA H100",
+          "cuda_visible_devices": "1",
+          "reused": false
+        },
+        "twopass": {
+          "rows": 4333,
+          "elapsed_s": 907.0068134160247,
+          "workers": 18,
+          "threads_per_worker": 2,
+          "gpu": "1",
+          "policy": "segment-merge",
+          "merge_min_reading_similarity": 0.8,
+          "reused": false
+        },
+        "elapsed_s": 1815.8283369899727,
+        "outputs": {
+          "qwen": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/qwen06-firstpass-shard-02.jsonl",
+          "combined": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/combined-shard-02.jsonl"
+        }
+      }
+    ],
+    "queue_util": {
+      "35-r3multi-train-qwen06-haas-shard-00": "gpu=2 rc=0 seconds=1724 mean_util=7.9 samples=58",
+      "35-r3multi-train-qwen06-haas-shard-01": "gpu=3 rc=0 seconds=1717 mean_util=10.0 samples=57",
+      "35-r3multi-train-qwen06-haas-shard-02": "gpu=1 rc=0 seconds=1819 mean_util=9.1 samples=61"
+    },
+    "batch_size": 32,
+    "sort_and_sharding": "descending duration then stable ID; round-robin over 3 queue jobs",
+    "environment_versions": {
+      "qwen-asr": "0.0.6",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "huggingface-hub": "0.36.2",
+      "accelerate": "1.12.0",
+      "soundfile": "0.14.0",
+      "safetensors": "0.8.0"
+    }
+  },
+  "results": {
+    "train": {
+      "rows": 12000,
+      "unique_ids": 12000,
+      "missing_ids": 0,
+      "target_term_instances": 19220,
+      "formatter_glossary_exact_surface_hits": 13247,
+      "formatter_glossary_exact_surface_rate": 0.6892299687825182,
+      "formatter_glossary_casefold_surface_hits": 13247,
+      "formatter_glossary_casefold_surface_rate": 0.6892299687825182,
+      "rows_with_target_terms": 10207,
+      "rows_with_any_exact_target_term_in_glossary": 8721,
+      "row_hit_rate": 0.72675,
+      "qwen06_item_latency_mean_s": 0.19573948075463746,
+      "qwen06_item_latency_median_s": 0.12310727184376447,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/train-available-12000.jsonl",
+      "output_bytes": 49204812,
+      "output_sha256": "c4c6052d5a324d54a18d0e96f7d22c6bb41d7c5408f50ecbc3f2fe59d0b3087b"
+    },
+    "val": {
+      "rows": 1000,
+      "unique_ids": 1000,
+      "missing_ids": 0,
+      "target_term_instances": 1427,
+      "formatter_glossary_exact_surface_hits": 1310,
+      "formatter_glossary_exact_surface_rate": 0.918009810791871,
+      "formatter_glossary_casefold_surface_hits": 1310,
+      "formatter_glossary_casefold_surface_rate": 0.918009810791871,
+      "rows_with_target_terms": 850,
+      "rows_with_any_exact_target_term_in_glossary": 813,
+      "row_hit_rate": 0.813,
+      "qwen06_item_latency_mean_s": 0.15722617241570935,
+      "qwen06_item_latency_median_s": 0.11516037982801208,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/val-1000.jsonl",
+      "output_bytes": 3805532,
+      "output_sha256": "79810cff789919c4dffb9e0858c896143273ed85d80ead6e4ed2f5ccab0f59b7"
+    }
+  },
+  "integrity": {
+    "train": {
+      "rows": 12000,
+      "unique_ids": 12000,
+      "missing_ids": 0,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/train-available-12000.jsonl"
+    },
+    "val": {
+      "rows": 1000,
+      "unique_ids": 1000,
+      "missing_ids": 0,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-train-20261123/outputs/val-1000.jsonl"
+    }
+  }
+}

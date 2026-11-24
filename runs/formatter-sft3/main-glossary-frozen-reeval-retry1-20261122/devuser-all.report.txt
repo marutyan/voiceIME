@@ -1,0 +1,760 @@
+| 系統 | stage | 件数 | CER（ASRは読み揃え、E2Eはtarget） | 読み揃え前CER（ASR） | 用語正答率 | 緩い正答率（ASR） | 話していない用語の挿入数（ASR: spoken_textのsurface/readings、E2E: target_textのterms基準） | フィラー残存率 | 遅延中央値 / p90 (秒) | 長さ不明で音声長別遅延から除外 | ≤5秒 中央値 / p90 | 5–15秒 中央値 / p90 | >15秒 中央値 / p90 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| devuser-sel2+sft2-qwen | e2e | 50/50 | 102/2325 (4.39%; 置換 32、挿入 38、削除 32) | — | 60/67 (89.55%) | — | 1 | 1/98 (1.02%) | 0.602 / 0.770 | 50 | — / — | — / — | — / — |
+| devuser-s-50 | e2e | 50/50 | 129/2325 (5.55%; 置換 31、挿入 50、削除 48) | — | 59/67 (88.06%) | — | 1 | 1/98 (1.02%) | 0.548 / 0.705 | 50 | — / — | — / — | — / — |
+| devuser-s-50 | e2e | 50/50 | 137/2325 (5.89%; 置換 31、挿入 43、削除 63) | — | 58/67 (86.57%) | — | 1 | 0/98 (0.00%) | 0.531 / 0.703 | 50 | — / — | — / — | — / — |
+| devuser-s-50 | e2e | 50/50 | 139/2325 (5.98%; 置換 36、挿入 51、削除 52) | — | 59/67 (88.06%) | — | 1 | 0/98 (0.00%) | 0.528 / 0.709 | 50 | — / — | — / — | — / — |
+| devuser-s-50 | e2e | 50/50 | 105/2325 (4.52%; 置換 26、挿入 49、削除 30) | — | 61/67 (91.04%) | — | 1 | 0/98 (0.00%) | 0.544 / 0.710 | 50 | — / — | — / — | — / — |
+
+タグ別集計
+| 系統 | stage | tag | 件数（評価/manifest） | CER | 正規化後完全一致率 | 応答の疑い |
+| --- | --- | --- | --- | --- | --- | --- |
+| devuser-sel2+sft2-qwen | e2e | english_phrase | 10/10 | 20/437 (4.58%; 置換 5、挿入 8、削除 7) | 4/10 (40.00%) | — |
+| devuser-sel2+sft2-qwen | e2e | instruction_like | 11/11 | 33/511 (6.46%; 置換 9、挿入 16、削除 8) | 2/11 (18.18%) | 0 |
+| devuser-sel2+sft2-qwen | e2e | list | 11/11 | 30/653 (4.59%; 置換 11、挿入 10、削除 9) | 3/11 (27.27%) | — |
+| devuser-sel2+sft2-qwen | e2e | no_change | 8/8 | 1/367 (0.27%; 置換 0、挿入 1、削除 0) | 7/8 (87.50%)（無変更の保持） | — |
+| devuser-sel2+sft2-qwen | e2e | self_correction | 8/8 | 31/390 (7.95%; 置換 8、挿入 18、削除 5) | 2/8 (25.00%)（言い直しの正答率） | — |
+| devuser-s-50 | e2e | english_phrase | 10/10 | 11/437 (2.52%; 置換 1、挿入 2、削除 8) | 6/10 (60.00%) | — |
+| devuser-s-50 | e2e | instruction_like | 11/11 | 48/511 (9.39%; 置換 11、挿入 33、削除 4) | 3/11 (27.27%) | 1 |
+| devuser-s-50 | e2e | list | 11/11 | 25/653 (3.83%; 置換 7、挿入 10、削除 8) | 6/11 (54.55%) | — |
+| devuser-s-50 | e2e | no_change | 8/8 | 5/367 (1.36%; 置換 2、挿入 1、削除 2) | 5/8 (62.50%)（無変更の保持） | — |
+| devuser-s-50 | e2e | self_correction | 8/8 | 70/390 (17.95%; 置換 7、挿入 40、削除 23) | 1/8 (12.50%)（言い直しの正答率） | — |
+| devuser-s-50 | e2e | english_phrase | 10/10 | 21/437 (4.81%; 置換 11、挿入 2、削除 8) | 5/10 (50.00%) | — |
+| devuser-s-50 | e2e | instruction_like | 11/11 | 39/511 (7.63%; 置換 9、挿入 26、削除 4) | 3/11 (27.27%) | 0 |
+| devuser-s-50 | e2e | list | 11/11 | 34/653 (5.21%; 置換 6、挿入 10、削除 18) | 4/11 (36.36%) | — |
+| devuser-s-50 | e2e | no_change | 8/8 | 1/367 (0.27%; 置換 0、挿入 1、削除 0) | 7/8 (87.50%)（無変更の保持） | — |
+| devuser-s-50 | e2e | self_correction | 8/8 | 59/390 (15.13%; 置換 7、挿入 24、削除 28) | 0/8 (0.00%)（言い直しの正答率） | — |
+| devuser-s-50 | e2e | english_phrase | 10/10 | 18/437 (4.12%; 置換 6、挿入 2、削除 10) | 5/10 (50.00%) | — |
+| devuser-s-50 | e2e | instruction_like | 11/11 | 52/511 (10.18%; 置換 14、挿入 32、削除 6) | 4/11 (36.36%) | 1 |
+| devuser-s-50 | e2e | list | 11/11 | 40/653 (6.13%; 置換 13、挿入 16、削除 11) | 4/11 (36.36%) | — |
+| devuser-s-50 | e2e | no_change | 8/8 | 1/367 (0.27%; 置換 0、挿入 1、削除 0) | 7/8 (87.50%)（無変更の保持） | — |
+| devuser-s-50 | e2e | self_correction | 8/8 | 60/390 (15.38%; 置換 8、挿入 32、削除 20) | 2/8 (25.00%)（言い直しの正答率） | — |
+| devuser-s-50 | e2e | english_phrase | 10/10 | 11/437 (2.52%; 置換 1、挿入 2、削除 8) | 6/10 (60.00%) | — |
+| devuser-s-50 | e2e | instruction_like | 11/11 | 47/511 (9.20%; 置換 10、挿入 33、削除 4) | 3/11 (27.27%) | 1 |
+| devuser-s-50 | e2e | list | 11/11 | 24/653 (3.68%; 置換 8、挿入 10、削除 6) | 4/11 (36.36%) | — |
+| devuser-s-50 | e2e | no_change | 8/8 | 3/367 (0.82%; 置換 1、挿入 1、削除 1) | 6/8 (75.00%)（無変更の保持） | — |
+| devuser-s-50 | e2e | self_correction | 8/8 | 53/390 (13.59%; 置換 8、挿入 37、削除 8) | 1/8 (12.50%)（言い直しの正答率） | — |
+
+JSON:
+```json
+{
+  "manifest": "/home/maru/voiceime-work-fr3/inputs/formatter-sft3-current/manifest-devuser-no-audio.jsonl",
+  "results": [
+    {
+      "run": "/home/maru/voiceime-work-fr3/inputs/formatter-sft3-current/e2e-devuser.jsonl",
+      "system": "devuser-sel2+sft2-qwen",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 50,
+        "evaluated": 50,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 102,
+        "substitutions": 32,
+        "insertions": 38,
+        "deletions": 32,
+        "reference_characters": 2325,
+        "rate": 0.04387096774193548
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 60,
+        "total": 67,
+        "accuracy": 0.8955223880597015,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 1,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 1,
+        "manifest_count": 98,
+        "residual_rate": 0.01020408163265306
+      },
+      "tags": {
+        "english_phrase": {
+          "count": 10,
+          "cer": {
+            "edit_errors": 20,
+            "substitutions": 5,
+            "insertions": 8,
+            "deletions": 7,
+            "reference_characters": 437,
+            "rate": 0.04576659038901602
+          },
+          "exact_matches": 4,
+          "exact_match_rate": 0.4,
+          "suspected_responses": null,
+          "manifest_count": 10
+        },
+        "instruction_like": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 33,
+            "substitutions": 9,
+            "insertions": 16,
+            "deletions": 8,
+            "reference_characters": 511,
+            "rate": 0.06457925636007827
+          },
+          "exact_matches": 2,
+          "exact_match_rate": 0.18181818181818182,
+          "suspected_responses": 0,
+          "manifest_count": 11
+        },
+        "list": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 30,
+            "substitutions": 11,
+            "insertions": 10,
+            "deletions": 9,
+            "reference_characters": 653,
+            "rate": 0.045941807044410414
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.2727272727272727,
+          "suspected_responses": null,
+          "manifest_count": 11
+        },
+        "no_change": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 1,
+            "substitutions": 0,
+            "insertions": 1,
+            "deletions": 0,
+            "reference_characters": 367,
+            "rate": 0.0027247956403269754
+          },
+          "exact_matches": 7,
+          "exact_match_rate": 0.875,
+          "suspected_responses": null,
+          "manifest_count": 8
+        },
+        "self_correction": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 31,
+            "substitutions": 8,
+            "insertions": 18,
+            "deletions": 5,
+            "reference_characters": 390,
+            "rate": 0.07948717948717948
+          },
+          "exact_matches": 2,
+          "exact_match_rate": 0.25,
+          "suspected_responses": null,
+          "manifest_count": 8
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 50,
+          "median_s": 0.6021704999729991,
+          "p90_s": 0.7704274536576123
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 50,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 50,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/main-glossary-frozen-reeval-retry1-20261122/A/current/devuser-s-50.jsonl",
+      "system": "devuser-s-50",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 50,
+        "evaluated": 50,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 129,
+        "substitutions": 31,
+        "insertions": 50,
+        "deletions": 48,
+        "reference_characters": 2325,
+        "rate": 0.05548387096774193
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 59,
+        "total": 67,
+        "accuracy": 0.8805970149253731,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 1,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 1,
+        "manifest_count": 98,
+        "residual_rate": 0.01020408163265306
+      },
+      "tags": {
+        "english_phrase": {
+          "count": 10,
+          "cer": {
+            "edit_errors": 11,
+            "substitutions": 1,
+            "insertions": 2,
+            "deletions": 8,
+            "reference_characters": 437,
+            "rate": 0.02517162471395881
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.6,
+          "suspected_responses": null,
+          "manifest_count": 10
+        },
+        "instruction_like": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 48,
+            "substitutions": 11,
+            "insertions": 33,
+            "deletions": 4,
+            "reference_characters": 511,
+            "rate": 0.09393346379647749
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.2727272727272727,
+          "suspected_responses": 1,
+          "manifest_count": 11
+        },
+        "list": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 25,
+            "substitutions": 7,
+            "insertions": 10,
+            "deletions": 8,
+            "reference_characters": 653,
+            "rate": 0.03828483920367534
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.5454545454545454,
+          "suspected_responses": null,
+          "manifest_count": 11
+        },
+        "no_change": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 5,
+            "substitutions": 2,
+            "insertions": 1,
+            "deletions": 2,
+            "reference_characters": 367,
+            "rate": 0.013623978201634877
+          },
+          "exact_matches": 5,
+          "exact_match_rate": 0.625,
+          "suspected_responses": null,
+          "manifest_count": 8
+        },
+        "self_correction": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 70,
+            "substitutions": 7,
+            "insertions": 40,
+            "deletions": 23,
+            "reference_characters": 390,
+            "rate": 0.1794871794871795
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.125,
+          "suspected_responses": null,
+          "manifest_count": 8
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 50,
+          "median_s": 0.5479746659402736,
+          "p90_s": 0.7051040080026724
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 50,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/main-glossary-frozen-reeval-retry1-20261122/B/current/devuser-s-50.jsonl",
+      "system": "devuser-s-50",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 50,
+        "evaluated": 50,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 137,
+        "substitutions": 31,
+        "insertions": 43,
+        "deletions": 63,
+        "reference_characters": 2325,
+        "rate": 0.058924731182795696
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 58,
+        "total": 67,
+        "accuracy": 0.8656716417910447,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 1,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 0,
+        "manifest_count": 98,
+        "residual_rate": 0.0
+      },
+      "tags": {
+        "english_phrase": {
+          "count": 10,
+          "cer": {
+            "edit_errors": 21,
+            "substitutions": 11,
+            "insertions": 2,
+            "deletions": 8,
+            "reference_characters": 437,
+            "rate": 0.04805491990846682
+          },
+          "exact_matches": 5,
+          "exact_match_rate": 0.5,
+          "suspected_responses": null,
+          "manifest_count": 10
+        },
+        "instruction_like": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 39,
+            "substitutions": 9,
+            "insertions": 26,
+            "deletions": 4,
+            "reference_characters": 511,
+            "rate": 0.07632093933463796
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.2727272727272727,
+          "suspected_responses": 0,
+          "manifest_count": 11
+        },
+        "list": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 34,
+            "substitutions": 6,
+            "insertions": 10,
+            "deletions": 18,
+            "reference_characters": 653,
+            "rate": 0.05206738131699847
+          },
+          "exact_matches": 4,
+          "exact_match_rate": 0.36363636363636365,
+          "suspected_responses": null,
+          "manifest_count": 11
+        },
+        "no_change": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 1,
+            "substitutions": 0,
+            "insertions": 1,
+            "deletions": 0,
+            "reference_characters": 367,
+            "rate": 0.0027247956403269754
+          },
+          "exact_matches": 7,
+          "exact_match_rate": 0.875,
+          "suspected_responses": null,
+          "manifest_count": 8
+        },
+        "self_correction": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 59,
+            "substitutions": 7,
+            "insertions": 24,
+            "deletions": 28,
+            "reference_characters": 390,
+            "rate": 0.15128205128205127
+          },
+          "exact_matches": 0,
+          "exact_match_rate": 0.0,
+          "suspected_responses": null,
+          "manifest_count": 8
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 50,
+          "median_s": 0.5307228734503344,
+          "p90_s": 0.7026198656472843
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 50,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/main-glossary-frozen-reeval-retry1-20261122/C/current/devuser-s-50.jsonl",
+      "system": "devuser-s-50",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 50,
+        "evaluated": 50,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 139,
+        "substitutions": 36,
+        "insertions": 51,
+        "deletions": 52,
+        "reference_characters": 2325,
+        "rate": 0.05978494623655914
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 59,
+        "total": 67,
+        "accuracy": 0.8805970149253731,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 1,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 0,
+        "manifest_count": 98,
+        "residual_rate": 0.0
+      },
+      "tags": {
+        "english_phrase": {
+          "count": 10,
+          "cer": {
+            "edit_errors": 18,
+            "substitutions": 6,
+            "insertions": 2,
+            "deletions": 10,
+            "reference_characters": 437,
+            "rate": 0.041189931350114416
+          },
+          "exact_matches": 5,
+          "exact_match_rate": 0.5,
+          "suspected_responses": null,
+          "manifest_count": 10
+        },
+        "instruction_like": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 52,
+            "substitutions": 14,
+            "insertions": 32,
+            "deletions": 6,
+            "reference_characters": 511,
+            "rate": 0.10176125244618395
+          },
+          "exact_matches": 4,
+          "exact_match_rate": 0.36363636363636365,
+          "suspected_responses": 1,
+          "manifest_count": 11
+        },
+        "list": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 40,
+            "substitutions": 13,
+            "insertions": 16,
+            "deletions": 11,
+            "reference_characters": 653,
+            "rate": 0.06125574272588055
+          },
+          "exact_matches": 4,
+          "exact_match_rate": 0.36363636363636365,
+          "suspected_responses": null,
+          "manifest_count": 11
+        },
+        "no_change": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 1,
+            "substitutions": 0,
+            "insertions": 1,
+            "deletions": 0,
+            "reference_characters": 367,
+            "rate": 0.0027247956403269754
+          },
+          "exact_matches": 7,
+          "exact_match_rate": 0.875,
+          "suspected_responses": null,
+          "manifest_count": 8
+        },
+        "self_correction": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 60,
+            "substitutions": 8,
+            "insertions": 32,
+            "deletions": 20,
+            "reference_characters": 390,
+            "rate": 0.15384615384615385
+          },
+          "exact_matches": 2,
+          "exact_match_rate": 0.25,
+          "suspected_responses": null,
+          "manifest_count": 8
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 50,
+          "median_s": 0.5280997221561847,
+          "p90_s": 0.7091461380942039
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 50,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    },
+    {
+      "run": "/home/maru/voiceime-work-fr3/runs/formatter-sft3/main-glossary-frozen-reeval-retry1-20261122/B-2B/current/devuser-s-50.jsonl",
+      "system": "devuser-s-50",
+      "stage": "e2e",
+      "utterances": {
+        "manifest": 50,
+        "evaluated": 50,
+        "missing_predictions": 0
+      },
+      "cer": {
+        "edit_errors": 105,
+        "substitutions": 26,
+        "insertions": 49,
+        "deletions": 30,
+        "reference_characters": 2325,
+        "rate": 0.04516129032258064
+      },
+      "raw_cer": null,
+      "terms": {
+        "correct": 61,
+        "total": 67,
+        "accuracy": 0.9104477611940298,
+        "loose_correct": null,
+        "loose_accuracy": null
+      },
+      "inserted_terms": {
+        "count": 1,
+        "basis": "target_textのterms"
+      },
+      "fillers": {
+        "residual_count": 0,
+        "manifest_count": 98,
+        "residual_rate": 0.0
+      },
+      "tags": {
+        "english_phrase": {
+          "count": 10,
+          "cer": {
+            "edit_errors": 11,
+            "substitutions": 1,
+            "insertions": 2,
+            "deletions": 8,
+            "reference_characters": 437,
+            "rate": 0.02517162471395881
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.6,
+          "suspected_responses": null,
+          "manifest_count": 10
+        },
+        "instruction_like": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 47,
+            "substitutions": 10,
+            "insertions": 33,
+            "deletions": 4,
+            "reference_characters": 511,
+            "rate": 0.09197651663405088
+          },
+          "exact_matches": 3,
+          "exact_match_rate": 0.2727272727272727,
+          "suspected_responses": 1,
+          "manifest_count": 11
+        },
+        "list": {
+          "count": 11,
+          "cer": {
+            "edit_errors": 24,
+            "substitutions": 8,
+            "insertions": 10,
+            "deletions": 6,
+            "reference_characters": 653,
+            "rate": 0.036753445635528334
+          },
+          "exact_matches": 4,
+          "exact_match_rate": 0.36363636363636365,
+          "suspected_responses": null,
+          "manifest_count": 11
+        },
+        "no_change": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 3,
+            "substitutions": 1,
+            "insertions": 1,
+            "deletions": 1,
+            "reference_characters": 367,
+            "rate": 0.008174386920980926
+          },
+          "exact_matches": 6,
+          "exact_match_rate": 0.75,
+          "suspected_responses": null,
+          "manifest_count": 8
+        },
+        "self_correction": {
+          "count": 8,
+          "cer": {
+            "edit_errors": 53,
+            "substitutions": 8,
+            "insertions": 37,
+            "deletions": 8,
+            "reference_characters": 390,
+            "rate": 0.1358974358974359
+          },
+          "exact_matches": 1,
+          "exact_match_rate": 0.125,
+          "suspected_responses": null,
+          "manifest_count": 8
+        }
+      },
+      "latency": {
+        "all": {
+          "count": 50,
+          "median_s": 0.543949981991318,
+          "p90_s": 0.7098394461281715
+        },
+        "duration_groups": {
+          "<=5s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          "5-15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          },
+          ">15s": {
+            "count": 0,
+            "median_s": null,
+            "p90_s": null
+          }
+        },
+        "unknown_duration_rows": 50,
+        "invalid_latency_rows": 0
+      },
+      "warnings": {
+        "unknown_ids": 0,
+        "missing_hyp": 0,
+        "duplicate_ids": 0
+      }
+    }
+  ]
+}
+```

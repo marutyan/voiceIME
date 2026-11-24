@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "GitHubにプッシュしました。", "latency_s": 0.6770471250638366}
+{"id": "dev-say-0002", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "えーと、Dockerを再起動します。", "latency_s": 0.687550500035286}
+{"id": "dev-say-0003", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "TYTorchのバージョンを上げます。", "latency_s": 0.705839000060223}
+{"id": "dev-say-0004", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "あのレイソンで返してください", "latency_s": 0.6801518329884857}
+{"id": "dev-say-0005", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "空打が見つからないです。", "latency_s": 0.6831499169347808}
+{"id": "dev-say-0006", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "SLACに貼っておきます。", "latency_s": 0.6755477089900523}
+{"id": "dev-say-0007", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "まあ、MLXで十分早いです。", "latency_s": 0.6861403750954196}
+{"id": "dev-say-0008", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "ラグの、いや、エンベリングの精度が低いです。", "latency_s": 0.7193136670393869}
+{"id": "dev-say-0009", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "Budenceでビルドが起きます", "latency_s": 0.6950513750780374}
+{"id": "dev-say-0010", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "COLABのセッションを止めました", "latency_s": 0.6898795840097591}
+{"id": "dev-say-0011", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": " LoRで微調整します。", "latency_s": 0.6697827499592677}
+{"id": "dev-say-0012", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "なんか、VS Codeが重いです。", "latency_s": 0.6855335830477998}
+{"id": "dev-say-0013", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": " Whisperの小さいモデルを試します。", "latency_s": 0.7010634579928592}
+{"id": "dev-say-0014", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "えーと、トランスフォーマーのAttentionの部分を、もう少し軽くしたいんですけど、何かいい方法ありますか?", "latency_s": 0.808380291913636}
+{"id": "dev-say-0015", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "Hugging Faceからモデルをダウンロードして、MLXの形式に変換してから、手元のMacで動かします。", "latency_s": 0.7888213330879807}
+{"id": "dev-say-0016", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "あのバッキサイズを32にいや16に下げたらVRAMに収まりました", "latency_s": 0.7398629169911146}
+{"id": "dev-say-0017", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "GiT、HuBactionsのワークフローで、Pytestが失敗しているので、ログを確認してもらえますか。", "latency_s": 0.7999984580092132}
+{"id": "dev-say-0018", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "まあ、とりあえず pandasでCSVを読み込んで、欠損値を確認してみましょう。", "latency_s": 0.7666449999669567}
+{"id": "dev-say-0019", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "A Reactのコンポーネントが2回レンダリングされる問題は、Strict Modeのせいだと思います。", "latency_s": 0.7726590000092983}
+{"id": "dev-say-0020", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": " Postgreのインデックスを張ったらクエリが10倍くらい速くなりました", "latency_s": 0.7420337499352172}
+{"id": "dev-say-0021", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "うーん、その、learning rateが高すぎて、lossが発散しているかもしれないです。", "latency_s": 0.7592287920415401}
+{"id": "dev-say-0022", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "KubernetesのPodがメモリ不足で起きているみたいです", "latency_s": 0.7140870840521529}
+{"id": "dev-say-0023", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "OPLAIのAPIキーを環境変数に入れてFastAPIのサーバーから呼び出します。", "latency_s": 0.7773072089767084}
+{"id": "dev-say-0024", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "あの TypeScriptのカタイラーが、えー、30件くらい出ています。", "latency_s": 0.7333043329417706}
+{"id": "dev-say-0025", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "W&Bで学習曲線を見ると、ETOC語辺りから、下学習しています。", "latency_s": 0.7753821250516921}
+{"id": "dev-say-0026", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "Dockerファイルの、いや Docker Composeの設定を見直してください", "latency_s": 0.730001249932684}
+{"id": "dev-say-0027", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "えっと、YOLOで物体検出をしてから、Segment Anythingでマスクを作ります。", "latency_s": 0.7622170420363545}
+{"id": "dev-say-0028", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "XcodeでビルドするとSWiftUIのプレビューがなんか固まるんですよね", "latency_s": 0.7735828750301152}
+{"id": "dev-say-0029", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "今日のミーティングでは、まずRAGのパイプラインの評価結果を共有して、その後、Embeddingモデルを、あのOpenAIのものからOpenSourceのものに切り替えるかどうかを決めたいと思います。", "latency_s": 0.9017379999859259}
+{"id": "dev-say-0030", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "学習はコラボのA100で回して、チェックポイントはGoogle Driveに保存して、推論だけ手元のM3 Proで動かす予定です。", "latency_s": 0.843150916043669}
+{"id": "dev-say-0031", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "あの、さっきのプルリクなんですけど、rebaseしたらconflictが出たので、えー、mergeは明日に、いや、今日の夕方にやります。", "latency_s": 0.8159477500012144}
+{"id": "dev-say-0032", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "えっと、Lamaの8Bを4bitに了視化して、MLX-LMで動かしてみたら、1秒あたり40トークンくらい出ました。", "latency_s": 0.8255997080123052}
+{"id": "dev-say-0033", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "Pythonの仮想環境はUVで管理して、依存関係はpyproject.tomlに書いておけば、他の人も同じ環境を再現できます。", "latency_s": 0.8504317079205066}
+{"id": "dev-say-0034", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "なんか、Next.jsのアップデートの後から、ビルドがすごく遅くなっていて、えー、Turbopackを無効にすると、まあ、元に戻るみたいです。", "latency_s": 0.8416669999714941}
+{"id": "dev-say-0035", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "評価には、CERと両方の正当率を使って、ベースラインのWhisper large-v3と比べて、差が1ポイント以内なら合格とします。", "latency_s": 0.8390982090495527}
+{"id": "dev-say-0036", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "あの、オースのトークンの有効期限が切れていて、えー、refresh tokenで再取得する処理が、その、うまく動いていないようです。", "latency_s": 0.8242025419604033}
+{"id": "dev-say-0037", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "OzのRambdaからS3にファイルを書き込むときに、EMのロールの権限が足りなくて、AccessDeniedのエラーが出ています。", "latency_s": 0.8557682499522343}
+{"id": "dev-say-0038", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "ビジョン・トランスフォーマーとResNetを同じデータ拡張と同じepoch数で比べて、その後、ablationをやります。", "latency_s": 0.8742184169823304}
+{"id": "dev-say-0039", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "CoreMLに変換したモデルをNeural Engineで動かすとGPUより消費電力が少なくて、まあバッテリーの持ちがかなり良くなります。", "latency_s": 0.8613868330139667}
+{"id": "dev-say-0040", "system": "whisper-large-v3-turbo+glossary", "stage": "asr", "hyp": "テラフォームで作ったリソースと手で作ったリソースが混ざっていて、stateファイルがあの実際の状態とずれているので、インポートし直します。", "latency_s": 0.8706180839799345}

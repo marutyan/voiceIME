@@ -1,0 +1,81 @@
+{
+  "source_path": "/Users/marutyan/PrivateDev/voiceIME-wt/datagen-v3-run/data/text/v3/train.jsonl",
+  "source_bytes": 103056592,
+  "source_sha256": "252cfaf5a3bc0023158d1d009c03fa47668261ec74fd392c45ebce0fffdcc6ab",
+  "full_train_rows": 56971,
+  "full_train_unique_ids": 56971,
+  "full_train_id_sha256": "b7fd62b2c233fe5d621bbe8c757effe1a15726ea6f125eb9a8026282e5f22623",
+  "existing_rows": 12000,
+  "existing_id_sha256": "92b84abc12e17ca2d8b4c1e6ff0bf99b9ca8b3ccc955d5f4987324c970315a2f",
+  "remaining_rows": 44971,
+  "remaining_unique_ids": 44971,
+  "remaining_id_sha256": "379ee9739eb7e856fa37adacfbd5b47f0d6aaa1e663ecfb02ca5b05961f28bb8",
+  "remaining_input_sha256": "7d460455049897cd3a4d55b2e3f07010cdf3930b0da07cfcec86ef0f74982e62",
+  "voice_pool": {
+    "train_val": 24,
+    "test_synth": 6
+  },
+  "seed": 0,
+  "engine_counts": {
+    "ja": 35883,
+    "multi": 9088
+  },
+  "speaker_counts": {
+    "tts-voice-01": 1876,
+    "tts-voice-02": 1871,
+    "tts-voice-03": 1881,
+    "tts-voice-04": 1957,
+    "tts-voice-05": 1871,
+    "tts-voice-06": 1896,
+    "tts-voice-07": 1849,
+    "tts-voice-08": 1880,
+    "tts-voice-09": 1848,
+    "tts-voice-10": 1889,
+    "tts-voice-11": 1835,
+    "tts-voice-12": 1874,
+    "tts-voice-13": 1927,
+    "tts-voice-14": 1965,
+    "tts-voice-15": 1807,
+    "tts-voice-16": 1820,
+    "tts-voice-17": 1876,
+    "tts-voice-18": 1862,
+    "tts-voice-19": 1896,
+    "tts-voice-20": 1890,
+    "tts-voice-21": 1804,
+    "tts-voice-22": 1863,
+    "tts-voice-23": 1879,
+    "tts-voice-24": 1855
+  },
+  "previous_estimated_speech_hours": 40.61527777777794,
+  "remaining_estimated_speech_hours": 136.68747222222228,
+  "sharding": "descending est_seconds then stable ID; round-robin across three shards",
+  "shards": [
+    {
+      "shard": 0,
+      "rows": 14991,
+      "id_sha256": "0f7de30383f8ed87f1066e11b6670133c08c7d6da36c74eb618e8a6c9809a4a4",
+      "jsonl_sha256": "d838773a455f885ab919e3235c852605a4fa0dc092b7bf98047be408bd568541",
+      "jsonl_bytes": 26393526,
+      "gzip_bytes": 3521027,
+      "estimated_speech_seconds": 164036.2
+    },
+    {
+      "shard": 1,
+      "rows": 14990,
+      "id_sha256": "ec089924bf93a78416ca28df000d9ea6f31a0f2218a52b4e74933a4aea1adf97",
+      "jsonl_sha256": "08bb79a2c6d68849fa99e73dc07d873d1b63135b934f6718a33014baa86b67ca",
+      "jsonl_bytes": 26303610,
+      "gzip_bytes": 3498770,
+      "estimated_speech_seconds": 164023.8
+    },
+    {
+      "shard": 2,
+      "rows": 14990,
+      "id_sha256": "5c3076a51846d3c1d26d9ec2ff169545c4991a9026e88a4f3f4a8fb4b0e6c998",
+      "jsonl_sha256": "01b5eaa433ccbfc7afd0a2e1dc8833a13ef87fe28ac757cbdfba0cb69ff92164",
+      "jsonl_bytes": 26280520,
+      "gzip_bytes": 3489953,
+      "estimated_speech_seconds": 164014.9
+    }
+  ]
+}

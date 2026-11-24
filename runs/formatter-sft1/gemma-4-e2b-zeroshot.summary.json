@@ -1,0 +1,28 @@
+{
+  "system": "gemma-4-e2b-zeroshot",
+  "model": "mlx-community/gemma-4-e2b-it-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/val-asrsim.jsonl",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "system": "gemma-4-e2b-zeroshot",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/gemma-4-e2b-zeroshot.jsonl",
+    "glossary": "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl",
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 200,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 4.854811958968639,
+  "format_latency_median_s": 0.4128633755026385,
+  "format_latency_p90_s": 0.7006037080893293,
+  "latency_median_s": 0.4128633755026385,
+  "mean_glossary_entries": 15.93,
+  "generation_tps_median": 77.5943339900491,
+  "peak_memory_gb": 2.992562376,
+  "truncated": 0
+}

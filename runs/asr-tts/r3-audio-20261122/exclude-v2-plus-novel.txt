@@ -1,0 +1,583 @@
+"use strict"
+0-RTT Handshake
+1Password Connect
+5nm
+8-bit Adam
+@layer
+A/B/n Test
+ANSI SQL
+AP75
+ARGB
+ARMv8
+AVAudioUnit
+AWS CloudFront
+AWS Glue Crawler
+AWS Glue Data Catalog
+AWS Glue DataBrew
+AWS Network Access Analyzer
+AWS SES
+AWS Site-to-Site VPN
+AWS Systems Manager Run Command
+Adversarial Domain Adaptation
+Affinity
+Agentic Workflow
+Agile
+Alexa Skills Kit
+All-Gather
+All-Reduce
+Alpaca-GPT4
+Amazon DocumentDB
+Amazon MemoryDB for Redis
+Amazon Transcribe
+Android SDK Command-line Tools
+Ansible Navigator
+Ansible Vault
+AoT
+Apache Avro
+Apache Beam
+Apache Cassandra
+Apache Flink
+Apache Hive
+Apache Iceberg
+Apache Kafka
+Apache License 2.0
+Apache NiFi
+Apache Presto
+ApexCharts
+Appearance Feature
+Apple T2
+Argo Events
+Audio LLM
+Auth0 CLI
+AutoConfig
+Azure AI Form Recognizer
+Azure App Service Environment
+Azure Boards
+Azure File Share
+Azure Firewall
+Azure IoT Edge
+Azure Key Vault
+Azure Private DNS
+Azure VMware Solution
+Azure VPN Gateway
+BGP Hijacking
+BIND_AUTO_CREATE
+BYD
+Beam Search
+Bengo4.com
+Best Paper Award
+Bi-Encoder
+BigInt64Array
+BigNum
+BigQuery ML
+BigUint64Array
+Bitwarden
+Bitwarden SDK
+Block Blob
+Box Drive
+CDN Edge
+CFG Scale
+CLIP Loss
+CLion
+CNCF
+CVPR Workshop
+Causal Discovery
+Chain-of-Thought
+Chaos Monkey
+Chrome Beta
+Chrome Remote Desktop
+Clang Static Analyzer
+Claude API
+Clockify
+Cloud Build Triggers
+Cloud Debugger
+CloudWatch Logs Subscription Filters
+Codable
+CodeT5
+Colab Enterprise
+Conditional VAE
+ConfigMap
+ConstraintSet
+Context API
+ConvNeXt V2
+ConvNet
+Cortex-A
+Cortex-M4
+Cortex-M7
+Cosine Similarity
+Cost Explorer
+Create ML
+Cross-Attention
+Cross-Encoder
+CrowdStrike Falcon
+DAU
+DDQN
+DEI
+DGX H100
+DMARC Pass
+DNS Amplification Attack
+DNS Sinkhole
+DP Alt Mode
+DPG
+DTLS
+DaemonSet
+Dear ImGui
+DeepSeek-Coder-V2
+Deformable CNN
+Dense
+Depthwise Convolution
+Depthwise Separable Conv
+DevOps
+Dice Loss
+Differentiable Rendering
+Diffusion Model
+DigitalArts
+DisplayPort 1.4
+Django ORM
+EOF
+EST
+Earth Mover's Distance
+EaseInOut
+EasyMock
+Embed
+Endpointing
+Epic Games Store
+EventBridge Bus
+Eventual Consistency
+ExistingWorkPolicy
+Extended Kalman Filter
+Extrinsic Matrix
+Extrinsic Parameters
+F1-score
+FC layer
+FCM HTTP v1
+FIR
+FSOD
+FSR 3
+FSR 4
+FacetGrid
+FastChat
+Few-shot Prompting
+FileMaker Pro
+FineWeb-HQ
+FormGroup
+Formatter
+FoundationDB
+FreeSync
+Fuse.js
+Fused Kernel
+Fusion 360
+G Pro X Superlight
+GCP IAM
+GDDR6
+GKE Autopilot
+GKE On-Prem
+GKE Standard
+GMO Payment Gateway
+GPT-1
+GTX 1660 Ti
+Garmin Forerunner 965
+Gauss
+Gauss-Newton
+Gauss-Seidel
+Gaussian Process
+Gibbs sampling
+GitHub Enterprise
+GitOps
+Google AI Studio
+Google APIs
+Google Ads API
+Google Artifact Registry
+Google Calendar
+Google Chrome
+Google Cloud Redis
+Google Cloud Tasks
+Google Cloud Workflows
+Google Kubernetes Engine
+Google Maps API
+Google OAuth
+Google Public DNS
+Gopher
+Grad-TTS
+Gradient Accumulation
+Gradient Checkpointing
+H100 NVL
+H100 SXM
+HDR10
+HDR10+
+HH-RLHF
+HTTP 202 Accepted
+HTTP Request Smuggling
+HTTP/1.0
+HTTP/1.1
+Hierarchical VAE
+Hooks
+HotpotQA
+Huffman
+Huffman Coding
+Hugging Face Accelerate
+ICMP Flood
+INI
+IPoE
+ITX
+ImGui
+ImageNet-Hard
+ImageNet-X
+ImageOptim
+Implicit Neural Representation
+Incognito
+Ingress
+Input Gradient
+IntPtr
+Intel 4
+Intel Arc
+Intel Graphics
+Intel HD Graphics
+Intel NUC
+Intel UHD Graphics
+Inter-Token Latency
+Interface VPC Endpoint
+Interlocked
+Istio Ambient Mesh
+JS Divergence
+JWT Validation
+Javadoc
+Jetson Nano
+Jina
+John Deere
+KD
+KMS
+KV Cache
+Kafka Schema Registry
+Khan Academy
+Kling
+Kotlin Coroutines
+Kotlin/Native
+Krea AI
+Kubeflow Pipelines
+Kullback-Leibler
+L1
+L1 Loss
+L2
+L2 Loss
+LAION-5B
+LINE Bot SDK
+LLaVA-Instruct-150K
+LOC
+LPUSH
+LSM-Tree
+LTV
+Label Studio
+LangChain AWS
+LangChain Elasticsearch
+Language Server
+LaserTec
+Lasso Regression
+Latent Consistency Model
+Latent Dirichlet Allocation
+Lenovo Tab
+LightGCN
+Linear Non-Gaussian Acyclic Model
+Liquid Retina XDR
+Liveness Probe
+Load Balancer
+Lp norm
+M2 Pro
+MAU/DAU
+MLOps
+MMBench
+MNLI
+MRR@1
+MRR@10
+MSBuild
+MUI X Date Pickers
+Magic Trackpad
+Magnitude-based Pruning
+Mali-G710
+Managed Service for Prometheus
+Markdown
+Masked Language Model
+MediaConvert
+Meta AI
+Meta Quest Pro
+Microchip
+Microsoft 365 Copilot
+MinGW-w64
+Mini DisplayPort
+Model Garden
+Monero
+Money Forward Cloud
+Multi-GPU
+Multi-step Reasoning
+Mutex
+N-gram
+NAT Gateway
+NPU Accelerator
+NTFS-3G
+NVIDIA Omniverse
+Needle In A Haystack
+Netflix Prize
+Neural Radiance Field
+NextAuth.js
+OCI Image
+OCI Runtime
+OS Fingerprinting
+Object Queries
+ObjectMapper
+Omron
+OneDrive
+Onion Architecture
+OpenSearch Dashboards
+OpenShift
+OpenType
+OpenWebText
+Opera GX
+Oracle Database
+Oura Ring
+P2P
+PCM 32-bit
+PHY Layer
+POS
+PTAL
+Page Blob
+Parameter-Efficient Fine-Tuning
+Pearson Correlation
+Physics-Informed
+Pico 4
+Pixel 9 Pro Fold
+Pixel 9 Pro XL
+Plotly Express
+Pointwise Convolution
+PoseNet
+Potential Outcomes
+Prefix Tuning
+Profile Guided Optimization
+Proof of Work
+Pulumi OCI
+QuickDraw
+Qwen 2.5 VL
+Qwen ASR
+R-squared
+RGB
+ROC-AUC
+ROUGE-1
+RPi.GPIO
+RTO
+RTX 3060
+RTX 8000
+RVQ-VAE
+Ray Core
+Ray Serve
+Razor Pages
+ReLU
+React Native Reanimated
+React Tooltip
+Readiness Probe
+Redis Bitmap
+Redis OSS
+Redis Sorted Set
+Redis modules
+ReplicaSet
+Rockstar Games
+Ryzen 3
+Ryzen Threadripper
+S3 Object
+SCADA
+SD Express
+SQLAlchemy ORM
+SRV record
+STW
+SageMaker HyperParameter Tuning
+Samsung Foundry
+Sass Migrator
+Scaled Dot-Product Attention
+Score Distillation
+Screen Space
+Screen Space - Camera
+Self-Attention
+Semaphore
+Sentence-Transformers
+Sentry Replay
+Sentry Webpack Plugin
+ServiceNow
+Shadow DOM
+SharedPreferences
+Sigmoid layer
+SignalR Hub
+Softmax
+Sony Semiconductor
+Spark Notebook
+Spearman Correlation
+Spring Cloud AWS
+Spring Cloud Function
+Spring Data Elasticsearch
+Spring Data JDBC
+Spring GraphQL
+Spring MVC
+Spring Tools
+Stacked Hourglass Network
+Starlette
+StatefulSet
+SteelSeries Engine
+Strong Consistency
+Structure from Motion
+SummaryWriter
+Surface Slim Pen
+Swagger Parser
+SyncBN
+TCP Three-way Handshake
+TFT-LCD
+TL;DR
+TLB Flush
+TVM
+Tagged Template
+Teachable Machine
+Teacher-Student Learning
+TensorFlow Probability
+TensorFlow.js
+Tesseract.js
+TextVQA
+The Stack
+Thunderbolt 2
+Thunderbolt 4
+TiB
+Top-p
+Total Variation
+Toyota
+TryGetComponent
+Type Confusion
+TypeScript Compiler
+UI Element
+UIAction
+UITapGestureRecognizer
+USB PD 3.0
+USB-A
+USB-C to USB-A
+USB-C to VGA
+USB-MIDI
+Unstructured
+VAE Encode
+VHDL
+VM Agent
+VMware Engine
+VP9
+VPC CNI
+VPC Endpoint Service
+Vagrant VMware Utility
+Vault PKI
+Vid2Vid
+VueUse
+W-OLED
+W3C
+W3C WAI
+WCAG 2.0
+WH-1000XM5
+Wald
+Wasserstein distance
+WaveRNN
+Waymo Open Dataset
+Wear OS
+Web Components
+Web UI
+Weight Standardization
+Whimsical
+Windows Hello for Business
+Windows Ink
+X-Ray Segments
+YUV 4:4:4
+YubiKey 5
+Zotero
+argparse.Action
+assertIs
+associatedtype
+asyncio.create_task
+asyncio.get_event_loop
+azd
+babel-core
+bevy_render
+btoa
+cargo fetch
+chan
+collectAsStateWithLifecycle
+compileOnly
+date-fns
+derive_more
+dnf update
+eDRAM
+epsilon
+eslint-plugin-react
+exception
+exec
+force-with-lease
+gTTS
+git describe
+go-redis
+grad scale
+hidden_size
+iPadOS
+iPerf3
+in_channels
+includeSubDomains
+insmod
+intrinsic motivation
+isValid
+jaconv
+jaxlib
+k-means
+k-means++
+kubectl debug
+kubectl exec
+libc
+lr_scheduler_type
+mAP@0.5
+mAP@0.5:0.95
+mAP@75
+manifest.json
+max_length
+meminfo
+mkfs.ext4
+mongo-go-driver
+n-step
+nanoid
+npm audit
+npm workspaces
+num_heads
+pandas-profiling
+parse
+pd.to_datetime
+playwright-extra
+postMessage
+pull request
+pySerial
+rebase
+reclaimPolicy
+reflect.Value.CanInterface
+repo
+robots.txt
+rvalue reference
+secrets.SystemRandom
+selenium-wire
+shm_open
+shm_unlink
+splitlines
+std::shared_ptr
+sys.stdout.flush
+testify
+timezone
+tmux attach
+tmux session
+tmux window
+tokenizers
+tokens per second
+toml::from_str
+torch.cuda.empty_cache
+torch.max
+torch.multinomial
+torch.nn.Linear
+uv pip
+vSphere HA
+visudo
+void*
+window.onload
+yarn remove
+zx

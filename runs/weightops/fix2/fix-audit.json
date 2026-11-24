@@ -1,0 +1,29 @@
+{
+  "train": {
+    "rows": 95931,
+    "target_changed": 7274,
+    "omitted_rows": 8369,
+    "fix1_decisions": {
+      "rule4-rewrite-if-cue": 6996,
+      "rule2-list": 321,
+      "rule3-no-cue": 278,
+      "rule2-list+merge": 750,
+      "rule2-merge": 24
+    },
+    "fix1_sha256": "1c2dcb5b0a27b7999ece804a7b87d9de94bad90bbff2169d60c310addf23fff9",
+    "fix2_sha256": "f25f935b1b1b43bf0fb639b34e630658a02a2a6e1e1949038400663b4056c7ca"
+  },
+  "augmentation": {
+    "rows": 36778,
+    "target_changed": 225,
+    "omitted_rows": 1822,
+    "fix1_decisions": {
+      "rule2-list": 1415,
+      "rule3-no-cue": 225,
+      "rule2-list+merge": 162,
+      "rule2-merge": 20
+    },
+    "fix1_sha256": "7c83f2e7f41d420233e7a975eace486eebbed9973b4b7e866e6343e26e177496",
+    "fix2_sha256": "6f6b060ec6544c5f1878f1d5ec8655f40bff263cd041bf77cedd1ba06e3c77fa"
+  }
+}

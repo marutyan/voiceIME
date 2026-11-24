@@ -1,0 +1,19 @@
+{
+  "original": {
+    "omitted_rows": 8369,
+    "listed=True,target_surface=True": 8016,
+    "listed=False,target_surface=False": 326,
+    "listed=False,target_surface=True": 24,
+    "katakana_target_but_surface_in_asr_inputs": 7,
+    "listed=True,target_surface=False": 3
+  },
+  "augmentation": {
+    "omitted_rows": 1822,
+    "listed=True,target_surface=True": 1576,
+    "listed=False,target_surface=False": 225,
+    "listed=False,target_surface=True": 20,
+    "listed=True,target_surface=False": 1,
+    "katakana_target_but_surface_in_asr_inputs": 1
+  },
+  "violation_examples": []
+}

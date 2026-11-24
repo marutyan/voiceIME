@@ -1,0 +1,57 @@
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"batch_size": 16, "elapsed_s": 197.863, "output": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/eval/qwen-v1-frozen-val200/step8.jsonl", "rows": 200, "system": "step8", "utterances_per_s": 1.011}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"batch_size": 16, "elapsed_s": 243.453, "output": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/eval/qwen-v1-frozen-val200/step16.jsonl", "rows": 200, "system": "step16", "utterances_per_s": 0.822}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"batch_size": 16, "elapsed_s": 37.189, "output": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/eval/qwen-v1-frozen-val200/step24.jsonl", "rows": 200, "system": "step24", "utterances_per_s": 5.378}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"batch_size": 16, "elapsed_s": 43.232, "output": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/eval/qwen-v1-frozen-val200/step27.jsonl", "rows": 200, "system": "step27", "utterances_per_s": 4.626}

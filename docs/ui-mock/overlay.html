@@ -1,0 +1,2852 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoiceIME オーバーレイ UI 試作（案A・案B・案C 比較）</title>
+  <style>
+    /* =====================================================================
+       基本トークン（macOS ライト／ダークモード準拠、1 CSS px = 1 macOS pt）
+       ===================================================================== */
+    :root {
+      --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+      --font-mono: "SF Mono", ui-monospace, Menlo, Monaco, monospace;
+
+      /* ページ全体の配色（ライト） */
+      --page-bg: #F2F3F7;
+      --surface: #FFFFFF;
+      --surface-subtle: #F7F8FA;
+      --surface-toolbar: rgba(255, 255, 255, 0.86);
+      --border: rgba(0, 0, 0, 0.10);
+      --border-strong: rgba(0, 0, 0, 0.16);
+      --text-primary: #1D1D1F;
+      --text-secondary: #5C5C66;
+      --text-tertiary: #86868F;
+
+      /* macOS システムカラー（ライト） */
+      --sys-blue: #007AFF;
+      --sys-blue-soft: rgba(0, 122, 255, 0.12);
+      --sys-red: #FF3B30;
+      --sys-red-text: #C81E17;
+      --sys-red-tint: rgba(255, 59, 48, 0.10);
+      --sys-red-border: rgba(255, 59, 48, 0.34);
+      --sys-green: #28CD41;
+      --sys-green-text: #1A8F2D;
+      --sys-green-tint: rgba(40, 205, 65, 0.12);
+      --sys-orange: #FF9500;
+
+      /* macOS オーバーレイ（HUD・フロストガラス） */
+      --hud-bg: rgba(250, 250, 252, 0.86);
+      --hud-border: rgba(0, 0, 0, 0.10);
+      --hud-highlight: rgba(255, 255, 255, 0.90);
+      --hud-shadow: 0 8px 24px rgba(0, 0, 0, 0.13), 0 1px 3px rgba(0, 0, 0, 0.09);
+      --hud-shadow-sm: 0 5px 16px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+      --hud-text: rgba(29, 29, 31, 0.92);
+      --hud-text-muted: rgba(29, 29, 31, 0.56);
+      --hud-divider: rgba(0, 0, 0, 0.10);
+      --hud-wave-bar: #FF3B30;
+      --hud-wave-bar-dim: rgba(255, 59, 48, 0.28);
+      --hud-spinner-track: rgba(0, 0, 0, 0.14);
+      --hud-spinner-head: rgba(29, 29, 31, 0.80);
+
+      /* macOS デスクトップ試作キャンバス（ライト） */
+      --mac-wallpaper: linear-gradient(135deg, #DCE7F7 0%, #EAEFF8 46%, #DFDFEE 100%);
+      --mac-menubar-bg: rgba(246, 247, 250, 0.80);
+      --mac-menubar-text: rgba(0, 0, 0, 0.88);
+      --mac-menubar-border: rgba(0, 0, 0, 0.08);
+      --mac-window-bg: #FFFFFF;
+      --mac-window-bar: #F6F6F8;
+      --mac-window-sidebar: #F4F5F7;
+      --mac-window-border: rgba(0, 0, 0, 0.12);
+      --mac-window-shadow: 0 18px 46px rgba(15, 23, 42, 0.14), 0 2px 8px rgba(15, 23, 42, 0.06);
+      --mac-dock-bg: rgba(250, 250, 252, 0.62);
+      --mac-dock-border: rgba(255, 255, 255, 0.65);
+      --mac-code-bg: #F6F7FA;
+      --mac-code-line-hi: rgba(0, 122, 255, 0.06);
+      --mac-caret: #007AFF;
+      --mac-inserted-bg: rgba(40, 205, 65, 0.16);
+
+      /* 寸法注記 */
+      --spec-stage-bg: #ECEEF3;
+      --spec-grid: rgba(0, 0, 0, 0.045);
+      --dim-line: #007AFF;
+      --dim-badge-bg: rgba(0, 122, 255, 0.10);
+      --dim-badge-text: #0058B8;
+      --ghost-border: rgba(0, 0, 0, 0.20);
+    }
+
+    html[data-theme="dark"] {
+      --page-bg: #141417;
+      --surface: #1E1E22;
+      --surface-subtle: #26262B;
+      --surface-toolbar: rgba(28, 28, 32, 0.88);
+      --border: rgba(255, 255, 255, 0.11);
+      --border-strong: rgba(255, 255, 255, 0.18);
+      --text-primary: #F2F2F7;
+      --text-secondary: #A6A6B0;
+      --text-tertiary: #7C7C86;
+
+      --sys-blue: #0A84FF;
+      --sys-blue-soft: rgba(10, 132, 255, 0.18);
+      --sys-red: #FF453A;
+      --sys-red-text: #FF6961;
+      --sys-red-tint: rgba(255, 69, 58, 0.18);
+      --sys-red-border: rgba(255, 69, 58, 0.42);
+      --sys-green: #30D158;
+      --sys-green-text: #4AE06E;
+      --sys-green-tint: rgba(48, 209, 88, 0.16);
+      --sys-orange: #FF9F0A;
+
+      --hud-bg: rgba(38, 38, 43, 0.86);
+      --hud-border: rgba(255, 255, 255, 0.15);
+      --hud-highlight: rgba(255, 255, 255, 0.12);
+      --hud-shadow: 0 12px 30px rgba(0, 0, 0, 0.50), 0 1px 4px rgba(0, 0, 0, 0.36);
+      --hud-shadow-sm: 0 7px 20px rgba(0, 0, 0, 0.46), 0 1px 3px rgba(0, 0, 0, 0.32);
+      --hud-text: rgba(245, 245, 247, 0.94);
+      --hud-text-muted: rgba(245, 245, 247, 0.60);
+      --hud-divider: rgba(255, 255, 255, 0.14);
+      --hud-wave-bar: #FF453A;
+      --hud-wave-bar-dim: rgba(255, 69, 58, 0.35);
+      --hud-spinner-track: rgba(255, 255, 255, 0.18);
+      --hud-spinner-head: rgba(245, 245, 247, 0.90);
+
+      --mac-wallpaper: linear-gradient(135deg, #1B2333 0%, #202434 50%, #261F31 100%);
+      --mac-menubar-bg: rgba(30, 30, 35, 0.78);
+      --mac-menubar-text: rgba(255, 255, 255, 0.92);
+      --mac-menubar-border: rgba(255, 255, 255, 0.10);
+      --mac-window-bg: #1E1F24;
+      --mac-window-bar: #282930;
+      --mac-window-sidebar: #23242A;
+      --mac-window-border: rgba(255, 255, 255, 0.13);
+      --mac-window-shadow: 0 22px 54px rgba(0, 0, 0, 0.56), 0 2px 10px rgba(0, 0, 0, 0.32);
+      --mac-dock-bg: rgba(42, 42, 48, 0.64);
+      --mac-dock-border: rgba(255, 255, 255, 0.16);
+      --mac-code-bg: #18191D;
+      --mac-code-line-hi: rgba(10, 132, 255, 0.12);
+      --mac-caret: #0A84FF;
+      --mac-inserted-bg: rgba(48, 209, 88, 0.22);
+
+      --spec-stage-bg: #16171B;
+      --spec-grid: rgba(255, 255, 255, 0.045);
+      --dim-line: #4DA3FF;
+      --dim-badge-bg: rgba(10, 132, 255, 0.20);
+      --dim-badge-text: #74B9FF;
+      --ghost-border: rgba(255, 255, 255, 0.24);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text-primary);
+      background: var(--page-bg);
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 180ms ease, color 180ms ease;
+    }
+
+    /* =====================================================================
+       上部固定コントロールバー
+       ===================================================================== */
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--surface-toolbar);
+      backdrop-filter: blur(18px) saturate(160%);
+      -webkit-backdrop-filter: blur(18px) saturate(160%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .toolbar-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 4px;
+    }
+
+    .brand-title {
+      font-size: 14px;
+      font-weight: 650;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+
+    .brand-badge {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      padding: 2px 7px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .control-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+    }
+
+    .segmented {
+      display: inline-flex;
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2px;
+      gap: 2px;
+    }
+
+    .seg-btn {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: background-color 140ms ease, color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .seg-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .seg-btn[aria-pressed="true"] {
+      background: var(--surface);
+      color: var(--text-primary);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .seg-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .seg-dot.idle { background: var(--text-tertiary); }
+    .seg-dot.recording { background: var(--sys-red); }
+    .seg-dot.processing { background: var(--sys-blue); }
+    .seg-dot.done { background: var(--sys-green); }
+    .seg-dot.error { background: var(--sys-orange); }
+
+    .action-btn {
+      appearance: none;
+      border: 1px solid var(--border-strong);
+      background: var(--surface);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: background-color 140ms ease, border-color 140ms ease, transform 80ms ease;
+    }
+
+    .action-btn:hover {
+      border-color: var(--sys-blue);
+      color: var(--sys-blue);
+    }
+
+    .action-btn:active {
+      transform: scale(0.98);
+    }
+
+    .action-btn.primary {
+      background: var(--sys-blue);
+      border-color: var(--sys-blue);
+      color: #FFFFFF;
+    }
+
+    .action-btn.primary:hover {
+      filter: brightness(1.06);
+      color: #FFFFFF;
+    }
+
+    .action-btn.running {
+      background: var(--sys-red);
+      border-color: var(--sys-red);
+      color: #FFFFFF;
+    }
+
+    .sub-controls {
+      border-top: 1px solid var(--border);
+      background: var(--surface-subtle);
+    }
+
+    .sub-controls-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 6px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 18px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .mini-select {
+      font-family: inherit;
+      font-size: 12px;
+      color: var(--text-primary);
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      padding: 2px 8px;
+      cursor: pointer;
+    }
+
+    .checkbox-inline {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .toolbar-spacer {
+      margin-left: auto;
+    }
+
+    /* =====================================================================
+       メインレイアウト
+       ===================================================================== */
+    .container {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 22px 20px 56px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .section-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px 16px;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    .section-desc {
+      margin: 0;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .scale-ruler {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+    }
+
+    .scale-bar {
+      width: 100px;
+      height: 6px;
+      border-left: 1.5px solid var(--dim-line);
+      border-right: 1.5px solid var(--dim-line);
+      position: relative;
+    }
+
+    .scale-bar::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      height: 1.5px;
+      background: var(--dim-line);
+      transform: translateY(-50%);
+    }
+
+    /* =====================================================================
+       オーバーレイ共通スタイル（実寸 1:1 コンポーネント）
+       ===================================================================== */
+    .hud-surface {
+      background: var(--hud-bg);
+      backdrop-filter: blur(24px) saturate(180%);
+      -webkit-backdrop-filter: blur(24px) saturate(180%);
+      border: 1px solid var(--hud-border);
+      box-shadow: inset 0 0.5px 0 var(--hud-highlight), var(--hud-shadow);
+      color: var(--hud-text);
+      user-select: none;
+      /* 実装時はウィンドウ全体でクリックを透過する前提 */
+    }
+
+    .hud-surface.hud-sm {
+      box-shadow: inset 0 0.5px 0 var(--hud-highlight), var(--hud-shadow-sm);
+    }
+
+    .hud-surface.is-error {
+      background: var(--hud-bg);
+      border-color: var(--sys-red-border);
+      box-shadow: inset 0 0 0 999px var(--sys-red-tint), var(--hud-shadow);
+    }
+
+    .hud-surface.is-done {
+      border-color: rgba(40, 205, 65, 0.40);
+      box-shadow: inset 0 0 0 999px var(--sys-green-tint), var(--hud-shadow);
+    }
+
+    /* 録音中の赤い脈動ドット */
+    .rec-dot {
+      border-radius: 50%;
+      background: var(--sys-red);
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .rec-dot::after {
+      content: "";
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      border: 1.5px solid var(--sys-red);
+      opacity: 0;
+      animation: recPulse 1.5s ease-out infinite;
+    }
+
+    @keyframes recPulse {
+      0% { transform: scale(0.75); opacity: 0.7; }
+      100% { transform: scale(1.7); opacity: 0; }
+    }
+
+    /* 音量連動波形バー */
+    .wave-bars {
+      display: inline-flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .wave-bar {
+      border-radius: 999px;
+      background: var(--hud-wave-bar);
+      transition: height 55ms linear, opacity 90ms ease;
+      will-change: height;
+    }
+
+    /* 等幅タイマー */
+    .timer-text {
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum" 1;
+      letter-spacing: -0.01em;
+      color: var(--hud-text-muted);
+      font-weight: 500;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* スピナー */
+    .hud-spinner {
+      display: inline-block;
+      border-radius: 50%;
+      border-style: solid;
+      border-color: var(--hud-spinner-track);
+      border-top-color: var(--hud-spinner-head);
+      animation: spin 0.72s linear infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* 緑チェックのポップ＆描画アニメーション */
+    .check-svg {
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .check-svg path {
+      stroke: var(--sys-green);
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .animate-check path {
+      stroke-dasharray: 24;
+      stroke-dashoffset: 24;
+      animation: drawCheck 240ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    @keyframes drawCheck {
+      to { stroke-dashoffset: 0; }
+    }
+
+    /* オーバーレイの表示／自動消去フェード */
+    .overlay-shell {
+      transition: opacity 220ms ease, transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .overlay-shell.is-hidden {
+      opacity: 0;
+      transform: translateY(4px) scale(0.94);
+      pointer-events: none;
+    }
+
+    .overlay-shell.is-fading-out {
+      opacity: 0;
+      transform: scale(0.90);
+      transition: opacity 280ms ease, transform 280ms ease;
+    }
+
+    /* ---------------------------------------------------------------------
+       案A：画面下中央ピル（高さ 32px / partial展開時 幅 300px）
+       --------------------------------------------------------------------- */
+    .pill-a {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 16px;
+      font-size: 12px;
+      line-height: 1.35;
+      transition: width 180ms ease, border-radius 180ms ease, background-color 180ms ease;
+    }
+
+    .pill-a.state-recording-compact {
+      width: 124px;
+      height: 32px;
+      padding: 0 12px;
+    }
+
+    .pill-a.state-recording-partial {
+      width: 300px;
+      min-height: 60px;
+      padding: 8px 14px;
+      gap: 5px;
+    }
+
+    .pill-a.state-processing {
+      width: 112px;
+      height: 32px;
+      padding: 0 12px;
+    }
+
+    .pill-a.state-done {
+      width: 32px;
+      height: 32px;
+      padding: 0;
+      align-items: center;
+    }
+
+    .pill-a.state-error {
+      height: 32px;
+      max-width: 248px;
+      padding: 0 12px;
+    }
+
+    .pill-a-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .pill-a .rec-dot {
+      width: 8px;
+      height: 8px;
+    }
+
+    .pill-a .wave-bars {
+      gap: 3px;
+      height: 16px;
+    }
+
+    .pill-a .wave-bar {
+      width: 2px;
+      height: 4px;
+    }
+
+    .pill-a .timer-text {
+      font-size: 12px;
+      min-width: 30px;
+      margin-left: auto;
+    }
+
+    .pill-a .hud-spinner {
+      width: 14px;
+      height: 14px;
+      border-width: 2px;
+    }
+
+    .pill-a-partial {
+      font-size: 12px;
+      line-height: 1.4;
+      color: var(--hud-text);
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      word-break: break-word;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--hud-divider);
+    }
+
+    .pill-a-partial-prefix {
+      color: var(--hud-text-muted);
+    }
+
+    .pill-a-partial-latest {
+      color: var(--hud-text);
+      animation: chunkFadeIn 220ms ease;
+    }
+
+    @keyframes chunkFadeIn {
+      from { opacity: 0.25; }
+      to { opacity: 1; }
+    }
+
+    .pill-a-status-text {
+      font-size: 12px;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .pill-a-error-text {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--sys-red-text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* ---------------------------------------------------------------------
+       案B：カーソル付近ミニ表示（高さ 24px / 1行収まり重視）
+       --------------------------------------------------------------------- */
+    .pill-b {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 12px;
+      font-size: 11px;
+      line-height: 1;
+      height: 24px;
+    }
+
+    .pill-b.state-recording-compact {
+      width: 84px;
+      padding: 0 8px;
+      gap: 6px;
+    }
+
+    .pill-b.state-recording-partial {
+      width: 256px;
+      max-width: 260px;
+      padding: 0 9px 0 8px;
+      gap: 6px;
+    }
+
+    .pill-b.state-processing {
+      width: 78px;
+      padding: 0 9px;
+      gap: 6px;
+    }
+
+    .pill-b.state-done {
+      width: 24px;
+      padding: 0;
+      justify-content: center;
+    }
+
+    .pill-b.state-error {
+      max-width: 204px;
+      padding: 0 9px;
+      gap: 5px;
+    }
+
+    .pill-b .rec-dot {
+      width: 6px;
+      height: 6px;
+    }
+
+    .pill-b .wave-bars {
+      gap: 2px;
+      height: 12px;
+    }
+
+    .pill-b .wave-bar {
+      width: 2px;
+      height: 3px;
+    }
+
+    .pill-b .timer-text {
+      font-size: 11px;
+      min-width: 24px;
+    }
+
+    .pill-b .hud-spinner {
+      width: 12px;
+      height: 12px;
+      border-width: 1.75px;
+    }
+
+    .pill-b-divider {
+      width: 1px;
+      height: 12px;
+      background: var(--hud-divider);
+      flex-shrink: 0;
+    }
+
+    .pill-b-partial {
+      flex: 1;
+      min-width: 0;
+      font-size: 11px;
+      line-height: 1.2;
+      color: var(--hud-text);
+      white-space: nowrap;
+      overflow: hidden;
+      /* 新しい語（右端）が見えるように左端をフェード */
+      display: flex;
+      justify-content: flex-end;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 14%, #000 100%);
+      mask-image: linear-gradient(to right, transparent 0%, #000 14%, #000 100%);
+    }
+
+    .pill-b-status-text {
+      font-size: 11px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .pill-b-error-text {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--sys-red-text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* ---------------------------------------------------------------------
+       案C：メニューバーのみ（高さ 24px、画面オーバーレイなし）
+       --------------------------------------------------------------------- */
+    .menubar-item {
+      height: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 0 6px;
+      border-radius: 4px;
+      color: var(--mac-menubar-text);
+      font-size: 11px;
+      line-height: 1;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .menubar-item.state-idle,
+    .menubar-item.state-processing,
+    .menubar-item.state-done {
+      min-width: 28px;
+    }
+
+    .menubar-item.state-recording {
+      min-width: 78px;
+      padding: 0 7px;
+      background: rgba(255, 59, 48, 0.12);
+    }
+
+    html[data-theme="dark"] .menubar-item.state-recording {
+      background: rgba(255, 69, 58, 0.18);
+    }
+
+    .menubar-item.state-error {
+      padding: 0 7px;
+      background: var(--sys-red-tint);
+      color: var(--sys-red-text);
+      font-weight: 500;
+    }
+
+    .menubar-item .wave-bars {
+      gap: 2px;
+      height: 11px;
+    }
+
+    .menubar-item .wave-bar {
+      width: 2px;
+      height: 3px;
+    }
+
+    .menubar-item .timer-text {
+      font-size: 11px;
+      color: var(--sys-red-text);
+      min-width: 24px;
+    }
+
+    .menubar-item .hud-spinner {
+      width: 14px;
+      height: 14px;
+      border-width: 1.8px;
+    }
+
+    .menubar-strip {
+      height: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 0 8px;
+      background: var(--mac-menubar-bg);
+      border: 1px solid var(--mac-menubar-border);
+      border-radius: 6px;
+      color: var(--mac-menubar-text);
+      font-size: 11px;
+    }
+
+    .menubar-dummy-icon {
+      opacity: 0.55;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 3px;
+    }
+
+    /* 待機時の非表示プレースホルダ（比較表用） */
+    .ghost-box {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px dashed var(--ghost-border);
+      border-radius: 12px;
+      color: var(--text-tertiary);
+      font-size: 11px;
+      padding: 0 12px;
+      height: 28px;
+      white-space: nowrap;
+    }
+
+    /* =====================================================================
+       セクション1：macOS 実画面プレビュー（配置と動きの確認）
+       ===================================================================== */
+    .desktop-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .desktop-card-bar {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px 14px;
+      background: var(--surface-subtle);
+    }
+
+    .desktop-hint {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .mac-screen {
+      position: relative;
+      height: 452px;
+      background: var(--mac-wallpaper);
+      overflow: hidden;
+      user-select: none;
+    }
+
+    /* macOS メニューバー（高さ 24px 実寸） */
+    .mac-menubar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 24px;
+      padding: 0 12px;
+      background: var(--mac-menubar-bg);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid var(--mac-menubar-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--mac-menubar-text);
+      z-index: 20;
+    }
+
+    .mac-menubar-left,
+    .mac-menubar-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .mac-menubar-right {
+      gap: 6px;
+    }
+
+    .mac-menu-app {
+      font-weight: 700;
+    }
+
+    .mac-menu-label {
+      opacity: 0.85;
+    }
+
+    .mac-menu-clock {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      padding-left: 4px;
+    }
+
+    /* 作業中の模擬アプリウィンドウ（エディタ／メモ） */
+    .mac-window {
+      position: absolute;
+      top: 44px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(760px, calc(100% - 40px));
+      height: 316px;
+      background: var(--mac-window-bg);
+      border: 1px solid var(--mac-window-border);
+      border-radius: 11px;
+      box-shadow: var(--mac-window-shadow);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .mac-window-titlebar {
+      height: 32px;
+      background: var(--mac-window-bar);
+      border-bottom: 1px solid var(--mac-window-border);
+      padding: 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .traffic-lights {
+      display: flex;
+      gap: 7px;
+    }
+
+    .traffic-light {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+    }
+
+    .tl-red { background: #FF5F57; }
+    .tl-yellow { background: #FEBC2E; }
+    .tl-green { background: #28C840; }
+
+    .mac-window-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-left: 4px;
+    }
+
+    .mac-window-body {
+      flex: 1;
+      display: flex;
+      min-height: 0;
+    }
+
+    .mac-sidebar {
+      width: 158px;
+      background: var(--mac-window-sidebar);
+      border-right: 1px solid var(--mac-window-border);
+      padding: 10px 8px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+
+    .mac-sidebar-item {
+      padding: 4px 8px;
+      border-radius: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mac-sidebar-item.active {
+      background: var(--sys-blue-soft);
+      color: var(--sys-blue);
+      font-weight: 600;
+    }
+
+    .mac-editor {
+      flex: 1;
+      position: relative;
+      padding: 14px 18px;
+      font-size: 13px;
+      line-height: 1.75;
+      color: var(--text-primary);
+      cursor: text;
+      overflow: hidden;
+    }
+
+    .editor-line {
+      padding: 1px 6px;
+      border-radius: 4px;
+      position: relative;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      cursor: text;
+    }
+
+    .editor-line:hover {
+      background: rgba(128, 128, 140, 0.06);
+    }
+
+    .editor-line.active-line {
+      background: var(--mac-code-line-hi);
+    }
+
+    .editor-lnum {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      width: 18px;
+      text-align: right;
+      flex-shrink: 0;
+      user-select: none;
+    }
+
+    .editor-text {
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .editor-code-inline {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      background: var(--mac-code-bg);
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+
+    .editor-caret {
+      display: inline-block;
+      width: 1.8px;
+      height: 15px;
+      background: var(--mac-caret);
+      vertical-align: -2px;
+      margin-left: 1px;
+      animation: caretBlink 1.05s steps(1, end) infinite;
+    }
+
+    @keyframes caretBlink {
+      0%, 55% { opacity: 1; }
+      56%, 100% { opacity: 0; }
+    }
+
+    .inserted-flash {
+      background: var(--mac-inserted-bg);
+      border-radius: 3px;
+      padding: 0 2px;
+      transition: background-color 1.2s ease;
+    }
+
+    /* 案Bのデスクトップ配置（カーソル右下 +6px, +8px、クリック透過） */
+    .desktop-overlay-b {
+      position: absolute;
+      z-index: 25;
+      pointer-events: none;
+      transition: left 140ms ease, top 140ms ease;
+    }
+
+    /* 案Aのデスクトップ配置（Dockの上、画面下中央、クリック透過） */
+    .desktop-overlay-a {
+      position: absolute;
+      left: 50%;
+      bottom: 66px;
+      transform: translateX(-50%);
+      z-index: 26;
+      pointer-events: none;
+    }
+
+    /* macOS Dock（配置の距離感を示す最小表現） */
+    .mac-dock {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 44px;
+      padding: 6px 10px;
+      border-radius: 14px;
+      background: var(--mac-dock-bg);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid var(--mac-dock-border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 15;
+    }
+
+    .dock-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 7px;
+      opacity: 0.88;
+    }
+
+    /* デスクトップ内の案ラベルタグ（同時表示時の見分け用） */
+    .canvas-pin {
+      position: absolute;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 999px;
+      background: var(--dim-badge-bg);
+      color: var(--dim-badge-text);
+      border: 1px solid rgba(0, 122, 255, 0.25);
+      pointer-events: none;
+      white-space: nowrap;
+      z-index: 28;
+    }
+
+    /* クリック透過デモのフィードバック */
+    .clickthrough-toast {
+      position: absolute;
+      left: 14px;
+      bottom: 12px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      background: var(--surface-toolbar);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 4px 9px;
+      z-index: 22;
+    }
+
+    /* =====================================================================
+       セクション2：3案の実寸比較カード（各要素の寸法注記つき）
+       ===================================================================== */
+    .proposal-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    @media (max-width: 1120px) {
+      .proposal-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .proposal-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .proposal-head {
+      padding: 14px 16px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .proposal-tag-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .proposal-tag {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--sys-blue);
+      background: var(--sys-blue-soft);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+
+    .proposal-pos {
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+
+    .proposal-name {
+      margin: 0 0 4px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .proposal-summary {
+      margin: 0;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+    }
+
+    /* 1:1 実寸ステージ（方眼背景で実寸と透過感を確認） */
+    .spec-stage {
+      min-height: 146px;
+      padding: 22px 16px;
+      background-color: var(--spec-stage-bg);
+      background-image:
+        linear-gradient(to right, var(--spec-grid) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--spec-grid) 1px, transparent 1px);
+      background-size: 16px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      position: relative;
+    }
+
+    .live-measure-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    /* 実寸コンポーネントの横に出す寸法バッジ */
+    .dim-callout {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 2px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      line-height: 1.35;
+      color: var(--dim-badge-text);
+      background: var(--dim-badge-bg);
+      border: 1px solid rgba(0, 122, 255, 0.24);
+      border-radius: 6px;
+      padding: 4px 8px;
+      white-space: nowrap;
+    }
+
+    .dim-callout strong {
+      font-weight: 700;
+    }
+
+    .stage-subnote {
+      font-size: 11px;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    .proposal-specs {
+      padding: 13px 16px 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .spec-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 12px;
+    }
+
+    .spec-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 4px;
+    }
+
+    .spec-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .spec-k {
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .spec-v {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--text-primary);
+      text-align: right;
+    }
+
+    .tradeoff-box {
+      font-size: 12px;
+      color: var(--text-secondary);
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .tradeoff-pro { color: var(--sys-green-text); font-weight: 600; }
+    .tradeoff-con { color: var(--sys-orange); font-weight: 600; }
+
+    /* =====================================================================
+       セクション3：全状態 × 全案 1:1 実寸マトリクス（partialあり／なし並置）
+       ===================================================================== */
+    .matrix-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow-x: auto;
+    }
+
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 960px;
+    }
+
+    .matrix-table th,
+    .matrix-table td {
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      padding: 12px 14px;
+      vertical-align: middle;
+    }
+
+    .matrix-table th:last-child,
+    .matrix-table td:last-child {
+      border-right: 0;
+    }
+
+    .matrix-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .matrix-table thead th {
+      background: var(--surface-subtle);
+      font-size: 12.5px;
+      font-weight: 700;
+      text-align: left;
+      padding: 10px 14px;
+    }
+
+    .matrix-row-head {
+      width: 170px;
+      background: var(--surface-subtle);
+    }
+
+    .matrix-state-btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 7px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .matrix-state-btn:hover {
+      border-color: var(--sys-blue);
+    }
+
+    .matrix-row-active .matrix-state-btn {
+      border-color: var(--sys-blue);
+      background: var(--sys-blue-soft);
+      color: var(--sys-blue);
+    }
+
+    .matrix-state-note {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      display: block;
+    }
+
+    .matrix-cell {
+      background-color: var(--spec-stage-bg);
+      background-image:
+        linear-gradient(to right, var(--spec-grid) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--spec-grid) 1px, transparent 1px);
+      background-size: 16px 16px;
+    }
+
+    .matrix-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .dim-chip {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--dim-badge-text);
+      background: var(--dim-badge-bg);
+      border: 1px solid rgba(0, 122, 255, 0.22);
+      border-radius: 5px;
+      padding: 2px 6px;
+      white-space: nowrap;
+    }
+
+    .cell-note {
+      font-size: 11.5px;
+      color: var(--text-secondary);
+    }
+
+    /* =====================================================================
+       セクション4：実装前提（他アプリの邪魔をしない設計）
+       ===================================================================== */
+    .premise-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    @media (max-width: 960px) {
+      .premise-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .premise-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 13px 15px;
+    }
+
+    .premise-card h3 {
+      margin: 0 0 5px;
+      font-size: 13.5px;
+      font-weight: 700;
+    }
+
+    .premise-card p {
+      margin: 0;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .premise-card code {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0 4px;
+      color: var(--text-primary);
+    }
+
+    /* カーソル基準線の小さな演出（案Bの実寸カード内） */
+    .caret-anchor-demo {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 6px;
+      position: relative;
+      padding-top: 16px;
+      padding-left: 16px;
+    }
+
+    .caret-marker {
+      position: absolute;
+      top: 0;
+      left: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--dim-badge-text);
+    }
+
+    .caret-marker-bar {
+      width: 2px;
+      height: 14px;
+      background: var(--mac-caret);
+      display: inline-block;
+    }
+
+    .replay-inline-btn {
+      appearance: none;
+      border: 1px solid var(--border-strong);
+      background: var(--surface);
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 11px;
+      padding: 2px 7px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .replay-inline-btn:hover {
+      color: var(--sys-blue);
+      border-color: var(--sys-blue);
+    }
+  </style>
+</head>
+<body>
+  <!-- ===================================================================
+       上部固定コントロールバー
+       =================================================================== -->
+  <header class="toolbar">
+    <div class="toolbar-inner">
+      <div class="brand">
+        <span class="brand-title">VoiceIME オーバーレイ試作</span>
+        <span class="brand-badge">実寸 1px = macOS 1pt</span>
+      </div>
+
+      <div class="control-group" role="group" aria-label="状態の切り替え">
+        <span class="control-label">状態</span>
+        <div class="segmented">
+          <button type="button" class="seg-btn" data-state="idle" aria-pressed="false">
+            <span class="seg-dot idle"></span>待機
+          </button>
+          <button type="button" class="seg-btn" data-state="recording" aria-pressed="true">
+            <span class="seg-dot recording"></span>録音中
+          </button>
+          <button type="button" class="seg-btn" data-state="processing" aria-pressed="false">
+            <span class="seg-dot processing"></span>処理中
+          </button>
+          <button type="button" class="seg-btn" data-state="done" aria-pressed="false">
+            <span class="seg-dot done"></span>完了
+          </button>
+          <button type="button" class="seg-btn" data-state="error" aria-pressed="false">
+            <span class="seg-dot error"></span>エラー
+          </button>
+        </div>
+        <button type="button" id="btn-sequence" class="action-btn primary">
+          ▶ 一連の流れを再生
+        </button>
+      </div>
+
+      <div class="control-group" role="group" aria-label="partial 途中結果の表示">
+        <span class="control-label">途中結果（partial）</span>
+        <div class="segmented">
+          <button type="button" class="seg-btn" data-partial="off" aria-pressed="false">表示しない</button>
+          <button type="button" class="seg-btn" data-partial="on" aria-pressed="true">表示する</button>
+        </div>
+      </div>
+
+      <div class="control-group toolbar-spacer" role="group" aria-label="外観モード">
+        <span class="control-label">外観</span>
+        <div class="segmented">
+          <button type="button" class="seg-btn" data-theme-btn="light" aria-pressed="true">☀ ライト</button>
+          <button type="button" class="seg-btn" data-theme-btn="dark" aria-pressed="false">☾ ダーク</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-controls">
+      <div class="sub-controls-inner">
+        <label class="control-group">
+          <span>マイク音量（録音中）:</span>
+          <select id="select-mic-mode" class="mini-select">
+            <option value="speech" selected>自然な発話（無音区切りあり）</option>
+            <option value="loud">大きめの声</option>
+            <option value="silent">無音（待機レベル）</option>
+          </select>
+        </label>
+
+        <label class="control-group">
+          <span>エラー理由の例:</span>
+          <select id="select-error-msg" class="mini-select">
+            <option value="マイク権限がありません|マイク権限なし" selected>マイク権限がありません</option>
+            <option value="認識エンジンに接続できません|エンジンエラー">認識エンジンに接続できません</option>
+            <option value="入力先変更：コピーしました|入力先変更・コピー済">入力先変更：コピーしました</option>
+          </select>
+        </label>
+
+        <label class="checkbox-inline">
+          <input type="checkbox" id="chk-auto-fade-done" checked />
+          <span>完了チェックを約0.9秒で自動消去</span>
+        </label>
+
+        <button type="button" id="btn-replay-done" class="replay-inline-btn" hidden>
+          完了をもう一度再生
+        </button>
+
+        <span id="status-banner" style="margin-left:auto; font-family:var(--font-mono); font-size:11px;"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ===================================================================
+         セクション1：macOS 実画面プレビュー
+         =================================================================== -->
+    <section aria-labelledby="sec-desktop">
+      <div class="section-head">
+        <div>
+          <h2 id="sec-desktop" class="section-title">1. macOS画面上での配置イメージ（実寸）</h2>
+          <p class="section-desc">
+            他のアプリ（例：エディタ）で入力中にどう見えるかを確認できます。エディタの行をクリックするとカーソル（案Bの位置）を動かせます。
+          </p>
+        </div>
+        <div class="scale-ruler" title="ブラウザ拡大率100%で実寸表示">
+          <span class="scale-bar" aria-hidden="true"></span>
+          <span>100 px（= macOS 100 pt）</span>
+        </div>
+      </div>
+
+      <div class="desktop-card">
+        <div class="desktop-card-bar">
+          <div class="control-group" role="group" aria-label="デスクトップ表示案">
+            <span class="control-label">画面に出す案</span>
+            <div class="segmented">
+              <button type="button" class="seg-btn" data-desktop-plan="all" aria-pressed="true">A・B・C 同時表示</button>
+              <button type="button" class="seg-btn" data-desktop-plan="a" aria-pressed="false">案A：下中央ピル</button>
+              <button type="button" class="seg-btn" data-desktop-plan="b" aria-pressed="false">案B：カーソル付近</button>
+              <button type="button" class="seg-btn" data-desktop-plan="c" aria-pressed="false">案C：メニューバーのみ</button>
+            </div>
+          </div>
+          <span class="desktop-hint">
+            ※ 案A・案Bは <code>pointer-events: none</code>（実装時は <code>ignoresMouseEvents = true</code>）で裏のテキストをそのままクリックできます
+          </span>
+        </div>
+
+        <div class="mac-screen" id="mac-screen">
+          <!-- macOS メニューバー（高さ 24px） -->
+          <div class="mac-menubar">
+            <div class="mac-menubar-left">
+              <span aria-hidden="true" style="font-size:13px;"></span>
+              <span class="mac-menu-app">Notes</span>
+              <span class="mac-menu-label">ファイル</span>
+              <span class="mac-menu-label">編集</span>
+              <span class="mac-menu-label">表示</span>
+              <span class="mac-menu-label">ウィンドウ</span>
+            </div>
+            <div class="mac-menubar-right">
+              <!-- VoiceIME メニューバー項目（案C本体・案A/B時の標準アイコン） -->
+              <div id="desktop-menubar-slot"></div>
+              <span class="menubar-dummy-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                  <path d="M2.2 6.2C5.4 3.5 10.6 3.5 13.8 6.2M4.5 8.8C6.5 7.2 9.5 7.2 11.5 8.8M7 11.4C7.6 10.9 8.4 10.9 9 11.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="menubar-dummy-icon" aria-hidden="true">
+                <svg width="18" height="12" viewBox="0 0 20 12" fill="none">
+                  <rect x="0.8" y="1.5" width="15.5" height="9" rx="2.2" stroke="currentColor" stroke-width="1.2"/>
+                  <rect x="2.6" y="3.3" width="10.5" height="5.4" rx="1" fill="currentColor"/>
+                  <path d="M18 4.2V7.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="mac-menu-clock">11月22日 14:20</span>
+            </div>
+          </div>
+
+          <!-- 案Cのピンラベル -->
+          <span class="canvas-pin" id="pin-c" style="top:28px; right:116px;">案C：メニューバー</span>
+
+          <!-- 作業中アプリ（模擬エディタ） -->
+          <div class="mac-window">
+            <div class="mac-window-titlebar">
+              <div class="traffic-lights" aria-hidden="true">
+                <span class="traffic-light tl-red"></span>
+                <span class="traffic-light tl-yellow"></span>
+                <span class="traffic-light tl-green"></span>
+              </div>
+              <span class="mac-window-title">experiment-memo.md — 作業中の別アプリ（フォーカス維持）</span>
+            </div>
+            <div class="mac-window-body">
+              <aside class="mac-sidebar" aria-hidden="true">
+                <div class="mac-sidebar-item active">experiment-memo.md</div>
+                <div class="mac-sidebar-item">dataloader_bench.py</div>
+                <div class="mac-sidebar-item">matcher.py</div>
+                <div class="mac-sidebar-item">README.md</div>
+              </aside>
+              <div class="mac-editor" id="mac-editor">
+                <div class="editor-line" data-line="0">
+                  <span class="editor-lnum">1</span>
+                  <span class="editor-text"><strong># 第3弾の学習メモ</strong></span>
+                </div>
+                <div class="editor-line" data-line="1">
+                  <span class="editor-lnum">2</span>
+                  <span class="editor-text">前処理のボトルネックを減らすため <span class="editor-code-inline">num_workers=8</span> と <span class="editor-code-inline">bf16</span> を有効化。</span>
+                </div>
+                <div class="editor-line active-line" data-line="2">
+                  <span class="editor-lnum">3</span>
+                  <span class="editor-text" id="editor-target-line">次の手順：<span id="editor-inserted-slot"></span><span class="editor-caret" id="editor-caret"></span></span>
+                </div>
+                <div class="editor-line" data-line="3">
+                  <span class="editor-lnum">4</span>
+                  <span class="editor-text">検証セットでは CER 5% 以下、初見語正答率 80% 以上を目標にする。</span>
+                </div>
+                <div class="editor-line" data-line="4">
+                  <span class="editor-lnum">5</span>
+                  <span class="editor-text">話し終えてから 1 秒以内にカーソル位置へ貼り付くことを確認する。</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 案B：カーソル付近ミニ表示（実寸） -->
+          <div class="desktop-overlay-b" id="desktop-overlay-b">
+            <div id="desktop-slot-b"></div>
+          </div>
+          <span class="canvas-pin" id="pin-b">案B：カーソル +6,+8px</span>
+
+          <!-- 案A：画面下中央ピル（実寸） -->
+          <div class="desktop-overlay-a" id="desktop-overlay-a">
+            <div id="desktop-slot-a"></div>
+          </div>
+          <span class="canvas-pin" id="pin-a" style="left:50%; bottom:104px; transform:translateX(-50%);">案A：画面下中央</span>
+
+          <!-- クリック透過・カーソル移動の通知 -->
+          <div class="clickthrough-toast" id="clickthrough-toast">
+            エディタの行をクリックすると入力カーソルが移動し、案Bが追従します
+          </div>
+
+          <!-- macOS Dock（位置の目安） -->
+          <div class="mac-dock" aria-hidden="true">
+            <span class="dock-icon" style="background:linear-gradient(180deg,#5AC8FA,#007AFF);"></span>
+            <span class="dock-icon" style="background:linear-gradient(180deg,#FFD60A,#FF9F0A);"></span>
+            <span class="dock-icon" style="background:linear-gradient(180deg,#63E6BE,#28CD41);"></span>
+            <span class="dock-icon" style="background:linear-gradient(180deg,#A5A6F6,#5856D6);"></span>
+            <span class="dock-icon" style="background:linear-gradient(180deg,#48484A,#1C1C1E);"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         セクション2：3案の実寸ライブ比較と寸法仕様
+         =================================================================== -->
+    <section aria-labelledby="sec-proposals">
+      <div class="section-head">
+        <div>
+          <h2 id="sec-proposals" class="section-title">2. 3案の実寸比較と各要素の寸法</h2>
+          <p class="section-desc">
+            上部の「状態」「途中結果（partial）」「外観」ボタンに連動して、3案の動きと実寸（px）を並べて確認できます。
+          </p>
+        </div>
+      </div>
+
+      <div class="proposal-grid">
+        <!-- 案Aカード -->
+        <article class="proposal-card">
+          <div class="proposal-head">
+            <div class="proposal-tag-row">
+              <span class="proposal-tag">案A</span>
+              <span class="proposal-pos">配置：画面下中央（Dockの上）</span>
+            </div>
+            <h3 class="proposal-name">画面下中央の小さな丸いピル</h3>
+            <p class="proposal-summary">
+              常に決まった場所に出る定番のHUD型。入力中の文字と被りにくく、視界の端で録音状態をすぐ把握できる。
+            </p>
+          </div>
+
+          <div class="spec-stage">
+            <div class="live-measure-row">
+              <div id="card-live-a"></div>
+              <div class="dim-callout" id="dim-live-a"></div>
+            </div>
+            <div class="stage-subnote" id="note-live-a"></div>
+          </div>
+
+          <div class="proposal-specs">
+            <ul class="spec-list">
+              <li><span class="spec-k">基本サイズ（録音中・partialなし）</span><span class="spec-v">124 × 32 px（角丸 16 px）</span></li>
+              <li><span class="spec-k">録音中（partialあり）</span><span class="spec-v">300 × 60〜76 px（最大2行）</span></li>
+              <li><span class="spec-k">処理中 / 完了 / エラー</span><span class="spec-v">112×32 / 32×32 / 最大248×32 px</span></li>
+              <li><span class="spec-k">録音ドット / 波形バー</span><span class="spec-v">8×8 px / 9本（幅2・間隔3・高4〜16 px）</span></li>
+              <li><span class="spec-k">スピナー / 緑チェック / 文字</span><span class="spec-v">14×14 / 16×16 / 12 px（等幅数字）</span></li>
+              <li><span class="spec-k">左右余白 / 要素間隔</span><span class="spec-v">左右 12 px（展開時 14 px） / 8 px</span></li>
+            </ul>
+            <div class="tradeoff-box">
+              <div><span class="tradeoff-pro">長所：</span>位置が固定で安定。カーソル位置が取れないアプリでも同じ見た目で動く。partialも読みやすい。</div>
+              <div><span class="tradeoff-con">注意：</span>画面上部で作業していると視線移動がやや大きい。</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 案Bカード -->
+        <article class="proposal-card">
+          <div class="proposal-head">
+            <div class="proposal-tag-row">
+              <span class="proposal-tag">案B</span>
+              <span class="proposal-pos">配置：カーソル右下（+6, +8 px）</span>
+            </div>
+            <h3 class="proposal-name">カーソル付近のミニバッジ</h3>
+            <p class="proposal-summary">
+              入力位置のすぐ下に出る高さ24pxの極小カプセル。視線を動かさずに録音中・処理中を確認できる。
+            </p>
+          </div>
+
+          <div class="spec-stage">
+            <div class="live-measure-row">
+              <div class="caret-anchor-demo">
+                <span class="caret-marker" aria-hidden="true">
+                  <span class="caret-marker-bar"></span>カーソル基準 (+6, +8 px)
+                </span>
+                <div id="card-live-b"></div>
+              </div>
+              <div class="dim-callout" id="dim-live-b"></div>
+            </div>
+            <div class="stage-subnote" id="note-live-b"></div>
+          </div>
+
+          <div class="proposal-specs">
+            <ul class="spec-list">
+              <li><span class="spec-k">基本サイズ（録音中・partialなし）</span><span class="spec-v">84 × 24 px（角丸 12 px）</span></li>
+              <li><span class="spec-k">録音中（partialあり）</span><span class="spec-v">256 × 24 px（1行・左端フェード）</span></li>
+              <li><span class="spec-k">処理中 / 完了 / エラー</span><span class="spec-v">78×24 / 24×24 / 最大204×24 px</span></li>
+              <li><span class="spec-k">録音ドット / 波形バー</span><span class="spec-v">6×6 px / 5本（幅2・間隔2・高3〜12 px）</span></li>
+              <li><span class="spec-k">スピナー / 緑チェック / 文字</span><span class="spec-v">12×12 / 13×13 / 11 px（等幅数字）</span></li>
+              <li><span class="spec-k">左右余白 / 要素間隔</span><span class="spec-v">左右 8 px / 6 px</span></li>
+            </ul>
+            <div class="tradeoff-box">
+              <div><span class="tradeoff-pro">長所：</span>目線が入力箇所から外れない。高さ24pxなので下の行を隠す量が最小限。</div>
+              <div><span class="tradeoff-con">注意：</span>一部アプリ（Electron・端末等）でカーソル座標が取れず、マウス位置や画面下中央へ退避が必要。</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 案Cカード -->
+        <article class="proposal-card">
+          <div class="proposal-head">
+            <div class="proposal-tag-row">
+              <span class="proposal-tag">案C</span>
+              <span class="proposal-pos">配置：メニューバーのみ（画面表示なし）</span>
+            </div>
+            <h3 class="proposal-name">メニューバーのみの最小案</h3>
+            <p class="proposal-summary">
+              作業画面には一切オーバーレイを出さず、既存のメニューバーアイコンの表現だけを少し拡張する最小構成。
+            </p>
+          </div>
+
+          <div class="spec-stage">
+            <div class="live-measure-row">
+              <div class="menubar-strip">
+                <div id="card-live-c"></div>
+                <span class="menubar-dummy-icon" aria-hidden="true" style="font-size:10px;">Wi-Fi</span>
+                <span class="menubar-dummy-icon" aria-hidden="true" style="font-size:10px;">14:20</span>
+              </div>
+              <div class="dim-callout" id="dim-live-c"></div>
+            </div>
+            <div class="stage-subnote" id="note-live-c"></div>
+          </div>
+
+          <div class="proposal-specs">
+            <ul class="spec-list">
+              <li><span class="spec-k">画面上のオーバーレイ</span><span class="spec-v">0 × 0 px（出さない）</span></li>
+              <li><span class="spec-k">メニューバー高さ / アイコン</span><span class="spec-v">高さ 24 px / アイコン 16 × 16 px</span></li>
+              <li><span class="spec-k">待機 / 処理中 / 完了</span><span class="spec-v">28 × 24 px（アイコンのみ）</span></li>
+              <li><span class="spec-k">録音中（波形＋経過秒）</span><span class="spec-v">78 × 24 px（アイコンのみ28pxも可）</span></li>
+              <li><span class="spec-k">エラー（短い理由付き）</span><span class="spec-v">最大 140 × 24 px（数秒でアイコンへ）</span></li>
+              <li><span class="spec-k">録音中の partial 表示</span><span class="spec-v">非対応（作業画面に出さない方針）</span></li>
+            </ul>
+            <div class="tradeoff-box">
+              <div><span class="tradeoff-pro">長所：</span>作業画面の視界を1pxも遮らない。実装と保守が最も小さく、既存アプリ構造にそのまま乗る。</div>
+              <div><span class="tradeoff-con">注意：</span>大画面やフルスクリーン（メニューバー自動非表示）では録音中に気づきにくい。partial非対応。</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         セクション3：全状態 × 全案 1:1 実寸マトリクス（partial有無も同時比較）
+         =================================================================== -->
+    <section aria-labelledby="sec-matrix">
+      <div class="section-head">
+        <div>
+          <h2 id="sec-matrix" class="section-title">3. 全状態・partial有無の1:1実寸一覧</h2>
+          <p class="section-desc">
+            状態切り替えを押さずに、すべての状態と「partial なし／あり」の違いを実寸で一度に見比べられます（左の状態名クリックで上部プレビューも連動）。
+          </p>
+        </div>
+      </div>
+
+      <div class="matrix-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th style="width:176px;">状態</th>
+              <th>案A：画面下中央ピル（実寸）</th>
+              <th>案B：カーソル付近ミニ表示（実寸）</th>
+              <th>案C：メニューバーのみ（実寸）</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         セクション4：作業を妨げないための実装前提
+         =================================================================== -->
+    <section aria-labelledby="sec-premise">
+      <div class="section-head">
+        <div>
+          <h2 id="sec-premise" class="section-title">4. 実装時の前提（他アプリの作業を邪魔しない設計）</h2>
+          <p class="section-desc">
+            案A・案Bを採用する場合、表示は前面アプリの入力を妨げない次の条件で実装する前提です。
+          </p>
+        </div>
+      </div>
+
+      <div class="premise-grid">
+        <div class="premise-card">
+          <h3>フォーカスを奪わない</h3>
+          <p>
+            <code>NSPanel</code> に <code>.nonactivatingPanel</code> を設定し、<code>canBecomeKey = false</code>・<code>canBecomeMain = false</code> とします。表示・非表示の切り替えで入力先アプリのフォーカスやIME変換中状態が外れず、既存の宛先照合（<code>PasteController</code>）にも影響しません。
+          </p>
+        </div>
+        <div class="premise-card">
+          <h3>クリックを通す（操作を遮らない）</h3>
+          <p>
+            オーバーレイウィンドウ全体に <code>ignoresMouseEvents = true</code> を設定します。ピルやバッジの裏側にあるテキスト・ボタン・スクロールバーをそのままクリックやドラッグできます。
+          </p>
+        </div>
+        <div class="premise-card">
+          <h3>最前面表示・自動消去・フォールバック</h3>
+          <p>
+            <code>level = .floating</code> と <code>collectionBehavior</code>（全操作スペース・フルスクリーン補助）で控えめに表示し、待機時は非表示・完了チェックは約0.9秒で自動消去します。案Bでテキストカーソル座標（<code>AXBoundsForRange</code>）が取れないアプリでは、マウス付近または画面下中央へ退避します。
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      // ===================================================================
+      // 状態管理と定数（アプリ仕様 AppCoordinator / engine-protocol に準拠）
+      // ===================================================================
+      const PARTIAL_STEPS = [
+        { prefix: "", latest: "PyTorchのDataLoaderで" },
+        { prefix: "PyTorchのDataLoaderで ", latest: "pin_memoryを有効にして" },
+        { prefix: "PyTorchのDataLoaderで pin_memoryを有効にして ", latest: "Hungarian Matchingを高速化したい" }
+      ];
+
+      const FINAL_FORMATTED_TEXT = "PyTorchのDataLoaderでpin_memoryを有効にして、Hungarian Matchingの前処理を高速化する。";
+
+      const state = {
+        mode: "recording",       // idle | recording | processing | done | error
+        partial: "on",           // off | on
+        theme: "light",          // light | dark
+        desktopPlan: "all",      // all | a | b | c
+        micMode: "speech",       // speech | loud | silent
+        errorMsgA: "マイク権限がありません",
+        errorMsgShort: "マイク権限なし",
+        autoFadeDone: true,
+        doneHidden: false,
+        elapsedSec: 4,
+        partialIndex: 1,
+        sequenceRunning: false,
+        activeLine: 2
+      };
+
+      // タイマー・アニメーション制御用ハンドル
+      let elapsedTimer = null;
+      let partialTimer = null;
+      let doneFadeTimer = null;
+      let doneHideTimer = null;
+      let sequenceTimers = [];
+      let rafId = null;
+
+      // 波形シミュレーション用の現在値（案A 9本 / 案B 5本 / 案C 4本）
+      const waveProfiles = {
+        a: { count: 9, min: 4, max: 16, weights: [0.42, 0.65, 0.85, 0.96, 1.0, 0.94, 0.82, 0.62, 0.40] },
+        b: { count: 5, min: 3, max: 12, weights: [0.55, 0.88, 1.0, 0.86, 0.52] },
+        c: { count: 4, min: 3, max: 11, weights: [0.60, 0.96, 1.0, 0.64] }
+      };
+
+      // ===================================================================
+      // 共通SVGアイコン（SF Symbols 準拠のシンプルなベクター）
+      // ===================================================================
+      const ICONS = {
+        micOutline: (size = 16) => `
+          <svg width="${size}" height="${size}" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <rect x="5.5" y="2.1" width="5" height="7.6" rx="2.5" stroke="currentColor" stroke-width="1.35"/>
+            <path d="M3.5 7.8C3.5 10.3 5.5 12.2 8 12.2C10.5 12.2 12.5 10.3 12.5 7.8" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+            <path d="M8 12.2V14.2M5.7 14.2H10.3" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+          </svg>`,
+        micFilledRed: (size = 16) => `
+          <svg width="${size}" height="${size}" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <rect x="5.3" y="2" width="5.4" height="7.8" rx="2.7" fill="var(--sys-red)"/>
+            <path d="M3.5 7.8C3.5 10.3 5.5 12.2 8 12.2C10.5 12.2 12.5 10.3 12.5 7.8" stroke="var(--sys-red)" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M8 12.2V14.2M5.7 14.2H10.3" stroke="var(--sys-red)" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>`,
+        checkPlain: (size = 16, animate = true) => `
+          <svg class="check-svg ${animate ? "animate-check" : ""}" width="${size}" height="${size}" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M3.3 8.4L6.6 11.7L12.8 4.6"/>
+          </svg>`,
+        checkCircleGreen: (size = 16) => `
+          <svg width="${size}" height="${size}" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <circle cx="8" cy="8" r="6.7" fill="var(--sys-green)"/>
+            <path d="M4.8 8.3L7.0 10.5L11.4 5.7" stroke="#FFFFFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>`,
+        errorTriangle: (size = 14) => `
+          <svg width="${size}" height="${size}" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="flex-shrink:0;">
+            <path d="M7.15 2.45C7.53 1.78 8.47 1.78 8.85 2.45L14.2 11.95C14.58 12.62 14.1 13.45 13.34 13.45H2.66C1.9 13.45 1.42 12.62 1.8 11.95L7.15 2.45Z" fill="var(--sys-red)"/>
+            <path d="M8 5.6V8.9" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="8" cy="11.2" r="0.85" fill="#FFFFFF"/>
+          </svg>`
+      };
+
+      function formatElapsed(sec) {
+        const m = Math.floor(sec / 60);
+        const s = sec % 60;
+        return `${m}:${String(s).padStart(2, "0")}`;
+      }
+
+      function escapeHtml(text) {
+        return text
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+
+      function renderWaveBars(planKey, isLive) {
+        const prof = waveProfiles[planKey];
+        const staticHeights = planKey === "a"
+          ? [5, 8, 12, 15, 13, 16, 10, 7, 5]
+          : planKey === "b"
+            ? [4, 9, 12, 8, 5]
+            : [4, 9, 11, 5];
+        const bars = Array.from({ length: prof.count }, (_, idx) => {
+          const h = staticHeights[idx] || prof.min;
+          const attr = isLive ? `data-wave="${planKey}" data-bar-idx="${idx}"` : "";
+          return `<span class="wave-bar" ${attr} style="height:${h}px;"></span>`;
+        }).join("");
+        return `<span class="wave-bars" aria-hidden="true">${bars}</span>`;
+      }
+
+      // ===================================================================
+      // 各案（A / B / C）のオーバーレイHTML生成
+      // ===================================================================
+      function buildPlanA(mode, options = {}) {
+        const {
+          partial = state.partial,
+          isLive = true,
+          elapsed = state.elapsedSec,
+          partialIdx = state.partialIndex,
+          hiddenForDesktop = false,
+          fadingOut = false,
+          animateCheck = isLive
+        } = options;
+
+        if (mode === "idle") {
+          if (hiddenForDesktop) {
+            return `<div class="overlay-shell is-hidden"><div class="pill-a hud-surface state-done"></div></div>`;
+          }
+          return `<span class="ghost-box">非表示（画面に何も出さない）</span>`;
+        }
+
+        const shellClass = `overlay-shell ${fadingOut ? "is-fading-out" : ""}`;
+
+        if (mode === "recording") {
+          const timerStr = formatElapsed(elapsed);
+          if (partial === "on") {
+            const step = PARTIAL_STEPS[Math.min(partialIdx, PARTIAL_STEPS.length - 1)];
+            return `
+              <div class="${shellClass}">
+                <div class="pill-a hud-surface state-recording-partial" role="status" aria-label="録音中（途中結果あり）">
+                  <div class="pill-a-partial">
+                    <span class="pill-a-partial-prefix">${escapeHtml(step.prefix)}</span><span class="pill-a-partial-latest">${escapeHtml(step.latest)}</span>
+                  </div>
+                  <div class="pill-a-row">
+                    <span class="rec-dot"></span>
+                    ${renderWaveBars("a", isLive)}
+                    <span class="timer-text" ${isLive ? 'data-live-timer="true"' : ""}>${timerStr}</span>
+                  </div>
+                </div>
+              </div>`;
+          }
+          return `
+            <div class="${shellClass}">
+              <div class="pill-a hud-surface state-recording-compact" role="status" aria-label="録音中">
+                <div class="pill-a-row">
+                  <span class="rec-dot"></span>
+                  ${renderWaveBars("a", isLive)}
+                  <span class="timer-text" ${isLive ? 'data-live-timer="true"' : ""}>${timerStr}</span>
+                </div>
+              </div>
+            </div>`;
+        }
+
+        if (mode === "processing") {
+          return `
+            <div class="${shellClass}">
+              <div class="pill-a hud-surface state-processing" role="status" aria-label="処理中">
+                <div class="pill-a-row">
+                  <span class="hud-spinner" aria-hidden="true"></span>
+                  <span class="pill-a-status-text">整形中…</span>
+                </div>
+              </div>
+            </div>`;
+        }
+
+        if (mode === "done") {
+          if (isLive && state.doneHidden && state.autoFadeDone) {
+            if (hiddenForDesktop) {
+              return `<div class="overlay-shell is-hidden"><div class="pill-a hud-surface is-done state-done"></div></div>`;
+            }
+            return `<span class="ghost-box">自動消去済み（約0.9秒で非表示）</span>`;
+          }
+          return `
+            <div class="${shellClass}">
+              <div class="pill-a hud-surface is-done state-done" role="status" aria-label="完了">
+                ${ICONS.checkPlain(16, animateCheck)}
+              </div>
+            </div>`;
+        }
+
+        if (mode === "error") {
+          return `
+            <div class="${shellClass}">
+              <div class="pill-a hud-surface is-error state-error" role="alert">
+                <div class="pill-a-row" style="gap:6px;">
+                  ${ICONS.errorTriangle(14)}
+                  <span class="pill-a-error-text">${escapeHtml(state.errorMsgA)}</span>
+                </div>
+              </div>
+            </div>`;
+        }
+        return "";
+      }
+
+      function buildPlanB(mode, options = {}) {
+        const {
+          partial = state.partial,
+          isLive = true,
+          elapsed = state.elapsedSec,
+          partialIdx = state.partialIndex,
+          hiddenForDesktop = false,
+          fadingOut = false,
+          animateCheck = isLive
+        } = options;
+
+        if (mode === "idle") {
+          if (hiddenForDesktop) {
+            return `<div class="overlay-shell is-hidden"><div class="pill-b hud-surface hud-sm state-done"></div></div>`;
+          }
+          return `<span class="ghost-box">非表示（画面に何も出さない）</span>`;
+        }
+
+        const shellClass = `overlay-shell ${fadingOut ? "is-fading-out" : ""}`;
+
+        if (mode === "recording") {
+          const timerStr = formatElapsed(elapsed);
+          if (partial === "on") {
+            const step = PARTIAL_STEPS[Math.min(partialIdx, PARTIAL_STEPS.length - 1)];
+            const fullText = step.prefix + step.latest;
+            return `
+              <div class="${shellClass}">
+                <div class="pill-b hud-surface hud-sm state-recording-partial" role="status" aria-label="録音中（途中結果あり）">
+                  <span class="rec-dot"></span>
+                  ${renderWaveBars("b", isLive)}
+                  <span class="timer-text" ${isLive ? 'data-live-timer="true"' : ""}>${timerStr}</span>
+                  <span class="pill-b-divider" aria-hidden="true"></span>
+                  <span class="pill-b-partial"><span>${escapeHtml(fullText)}</span></span>
+                </div>
+              </div>`;
+          }
+          return `
+            <div class="${shellClass}">
+              <div class="pill-b hud-surface hud-sm state-recording-compact" role="status" aria-label="録音中">
+                <span class="rec-dot"></span>
+                ${renderWaveBars("b", isLive)}
+                <span class="timer-text" ${isLive ? 'data-live-timer="true"' : ""}>${timerStr}</span>
+              </div>
+            </div>`;
+        }
+
+        if (mode === "processing") {
+          return `
+            <div class="${shellClass}">
+              <div class="pill-b hud-surface hud-sm state-processing" role="status" aria-label="処理中">
+                <span class="hud-spinner" aria-hidden="true"></span>
+                <span class="pill-b-status-text">整形中</span>
+              </div>
+            </div>`;
+        }
+
+        if (mode === "done") {
+          if (isLive && state.doneHidden && state.autoFadeDone) {
+            if (hiddenForDesktop) {
+              return `<div class="overlay-shell is-hidden"><div class="pill-b hud-surface hud-sm is-done state-done"></div></div>`;
+            }
+            return `<span class="ghost-box">自動消去済み（約0.9秒で非表示）</span>`;
+          }
+          return `
+            <div class="${shellClass}">
+              <div class="pill-b hud-surface hud-sm is-done state-done" role="status" aria-label="完了">
+                ${ICONS.checkPlain(13, animateCheck)}
+              </div>
+            </div>`;
+        }
+
+        if (mode === "error") {
+          return `
+            <div class="${shellClass}">
+              <div class="pill-b hud-surface hud-sm is-error state-error" role="alert">
+                ${ICONS.errorTriangle(12)}
+                <span class="pill-b-error-text">${escapeHtml(state.errorMsgShort)}</span>
+              </div>
+            </div>`;
+        }
+        return "";
+      }
+
+      function buildPlanC(mode, options = {}) {
+        const {
+          isLive = true,
+          elapsed = state.elapsedSec
+        } = options;
+
+        if (mode === "idle") {
+          return `<div class="menubar-item state-idle" title="待機中">${ICONS.micOutline(16)}</div>`;
+        }
+
+        if (mode === "recording") {
+          return `
+            <div class="menubar-item state-recording" title="録音中">
+              ${ICONS.micFilledRed(16)}
+              ${renderWaveBars("c", isLive)}
+              <span class="timer-text" ${isLive ? 'data-live-timer="true"' : ""}>${formatElapsed(elapsed)}</span>
+            </div>`;
+        }
+
+        if (mode === "processing") {
+          return `
+            <div class="menubar-item state-processing" title="処理中">
+              <span class="hud-spinner" aria-hidden="true"></span>
+            </div>`;
+        }
+
+        if (mode === "done") {
+          if (isLive && state.doneHidden && state.autoFadeDone) {
+            return `<div class="menubar-item state-idle" title="待機中へ復帰">${ICONS.micOutline(16)}</div>`;
+          }
+          return `<div class="menubar-item state-done" title="完了（一瞬表示）">${ICONS.checkCircleGreen(16)}</div>`;
+        }
+
+        if (mode === "error") {
+          return `
+            <div class="menubar-item state-error" title="エラー">
+              ${ICONS.errorTriangle(14)}
+              <span>${escapeHtml(state.errorMsgShort)}</span>
+            </div>`;
+        }
+        return "";
+      }
+
+      // ===================================================================
+      // 寸法注記テキストの生成
+      // ===================================================================
+      function getDimensionInfo(plan, mode, partial) {
+        if (plan === "a") {
+          if (mode === "idle") return { badge: "<strong>0 × 0 px</strong><span>非表示</span>", note: "待機時はウィンドウ自体を非表示にします。" };
+          if (mode === "recording" && partial === "on") {
+            return {
+              badge: "<strong>300 × 60〜76 px</strong><span>角丸 16 px / 余白 8×14 px</span><span>文字 12 px（最大2行）</span>",
+              note: "partial受信時にピルが上方向へ広がり、日本語＋英字の途中結果を表示します。"
+            };
+          }
+          if (mode === "recording") {
+            return {
+              badge: "<strong>124 × 32 px</strong><span>角丸 16 px / 余白 12 px</span><span>波形 9本（高4〜16 px）</span>",
+              note: "録音ドット(8px)＋音量連動波形＋経過秒(12px等幅)を1行に収めます。"
+            };
+          }
+          if (mode === "processing") {
+            return {
+              badge: "<strong>112 × 32 px</strong><span>角丸 16 px / スピナー 14 px</span>",
+              note: "録音中(124px)に近い幅を保ち、状態切替のガタつきを抑えます。"
+            };
+          }
+          if (mode === "done") {
+            return {
+              badge: "<strong>32 × 32 px</strong><span>角丸 16 px / チェック 16 px</span><span>約0.9秒でフェードアウト</span>",
+              note: "貼り付け完了の合図として緑のチェックだけを一瞬出して消えます。"
+            };
+          }
+          return {
+            badge: "<strong>幅自動(最大248) × 32 px</strong><span>角丸 16 px / アイコン 14 px</span>",
+            note: "赤ティントと短い理由でエラーを示します（詳細が必要な場合はmacOS通知で補足）。"
+          };
+        }
+
+        if (plan === "b") {
+          if (mode === "idle") return { badge: "<strong>0 × 0 px</strong><span>非表示</span>", note: "待機時はカーソル付近に何も出しません。" };
+          if (mode === "recording" && partial === "on") {
+            return {
+              badge: "<strong>256 × 24 px</strong><span>角丸 12 px / 文字 11 px</span><span>1行表示（左端フェード）</span>",
+              note: "高さ24pxのまま横へ伸ばし、下の行の文章をなるべく隠さずに最新の途中結果を見せます。"
+            };
+          }
+          if (mode === "recording") {
+            return {
+              badge: "<strong>84 × 24 px</strong><span>角丸 12 px / 余白 8 px</span><span>波形 5本（高3〜12 px）</span>",
+              note: "案Aより一回り小さい高さ24px。入力行のすぐ下(+8px)に収まります。"
+            };
+          }
+          if (mode === "processing") {
+            return {
+              badge: "<strong>78 × 24 px</strong><span>角丸 12 px / スピナー 12 px</span>",
+              note: "処理が終わる約0.5秒間だけ小さくスピナーを回します。"
+            };
+          }
+          if (mode === "done") {
+            return {
+              badge: "<strong>24 × 24 px</strong><span>角丸 12 px / チェック 13 px</span><span>約0.9秒でフェードアウト</span>",
+              note: "入力された文字のすぐ下で緑のチェックが一瞬光って消えます。"
+            };
+          }
+          return {
+            badge: "<strong>幅自動(最大204) × 24 px</strong><span>角丸 12 px / アイコン 12 px</span>",
+            note: "カーソル付近で短い赤メッセージを表示します。"
+          };
+        }
+
+        // 案C
+        if (mode === "idle") return { badge: "<strong>画面 0 × 0 px</strong><span>バー 28 × 24 px / 16 px</span>", note: "現行アプリのマイク枠線アイコンそのままです。" };
+        if (mode === "recording") {
+          return {
+            badge: "<strong>画面 0 × 0 px</strong><span>バー 78 × 24 px</span><span>波形 4本＋経過秒 11 px</span>",
+            note: partial === "on"
+              ? "※案Cは画面にオーバーレイを出さない方針のため、partialの途中表示は行いません。"
+              : "作業画面には何も出さず、メニューバー右側だけで録音と音量・秒数を示します。"
+          };
+        }
+        if (mode === "processing") {
+          return {
+            badge: "<strong>画面 0 × 0 px</strong><span>バー 28 × 24 px / 14 px</span>",
+            note: "メニューバーアイコンをスピナーへ切り替えます。"
+          };
+        }
+        if (mode === "done") {
+          return {
+            badge: "<strong>画面 0 × 0 px</strong><span>バー 28 × 24 px / 16 px</span><span>約0.9秒で待機アイコンへ</span>",
+            note: "メニューバーのアイコンが一瞬だけ緑のチェックに変わって戻ります。"
+          };
+        }
+        return {
+          badge: "<strong>画面 0 × 0 px</strong><span>バー 最大140 × 24 px</span>",
+          note: "警告アイコン横に短い赤理由を出し、数秒後にアイコン表示へ戻します。"
+        };
+      }
+
+      // ===================================================================
+      // 全状態 × 全案 1:1 実寸マトリクスの描画
+      // ===================================================================
+      function renderMatrix() {
+        const rows = [
+          { id: "idle", label: "待機", note: "録音していない通常時", partial: "off" },
+          { id: "recording", label: "録音中（partialなし）", note: "波形＋経過秒のみ", partial: "off" },
+          { id: "recording", label: "録音中（partialあり）", note: "途中認識テキスト付き", partial: "on" },
+          { id: "processing", label: "処理中", note: "話し終えてから約0.5秒", partial: "off" },
+          { id: "done", label: "完了", note: "一瞬だけ緑チェック→消去", partial: "off" },
+          { id: "error", label: "エラー", note: "赤で短い理由を表示", partial: "off" }
+        ];
+
+        const tbody = document.getElementById("matrix-body");
+        tbody.innerHTML = rows.map((row) => {
+          const isActiveRow = state.mode === row.id && (row.id !== "recording" || state.partial === row.partial);
+          const dimA = row.id === "idle" ? "0 × 0 px"
+            : row.id === "recording" && row.partial === "on" ? "300 × 60 px"
+            : row.id === "recording" ? "124 × 32 px"
+            : row.id === "processing" ? "112 × 32 px"
+            : row.id === "done" ? "32 × 32 px（約0.9秒）"
+            : "最大 248 × 32 px";
+
+          const dimB = row.id === "idle" ? "0 × 0 px"
+            : row.id === "recording" && row.partial === "on" ? "256 × 24 px"
+            : row.id === "recording" ? "84 × 24 px"
+            : row.id === "processing" ? "78 × 24 px"
+            : row.id === "done" ? "24 × 24 px（約0.9秒）"
+            : "最大 204 × 24 px";
+
+          const dimC = row.id === "idle" ? "画面 0 / バー 28 × 24 px"
+            : row.id === "recording" && row.partial === "on" ? "partial 非表示"
+            : row.id === "recording" ? "画面 0 / バー 78 × 24 px"
+            : row.id === "processing" ? "画面 0 / バー 28 × 24 px"
+            : row.id === "done" ? "画面 0 / バー 28 × 24 px"
+            : "画面 0 / バー 約118 × 24 px";
+
+          const cellC = (row.id === "recording" && row.partial === "on")
+            ? `<span class="cell-note">画面にオーバーレイを出さない方針のため、途中認識テキストは表示しません</span>`
+            : `<div class="menubar-strip">${buildPlanC(row.id, { isLive: false, elapsed: 4 })}</div>`;
+
+          return `
+            <tr class="${isActiveRow ? "matrix-row-active" : ""}">
+              <th class="matrix-row-head" scope="row">
+                <button type="button" class="matrix-state-btn" data-matrix-state="${row.id}" data-matrix-partial="${row.partial}">
+                  <span class="seg-dot ${row.id}"></span>${row.label}
+                </button>
+                <span class="matrix-state-note">${row.note}</span>
+              </th>
+              <td class="matrix-cell">
+                <div class="matrix-item">
+                  ${buildPlanA(row.id, { partial: row.partial, isLive: false, elapsed: 4, partialIdx: 1, animateCheck: false })}
+                  <span class="dim-chip">${dimA}</span>
+                </div>
+              </td>
+              <td class="matrix-cell">
+                <div class="matrix-item">
+                  ${buildPlanB(row.id, { partial: row.partial, isLive: false, elapsed: 4, partialIdx: 1, animateCheck: false })}
+                  <span class="dim-chip">${dimB}</span>
+                </div>
+              </td>
+              <td class="matrix-cell">
+                <div class="matrix-item">
+                  ${cellC}
+                  <span class="dim-chip">${dimC}</span>
+                </div>
+              </td>
+            </tr>`;
+        }).join("");
+
+        tbody.querySelectorAll("[data-matrix-state]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            stopSequence();
+            const targetMode = btn.dataset.matrixState;
+            const targetPartial = btn.dataset.matrixPartial;
+            if (targetMode === "recording") {
+              state.partial = targetPartial;
+            }
+            setMode(targetMode);
+          });
+        });
+      }
+
+      // ===================================================================
+      // 画面全体の再描画
+      // ===================================================================
+      function renderLiveViews(fadingOut = false) {
+        // 1. セクション1（macOSデスクトップ試作）
+        const showA = state.desktopPlan === "all" || state.desktopPlan === "a";
+        const showB = state.desktopPlan === "all" || state.desktopPlan === "b";
+        const showC = state.desktopPlan === "all" || state.desktopPlan === "c";
+
+        const slotA = document.getElementById("desktop-slot-a");
+        const slotB = document.getElementById("desktop-slot-b");
+        const slotC = document.getElementById("desktop-menubar-slot");
+
+        slotA.innerHTML = showA
+          ? buildPlanA(state.mode, { isLive: true, hiddenForDesktop: true, fadingOut })
+          : "";
+        slotB.innerHTML = showB
+          ? buildPlanB(state.mode, { isLive: true, hiddenForDesktop: true, fadingOut })
+          : "";
+
+        // 案C表示時は拡張メニューバー表現、案A/B単体時は既存アプリの標準アイコン（待機/赤マイク/スピナー/エラー）
+        slotC.innerHTML = showC
+          ? buildPlanC(state.mode, { isLive: true })
+          : buildPlanC(state.mode === "done" ? "idle" : state.mode, { isLive: true });
+
+        // 同時表示時の見分けピン
+        const isAll = state.desktopPlan === "all";
+        const visibleOverlay = state.mode !== "idle" && !(state.mode === "done" && state.doneHidden && state.autoFadeDone);
+        document.getElementById("pin-a").hidden = !(isAll && visibleOverlay);
+        document.getElementById("pin-b").hidden = !(isAll && visibleOverlay);
+        document.getElementById("pin-c").hidden = !isAll;
+
+        // 2. セクション2（3案の実寸ライブカード）
+        document.getElementById("card-live-a").innerHTML = buildPlanA(state.mode, { isLive: true, fadingOut });
+        document.getElementById("card-live-b").innerHTML = buildPlanB(state.mode, { isLive: true, fadingOut });
+        document.getElementById("card-live-c").innerHTML = buildPlanC(state.mode, { isLive: true });
+
+        const infoA = getDimensionInfo("a", state.mode, state.partial);
+        const infoB = getDimensionInfo("b", state.mode, state.partial);
+        const infoC = getDimensionInfo("c", state.mode, state.partial);
+
+        document.getElementById("dim-live-a").innerHTML = infoA.badge;
+        document.getElementById("note-live-a").textContent = infoA.note;
+        document.getElementById("dim-live-b").innerHTML = infoB.badge;
+        document.getElementById("note-live-b").textContent = infoB.note;
+        document.getElementById("dim-live-c").innerHTML = infoC.badge;
+        document.getElementById("note-live-c").textContent = infoC.note;
+
+        // 3. コントロールバーの選択状態を同期
+        document.querySelectorAll("[data-state]").forEach((btn) => {
+          btn.setAttribute("aria-pressed", String(btn.dataset.state === state.mode));
+        });
+        document.querySelectorAll("[data-partial]").forEach((btn) => {
+          btn.setAttribute("aria-pressed", String(btn.dataset.partial === state.partial));
+        });
+        document.querySelectorAll("[data-theme-btn]").forEach((btn) => {
+          btn.setAttribute("aria-pressed", String(btn.dataset.themeBtn === state.theme));
+        });
+        document.querySelectorAll("[data-desktop-plan]").forEach((btn) => {
+          btn.setAttribute("aria-pressed", String(btn.dataset.desktopPlan === state.desktopPlan));
+        });
+
+        const replayBtn = document.getElementById("btn-replay-done");
+        replayBtn.hidden = state.mode !== "done";
+
+        const stateLabels = {
+          idle: "待機",
+          recording: state.partial === "on" ? "録音中（partialあり）" : "録音中（partialなし）",
+          processing: "処理中",
+          done: state.doneHidden && state.autoFadeDone ? "完了（自動消去済み）" : "完了（緑チェック）",
+          error: "エラー"
+        };
+        document.getElementById("status-banner").textContent =
+          `現在: ${stateLabels[state.mode]} / ${state.theme === "light" ? "ライト" : "ダーク"}`;
+
+        updatePlanBPosition();
+        renderMatrix();
+      }
+
+      // ===================================================================
+      // 案Bの座標を模擬エディタのカーソル位置（右下 +6px, +8px）へ合わせる
+      // ===================================================================
+      function updatePlanBPosition() {
+        const screen = document.getElementById("mac-screen");
+        const caret = document.getElementById("editor-caret");
+        const overlayB = document.getElementById("desktop-overlay-b");
+        const pinB = document.getElementById("pin-b");
+        if (!screen || !caret || !overlayB) return;
+
+        const screenRect = screen.getBoundingClientRect();
+        const caretRect = caret.getBoundingClientRect();
+
+        // テキストカーソル直下から右 +6px、下 +8px に配置
+        let left = caretRect.right - screenRect.left + 6;
+        let top = caretRect.bottom - screenRect.top + 8;
+
+        // 画面右端からはみ出さないようにクランプ
+        const maxWidth = state.mode === "recording" && state.partial === "on" ? 260 : 120;
+        left = Math.max(12, Math.min(left, screenRect.width - maxWidth - 16));
+        top = Math.max(30, Math.min(top, screenRect.height - 92));
+
+        overlayB.style.left = `${Math.round(left)}px`;
+        overlayB.style.top = `${Math.round(top)}px`;
+
+        if (pinB) {
+          pinB.style.left = `${Math.round(left)}px`;
+          pinB.style.top = `${Math.round(top + 28)}px`;
+        }
+      }
+
+      // ===================================================================
+      // タイマー管理（録音経過秒・partial段階表示・完了自動消去）
+      // ===================================================================
+      function clearModeTimers() {
+        if (elapsedTimer) { clearInterval(elapsedTimer); elapsedTimer = null; }
+        if (partialTimer) { clearInterval(partialTimer); partialTimer = null; }
+        if (doneFadeTimer) { clearTimeout(doneFadeTimer); doneFadeTimer = null; }
+        if (doneHideTimer) { clearTimeout(doneHideTimer); doneHideTimer = null; }
+      }
+
+      function triggerDoneAnimation() {
+        clearModeTimers();
+        state.doneHidden = false;
+        renderLiveViews(false);
+
+        if (state.autoFadeDone) {
+          doneFadeTimer = setTimeout(() => {
+            if (state.mode !== "done") return;
+            renderLiveViews(true);
+            doneHideTimer = setTimeout(() => {
+              if (state.mode !== "done") return;
+              state.doneHidden = true;
+              renderLiveViews(false);
+            }, 280);
+          }, 880);
+        }
+      }
+
+      function setMode(nextMode, options = {}) {
+        clearModeTimers();
+        state.mode = nextMode;
+        state.doneHidden = false;
+
+        if (nextMode === "recording") {
+          state.elapsedSec = options.startAtZero ? 0 : 4;
+          state.partialIndex = options.startAtZero ? 0 : 1;
+          renderLiveViews(false);
+
+          elapsedTimer = setInterval(() => {
+            if (state.mode !== "recording") return;
+            state.elapsedSec += 1;
+            const formatted = formatElapsed(state.elapsedSec);
+            document.querySelectorAll('[data-live-timer="true"]').forEach((el) => {
+              el.textContent = formatted;
+            });
+          }, 1000);
+
+          // 区間ごとのpartial受信（600ms無音区切り相当）を再現
+          partialTimer = setInterval(() => {
+            if (state.mode !== "recording" || state.partial !== "on") return;
+            state.partialIndex = (state.partialIndex + 1) % PARTIAL_STEPS.length;
+            renderLiveViews(false);
+          }, 2200);
+          return;
+        }
+
+        if (nextMode === "done") {
+          triggerDoneAnimation();
+          return;
+        }
+
+        renderLiveViews(false);
+      }
+
+      // ===================================================================
+      // 一連の流れデモ（録音中 → 処理中 → 完了＆文章挿入 → 待機）
+      // ===================================================================
+      function stopSequence() {
+        sequenceTimers.forEach((t) => clearTimeout(t));
+        sequenceTimers = [];
+        state.sequenceRunning = false;
+        const btn = document.getElementById("btn-sequence");
+        btn.classList.remove("running");
+        btn.classList.add("primary");
+        btn.textContent = "▶ 一連の流れを再生";
+      }
+
+      function startSequence() {
+        stopSequence();
+        state.sequenceRunning = true;
+        const btn = document.getElementById("btn-sequence");
+        btn.classList.remove("primary");
+        btn.classList.add("running");
+        btn.textContent = "■ 再生を停止";
+
+        const insertedSlot = document.getElementById("editor-inserted-slot");
+        if (insertedSlot) insertedSlot.innerHTML = "";
+
+        setMode("recording", { startAtZero: true });
+
+        // 1.1秒後に seq:1、2.2秒後に seq:2 の途中結果を表示
+        sequenceTimers.push(setTimeout(() => {
+          if (!state.sequenceRunning) return;
+          state.partialIndex = 1;
+          renderLiveViews(false);
+        }, 1100));
+
+        sequenceTimers.push(setTimeout(() => {
+          if (!state.sequenceRunning) return;
+          state.partialIndex = 2;
+          renderLiveViews(false);
+        }, 2200));
+
+        // 3.3秒後にキーを離して処理中（実測中央値 約0.45秒に近い 0.6秒間）
+        sequenceTimers.push(setTimeout(() => {
+          if (!state.sequenceRunning) return;
+          setMode("processing");
+        }, 3300));
+
+        // 3.9秒後に完了（緑チェックが一瞬出て、カーソル位置へ文章を挿入）
+        sequenceTimers.push(setTimeout(() => {
+          if (!state.sequenceRunning) return;
+          if (insertedSlot) {
+            insertedSlot.innerHTML = `<span class="inserted-flash">${escapeHtml(FINAL_FORMATTED_TEXT)}</span>`;
+            setTimeout(() => {
+              const span = insertedSlot.querySelector(".inserted-flash");
+              if (span) span.style.backgroundColor = "transparent";
+            }, 900);
+          }
+          setMode("done");
+        }, 3900));
+
+        // 5.2秒後に待機へ戻る
+        sequenceTimers.push(setTimeout(() => {
+          if (!state.sequenceRunning) return;
+          stopSequence();
+          setMode("idle");
+        }, 5200));
+      }
+
+      // ===================================================================
+      // 音量連動波形のリアルタイム更新（requestAnimationFrame）
+      // ===================================================================
+      function tickWaveforms(nowMs) {
+        if (state.mode === "recording") {
+          const t = nowMs / 1000;
+          // 話し声の自然な強弱（発話と短い息継ぎ）を合成
+          let envelope = 0.08;
+          if (state.micMode === "silent") {
+            envelope = 0.04 + 0.03 * Math.sin(t * 2.4);
+          } else if (state.micMode === "loud") {
+            envelope = 0.72 + 0.28 * Math.abs(Math.sin(t * 6.8 + Math.sin(t * 2.1)));
+          } else {
+            // 約2.6秒周期で短い無音区間（息継ぎ）が混ざる自然な発話
+            const phrase = Math.sin(t * 2.2) * 0.5 + 0.5;
+            const pauseMask = phrase > 0.22 ? 1.0 : 0.12;
+            const syllable = 0.42 + 0.58 * Math.abs(Math.sin(t * 7.5 + Math.cos(t * 3.1)));
+            envelope = pauseMask * syllable;
+          }
+
+          document.querySelectorAll("[data-wave]").forEach((bar) => {
+            const key = bar.dataset.wave;
+            const idx = Number(bar.dataset.barIdx);
+            const prof = waveProfiles[key];
+            if (!prof) return;
+            const ripple = 0.65 + 0.35 * Math.sin(t * 11.0 + idx * 1.15);
+            const level = Math.max(0, Math.min(1, envelope * prof.weights[idx] * ripple));
+            const height = prof.min + (prof.max - prof.min) * level;
+            bar.style.height = `${height.toFixed(1)}px`;
+          });
+        }
+        rafId = requestAnimationFrame(tickWaveforms);
+      }
+
+      // ===================================================================
+      // イベント結線
+      // ===================================================================
+      document.querySelectorAll("[data-state]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          stopSequence();
+          setMode(btn.dataset.state);
+        });
+      });
+
+      document.querySelectorAll("[data-partial]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.partial = btn.dataset.partial;
+          renderLiveViews(false);
+        });
+      });
+
+      document.querySelectorAll("[data-theme-btn]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.theme = btn.dataset.themeBtn;
+          document.documentElement.setAttribute("data-theme", state.theme);
+          renderLiveViews(false);
+        });
+      });
+
+      document.querySelectorAll("[data-desktop-plan]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.desktopPlan = btn.dataset.desktopPlan;
+          renderLiveViews(false);
+        });
+      });
+
+      document.getElementById("btn-sequence").addEventListener("click", () => {
+        if (state.sequenceRunning) {
+          stopSequence();
+        } else {
+          startSequence();
+        }
+      });
+
+      document.getElementById("select-mic-mode").addEventListener("change", (e) => {
+        state.micMode = e.target.value;
+      });
+
+      document.getElementById("select-error-msg").addEventListener("change", (e) => {
+        const [longMsg, shortMsg] = e.target.value.split("|");
+        state.errorMsgA = longMsg;
+        state.errorMsgShort = shortMsg;
+        renderLiveViews(false);
+      });
+
+      document.getElementById("chk-auto-fade-done").addEventListener("change", (e) => {
+        state.autoFadeDone = e.target.checked;
+        if (state.mode === "done") {
+          triggerDoneAnimation();
+        }
+      });
+
+      document.getElementById("btn-replay-done").addEventListener("click", () => {
+        if (state.mode === "done") {
+          triggerDoneAnimation();
+        }
+      });
+
+      // エディタの行クリックでカーソル移動（案Bの追従＋クリック透過を確認）
+      document.querySelectorAll(".editor-line").forEach((lineEl) => {
+        lineEl.addEventListener("click", () => {
+          const lineIdx = Number(lineEl.dataset.line);
+          state.activeLine = lineIdx;
+          document.querySelectorAll(".editor-line").forEach((el) => el.classList.remove("active-line"));
+          lineEl.classList.add("active-line");
+
+          const caret = document.getElementById("editor-caret");
+          const textSpan = lineEl.querySelector(".editor-text");
+          if (caret && textSpan) {
+            textSpan.appendChild(caret);
+          }
+          updatePlanBPosition();
+
+          const toast = document.getElementById("clickthrough-toast");
+          if (toast) {
+            toast.textContent = `${lineIdx + 1}行目をクリック（フォーカス維持・案Bがカーソル右下へ追従）`;
+          }
+        });
+      });
+
+      window.addEventListener("resize", updatePlanBPosition);
+
+      // 初期表示
+      setMode("recording");
+      rafId = requestAnimationFrame(tickWaveforms);
+    })();
+  </script>
+</body>
+</html>

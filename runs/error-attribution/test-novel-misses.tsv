@@ -1,0 +1,220 @@
+split	cap	id	term	occurrence	class	reason	evidence	rank_at_75	indexed_score_at_0	merged_exact	c_asr	c_fragment	added_by
+test-novel	20	novel-000011	Stacked Hourglass Network	1	B	below_score	raw_kana		66.66666666666666	0			{}
+test-novel	32	novel-000011	Stacked Hourglass Network	1	B	below_score	raw_kana		66.66666666666666	0			{}
+test-novel	20	novel-000014	k-means	1	C	kanji				0	qwen	警民団	{}
+test-novel	32	novel-000014	k-means	1	C	kanji				0	qwen	警民団	{}
+test-novel	20	novel-000022	YubiKey 5	1	D	surface_variant	surface_variant			0			{}
+test-novel	32	novel-000022	YubiKey 5	1	D	surface_variant	surface_variant			0			{}
+test-novel	20	novel-000025	iPerf3	1	C	mixed				0	qwen	iパス三	{}
+test-novel	32	novel-000025	iPerf3	1	C	mixed				0	qwen	iパス三	{}
+test-novel	20	novel-000039	VP9	1	C	latin		28		0	haas	vp5	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000039	VP9	1	A	merged_absent	merged_absent	28		0			{}
+test-novel	20	novel-000049	MinGW-w64	1	C	latin				0	haas	mingw	{}
+test-novel	32	novel-000049	MinGW-w64	1	C	latin				0	haas	mingw	{}
+test-novel	20	novel-000054	Apache License 2.0	1	C	partial		48		0	haas	アパッチライセンス2ポイント0	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000054	Apache License 2.0	1	C	partial		48		0	haas	アパッチライセンス2ポイント0	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000057	INI	1	B	not_indexed	surface			0			{}
+test-novel	32	novel-000057	INI	1	B	not_indexed	surface			0			{}
+test-novel	20	novel-000060	chan	1	B	not_indexed	raw_kana			0			{}
+test-novel	32	novel-000060	chan	1	B	not_indexed	raw_kana			0			{}
+test-novel	20	novel-000064	Kafka Schema Registry	1	C	kanji				0	haas	活白式マレジステリー	{}
+test-novel	32	novel-000064	Kafka Schema Registry	1	C	kanji				0	haas	活白式マレジステリー	{}
+test-novel	20	novel-000070	torch.nn.Linear	1	C	mixed				0	haas	統治nリニア	{}
+test-novel	32	novel-000070	torch.nn.Linear	1	C	mixed				0	haas	統治nリニア	{}
+test-novel	20	novel-000071	UITapGestureRecognizer	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	32	novel-000071	UITapGestureRecognizer	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	20	novel-000072	Grad-TTS	1	C	latin				0	haas	グラッドtts	{}
+test-novel	32	novel-000072	Grad-TTS	1	C	latin				0	haas	グラッドtts	{}
+test-novel	20	novel-000074	QuickDraw	1	A	merged_absent	merged_absent	11		0			{}
+test-novel	32	novel-000074	QuickDraw	1	A	merged_absent	merged_absent	11		0			{}
+test-novel	20	novel-000077	TensorFlow.js	1	B	rank	raw_kana	41		0			"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000077	TensorFlow.js	1	B	rank	raw_kana	41		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000079	AWS SES	1	C	latin				0	haas	awss	{}
+test-novel	32	novel-000079	AWS SES	1	C	latin				0	haas	awss	{}
+test-novel	20	novel-000081	Object Queries	1	A	merged_present	merged_present	3		1			{}
+test-novel	32	novel-000081	Object Queries	1	A	merged_present	merged_present	3		1			{}
+test-novel	20	novel-000084	IntPtr	1	A	merged_absent	merged_absent	9		0			{}
+test-novel	32	novel-000084	IntPtr	1	A	merged_absent	merged_absent	9		0			{}
+test-novel	20	novel-000085	TLB Flush	1	C	latin		24		0	haas	tlbフロシ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000088	shm_unlink	1	C	latin				0	qwen	SHMワンリンク	{}
+test-novel	32	novel-000088	shm_unlink	1	C	latin				0	qwen	SHMワンリンク	{}
+test-novel	20	novel-000089	HDR10+	1	A	merged_absent	merged_absent	16		0			{}
+test-novel	32	novel-000089	HDR10+	1	A	merged_absent	merged_absent	16		0			{}
+test-novel	20	novel-000090	ConvNeXt V2	1	D	surface_variant	surface_variant	67		0			{}
+test-novel	32	novel-000090	ConvNeXt V2	1	D	surface_variant	surface_variant	67		0			{}
+test-novel	20	novel-000091	date-fns	1	C	latin		31		0	haas	デイトfns	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000104	includeSubDomains	1	D	surface_variant	surface_variant	3		1			{}
+test-novel	32	novel-000104	includeSubDomains	1	D	surface_variant	surface_variant	3		1			{}
+test-novel	32	novel-000111	FCM HTTP v1	1	A	merged_absent	merged_absent	11		0			{}
+test-novel	20	novel-000119	AWS Systems Manager Run Command	1	C	partial		97		0	haas	awsシステムズマネージャー欄コマンド	{}
+test-novel	32	novel-000119	AWS Systems Manager Run Command	1	C	partial		97		0	haas	awsシステムズマネージャー欄コマンド	{}
+test-novel	20	novel-000127	Qwen 2.5 VL	1	C	kanji				0	qwen	求円二点五分エル	{}
+test-novel	32	novel-000127	Qwen 2.5 VL	1	C	kanji				0	qwen	求円二点五分エル	{}
+test-novel	20	novel-000129	Extrinsic Matrix	1	C	kana				0	haas	エクストリンジクマティクス	{}
+test-novel	32	novel-000129	Extrinsic Matrix	1	C	kana				0	haas	エクストリンジクマティクス	{}
+test-novel	20	novel-000130	SQLAlchemy ORM	1	C	latin				0	qwen	SQLアルケミオアルム	{}
+test-novel	32	novel-000130	SQLAlchemy ORM	1	C	latin				0	qwen	SQLアルケミオアルム	{}
+test-novel	20	novel-000131	Google Artifact Registry	1	C	latin		25		0	haas	gleアーティファクトレジストリ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000140	kubectl exec	1	C	kanji				0	haas	空名切り料理グゼック	{}
+test-novel	32	novel-000140	kubectl exec	1	C	kanji				0	haas	空名切り料理グゼック	{}
+test-novel	20	novel-000148	Spring GraphQL	1	D	surface_variant	surface_variant			0			"{""reading1"":1}"
+test-novel	32	novel-000148	Spring GraphQL	1	D	surface_variant	surface_variant			0			"{""reading1"":1}"
+test-novel	20	novel-000150	Google Calendar	1	C	latin		28		0	qwen	gleケレンダー	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000152	Spring Data Elasticsearch	1	A	merged_absent	merged_absent	19		0			{}
+test-novel	32	novel-000152	Spring Data Elasticsearch	1	A	merged_absent	merged_absent	19		0			{}
+test-novel	20	novel-000154	WH-1000XM5	1	C	mixed		26		0	qwen	WH千零零XM五	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000156	manifest.json	1	A	merged_present	merged_present	6		1			{}
+test-novel	32	novel-000156	manifest.json	1	A	merged_present	merged_present	6		1			{}
+test-novel	20	novel-000160	sys.stdout.flush	1	C	kana				0	haas	シスとステレタイブスライシ	{}
+test-novel	20	novel-000172	Score Distillation	1	B	rank	raw_kana	21		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000173	Vault PKI	1	C	latin		32		0	haas	ボルトpk	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000174	Pixel 9 Pro XL	1	D	surface_variant	surface_variant			0			{}
+test-novel	20	novel-000179	VM Agent	1	C	partial				0	haas	vmエージェント	{}
+test-novel	32	novel-000179	VM Agent	1	C	partial				0	haas	vmエージェント	{}
+test-novel	20	novel-000184	TL;DR	1	A	merged_absent	merged_absent	4		0			{}
+test-novel	32	novel-000184	TL;DR	1	A	merged_absent	merged_absent	4		0			{}
+test-novel	20	novel-000185	LSM-Tree	1	C	latin				0	qwen	LSMツリー	{}
+test-novel	32	novel-000185	LSM-Tree	1	C	latin				0	qwen	LSMツリー	{}
+test-novel	20	novel-000188	mAP@0.5:0.95	1	C	partial				0	qwen	MAPアットゼロポイント五ゼロポイント九五	{}
+test-novel	32	novel-000188	mAP@0.5:0.95	1	C	partial				0	qwen	MAPアットゼロポイント五ゼロポイント九五	{}
+test-novel	20	novel-000195	Android SDK Command-line Tools	1	C	latin		42		0	haas	androidsdkコマンドラインツールズ	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000195	Android SDK Command-line Tools	1	C	latin		42		0	haas	androidsdkコマンドラインツールズ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000197	Alpaca-GPT4	1	C	latin		22		0	haas	アルパカgpt4	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000198	npm workspaces	1	C	partial		32		0	haas	pmワークスペース	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000199	visudo	1	C	kana				0	haas	ビシュード	{}
+test-novel	32	novel-000199	visudo	1	C	kana				0	haas	ビシュード	{}
+test-novel	20	novel-000200	FC layer	1	C	partial				0	haas	fcレイヤー	{}
+test-novel	32	novel-000200	FC layer	1	C	partial				0	haas	fcレイヤー	{}
+test-novel	20	novel-000203	Mali-G710	1	C	latin				0	qwen	マリーGセブンギルツロー	{}
+test-novel	32	novel-000203	Mali-G710	1	C	latin				0	qwen	マリーGセブンギルツロー	{}
+test-novel	20	novel-000204	mongo-go-driver	1	A	merged_present	merged_present	3		1			{}
+test-novel	32	novel-000204	mongo-go-driver	1	A	merged_present	merged_present	3		1			{}
+test-novel	20	novel-000206	LightGCN	1	C	latin				0	haas	ライトgcn	{}
+test-novel	32	novel-000206	LightGCN	1	C	latin				0	haas	ライトgcn	{}
+test-novel	20	novel-000207	RPi.GPIO	1	C	mixed				0	qwen	RPI十キロ	{}
+test-novel	32	novel-000207	RPi.GPIO	1	C	mixed				0	qwen	RPI十キロ	{}
+test-novel	20	novel-000213	OCI Image	1	C	latin		26		0	haas	ociイメージ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000214	Windows Hello for Business	1	C	latin		32		0	qwen	indowsハローフォービジネス	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000215	gTTS	1	C	latin		34		0	haas	g2つ	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000215	gTTS	1	C	latin		34		0	haas	g2つ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000216	zx	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	32	novel-000216	zx	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	20	novel-000219	Apple T2	1	A	merged_absent	merged_absent	6		0			{}
+test-novel	32	novel-000219	Apple T2	1	A	merged_absent	merged_absent	6		0			{}
+test-novel	20	novel-000220	Huffman	1	B	rank	raw_kana	21		0			"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000220	Huffman	1	A	merged_absent	merged_absent	21		0			{}
+test-novel	20	novel-000226	DP Alt Mode	1	C	latin		43		0	haas	dpolモード	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000226	DP Alt Mode	1	C	latin		43		0	haas	dpolモード	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000229	HTTP/1.1	1	C	latin		29		0	qwen	TTPワンテンテン	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000248	Ansible Vault	1	C	kana				0	haas	アンスビロヴォルト	{}
+test-novel	32	novel-000248	Ansible Vault	1	C	kana				0	haas	アンスビロヴォルト	{}
+test-novel	20	novel-000249	Cortex-M4	1	A	merged_absent	merged_absent	10		0			{}
+test-novel	32	novel-000249	Cortex-M4	1	A	merged_absent	merged_absent	10		0			{}
+test-novel	20	novel-000253	ExistingWorkPolicy	1	A	merged_present	merged_present	6		1			{}
+test-novel	32	novel-000253	ExistingWorkPolicy	1	A	merged_present	merged_present	6		1			{}
+test-novel	20	novel-000257	Azure VMware Solution	1	C	latin				0	haas	アジュールvmarソリューション	{}
+test-novel	32	novel-000257	Azure VMware Solution	1	C	latin				0	haas	アジュールvmarソリューション	{}
+test-novel	20	novel-000258	Thunderbolt 4	1	C	kanji		62		0	qwen	ハンダボット王	"{""cap64"":1}"
+test-novel	32	novel-000258	Thunderbolt 4	1	C	kanji		62		0	qwen	ハンダボット王	"{""cap64"":1}"
+test-novel	20	novel-000259	Waymo Open Dataset	1	C	latin				0	haas	ameopen	{}
+test-novel	32	novel-000259	Waymo Open Dataset	1	C	latin				0	haas	ameopen	{}
+test-novel	20	novel-000263	W3C WAI	1	C	latin		40		0	qwen	Wソラシウェイ	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000263	W3C WAI	1	C	latin		40		0	qwen	Wソラシウェイ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000269	Intel 4	1	A	merged_absent	merged_absent	7		0			{}
+test-novel	32	novel-000269	Intel 4	1	A	merged_absent	merged_absent	7		0			{}
+test-novel	20	novel-000271	Redis modules	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	32	novel-000271	Redis modules	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	20	novel-000274	MUI X Date Pickers	1	C	latin		40		0	qwen	MUIXデータピックス	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000274	MUI X Date Pickers	1	C	latin		40		0	qwen	MUIXデータピックス	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000276	GDDR6	1	C	mixed		25		0	haas	gddr理空	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000276	GDDR6	1	A	merged_absent	merged_absent	25		0			{}
+test-novel	20	novel-000279	OS Fingerprinting	1	C	latin		30		0	qwen	OSフィンガープrint	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000284	HTTP Request Smuggling	1	C	partial				0	qwen	HTTPリクエストスマグリン	{}
+test-novel	32	novel-000284	HTTP Request Smuggling	1	C	partial				0	qwen	HTTPリクエストスマグリン	{}
+test-novel	20	novel-000285	eDRAM	1	C	latin				0	haas	edr	"{""score60"":1}"
+test-novel	32	novel-000285	eDRAM	1	C	latin				0	haas	edr	"{""score60"":1}"
+test-novel	20	novel-000287	BigUint64Array	1	C	latin				0	haas	ビッグユイント64アレイ	{}
+test-novel	32	novel-000287	BigUint64Array	1	C	latin				0	haas	ビッグユイント64アレイ	{}
+test-novel	20	novel-000289	Google Ads API	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	32	novel-000289	Google Ads API	1	A	merged_absent	merged_absent	15		0			{}
+test-novel	20	novel-000293	Bengo4.com	1	C	kanji				0	qwen	弁護坊ドットコム	{}
+test-novel	32	novel-000293	Bengo4.com	1	C	kanji				0	qwen	弁護坊ドットコム	{}
+test-novel	20	novel-000296	robots.txt	1	C	sound_drop		27		0	haas	ロボッツテキスト	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000298	BigInt64Array	1	C	kanji				0	qwen	ビッカインだと六十四あれい	{}
+test-novel	32	novel-000298	BigInt64Array	1	C	kanji				0	qwen	ビッカインだと六十四あれい	{}
+test-novel	20	novel-000304	Dear ImGui	1	C	kana				0	qwen	ディエムグイ	{}
+test-novel	32	novel-000304	Dear ImGui	1	C	kana				0	qwen	ディエムグイ	{}
+test-novel	20	novel-000310	LangChain Elasticsearch	1	C	kana		30		0	qwen	ラングチェーンをエラスティックスち	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000315	Spring Data JDBC	1	C	partial		48		0	haas	スプリングデータgdbc	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000315	Spring Data JDBC	1	C	partial		48		0	haas	スプリングデータgdbc	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000316	CDN Edge	1	C	latin				0	haas	cdnh	{}
+test-novel	32	novel-000316	CDN Edge	1	C	latin				0	haas	cdnh	{}
+test-novel	20	novel-000319	Google Chrome	1	D	surface_variant	surface_variant	21		1			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000323	vSphere HA	1	C	latin				0	haas	vsfireha	{}
+test-novel	32	novel-000323	vSphere HA	1	C	latin				0	haas	vsfireha	{}
+test-novel	20	novel-000325	Latent Dirichlet Allocation	1	C	kanji				0	haas	霊典とディリシレたアロケーション	{}
+test-novel	32	novel-000325	Latent Dirichlet Allocation	1	C	kanji				0	haas	霊典とディリシレたアロケーション	{}
+test-novel	20	novel-000330	0-RTT Handshake	1	C	latin		24		0	qwen	ゼロRTTハンドシェイク	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000331	Qwen ASR	1	C	kana		61		0	qwen	クエンエスアル	"{""cap64"":1}"
+test-novel	32	novel-000331	Qwen ASR	1	C	kana		61		0	qwen	クエンエスアル	"{""cap64"":1}"
+test-novel	20	novel-000334	TextVQA	1	C	mixed				0	qwen	テキストv九a	{}
+test-novel	32	novel-000334	TextVQA	1	C	mixed				0	qwen	テキストv九a	{}
+test-novel	20	novel-000338	Audio LLM	1	C	latin		46		0	haas	オーディオllm	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000338	Audio LLM	1	C	latin		46		0	haas	オーディオllm	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000345	Ray Core	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	32	novel-000345	Ray Core	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	20	novel-000346	Kotlin/Native	1	C	latin				0	qwen	ッティングnネイティブ	{}
+test-novel	32	novel-000346	Kotlin/Native	1	C	latin				0	qwen	ッティングnネイティブ	{}
+test-novel	20	novel-000347	HTTP 202 Accepted	1	C	partial				0	qwen	HTTP二百二アクセプテット	{}
+test-novel	32	novel-000347	HTTP 202 Accepted	1	C	partial				0	qwen	HTTP二百二アクセプテット	{}
+test-novel	20	novel-000353	btoa	1	A	merged_absent	merged_absent	14		0			{}
+test-novel	32	novel-000353	btoa	1	A	merged_absent	merged_absent	14		0			{}
+test-novel	20	novel-000356	Pulumi OCI	1	C	partial		21		0	haas	プルミオci	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000356	Pulumi OCI	1	A	merged_absent	merged_absent	21		0			{}
+test-novel	20	novel-000360	bevy_render	1	C	kana				0	haas	ビビリンド	{}
+test-novel	32	novel-000360	bevy_render	1	C	kana				0	haas	ビビリンド	{}
+test-novel	20	novel-000364	jaconv	1	A	merged_absent	merged_absent	13		0			{}
+test-novel	32	novel-000364	jaconv	1	A	merged_absent	merged_absent	13		0			{}
+test-novel	20	novel-000371	VueUse	1	A	merged_absent	merged_absent	8		0			{}
+test-novel	32	novel-000371	VueUse	1	A	merged_absent	merged_absent	8		0			{}
+test-novel	20	novel-000373	GMO Payment Gateway	1	C	latin		23		0	haas	gmopmenゲートウェイ	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000383	std::shared_ptr	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	32	novel-000383	std::shared_ptr	1	A	merged_absent	merged_absent	12		0			{}
+test-novel	20	novel-000398	Google Cloud Tasks	1	A	merged_absent	merged_absent	6		0			{}
+test-novel	32	novel-000398	Google Cloud Tasks	1	A	merged_absent	merged_absent	6		0			{}
+test-novel	20	novel-000402	DNS Amplification Attack	1	C	partial		46		0	haas	dnsアンプリフィケーションアタック	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000402	DNS Amplification Attack	1	C	partial		46		0	haas	dnsアンプリフィケーションアタック	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000405	Spring Cloud AWS	1	C	partial				0	haas	スプリングクラウドaws	{}
+test-novel	32	novel-000405	Spring Cloud AWS	1	C	partial				0	haas	スプリングクラウドaws	{}
+test-novel	20	novel-000407	Linear Non-Gaussian Acyclic Model	1	A	merged_present	merged_present	9		1			{}
+test-novel	32	novel-000407	Linear Non-Gaussian Acyclic Model	1	A	merged_present	merged_present	9		1			{}
+test-novel	20	novel-000411	"""use strict"""	1	A	merged_absent	merged_absent	7		0			{}
+test-novel	32	novel-000411	"""use strict"""	1	A	merged_absent	merged_absent	7		0			{}
+test-novel	20	novel-000414	DNS Sinkhole	1	C	partial		45		0	haas	dnsシンクホール	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000414	DNS Sinkhole	1	C	partial		45		0	haas	dnsシンクホール	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000421	ImGui	1	C	kanji				0	haas	意味外	{}
+test-novel	32	novel-000421	ImGui	1	C	kanji				0	haas	意味外	{}
+test-novel	20	novel-000422	S3 Object	1	C	latin		39		0	haas	えとs3オブジェクト	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000422	S3 Object	1	C	latin		39		0	haas	えとs3オブジェクト	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000425	Auth0 CLI	1	C	latin				0	qwen	OSゼロCLI	{}
+test-novel	32	novel-000425	Auth0 CLI	1	C	latin				0	qwen	OSゼロCLI	{}
+test-novel	20	novel-000430	toml::from_str	1	C	partial		23		0	haas	トムルフロームスティア	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000442	MAU/DAU	1	C	latin				0	haas	dau	{}
+test-novel	32	novel-000442	MAU/DAU	1	C	latin				0	haas	dau	{}
+test-novel	20	novel-000443	window.onload	1	B	rank	raw_kana	30		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000444	Microsoft 365 Copilot	1	B	rank	raw_kana	23		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000448	CloudWatch Logs Subscription Filters	1	C	kana		24		0	haas	クラウドウォッチログサブスリープリッションフィルターズ	"{""cap48"":1,""cap64"":1}"
+test-novel	32	novel-000448	CloudWatch Logs Subscription Filters	1	A	merged_absent	merged_absent	24		0			{}
+test-novel	20	novel-000450	Page Blob	1	B	rank	raw_kana	26		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000456	tmux attach	1	B	rank	raw_kana	21		0			"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000463	GTX 1660 Ti	1	C	mixed		31		0	qwen	一六六六ゼロTI	"{""cap48"":1,""cap64"":1}"
+test-novel	20	novel-000465	ApexCharts	1	D	surface_variant	surface_variant	7		0			{}
+test-novel	32	novel-000465	ApexCharts	1	D	surface_variant	surface_variant	7		0			{}
+test-novel	20	novel-000472	VAE Encode	1	C	mixed				0	haas	vae遠方で	{}
+test-novel	32	novel-000472	VAE Encode	1	C	mixed				0	haas	vae遠方で	{}
+test-novel	20	novel-000479	eslint-plugin-react	1	C	kana				0	qwen	イベスレスレッドプレギンリエクス	{}
+test-novel	32	novel-000479	eslint-plugin-react	1	C	kana				0	qwen	イベスレスレッドプレギンリエクス	{}
+test-novel	20	novel-000488	isValid	1	C	kana				0	haas	ィズリビ	{}
+test-novel	32	novel-000488	isValid	1	C	kana				0	haas	ィズリビ	{}
+test-novel	20	novel-000489	TCP Three-way Handshake	1	C	partial				0	haas	tcp3ウェイハンドシェイク	{}
+test-novel	32	novel-000489	TCP Three-way Handshake	1	C	partial				0	haas	tcp3ウェイハンドシェイク	{}

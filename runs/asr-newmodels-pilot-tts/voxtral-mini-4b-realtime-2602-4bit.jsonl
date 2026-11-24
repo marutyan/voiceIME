@@ -1,0 +1,18 @@
+{"id": "tmp-000001", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "えーと、PyTorchのデータローダーで、いや、データセットクラスで読み込みます。", "latency_s": 5.211285667028278}
+{"id": "tmp-000002", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "あの、バッチサイズを32にしたら、GPUのメモリが足りなくなりました。", "latency_s": 4.584250541985966}
+{"id": "tmp-000003", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "トランスフォーマーのアテンションの部分をフラッシュアテンションに置き換えたいです。", "latency_s": 5.3992926250211895}
+{"id": "tmp-000004", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "GitHubのプルリクエストにまあレビューのコメントを書いておきました", "latency_s": 4.404693042044528}
+{"id": "tmp-000005", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "ラーニングレートは1e-4から始めてコサインで下げます", "latency_s": 4.9182698329677805}
+{"id": "tmp-000006", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "ドッカーのコンテナの中でUVシンクを実行してください。", "latency_s": 3.770407166099176}
+{"id": "tmp-000007", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "えーと、ウィスパーのラージV3とそのターボを比べてみました。", "latency_s": 4.691672208020464}
+{"id": "tmp-000008", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "評価はCERで、いや、WERじゃなくてCERで出してください。", "latency_s": 5.180597750004381}
+{"id": "tmp-000009", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "ハギンフェイスからチェックポントをダウンロードして、ロアルへで追加学習します。", "latency_s": 3.846272374968976}
+{"id": "tmp-000010", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "ジェイソンLの各業にIDとテキストを入れておいてください", "latency_s": 5.043459541979246}
+{"id": "tmp-000011", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "セグメンテーションのマスクを後後形式で保存しています", "latency_s": 3.8797714590327814}
+{"id": "tmp-000012", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "オプティカルフローの推定にはラフトを使ってエンドポイントエラーで評価します。", "latency_s": 4.821097332984209}
+{"id": "tmp-000013", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "まあ、ミックスドプレシジョンにすると、BF16で速くなると思います。", "latency_s": 6.096986999968067}
+{"id": "tmp-000014", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "スラックであの明日のミーティングの資料を共有しました", "latency_s": 3.920323458034545}
+{"id": "tmp-000015", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "VS Codeのターミナルでパイテストを走らせたら、2件落ちました。", "latency_s": 5.2361627909122035}
+{"id": "tmp-000016", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "ディフュージョンモデルのサンプリングステップを50からいや25に減らします", "latency_s": 5.497893874999136}
+{"id": "tmp-000017", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "MLXで4ビットに量子化したモデルをMacで動かしています", "latency_s": 5.333881124970503}
+{"id": "tmp-000018", "system": "voxtral-mini-4b-realtime-2602-4bit", "stage": "asr", "hyp": "そのデータオーギュメンテーションは、うーん、ランダムクロップだけで十分かもしれません。", "latency_s": 5.9602609580615535}

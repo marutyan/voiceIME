@@ -1,0 +1,91 @@
+start twopass dataset=test-novel rows=500 already=0 workers=18 threads=3 gpu=1 best=qwen3-asr-1.7b
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+progress dataset=test-novel rows=100/500 elapsed=23s
+progress dataset=test-novel rows=200/500 elapsed=30s
+progress dataset=test-novel rows=300/500 elapsed=39s
+progress dataset=test-novel rows=400/500 elapsed=47s
+progress dataset=test-novel rows=500/500 elapsed=54s
+complete twopass dataset=test-novel rows=500 elapsed=66.3s outputs=/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-test-novel-plain.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-test-novel-segment-merge.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-test-novel-trace.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen17-test-novel.jsonl
+start twopass dataset=val rows=1000 already=0 workers=18 threads=3 gpu=1 best=qwen3-asr-1.7b
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+speech worker: Haas-ja-v1.0 on CUDA0, ready
+speech worker: by default --decode-on-cpu=true
+progress dataset=val rows=100/1000 elapsed=22s
+progress dataset=val rows=200/1000 elapsed=29s
+progress dataset=val rows=300/1000 elapsed=36s
+progress dataset=val rows=400/1000 elapsed=42s
+progress dataset=val rows=500/1000 elapsed=50s
+progress dataset=val rows=600/1000 elapsed=58s
+progress dataset=val rows=700/1000 elapsed=64s
+progress dataset=val rows=800/1000 elapsed=71s
+progress dataset=val rows=900/1000 elapsed=79s
+progress dataset=val rows=1000/1000 elapsed=87s
+complete twopass dataset=val rows=1000 elapsed=106.0s outputs=/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-val-plain.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-val-segment-merge.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen17-val-trace.jsonl,/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/formatter-glossary-qwen17-val.jsonl

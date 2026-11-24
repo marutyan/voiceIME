@@ -1,0 +1,5888 @@
+[
+  {
+    "before": {
+      "first_pass": "えっと、cythonとダガーの間で発生しているバグを調査した。ネクストジノーエスのバージョンを14に上げたことで原因が判明。",
+      "combined_text": "えっとCythonとDaggerの間で発生しているバグを調査した。next .jsのバージョンを14に上げたことで原因が判明。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "Cython",
+          "readings": [
+            "サイソン"
+          ]
+        },
+        {
+          "surface": "Dagger",
+          "readings": [
+            "ダガー"
+          ]
+        },
+        {
+          "surface": "JS",
+          "readings": [
+            "ジェイエス"
+          ]
+        },
+        {
+          "surface": "Next.js",
+          "readings": [
+            "ネクストジェーエス"
+          ]
+        },
+        {
+          "surface": "Knex.js",
+          "readings": [
+            "ネクス"
+          ]
+        },
+        {
+          "surface": "Kusto",
+          "readings": [
+            "クスト"
+          ]
+        },
+        {
+          "surface": "Python",
+          "readings": [
+            "パイソン"
+          ]
+        },
+        {
+          "surface": "Jython",
+          "readings": [
+            "ジャイソン"
+          ]
+        },
+        {
+          "surface": "AoS",
+          "readings": [
+            "エーオーエス",
+            "アレイオブストラクチャーズ"
+          ]
+        },
+        {
+          "surface": "onNext",
+          "readings": [
+            "オンネクスト"
+          ]
+        },
+        {
+          "surface": "ONNX",
+          "readings": [
+            "オンエックス"
+          ]
+        },
+        {
+          "surface": "JOIN",
+          "readings": [
+            "ジョイン"
+          ]
+        },
+        {
+          "surface": "Nexus",
+          "readings": [
+            "ネクサス"
+          ]
+        },
+        {
+          "surface": "Dagger 2",
+          "readings": [
+            "ダガーツー"
+          ]
+        },
+        {
+          "surface": "next-intl",
+          "readings": [
+            "ネクストイントル"
+          ]
+        },
+        {
+          "surface": "NestJS",
+          "readings": [
+            "ネストジェイエス"
+          ]
+        },
+        {
+          "surface": "Nuxt.js",
+          "readings": [
+            "ヌクストジェーエス",
+            "ヌクスト"
+          ]
+        },
+        {
+          "surface": "DoS",
+          "readings": [
+            "ドス",
+            "ディーオーエス"
+          ]
+        },
+        {
+          "surface": "iOS",
+          "readings": [
+            "アイオーエス"
+          ]
+        },
+        {
+          "surface": "Trino",
+          "readings": [
+            "トリノ"
+          ]
+        }
+      ],
+      "target_text": "CythonとDaggerの間で発生しているバグを調査した。Next.jsのバージョンを14に上げたことで、原因が判明。"
+    },
+    "after": {
+      "id": "rsi-synth-train-018232",
+      "source_id": "synth-train-018232",
+      "target_text": "CythonとMarabouの間で発生しているバグを調査した。Next.jsのバージョンを14に上げたことで、原因が判明。",
+      "terms": [
+        "Cython",
+        "Marabou",
+        "Next.js"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Cython",
+          "readings": [
+            "サイソン"
+          ]
+        },
+        {
+          "surface": "Next.js",
+          "readings": [
+            "ネクストジェーエス"
+          ]
+        },
+        {
+          "surface": "Marabou",
+          "readings": [
+            "マラブー"
+          ]
+        }
+      ],
+      "first_pass": "えっと、cythonとマラブーの間で発生しているバグを調査した。ネクストジノーエスのバージョンを14に上げたことで原因が判明。",
+      "combined_text": "えっとCythonとマラブーの間で発生しているバグを調査した。next .jsのバージョンを14に上げたことで原因が判明。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "Cython",
+          "readings": [
+            "サイソン"
+          ]
+        },
+        {
+          "surface": "Marabou",
+          "readings": [
+            "マラブー"
+          ]
+        },
+        {
+          "surface": "Next.js",
+          "readings": [
+            "ネクストジェーエス"
+          ]
+        },
+        {
+          "surface": "Knex.js",
+          "readings": [
+            "ネクス"
+          ]
+        },
+        {
+          "surface": "Kusto",
+          "readings": [
+            "クスト"
+          ]
+        },
+        {
+          "surface": "Python",
+          "readings": [
+            "パイソン"
+          ]
+        },
+        {
+          "surface": "Jython",
+          "readings": [
+            "ジャイソン"
+          ]
+        },
+        {
+          "surface": "AoS",
+          "readings": [
+            "エーオーエス",
+            "アレイオブストラクチャーズ"
+          ]
+        },
+        {
+          "surface": "onNext",
+          "readings": [
+            "オンネクスト"
+          ]
+        },
+        {
+          "surface": "ONNX",
+          "readings": [
+            "オンエックス"
+          ]
+        },
+        {
+          "surface": "JOIN",
+          "readings": [
+            "ジョイン"
+          ]
+        },
+        {
+          "surface": "Dagger 2",
+          "readings": [
+            "ダガーツー"
+          ]
+        },
+        {
+          "surface": "next-intl",
+          "readings": [
+            "ネクストイントル"
+          ]
+        },
+        {
+          "surface": "Nuxt.js",
+          "readings": [
+            "ヌクストジェーエス",
+            "ヌクスト"
+          ]
+        },
+        {
+          "surface": "DoS",
+          "readings": [
+            "ドス",
+            "ディーオーエス"
+          ]
+        },
+        {
+          "surface": "iOS",
+          "readings": [
+            "アイオーエス"
+          ]
+        },
+        {
+          "surface": "Trino",
+          "readings": [
+            "トリノ"
+          ]
+        },
+        {
+          "surface": "MATLAB",
+          "readings": [
+            "マットラブ"
+          ]
+        },
+        {
+          "surface": "Mapillary",
+          "readings": [
+            "マピラリー"
+          ]
+        },
+        {
+          "surface": "LabVIEW",
+          "readings": [
+            "ラブビュー"
+          ]
+        }
+      ]
+    },
+    "original_term": "Dagger",
+    "new_term": "Marabou",
+    "reading": "マラブー",
+    "haas_reading": "マラブー",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "MATLAB",
+      "Mapillary",
+      "LabVIEW"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "と...あの型エラーが、ええと、出たので、その...ティースキップエフを使って、ああ、テストを一時的に飛ばして原因を、切り分けることにする",
+      "combined_text": "えーと、あの、型エラーが、ええと、出たので、そのt.Skipfを使って、あーテストを一時的に飛ばして、原因を、切り分けることにする",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "t.Skipf",
+          "readings": [
+            "ティースキップエフ"
+          ]
+        },
+        {
+          "surface": "IPP",
+          "readings": [
+            "アイピーピー"
+          ]
+        },
+        {
+          "surface": "PUE",
+          "readings": [
+            "ピーユーイー"
+          ]
+        },
+        {
+          "surface": "Wrapf",
+          "readings": [
+            "ラップエフ"
+          ]
+        },
+        {
+          "surface": "ATIS",
+          "readings": [
+            "エイティス"
+          ]
+        },
+        {
+          "surface": "SNIP",
+          "readings": [
+            "スニップ"
+          ]
+        },
+        {
+          "surface": "#[test]",
+          "readings": [
+            "テストアトリビュート"
+          ]
+        },
+        {
+          "surface": "METIS",
+          "readings": [
+            "メティス"
+          ]
+        },
+        {
+          "surface": "IPFS",
+          "readings": [
+            "アイピーエフエス"
+          ]
+        },
+        {
+          "surface": "T3",
+          "readings": [
+            "ティースリー"
+          ]
+        },
+        {
+          "surface": "PUF",
+          "readings": [
+            "ピーユーエフ"
+          ]
+        },
+        {
+          "surface": "Quip",
+          "readings": [
+            "クイップ"
+          ]
+        },
+        {
+          "surface": "ASCII",
+          "readings": [
+            "アスキー"
+          ]
+        },
+        {
+          "surface": "pip",
+          "readings": [
+            "ピップ"
+          ]
+        },
+        {
+          "surface": "zip",
+          "readings": [
+            "ジップ"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "BPF",
+          "readings": [
+            "ビーピーエフ"
+          ]
+        },
+        {
+          "surface": "HPF",
+          "readings": [
+            "エイチピーエフ"
+          ]
+        },
+        {
+          "surface": "MF",
+          "readings": [
+            "エムエフ"
+          ]
+        },
+        {
+          "surface": "NF",
+          "readings": [
+            "エヌエフ"
+          ]
+        }
+      ],
+      "target_text": "型エラーが出たので、t.Skipfを使ってテストを一時的に飛ばして、原因を切り分けることにする。"
+    },
+    "after": {
+      "id": "rsi-train-v3-007754",
+      "source_id": "train-v3-007754",
+      "target_text": "型エラーが出たので、FlowNet2を使ってテストを一時的に飛ばして、原因を切り分けることにする。",
+      "terms": [
+        "FlowNet2"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "FlowNet2",
+          "readings": [
+            "フローネットツー"
+          ]
+        }
+      ],
+      "first_pass": "と...あの型エラーが、ええと、出たので、その...フローネットツーを使って、ああ、テストを一時的に飛ばして原因を、切り分けることにする",
+      "combined_text": "えーと、あの、型エラーが、ええと、出たので、そのフローネットツーを使って、あーテストを一時的に飛ばして、原因を、切り分けることにする",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "FlowNet2",
+          "readings": [
+            "フローネットツー"
+          ]
+        },
+        {
+          "surface": "IPP",
+          "readings": [
+            "アイピーピー"
+          ]
+        },
+        {
+          "surface": "PUE",
+          "readings": [
+            "ピーユーイー"
+          ]
+        },
+        {
+          "surface": "Wrapf",
+          "readings": [
+            "ラップエフ"
+          ]
+        },
+        {
+          "surface": "ATIS",
+          "readings": [
+            "エイティス"
+          ]
+        },
+        {
+          "surface": "SNIP",
+          "readings": [
+            "スニップ"
+          ]
+        },
+        {
+          "surface": "#[test]",
+          "readings": [
+            "テストアトリビュート"
+          ]
+        },
+        {
+          "surface": "METIS",
+          "readings": [
+            "メティス"
+          ]
+        },
+        {
+          "surface": "IPFS",
+          "readings": [
+            "アイピーエフエス"
+          ]
+        },
+        {
+          "surface": "T3",
+          "readings": [
+            "ティースリー"
+          ]
+        },
+        {
+          "surface": "PUF",
+          "readings": [
+            "ピーユーエフ"
+          ]
+        },
+        {
+          "surface": "Quip",
+          "readings": [
+            "クイップ"
+          ]
+        },
+        {
+          "surface": "ASCII",
+          "readings": [
+            "アスキー"
+          ]
+        },
+        {
+          "surface": "zip",
+          "readings": [
+            "ジップ"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "BPF",
+          "readings": [
+            "ビーピーエフ"
+          ]
+        },
+        {
+          "surface": "HPF",
+          "readings": [
+            "エイチピーエフ"
+          ]
+        },
+        {
+          "surface": "MF",
+          "readings": [
+            "エムエフ"
+          ]
+        },
+        {
+          "surface": "NF",
+          "readings": [
+            "エヌエフ"
+          ]
+        },
+        {
+          "surface": "flate2",
+          "readings": [
+            "フラットツー"
+          ]
+        }
+      ]
+    },
+    "original_term": "t.Skipf",
+    "new_term": "FlowNet2",
+    "reading": "フローネットツー",
+    "haas_reading": "フローネットツー",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "flate2"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "ええと、samsungのデバイスとオープンレビューの接続不調を修正。オンラトラックだね",
+      "combined_text": "SamsungのデバイスとOpenReviewの接続不調を修正。イン・トラックだね",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OpenReview",
+          "readings": [
+            "オープンレビュー"
+          ]
+        },
+        {
+          "surface": "Samsung",
+          "readings": [
+            "サムスン"
+          ]
+        },
+        {
+          "surface": "EVI",
+          "readings": [
+            "イーヴィーアイ"
+          ]
+        },
+        {
+          "surface": "OPE",
+          "readings": [
+            "オーピーイー"
+          ]
+        },
+        {
+          "surface": "int",
+          "readings": [
+            "イント"
+          ]
+        },
+        {
+          "surface": "ATRAC",
+          "readings": [
+            "アトラック"
+          ]
+        },
+        {
+          "surface": "ATrack",
+          "readings": [
+            "エートラック"
+          ]
+        },
+        {
+          "surface": "BIOS",
+          "readings": [
+            "バイオス"
+          ]
+        },
+        {
+          "surface": "OpenR1",
+          "readings": [
+            "オープンアールワン"
+          ]
+        },
+        {
+          "surface": "SAMSum",
+          "readings": [
+            "サムサム"
+          ]
+        },
+        {
+          "surface": "OpenXR",
+          "readings": [
+            "オープンエックスアール"
+          ]
+        },
+        {
+          "surface": "conntrack",
+          "readings": [
+            "コントラック"
+          ]
+        },
+        {
+          "surface": "OpenVR",
+          "readings": [
+            "オープンブイアール"
+          ]
+        },
+        {
+          "surface": "Dice",
+          "readings": [
+            "ダイス"
+          ]
+        },
+        {
+          "surface": "Guice",
+          "readings": [
+            "ガイス"
+          ]
+        },
+        {
+          "surface": "Scythe",
+          "readings": [
+            "サイス"
+          ]
+        },
+        {
+          "surface": "OpenReID",
+          "readings": [
+            "オープンリアイディー"
+          ]
+        },
+        {
+          "surface": "SAM 2",
+          "readings": [
+            "サムツー"
+          ]
+        },
+        {
+          "surface": "SAML",
+          "readings": [
+            "サムエル",
+            "エスエーエムエル"
+          ]
+        },
+        {
+          "surface": "Slack",
+          "readings": [
+            "スラック"
+          ]
+        }
+      ],
+      "target_text": "SamsungのデバイスとOpenReviewの接続不調を修正。on trackだね。"
+    },
+    "after": {
+      "id": "rsi-synth-train-032904",
+      "source_id": "synth-train-032904",
+      "target_text": "Samsungのデバイスとsqlparseの接続不調を修正。on trackだね。",
+      "terms": [
+        "Samsung",
+        "sqlparse"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Samsung",
+          "readings": [
+            "サムスン"
+          ]
+        },
+        {
+          "surface": "sqlparse",
+          "readings": [
+            "エスキューエルパース"
+          ]
+        }
+      ],
+      "first_pass": "ええと、samsungのデバイスとエスキューエルパースの接続不調を修正。オンラトラックだね",
+      "combined_text": "Samsungのデバイスとsqlparseの接続不調を修正。イン・トラックだね",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "sqlparse",
+          "readings": [
+            "エスキューエルパース"
+          ]
+        },
+        {
+          "surface": "Samsung",
+          "readings": [
+            "サムスン"
+          ]
+        },
+        {
+          "surface": "EVI",
+          "readings": [
+            "イーヴィーアイ"
+          ]
+        },
+        {
+          "surface": "int",
+          "readings": [
+            "イント"
+          ]
+        },
+        {
+          "surface": "ATRAC",
+          "readings": [
+            "アトラック"
+          ]
+        },
+        {
+          "surface": "ATrack",
+          "readings": [
+            "エートラック"
+          ]
+        },
+        {
+          "surface": "BIOS",
+          "readings": [
+            "バイオス"
+          ]
+        },
+        {
+          "surface": "OpenR1",
+          "readings": [
+            "オープンアールワン"
+          ]
+        },
+        {
+          "surface": "SAMSum",
+          "readings": [
+            "サムサム"
+          ]
+        },
+        {
+          "surface": "OpenXR",
+          "readings": [
+            "オープンエックスアール"
+          ]
+        },
+        {
+          "surface": "OpenVR",
+          "readings": [
+            "オープンブイアール"
+          ]
+        },
+        {
+          "surface": "Dice",
+          "readings": [
+            "ダイス"
+          ]
+        },
+        {
+          "surface": "Guice",
+          "readings": [
+            "ガイス"
+          ]
+        },
+        {
+          "surface": "Scythe",
+          "readings": [
+            "サイス"
+          ]
+        },
+        {
+          "surface": "OpenReID",
+          "readings": [
+            "オープンリアイディー"
+          ]
+        },
+        {
+          "surface": "SAM 2",
+          "readings": [
+            "サムツー"
+          ]
+        },
+        {
+          "surface": "Slack",
+          "readings": [
+            "スラック"
+          ]
+        },
+        {
+          "surface": "sqlparser",
+          "readings": [
+            "エスキューエルパーサー"
+          ]
+        },
+        {
+          "surface": "sqlc",
+          "readings": [
+            "エスキューエルシー"
+          ]
+        },
+        {
+          "surface": "SQL",
+          "readings": [
+            "エスキューエル",
+            "シークエル"
+          ]
+        }
+      ]
+    },
+    "original_term": "OpenReview",
+    "new_term": "sqlparse",
+    "reading": "エスキューエルパース",
+    "haas_reading": "エスキューエルパース",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "sqlparser",
+      "sqlc",
+      "SQL"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あの業務で使用する機器についてですがエムシーユーとええと通常のパソコンをまあ適切に使い分ける必要があると考えております。よろしくお願いいたします",
+      "combined_text": "あの業務で使用する機器についてですがエムシーボーとえっと通常のパソコンをまあ、適切に使い分ける必要があると考えております。よろしくお願いいたします。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "MCU",
+          "readings": [
+            "エムシーユー"
+          ]
+        },
+        {
+          "surface": "emcee",
+          "readings": [
+            "エムシー"
+          ]
+        },
+        {
+          "surface": "PAS",
+          "readings": [
+            "ピーエーエス"
+          ]
+        },
+        {
+          "surface": "IBO",
+          "readings": [
+            "アイビーオー"
+          ]
+        },
+        {
+          "surface": "ASO",
+          "readings": [
+            "エーエスオー"
+          ]
+        },
+        {
+          "surface": "Seaborn",
+          "readings": [
+            "シーボーン"
+          ]
+        },
+        {
+          "surface": "CBoW",
+          "readings": [
+            "シーボウ",
+            "シービーオーダブリュー"
+          ]
+        },
+        {
+          "surface": "CBO",
+          "readings": [
+            "シービーオー"
+          ]
+        },
+        {
+          "surface": "ECU",
+          "readings": [
+            "イーシーユー"
+          ]
+        },
+        {
+          "surface": "LoCon",
+          "readings": [
+            "ロコン"
+          ]
+        },
+        {
+          "surface": "HOCON",
+          "readings": [
+            "ホーコン"
+          ]
+        },
+        {
+          "surface": "Plaso",
+          "readings": [
+            "プラソ"
+          ]
+        },
+        {
+          "surface": "mC4",
+          "readings": [
+            "エムシーフォー"
+          ]
+        },
+        {
+          "surface": "NCU",
+          "readings": [
+            "エヌシーユー"
+          ]
+        },
+        {
+          "surface": "CMC",
+          "readings": [
+            "シーエムシー"
+          ]
+        },
+        {
+          "surface": "DMC",
+          "readings": [
+            "ディーエムシー"
+          ]
+        },
+        {
+          "surface": "iBOT",
+          "readings": [
+            "アイボット"
+          ]
+        },
+        {
+          "surface": "MCC",
+          "readings": [
+            "エムシーシー"
+          ]
+        },
+        {
+          "surface": "MCP",
+          "readings": [
+            "エムシーピー"
+          ]
+        },
+        {
+          "surface": "PMC",
+          "readings": [
+            "ピーエムシー"
+          ]
+        }
+      ],
+      "target_text": "業務で使用する機器についてですが、MCUと通常のパソコンを適切に使い分ける必要があると考えております。よろしくお願いいたします。"
+    },
+    "after": {
+      "id": "rsi-synth-train-027261",
+      "source_id": "synth-train-027261",
+      "target_text": "業務で使用する機器についてですが、DFPと通常のパソコンを適切に使い分ける必要があると考えております。よろしくお願いいたします。",
+      "terms": [
+        "DFP"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "DFP",
+          "readings": [
+            "ディーエフピー"
+          ]
+        }
+      ],
+      "first_pass": "あの業務で使用する機器についてですがディーエフピーとええと通常のパソコンをまあ適切に使い分ける必要があると考えております。よろしくお願いいたします",
+      "combined_text": "あの業務で使用する機器についてですがエムシーボーとえっと通常のパソコンをまあ、適切に使い分ける必要があると考えております。よろしくお願いいたします。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "DFP",
+          "readings": [
+            "ディーエフピー"
+          ]
+        },
+        {
+          "surface": "emcee",
+          "readings": [
+            "エムシー"
+          ]
+        },
+        {
+          "surface": "PAS",
+          "readings": [
+            "ピーエーエス"
+          ]
+        },
+        {
+          "surface": "IBO",
+          "readings": [
+            "アイビーオー"
+          ]
+        },
+        {
+          "surface": "ASO",
+          "readings": [
+            "エーエスオー"
+          ]
+        },
+        {
+          "surface": "Seaborn",
+          "readings": [
+            "シーボーン"
+          ]
+        },
+        {
+          "surface": "CBoW",
+          "readings": [
+            "シーボウ",
+            "シービーオーダブリュー"
+          ]
+        },
+        {
+          "surface": "CBO",
+          "readings": [
+            "シービーオー"
+          ]
+        },
+        {
+          "surface": "LoCon",
+          "readings": [
+            "ロコン"
+          ]
+        },
+        {
+          "surface": "HOCON",
+          "readings": [
+            "ホーコン"
+          ]
+        },
+        {
+          "surface": "Plaso",
+          "readings": [
+            "プラソ"
+          ]
+        },
+        {
+          "surface": "mC4",
+          "readings": [
+            "エムシーフォー"
+          ]
+        },
+        {
+          "surface": "NCU",
+          "readings": [
+            "エヌシーユー"
+          ]
+        },
+        {
+          "surface": "CMC",
+          "readings": [
+            "シーエムシー"
+          ]
+        },
+        {
+          "surface": "DMC",
+          "readings": [
+            "ディーエムシー"
+          ]
+        },
+        {
+          "surface": "iBOT",
+          "readings": [
+            "アイボット"
+          ]
+        },
+        {
+          "surface": "MCC",
+          "readings": [
+            "エムシーシー"
+          ]
+        },
+        {
+          "surface": "MCP",
+          "readings": [
+            "エムシーピー"
+          ]
+        },
+        {
+          "surface": "PMC",
+          "readings": [
+            "ピーエムシー"
+          ]
+        },
+        {
+          "surface": "DAP",
+          "readings": [
+            "ディーエーピー"
+          ]
+        }
+      ]
+    },
+    "original_term": "MCU",
+    "new_term": "DFP",
+    "reading": "ディーエフピー",
+    "haas_reading": "ディーエフピー",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 0,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "DAP"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "テンションユーネットのアテンションユーネットのリコールケミがベースラインより全然高くなっててこれ、すごいね。",
+      "combined_text": "Attention U-Netのアテンションユーニットのアコールケーがベースラインより全然高くなっててこれすごいね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "Attention U-Net",
+          "readings": [
+            "アテンションユーネット"
+          ]
+        },
+        {
+          "surface": "Recall@K",
+          "readings": [
+            "リコールケー"
+          ]
+        },
+        {
+          "surface": "U-Net",
+          "readings": [
+            "ユーネット"
+          ]
+        },
+        {
+          "surface": "UNet++",
+          "readings": [
+            "ユーネットプラスプラス"
+          ]
+        },
+        {
+          "surface": "LINE",
+          "readings": [
+            "ライン"
+          ]
+        },
+        {
+          "surface": "NSH",
+          "readings": [
+            "エヌエスエイチ"
+          ]
+        },
+        {
+          "surface": "ONU",
+          "readings": [
+            "オーエヌユー"
+          ]
+        },
+        {
+          "surface": "EMI",
+          "readings": [
+            "イーエムアイ"
+          ]
+        },
+        {
+          "surface": "Recoil",
+          "readings": [
+            "リコイル"
+          ]
+        },
+        {
+          "surface": "LeNet",
+          "readings": [
+            "ルネット"
+          ]
+        },
+        {
+          "surface": "runit",
+          "readings": [
+            "ルニット"
+          ]
+        },
+        {
+          "surface": "__init__",
+          "readings": [
+            "イニット"
+          ]
+        },
+        {
+          "surface": "3D Attention",
+          "readings": [
+            "スリーディーアテンション"
+          ]
+        },
+        {
+          "surface": "UNETR",
+          "readings": [
+            "ユーネットアール"
+          ]
+        },
+        {
+          "surface": "NUnit",
+          "readings": [
+            "エヌユニット"
+          ]
+        },
+        {
+          "surface": "YAMNet",
+          "readings": [
+            "ヤムネット"
+          ]
+        },
+        {
+          "surface": "PANet",
+          "readings": [
+            "パネット"
+          ]
+        },
+        {
+          "surface": "Attention Flow",
+          "readings": [
+            "アテンションフロー"
+          ]
+        },
+        {
+          "surface": "Conv-UNet",
+          "readings": [
+            "コンブユーネット"
+          ]
+        },
+        {
+          "surface": "Dunnett",
+          "readings": [
+            "ダネット"
+          ]
+        }
+      ],
+      "target_text": "Attention U-NetのRecall@Kが、ベースラインより全然高くなってて、これ、すごいね。"
+    },
+    "after": {
+      "id": "rsi-synth-train-036348",
+      "source_id": "synth-train-036348",
+      "target_text": "Compatibility DecompositionのRecall@Kが、ベースラインより全然高くなってて、これ、すごいね。",
+      "terms": [
+        "Compatibility Decomposition",
+        "Recall@K"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Recall@K",
+          "readings": [
+            "リコールケー"
+          ]
+        },
+        {
+          "surface": "Compatibility Decomposition",
+          "readings": [
+            "コンパティビリティデコンポジション"
+          ]
+        }
+      ],
+      "first_pass": "テンションユーネットのコンパティビリティデコンポジションのリコールケミがベースラインより全然高くなっててこれ、すごいね。",
+      "combined_text": "コンパティビリティデコンポジションのアテンションユーニットのアコールケーがベースラインより全然高くなっててこれすごいね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "Compatibility Decomposition",
+          "readings": [
+            "コンパティビリティデコンポジション"
+          ]
+        },
+        {
+          "surface": "Recall@K",
+          "readings": [
+            "リコールケー"
+          ]
+        },
+        {
+          "surface": "U-Net",
+          "readings": [
+            "ユーネット"
+          ]
+        },
+        {
+          "surface": "UNet++",
+          "readings": [
+            "ユーネットプラスプラス"
+          ]
+        },
+        {
+          "surface": "LINE",
+          "readings": [
+            "ライン"
+          ]
+        },
+        {
+          "surface": "ONU",
+          "readings": [
+            "オーエヌユー"
+          ]
+        },
+        {
+          "surface": "EMI",
+          "readings": [
+            "イーエムアイ"
+          ]
+        },
+        {
+          "surface": "Recoil",
+          "readings": [
+            "リコイル"
+          ]
+        },
+        {
+          "surface": "LeNet",
+          "readings": [
+            "ルネット"
+          ]
+        },
+        {
+          "surface": "runit",
+          "readings": [
+            "ルニット"
+          ]
+        },
+        {
+          "surface": "__init__",
+          "readings": [
+            "イニット"
+          ]
+        },
+        {
+          "surface": "3D Attention",
+          "readings": [
+            "スリーディーアテンション"
+          ]
+        },
+        {
+          "surface": "UNETR",
+          "readings": [
+            "ユーネットアール"
+          ]
+        },
+        {
+          "surface": "NUnit",
+          "readings": [
+            "エヌユニット"
+          ]
+        },
+        {
+          "surface": "YAMNet",
+          "readings": [
+            "ヤムネット"
+          ]
+        },
+        {
+          "surface": "PANet",
+          "readings": [
+            "パネット"
+          ]
+        },
+        {
+          "surface": "Attention Flow",
+          "readings": [
+            "アテンションフロー"
+          ]
+        },
+        {
+          "surface": "Conv-UNet",
+          "readings": [
+            "コンブユーネット"
+          ]
+        },
+        {
+          "surface": "Dunnett",
+          "readings": [
+            "ダネット"
+          ]
+        },
+        {
+          "surface": "TT-decomposition",
+          "readings": [
+            "ティーティーデコンポジション"
+          ]
+        }
+      ]
+    },
+    "original_term": "Attention U-Net",
+    "new_term": "Compatibility Decomposition",
+    "reading": "コンパティビリティデコンポジション",
+    "haas_reading": "コンパティビリティデコンポジション",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "TT-decomposition"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "nf4を用いたデータセット分割エイチアールネットでの検証。",
+      "combined_text": "NF4を用いたデータセット分割。HRNetでの検証。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "HRNet",
+          "readings": [
+            "エイチアールネット"
+          ]
+        },
+        {
+          "surface": "NF4",
+          "readings": [
+            "エヌエフフォー"
+          ]
+        },
+        {
+          "surface": "U-Net",
+          "readings": [
+            "ユーネット"
+          ]
+        },
+        {
+          "surface": "UNet++",
+          "readings": [
+            "ユーネットプラスプラス"
+          ]
+        },
+        {
+          "surface": "det",
+          "readings": [
+            "デット"
+          ]
+        },
+        {
+          "surface": "LeNet",
+          "readings": [
+            "ルネット"
+          ]
+        },
+        {
+          "surface": "[]rune",
+          "readings": [
+            "ルーンスライス"
+          ]
+        },
+        {
+          "surface": "IRNet",
+          "readings": [
+            "アイアールネット"
+          ]
+        },
+        {
+          "surface": "HER",
+          "readings": [
+            "エイチイーアール"
+          ]
+        },
+        {
+          "surface": "chr",
+          "readings": [
+            "シーエイチアール"
+          ]
+        },
+        {
+          "surface": "set -e",
+          "readings": [
+            "セットイー"
+          ]
+        },
+        {
+          "surface": "AH",
+          "readings": [
+            "エーエイチ"
+          ]
+        },
+        {
+          "surface": "HA",
+          "readings": [
+            "エイチエー"
+          ]
+        },
+        {
+          "surface": "PHR",
+          "readings": [
+            "ピーエイチアール"
+          ]
+        },
+        {
+          "surface": "Telnet",
+          "readings": [
+            "テルネット"
+          ]
+        },
+        {
+          "surface": "HRI",
+          "readings": [
+            "エイチアールアイ"
+          ]
+        },
+        {
+          "surface": "HTR",
+          "readings": [
+            "エイチティーアール"
+          ]
+        },
+        {
+          "surface": "OData",
+          "readings": [
+            "オーデータ"
+          ]
+        },
+        {
+          "surface": "HDR",
+          "readings": [
+            "エイチディーアール"
+          ]
+        },
+        {
+          "surface": "PCRNet",
+          "readings": [
+            "ピーシーアールネット"
+          ]
+        }
+      ],
+      "target_text": "NF4を用いたデータセット分割。HRNetでの検証。"
+    },
+    "after": {
+      "id": "rsi-synth-train-013510",
+      "source_id": "synth-train-013510",
+      "target_text": "NF4を用いたデータセット分割。usePathnameでの検証。",
+      "terms": [
+        "NF4",
+        "usePathname"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "NF4",
+          "readings": [
+            "エヌエフフォー"
+          ]
+        },
+        {
+          "surface": "usePathname",
+          "readings": [
+            "ユーズパスネーム"
+          ]
+        }
+      ],
+      "first_pass": "nf4を用いたデータセット分割ユーズパスネームでの検証。",
+      "combined_text": "NF4を用いたデータセット分割。ユーズパスネームでの検証。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "usePathname",
+          "readings": [
+            "ユーズパスネーム"
+          ]
+        },
+        {
+          "surface": "NF4",
+          "readings": [
+            "エヌエフフォー"
+          ]
+        },
+        {
+          "surface": "U-Net",
+          "readings": [
+            "ユーネット"
+          ]
+        },
+        {
+          "surface": "UNet++",
+          "readings": [
+            "ユーネットプラスプラス"
+          ]
+        },
+        {
+          "surface": "det",
+          "readings": [
+            "デット"
+          ]
+        },
+        {
+          "surface": "LeNet",
+          "readings": [
+            "ルネット"
+          ]
+        },
+        {
+          "surface": "[]rune",
+          "readings": [
+            "ルーンスライス"
+          ]
+        },
+        {
+          "surface": "IRNet",
+          "readings": [
+            "アイアールネット"
+          ]
+        },
+        {
+          "surface": "HER",
+          "readings": [
+            "エイチイーアール"
+          ]
+        },
+        {
+          "surface": "chr",
+          "readings": [
+            "シーエイチアール"
+          ]
+        },
+        {
+          "surface": "set -e",
+          "readings": [
+            "セットイー"
+          ]
+        },
+        {
+          "surface": "AH",
+          "readings": [
+            "エーエイチ"
+          ]
+        },
+        {
+          "surface": "HA",
+          "readings": [
+            "エイチエー"
+          ]
+        },
+        {
+          "surface": "PHR",
+          "readings": [
+            "ピーエイチアール"
+          ]
+        },
+        {
+          "surface": "Telnet",
+          "readings": [
+            "テルネット"
+          ]
+        },
+        {
+          "surface": "HRI",
+          "readings": [
+            "エイチアールアイ"
+          ]
+        },
+        {
+          "surface": "HTR",
+          "readings": [
+            "エイチティーアール"
+          ]
+        },
+        {
+          "surface": "OData",
+          "readings": [
+            "オーデータ"
+          ]
+        },
+        {
+          "surface": "HDR",
+          "readings": [
+            "エイチディーアール"
+          ]
+        },
+        {
+          "surface": "PCRNet",
+          "readings": [
+            "ピーシーアールネット"
+          ]
+        }
+      ]
+    },
+    "original_term": "HRNet",
+    "new_term": "usePathname",
+    "reading": "ユーズパスネーム",
+    "haas_reading": "ユーズパスネーム",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": []
+  },
+  {
+    "before": {
+      "first_pass": "あの、OenBookQAを用いたテストの結果ですがキューシベの過程でエラーが発生し、テストが落ちてしまいました。シーエスブイ形式で出力したログを確認したところリレイの連携部分に問題があるようです。現在詳細を調査しております",
+      "combined_text": "あの、OpnBookQAを用いたテストの結果ですが、ベューシーの過程でエラーが発生し、テストが落ちてしまいましたcsv形式で出力したログを確認したところ、Relayの連携部分に問題があるようです。現在詳細を調査しております。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "CSV",
+          "readings": [
+            "シーエスブイ"
+          ]
+        },
+        {
+          "surface": "QC",
+          "readings": [
+            "キューシー"
+          ]
+        },
+        {
+          "surface": "Relay",
+          "readings": [
+            "リレイ"
+          ]
+        },
+        {
+          "surface": "DSV",
+          "readings": [
+            "ディーエスブイ"
+          ]
+        },
+        {
+          "surface": "TSV",
+          "readings": [
+            "ティーエスブイ",
+            "スルーシリコンビア"
+          ]
+        },
+        {
+          "surface": "SVA",
+          "readings": [
+            "エスブイエー"
+          ]
+        },
+        {
+          "surface": "SVE",
+          "readings": [
+            "エスブイイー"
+          ]
+        },
+        {
+          "surface": "OQC",
+          "readings": [
+            "オーキューシー"
+          ]
+        },
+        {
+          "surface": "OpenBookQA",
+          "readings": [
+            "オープンブックキューエー"
+          ]
+        },
+        {
+          "surface": "SVC",
+          "readings": [
+            "エスブイシー"
+          ]
+        },
+        {
+          "surface": "SVG",
+          "readings": [
+            "エスブイジー"
+          ]
+        },
+        {
+          "surface": "CASB",
+          "readings": [
+            "キャスビー",
+            "シーエーエスビー"
+          ]
+        },
+        {
+          "surface": "ECS",
+          "readings": [
+            "イーシーエス"
+          ]
+        },
+        {
+          "surface": "GCS",
+          "readings": [
+            "ジーシーエス"
+          ]
+        },
+        {
+          "surface": "BRIR",
+          "readings": [
+            "ビーアールアイアール"
+          ]
+        },
+        {
+          "surface": "CSC",
+          "readings": [
+            "シーエスシー"
+          ]
+        },
+        {
+          "surface": "CSP",
+          "readings": [
+            "シーエスピー"
+          ]
+        },
+        {
+          "surface": "HRIR",
+          "readings": [
+            "エイチアールアイアール"
+          ]
+        },
+        {
+          "surface": "Re-ID",
+          "readings": [
+            "リアイディー"
+          ]
+        },
+        {
+          "surface": "SVD",
+          "readings": [
+            "エスブイディー"
+          ]
+        }
+      ],
+      "target_text": "OpenBookQAを用いたテストの結果ですが、QCの過程でエラーが発生し、テストが落ちてしまいました。CSV形式で出力したログを確認したところ、Relayの連携部分に問題があるようです。現在、詳細を調査しております。"
+    },
+    "after": {
+      "id": "rsi-synth-train-035699",
+      "source_id": "synth-train-035699",
+      "target_text": "OpenBookQAを用いたテストの結果ですが、QCの過程でエラーが発生し、テストが落ちてしまいました。VBV形式で出力したログを確認したところ、Relayの連携部分に問題があるようです。現在、詳細を調査しております。",
+      "terms": [
+        "OpenBookQA",
+        "QC",
+        "VBV",
+        "Relay"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "OpenBookQA",
+          "readings": [
+            "オープンブックキューエー"
+          ]
+        },
+        {
+          "surface": "QC",
+          "readings": [
+            "キューシー"
+          ]
+        },
+        {
+          "surface": "Relay",
+          "readings": [
+            "リレイ"
+          ]
+        },
+        {
+          "surface": "VBV",
+          "readings": [
+            "ブイビーブイ"
+          ]
+        }
+      ],
+      "first_pass": "あの、OenBookQAを用いたテストの結果ですがキューシベの過程でエラーが発生し、テストが落ちてしまいました。ブイピーブイ形式で出力したログを確認したところリレイの連携部分に問題があるようです。現在詳細を調査しております",
+      "combined_text": "あの、OpnBookQAを用いたテストの結果ですが、ベューシーの過程でエラーが発生し、テストが落ちてしまいましたcsv形式で出力したログを確認したところ、Relayの連携部分に問題があるようです。現在詳細を調査しております。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "VBV",
+          "readings": [
+            "ブイビーブイ"
+          ]
+        },
+        {
+          "surface": "QC",
+          "readings": [
+            "キューシー"
+          ]
+        },
+        {
+          "surface": "Relay",
+          "readings": [
+            "リレイ"
+          ]
+        },
+        {
+          "surface": "TSV",
+          "readings": [
+            "ティーエスブイ",
+            "スルーシリコンビア"
+          ]
+        },
+        {
+          "surface": "SVA",
+          "readings": [
+            "エスブイエー"
+          ]
+        },
+        {
+          "surface": "SVE",
+          "readings": [
+            "エスブイイー"
+          ]
+        },
+        {
+          "surface": "OQC",
+          "readings": [
+            "オーキューシー"
+          ]
+        },
+        {
+          "surface": "OpenBookQA",
+          "readings": [
+            "オープンブックキューエー"
+          ]
+        },
+        {
+          "surface": "SVC",
+          "readings": [
+            "エスブイシー"
+          ]
+        },
+        {
+          "surface": "SVG",
+          "readings": [
+            "エスブイジー"
+          ]
+        },
+        {
+          "surface": "CASB",
+          "readings": [
+            "キャスビー",
+            "シーエーエスビー"
+          ]
+        },
+        {
+          "surface": "ECS",
+          "readings": [
+            "イーシーエス"
+          ]
+        },
+        {
+          "surface": "GCS",
+          "readings": [
+            "ジーシーエス"
+          ]
+        },
+        {
+          "surface": "BRIR",
+          "readings": [
+            "ビーアールアイアール"
+          ]
+        },
+        {
+          "surface": "CSC",
+          "readings": [
+            "シーエスシー"
+          ]
+        },
+        {
+          "surface": "CSP",
+          "readings": [
+            "シーエスピー"
+          ]
+        },
+        {
+          "surface": "HRIR",
+          "readings": [
+            "エイチアールアイアール"
+          ]
+        },
+        {
+          "surface": "Re-ID",
+          "readings": [
+            "リアイディー"
+          ]
+        },
+        {
+          "surface": "SVD",
+          "readings": [
+            "エスブイディー"
+          ]
+        },
+        {
+          "surface": "Eevee",
+          "readings": [
+            "イーブイ"
+          ]
+        }
+      ]
+    },
+    "original_term": "CSV",
+    "new_term": "VBV",
+    "reading": "ブイビーブイ",
+    "haas_reading": "ブイピーブイ",
+    "noise": "voicing",
+    "first_positions": 1,
+    "merged_positions": 0,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "Eevee"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あの、オープンレイヤーズの、その、ビルドがビルドが通らなくて。キャッシュを消して、いや、再起動して、試してみますね。",
+      "combined_text": "、OpenLayersの、その、ビルドが、ビルドが通らなくて。えーと、キャッシュを消していや、再起動して、まあ、試してみますね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "SSH",
+          "readings": [
+            "エスエスエイチ"
+          ]
+        },
+        {
+          "surface": "OPE",
+          "readings": [
+            "オーピーイー"
+          ]
+        },
+        {
+          "surface": "OpenLayers",
+          "readings": [
+            "オープンレイヤーズ"
+          ]
+        },
+        {
+          "surface": "Bash",
+          "readings": [
+            "バッシュ"
+          ]
+        },
+        {
+          "surface": "OpenML",
+          "readings": [
+            "オープンエムエル"
+          ]
+        },
+        {
+          "surface": "OpenCL",
+          "readings": [
+            "オープンシーエル"
+          ]
+        },
+        {
+          "surface": "OpenGL",
+          "readings": [
+            "オープンジーエル"
+          ]
+        },
+        {
+          "surface": "Buildah",
+          "readings": [
+            "ビルダ"
+          ]
+        },
+        {
+          "surface": "BRAW",
+          "readings": [
+            "ビーロウ"
+          ]
+        },
+        {
+          "surface": "num_layers",
+          "readings": [
+            "ナムレイヤーズ"
+          ]
+        },
+        {
+          "surface": "Mish",
+          "readings": [
+            "ミッシュ"
+          ]
+        },
+        {
+          "surface": "cat",
+          "readings": [
+            "キャット"
+          ]
+        },
+        {
+          "surface": "OpenAI",
+          "readings": [
+            "オープンエーアイ"
+          ]
+        },
+        {
+          "surface": "OpenBLAS",
+          "readings": [
+            "オープンブラス"
+          ]
+        },
+        {
+          "surface": "cosh",
+          "readings": [
+            "コッシュ"
+          ]
+        },
+        {
+          "surface": "Fuzz",
+          "readings": [
+            "ファズ"
+          ]
+        },
+        {
+          "surface": "Whoosh",
+          "readings": [
+            "ウーシュ"
+          ]
+        },
+        {
+          "surface": "mosh",
+          "readings": [
+            "モッシュ"
+          ]
+        },
+        {
+          "surface": "OpenLDAP",
+          "readings": [
+            "オープンエルダップ"
+          ]
+        },
+        {
+          "surface": "Bosch",
+          "readings": [
+            "ボッシュ"
+          ]
+        }
+      ],
+      "target_text": "OpenLayersのビルドが通らなくて。再起動して試してみますね。"
+    },
+    "after": {
+      "id": "rsi-train-v3-023360",
+      "source_id": "train-v3-023360",
+      "target_text": "shortlogのビルドが通らなくて。再起動して試してみますね。",
+      "terms": [
+        "shortlog"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "shortlog",
+          "readings": [
+            "ショートログ"
+          ]
+        }
+      ],
+      "first_pass": "あの、ショートロクの、その、ビルドがビルドが通らなくて。キャッシュを消して、いや、再起動して、試してみますね。",
+      "combined_text": "、shortlogの、その、ビルドが、ビルドが通らなくて。えーと、キャッシュを消していや、再起動して、まあ、試してみますね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "SSH",
+          "readings": [
+            "エスエスエイチ"
+          ]
+        },
+        {
+          "surface": "OPE",
+          "readings": [
+            "オーピーイー"
+          ]
+        },
+        {
+          "surface": "shortlog",
+          "readings": [
+            "ショートログ"
+          ]
+        },
+        {
+          "surface": "Bash",
+          "readings": [
+            "バッシュ"
+          ]
+        },
+        {
+          "surface": "OpenCL",
+          "readings": [
+            "オープンシーエル"
+          ]
+        },
+        {
+          "surface": "OpenGL",
+          "readings": [
+            "オープンジーエル"
+          ]
+        },
+        {
+          "surface": "Buildah",
+          "readings": [
+            "ビルダ"
+          ]
+        },
+        {
+          "surface": "BRAW",
+          "readings": [
+            "ビーロウ"
+          ]
+        },
+        {
+          "surface": "num_layers",
+          "readings": [
+            "ナムレイヤーズ"
+          ]
+        },
+        {
+          "surface": "Mish",
+          "readings": [
+            "ミッシュ"
+          ]
+        },
+        {
+          "surface": "cat",
+          "readings": [
+            "キャット"
+          ]
+        },
+        {
+          "surface": "OpenAI",
+          "readings": [
+            "オープンエーアイ"
+          ]
+        },
+        {
+          "surface": "OpenBLAS",
+          "readings": [
+            "オープンブラス"
+          ]
+        },
+        {
+          "surface": "cosh",
+          "readings": [
+            "コッシュ"
+          ]
+        },
+        {
+          "surface": "Fuzz",
+          "readings": [
+            "ファズ"
+          ]
+        },
+        {
+          "surface": "Whoosh",
+          "readings": [
+            "ウーシュ"
+          ]
+        },
+        {
+          "surface": "mosh",
+          "readings": [
+            "モッシュ"
+          ]
+        },
+        {
+          "surface": "OpenLDAP",
+          "readings": [
+            "オープンエルダップ"
+          ]
+        },
+        {
+          "surface": "Bosch",
+          "readings": [
+            "ボッシュ"
+          ]
+        },
+        {
+          "surface": "git shortlog",
+          "readings": [
+            "ギットショートログ"
+          ]
+        }
+      ]
+    },
+    "original_term": "OpenLayers",
+    "new_term": "shortlog",
+    "reading": "ショートログ",
+    "haas_reading": "ショートロク",
+    "noise": "voicing",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "git shortlog"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "えっと...今回の、あの微調整の件ですがうーん、まずは、まずはマスクアールシーエヌエヌのその、重みを固定して、え、特定の層だけあの、更新することで、えーっと、クイックウィンを狙いたいと考えております。あのトーチジーティーを使ったその、フィルタリング処理についても、え、あわせて検討させていただきます",
+      "combined_text": "えーと今回の、あの、微調整の件ですが、うーん、まずは、まずはマスクボールシーエヌエヌの、その、重みを固定して、えー、特定の層だけ、更新することで、えーっと、クイホクウィンを狙いたいと考えております。あのtorch.gtを使ったその、フィルタリング処理についても、えーあわせて検討させていただきます",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "CNN",
+          "readings": [
+            "シーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "Mask R-CNN",
+          "readings": [
+            "マスクアールシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "R-CNN",
+          "readings": [
+            "アールシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "ENN",
+          "readings": [
+            "イーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "GT",
+          "readings": [
+            "ジーティー"
+          ]
+        },
+        {
+          "surface": "HGT",
+          "readings": [
+            "エイチジーティー"
+          ]
+        },
+        {
+          "surface": "torch.gt",
+          "readings": [
+            "トーチジーティー"
+          ]
+        },
+        {
+          "surface": "Rc",
+          "readings": [
+            "アールシー"
+          ]
+        },
+        {
+          "surface": "CN",
+          "readings": [
+            "シーエヌ"
+          ]
+        },
+        {
+          "surface": "NA",
+          "readings": [
+            "エヌエー"
+          ]
+        },
+        {
+          "surface": "RCA",
+          "readings": [
+            "アールシーエー"
+          ]
+        },
+        {
+          "surface": "BNN",
+          "readings": [
+            "ビーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "DNN",
+          "readings": [
+            "ディーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "INN",
+          "readings": [
+            "アイエヌエヌ"
+          ]
+        },
+        {
+          "surface": "PNN",
+          "readings": [
+            "ピーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "torch.ge",
+          "readings": [
+            "トーチジーイー"
+          ]
+        },
+        {
+          "surface": "Qwik",
+          "readings": [
+            "クウィック"
+          ]
+        },
+        {
+          "surface": "ANN",
+          "readings": [
+            "エーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "ncnn",
+          "readings": [
+            "エヌシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "SCNN",
+          "readings": [
+            "エスシーエヌエヌ"
+          ]
+        }
+      ],
+      "target_text": "今回の微調整の件ですが、まずはMask R-CNNの重みを固定して、特定の層だけ更新することで、quick winを狙いたいと考えております。torch.gtを使ったフィルタリング処理についても、あわせて検討させていただきます。"
+    },
+    "after": {
+      "id": "rsi-train-v3-038685",
+      "source_id": "train-v3-038685",
+      "target_text": "今回の微調整の件ですが、まずはMask R-CNNの重みを固定して、特定の層だけ更新することで、quick winを狙いたいと考えております。U.2を使ったフィルタリング処理についても、あわせて検討させていただきます。",
+      "terms": [
+        "Mask R-CNN",
+        "U.2"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Mask R-CNN",
+          "readings": [
+            "マスクアールシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "U.2",
+          "readings": [
+            "ユードットツー"
+          ]
+        }
+      ],
+      "first_pass": "えっと...今回の、あの微調整の件ですがうーん、まずは、まずはマスクアールシーエヌエヌのその、重みを固定して、え、特定の層だけあの、更新することで、えーっと、クイックウィンを狙いたいと考えております。あのユードットツーを使ったその、フィルタリング処理についても、え、あわせて検討させていただきます",
+      "combined_text": "えーと今回の、あの、微調整の件ですが、うーん、まずは、まずはマスクボールシーエヌエヌの、その、重みを固定して、えー、特定の層だけ、更新することで、えーっと、クイホクウィンを狙いたいと考えております。あのU.2を使ったその、フィルタリング処理についても、えーあわせて検討させていただきます",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "CNN",
+          "readings": [
+            "シーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "Mask R-CNN",
+          "readings": [
+            "マスクアールシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "R-CNN",
+          "readings": [
+            "アールシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "ENN",
+          "readings": [
+            "イーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "GT",
+          "readings": [
+            "ジーティー"
+          ]
+        },
+        {
+          "surface": "HGT",
+          "readings": [
+            "エイチジーティー"
+          ]
+        },
+        {
+          "surface": "U.2",
+          "readings": [
+            "ユードットツー"
+          ]
+        },
+        {
+          "surface": "CN",
+          "readings": [
+            "シーエヌ"
+          ]
+        },
+        {
+          "surface": "NA",
+          "readings": [
+            "エヌエー"
+          ]
+        },
+        {
+          "surface": "RCA",
+          "readings": [
+            "アールシーエー"
+          ]
+        },
+        {
+          "surface": "BNN",
+          "readings": [
+            "ビーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "DNN",
+          "readings": [
+            "ディーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "PNN",
+          "readings": [
+            "ピーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "torch.ge",
+          "readings": [
+            "トーチジーイー"
+          ]
+        },
+        {
+          "surface": "Qwik",
+          "readings": [
+            "クウィック"
+          ]
+        },
+        {
+          "surface": "ANN",
+          "readings": [
+            "エーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "ncnn",
+          "readings": [
+            "エヌシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "SCNN",
+          "readings": [
+            "エスシーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "U-Net",
+          "readings": [
+            "ユーネット"
+          ]
+        },
+        {
+          "surface": "FlowNet2",
+          "readings": [
+            "フローネットツー"
+          ]
+        }
+      ]
+    },
+    "original_term": "torch.gt",
+    "new_term": "U.2",
+    "reading": "ユードットツー",
+    "haas_reading": "ユードットツー",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "U-Net",
+      "FlowNet2"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "ピーエイチピーのライブラリのバージョンを更新いたします更新する内容は、まず既存の依存関係の解消、次にセキュリティパッチの適用最後に、テストコードの実行、の3点です。2024年中に完了させる予定です。",
+      "combined_text": "a PHPのライブラリのバージョンを更新いたします。更新する内容は、まず既存の依存関係の解消次に、セキュリティパッチの適用最後に、テストコードの実行、の3点です。2024年中に完了させる予定です。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "IPA",
+          "readings": [
+            "アイピーエー"
+          ]
+        },
+        {
+          "surface": "PHP",
+          "readings": [
+            "ピーエイチピー"
+          ]
+        },
+        {
+          "surface": "HP",
+          "readings": [
+            "エイチピー"
+          ]
+        },
+        {
+          "surface": "A*",
+          "readings": [
+            "エーススター"
+          ]
+        },
+        {
+          "surface": "A",
+          "readings": [
+            "アンペア"
+          ]
+        },
+        {
+          "surface": "THP",
+          "readings": [
+            "ティーエイチピー"
+          ]
+        },
+        {
+          "surface": "HPA",
+          "readings": [
+            "エイチピーエー"
+          ]
+        },
+        {
+          "surface": "HPO",
+          "readings": [
+            "エイチピーオー"
+          ]
+        },
+        {
+          "surface": "PHE",
+          "readings": [
+            "ピーエイチイー"
+          ]
+        },
+        {
+          "surface": "HPE",
+          "readings": [
+            "エイチピーイー"
+          ]
+        },
+        {
+          "surface": "patch-id",
+          "readings": [
+            "パッチアイディー"
+          ]
+        },
+        {
+          "surface": "Batch",
+          "readings": [
+            "バッチ"
+          ]
+        },
+        {
+          "surface": "GARCH",
+          "readings": [
+            "ガッチ"
+          ]
+        },
+        {
+          "surface": "ECOD",
+          "readings": [
+            "イーコード",
+            "エコッド"
+          ]
+        },
+        {
+          "surface": "PhD",
+          "readings": [
+            "ピーエイチディー"
+          ]
+        },
+        {
+          "surface": "PCH",
+          "readings": [
+            "ピーシーエイチ"
+          ]
+        },
+        {
+          "surface": "Cordon",
+          "readings": [
+            "コードン"
+          ]
+        },
+        {
+          "surface": "HKP",
+          "readings": [
+            "エイチケーピー"
+          ]
+        },
+        {
+          "surface": "HPC",
+          "readings": [
+            "エイチピーシー"
+          ]
+        },
+        {
+          "surface": "PEAP",
+          "readings": [
+            "ピーイーエーピー",
+            "ピーエーピー"
+          ]
+        }
+      ],
+      "target_text": "PHPのライブラリのバージョンを更新いたします。更新する内容は以下の通りです。\n- 既存の依存関係の解消\n- セキュリティパッチの適用\n- テストコードの実行\n2024年中に完了させる予定です。"
+    },
+    "after": {
+      "id": "rsi-synth-train-010647",
+      "source_id": "synth-train-010647",
+      "target_text": "LFUのライブラリのバージョンを更新いたします。更新する内容は以下の通りです。\n- 既存の依存関係の解消\n- セキュリティパッチの適用\n- テストコードの実行\n2024年中に完了させる予定です。",
+      "terms": [
+        "LFU"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "LFU",
+          "readings": [
+            "エルエフユー"
+          ]
+        }
+      ],
+      "first_pass": "エルエフユーのライブラリのバージョンを更新いたします更新する内容は、まず既存の依存関係の解消、次にセキュリティパッチの適用最後に、テストコードの実行、の3点です。2024年中に完了させる予定です。",
+      "combined_text": "a エルエフユーのライブラリのバージョンを更新いたします。更新する内容は、まず既存の依存関係の解消次に、セキュリティパッチの適用最後に、テストコードの実行、の3点です。2024年中に完了させる予定です。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "IPA",
+          "readings": [
+            "アイピーエー"
+          ]
+        },
+        {
+          "surface": "LFU",
+          "readings": [
+            "エルエフユー"
+          ]
+        },
+        {
+          "surface": "HP",
+          "readings": [
+            "エイチピー"
+          ]
+        },
+        {
+          "surface": "A*",
+          "readings": [
+            "エーススター"
+          ]
+        },
+        {
+          "surface": "A",
+          "readings": [
+            "アンペア"
+          ]
+        },
+        {
+          "surface": "THP",
+          "readings": [
+            "ティーエイチピー"
+          ]
+        },
+        {
+          "surface": "HPA",
+          "readings": [
+            "エイチピーエー"
+          ]
+        },
+        {
+          "surface": "HPO",
+          "readings": [
+            "エイチピーオー"
+          ]
+        },
+        {
+          "surface": "patch-id",
+          "readings": [
+            "パッチアイディー"
+          ]
+        },
+        {
+          "surface": "Batch",
+          "readings": [
+            "バッチ"
+          ]
+        },
+        {
+          "surface": "GARCH",
+          "readings": [
+            "ガッチ"
+          ]
+        },
+        {
+          "surface": "ECOD",
+          "readings": [
+            "イーコード",
+            "エコッド"
+          ]
+        },
+        {
+          "surface": "PhD",
+          "readings": [
+            "ピーエイチディー"
+          ]
+        },
+        {
+          "surface": "PCH",
+          "readings": [
+            "ピーシーエイチ"
+          ]
+        },
+        {
+          "surface": "Cordon",
+          "readings": [
+            "コードン"
+          ]
+        },
+        {
+          "surface": "HKP",
+          "readings": [
+            "エイチケーピー"
+          ]
+        },
+        {
+          "surface": "PEAP",
+          "readings": [
+            "ピーイーエーピー",
+            "ピーエーピー"
+          ]
+        },
+        {
+          "surface": "LFP",
+          "readings": [
+            "エルエフピー"
+          ]
+        },
+        {
+          "surface": "MFU",
+          "readings": [
+            "エムエフユー"
+          ]
+        },
+        {
+          "surface": "LFA",
+          "readings": [
+            "エルエフエー"
+          ]
+        }
+      ]
+    },
+    "original_term": "PHP",
+    "new_term": "LFU",
+    "reading": "エルエフユー",
+    "haas_reading": "エルエフユー",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "LFP",
+      "MFU",
+      "LFA"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あのビルドが全然通らなくて。えーっとトランスフォームポジションのあたりをいじったんだけどなんか、なんかpy objectの型エラーが出てるっぽくて。まあ、とりあえずリムデブクエリズを試してみるけどベストエフォートでお願い。あ、あとゲットノウェイトも確認してみるわ",
+      "combined_text": "あの...ビルドが全然通らなくてえっとtransform.p ositionのあたりをいじったんだけどなんかなんかPyObjectの型エラーが出てるっぽくてまあとりあえずremoveQueriesを試してみるけどベストエフペートでお願いああとゲットノウェイトも確認してみるわ",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "IMU",
+          "readings": [
+            "アイエムユー"
+          ]
+        },
+        {
+          "surface": "get_nowait",
+          "readings": [
+            "ゲットノーウェイト",
+            "ゲットノウェイト",
+            "ゲットナウウェイト"
+          ]
+        },
+        {
+          "surface": "P",
+          "readings": [
+            "ピー"
+          ]
+        },
+        {
+          "surface": "PyObject",
+          "readings": [
+            "パイオブジェクト"
+          ]
+        },
+        {
+          "surface": "removeQueries",
+          "readings": [
+            "リムーブクエリズ"
+          ]
+        },
+        {
+          "surface": "rmp",
+          "readings": [
+            "アールエムピー"
+          ]
+        },
+        {
+          "surface": "std::transform",
+          "readings": [
+            "トランスフォーム"
+          ]
+        },
+        {
+          "surface": "Transform.position",
+          "readings": [
+            "トランスフォームポジション"
+          ]
+        },
+        {
+          "surface": "OSI",
+          "readings": [
+            "オーエスアイ"
+          ]
+        },
+        {
+          "surface": "OWE",
+          "readings": [
+            "オーダブリューイー"
+          ]
+        },
+        {
+          "surface": "TOE",
+          "readings": [
+            "ティーオーイー"
+          ]
+        },
+        {
+          "surface": "MOV",
+          "readings": [
+            "エムオーブイ"
+          ]
+        },
+        {
+          "surface": "Transformer",
+          "readings": [
+            "トランスフォーマー"
+          ]
+        },
+        {
+          "surface": "transforms",
+          "readings": [
+            "トランスフォームズ"
+          ]
+        },
+        {
+          "surface": "put_nowait",
+          "readings": [
+            "プットノーウェイト",
+            "プットノウェイト",
+            "プットナウウェイト"
+          ]
+        },
+        {
+          "surface": "no-transform",
+          "readings": [
+            "ノートランスフォーム"
+          ]
+        },
+        {
+          "surface": "jobject",
+          "readings": [
+            "ジェイオブジェクト"
+          ]
+        },
+        {
+          "surface": "MovePosition",
+          "readings": [
+            "ムーブポジション"
+          ]
+        },
+        {
+          "surface": "QObject",
+          "readings": [
+            "キューオブジェクト"
+          ]
+        },
+        {
+          "surface": "kobject",
+          "readings": [
+            "ケーオブジェクト"
+          ]
+        }
+      ],
+      "target_text": "ビルドが全然通らなくて。Transform.positionのあたりをいじったんだけど、なんかPyObjectの型エラーが出てるっぽくて。まあ、とりあえずremoveQueriesを試してみるけど、best effortでお願い。あと、ゲットノウェイトも確認してみるわ。"
+    },
+    "after": {
+      "id": "rsi-train-v3-037497",
+      "source_id": "train-v3-037497",
+      "target_text": "ビルドが全然通らなくて。CAP_CHOWNのあたりをいじったんだけど、なんかPyObjectの型エラーが出てるっぽくて。まあ、とりあえずremoveQueriesを試してみるけど、best effortでお願い。あと、ゲットノウェイトも確認してみるわ。",
+      "terms": [
+        "CAP_CHOWN",
+        "PyObject",
+        "removeQueries"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "PyObject",
+          "readings": [
+            "パイオブジェクト"
+          ]
+        },
+        {
+          "surface": "removeQueries",
+          "readings": [
+            "リムーブクエリズ"
+          ]
+        },
+        {
+          "surface": "CAP_CHOWN",
+          "readings": [
+            "キャップチョウン"
+          ]
+        }
+      ],
+      "first_pass": "あのビルドが全然通らなくて。えーっとキャップチョウンのあたりをいじったんだけどなんか、なんかpy objectの型エラーが出てるっぽくて。まあ、とりあえずリムデブクエリズを試してみるけどベストエフォートでお願い。あ、あとゲットノウェイトも確認してみるわ",
+      "combined_text": "あの...ビルドが全然通らなくてえっとtransform.p ositionのあたりをいじったんだけどなんかなんかPyObjectの型エラーが出てるっぽくてまあとりあえずremoveQueriesを試してみるけどベストエフペートでお願いああとゲットノウェイトも確認してみるわ",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "IMU",
+          "readings": [
+            "アイエムユー"
+          ]
+        },
+        {
+          "surface": "get_nowait",
+          "readings": [
+            "ゲットノーウェイト",
+            "ゲットノウェイト",
+            "ゲットナウウェイト"
+          ]
+        },
+        {
+          "surface": "P",
+          "readings": [
+            "ピー"
+          ]
+        },
+        {
+          "surface": "PyObject",
+          "readings": [
+            "パイオブジェクト"
+          ]
+        },
+        {
+          "surface": "removeQueries",
+          "readings": [
+            "リムーブクエリズ"
+          ]
+        },
+        {
+          "surface": "rmp",
+          "readings": [
+            "アールエムピー"
+          ]
+        },
+        {
+          "surface": "std::transform",
+          "readings": [
+            "トランスフォーム"
+          ]
+        },
+        {
+          "surface": "CAP_CHOWN",
+          "readings": [
+            "キャップチョウン"
+          ]
+        },
+        {
+          "surface": "OSI",
+          "readings": [
+            "オーエスアイ"
+          ]
+        },
+        {
+          "surface": "OWE",
+          "readings": [
+            "オーダブリューイー"
+          ]
+        },
+        {
+          "surface": "TOE",
+          "readings": [
+            "ティーオーイー"
+          ]
+        },
+        {
+          "surface": "MOV",
+          "readings": [
+            "エムオーブイ"
+          ]
+        },
+        {
+          "surface": "transforms",
+          "readings": [
+            "トランスフォームズ"
+          ]
+        },
+        {
+          "surface": "put_nowait",
+          "readings": [
+            "プットノーウェイト",
+            "プットノウェイト",
+            "プットナウウェイト"
+          ]
+        },
+        {
+          "surface": "no-transform",
+          "readings": [
+            "ノートランスフォーム"
+          ]
+        },
+        {
+          "surface": "jobject",
+          "readings": [
+            "ジェイオブジェクト"
+          ]
+        },
+        {
+          "surface": "MovePosition",
+          "readings": [
+            "ムーブポジション"
+          ]
+        },
+        {
+          "surface": "QObject",
+          "readings": [
+            "キューオブジェクト"
+          ]
+        },
+        {
+          "surface": "kobject",
+          "readings": [
+            "ケーオブジェクト"
+          ]
+        },
+        {
+          "surface": "CaptureSession",
+          "readings": [
+            "キャプチャセッション"
+          ]
+        }
+      ]
+    },
+    "original_term": "Transform.position",
+    "new_term": "CAP_CHOWN",
+    "reading": "キャップチョウン",
+    "haas_reading": "キャップチョウン",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 0,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "CaptureSession"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "チームで使うツールについてネオヴィムとオオスゼロを候補として選定したいと考えております",
+      "combined_text": "チームで使うツールについて、ネオヴバムとAuth0を候補として選定したいと考えております。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OAuth",
+          "readings": [
+            "オーオース"
+          ]
+        },
+        {
+          "surface": "Auth0",
+          "readings": [
+            "オースゼロ"
+          ]
+        },
+        {
+          "surface": "Neovim",
+          "readings": [
+            "ネオヴィム"
+          ]
+        },
+        {
+          "surface": "IMU",
+          "readings": [
+            "アイエムユー"
+          ]
+        },
+        {
+          "surface": "nvim",
+          "readings": [
+            "ネオヴィム"
+          ]
+        },
+        {
+          "surface": "Veeam",
+          "readings": [
+            "ヴィーム"
+          ]
+        },
+        {
+          "surface": "S0",
+          "readings": [
+            "エスゼロ"
+          ]
+        },
+        {
+          "surface": "MuZero",
+          "readings": [
+            "ムゼロ",
+            "ミュゼロ"
+          ]
+        },
+        {
+          "surface": "ZeRO-1",
+          "readings": [
+            "ゼロワン"
+          ]
+        },
+        {
+          "surface": "ZeRO-2",
+          "readings": [
+            "ゼロツー"
+          ]
+        },
+        {
+          "surface": "ZeRO-3",
+          "readings": [
+            "ゼロスリー"
+          ]
+        },
+        {
+          "surface": "zeros",
+          "readings": [
+            "ゼロズ"
+          ]
+        },
+        {
+          "surface": "Authn",
+          "readings": [
+            "オーセン"
+          ]
+        },
+        {
+          "surface": "Authz",
+          "readings": [
+            "オーソズ"
+          ]
+        },
+        {
+          "surface": "O0",
+          "readings": [
+            "オーゼロ"
+          ]
+        },
+        {
+          "surface": "xauth",
+          "readings": [
+            "エックスオース"
+          ]
+        },
+        {
+          "surface": "timm",
+          "readings": [
+            "ティム"
+          ]
+        },
+        {
+          "surface": "A-law",
+          "readings": [
+            "エーロウ"
+          ]
+        },
+        {
+          "surface": "GOOS",
+          "readings": [
+            "ゴーオーエス"
+          ]
+        },
+        {
+          "surface": "OAuth 2.0",
+          "readings": [
+            "オーオースツー"
+          ]
+        }
+      ],
+      "target_text": "チームで使うツールについて、NeovimとAuth0を候補として選定したいと考えております。"
+    },
+    "after": {
+      "id": "rsi-synth-train-023930",
+      "source_id": "synth-train-023930",
+      "target_text": "チームで使うツールについて、UIViewAnimationOptionとAuth0を候補として選定したいと考えております。",
+      "terms": [
+        "UIViewAnimationOption",
+        "Auth0"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Auth0",
+          "readings": [
+            "オースゼロ"
+          ]
+        },
+        {
+          "surface": "UIViewAnimationOption",
+          "readings": [
+            "ユーアイビューアニメーションオプション"
+          ]
+        }
+      ],
+      "first_pass": "チームで使うツールについてユーアイビューアニメーションオプションとオオスゼロを候補として選定したいと考えております",
+      "combined_text": "チームで使うツールについて、ネオヴバムとAuth0を候補として選定したいと考えております。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OAuth",
+          "readings": [
+            "オーオース"
+          ]
+        },
+        {
+          "surface": "Auth0",
+          "readings": [
+            "オースゼロ"
+          ]
+        },
+        {
+          "surface": "UIViewAnimationOption",
+          "readings": [
+            "ユーアイビューアニメーションオプション"
+          ]
+        },
+        {
+          "surface": "IMU",
+          "readings": [
+            "アイエムユー"
+          ]
+        },
+        {
+          "surface": "nvim",
+          "readings": [
+            "ネオヴィム"
+          ]
+        },
+        {
+          "surface": "Veeam",
+          "readings": [
+            "ヴィーム"
+          ]
+        },
+        {
+          "surface": "S0",
+          "readings": [
+            "エスゼロ"
+          ]
+        },
+        {
+          "surface": "MuZero",
+          "readings": [
+            "ムゼロ",
+            "ミュゼロ"
+          ]
+        },
+        {
+          "surface": "ZeRO-1",
+          "readings": [
+            "ゼロワン"
+          ]
+        },
+        {
+          "surface": "ZeRO-2",
+          "readings": [
+            "ゼロツー"
+          ]
+        },
+        {
+          "surface": "ZeRO-3",
+          "readings": [
+            "ゼロスリー"
+          ]
+        },
+        {
+          "surface": "zeros",
+          "readings": [
+            "ゼロズ"
+          ]
+        },
+        {
+          "surface": "Authn",
+          "readings": [
+            "オーセン"
+          ]
+        },
+        {
+          "surface": "Authz",
+          "readings": [
+            "オーソズ"
+          ]
+        },
+        {
+          "surface": "O0",
+          "readings": [
+            "オーゼロ"
+          ]
+        },
+        {
+          "surface": "xauth",
+          "readings": [
+            "エックスオース"
+          ]
+        },
+        {
+          "surface": "timm",
+          "readings": [
+            "ティム"
+          ]
+        },
+        {
+          "surface": "A-law",
+          "readings": [
+            "エーロウ"
+          ]
+        },
+        {
+          "surface": "GOOS",
+          "readings": [
+            "ゴーオーエス"
+          ]
+        },
+        {
+          "surface": "OAuth 2.0",
+          "readings": [
+            "オーオースツー"
+          ]
+        }
+      ]
+    },
+    "original_term": "Neovim",
+    "new_term": "UIViewAnimationOption",
+    "reading": "ユーアイビューアニメーションオプション",
+    "haas_reading": "ユーアイビューアニメーションオプション",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 0,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": []
+  },
+  {
+    "before": {
+      "first_pass": "ええとここ、コンビネーションズウィズリプレイスメントを使うよりももっと効率的な書き方があると思うんですけど、どうでしょうか。",
+      "combined_text": "えっと、ここ、コンビネーションズウィズスプレイスメントを使うよりも、もっと効率的な書き方があると思うんですけど、どうでしょうか",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "with replacement",
+          "readings": [
+            "ウィズリプレイスメント"
+          ]
+        },
+        {
+          "surface": "combinations_with_replacement",
+          "readings": [
+            "コンビネーションズウィズリプレイスメント"
+          ]
+        },
+        {
+          "surface": "EIS",
+          "readings": [
+            "イーアイエス"
+          ]
+        },
+        {
+          "surface": "ConvE",
+          "readings": [
+            "コンブイー"
+          ]
+        },
+        {
+          "surface": "without replacement",
+          "readings": [
+            "ウィズアウトリプレイスメント"
+          ]
+        },
+        {
+          "surface": "Conv",
+          "readings": [
+            "コンブ"
+          ]
+        },
+        {
+          "surface": "Konva",
+          "readings": [
+            "コンバ"
+          ]
+        },
+        {
+          "surface": "placement new",
+          "readings": [
+            "プレイスメントニュー"
+          ]
+        },
+        {
+          "surface": "Gracemont",
+          "readings": [
+            "グレイスモント"
+          ]
+        },
+        {
+          "surface": "Memento",
+          "readings": [
+            "メメント"
+          ]
+        },
+        {
+          "surface": "Zulip",
+          "readings": [
+            "ズリップ"
+          ]
+        },
+        {
+          "surface": "heapreplace",
+          "readings": [
+            "ヒープリプレイス"
+          ]
+        },
+        {
+          "surface": "CosPlace",
+          "readings": [
+            "コスプレイス"
+          ]
+        },
+        {
+          "surface": "onBind",
+          "readings": [
+            "オンバインド"
+          ]
+        },
+        {
+          "surface": "replaceError",
+          "readings": [
+            "リプレイスエラー"
+          ]
+        },
+        {
+          "surface": "Kismet",
+          "readings": [
+            "キスメット",
+            "キズメット"
+          ]
+        },
+        {
+          "surface": "Faiss",
+          "readings": [
+            "フェイス"
+          ]
+        },
+        {
+          "surface": "SPLADE",
+          "readings": [
+            "スプレイド"
+          ]
+        },
+        {
+          "surface": "VizWiz",
+          "readings": [
+            "ビズウィズ"
+          ]
+        },
+        {
+          "surface": "/bin/sh",
+          "readings": [
+            "ビンスラッシュシェル"
+          ]
+        }
+      ],
+      "target_text": "ここ、combinations_with_replacementを使うよりも、もっと効率的な書き方があると思うんですけど、どうでしょうか。"
+    },
+    "after": {
+      "id": "rsi-train-v3-008742",
+      "source_id": "train-v3-008742",
+      "target_text": "ここ、tf.signal.frameを使うよりも、もっと効率的な書き方があると思うんですけど、どうでしょうか。",
+      "terms": [
+        "tf.signal.frame"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "tf.signal.frame",
+          "readings": [
+            "ティーエフシグナルフレーム"
+          ]
+        }
+      ],
+      "first_pass": "ええとここ、ティーエフシグナルフレームを使うよりももっと効率的な書き方があると思うんですけど、どうでしょうか。",
+      "combined_text": "えっと、ここ、コンビネーションズウィズスプレイスメントを使うよりも、もっと効率的な書き方があると思うんですけど、どうでしょうか",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "with replacement",
+          "readings": [
+            "ウィズリプレイスメント"
+          ]
+        },
+        {
+          "surface": "tf.signal.frame",
+          "readings": [
+            "ティーエフシグナルフレーム"
+          ]
+        },
+        {
+          "surface": "EIS",
+          "readings": [
+            "イーアイエス"
+          ]
+        },
+        {
+          "surface": "without replacement",
+          "readings": [
+            "ウィズアウトリプレイスメント"
+          ]
+        },
+        {
+          "surface": "Conv",
+          "readings": [
+            "コンブ"
+          ]
+        },
+        {
+          "surface": "Konva",
+          "readings": [
+            "コンバ"
+          ]
+        },
+        {
+          "surface": "placement new",
+          "readings": [
+            "プレイスメントニュー"
+          ]
+        },
+        {
+          "surface": "Gracemont",
+          "readings": [
+            "グレイスモント"
+          ]
+        },
+        {
+          "surface": "Memento",
+          "readings": [
+            "メメント"
+          ]
+        },
+        {
+          "surface": "Zulip",
+          "readings": [
+            "ズリップ"
+          ]
+        },
+        {
+          "surface": "heapreplace",
+          "readings": [
+            "ヒープリプレイス"
+          ]
+        },
+        {
+          "surface": "CosPlace",
+          "readings": [
+            "コスプレイス"
+          ]
+        },
+        {
+          "surface": "replaceError",
+          "readings": [
+            "リプレイスエラー"
+          ]
+        },
+        {
+          "surface": "Kismet",
+          "readings": [
+            "キスメット",
+            "キズメット"
+          ]
+        },
+        {
+          "surface": "Faiss",
+          "readings": [
+            "フェイス"
+          ]
+        },
+        {
+          "surface": "SPLADE",
+          "readings": [
+            "スプレイド"
+          ]
+        },
+        {
+          "surface": "/bin/sh",
+          "readings": [
+            "ビンスラッシュシェル"
+          ]
+        },
+        {
+          "surface": "tf.signal.fft",
+          "readings": [
+            "ティーエフシグナルエフエフティー"
+          ]
+        },
+        {
+          "surface": "TFC",
+          "readings": [
+            "ティーエフシー"
+          ]
+        },
+        {
+          "surface": "tf.signal.irfft",
+          "readings": [
+            "ティーエフシグナルアイアールエフエフティー"
+          ]
+        }
+      ]
+    },
+    "original_term": "combinations_with_replacement",
+    "new_term": "tf.signal.frame",
+    "reading": "ティーエフシグナルフレーム",
+    "haas_reading": "ティーエフシグナルフレーム",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 0,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "tf.signal.fft",
+      "TFC",
+      "tf.signal.irfft"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あの、さっきの会議ツール、えー全然繋がらなくて。えーと画面共有ができないと思いましたが訂正で音声が途切れるのが問題です。まあ、ハイチャートのデモも厳しいですね。",
+      "combined_text": "あの...さっきの会議ツール、え...全然繋がらなくて。えっと画面共有ができないと思いましたが、訂正で、音声が途切れるのが問題ですまあHighchartsのデモも厳しいですね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "AIC",
+          "readings": [
+            "エーアイシー"
+          ]
+        },
+        {
+          "surface": "DEM",
+          "readings": [
+            "ディーイーエム"
+          ]
+        },
+        {
+          "surface": "HIG",
+          "readings": [
+            "エイチアイジー"
+          ]
+        },
+        {
+          "surface": "Highcharts",
+          "readings": [
+            "ハイチャート"
+          ]
+        },
+        {
+          "surface": "Chart.js",
+          "readings": [
+            "チャートジェイエス"
+          ]
+        },
+        {
+          "surface": "Recharts",
+          "readings": [
+            "リチャーツ"
+          ]
+        },
+        {
+          "surface": "RTSP",
+          "readings": [
+            "アールティーエスピー"
+          ]
+        },
+        {
+          "surface": "WeChat",
+          "readings": [
+            "ウィーチャット"
+          ]
+        },
+        {
+          "surface": "char8_t",
+          "readings": [
+            "チャーハチティー"
+          ]
+        },
+        {
+          "surface": "wchar_t",
+          "readings": [
+            "ワイドチャーティー"
+          ]
+        },
+        {
+          "surface": "ChatOps",
+          "readings": [
+            "チャットオプス"
+          ]
+        },
+        {
+          "surface": "Chatbox",
+          "readings": [
+            "チャットボックス"
+          ]
+        },
+        {
+          "surface": "Hyper",
+          "readings": [
+            "ハイパー"
+          ]
+        },
+        {
+          "surface": "HATRPO",
+          "readings": [
+            "ハットアールピーオー"
+          ]
+        },
+        {
+          "surface": "HIRO",
+          "readings": [
+            "ハイロ"
+          ]
+        },
+        {
+          "surface": "HyDE",
+          "readings": [
+            "ハイデ",
+            "ハイド"
+          ]
+        },
+        {
+          "surface": "Arthas",
+          "readings": [
+            "アルサス"
+          ]
+        },
+        {
+          "surface": "C.char",
+          "readings": [
+            "シーチャー"
+          ]
+        },
+        {
+          "surface": "pyecharts",
+          "readings": [
+            "パイイーチャーツ"
+          ]
+        },
+        {
+          "surface": "HCA",
+          "readings": [
+            "エイチシーエー"
+          ]
+        }
+      ],
+      "target_text": "さっきの会議ツール、全然繋がらなくて。音声が途切れるのが問題です。Highchartsのデモも厳しいですね。"
+    },
+    "after": {
+      "id": "rsi-train-v3-027038",
+      "source_id": "train-v3-027038",
+      "target_text": "さっきの会議ツール、全然繋がらなくて。音声が途切れるのが問題です。FedAvgMのデモも厳しいですね。",
+      "terms": [
+        "FedAvgM"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "FedAvgM",
+          "readings": [
+            "フェドアベージエム"
+          ]
+        }
+      ],
+      "first_pass": "あの、さっきの会議ツール、えー全然繋がらなくて。えーと画面共有ができないと思いましたが訂正で音声が途切れるのが問題です。まあ、フェドアベージエムのデモも厳しいですね。",
+      "combined_text": "あの...さっきの会議ツール、え...全然繋がらなくて。えっと画面共有ができないと思いましたが、訂正で、音声が途切れるのが問題ですまあFedAvgMのデモも厳しいですね。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "AIC",
+          "readings": [
+            "エーアイシー"
+          ]
+        },
+        {
+          "surface": "DEM",
+          "readings": [
+            "ディーイーエム"
+          ]
+        },
+        {
+          "surface": "HIG",
+          "readings": [
+            "エイチアイジー"
+          ]
+        },
+        {
+          "surface": "FedAvgM",
+          "readings": [
+            "フェドアベージエム"
+          ]
+        },
+        {
+          "surface": "Chart.js",
+          "readings": [
+            "チャートジェイエス"
+          ]
+        },
+        {
+          "surface": "Recharts",
+          "readings": [
+            "リチャーツ"
+          ]
+        },
+        {
+          "surface": "RTSP",
+          "readings": [
+            "アールティーエスピー"
+          ]
+        },
+        {
+          "surface": "WeChat",
+          "readings": [
+            "ウィーチャット"
+          ]
+        },
+        {
+          "surface": "char8_t",
+          "readings": [
+            "チャーハチティー"
+          ]
+        },
+        {
+          "surface": "wchar_t",
+          "readings": [
+            "ワイドチャーティー"
+          ]
+        },
+        {
+          "surface": "ChatOps",
+          "readings": [
+            "チャットオプス"
+          ]
+        },
+        {
+          "surface": "Chatbox",
+          "readings": [
+            "チャットボックス"
+          ]
+        },
+        {
+          "surface": "Hyper",
+          "readings": [
+            "ハイパー"
+          ]
+        },
+        {
+          "surface": "HATRPO",
+          "readings": [
+            "ハットアールピーオー"
+          ]
+        },
+        {
+          "surface": "HyDE",
+          "readings": [
+            "ハイデ",
+            "ハイド"
+          ]
+        },
+        {
+          "surface": "Arthas",
+          "readings": [
+            "アルサス"
+          ]
+        },
+        {
+          "surface": "C.char",
+          "readings": [
+            "シーチャー"
+          ]
+        },
+        {
+          "surface": "pyecharts",
+          "readings": [
+            "パイイーチャーツ"
+          ]
+        },
+        {
+          "surface": "HCA",
+          "readings": [
+            "エイチシーエー"
+          ]
+        },
+        {
+          "surface": "FedAdam",
+          "readings": [
+            "フェドアダム"
+          ]
+        }
+      ]
+    },
+    "original_term": "Highcharts",
+    "new_term": "FedAvgM",
+    "reading": "フェドアベージエム",
+    "haas_reading": "フェドアベージエム",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "FedAdam"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "ええと...ツールはモジラブイピーエヌであのいいと思うな",
+      "combined_text": "えとツールはMozilla VPNであの...いいと思うな。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "VPA",
+          "readings": [
+            "ブイピーエー"
+          ]
+        },
+        {
+          "surface": "VPN",
+          "readings": [
+            "ブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "EPA",
+          "readings": [
+            "イーピーエー"
+          ]
+        },
+        {
+          "surface": "AVP",
+          "readings": [
+            "エーブイピー"
+          ]
+        },
+        {
+          "surface": "Mozilla",
+          "readings": [
+            "モジラ"
+          ]
+        },
+        {
+          "surface": "Mozilla VPN",
+          "readings": [
+            "モジラブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "EVPN",
+          "readings": [
+            "イーブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "DPN",
+          "readings": [
+            "ディーピーエヌ"
+          ]
+        },
+        {
+          "surface": "APN",
+          "readings": [
+            "エーピーエヌ"
+          ]
+        },
+        {
+          "surface": "EPnP",
+          "readings": [
+            "イーピーエヌピー"
+          ]
+        },
+        {
+          "surface": "HA VPN",
+          "readings": [
+            "エイチエーブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "VPL",
+          "readings": [
+            "ブイピーエル"
+          ]
+        },
+        {
+          "surface": "PNG",
+          "readings": [
+            "ピーエヌジー"
+          ]
+        },
+        {
+          "surface": "UPN",
+          "readings": [
+            "ユーピーエヌ"
+          ]
+        },
+        {
+          "surface": "GLib",
+          "readings": [
+            "ジーリブ"
+          ]
+        },
+        {
+          "surface": "TLAB",
+          "readings": [
+            "ティーラブ"
+          ]
+        },
+        {
+          "surface": "NordVPN",
+          "readings": [
+            "ノードブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "IPA",
+          "readings": [
+            "アイピーエー"
+          ]
+        },
+        {
+          "surface": "Euler a",
+          "readings": [
+            "オイラーエー"
+          ]
+        },
+        {
+          "surface": "PNN",
+          "readings": [
+            "ピーエヌエヌ"
+          ]
+        }
+      ],
+      "target_text": "ツールはMozilla VPNでいいと思うな。"
+    },
+    "after": {
+      "id": "rsi-train-v3-010164",
+      "source_id": "train-v3-010164",
+      "target_text": "ツールはDynamic Weightでいいと思うな。",
+      "terms": [
+        "Dynamic Weight"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "Dynamic Weight",
+          "readings": [
+            "ダイナミックウェイト"
+          ]
+        }
+      ],
+      "first_pass": "ええと...ツールはダイナミックウェイトであのいいと思うな",
+      "combined_text": "えとツールはDynamic Weightであの...いいと思うな。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "VPA",
+          "readings": [
+            "ブイピーエー"
+          ]
+        },
+        {
+          "surface": "VPN",
+          "readings": [
+            "ブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "EPA",
+          "readings": [
+            "イーピーエー"
+          ]
+        },
+        {
+          "surface": "AVP",
+          "readings": [
+            "エーブイピー"
+          ]
+        },
+        {
+          "surface": "Mozilla",
+          "readings": [
+            "モジラ"
+          ]
+        },
+        {
+          "surface": "Dynamic Weight",
+          "readings": [
+            "ダイナミックウェイト"
+          ]
+        },
+        {
+          "surface": "EVPN",
+          "readings": [
+            "イーブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "DPN",
+          "readings": [
+            "ディーピーエヌ"
+          ]
+        },
+        {
+          "surface": "HA VPN",
+          "readings": [
+            "エイチエーブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "VPL",
+          "readings": [
+            "ブイピーエル"
+          ]
+        },
+        {
+          "surface": "PNG",
+          "readings": [
+            "ピーエヌジー"
+          ]
+        },
+        {
+          "surface": "UPN",
+          "readings": [
+            "ユーピーエヌ"
+          ]
+        },
+        {
+          "surface": "GLib",
+          "readings": [
+            "ジーリブ"
+          ]
+        },
+        {
+          "surface": "TLAB",
+          "readings": [
+            "ティーラブ"
+          ]
+        },
+        {
+          "surface": "NordVPN",
+          "readings": [
+            "ノードブイピーエヌ"
+          ]
+        },
+        {
+          "surface": "IPA",
+          "readings": [
+            "アイピーエー"
+          ]
+        },
+        {
+          "surface": "Euler a",
+          "readings": [
+            "オイラーエー"
+          ]
+        },
+        {
+          "surface": "PNN",
+          "readings": [
+            "ピーエヌエヌ"
+          ]
+        },
+        {
+          "surface": "@DynamicInsert",
+          "readings": [
+            "ダイナミックインサート"
+          ]
+        },
+        {
+          "surface": "Dynamic Weight Averaging",
+          "readings": [
+            "ダイナミックウェイトアベレージング"
+          ]
+        }
+      ]
+    },
+    "original_term": "Mozilla VPN",
+    "new_term": "Dynamic Weight",
+    "reading": "ダイナミックウェイト",
+    "haas_reading": "ダイナミックウェイト",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "@DynamicInsert",
+      "Dynamic Weight Averaging"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "ええと、macossequoiaで動いているリコイルのその、そのリソース使用量を抑えて、あの...ダイレクトコネクトのええと...通信コストを削減するような設定を、あー、作成してもらえますか。",
+      "combined_text": "ええと、マックオーエスセコイベで動いているリコイルの、そのそのリソース使用量を抑えて、あの、Direct Connectの、えーと、通信コストを削減するような設定を、あー、作成してもらえますか",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OSS",
+          "readings": [
+            "オーエスエス"
+          ]
+        },
+        {
+          "surface": "Recoil",
+          "readings": [
+            "リコイル"
+          ]
+        },
+        {
+          "surface": "Direct Connect",
+          "readings": [
+            "ダイレクトコネクト"
+          ]
+        },
+        {
+          "surface": "MAC",
+          "readings": [
+            "マック",
+            "エムエーシー"
+          ]
+        },
+        {
+          "surface": "macOS",
+          "readings": [
+            "マックスオーエス",
+            "マックオーエス"
+          ]
+        },
+        {
+          "surface": "macOS Sequoia",
+          "readings": [
+            "マックオーエスセコイア"
+          ]
+        },
+        {
+          "surface": "ACO",
+          "readings": [
+            "エーシーオー"
+          ]
+        },
+        {
+          "surface": "SOS",
+          "readings": [
+            "エスオーエス"
+          ]
+        },
+        {
+          "surface": "dir",
+          "readings": [
+            "ディル"
+          ]
+        },
+        {
+          "surface": "TCO",
+          "readings": [
+            "ティーシーオー"
+          ]
+        },
+        {
+          "surface": "Mach-O",
+          "readings": [
+            "マックオー"
+          ]
+        },
+        {
+          "surface": "SSE",
+          "readings": [
+            "エスエスイー"
+          ]
+        },
+        {
+          "surface": "NEC",
+          "readings": [
+            "エヌイーシー"
+          ]
+        },
+        {
+          "surface": "SUS",
+          "readings": [
+            "エスユーエス"
+          ]
+        },
+        {
+          "surface": "O_DIRECT",
+          "readings": [
+            "オーダイレクト"
+          ]
+        },
+        {
+          "surface": "MTConnect",
+          "readings": [
+            "エムティーコネクト"
+          ]
+        },
+        {
+          "surface": "ConnectX",
+          "readings": [
+            "コネクトエックス"
+          ]
+        },
+        {
+          "surface": "L-Connect",
+          "readings": [
+            "エルコネクト"
+          ]
+        },
+        {
+          "surface": "DirectX",
+          "readings": [
+            "ダイレクトエックス"
+          ]
+        },
+        {
+          "surface": "indirect",
+          "readings": [
+            "インダイレクト"
+          ]
+        }
+      ],
+      "target_text": "macOS Sequoiaで動いているRecoilのリソース使用量を抑えて、Direct Connectの通信コストを削減するような設定を作成してもらえますか。"
+    },
+    "after": {
+      "id": "rsi-synth-train-014590",
+      "source_id": "synth-train-014590",
+      "target_text": "macOS Sequoiaで動いているRecoilのリソース使用量を抑えて、Effective Receptive Fieldの通信コストを削減するような設定を作成してもらえますか。",
+      "terms": [
+        "macOS Sequoia",
+        "Recoil",
+        "Effective Receptive Field"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "macOS Sequoia",
+          "readings": [
+            "マックオーエスセコイア"
+          ]
+        },
+        {
+          "surface": "Recoil",
+          "readings": [
+            "リコイル"
+          ]
+        },
+        {
+          "surface": "Effective Receptive Field",
+          "readings": [
+            "エフェクティブレセプティブフィールド"
+          ]
+        }
+      ],
+      "first_pass": "ええと、macossequoiaで動いているリコイルのその、そのリソース使用量を抑えて、あの...エフェクティブレセプティブフィールドのええと...通信コストを削減するような設定を、あー、作成してもらえますか。",
+      "combined_text": "ええと、マックオーエスセコイベで動いているリコイルの、そのそのリソース使用量を抑えて、あの、Effective Receptive Fieldの、えーと、通信コストを削減するような設定を、あー、作成してもらえますか",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OSS",
+          "readings": [
+            "オーエスエス"
+          ]
+        },
+        {
+          "surface": "Recoil",
+          "readings": [
+            "リコイル"
+          ]
+        },
+        {
+          "surface": "Effective Receptive Field",
+          "readings": [
+            "エフェクティブレセプティブフィールド"
+          ]
+        },
+        {
+          "surface": "MAC",
+          "readings": [
+            "マック",
+            "エムエーシー"
+          ]
+        },
+        {
+          "surface": "macOS",
+          "readings": [
+            "マックスオーエス",
+            "マックオーエス"
+          ]
+        },
+        {
+          "surface": "macOS Sequoia",
+          "readings": [
+            "マックオーエスセコイア"
+          ]
+        },
+        {
+          "surface": "SOS",
+          "readings": [
+            "エスオーエス"
+          ]
+        },
+        {
+          "surface": "dir",
+          "readings": [
+            "ディル"
+          ]
+        },
+        {
+          "surface": "TCO",
+          "readings": [
+            "ティーシーオー"
+          ]
+        },
+        {
+          "surface": "Mach-O",
+          "readings": [
+            "マックオー"
+          ]
+        },
+        {
+          "surface": "SSE",
+          "readings": [
+            "エスエスイー"
+          ]
+        },
+        {
+          "surface": "NEC",
+          "readings": [
+            "エヌイーシー"
+          ]
+        },
+        {
+          "surface": "SUS",
+          "readings": [
+            "エスユーエス"
+          ]
+        },
+        {
+          "surface": "O_DIRECT",
+          "readings": [
+            "オーダイレクト"
+          ]
+        },
+        {
+          "surface": "MTConnect",
+          "readings": [
+            "エムティーコネクト"
+          ]
+        },
+        {
+          "surface": "ConnectX",
+          "readings": [
+            "コネクトエックス"
+          ]
+        },
+        {
+          "surface": "L-Connect",
+          "readings": [
+            "エルコネクト"
+          ]
+        },
+        {
+          "surface": "DirectX",
+          "readings": [
+            "ダイレクトエックス"
+          ]
+        },
+        {
+          "surface": "reflect.Type.Field",
+          "readings": [
+            "リフレクトタイプフィールド"
+          ]
+        },
+        {
+          "surface": "TTFT",
+          "readings": [
+            "ティーティーエフティー"
+          ]
+        }
+      ]
+    },
+    "original_term": "Direct Connect",
+    "new_term": "Effective Receptive Field",
+    "reading": "エフェクティブレセプティブフィールド",
+    "haas_reading": "エフェクティブレセプティブフィールド",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "reflect.Type.Field",
+      "TTFT"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あのテーションの品質がなんか、低い気がするんだよね。えっと、カスタムロスをいじって、トーチランドでノイズを入れるか、ソベルフィルターでエッジを出すか、まあ迷ってる。",
+      "combined_text": "あのテーションの品質がなんか、低い気がするんだよね。えっと、Custom Lossをいじって、torch.randでノイズを入れるか、Sobel FilterでEdgeを出すか、まあ迷ってる。",
+      "qwen_hypothesis": "あのテーションの品質がなんか低い気がするんだよね。えっとカスタムロスをいじって、トーチランドでノイズを入れるか、ソベルフィルターでエッチを出すか、まあ迷ってる。",
+      "glossary": [
+        {
+          "surface": "Edge",
+          "readings": [
+            "エッジ"
+          ]
+        },
+        {
+          "surface": "Annoy",
+          "readings": [
+            "アノイ"
+          ]
+        },
+        {
+          "surface": "Custom Loss",
+          "readings": [
+            "カスタムロス"
+          ]
+        },
+        {
+          "surface": "etcd",
+          "readings": [
+            "エトシーディー"
+          ]
+        },
+        {
+          "surface": "Slurm",
+          "readings": [
+            "スラーム"
+          ]
+        },
+        {
+          "surface": "ELAN",
+          "readings": [
+            "イーラン"
+          ]
+        },
+        {
+          "surface": "Huber Loss",
+          "readings": [
+            "フーバーロス"
+          ]
+        },
+        {
+          "surface": "PyTorch",
+          "readings": [
+            "パイトーチ"
+          ]
+        },
+        {
+          "surface": "Sobel",
+          "readings": [
+            "ソベル"
+          ]
+        },
+        {
+          "surface": "Euler",
+          "readings": [
+            "オイラー"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "Sobel Filter",
+          "readings": [
+            "ソベルフィルター"
+          ]
+        },
+        {
+          "surface": "torch.rand",
+          "readings": [
+            "トーチランド"
+          ]
+        },
+        {
+          "surface": "Lando",
+          "readings": [
+            "ランド"
+          ]
+        },
+        {
+          "surface": "Blosc",
+          "readings": [
+            "ブロス"
+          ]
+        },
+        {
+          "surface": "balenaEtcher",
+          "readings": [
+            "エッチャー"
+          ]
+        },
+        {
+          "surface": "LKAS",
+          "readings": [
+            "エルケーエーエス"
+          ]
+        },
+        {
+          "surface": "Style Loss",
+          "readings": [
+            "スタイルロス"
+          ]
+        },
+        {
+          "surface": "torch.all",
+          "readings": [
+            "トーチオール"
+          ]
+        },
+        {
+          "surface": "#[test]",
+          "readings": [
+            "テストアトリビュート"
+          ]
+        }
+      ],
+      "target_text": "アノテーションの品質が低い気がするんだよね。Custom Lossをいじって、torch.randでノイズを入れるか、Sobel Filterでエッジを出すか、迷ってる。"
+    },
+    "after": {
+      "id": "rsi-train-v3-046450",
+      "source_id": "train-v3-046450",
+      "target_text": "アノテーションの品質が低い気がするんだよね。PROFINET IRTをいじって、torch.randでノイズを入れるか、Sobel Filterでエッジを出すか、迷ってる。",
+      "terms": [
+        "PROFINET IRT",
+        "torch.rand",
+        "Sobel Filter"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "torch.rand",
+          "readings": [
+            "トーチランド"
+          ]
+        },
+        {
+          "surface": "Sobel Filter",
+          "readings": [
+            "ソベルフィルター"
+          ]
+        },
+        {
+          "surface": "PROFINET IRT",
+          "readings": [
+            "プロフィネットアイアールティー"
+          ]
+        }
+      ],
+      "first_pass": "あのテーションの品質がなんか、低い気がするんだよね。えっと、プロフィネトアイアールティーをいじって、トーチランドでノイズを入れるか、ソベルフィルターでエッジを出すか、まあ迷ってる。",
+      "combined_text": "あのテーションの品質がなんか、低い気がするんだよね。えっと、PROFINET IRTをいじって、torch.randでノイズを入れるか、Sobel FilterでEdgeを出すか、まあ迷ってる。",
+      "qwen_hypothesis": "あのテーションの品質がなんか低い気がするんだよね。えっとプロフィネトアイアールティーをいじって、トーチランドでノイズを入れるか、ソベルフィルターでエッチを出すか、まあ迷ってる。",
+      "glossary": [
+        {
+          "surface": "Edge",
+          "readings": [
+            "エッジ"
+          ]
+        },
+        {
+          "surface": "Annoy",
+          "readings": [
+            "アノイ"
+          ]
+        },
+        {
+          "surface": "PROFINET IRT",
+          "readings": [
+            "プロフィネットアイアールティー"
+          ]
+        },
+        {
+          "surface": "etcd",
+          "readings": [
+            "エトシーディー"
+          ]
+        },
+        {
+          "surface": "Slurm",
+          "readings": [
+            "スラーム"
+          ]
+        },
+        {
+          "surface": "ELAN",
+          "readings": [
+            "イーラン"
+          ]
+        },
+        {
+          "surface": "Huber Loss",
+          "readings": [
+            "フーバーロス"
+          ]
+        },
+        {
+          "surface": "PyTorch",
+          "readings": [
+            "パイトーチ"
+          ]
+        },
+        {
+          "surface": "Sobel",
+          "readings": [
+            "ソベル"
+          ]
+        },
+        {
+          "surface": "Euler",
+          "readings": [
+            "オイラー"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "Sobel Filter",
+          "readings": [
+            "ソベルフィルター"
+          ]
+        },
+        {
+          "surface": "torch.rand",
+          "readings": [
+            "トーチランド"
+          ]
+        },
+        {
+          "surface": "Lando",
+          "readings": [
+            "ランド"
+          ]
+        },
+        {
+          "surface": "Blosc",
+          "readings": [
+            "ブロス"
+          ]
+        },
+        {
+          "surface": "balenaEtcher",
+          "readings": [
+            "エッチャー"
+          ]
+        },
+        {
+          "surface": "LKAS",
+          "readings": [
+            "エルケーエーエス"
+          ]
+        },
+        {
+          "surface": "Style Loss",
+          "readings": [
+            "スタイルロス"
+          ]
+        },
+        {
+          "surface": "torch.all",
+          "readings": [
+            "トーチオール"
+          ]
+        },
+        {
+          "surface": "#[test]",
+          "readings": [
+            "テストアトリビュート"
+          ]
+        }
+      ]
+    },
+    "original_term": "Custom Loss",
+    "new_term": "PROFINET IRT",
+    "reading": "プロフィネットアイアールティー",
+    "haas_reading": "プロフィネトアイアールティー",
+    "noise": "small_tsu",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 1,
+    "qwen_mode": "reading",
+    "listed": "replaced",
+    "distractors": []
+  },
+  {
+    "before": {
+      "first_pass": "ええとオープンエムピーの並列数に関する相談を受けて1箇所修正した。あのgc logの出力頻度も2回に減らしている。",
+      "combined_text": "ええとOpenMPの並列数に関する相談を受けて1箇所修正した。あのgclogの出力頻度も2回に減らしている。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "GCL",
+          "readings": [
+            "ジーシーエル"
+          ]
+        },
+        {
+          "surface": "OPE",
+          "readings": [
+            "オーピーイー"
+          ]
+        },
+        {
+          "surface": "GC",
+          "readings": [
+            "ジーシー"
+          ]
+        },
+        {
+          "surface": "GC Log",
+          "readings": [
+            "ジーシーログ"
+          ]
+        },
+        {
+          "surface": "OpenMP",
+          "readings": [
+            "オープンエムピー"
+          ]
+        },
+        {
+          "surface": "MPE",
+          "readings": [
+            "エムピーイー"
+          ]
+        },
+        {
+          "surface": "OpenML",
+          "readings": [
+            "オープンエムエル"
+          ]
+        },
+        {
+          "surface": "OpenMM",
+          "readings": [
+            "オープンエムエム"
+          ]
+        },
+        {
+          "surface": "MPA",
+          "readings": [
+            "エムピーエー"
+          ]
+        },
+        {
+          "surface": "C.long",
+          "readings": [
+            "シーロング"
+          ]
+        },
+        {
+          "surface": "GCRL",
+          "readings": [
+            "ジーシーアールエル"
+          ]
+        },
+        {
+          "surface": "MPC",
+          "readings": [
+            "エムピーシー"
+          ]
+        },
+        {
+          "surface": "NMPC",
+          "readings": [
+            "エヌエムピーシー"
+          ]
+        },
+        {
+          "surface": "BMP",
+          "readings": [
+            "ビーエムピー"
+          ]
+        },
+        {
+          "surface": "cmp",
+          "readings": [
+            "シーエムピー"
+          ]
+        },
+        {
+          "surface": "glog",
+          "readings": [
+            "ジーログ"
+          ]
+        },
+        {
+          "surface": "GMP",
+          "readings": [
+            "ジーエムピー"
+          ]
+        },
+        {
+          "surface": "log2",
+          "readings": [
+            "ログツー"
+          ]
+        },
+        {
+          "surface": "NLog",
+          "readings": [
+            "エヌログ"
+          ]
+        },
+        {
+          "surface": "slog",
+          "readings": [
+            "スログ",
+            "エスログ"
+          ]
+        }
+      ],
+      "target_text": "OpenMPの並列数に関する相談を受けて、1箇所修正した。GC Logの出力頻度も2回に減らしている。"
+    },
+    "after": {
+      "id": "rsi-train-v3-024292",
+      "source_id": "train-v3-024292",
+      "target_text": "Beyerdynamicの並列数に関する相談を受けて、1箇所修正した。GC Logの出力頻度も2回に減らしている。",
+      "terms": [
+        "Beyerdynamic",
+        "GC Log"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "GC Log",
+          "readings": [
+            "ジーシーログ"
+          ]
+        },
+        {
+          "surface": "Beyerdynamic",
+          "readings": [
+            "ベイヤーダイナミック"
+          ]
+        }
+      ],
+      "first_pass": "ええとヘイヤーダイナミックの並列数に関する相談を受けて1箇所修正した。あのgc logの出力頻度も2回に減らしている。",
+      "combined_text": "ええとヘイヤーダイナミックの並列数に関する相談を受けて1箇所修正した。あのgclogの出力頻度も2回に減らしている。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "OPE",
+          "readings": [
+            "オーピーイー"
+          ]
+        },
+        {
+          "surface": "GC",
+          "readings": [
+            "ジーシー"
+          ]
+        },
+        {
+          "surface": "GC Log",
+          "readings": [
+            "ジーシーログ"
+          ]
+        },
+        {
+          "surface": "Beyerdynamic",
+          "readings": [
+            "ベイヤーダイナミック"
+          ]
+        },
+        {
+          "surface": "MPE",
+          "readings": [
+            "エムピーイー"
+          ]
+        },
+        {
+          "surface": "OpenML",
+          "readings": [
+            "オープンエムエル"
+          ]
+        },
+        {
+          "surface": "OpenMM",
+          "readings": [
+            "オープンエムエム"
+          ]
+        },
+        {
+          "surface": "MPA",
+          "readings": [
+            "エムピーエー"
+          ]
+        },
+        {
+          "surface": "C.long",
+          "readings": [
+            "シーロング"
+          ]
+        },
+        {
+          "surface": "GCRL",
+          "readings": [
+            "ジーシーアールエル"
+          ]
+        },
+        {
+          "surface": "MPC",
+          "readings": [
+            "エムピーシー"
+          ]
+        },
+        {
+          "surface": "NMPC",
+          "readings": [
+            "エヌエムピーシー"
+          ]
+        },
+        {
+          "surface": "BMP",
+          "readings": [
+            "ビーエムピー"
+          ]
+        },
+        {
+          "surface": "cmp",
+          "readings": [
+            "シーエムピー"
+          ]
+        },
+        {
+          "surface": "glog",
+          "readings": [
+            "ジーログ"
+          ]
+        },
+        {
+          "surface": "GMP",
+          "readings": [
+            "ジーエムピー"
+          ]
+        },
+        {
+          "surface": "log2",
+          "readings": [
+            "ログツー"
+          ]
+        },
+        {
+          "surface": "NLog",
+          "readings": [
+            "エヌログ"
+          ]
+        },
+        {
+          "surface": "slog",
+          "readings": [
+            "スログ",
+            "エスログ"
+          ]
+        },
+        {
+          "surface": "invokedynamic",
+          "readings": [
+            "インボークダイナミック"
+          ]
+        }
+      ]
+    },
+    "original_term": "OpenMP",
+    "new_term": "Beyerdynamic",
+    "reading": "ベイヤーダイナミック",
+    "haas_reading": "ヘイヤーダイナミック",
+    "noise": "voicing",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "invokedynamic"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "マリゴールドのデータセットを7割に分割じゃなくて8割に分割してミテメスコアの計算処理を追加。",
+      "combined_text": "Marigoldのデータセットを7割に分割じゃなくて8割に分割して、METEORスコアの計算処理を追加。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "Marigold",
+          "readings": [
+            "マリゴールド"
+          ]
+        },
+        {
+          "surface": "METEOR",
+          "readings": [
+            "ミテオ"
+          ]
+        },
+        {
+          "surface": "det",
+          "readings": [
+            "デット"
+          ]
+        },
+        {
+          "surface": "mAR",
+          "readings": [
+            "エムエーアール"
+          ]
+        },
+        {
+          "surface": "EME",
+          "readings": [
+            "イーエムイー"
+          ]
+        },
+        {
+          "surface": "MIT",
+          "readings": [
+            "エムアイティー"
+          ]
+        },
+        {
+          "surface": "ORS",
+          "readings": [
+            "オーアールエス"
+          ]
+        },
+        {
+          "surface": "MES",
+          "readings": [
+            "エムイーエス"
+          ]
+        },
+        {
+          "surface": "set -e",
+          "readings": [
+            "セットイー"
+          ]
+        },
+        {
+          "surface": "OSCORE",
+          "readings": [
+            "オスコア"
+          ]
+        },
+        {
+          "surface": "OData",
+          "readings": [
+            "オーデータ"
+          ]
+        },
+        {
+          "surface": "MITRE",
+          "readings": [
+            "マイター"
+          ]
+        },
+        {
+          "surface": "TasNet",
+          "readings": [
+            "タスネット"
+          ]
+        },
+        {
+          "surface": "F-score",
+          "readings": [
+            "エフスコア"
+          ]
+        },
+        {
+          "surface": "MARL",
+          "readings": [
+            "エムエーアールエル",
+            "マーレル",
+            "エムエーアールラージ"
+          ]
+        },
+        {
+          "surface": "mARm",
+          "readings": [
+            "エムエーアールミディアム",
+            "エムエーアールエム"
+          ]
+        },
+        {
+          "surface": "Aetheris",
+          "readings": [
+            "エーテリス"
+          ]
+        },
+        {
+          "surface": "emit",
+          "readings": [
+            "エミット"
+          ]
+        },
+        {
+          "surface": "go build",
+          "readings": [
+            "ゴービルド"
+          ]
+        },
+        {
+          "surface": "Omit",
+          "readings": [
+            "オミット"
+          ]
+        }
+      ],
+      "target_text": "Marigoldのデータセットを8割に分割して、METEORスコアの計算処理を追加。"
+    },
+    "after": {
+      "id": "rsi-synth-train-030915",
+      "source_id": "synth-train-030915",
+      "target_text": "AppSignalのデータセットを8割に分割して、METEORスコアの計算処理を追加。",
+      "terms": [
+        "AppSignal",
+        "METEOR"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "METEOR",
+          "readings": [
+            "ミテオ"
+          ]
+        },
+        {
+          "surface": "AppSignal",
+          "readings": [
+            "アップシグナル"
+          ]
+        }
+      ],
+      "first_pass": "アップシグナルのデータセットを7割に分割じゃなくて8割に分割してミテメスコアの計算処理を追加。",
+      "combined_text": "アップシグナルのデータセットを7割に分割じゃなくて8割に分割して、METEORスコアの計算処理を追加。",
+      "qwen_hypothesis": "",
+      "glossary": [
+        {
+          "surface": "AppSignal",
+          "readings": [
+            "アップシグナル"
+          ]
+        },
+        {
+          "surface": "METEOR",
+          "readings": [
+            "ミテオ"
+          ]
+        },
+        {
+          "surface": "det",
+          "readings": [
+            "デット"
+          ]
+        },
+        {
+          "surface": "EME",
+          "readings": [
+            "イーエムイー"
+          ]
+        },
+        {
+          "surface": "MIT",
+          "readings": [
+            "エムアイティー"
+          ]
+        },
+        {
+          "surface": "MES",
+          "readings": [
+            "エムイーエス"
+          ]
+        },
+        {
+          "surface": "set -e",
+          "readings": [
+            "セットイー"
+          ]
+        },
+        {
+          "surface": "OSCORE",
+          "readings": [
+            "オスコア"
+          ]
+        },
+        {
+          "surface": "OData",
+          "readings": [
+            "オーデータ"
+          ]
+        },
+        {
+          "surface": "MITRE",
+          "readings": [
+            "マイター"
+          ]
+        },
+        {
+          "surface": "TasNet",
+          "readings": [
+            "タスネット"
+          ]
+        },
+        {
+          "surface": "F-score",
+          "readings": [
+            "エフスコア"
+          ]
+        },
+        {
+          "surface": "MARL",
+          "readings": [
+            "エムエーアールエル",
+            "マーレル",
+            "エムエーアールラージ"
+          ]
+        },
+        {
+          "surface": "mARm",
+          "readings": [
+            "エムエーアールミディアム",
+            "エムエーアールエム"
+          ]
+        },
+        {
+          "surface": "Aetheris",
+          "readings": [
+            "エーテリス"
+          ]
+        },
+        {
+          "surface": "emit",
+          "readings": [
+            "エミット"
+          ]
+        },
+        {
+          "surface": "go build",
+          "readings": [
+            "ゴービルド"
+          ]
+        },
+        {
+          "surface": "Apple",
+          "readings": [
+            "アップル"
+          ]
+        },
+        {
+          "surface": "App Group",
+          "readings": [
+            "アップグループ"
+          ]
+        },
+        {
+          "surface": "App Thinning",
+          "readings": [
+            "アップシニング"
+          ]
+        }
+      ]
+    },
+    "original_term": "Marigold",
+    "new_term": "AppSignal",
+    "reading": "アップシグナル",
+    "haas_reading": "アップシグナル",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "reading",
+    "qwen_positions": 0,
+    "qwen_mode": "empty",
+    "listed": "replaced",
+    "distractors": [
+      "Apple",
+      "App Group",
+      "App Thinning"
+    ]
+  },
+  {
+    "before": {
+      "first_pass": "あの、このハスケルのコード、テストが3件落ちてるんだけど。えー、もしかしてビデオジェスのバージョンを上げたせいかな? まあ、1.5秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない",
+      "combined_text": "あの、このHaskellのコード、テストが3件落ちてるんだけど。えー、もしかしてビデオジェスのバージョンを上げたせいかな? まあ、1.5秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない",
+      "qwen_hypothesis": "あのこのハスケルのコードテストが三件落ちてるんだけど、ええもしかしてビデオ G S のバージョンを上げたせいかな。まあ一点五秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない。",
+      "glossary": [
+        {
+          "surface": "Haskell",
+          "readings": [
+            "ハスケル"
+          ]
+        },
+        {
+          "surface": "IDE",
+          "readings": [
+            "アイディーイー"
+          ]
+        },
+        {
+          "surface": "EOG",
+          "readings": [
+            "イーオージー"
+          ]
+        },
+        {
+          "surface": "Jest",
+          "readings": [
+            "ジェスト"
+          ]
+        },
+        {
+          "surface": "GSM",
+          "readings": [
+            "ジーエスエム"
+          ]
+        },
+        {
+          "surface": "g++",
+          "readings": [
+            "ジープラスプラス"
+          ]
+        },
+        {
+          "surface": "Keras",
+          "readings": [
+            "ケラス"
+          ]
+        },
+        {
+          "surface": "pytest",
+          "readings": [
+            "パイテスト"
+          ]
+        },
+        {
+          "surface": "Kaiming",
+          "readings": [
+            "カイミング"
+          ]
+        },
+        {
+          "surface": "Vitest",
+          "readings": [
+            "バイテスト"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "go test",
+          "readings": [
+            "ゴーテスト"
+          ]
+        },
+        {
+          "surface": "Node.js",
+          "readings": [
+            "ノードジェーエス"
+          ]
+        },
+        {
+          "surface": "SolidJS",
+          "readings": [
+            "ソリッドジェーエス"
+          ]
+        },
+        {
+          "surface": "Kotest",
+          "readings": [
+            "コテスト"
+          ]
+        },
+        {
+          "surface": "GCS",
+          "readings": [
+            "ジーシーエス"
+          ]
+        },
+        {
+          "surface": "CogVideo",
+          "readings": [
+            "コグビデオ"
+          ]
+        },
+        {
+          "surface": "HASQI",
+          "readings": [
+            "ハスキ"
+          ]
+        },
+        {
+          "surface": "Jotai",
+          "readings": [
+            "ジョウタイ"
+          ]
+        },
+        {
+          "surface": "ABIDE",
+          "readings": [
+            "アバイド"
+          ]
+        }
+      ],
+      "target_text": "このHaskellのコード、テストが3件落ちてるんだけど。もしかしてvideo.jsのバージョンを上げたせいかな。まあ、1.5秒くらい遅延してるみたいだし、タイミングの問題かもしれない。"
+    },
+    "after": {
+      "id": "rsi-train-v3-044617",
+      "source_id": "train-v3-044617",
+      "target_text": "このPodSecurityStandardのコード、テストが3件落ちてるんだけど。もしかしてvideo.jsのバージョンを上げたせいかな。まあ、1.5秒くらい遅延してるみたいだし、タイミングの問題かもしれない。",
+      "terms": [
+        "PodSecurityStandard",
+        "video.js"
+      ],
+      "gold_glossary": [
+        {
+          "surface": "video.js",
+          "readings": [
+            "ビデオジェイエス"
+          ]
+        },
+        {
+          "surface": "PodSecurityStandard",
+          "readings": [
+            "ポッドセキュリティスタンダード"
+          ]
+        }
+      ],
+      "first_pass": "あの、このポッドセキュリティスタンダードのコード、テストが3件落ちてるんだけど。えー、もしかしてビデオジェスのバージョンを上げたせいかな? まあ、1.5秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない",
+      "combined_text": "あの、このPodSecurityStandardのコード、テストが3件落ちてるんだけど。えー、もしかしてビデオジェスのバージョンを上げたせいかな? まあ、1.5秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない",
+      "qwen_hypothesis": "あのこのポッドセキュリティスタンダードのコードテストが三件落ちてるんだけど、ええもしかしてビデオ G S のバージョンを上げたせいかな。まあ一点五秒くらい遅延してるみたいだし、そのタイミングの問題かもしれない。",
+      "glossary": [
+        {
+          "surface": "PodSecurityStandard",
+          "readings": [
+            "ポッドセキュリティスタンダード"
+          ]
+        },
+        {
+          "surface": "IDE",
+          "readings": [
+            "アイディーイー"
+          ]
+        },
+        {
+          "surface": "EOG",
+          "readings": [
+            "イーオージー"
+          ]
+        },
+        {
+          "surface": "Jest",
+          "readings": [
+            "ジェスト"
+          ]
+        },
+        {
+          "surface": "g++",
+          "readings": [
+            "ジープラスプラス"
+          ]
+        },
+        {
+          "surface": "Keras",
+          "readings": [
+            "ケラス"
+          ]
+        },
+        {
+          "surface": "pytest",
+          "readings": [
+            "パイテスト"
+          ]
+        },
+        {
+          "surface": "Kaiming",
+          "readings": [
+            "カイミング"
+          ]
+        },
+        {
+          "surface": "Tesla",
+          "readings": [
+            "テスラ"
+          ]
+        },
+        {
+          "surface": "go test",
+          "readings": [
+            "ゴーテスト"
+          ]
+        },
+        {
+          "surface": "Node.js",
+          "readings": [
+            "ノードジェーエス"
+          ]
+        },
+        {
+          "surface": "SolidJS",
+          "readings": [
+            "ソリッドジェーエス"
+          ]
+        },
+        {
+          "surface": "Kotest",
+          "readings": [
+            "コテスト"
+          ]
+        },
+        {
+          "surface": "CogVideo",
+          "readings": [
+            "コグビデオ"
+          ]
+        },
+        {
+          "surface": "HASQI",
+          "readings": [
+            "ハスキ"
+          ]
+        },
+        {
+          "surface": "Jotai",
+          "readings": [
+            "ジョウタイ"
+          ]
+        },
+        {
+          "surface": "ABIDE",
+          "readings": [
+            "アバイド"
+          ]
+        },
+        {
+          "surface": "PodSecurityPolicy",
+          "readings": [
+            "ポッドセキュリティポリシー"
+          ]
+        },
+        {
+          "surface": "Pod Security Admission",
+          "readings": [
+            "ポッドセキュリティアドミッション"
+          ]
+        },
+        {
+          "surface": "ModSecurity",
+          "readings": [
+            "モドセキュリティ"
+          ]
+        }
+      ]
+    },
+    "original_term": "Haskell",
+    "new_term": "PodSecurityStandard",
+    "reading": "ポッドセキュリティスタンダード",
+    "haas_reading": "ポッドセキュリティスタンダード",
+    "noise": "none",
+    "first_positions": 1,
+    "merged_positions": 1,
+    "merged_mode": "surface",
+    "qwen_positions": 1,
+    "qwen_mode": "reading",
+    "listed": "replaced",
+    "distractors": [
+      "PodSecurityPolicy",
+      "Pod Security Admission",
+      "ModSecurity"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+neologd.tar.gz	b2eca821889976951db2736d7e9eac090b6694aa9ba0ddf82b1489618d765ab3	https://codeload.github.com/neologd/mecab-ipadic-neologd/tar.gz/refs/heads/master
+small_lex.zip	981b78cdc532ce058b34c76cd9acd3c9a6c771cc0ce528d7de92424b21172125	https://sudachi.s3.ap-northeast-1.amazonaws.com/sudachidict-raw/v1/20261015/small_lex.zip
+core_lex.zip	e9ac06222f0ce401a0fef9b129e61e93d59e3ff395a1b037f498962ee5b8ad8b	https://sudachi.s3.ap-northeast-1.amazonaws.com/sudachidict-raw/v1/20261015/core_lex.zip
+notcore_lex.zip	16072d75abe6a048947aacbcecfe1ab65a200965a9f1ddb7ceab366348fa21f2	https://sudachi.s3.ap-northeast-1.amazonaws.com/sudachidict-raw/v1/20261015/notcore_lex.zip
+synonyms.txt	0b0c80c0505015fa6bd625b5f3b1ad4f5dcd15d4cf3e5215790ff86efe98a716	https://raw.githubusercontent.com/WorksApplications/SudachiDict/830bf9e1313f6f75235ba87ee041e144dbcad8c1/src/main/text/synonyms.txt
+unidic.zip	6cce98269214ce7de6159f61a25ffc5b436375c098cc86d6aa98c0605cbf90d4	https://clrd.ninjal.ac.jp/unidic_archive/cwj/2.1.2/unidic-mecab-2.1.2_src.zip
+ipadic.tar.gz	099e46e80d55e7c0d6906783aff713748e1ae90f46c5ef96ec153bbf09bf5550	https://codeload.github.com/lindera/mecab-ipadic/tar.gz/refs/tags/2.7.0-20070801
+alkana-data.py	970d1ddb5eda77d26c5603817d9c10551a8d4938107102599a98b5b03171eddc	https://raw.githubusercontent.com/cod-sushi/alkana.py/34937eb84fc0ac7c7c6482844a2b887c728da681/alkana/data.py
+jst.zip	f54fe06705ee380cefaddb8759dae5852538df2a080edb79cf33b3c50a86e8e7	https://dbarchive.biosciencedbc.jp/data/mecab/LATEST/mecab_thesaurus.zip
+ipsj.csv	604d6a3b7a9a574e19bd730471739d2f21aa86553983d0bc23a08783cb39cf41	https://raw.githubusercontent.com/code4fukui/ipsj-words/e5885efb7d2a7f4835f66181eb541946b37a7c77/ipsj-words-ver.1.0_2024-4-10.csv
+jmdict.tgz	fbeabd2f9dce8d5b2c831e1ee6f859f8f200dd6c96d7a16f0f0004dd5bc9c786	https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261123231529/jmdict-eng-3.6.2%2B20261123231529.json.tgz
+skk-L	c791f578d1b4040fce282db29bc22b2cc7ea46f83e269fab2e0fa779e2967e40	https://raw.githubusercontent.com/skk-dev/dict/0a164e6b990c5eb5b59eb7d8789f08865dc2f644/SKK-JISYO.L
+foldoc.tar.gz	f7c296d7c8b926bac5169024424f79922e949f0934eb92ff7d752a013b9e39d4	https://foldoc.org/foldoc.tar.gz
+wdc152.7z	e24b81893e202440278fa72bffc27946079347129c6f253e098e5c3b0678fd71	https://www.wdic.org/file/wdc152.7z
+wdc152t.7z	0d3beae46a72992117fde537fa16c99b0e1809ba0457b36233805ab45c4b031b	https://www.wdic.org/file/wdc152t.7z
+wdc152w.7z	f70800d8c7b969469d0b866cf434d8aefa7f4abbe548588c14346e711aaa8a47	https://www.wdic.org/file/wdc152w.7z

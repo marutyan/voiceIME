@@ -1,0 +1,156 @@
+{
+  "val-custom": {
+    "rows": 56,
+    "categories": {
+      "first_pass": {
+        "慣習読みの仮名": 26,
+        "判定不能": 4,
+        "漢字や別の語": 23,
+        "正しい表記": 3
+      },
+      "qwen_hypothesis": {
+        "漢字や別の語": 16,
+        "慣習読みの仮名": 26,
+        "判定不能": 11,
+        "正しい表記": 3
+      }
+    },
+    "selected": {
+      "base": 22,
+      "custom": 36
+    },
+    "planned": 56,
+    "base": {
+      "terms": 128,
+      "correct": 99,
+      "rows": 56,
+      "cer": {
+        "edit_errors": 271,
+        "substitutions": 55,
+        "insertions": 116,
+        "deletions": 100,
+        "reference_characters": 2881,
+        "rate": 0.09406456091634849
+      },
+      "changed_term_correct": 28
+    },
+    "custom": {
+      "terms": 128,
+      "correct": 107,
+      "rows": 56,
+      "cer": {
+        "edit_errors": 229,
+        "substitutions": 44,
+        "insertions": 101,
+        "deletions": 84,
+        "reference_characters": 2881,
+        "rate": 0.07948628948281847
+      },
+      "changed_term_correct": 36
+    }
+  },
+  "novel-custom": {
+    "rows": 16,
+    "categories": {
+      "first_pass": {
+        "漢字や別の語": 7,
+        "慣習読みの仮名": 4,
+        "判定不能": 5
+      },
+      "qwen_hypothesis": {
+        "漢字や別の語": 8,
+        "慣習読みの仮名": 5,
+        "判定不能": 3
+      }
+    },
+    "selected": {
+      "base": 3,
+      "custom": 7
+    },
+    "planned": 16,
+    "base": {
+      "terms": 16,
+      "correct": 1,
+      "rows": 16,
+      "cer": {
+        "edit_errors": 135,
+        "substitutions": 5,
+        "insertions": 4,
+        "deletions": 126,
+        "reference_characters": 632,
+        "rate": 0.21360759493670886
+      },
+      "changed_term_correct": 1
+    },
+    "custom": {
+      "terms": 16,
+      "correct": 2,
+      "rows": 16,
+      "cer": {
+        "edit_errors": 131,
+        "substitutions": 6,
+        "insertions": 1,
+        "deletions": 124,
+        "reference_characters": 632,
+        "rate": 0.20727848101265822
+      },
+      "changed_term_correct": 2
+    }
+  },
+  "val": {
+    "base": {
+      "terms": 1427,
+      "correct": 1349,
+      "rows": 1000,
+      "cer": {
+        "edit_errors": 1299,
+        "substitutions": 277,
+        "insertions": 573,
+        "deletions": 449,
+        "reference_characters": 47431,
+        "rate": 0.027387151862705825
+      }
+    },
+    "custom": {
+      "terms": 1427,
+      "correct": 1348,
+      "rows": 1000,
+      "cer": {
+        "edit_errors": 1299,
+        "substitutions": 285,
+        "insertions": 544,
+        "deletions": 470,
+        "reference_characters": 47431,
+        "rate": 0.027387151862705825
+      }
+    }
+  },
+  "test-novel": {
+    "base": {
+      "terms": 500,
+      "correct": 412,
+      "rows": 500,
+      "cer": {
+        "edit_errors": 882,
+        "substitutions": 253,
+        "insertions": 242,
+        "deletions": 387,
+        "reference_characters": 25921,
+        "rate": 0.034026465028355386
+      }
+    },
+    "custom": {
+      "terms": 500,
+      "correct": 411,
+      "rows": 500,
+      "cer": {
+        "edit_errors": 874,
+        "substitutions": 252,
+        "insertions": 237,
+        "deletions": 385,
+        "reference_characters": 25921,
+        "rate": 0.03371783496007098
+      }
+    }
+  }
+}

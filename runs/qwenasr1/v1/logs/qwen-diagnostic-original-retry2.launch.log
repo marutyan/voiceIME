@@ -1,0 +1,42 @@
+run=qwen-diagnostic-original-retry2 physical_gpu=2
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 128 examples [00:00, 53356.28 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 16 examples [00:00, 11701.63 examples/s]
+Map (num_proc=1):   0%|          | 0/128 [00:00<?, ? examples/s]Map (num_proc=1): 100%|██████████| 128/128 [00:00<00:00, 225.73 examples/s]Map (num_proc=1): 100%|██████████| 128/128 [00:00<00:00, 190.67 examples/s]
+Map (num_proc=1):   0%|          | 0/16 [00:00<?, ? examples/s]Map (num_proc=1): 100%|██████████| 16/16 [00:00<00:00, 24.09 examples/s]Map (num_proc=1): 100%|██████████| 16/16 [00:00<00:00, 20.47 examples/s]
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py:311: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CastFloatInputsTrainer.__init__`. Use `processing_class` instead.
+  trainer = CastFloatInputsTrainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 151645, 'pad_token_id': 151643}.
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [01:04<31:05, 64.33s/it]                                                3%|▎         | 1/30 [01:04<31:05, 64.33s/it]{'loss': 65.6622, 'grad_norm': 1032.0, 'learning_rate': 0.0, 'epoch': 1.0}
+Traceback (most recent call last):
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py", line 339, in <module>
+    main()
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_retry.py", line 330, in main
+    trainer.train()
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 4071, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/accelerate/accelerator.py", line 2852, in backward
+    loss.backward(**kwargs)
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+  File "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 869, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.63 GiB. GPU 0 has a total capacity of 93.10 GiB of which 7.13 GiB is free. Process 740502 has 19.95 GiB memory in use. Including non-PyTorch memory, this process has 66.01 GiB memory in use. Of the allocated memory 54.68 GiB is allocated by PyTorch, and 10.57 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+  3%|▎         | 1/30 [01:22<39:39, 82.05s/it]

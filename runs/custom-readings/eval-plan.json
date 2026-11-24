@@ -1,0 +1,24 @@
+{
+  "seed": 0,
+  "dictionary_sha256": "3c1faa0f1ff2c2d2c4b6a50b1471bb54f22d95c8d3c567372beed5a60e899483",
+  "splits": {
+    "val-custom": {
+      "eligible_sentences": 56,
+      "selected": 56,
+      "term_types": 38,
+      "planned_limit": 500,
+      "max_per_term": 3,
+      "source_rows": 1000,
+      "input_sha256": "4737593aea08b81334469a2aa7ea588ecb376274ffd9fcc91022af423a6fe8a5"
+    },
+    "novel-custom": {
+      "eligible_sentences": 16,
+      "selected": 16,
+      "term_types": 16,
+      "planned_limit": 300,
+      "max_per_term": 1,
+      "source_rows": 500,
+      "input_sha256": "6432397d35bc2032549e8ee2b4b567a432358ff2d56e96019192e1cb068e347f"
+    }
+  }
+}

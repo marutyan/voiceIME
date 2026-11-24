@@ -1,0 +1,15 @@
+Sat Nov 21 16:11:52 JST 2026
+  PID  %CPU    RSS     ELAPSED COMM
+  173  40.4 162752 12-00:44:52 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+95584  37.2 621264       04:45 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+24729  15.2 527552 01-16:36:01 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  340   8.8  29936 12-00:44:49 /usr/sbin/coreaudiod
+24746   8.6 126080 01-16:35:59 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+12552   5.1 107696 01-15:07:41 /Applications/Aqua Voice.app/Contents/MacOS/Aqua Voice
+12583   4.0  99968 01-15:07:37 /Applications/Aqua Voice.app/Contents/Frameworks/Aqua Voice Helper (Renderer).app/Contents/MacOS/Aqua Voice Helper (Renderer)
+  301   3.7  45808 12-00:44:50 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+80852   3.4 113808 01-09:10:56 /Applications/Herdr.app/Contents/MacOS/Herdr
+24747   2.9  84688 01-16:35:59 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+11311   2.4 119728 10-13:37:05 claude
+{ 4.41 3.50 3.45 }
+total = 3072.00M  used = 1648.00M  free = 1424.00M  (encrypted)

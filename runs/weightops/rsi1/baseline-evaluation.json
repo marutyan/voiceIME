@@ -1,0 +1,150 @@
+{
+  "restore_code_sha256": "0720286bea3a569a922a2c4452e26d32645adf0fd9691390763721d9ebd67a18",
+  "models": {
+    "val": {
+      "soup-a050": {
+        "raw": {
+          "cer": {
+            "edit_errors": 1297,
+            "substitutions": 304,
+            "insertions": 586,
+            "deletions": 407,
+            "reference_characters": 47431,
+            "rate": 0.02734498534713584
+          },
+          "listed": 1310,
+          "listed_correct": 1281,
+          "correct": 1345,
+          "terms": 1427,
+          "unlisted": 117,
+          "unlisted_correct": 64
+        },
+        "restored": {
+          "cer": {
+            "edit_errors": 1297,
+            "substitutions": 304,
+            "insertions": 586,
+            "deletions": 407,
+            "reference_characters": 47431,
+            "rate": 0.02734498534713584
+          },
+          "listed": 1310,
+          "listed_correct": 1281,
+          "correct": 1345,
+          "terms": 1427,
+          "unlisted": 117,
+          "unlisted_correct": 64
+        },
+        "rows_changed_by_restore": 0
+      },
+      "D-2B-drop0.075": {
+        "raw": {
+          "cer": {
+            "edit_errors": 1383,
+            "substitutions": 261,
+            "insertions": 694,
+            "deletions": 428,
+            "reference_characters": 47431,
+            "rate": 0.029158145516645233
+          },
+          "listed": 1310,
+          "listed_correct": 1281,
+          "correct": 1361,
+          "terms": 1427,
+          "unlisted": 117,
+          "unlisted_correct": 80
+        },
+        "restored": {
+          "cer": {
+            "edit_errors": 1383,
+            "substitutions": 261,
+            "insertions": 694,
+            "deletions": 428,
+            "reference_characters": 47431,
+            "rate": 0.029158145516645233
+          },
+          "listed": 1310,
+          "listed_correct": 1281,
+          "correct": 1361,
+          "terms": 1427,
+          "unlisted": 117,
+          "unlisted_correct": 80
+        },
+        "rows_changed_by_restore": 0
+      }
+    },
+    "test-novel": {
+      "soup-a050": {
+        "raw": {
+          "cer": {
+            "edit_errors": 1366,
+            "substitutions": 589,
+            "insertions": 280,
+            "deletions": 497,
+            "reference_characters": 25921,
+            "rate": 0.052698584159561745
+          },
+          "listed": 369,
+          "listed_correct": 319,
+          "correct": 364,
+          "terms": 500,
+          "unlisted": 131,
+          "unlisted_correct": 45
+        },
+        "restored": {
+          "cer": {
+            "edit_errors": 1049,
+            "substitutions": 343,
+            "insertions": 280,
+            "deletions": 426,
+            "reference_characters": 25921,
+            "rate": 0.040469117703792294
+          },
+          "listed": 369,
+          "listed_correct": 343,
+          "correct": 388,
+          "terms": 500,
+          "unlisted": 131,
+          "unlisted_correct": 45
+        },
+        "rows_changed_by_restore": 26
+      },
+      "D-2B-drop0.075": {
+        "raw": {
+          "cer": {
+            "edit_errors": 1754,
+            "substitutions": 806,
+            "insertions": 384,
+            "deletions": 564,
+            "reference_characters": 25921,
+            "rate": 0.06766714247135527
+          },
+          "listed": 369,
+          "listed_correct": 291,
+          "correct": 330,
+          "terms": 500,
+          "unlisted": 131,
+          "unlisted_correct": 39
+        },
+        "restored": {
+          "cer": {
+            "edit_errors": 1279,
+            "substitutions": 428,
+            "insertions": 372,
+            "deletions": 479,
+            "reference_characters": 25921,
+            "rate": 0.04934223216696887
+          },
+          "listed": 369,
+          "listed_correct": 326,
+          "correct": 365,
+          "terms": 500,
+          "unlisted": 131,
+          "unlisted_correct": 39
+        },
+        "rows_changed_by_restore": 40
+      }
+    }
+  },
+  "test_novel_examples": {}
+}

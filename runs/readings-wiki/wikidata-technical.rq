@@ -1,0 +1,14 @@
+# 基本分類に含まれない具体型を補う。無制限の上位・下位分類の探索は使用しない。
+SELECT ?item ?en ?name ?prop ?type WHERE {
+  VALUES ?type {
+    wd:Q131669 wd:Q205020 wd:Q189210 wd:Q131212 wd:Q13741 wd:Q3257930 wd:Q1071233
+    wd:Q183484 wd:Q67185243 wd:Q467707 wd:Q115305900 wd:Q192776 wd:Q202871
+    wd:Q175805 wd:Q80831 wd:Q676202 wd:Q891055 wd:Q14001 wd:Q104851 wd:Q15836568
+    wd:Q17004595 wd:Q122307299 wd:Q138660633 wd:Q137916409 wd:Q137916497 wd:Q7554365
+    wd:Q7927899 wd:Q610140 wd:Q651794 wd:Q683111 wd:Q110509708 wd:Q20755684
+  }
+  ?item wdt:P31 ?type; rdfs:label ?en .
+  VALUES ?prop { rdfs:label skos:altLabel }
+  ?item ?prop ?name .
+  FILTER(LANG(?en)="en" && LANG(?name)="ja")
+}

@@ -1,0 +1,502 @@
+{
+  "manifests": {
+    "devuser": "/home/maru/voiceime-work-fr3/inputs/formatter-sft3-current/manifest-devuser-scripted-fixed-no-audio-20261122.jsonl",
+    "devuser_rows": 50,
+    "val": "/home/maru/voiceime-work-fr3/inputs/manifest-val-no-audio.jsonl",
+    "val_rows": 1000,
+    "test_novel": "/home/maru/voiceime-work-fr3/inputs/test-novel-20261122/test-novel.jsonl",
+    "test_novel_rows": 500,
+    "unseen_terms": "/home/maru/voiceime-work-fr3/inputs/term-select-metal2/unseen-terms-devuser.txt"
+  },
+  "conditions": {
+    "SFT2": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 89,
+        "cer_reference_characters": 2330,
+        "cer": 0.03819742489270386,
+        "term_correct": 60,
+        "term_total": 67,
+        "unseen_correct": 18,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": null,
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1766,
+        "cer_reference_characters": 47431,
+        "cer": 0.03723303324829753,
+        "term_correct": 1301,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2807,
+        "cer_reference_characters": 25921,
+        "cer": 0.10829057520928977,
+        "term_correct": 225,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "A": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 122,
+        "cer_reference_characters": 2330,
+        "cer": 0.05236051502145923,
+        "term_correct": 59,
+        "term_total": 67,
+        "unseen_correct": 17,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 132,
+        "cer_reference_characters": 2330,
+        "cer": 0.05665236051502146,
+        "term_correct": 56,
+        "term_total": 67,
+        "unseen_correct": 14,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1753,
+        "cer_reference_characters": 47431,
+        "cer": 0.03695895089709262,
+        "term_correct": 1309,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2655,
+        "cer_reference_characters": 25921,
+        "cer": 0.10242660391188611,
+        "term_correct": 197,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 126,
+        "cer_reference_characters": 2330,
+        "cer": 0.05407725321888412,
+        "term_correct": 58,
+        "term_total": 67,
+        "unseen_correct": 16,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 118,
+        "cer_reference_characters": 2330,
+        "cer": 0.050643776824034335,
+        "term_correct": 58,
+        "term_total": 67,
+        "unseen_correct": 16,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1561,
+        "cer_reference_characters": 47431,
+        "cer": 0.032910965402373975,
+        "term_correct": 1311,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2119,
+        "cer_reference_characters": 25921,
+        "cer": 0.08174838933683114,
+        "term_correct": 247,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "C": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 134,
+        "cer_reference_characters": 2330,
+        "cer": 0.05751072961373391,
+        "term_correct": 59,
+        "term_total": 67,
+        "unseen_correct": 17,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 168,
+        "cer_reference_characters": 2330,
+        "cer": 0.07210300429184549,
+        "term_correct": 55,
+        "term_total": 67,
+        "unseen_correct": 13,
+        "unseen_total": 20,
+        "seen_correct": 42,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1616,
+        "cer_reference_characters": 47431,
+        "cer": 0.03407054458054859,
+        "term_correct": 1316,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2167,
+        "cer_reference_characters": 25921,
+        "cer": 0.08360016974653756,
+        "term_correct": 240,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-2B": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 103,
+        "cer_reference_characters": 2330,
+        "cer": 0.04420600858369099,
+        "term_correct": 61,
+        "term_total": 67,
+        "unseen_correct": 18,
+        "unseen_total": 20,
+        "seen_correct": 43,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 100,
+        "cer_reference_characters": 2330,
+        "cer": 0.04291845493562232,
+        "term_correct": 61,
+        "term_total": 67,
+        "unseen_correct": 18,
+        "unseen_total": 20,
+        "seen_correct": 43,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1486,
+        "cer_reference_characters": 47431,
+        "cer": 0.0313297210684995,
+        "term_correct": 1329,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2360,
+        "cer_reference_characters": 25921,
+        "cer": 0.09104587014389877,
+        "term_correct": 233,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-clean": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 131,
+        "cer_reference_characters": 2330,
+        "cer": 0.056223175965665236,
+        "term_correct": 60,
+        "term_total": 67,
+        "unseen_correct": 17,
+        "unseen_total": 20,
+        "seen_correct": 43,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 162,
+        "cer_reference_characters": 2330,
+        "cer": 0.06952789699570816,
+        "term_correct": 53,
+        "term_total": 67,
+        "unseen_correct": 13,
+        "unseen_total": 20,
+        "seen_correct": 40,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1722,
+        "cer_reference_characters": 47431,
+        "cer": 0.03630536990575784,
+        "term_correct": 1300,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2082,
+        "cer_reference_characters": 25921,
+        "cer": 0.08032097527101578,
+        "term_correct": 286,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-drop0": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 125,
+        "cer_reference_characters": 2330,
+        "cer": 0.0536480686695279,
+        "term_correct": 60,
+        "term_total": 67,
+        "unseen_correct": 17,
+        "unseen_total": 20,
+        "seen_correct": 43,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 162,
+        "cer_reference_characters": 2330,
+        "cer": 0.06952789699570816,
+        "term_correct": 56,
+        "term_total": 67,
+        "unseen_correct": 13,
+        "unseen_total": 20,
+        "seen_correct": 43,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1650,
+        "cer_reference_characters": 47431,
+        "cer": 0.03478737534523835,
+        "term_correct": 1308,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2066,
+        "cer_reference_characters": 25921,
+        "cer": 0.07970371513444698,
+        "term_correct": 282,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-no-distractors": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 120,
+        "cer_reference_characters": 2330,
+        "cer": 0.05150214592274678,
+        "term_correct": 57,
+        "term_total": 67,
+        "unseen_correct": 17,
+        "unseen_total": 20,
+        "seen_correct": 40,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 148,
+        "cer_reference_characters": 2330,
+        "cer": 0.06351931330472103,
+        "term_correct": 56,
+        "term_total": 67,
+        "unseen_correct": 15,
+        "unseen_total": 20,
+        "seen_correct": 41,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1771,
+        "cer_reference_characters": 47431,
+        "cer": 0.03733844953722249,
+        "term_correct": 1308,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2007,
+        "cer_reference_characters": 25921,
+        "cer": 0.0774275683808495,
+        "term_correct": 257,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-drop0-focus": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 96,
+        "cer_reference_characters": 2330,
+        "cer": 0.041201716738197426,
+        "term_correct": 59,
+        "term_total": 67,
+        "unseen_correct": 18,
+        "unseen_total": 20,
+        "seen_correct": 41,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 132,
+        "cer_reference_characters": 2330,
+        "cer": 0.05665236051502146,
+        "term_correct": 55,
+        "term_total": 67,
+        "unseen_correct": 14,
+        "unseen_total": 20,
+        "seen_correct": 41,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1707,
+        "cer_reference_characters": 47431,
+        "cer": 0.03598912103898294,
+        "term_correct": 1297,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2030,
+        "cer_reference_characters": 25921,
+        "cer": 0.07831487982716716,
+        "term_correct": 271,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    },
+    "B-drop0-seed1": {
+      "devuser": {
+        "evaluated": 50,
+        "cer_errors": 117,
+        "cer_reference_characters": 2330,
+        "cer": 0.05021459227467811,
+        "term_correct": 57,
+        "term_total": 67,
+        "unseen_correct": 16,
+        "unseen_total": 20,
+        "seen_correct": 41,
+        "seen_total": 47
+      },
+      "devuser_no_unseen": {
+        "evaluated": 50,
+        "cer_errors": 145,
+        "cer_reference_characters": 2330,
+        "cer": 0.06223175965665236,
+        "term_correct": 54,
+        "term_total": 67,
+        "unseen_correct": 14,
+        "unseen_total": 20,
+        "seen_correct": 40,
+        "seen_total": 47
+      },
+      "val": {
+        "evaluated": 1000,
+        "cer_errors": 1665,
+        "cer_reference_characters": 47431,
+        "cer": 0.03510362421201324,
+        "term_correct": 1292,
+        "term_total": 1427,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      },
+      "test_novel": {
+        "evaluated": 500,
+        "cer_errors": 2119,
+        "cer_reference_characters": 25921,
+        "cer": 0.08174838933683114,
+        "term_correct": 284,
+        "term_total": 500,
+        "unseen_correct": null,
+        "unseen_total": null,
+        "seen_correct": null,
+        "seen_total": null
+      }
+    }
+  }
+}

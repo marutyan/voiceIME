@@ -1,0 +1,333 @@
+{
+  "torch": "2.13.0+cu129",
+  "transformers": "5.23.0",
+  "runs": {
+    "soup-a025": {
+      "alpha": 0.25,
+      "weights": {
+        "tensors_by_dtype": {
+          "torch.bfloat16": 320
+        },
+        "verified_values": 5120,
+        "weight_bytes": 1504827608
+      },
+      "queue": {
+        "gpu": "1",
+        "rc": "0",
+        "seconds": "158",
+        "mean_util": "37.0",
+        "samples": "6"
+      },
+      "queue_history": [
+        "2026-11-23 16:01:43 start 70-wops-soup-a025 on gpu=1",
+        "2026-11-23 16:04:21 70-wops-soup-a025 gpu=1 rc=0 mean_util=37.0"
+      ],
+      "val": {
+        "audit": {
+          "rows": 1000,
+          "terms": 1427,
+          "correct": 1346,
+          "included": 1310,
+          "included_correct": 1282,
+          "excluded": 117,
+          "excluded_correct": 64
+        },
+        "cer": {
+          "edit_errors": 1323,
+          "substitutions": 302,
+          "insertions": 597,
+          "deletions": 424,
+          "reference_characters": 47431,
+          "rate": 0.027893150049545654
+        },
+        "evaluation": {
+          "system": "val-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a025",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 1000,
+          "glossary_size": 31415,
+          "excluded_term_count": 0,
+          "mean_glossary_entries": 18.08,
+          "mean_input_tokens": 96.11,
+          "mean_output_reference_tokens": 31.809,
+          "mean_prompt_tokens": 556.356,
+          "batch_size": 32,
+          "batches": 32,
+          "generation_wall_s": 116.50961149809882,
+          "generation_tokens": 24410,
+          "generation_tokens_per_second": 209.51061192404987,
+          "format_latency_mean_s_amortized": 0.11650961149809883,
+          "length_limited": 0,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      },
+      "test-novel": {
+        "audit": {
+          "rows": 500,
+          "terms": 500,
+          "correct": 362,
+          "included": 369,
+          "included_correct": 315,
+          "excluded": 131,
+          "excluded_correct": 47
+        },
+        "cer": {
+          "edit_errors": 1444,
+          "substitutions": 635,
+          "insertions": 278,
+          "deletions": 531,
+          "reference_characters": 25921,
+          "rate": 0.05570772732533467
+        },
+        "evaluation": {
+          "system": "test-novel-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a025",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 500,
+          "glossary_size": 31332,
+          "excluded_term_count": 83,
+          "mean_glossary_entries": 19.364,
+          "mean_input_tokens": 104.374,
+          "mean_output_reference_tokens": 34.778,
+          "mean_prompt_tokens": 579.466,
+          "batch_size": 32,
+          "batches": 16,
+          "generation_wall_s": 21.20102281938307,
+          "generation_tokens": 13372,
+          "generation_tokens_per_second": 630.7242869327335,
+          "format_latency_mean_s_amortized": 0.042402045638766137,
+          "length_limited": 1,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      }
+    },
+    "soup-a050": {
+      "alpha": 0.5,
+      "weights": {
+        "tensors_by_dtype": {
+          "torch.bfloat16": 320
+        },
+        "verified_values": 5120,
+        "weight_bytes": 1504827608
+      },
+      "queue": {
+        "gpu": "2",
+        "rc": "0",
+        "seconds": "158",
+        "mean_util": "41.5",
+        "samples": "6"
+      },
+      "queue_history": [
+        "2026-11-23 16:01:43 start 70-wops-soup-a050 on gpu=2",
+        "2026-11-23 16:04:21 70-wops-soup-a050 gpu=2 rc=0 mean_util=41.5"
+      ],
+      "val": {
+        "audit": {
+          "rows": 1000,
+          "terms": 1427,
+          "correct": 1345,
+          "included": 1310,
+          "included_correct": 1281,
+          "excluded": 117,
+          "excluded_correct": 64
+        },
+        "cer": {
+          "edit_errors": 1297,
+          "substitutions": 304,
+          "insertions": 586,
+          "deletions": 407,
+          "reference_characters": 47431,
+          "rate": 0.02734498534713584
+        },
+        "evaluation": {
+          "system": "val-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a050",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 1000,
+          "glossary_size": 31415,
+          "excluded_term_count": 0,
+          "mean_glossary_entries": 18.08,
+          "mean_input_tokens": 96.11,
+          "mean_output_reference_tokens": 31.809,
+          "mean_prompt_tokens": 556.356,
+          "batch_size": 32,
+          "batches": 32,
+          "generation_wall_s": 115.43340628920123,
+          "generation_tokens": 24414,
+          "generation_tokens_per_second": 211.49856687789628,
+          "format_latency_mean_s_amortized": 0.11543340628920123,
+          "length_limited": 0,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      },
+      "test-novel": {
+        "audit": {
+          "rows": 500,
+          "terms": 500,
+          "correct": 364,
+          "included": 369,
+          "included_correct": 319,
+          "excluded": 131,
+          "excluded_correct": 45
+        },
+        "cer": {
+          "edit_errors": 1366,
+          "substitutions": 589,
+          "insertions": 280,
+          "deletions": 497,
+          "reference_characters": 25921,
+          "rate": 0.052698584159561745
+        },
+        "evaluation": {
+          "system": "test-novel-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a050",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 500,
+          "glossary_size": 31332,
+          "excluded_term_count": 83,
+          "mean_glossary_entries": 19.364,
+          "mean_input_tokens": 104.374,
+          "mean_output_reference_tokens": 34.778,
+          "mean_prompt_tokens": 579.466,
+          "batch_size": 32,
+          "batches": 16,
+          "generation_wall_s": 20.882726854179054,
+          "generation_tokens": 13376,
+          "generation_tokens_per_second": 640.5293759480071,
+          "format_latency_mean_s_amortized": 0.04176545370835811,
+          "length_limited": 1,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      }
+    },
+    "soup-a075": {
+      "alpha": 0.75,
+      "weights": {
+        "tensors_by_dtype": {
+          "torch.bfloat16": 320
+        },
+        "verified_values": 5120,
+        "weight_bytes": 1504827608
+      },
+      "queue": {
+        "gpu": "3",
+        "rc": "0",
+        "seconds": "156",
+        "mean_util": "18.8",
+        "samples": "6"
+      },
+      "queue_history": [
+        "2026-11-23 16:01:44 start 70-wops-soup-a075 on gpu=3",
+        "2026-11-23 16:04:21 70-wops-soup-a075 gpu=3 rc=0 mean_util=18.8"
+      ],
+      "val": {
+        "audit": {
+          "rows": 1000,
+          "terms": 1427,
+          "correct": 1347,
+          "included": 1310,
+          "included_correct": 1282,
+          "excluded": 117,
+          "excluded_correct": 65
+        },
+        "cer": {
+          "edit_errors": 1271,
+          "substitutions": 302,
+          "insertions": 573,
+          "deletions": 396,
+          "reference_characters": 47431,
+          "rate": 0.02679682064472602
+        },
+        "evaluation": {
+          "system": "val-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a075",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 1000,
+          "glossary_size": 31415,
+          "excluded_term_count": 0,
+          "mean_glossary_entries": 18.08,
+          "mean_input_tokens": 96.11,
+          "mean_output_reference_tokens": 31.809,
+          "mean_prompt_tokens": 556.356,
+          "batch_size": 32,
+          "batches": 32,
+          "generation_wall_s": 114.97273373045027,
+          "generation_tokens": 24416,
+          "generation_tokens_per_second": 212.36339441351802,
+          "format_latency_mean_s_amortized": 0.11497273373045028,
+          "length_limited": 0,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      },
+      "test-novel": {
+        "audit": {
+          "rows": 500,
+          "terms": 500,
+          "correct": 354,
+          "included": 369,
+          "included_correct": 313,
+          "excluded": 131,
+          "excluded_correct": 41
+        },
+        "cer": {
+          "edit_errors": 1426,
+          "substitutions": 605,
+          "insertions": 270,
+          "deletions": 551,
+          "reference_characters": 25921,
+          "rate": 0.055013309671694766
+        },
+        "evaluation": {
+          "system": "test-novel-segment-merge",
+          "model": "/home/maru/voiceime-work-wops/outputs/soup-a075",
+          "runtime": "Transformers",
+          "runtime_dtype": "bfloat16",
+          "decoding": "greedy",
+          "max_new_tokens_rule": "max(64, floor(output_reference_tokens * 1.5))",
+          "repetition_stop": "not applied during batched inference",
+          "n": 500,
+          "glossary_size": 31332,
+          "excluded_term_count": 83,
+          "mean_glossary_entries": 19.364,
+          "mean_input_tokens": 104.374,
+          "mean_output_reference_tokens": 34.778,
+          "mean_prompt_tokens": 579.466,
+          "batch_size": 32,
+          "batches": 16,
+          "generation_wall_s": 20.90238143503666,
+          "generation_tokens": 13362,
+          "generation_tokens_per_second": 639.2573038401529,
+          "format_latency_mean_s_amortized": 0.04180476287007332,
+          "length_limited": 1,
+          "max_memory_allocated_gb": 4.013880832,
+          "latency_note": "latency_sはbatch wall timeを件数で割ったthroughput換算値で、単発遅延ではない"
+        }
+      }
+    }
+  }
+}

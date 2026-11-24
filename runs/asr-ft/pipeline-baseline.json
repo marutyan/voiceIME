@@ -1,0 +1,90 @@
+{
+  "val": {
+    "20": {
+      "rows": 1000,
+      "terms_listed": 1305,
+      "terms_correct": 1353,
+      "terms_total": 1427,
+      "cer": {
+        "edit_errors": 1240,
+        "substitutions": 266,
+        "insertions": 544,
+        "deletions": 430,
+        "reference_characters": 47431,
+        "rate": 0.026143239653391243
+      }
+    },
+    "32": {
+      "rows": 1000,
+      "terms_listed": 1308,
+      "terms_correct": 1351,
+      "terms_total": 1427,
+      "cer": {
+        "edit_errors": 1268,
+        "substitutions": 269,
+        "insertions": 583,
+        "deletions": 416,
+        "reference_characters": 47431,
+        "rate": 0.026733570871371043
+      }
+    },
+    "48": {
+      "rows": 1000,
+      "terms_listed": 1308,
+      "terms_correct": 1349,
+      "terms_total": 1427,
+      "cer": {
+        "edit_errors": 1299,
+        "substitutions": 277,
+        "insertions": 573,
+        "deletions": 449,
+        "reference_characters": 47431,
+        "rate": 0.027387151862705825
+      }
+    }
+  },
+  "test-novel": {
+    "20": {
+      "rows": 500,
+      "terms_listed": 369,
+      "terms_correct": 378,
+      "terms_total": 500,
+      "cer": {
+        "edit_errors": 1053,
+        "substitutions": 356,
+        "insertions": 258,
+        "deletions": 439,
+        "reference_characters": 25921,
+        "rate": 0.04062343273793449
+      }
+    },
+    "32": {
+      "rows": 500,
+      "terms_listed": 414,
+      "terms_correct": 403,
+      "terms_total": 500,
+      "cer": {
+        "edit_errors": 940,
+        "substitutions": 301,
+        "insertions": 241,
+        "deletions": 398,
+        "reference_characters": 25921,
+        "rate": 0.036264033023417304
+      }
+    },
+    "48": {
+      "rows": 500,
+      "terms_listed": 429,
+      "terms_correct": 412,
+      "terms_total": 500,
+      "cer": {
+        "edit_errors": 882,
+        "substitutions": 253,
+        "insertions": 242,
+        "deletions": 387,
+        "reference_characters": 25921,
+        "rate": 0.034026465028355386
+      }
+    }
+  }
+}

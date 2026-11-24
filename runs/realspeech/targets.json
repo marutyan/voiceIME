@@ -1,0 +1,15 @@
+{
+  "rsi_text_changed": 11808,
+  "caption_unchanged": 9635,
+  "with_english_terms": 427,
+  "english_term_occurrences": 519,
+  "asr_extra_filler_form_rows": 964,
+  "target_rows_with_test_novel_surface": 0,
+  "asr_rows_with_test_novel_surface": 2,
+  "punctuation_copied": 2287,
+  "rsi_length_limited": 114,
+  "rsi": 3093,
+  "available_rows": 15015,
+  "test_novel_surfaces_in_targets": 0,
+  "test_novel_surfaces_in_asr": 2
+}

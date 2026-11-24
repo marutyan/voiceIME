@@ -1,0 +1,153 @@
+{
+  "system": "qwen3-asr-1.7b-bf16+glossary",
+  "model": "qwen3-asr-1.7b-bf16",
+  "backend": "mlx-audio-llm",
+  "source": "mlx-community/Qwen3-ASR-1.7B-bf16",
+  "decode": "greedy",
+  "glossary": true,
+  "manifest": "/private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/asr/pilot-tts-trainval.jsonl",
+  "n_utterances": 18,
+  "warmup": 1,
+  "git_commit": "efe7ff7f46a36d678304facb45f1813f5627e6e8",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T09:59:58.572659+00:00",
+  "top_processes_before": [
+    "173  53.9 102480 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "340  11.0  12912 /usr/sbin/coreaudiod",
+    "80852  10.3  52528 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "90454   5.4  30416 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "90451   4.0  25984 uv",
+    "301   1.5  47248 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN",
+    "12120   1.4  11616 /System/Library/CoreServices/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService",
+    "46169   1.1 341424 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)"
+  ],
+  "load_before_model": {
+    "gpu_util_pct": 97.0,
+    "load1": 3.02,
+    "swap_used_gb": 7.43646484375
+  },
+  "model_load_s": 2.6921714580385014,
+  "load_samples": [
+    {
+      "id": "tmp-000001",
+      "gpu_util_pct": 81.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.42083984375
+    },
+    {
+      "id": "tmp-000002",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.42083984375
+    },
+    {
+      "id": "tmp-000003",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.41302734375
+    },
+    {
+      "id": "tmp-000004",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.41302734375
+    },
+    {
+      "id": "tmp-000005",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000006",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000007",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000008",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000009",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000010",
+      "gpu_util_pct": 98.0,
+      "load1": 2.94,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000011",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000012",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000013",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000014",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000015",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000016",
+      "gpu_util_pct": 98.0,
+      "load1": 2.95,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000017",
+      "gpu_util_pct": 98.0,
+      "load1": 2.79,
+      "swap_used_gb": 7.40521484375
+    },
+    {
+      "id": "tmp-000018",
+      "gpu_util_pct": 98.0,
+      "load1": 2.79,
+      "swap_used_gb": 7.40521484375
+    }
+  ],
+  "mlx_peak_memory_gb": 5.094901396,
+  "max_rss_gb": 4.413571072,
+  "finished_at": "2026-11-20T10:00:17.124242+00:00",
+  "top_processes_after": [
+    "173  56.2 100416 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "90454  16.7 3843520 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "46169  10.4 335456 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)",
+    "80852  10.4  50096 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340   3.1  12896 /usr/sbin/coreaudiod",
+    "711   2.7  28464 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+    "24746   2.6  48112 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)",
+    "301   2.2  46992 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN"
+  ]
+}

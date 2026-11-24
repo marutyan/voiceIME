@@ -1,0 +1,31 @@
+{
+  "measured_at": "2026-11-21 16:16-16:30 (手元のMac M3 Pro 18GB)",
+  "code": "voiceIME-wt/spec-decode commit c9740e4（変更なし）",
+  "files": {
+    "devuser-haas2p+sft1-gemma.{greedy,lookup}.jsonl": "コミット済みのlookupをそのまま測定。他のMLX処理なし（16:28-16:29）",
+    "devuser-haas2p+sft2-qwen.greedy.jsonl": "Qwen3.5はlookupが動かないためgreedyのみ。他のMLX処理なし（16:29-16:30）",
+    "devuser-haas2p+sft1-gemma-fixtrial.{greedy,lookup}.jsonl": "参考：修正案（下書き16 token上限、cacheが512を超える下書きを出さない）をスクリプト内の差し替えで試算。コミット済みコードではない。他のMLX処理なし（16:25-16:27）",
+    "*-underload.*": "別担当のMLX評価（voiceime.formatter.run、val）と同時に走った最初の測定。負荷の参考として残す",
+    "summary.json": "scripts/analyze.pyの出力。simulated_lookupはgreedyの出力列にlookupの手順を当てはめた前向き計算回数の見積もり（16 token上限）",
+    "scripts/": "alternate_bench.py（交互計測）、analyze.py（集計）、diagnose*.py（不一致の原因調査）"
+  },
+  "ten_s_subset": "音声長8〜12秒の14件（WAVの実長）",
+  "bugs": [
+    {
+      "name": "Qwen3.5でlookupが動かない",
+      "detail": "Qwen3.5-0.8Bのcacheは線形注意のArraysCache 18層＋KVCache 6層で巻き戻せず、_format_with_lookupがValueError（lookup decodeには巻き戻し可能なKV cacheが必要です）で止まる"
+    },
+    {
+      "name": "下書きの16 token上限が効かない",
+      "detail": "_format_with_lookupが_lookup_draft_tokens(input_ids, generated_tokens, remaining_tokens)と残りの生成枠を上限に渡すため、16で切られない。Gemmaで100件中86件が16 token超、最大68 token"
+    },
+    {
+      "name": "sliding window超過後の巻き戻しが黙って飛ばされる",
+      "detail": "Gemma 4 E2Bのsliding層はRotatingKVCache(max_size=512)。cache長が512を超えるとis_trimmableがFalseになり、trim_prompt_cacheは何もせず0を返す。捨てるべき下書きが全層のcacheに残り、以後の出力が崩れる。巻き戻しが飛ばされた6件（s010, s026, s032, f018, f026, f039）は全て不一致で、s010, s026, f039は7 tokenで終了（例：greedy『FCMのcontainerd、これちょっと重すぎじゃない？…』→lookup『FCMのcontainerd、』）。開始時に1回だけcan_trim_prompt_cacheを確かめていることと、上の上限の不具合で長い下書きが入ることが重なって起きる"
+    },
+    {
+      "name": "数値の差による不一致（設計上避けられない）",
+      "detail": "複数tokenをまとめた前向き計算と1 tokenずつの計算でlogitが最大0.3〜0.6ずれる（4bit量子化とbf16の計算経路の違い）。1位と2位の差が0〜0.125の位置で選ぶtokenが入れ替わる（f020, f021, f036, f044）。s011, s018, f012では、promptのprefillの分け方を変えた1 tokenずつのgreedyがlookupと同じ出力になり、mlx-lmのgreedy自体が計算の分け方で変わる"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "retrieved_at_utc": "2026-11-22T12:55:33.609021+00:00",
+  "qwen_asr_source_commit": "7c6daf77a2421100f5fb066495372c00129d39ff",
+  "models": {
+    "qwen3-asr-0.6b": {
+      "repo_id": "Qwen/Qwen3-ASR-0.6B",
+      "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+      "path": "/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/cache/huggingface/hub/models--Qwen--Qwen3-ASR-0.6B/snapshots/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+    },
+    "qwen3-asr-1.7b": {
+      "repo_id": "Qwen/Qwen3-ASR-1.7B",
+      "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/models/hf-cache/models--Qwen--Qwen3-ASR-1.7B/snapshots/7278e1e70fe206f11671096ffdd38061171dd6e5"
+    },
+    "whisper-large-v3-turbo": {
+      "repo_id": "openai/whisper-large-v3-turbo",
+      "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/models/hf-cache/models--openai--whisper-large-v3-turbo/snapshots/41f01f3fe87f28c78e2fbf8b568835947dd65ed9"
+    }
+  },
+  "environment_versions": {
+    "qwen-asr": "0.0.6",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "accelerate": "1.12.0",
+    "soundfile": "0.14.0",
+    "safetensors": "0.8.0"
+  }
+}

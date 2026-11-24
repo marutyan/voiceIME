@@ -1,0 +1,15 @@
+Sat Nov 21 16:05:08 JST 2026
+  PID  %CPU    RSS     ELAPSED COMM
+93252  69.3 321312       01:06 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+93925  59.3 188672       00:10 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)
+  173  46.8 189616 12-00:38:08 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+24729  44.3 607952 01-16:29:17 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+24746  23.0 153824 01-16:29:15 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+24747  16.3  94304 01-16:29:15 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif).app/Contents/MacOS/Google Chrome Helper (Aperitif)
+90056  12.8 208416       07:44 /Applications/Muse.app/Contents/MacOS/Muse
+23707   8.9 611952    23:42:16 claude
+  301   4.9  46128 12-00:38:06 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN
+  340   4.1  31504 12-00:38:05 /usr/sbin/coreaudiod
+  428   2.5 194800 12-00:37:49 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+{ 3.91 3.62 3.53 }
+total = 3072.00M  used = 1664.00M  free = 1408.00M  (encrypted)

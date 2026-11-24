@@ -1,0 +1,3 @@
+warning: runs/asr-dev-user/haas-ja-v1.0-speechcpp-q8_0+twopass.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/asr-dev-user/qwen3-asr-1.7b-8bit+twopass.jsonl: manifestにないid=50, hyp欠落=0
+warning: runs/asr-dev-user/whisper-large-v3-turbo.greedy+twopass.jsonl: manifestにないid=50, hyp欠落=0

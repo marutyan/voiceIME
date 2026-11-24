@@ -1,0 +1,341 @@
+== 16:16:14 gpu=96
+99919  60.7 550976       00:36 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83974   0.0 104320       39:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       39:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  78224       39:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       39:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:43:30 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:02:37 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2576 12-00:48:48 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:49:14 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+99918   0.0  14000       00:36 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:16:24 gpu=95
+99919  55.3 555792       00:46 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83974   0.0 104432       39:57 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       39:57 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  78224       39:57 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       39:57 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:43:40 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:02:47 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4160 12-00:48:58 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:49:24 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+99918   0.0  14000       00:46 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:16:34 gpu=96
+99919  54.8 558032       00:56 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83974   0.0 104480       40:07 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       40:07 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  78224       40:07 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       40:07 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:43:50 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:02:57 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4064 12-00:49:08 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:49:34 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+99918   0.0  14000       00:56 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:16:44 gpu=96
+  710  71.2 1789136       00:03 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+99919  66.7 552208       01:06 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83974   0.0  78768       40:17 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       40:17 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  72896       40:17 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       40:17 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:44:00 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:03:07 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4032 12-00:49:18 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:49:44 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  25488       00:03 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       01:06 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:16:54 gpu=98
+99919  39.8 545568       01:16 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  27.5 674672       00:13 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.0  76576       40:27 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       40:27 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  65536       40:27 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       40:27 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:44:10 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:03:17 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   3200 12-00:49:28 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:49:54 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  15088       00:13 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       01:16 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:17:04 gpu=99
+99919  44.4 542288       01:26 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  33.6 483456       00:23 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.0  64432       40:37 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    144       40:37 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  85808       40:37 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    144       40:37 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    240    10:44:20 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    656    14:03:27 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1856 12-00:49:38 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     80 12-00:50:04 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14096       00:23 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  13984       01:26 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:17:14 gpu=99
+99919  38.5 544848       01:36 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  28.3 490080       00:33 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.0  68720       40:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       40:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  98816       40:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       40:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:44:30 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:03:37 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1872 12-00:49:48 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:50:14 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14096       00:33 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       01:36 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:17:24 gpu=99
+99919  47.8 547808       01:46 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  33.3 491760       00:43 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+99918   0.0  14000       01:46 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  68880       40:57 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       40:57 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  99056       40:57 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       40:57 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:44:40 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:03:47 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1872 12-00:49:58 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:50:24 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14096       00:43 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:17:34 gpu=99
+99919  43.5 546192       01:56 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  33.7 365152       00:53 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+99918   0.0  14000       01:56 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 101136       41:07 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:07 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 107088       41:07 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       41:07 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:44:50 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:03:57 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0    864 12-00:50:08 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:50:34 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14080       00:53 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:17:44 gpu=99
+99919  39.4 548720       02:06 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  27.1 366384       01:03 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83901   0.3 107392       41:17 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+  700   0.0  14080       01:03 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:06 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 101552       41:17 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:17 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83899   0.0    160       41:17 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:45:00 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:07 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0    864 12-00:50:18 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:50:44 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:17:54 gpu=99
+99919  42.4 540992       02:16 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  27.2 246864       01:13 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83901   0.1  93568       41:27 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83974   0.1  74304       41:27 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:27 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83899   0.0    160       41:27 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:45:10 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:17 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1120 12-00:50:28 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:50:54 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14080       01:13 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:16 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:18:04 gpu=99
+99919  44.5 543776       02:26 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  30.0 128432       01:23 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+  700   0.0  14016       01:23 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:26 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  80608       41:37 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:37 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  90112       41:37 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       41:37 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:45:20 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:27 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1472 12-00:50:38 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:04 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:18:14 gpu=99
+99919  48.8 546528       02:36 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  29.5 134624       01:33 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+  700   0.0  14016       01:33 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:36 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  90688       41:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  96512       41:47 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       41:47 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:45:30 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:37 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1472 12-00:50:48 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:14 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:18:24 gpu=99
+99919  41.7 549008       02:47 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  30.1 139392       01:44 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+  700   0.0  14016       01:44 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:47 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 110560       41:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       41:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  96512       41:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       41:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:45:41 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:48 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1472 12-00:50:59 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:25 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:18:35 gpu=99
+99919  44.0 535568       02:57 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  37.4 125776       01:54 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+88033   0.0    256    10:45:51 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:04:58 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1056 12-00:51:09 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:35 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14016       01:54 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       02:57 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  82768       42:08 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       42:08 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  83072       42:08 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       42:08 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+== 16:18:45 gpu=99
+99919  45.0 540048       03:07 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  30.7 127184       02:04 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.0  79040       42:18 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       42:18 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  72656       42:18 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       42:18 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:46:01 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:05:08 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2560 12-00:51:19 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:45 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  14016       02:04 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  14000       03:07 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:18:55 gpu=99
+99919  40.2 503360       03:17 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  26.8 122096       02:14 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.0 102288       42:28 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       42:28 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  67840       42:28 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       42:28 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+88033   0.0    256    10:46:11 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+25445   0.0    672    14:05:18 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0    960 12-00:51:29 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:51:55 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  13984       02:14 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  13968       03:17 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:19:05 gpu=99
+99919  47.2 500672       03:27 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  33.7 104640       02:24 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83974   0.1  81552       42:38 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       42:38 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0  58256       42:38 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       42:38 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:05:28 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1936 12-00:51:39 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:05 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+  700   0.0  13968       02:24 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  13952       03:27 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:19:15 gpu=99
+99919  33.3 506224       03:37 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  26.2 110832       02:34 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+83901   0.2 103712       42:48 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+  700   0.0  13968       02:34 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  13952       03:37 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  85760       42:48 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       42:48 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83899   0.0    128       42:48 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:05:38 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1936 12-00:51:49 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:15 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:19:25 gpu=99
+99919  38.4 509728       03:47 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+  710  27.0 113872       02:44 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scra
+  700   0.0  13968       02:44 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+99918   0.0  13952       03:47 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0  85808       42:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       42:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 104736       42:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       42:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:05:48 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   1936 12-00:51:59 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:25 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:19:35 gpu=98
+99919  35.9 512800       03:57 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+ 2281  35.9 1096320       00:08 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+99918   0.0  13952       03:57 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 107760       43:08 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       43:08 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 104864       43:08 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       43:08 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:05:58 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2960 12-00:52:09 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:35 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+ 2277   0.0  26192       00:08 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:19:45 gpu=99
+99919  39.8 514544       04:07 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+ 2281  38.4 1097360       00:18 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+99918   0.0  13952       04:07 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 108416       43:18 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       43:18 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 104832       43:18 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       43:18 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:06:08 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2896 12-00:52:19 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:45 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+ 2277   0.0  25696       00:18 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:19:55 gpu=99
+ 2281  46.3 1097680       00:28 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+99919  45.5 515472       04:17 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+99918   0.0  13952       04:17 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 108336       43:28 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    128       43:28 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 104832       43:28 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       43:28 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:06:18 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2896 12-00:52:29 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:52:55 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+ 2277   0.0  25696       00:28 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:20:05 gpu=99
+99919  34.6 516832       04:27 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+ 2281  34.1 1098016       00:38 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+83974   0.3 108352       43:38 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+99918   0.0  13952       04:27 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83972   0.0    128       43:38 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 104832       43:38 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    128       43:38 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    672    14:06:28 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   2896 12-00:52:39 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0     96 12-00:53:05 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+ 2277   0.0  25696       00:38 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:20:15 gpu=99
+99919  45.5 517968       04:37 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+ 2281  44.7 1098336       00:48 /Users/marutyan/PrivateDev/voiceIME-wt/spec-decode/.venv/bin/python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scr
+99918   0.0  13984       04:37 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 109520       43:48 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       43:48 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 106336       43:48 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       43:48 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    704    14:06:38 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4672 12-00:52:49 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0    128 12-00:53:15 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+ 2277   0.0  25696       00:48 uv run python /private/tmp/claude-501/-Users-marutyan-PrivateDev-voiceIME/3732b70c-6c15-4d0c-9def-cf3935cef9e5/scratchpad/metal-spec/alternate_bench.py --manifest /Users
+== 16:20:25 gpu=96
+99919  50.7 519328       04:47 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83974   0.0 109536       43:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       43:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83901   0.0 106320       43:58 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83899   0.0    160       43:58 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    704    14:06:48 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4528 12-00:52:59 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0    128 12-00:53:25 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+99918   0.0  13984       04:47 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+== 16:20:35 gpu=96
+99919  61.7 520352       04:58 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83901   0.1 107472       44:09 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+99918   0.0  13984       04:58 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml
+83974   0.0 109568       44:09 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       44:09 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83899   0.0    160       44:09 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    704    14:06:59 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4528 12-00:53:10 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0    128 12-00:53:36 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+== 16:20:46 gpu=96
+99919  65.3 640752       05:08 /Users/marutyan/PrivateDev/voiceIME/.venv/bin/python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model mod
+83901   0.6 107616       44:19 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/gemma2
+83974   0.0 109920       44:19 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voiceIME-wt/qwenas
+83972   0.0    160       44:19 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+83899   0.0    160       44:19 timeout 21600 codex exec -m gpt-6-luna -c model_reasoning_effort=max -c sandbox_workspace_write.network_access=true -s workspace-write -C /Users/marutyan/PrivateDev/voic
+25445   0.0    704    14:07:09 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced
+  634   0.0   4528 12-00:53:20 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+  125   0.0    128 12-00:53:46 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system
+99918   0.0  13984       05:08 uv run python -m voiceime.formatter.run --manifest data/tts/val/manifest.jsonl --asr-run runs/asr-tts/haas2p-val.jsonl --model models/formatter/sft2-qwen3.5-0.8b-full/ml

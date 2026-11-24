@@ -1,0 +1,18 @@
+{"id": "tmp-000001", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "えーと、PyTorchのDatasetで...いや、Datasetクラスで読み込みます", "latency_s": 0.0717810409842059}
+{"id": "tmp-000002", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "あの、バッジサイズを32にしたら、GPUのメモリが足りなくなりました", "latency_s": 0.0683578330790624}
+{"id": "tmp-000003", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Transformerのアテンションの部分を...えー、FlashAttentionに置き換えたいです。", "latency_s": 0.07879420800600201}
+{"id": "tmp-000004", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "GitHubのPull Requestに、まあレビューのコメントを書いておきました", "latency_s": 0.057801707996986806}
+{"id": "tmp-000005", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "learning rateは、えーと1e-4から始めて、cosineで下げます", "latency_s": 0.0662318340037018}
+{"id": "tmp-000006", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Dockerのコンテナの中でuvシンクを実行してください", "latency_s": 0.05434266594238579}
+{"id": "tmp-000007", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "ええと、Whisperのラージv3と、その、turboを比べてみました", "latency_s": 0.06610874994657934}
+{"id": "tmp-000008", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "評価はCERで...いや、WERじゃなくてCERで出してください", "latency_s": 0.06890845799352974}
+{"id": "tmp-000009", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Hugging Faceからcheckpointをダウンロードして、LoRAルへで追加学習します", "latency_s": 0.05614925001282245}
+{"id": "tmp-000010", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "JSONLの各行にidとテキストを入れておいてください", "latency_s": 0.0745645830174908}
+{"id": "tmp-000011", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "segmentationのマスクを考古形式で、えっと、保存しています", "latency_s": 0.054183042026124895}
+{"id": "tmp-000012", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "optical flowの推定にはRAFTを使って、end-point errorで評価します", "latency_s": 0.06838299997616559}
+{"id": "tmp-000013", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "まあ、mixed precisionにすると、bf16で速くなると思います", "latency_s": 0.07103187497705221}
+{"id": "tmp-000014", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "Slackで、あの...明日のミーティングの資料を共有しました。", "latency_s": 0.054792832932434976}
+{"id": "tmp-000015", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "vsコードのターミナルで、ええとpytestを走らせたら、2件落ちました", "latency_s": 0.06969095801468939}
+{"id": "tmp-000016", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "diffusion modelのsampling stepを50から...いや、25に減らします", "latency_s": 0.07589791703503579}
+{"id": "tmp-000017", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "ええ、MLXで4ビットに量子化したモデルをMacで動かしています", "latency_s": 0.07724708400201052}
+{"id": "tmp-000018", "system": "haas-ja-v1.0-speechcpp-q4_k+glossary", "stage": "asr", "hyp": "そのdata augmentationは...んー、random cropだけで十分かもしれません", "latency_s": 0.07723250007256866}

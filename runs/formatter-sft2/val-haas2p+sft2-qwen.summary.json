@@ -1,0 +1,30 @@
+{
+  "system": "haas2p+sft2-qwen",
+  "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+  "args": {
+    "manifest": "data/tts/val/manifest.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "runs/asr-tts/haas2p-val.jsonl",
+    "model": "models/formatter/sft2-qwen3.5-0.8b-full/mlx-4bit",
+    "system": "haas2p+sft2-qwen",
+    "out": "runs/formatter-sft2/val-haas2p+sft2-qwen.jsonl",
+    "glossary": [
+      "data/text/glossary.jsonl"
+    ],
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 1000,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 2.274676208035089,
+  "format_latency_median_s": 0.1998560624779202,
+  "format_latency_p90_s": 0.3136005166452378,
+  "latency_median_s": 0.558572290930897,
+  "mean_glossary_entries": 16.112,
+  "generation_tps_median": 224.98509062601514,
+  "peak_memory_gb": 0.993783672,
+  "truncated": 2
+}

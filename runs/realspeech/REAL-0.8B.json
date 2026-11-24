@@ -1,0 +1,14 @@
+{
+  "original_rows": 95931,
+  "swap_rows": 36778,
+  "real_rows": 15015,
+  "real_fraction": 0.10164225176680837,
+  "real_sha256": "e723f3040e2081ad91d9f94a1ecc79fd7bf9d0074823effababe1527a5c40261",
+  "synthetic_sha256": "f25f935b1b1b43bf0fb639b34e630658a02a2a6e1e1949038400663b4056c7ca",
+  "swap_sha256": "6f6b060ec6544c5f1878f1d5ec8655f40bff263cd041bf77cedd1ba06e3c77fa",
+  "test_novel_surfaces_in_real_targets": [],
+  "test_novel_surfaces_in_real_asr": [
+    "OneDrive",
+    "zx"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "split": "test-novel",
+  "rows": 500,
+  "entries": 31332,
+  "gold_not_in_glossary": 0,
+  "inputs": {
+    "manifest": {
+      "path": "/home/maru/voiceime-work-tts/outputs/r3-test-novel-20261122/manifest.jsonl",
+      "sha256": "d3500fd1402cc1d3f58ffa0de804727a3e90b68402f9ba5c74f4a245431699d4"
+    },
+    "exclude": {
+      "path": "/home/maru/voiceime-work-asr/r3-twopass-20261122/terms/exclude-v2-83.txt",
+      "sha256": "16b1e0d83c93a29bf68127fd4889643ceac9e59ff0dfa03b6dac90f5a57ec8bd"
+    },
+    "glossary_v1": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary.jsonl",
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "glossary_v2": {
+      "path": "/home/maru/voiceime-work-asr/data/glossary/glossary-v2.jsonl",
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9"
+    },
+    "haas": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/haas-plus-qwen06-test-novel-plain.jsonl",
+      "sha256": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233"
+    },
+    "qwen06": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen06-firstpass.jsonl",
+      "sha256": "7cd8359225c28ddc7e815a561b286b95af6a642c3264f76a98ca3c10bd7f5274"
+    },
+    "qwen17": {
+      "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen17-firstpass.jsonl",
+      "sha256": "b8ca75746daf604813ffe34588bed8bf971738b42db069d370a8afbc411b8ddb"
+    }
+  },
+  "conditions": {
+    "haas": {
+      "baseline": {
+        "20": {
+          "selected": 9359,
+          "gold_hits": 336,
+          "rows_with_gold_hit": 336,
+          "false_selections": 9023,
+          "gold_total": 500,
+          "recall": 0.672,
+          "false_selections_per_row": 18.046,
+          "selection_median_ms_at_max_cap": 6.742789642885327
+        },
+        "32": {
+          "selected": 14108,
+          "gold_hits": 362,
+          "rows_with_gold_hit": 362,
+          "false_selections": 13746,
+          "gold_total": 500,
+          "recall": 0.724,
+          "false_selections_per_row": 27.492,
+          "selection_median_ms_at_max_cap": 6.742789642885327
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 9359,
+          "gold_hits": 336,
+          "rows_with_gold_hit": 336,
+          "false_selections": 9023,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 3,
+          "false_selections_dropped": 3,
+          "gold_total": 500,
+          "recall": 0.672,
+          "false_selections_per_row": 18.046,
+          "selection_median_ms_at_max_cap": 6.7697090562433
+        },
+        "32": {
+          "selected": 14108,
+          "gold_hits": 362,
+          "rows_with_gold_hit": 362,
+          "false_selections": 13746,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 3,
+          "false_selections_dropped": 3,
+          "gold_total": 500,
+          "recall": 0.724,
+          "false_selections_per_row": 27.492,
+          "selection_median_ms_at_max_cap": 6.7697090562433
+        }
+      }
+    },
+    "qwen06": {
+      "baseline": {
+        "20": {
+          "selected": 9682,
+          "gold_hits": 369,
+          "rows_with_gold_hit": 369,
+          "false_selections": 9313,
+          "gold_total": 500,
+          "recall": 0.738,
+          "false_selections_per_row": 18.626,
+          "selection_median_ms_at_max_cap": 13.573393458500504
+        },
+        "32": {
+          "selected": 14934,
+          "gold_hits": 414,
+          "rows_with_gold_hit": 414,
+          "false_selections": 14520,
+          "gold_total": 500,
+          "recall": 0.828,
+          "false_selections_per_row": 29.04,
+          "selection_median_ms_at_max_cap": 13.573393458500504
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 9682,
+          "gold_hits": 369,
+          "rows_with_gold_hit": 369,
+          "false_selections": 9313,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 2,
+          "gold_total": 500,
+          "recall": 0.738,
+          "false_selections_per_row": 18.626,
+          "selection_median_ms_at_max_cap": 13.739665737375617
+        },
+        "32": {
+          "selected": 14934,
+          "gold_hits": 414,
+          "rows_with_gold_hit": 414,
+          "false_selections": 14520,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 2,
+          "false_selections_dropped": 2,
+          "gold_total": 500,
+          "recall": 0.828,
+          "false_selections_per_row": 29.04,
+          "selection_median_ms_at_max_cap": 13.739665737375617
+        }
+      }
+    },
+    "qwen17": {
+      "baseline": {
+        "20": {
+          "selected": 9589,
+          "gold_hits": 376,
+          "rows_with_gold_hit": 376,
+          "false_selections": 9213,
+          "gold_total": 500,
+          "recall": 0.752,
+          "false_selections_per_row": 18.426,
+          "selection_median_ms_at_max_cap": 12.256105430424213
+        },
+        "32": {
+          "selected": 14676,
+          "gold_hits": 409,
+          "rows_with_gold_hit": 409,
+          "false_selections": 14267,
+          "gold_total": 500,
+          "recall": 0.818,
+          "false_selections_per_row": 28.534,
+          "selection_median_ms_at_max_cap": 12.256105430424213
+        }
+      },
+      "combined": {
+        "20": {
+          "selected": 9589,
+          "gold_hits": 376,
+          "rows_with_gold_hit": 376,
+          "false_selections": 9213,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 3,
+          "false_selections_dropped": 3,
+          "gold_total": 500,
+          "recall": 0.752,
+          "false_selections_per_row": 18.426,
+          "selection_median_ms_at_max_cap": 12.25335500203073
+        },
+        "32": {
+          "selected": 14676,
+          "gold_hits": 409,
+          "rows_with_gold_hit": 409,
+          "false_selections": 14267,
+          "gold_gained": 0,
+          "gold_lost": 0,
+          "false_selections_added": 5,
+          "false_selections_dropped": 5,
+          "gold_total": 500,
+          "recall": 0.818,
+          "false_selections_per_row": 28.534,
+          "selection_median_ms_at_max_cap": 12.25335500203073
+        }
+      }
+    }
+  },
+  "val_report_sha256": "1e9b6935d9e442e36745d9e15d93b02d2a953e6cf5a0c8a54555850af5b90a3c",
+  "chosen": "combined",
+  "frozen_sha256": {
+    "selector": "3ef2a1f3d1088355b977a87c846bec470ffe4f3fa0a4705f6f82e7f80c62247a",
+    "evaluation": "288d34dc99a0e1c8e098a5cf171df611f6852c3813afc5fac89c12b197234d7d",
+    "glossary_v1": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "glossary_v2": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "rules": "fd5fd38707dc104453777f0e70fb4e8839d692892eab4f45648212f2edce9f7d",
+    "combined": "63944a8b7d0cce0cbd20874df64b9c13bea91051d4fbba0d731ec83dcb229e1c"
+  }
+}

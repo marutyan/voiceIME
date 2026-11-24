@@ -1,0 +1,20 @@
+run=qwen-diag-freeze-firststep physical_gpu=2
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\('
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/.venv/lib/python3.12/site-packages/nagisa/tagger.py:45: SyntaxWarning: invalid escape sequence '\)'
+  single_word_list = [w.replace('(', '\(').replace(')', '\)')
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[training] froze thinker.audio_tower
+Map (num_proc=1):   0%|          | 0/3340 [00:00<?, ? examples/s]Map (num_proc=1):   5%|▌         | 183/3340 [00:00<00:12, 243.23 examples/s]Map (num_proc=1):  30%|██▉       | 1000/3340 [00:00<00:01, 1377.53 examples/s]Map (num_proc=1):  47%|████▋     | 1566/3340 [00:01<00:00, 2114.54 examples/s]Map (num_proc=1):  62%|██████▏   | 2082/3340 [00:01<00:00, 2712.90 examples/s]Map (num_proc=1):  88%|████████▊ | 2931/3340 [00:01<00:00, 3589.82 examples/s]Map (num_proc=1): 100%|██████████| 3340/3340 [00:01<00:00, 2256.13 examples/s]
+Map (num_proc=1):   0%|          | 0/200 [00:00<?, ? examples/s]Map (num_proc=1):  91%|█████████ | 182/200 [00:00<00:00, 267.27 examples/s]Map (num_proc=1): 100%|██████████| 200/200 [00:00<00:00, 243.63 examples/s]
+/home/maru/voiceime-work-qwenasr/exp-2026-11-21-qwen3asr-e2e/scripts/qwen3_asr_sft_gradient_diag_v2.py:362: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `CastFloatInputsTrainer.__init__`. Use `processing_class` instead.
+  trainer = CastFloatInputsTrainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 151645, 'pad_token_id': 151643}.
+  0%|          | 0/1 [00:00<?, ?it/s][gradient-diagnostic] {"max_grad_norm": 1.0, "nonfinite_module_counts": {}, "nonfinite_parameter_count": 0, "nonfinite_parameters": [], "optimizer_step": 1}
+100%|██████████| 1/1 [00:51<00:00, 51.44s/it]                                             {'loss': 67.753, 'grad_norm': 1012.0, 'learning_rate': 0.0, 'epoch': 0.04}
+100%|██████████| 1/1 [00:51<00:00, 51.44s/it]                                             {'train_runtime': 51.4405, 'train_samples_per_second': 2.488, 'train_steps_per_second': 0.019, 'train_loss': 67.75299835205078, 'epoch': 0.04}
+100%|██████████| 1/1 [00:51<00:00, 51.44s/it]100%|██████████| 1/1 [00:51<00:00, 51.44s/it]

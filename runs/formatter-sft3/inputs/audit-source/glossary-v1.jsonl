@@ -1,0 +1,1458 @@
+{"surface": "3D Gaussian Splatting", "readings": ["スリーディーガウシアンスプラッティング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AAAI", "readings": ["エーエーエーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Adafactor", "readings": ["アダファクター"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AdaGrad", "readings": ["アダグラッド"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Adam", "readings": ["アダム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Adamax", "readings": ["アダムマックス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AdamW", "readings": ["アダムダブリュー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ADE20K", "readings": ["エーディーイーニジュウケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AI", "readings": ["エーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "AnimateDiff", "readings": ["アニメートディフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Annoy", "readings": ["アノイ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ARC", "readings": ["エーアールシー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ArcFace", "readings": ["アークフェイス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Argoverse", "readings": ["アーゴバース"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "arXiv Preprint", "readings": ["アーカイブプレプリント"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ASR", "readings": ["エーエスアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ATSS", "readings": ["エーティーエスエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Attention U-Net", "readings": ["アテンションユーネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AUC", "readings": ["エーユーシー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "AudioSet", "readings": ["オーディオセット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AutoGen", "readings": ["オートジェン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AutoGPT", "readings": ["オートジーピーティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AutoML", "readings": ["オートエムエル"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "AWQ", "readings": ["エーダブリューキュー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Azure Cognitive Services", "readings": ["アジュールコグニティブサービス", "アズールコグニティブサービス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Machine Learning", "readings": ["アジュールマシンラーニング", "アズールマシンラーニング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure OpenAI Service", "readings": ["アジュールオープンエーアイサービス", "アズールオープンエーアイサービス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BabyAGI", "readings": ["ベイビーエージーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BatchNorm", "readings": ["バッチノーム", "バッチノーマライゼーション"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BCE", "readings": ["ビーシーイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "beam_size", "readings": ["ビームサイズ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "code"}
+{"surface": "Bedrock", "readings": ["ベッドロック"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "BEiT", "readings": ["ビーイーアイティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BentoML", "readings": ["ベントエムエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BERT", "readings": ["バート"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BF16", "readings": ["ビーエフシックスティーン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "bfloat16", "readings": ["ビーフロートシックスティーン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BiFPN", "readings": ["ビーアイエフピーエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BigBench", "readings": ["ビッグベン"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "bitsandbytes", "readings": ["ビッツアンドバイツ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BLEU", "readings": ["ブルー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BLIP", "readings": ["ブリップ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "BookCorpus", "readings": ["ブックコーパス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BPE", "readings": ["ビーピーイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "BYOL", "readings": ["ビーワイオーエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Byte-level BPE", "readings": ["バイトレベルビーピーイー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "C4", "readings": ["シーフォー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cascade R-CNN", "readings": ["カスケードアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CatBoost", "readings": ["キャットブースト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CBAM", "readings": ["シービーエーエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CE", "readings": ["シーイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CelebA", "readings": ["セレバ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CenterNet", "readings": ["センターネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CER", "readings": ["シーイーアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Chain-of-Thought Prompting", "readings": ["チェーンオブソートプロンプティング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Chinchilla", "readings": ["チンチラ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Chroma", "readings": ["クロマ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "CIDEr", "readings": ["サイダー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "CIFAR-10", "readings": ["シーファーテン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CIFAR-100", "readings": ["シーファーハンドレッド"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cityscapes", "readings": ["シティスケープス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Classifier Guidance", "readings": ["クラシファイアーガイダンス"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Classifier-Free Guidance", "readings": ["クラシファイアーフリーガイダンス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Claude 3.5 Sonnet", "readings": ["クロードサンテンゴソネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CLIP", "readings": ["クリップ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cloud Natural Language API", "readings": ["クラウドナチュラルランゲージエーピーアイ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Vision API", "readings": ["クラウドビジョンエーピーアイ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CNN", "readings": ["シーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Co-DETR", "readings": ["コデター", "コデトレー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "COCO", "readings": ["ココ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "COCO Stuff", "readings": ["ココスタッフ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CogVideo", "readings": ["コグビデオ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cohere", "readings": ["コヒア"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cohere Command R+", "readings": ["コヒアコマンドアールプラス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "COLMAP", "readings": ["コルマップ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Comet", "readings": ["コメット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Common Voice", "readings": ["コモンボイス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Comprehend", "readings": ["コンプリヘンド"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "CondInst", "readings": ["コンディインスト"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Consistency Model", "readings": ["コンシステンシーモデル"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Constitutional AI", "readings": ["コンスティチューショナルエーアイ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ControlNet", "readings": ["コントロールネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ConvNeXt", "readings": ["コンブネクスト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ConvNeXt-Large", "readings": ["コンブネクストラージ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ConvNeXt-Tiny", "readings": ["コンブネクストタイニー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core Image", "readings": ["コアイメージ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core ML", "readings": ["コアエムエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CosFace", "readings": ["コスフェイス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CoT", "readings": ["シーオーティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CrewAI", "readings": ["クルーエーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CUDA", "readings": ["クーダ", "シーユーディーエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "cuDNN", "readings": ["キューディーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CV", "readings": ["シーブイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CVPR", "readings": ["シーブイピーアール"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "CycleGAN", "readings": ["サイクルガン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DALL-E", "readings": ["ダリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DALL-E 3", "readings": ["ダリスリー", "ダリエスリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DDIM", "readings": ["ディーディーアイエム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "DDP", "readings": ["ディーディーピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DDPM", "readings": ["ディーディーピーエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DeepLab", "readings": ["ディープラブ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DeepLabV3", "readings": ["ディープラブブイスリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DeepLabV3+", "readings": ["ディープラブブイスリープラス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DeepMind", "readings": ["ディープマインド"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DeepSpeed", "readings": ["ディープスピード"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Deformable DETR", "readings": ["デフォーマブルディーイーティーアール"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "DeiT", "readings": ["ディート", "デイット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DenseNet", "readings": ["デンスネット"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "DepthAnything", "readings": ["デプスエニシング"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "DETR", "readings": ["ディーイーティーアール"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Dice", "readings": ["ダイス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Diffusers", "readings": ["ディフューザーズ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DINO", "readings": ["ディーノ", "ディーアイエヌオー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "DINO-DETR", "readings": ["ディノデトレー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "DINOv2", "readings": ["ディーノブイツー", "ディノブイツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DispNet", "readings": ["ディスプネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DL", "readings": ["ディーエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DPM-Solver", "readings": ["ディーピーエムソルバー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DPO", "readings": ["ディーピーオー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DQN", "readings": ["ディーキューエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DreamBooth", "readings": ["ドリームブース"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DSO", "readings": ["ディーエスオー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "DSPy", "readings": ["ディーエスピーワイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ECCV", "readings": ["イーシーシーブイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EfficientNet", "readings": ["エフィシェントネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "EfficientNet-B0", "readings": ["エフィシェントネットビーゼロ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "EfficientNet-B7", "readings": ["エフィシェントネットビーセブン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ELU", "readings": ["イーエルユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EM", "readings": ["イーエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EMD", "readings": ["イーエムディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Emergent Abilities", "readings": ["エマージェントアビリティ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "EMNLP", "readings": ["イーエムエヌエルピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EMNLP Oral", "readings": ["イーエムエヌエルピーオーラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ER", "readings": ["イーアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ERF", "readings": ["イーアールエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Euler", "readings": ["オイラー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "EXL2", "readings": ["イーエックスエルツー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "F1", "readings": ["エフワン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Faiss", "readings": ["フェイス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Fast R-CNN", "readings": ["ファストアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Faster R-CNN", "readings": ["ファスターアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "FCOS", "readings": ["エフコス", "エフシーオーエス"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Feature Pyramid Network", "readings": ["フィーチャーピラミッドネットワーク"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "FID", "readings": ["エフアイディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FlashAttention", "readings": ["フラッシュアテンション"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Flickr30k", "readings": ["フリッカーサーティーケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "FLOPS", "readings": ["フロップス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Flow Matching", "readings": ["フローマッチング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "FlowNet", "readings": ["フローネット"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Focal Loss", "readings": ["フォーカルロス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "FP16", "readings": ["エフピーシックスティーン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FP32", "readings": ["エフピーサーティーツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FP64", "readings": ["エフピーシックスティフォー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "FP8", "readings": ["エフピーエイト", "エフピーハチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FPN", "readings": ["エフピーエヌ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "FPS", "readings": ["エフピーエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FSDP", "readings": ["エフエスディーピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GAN", "readings": ["ガン", "ジーエーエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Gaussian Splatting", "readings": ["ガウシアスプラッティング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GELU", "readings": ["ゲル", "ジーイーエルユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gemini 1.5 Flash", "readings": ["ジェミニイチテンゴフラッシュ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Gemini 1.5 Pro", "readings": ["ジェミニイチテンゴプロ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Gemma", "readings": ["ジェマ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "GGUF", "readings": ["ジージーユーエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GLIP", "readings": ["グリッップ", "ジーエルアイピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GLUE benchmark", "readings": ["グルーベンチマーク"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GMA", "readings": ["ジーエムエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GNN", "readings": ["ジーエヌエヌ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "GPT", "readings": ["ジーピーティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GPT-4", "readings": ["ジーピーティーフォー", "ジーピーティーヨン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GPT-4o", "readings": ["ジーピーティーフォーオー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GPTQ", "readings": ["ジーピーティーキュー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GQA", "readings": ["ジーキューエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Grounding DINO", "readings": ["グラウンディングディーノ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "GroupNorm", "readings": ["グループノーム", "グループノーマライゼーション"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GRU", "readings": ["ジーアールユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GSM", "readings": ["ジーエスエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GSM-Symbolic", "readings": ["ジーエスエムシンボリック"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GSM8K", "readings": ["ジーエスエムエイトケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "H-DETR", "readings": ["エイチデトレー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Hardswish", "readings": ["ハードスウィッシュ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Haystack", "readings": ["ヘイスティック"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HellaSwag", "readings": ["ヘラスワグ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Heun", "readings": ["ヒューン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HF", "readings": ["エイチエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Hits@K", "readings": ["ヒッツケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "HNSW", "readings": ["エイチエヌエスダブリュー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Horovod", "readings": ["ホロボッド"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HRNet", "readings": ["エイチアールネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Huber Loss", "readings": ["フーバーロス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Hugging Face", "readings": ["ハギングフェイス"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Hugging Face Hub", "readings": ["ハギングフェイスハブ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "HumanEval", "readings": ["ヒューマネバール"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ICCV", "readings": ["アイシーシーブイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ICLR", "readings": ["アイシーエルアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ICML", "readings": ["アイシーエムエル"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "IJCAI", "readings": ["アイジェーシーエーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IJCAI Oral", "readings": ["アイジェイシーエーアイオーラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ImageNet", "readings": ["イメージネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Inception", "readings": ["インセプション"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "InfoNCE", "readings": ["インフォンスイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "INR", "readings": ["アイエヌアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "InstanceNorm", "readings": ["インスタンスノーム", "インスタンスノーマライゼーション"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Instant NGP", "readings": ["インスタントエヌジーピー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "InstructGPT", "readings": ["インストラクトジーピーティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "InstructPix2Pix", "readings": ["インストラクトピクスツーピクス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "INT4", "readings": ["イントヨン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "INT8", "readings": ["イントエイト", "イントハチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IoU", "readings": ["アイオーユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IP-Adapter", "readings": ["アイピーアダプター"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "IS", "readings": ["アイエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Jaccard", "readings": ["ジャカード"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "JAX", "readings": ["ジャックス"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "KDD", "readings": ["ケーディーディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "KDD Oral", "readings": ["ケーディーディーオーラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Keras", "readings": ["ケラス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Kimera", "readings": ["キメラ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "KITTI", "readings": ["キティ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "KL", "readings": ["ケーエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Kubeflow", "readings": ["クバフロー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LAMB", "readings": ["ラム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LAMBADA", "readings": ["ランバダ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LARS", "readings": ["ラーズ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Latent Diffusion", "readings": ["レイテントディフュージョン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LayerNorm", "readings": ["レイヤーノーム", "レイヤーノーマライゼーション"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LCM", "readings": ["エルシーエム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "LDM", "readings": ["エルディーエム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Leaky ReLU", "readings": ["リーキーレル", "リーキーレルー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Lex", "readings": ["レックス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LFW", "readings": ["エルエフダブリュー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LibriLight", "readings": ["リブライライト"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LibriSpeech", "readings": ["リブリスピーチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LightGBM", "readings": ["ライトジービーエム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Lion", "readings": ["ライオン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Llama", "readings": ["ラマ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Llama-2", "readings": ["ラマツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Llama-3", "readings": ["ラマスリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "llama.cpp", "readings": ["ラマドットシーピーピー", "ラマシーピーピー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LLaVA", "readings": ["ラバ", "エルエルエーブイエー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LLM", "readings": ["エルエルエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "LLMOps", "readings": ["エルエルエムオプス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Lookahead", "readings": ["ルックアヘッド"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LoRA", "readings": ["ローラ", "エルオーアールエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LPIPS", "readings": ["エルピーアイピーエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LSD-SLAM", "readings": ["エルエスディースラム"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "LSTM", "readings": ["エルエスティーエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MAE", "readings": ["エムエーイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "mAP", "readings": ["エムエーピー", "マップ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "mAP@50", "readings": ["エムエーピーゴーゴー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "mAP@50:95", "readings": ["エムエーピーゴーゴーナインティーファイブ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "MAP@K", "readings": ["マップケー", "エムエーピーケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MAPE", "readings": ["エムエーピーイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Marigold", "readings": ["マリゴールド"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Mask R-CNN", "readings": ["マスクアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Mask2Former", "readings": ["マスクツーフォーマー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "MATH", "readings": ["マス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Matterport3D", "readings": ["マターポートスリーディー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MBPP", "readings": ["エムビーピーピー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "MDP", "readings": ["エムディーピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MediaPipe", "readings": ["メディアパイプ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Megatron-LM", "readings": ["メガトロンエルエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "METEOR", "readings": ["ミテオ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MiDaS", "readings": ["ミダス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "mIoU", "readings": ["エムアイオーユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Mish", "readings": ["ミッシュ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Mistral", "readings": ["ミストラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Mistral AI", "readings": ["ミストラルエーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Mistral Large", "readings": ["ミストラルラージ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Mixtral", "readings": ["ミクストラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ML", "readings": ["エムエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MLflow", "readings": ["エムエルフロー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MLflow Tracking", "readings": ["エムエルフロートラッキング"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MLM", "readings": ["エムエルエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MLP", "readings": ["エムエルピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MMLU", "readings": ["エムエムエルユー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "MNIST", "readings": ["エムニスト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MobileNet", "readings": ["モバイルネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MobileNetV2", "readings": ["モバイルネットブイツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MobileNetV3", "readings": ["モバイルネットブイスリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MoCo", "readings": ["モコ", "エムオーシーオー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ModelNet", "readings": ["モデルネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MoE", "readings": ["エムオーイー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Monodepth2", "readings": ["モノデプスツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MRR", "readings": ["エムアールアール"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "MS-COCO", "readings": ["エムエスココ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MSE", "readings": ["エムエスイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MVS", "readings": ["エムブイエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NAS", "readings": ["ナス", "エヌエーエス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NCCL", "readings": ["エヌシーシーエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NDCG", "readings": ["エヌディーシージー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NDCG@K", "readings": ["エヌディーシージーケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Neptune", "readings": ["ネプチューン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "NeRF", "readings": ["ナーフ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Nesterov", "readings": ["ネステロフ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "NeurIPS", "readings": ["ニューリップス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NF4", "readings": ["エヌエフフォー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NIPS", "readings": ["ニップス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NLL", "readings": ["エヌエルエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NLP", "readings": ["エヌエルピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NLTK", "readings": ["エヌエルティーケー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "NPU", "readings": ["エヌピーユー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "num_beams", "readings": ["ナムビームス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "nuScenes", "readings": ["ニューシーンズ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "OCR", "readings": ["オーシーアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OneFormer", "readings": ["ワンフォーマー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ONNX", "readings": ["オンエックス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OpenBookQA", "readings": ["オープンブックキューエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OpenCV", "readings": ["オープンシーブイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ORB-SLAM", "readings": ["オーブスラム"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "P-tuning", "readings": ["ピーチューニング"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "PagedAttention", "readings": ["ペイジドアテンション"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PaLM", "readings": ["パーム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PANet", "readings": ["パネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Papers with Code", "readings": ["ペーパーズウィズコード"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Pascal VOC", "readings": ["パスカルブイオーシー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Pearson", "readings": ["ピアソン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PEFT", "readings": ["ペフト", "ピーイーエフティー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "PESQ", "readings": ["ペスク"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "PFLOPS", "readings": ["ペタフロップス", "ピーフロップス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Pile", "readings": ["パイル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PIQA", "readings": ["ピカ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Pix2Pix", "readings": ["ピクスツーピクス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PointNet", "readings": ["ポイントネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PointNet++", "readings": ["ポイントネットプラスプラス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PointRCNN", "readings": ["ポイントアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Polly", "readings": ["ポリー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PP", "readings": ["ピーピー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PPL", "readings": ["ピーピーエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PPO", "readings": ["ピーピーオー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Precision@K", "readings": ["プレシジョンケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PSNR", "readings": ["ピーエスエヌアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PV-RCNN", "readings": ["ピーブイアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PVCNN", "readings": ["ピーブイシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PWC-Net", "readings": ["ピーダブリューシーネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PyOD", "readings": ["パイオーディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PyTorch", "readings": ["パイトーチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PyTorch Lightning", "readings": ["パイトーチライトニング"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Qdrant", "readings": ["クドラント"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "QLoRA", "readings": ["キューローラ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "QueryDet", "readings": ["クエリーデット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "R-CNN", "readings": ["アールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "R2", "readings": ["アールツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RAdam", "readings": ["アールアダム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "RAFT", "readings": ["ラフト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RAG", "readings": ["ラグ", "アールエージー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Ray Train", "readings": ["レイトレイン"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Recall@K", "readings": ["リコールケー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RedPajama", "readings": ["レッドパジャマ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Rekognition", "readings": ["レコグニション"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "repetition_penalty", "readings": ["リピティションペナルティ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "ResNet", "readings": ["レスネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ResNet-101", "readings": ["レスネットワンオーワン", "レスネットヒャクイチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ResNet-50", "readings": ["レスネットゴーゴー", "レスネットフィフティ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RetinaNet", "readings": ["レティナネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "RL", "readings": ["アールエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RLAIF", "readings": ["アールエルエーアイエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RLHF", "readings": ["アールエルエイチエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RMSE", "readings": ["アールエムエスイー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RMSprop", "readings": ["アールエムエスプロップ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RNN", "readings": ["アールエヌエヌ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "RoBERTa", "readings": ["ローバータ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ROC", "readings": ["アールオーシー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "RoPE", "readings": ["ロープ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ROUGE", "readings": ["ルージュ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SageMaker", "readings": ["セージメーカー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SAM", "readings": ["サム", "エスエーエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SAM 2", "readings": ["サムツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SAR", "readings": ["エスエーアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Scaling Law", "readings": ["スケーリングロー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ScanNet", "readings": ["スキャンネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "scikit-learn", "readings": ["サイキットラーン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SciPy", "readings": ["サイパイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Score-based Model", "readings": ["スコアベースドモデル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SD", "readings": ["エスディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SDEdit", "readings": ["エスディーエディット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SDF", "readings": ["エスディーエフ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SDR", "readings": ["エスディーアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SDXL", "readings": ["エスディーエックスエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SE-Net", "readings": ["エスイーネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SegFormer", "readings": ["セグフォーマー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Segment Anything", "readings": ["セグメントエニシング"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Segment Anything Model", "readings": ["セグメントエニシングモデル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SegNet", "readings": ["セグネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SELU", "readings": ["セルユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SfM", "readings": ["エスエフエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SFT", "readings": ["エスエフティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SGD", "readings": ["エスジーディー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SGDW", "readings": ["エスジーディーダブリュー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ShapeNet", "readings": ["シェイプネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ShuffleNet", "readings": ["シャッフルネット"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SIGGRAPH", "readings": ["シググラフ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SIGGRAPH Oral", "readings": ["シググラフオーラル"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Sigmoid", "readings": ["シグモイド"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SiLU", "readings": ["シル", "エスアイエルユー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SimCLR", "readings": ["シムシーエルアール"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SIR", "readings": ["エスアイアール"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SLAM", "readings": ["スラム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Softplus", "readings": ["ソフトプラス"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SOLO", "readings": ["ソロ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Sora", "readings": ["ソラ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SOTA", "readings": ["ソータ", "エスオーティーエー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Sparse R-CNN", "readings": ["スパースアールシーエヌエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Spearman", "readings": ["スピアマン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SQuAD", "readings": ["スクワッド"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SqueezeNet", "readings": ["スクイーズネット"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SSIM", "readings": ["エスエスアイエム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SST-2", "readings": ["エスエスティーツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Stable Diffusion", "readings": ["ステーブルディフュージョン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "statsmodels", "readings": ["スタッツモデルズ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "StereoNet", "readings": ["ステレオネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "STL-10", "readings": ["エスティーエルテン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "STOI", "readings": ["ストイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "STT", "readings": ["エスティーティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "StyleGAN", "readings": ["スタイルガン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SuGaR", "readings": ["シュガー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SuperGLUE", "readings": ["スーパーグルー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SVHN", "readings": ["エスブイエイチエヌ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SwAV", "readings": ["スワブ", "エスダブリューエーブイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swin", "readings": ["スウィン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swin Transformer", "readings": ["スウィントランスフォーマー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Swin-B", "readings": ["スウィンビー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swin-L", "readings": ["スウィンエル"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swin-T", "readings": ["スウィンティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swin-Unet", "readings": ["スウィンユーネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Swish", "readings": ["スウィッシュ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SyncBatchNorm", "readings": ["シンクバッチノーマライゼーション", "シンクバッチノーム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "T2I-Adapter", "readings": ["ティーツーアイアダプター"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "T5", "readings": ["ティーファイブ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Tanh", "readings": ["タンエイチ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Tensor Core", "readings": ["テンソルコア"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TensorBoard", "readings": ["テンソルボード"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "TensorFlow", "readings": ["テンソーフロー", "テンソルフロー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TensorRT", "readings": ["テンソルアールティー", "テンサーアールティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Textract", "readings": ["テキストラクト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Textual Inversion", "readings": ["テキストアルインバージョン"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "TFLite", "readings": ["テンソルフローライト", "ティーエフライト"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TGI", "readings": ["ティージーアイ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "timm", "readings": ["ティム"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Tiny ImageNet", "readings": ["タイニーイメージネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TOOD", "readings": ["トゥード"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TP", "readings": ["ティーピー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "TPU", "readings": ["ティーピーユー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Transcribe", "readings": ["トランスクライブ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Transformer", "readings": ["トランスフォーマー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Transformers", "readings": ["トランスフォーマーズ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TransUNet", "readings": ["トランスユーネット"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Triplet Loss", "readings": ["トリプレットロス"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Triton", "readings": ["トライトン"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Triton Inference Server", "readings": ["トライトンインファレンスサーバー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TruthfulQA", "readings": ["トゥルースフルキューエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TTS", "readings": ["ティーティーエス"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "U-Net", "readings": ["ユーネット"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "UNet++", "readings": ["ユーネットプラスプラス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VAE", "readings": ["ブイエーイー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Vertex AI", "readings": ["バーテックスエーアイ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Vertex AI Pipelines", "readings": ["バーテックスエーアイパイプラインズ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VG", "readings": ["ブイジー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VGG", "readings": ["ブイージージー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "VGGSound", "readings": ["ブイジージーサウンド"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "VINS-Mono", "readings": ["ヴィンスモノ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Vision Transformer", "readings": ["ビジョントランスフォーマー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Visual Genome", "readings": ["ビジュアルゲノム"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ViT", "readings": ["ブイアイティー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ViT-Base", "readings": ["ブイアイティーベース"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ViT-Large", "readings": ["ブイアイティーラージ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "vLLM", "readings": ["ブイエルエルエム"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "VQAv2", "readings": ["ブイキューエーツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "WandB", "readings": ["ワンディービー"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Wav2Vec", "readings": ["ウェーブツーベック"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Weights & Biases", "readings": ["ウェイツアンドバイゼズ", "ワビ"], "category": "ml-research", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "WER", "readings": ["ダブリューイーアール"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Whisper", "readings": ["ウィスパー"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "WikiText", "readings": ["ウィキテキスト"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "WinoGrande", "readings": ["ウィノグランデ"], "category": "ml-research", "split": "train", "style": "either", "kind": "name"}
+{"surface": "XGBoost", "readings": ["エックスジーブースト"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "XLA", "readings": ["エックスエルエー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "YOLO", "readings": ["ヨーロー", "ヨロ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "YOLOv10", "readings": ["ヨーロブテン"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "YOLOv5", "readings": ["ヨーロブファイブ"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "YOLOv8", "readings": ["ヨーローブイト", "ヨーロブイツー"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "YOLOv9", "readings": ["ヨーロブナイン"], "category": "ml-research", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "YOLOX", "readings": ["ヨーロエックス"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ZeRO", "readings": ["ジーロ", "ゼロ"], "category": "ml-research", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Activity", "readings": ["アクティビティ"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "Airflow", "readings": ["エアフロー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Alacritty", "readings": ["アラクリティ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Alpine.js", "readings": ["アルパインジェーエス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Anaconda", "readings": ["アナコンダ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Android Jetpack", "readings": ["アンドロイドジェットパック"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Android NDK", "readings": ["アンドロイドエヌディーケー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Android SDK", "readings": ["アンドロイドエスディーケー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Angular", "readings": ["アンギュラー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ANSI", "readings": ["アンシ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Apache Spark", "readings": ["アパッチスパーク"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "API", "readings": ["エーピーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Apollo", "readings": ["アポロ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Apollo Client", "readings": ["アポロクライアント"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AppDelegate", "readings": ["アップデリゲート"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AppKit", "readings": ["エーピーキット"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "argmax", "readings": ["アグマックス"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "argmin", "readings": ["アグミン"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "ARKit", "readings": ["エーアールキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ASCII", "readings": ["アスキー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ASP.NET", "readings": ["エーエスピードットネット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ASP.NET Core", "readings": ["エーエスピーネットコア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Astro", "readings": ["アストロ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "async/await", "readings": ["エーシンクアウェイト"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Auth", "readings": ["オース"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "autoconf", "readings": ["オートコンフ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AutoModel", "readings": ["オートモデル"], "category": "programming", "split": "held-out", "style": "latin", "kind": "code"}
+{"surface": "AutoTokenizer", "readings": ["オートトークナイザー"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "AVFoundation", "readings": ["エーブイファウンデーション"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AvgPool", "readings": ["アベレージプール"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "awk", "readings": ["オーク"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Axios", "readings": ["アクシオス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Babel", "readings": ["バベル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Babylon.js", "readings": ["バビロンジェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Bash", "readings": ["バッシュ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BDD", "readings": ["ビーディーディー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Beam", "readings": ["ビーム"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Big O", "readings": ["ビッグオー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Black", "readings": ["ブラック"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Bokeh", "readings": ["ボケ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "BOM", "readings": ["ビーオーエム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Bun", "readings": ["ブン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "C#", "readings": ["シーシャープ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "C++", "readings": ["シープラスプラス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cargo", "readings": ["カーゴ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "cat", "readings": ["キャット"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Celery", "readings": ["セロリ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Chakra UI", "readings": ["チャクラユーアイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Checkstyle", "readings": ["チェックスタイル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CircleCI", "readings": ["サークルシーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CLI", "readings": ["シーエルアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Clojure", "readings": ["クロージャ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CMake", "readings": ["シーメイク", "シーエムエーケー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "COBOL", "readings": ["コボル"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cocoa", "readings": ["ココア"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cocoa Touch", "readings": ["ココアタッチ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CocoaPods", "readings": ["ココアポッズ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Codegen", "readings": ["コードジェン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CodeQL", "readings": ["コードキューエル"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Combine", "readings": ["コンバイン"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Compose Multiplatform", "readings": ["コンポーズマルチプラットフォーム"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "conda", "readings": ["コンダ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Conv2d", "readings": ["コンブツーディー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "code"}
+{"surface": "Core Animation", "readings": ["コアアニメーション"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Core Bluetooth", "readings": ["コアブルートゥース"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core Data", "readings": ["コアデータ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core Graphics", "readings": ["コアグラフィックス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core Motion", "readings": ["コアモーション"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Coroutines", "readings": ["コルーチン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CORS", "readings": ["コーズ", "シーオーアールエス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "CR", "readings": ["シーアール"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CRUD", "readings": ["クラッド", "シーアールユーディー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "CSR", "readings": ["シーエスアール"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CSRF", "readings": ["シーエスアールエフ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "CSS", "readings": ["シーエスエス"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CSS3", "readings": ["シーエスエススリー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CSV", "readings": ["シーエスブイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "cuBLAS", "readings": ["キューブラス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cypress", "readings": ["サイプレス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Cython", "readings": ["サイソン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "D3.js", "readings": ["ディーサースリージェーエス", "ディーサースリー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Dagger", "readings": ["ダガー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "daisyUI", "readings": ["デイジーユーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DAP", "readings": ["ディーエーピー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Dart", "readings": ["ダート"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Dask", "readings": ["ダスク"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DAST", "readings": ["ダスト", "ディーエーエスティー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DataLoader", "readings": ["データローダー"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "dbt", "readings": ["ディービーティー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "dict", "readings": ["ディクト", "ディクショナリ"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "Django", "readings": ["ジャンゴ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DOM", "readings": ["ドム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "E2E", "readings": ["イーツーイー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Echo", "readings": ["エコー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Eclipse", "readings": ["エクリプス"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Electron", "readings": ["エレクトロン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Elixir", "readings": ["エリクサー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Emacs", "readings": ["イーマックス"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Emotion", "readings": ["エモーション"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Erlang", "readings": ["アーラン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ESLint", "readings": ["イーエスリント"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "eval", "readings": ["エバル", "エバリュエート"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Express", "readings": ["エクスプレス"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Express.js", "readings": ["エクスプレスジェイエス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "F#", "readings": ["エフシャープ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Fabric", "readings": ["ファブリック"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "FastAPI", "readings": ["ファストエーピーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "fish", "readings": ["フィッシュ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Flake8", "readings": ["フレークエイト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Flask", "readings": ["フラスク"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Flink", "readings": ["フリンク"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Flipper", "readings": ["フリッパー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Flow", "readings": ["フロー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Flutter", "readings": ["フラッター"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Font Awesome", "readings": ["フォントオーサム"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Fortran", "readings": ["フォートラン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Fragment", "readings": ["フラグメント"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "Framer Motion", "readings": ["フレーマーモーション"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GCD", "readings": ["ジーシーディー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GDB", "readings": ["ジーディービー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gin", "readings": ["ジン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Git", "readings": ["ギット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gitflow", "readings": ["ギットフロー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GitHub Actions", "readings": ["ギットハブアクションズ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GitLab CI", "readings": ["ギットラブシーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GNU", "readings": ["ジーエヌユー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Go", "readings": ["ゴー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gradio", "readings": ["グラディオ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gradle", "readings": ["グラドル", "グレイドル"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Grand Central Dispatch", "readings": ["グランドセントラルディスパッチ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GraphQL", "readings": ["グラフキューエル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "grep", "readings": ["グレップ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Groovy", "readings": ["グルービー"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "gRPC", "readings": ["ジーアールピーシー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GSAP", "readings": ["ジーサップ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "GUI", "readings": ["ジーユーアイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "GUID", "readings": ["ジーユーアイディー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Hapi", "readings": ["ハピ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Haskell", "readings": ["ハスケル"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HCL", "readings": ["エイチシーエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "HEAD", "readings": ["ヘッド"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Headless UI", "readings": ["ヘッドレスユーアイ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "HealthKit", "readings": ["ヘルスキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Hermes", "readings": ["ハーメス"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Heroicons", "readings": ["ヒーローアイコンズ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Hibernate", "readings": ["ハイバネート"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Hilt", "readings": ["ヒルト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Homebrew", "readings": ["ホームブリュー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HomeKit", "readings": ["ホームキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "HTML", "readings": ["エイチティーエムエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "HTML5", "readings": ["エイチティーエムエルファイブ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Hydra", "readings": ["ハイドラ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Hyper", "readings": ["ハイパー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Hypothesis", "readings": ["ハイポセシス"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "IDE", "readings": ["アイディーイー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "input_ids", "readings": ["インプットアイディーズ", "インプットアイディ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "code"}
+{"surface": "Insomnia", "readings": ["インソムニア"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "IntelliJ IDEA", "readings": ["インテリジェイアイディア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Intent", "readings": ["インテント"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "IPA", "readings": ["アイピーエー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ISR", "readings": ["アイエスアール"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Java", "readings": ["ジャバ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "JavaScript", "readings": ["ジャバスクリプト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "JavaScriptCore", "readings": ["ジャバスクリプトコア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Jenkins", "readings": ["ジェンキンス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Jest", "readings": ["ジェスト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Jetpack Compose", "readings": ["ジェットパックコンポーズ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "JIT", "readings": ["ジット", "ジェイアイティー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Jotai", "readings": ["ジョウタイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "jQuery", "readings": ["ジェイクエリー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "JS", "readings": ["ジェイエス"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "JSI", "readings": ["ジェイエスアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "JSON", "readings": ["ジェイソン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "JSON Web Token", "readings": ["ジェイソンウェブトークン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Julia", "readings": ["ジュリア"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Jupyter", "readings": ["ジュピター"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Jupyter Notebook", "readings": ["ジュピターノートブック"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "JWT", "readings": ["ジェイダブリューティー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "KMP", "readings": ["ケーエムピー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Koa", "readings": ["コア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Kotlin", "readings": ["コトリン"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Kotlin Multiplatform", "readings": ["コトリンマルチプラットフォーム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LangChain", "readings": ["ラングチェーン"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LangGraph", "readings": ["ランググラフ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Laravel", "readings": ["ララベル"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LGTM", "readings": ["エルジーティーエム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Lit", "readings": ["リット"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "LiveData", "readings": ["ライブデータ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LlamaIndex", "readings": ["ラマインデックス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LLDB", "readings": ["エルエルディービー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Lottie", "readings": ["ロッティー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LSP", "readings": ["エルエスピー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Lua", "readings": ["ルア"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Lucide", "readings": ["ルシード"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "make", "readings": ["メイク"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Makefile", "readings": ["メイクファイル"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MapKit", "readings": ["マップキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Material Design", "readings": ["マテリアルデザイン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MATLAB", "readings": ["マットラブ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Matplotlib", "readings": ["マットプロットリブ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Maven", "readings": ["メイヴン", "メイブン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MaxPool", "readings": ["マックスプール"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "MD5", "readings": ["エムディーファイブ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Metal", "readings": ["メタル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Miniconda", "readings": ["ミニコンダ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "MobX", "readings": ["モブエックス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MR", "readings": ["エムアール"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MUI", "readings": ["エムユーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MVP", "readings": ["エムブイピー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "mypy", "readings": ["マイパイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NestJS", "readings": ["ネストジェイエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Next.js", "readings": ["ネクストジェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Ninja", "readings": ["ニンジャ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "nn.Module", "readings": ["エヌエヌモジュール"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Node.js", "readings": ["ノードジェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "None", "readings": ["ナン"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "NoSQL", "readings": ["ノーエスキューエル", "ノーシークエル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "npm", "readings": ["エヌピーエム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Numba", "readings": ["ナンバ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NumPy", "readings": ["ナムパイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Nuxt.js", "readings": ["ヌクストジェーエス", "ヌクスト"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "NVM", "readings": ["エヌブイエム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OAuth", "readings": ["オーオース"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Objective-C", "readings": ["オブジェクティブシー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OCaml", "readings": ["オーキャメル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Oh My Zsh", "readings": ["オーマイジーゼットシェル"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "OpenAPI", "readings": ["オープンエーピーアイ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "OpenID Connect", "readings": ["オープンアイディーコネクト"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ORM", "readings": ["オーアールエム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "OSS", "readings": ["オーエスエス"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "output_logits", "readings": ["アウトプットロジット"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Pandas", "readings": ["パンダス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PCL", "readings": ["ピーシーエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Perl", "readings": ["パール"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "PHP", "readings": ["ピーエイチピー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "pip", "readings": ["ピップ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PixiJS", "readings": ["ピクシージェーエス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Playwright", "readings": ["プレイライト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Plotly", "readings": ["プロットリー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "pnpm", "readings": ["ピーエヌピーエム"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Poetry", "readings": ["ポエトリー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Point Cloud Library", "readings": ["ポイントクラウドライブラリ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Polars", "readings": ["ポーラーズ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "POSIX", "readings": ["ポジックス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "PostCSS", "readings": ["ポストシーエスエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Postman", "readings": ["ポストマン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PowerShell", "readings": ["パワーシェル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PR", "readings": ["ピーアール"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Pre-commit", "readings": ["プリコミット"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Preact", "readings": ["プリアクト"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Prefect", "readings": ["プリフェクト"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Prettier", "readings": ["プリティア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Prisma", "readings": ["プリズマ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Protobuf", "readings": ["プロトバフ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Pulumi", "readings": ["プルミ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Puppeteer", "readings": ["パペティア"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PuTTY", "readings": ["パティ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PWA", "readings": ["ピーダブリューエー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PyCharm", "readings": ["パイチャーム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Pydantic", "readings": ["パイダンティック"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "pyenv", "readings": ["パイエンブイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Pylint", "readings": ["パイリント"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PyPI", "readings": ["パイピーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PyPy", "readings": ["パイパイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PySpark", "readings": ["パイスパーク"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "pytest", "readings": ["パイテスト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Python", "readings": ["パイソン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "QA", "readings": ["キューエー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "QC", "readings": ["キューシー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Qwik", "readings": ["クウィック"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "R", "readings": ["アール"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Radix UI", "readings": ["ラディックスユーアイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "RBAC", "readings": ["アールバック"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "React", "readings": ["リアクト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "React Native", "readings": ["リアクトネイティブ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "React Query", "readings": ["リアクトクエリー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RealityKit", "readings": ["リアリティキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Recoil", "readings": ["リコイル"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Redux", "readings": ["リダックス"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "reflog", "readings": ["リフレログ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Relay", "readings": ["リレイ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Remix", "readings": ["レミックス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "REPL", "readings": ["レプル", "アールイーピーエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "requires_grad", "readings": ["リクワイアズグラッド"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "REST", "readings": ["レスト", "アールイーエスティー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "REST API", "readings": ["レストエーピーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Retrofit", "readings": ["レトロフィット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RFC", "readings": ["アールエフシー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "rlogin", "readings": ["アールログイン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Rollup", "readings": ["ロールアップ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Room", "readings": ["ルーム"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RPC", "readings": ["アールピーシー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "RSA", "readings": ["アールエスエー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Ruby", "readings": ["ルビー"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Ruby on Rails", "readings": ["ルビーオンレイルズ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Ruff", "readings": ["ラフ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Rust", "readings": ["ラスト"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Saga", "readings": ["サガ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SAML", "readings": ["サムエル", "エスエーエムエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Sass", "readings": ["サス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SAST", "readings": ["サスト", "エスエーエスティー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "SCA", "readings": ["エスシーエー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Scala", "readings": ["スカラー"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Scala.js", "readings": ["スカラージェイエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SceneKit", "readings": ["シーンキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SDK", "readings": ["エスディーケー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Seaborn", "readings": ["シーボーン"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "sed", "readings": ["セド"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Selenium", "readings": ["セレニウム"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "self", "readings": ["セルフ"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Semantic Kernel", "readings": ["セマンティックカーネル"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SemVer", "readings": ["セムバー", "セマンティックバージョニング"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Sequelize", "readings": ["シークエライズ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SHA", "readings": ["エスエイチエー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "shadcn/ui", "readings": ["シャドシーエヌユーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ShellCheck", "readings": ["シェルチェック"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SOAP", "readings": ["ソープ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SolidJS", "readings": ["ソリッドジェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SonarQube", "readings": ["ソナキューブ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SPA", "readings": ["エスピーエー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Spark", "readings": ["スパーク"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SPM", "readings": ["エスピーエム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Spring", "readings": ["スプリング"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Spring Boot", "readings": ["スプリングブート"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SQL", "readings": ["エスキューエル", "シークエル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SQLAlchemy", "readings": ["エスキューエルアルケミー"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SQLi", "readings": ["エスキューエルアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSG", "readings": ["エスエスジー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSR", "readings": ["エスエスアール"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "state_dict", "readings": ["ステートディクト"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "std", "readings": ["エスティーディー"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "stderr", "readings": ["ステアラー", "スタンダードエラー"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "stdin", "readings": ["エスティン"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "stdout", "readings": ["エスティダウト"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Storybook", "readings": ["ストーリーブック"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Strapi", "readings": ["ストラピ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Streamlit", "readings": ["ストリームリット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "styled-components", "readings": ["スタイルドコンポーネンツ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Svelte", "readings": ["スヴェルト"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Swagger", "readings": ["スワッガー"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Swagger UI", "readings": ["スワッガーユーアイ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Swift", "readings": ["スイフト"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Swift Package Manager", "readings": ["スイフトパッケージマネージャー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SwiftData", "readings": ["スイフトデータ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SwiftUI", "readings": ["スイフトユーアイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Tailwind CSS", "readings": ["テイルウィンドシーエスエス", "テイルウィンド"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TanStack", "readings": ["タンスタック"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TanStack Query", "readings": ["タンスタッククエリ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Tauri", "readings": ["タウリ"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TDD", "readings": ["ティーディーディー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Telnet", "readings": ["テルネット"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Terminator", "readings": ["ターミネーター"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Three.js", "readings": ["スリージェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "tmux", "readings": ["ティーマックス"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "tRPC", "readings": ["ティーアールピーシー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TUI", "readings": ["ティーユーアイ"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Turbo Modules", "readings": ["ターボモジュール"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Turborepo", "readings": ["ターボレポ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TypeORM", "readings": ["タイプオーアールエム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "TypeScript", "readings": ["タイプスクリプト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "UI", "readings": ["ユーアイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "UIKit", "readings": ["ユーアイキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "undefined", "readings": ["アンディファインド"], "category": "programming", "split": "held-out", "style": "either", "kind": "code"}
+{"surface": "unsqueeze", "readings": ["アンスクイーズ"], "category": "programming", "split": "train", "style": "either", "kind": "code"}
+{"surface": "URLSession", "readings": ["ユーアールエルセッション"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "useCallback", "readings": ["ユーースコールバック"], "category": "programming", "split": "held-out", "style": "latin", "kind": "code"}
+{"surface": "useEffect", "readings": ["ユーースエフェクト"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "useMemo", "readings": ["ユーースメモ"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "UserDefaults", "readings": ["ユーザーデフォルト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "useRef", "readings": ["ユーースレフ"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "useState", "readings": ["ユーースステート"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "UTF-8", "readings": ["ユーティーエフエイト", "ユーティーエフハチ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "UUID", "readings": ["ユーユーアイディー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "uv", "readings": ["ユーブイ"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "UX", "readings": ["ユーエックス"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Valgrind", "readings": ["ヴァルグラインド"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Valibot", "readings": ["バリボット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ViewController", "readings": ["ビューコントローラ"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "ViewModel", "readings": ["ビューモデル"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Vim", "readings": ["ヴィム", "ビム"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Vite", "readings": ["ヴィート"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Vitest", "readings": ["バイテスト"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VS Code", "readings": ["ブイエスコード"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Vue.js", "readings": ["ビュージェーエス"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Wasm", "readings": ["ワズム", "ワズエム"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "WebAssembly", "readings": ["ウェブアセンブリ", "ワスマ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "WebGPU", "readings": ["ウェブジーピーユー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Webpack", "readings": ["ウェブパック"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "WebRTC", "readings": ["ウェブアールティーシー"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "WebSocket", "readings": ["ウェブソケット"], "category": "programming", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "WebSockets", "readings": ["ウェブソケッツ"], "category": "programming", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "WidgetKit", "readings": ["ウィジェットキット"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "WorkManager", "readings": ["ワークマネージャー"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "x64", "readings": ["エックスロクヨン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "XML", "readings": ["エックスエムエル"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "XSS", "readings": ["エックスエスエス"], "category": "programming", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "XState", "readings": ["エックスステート"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "YAML", "readings": ["ワイエーエムエル", "ヤムル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Yarn", "readings": ["ヤーン"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Yoga", "readings": ["ヨガ"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "zero_grad", "readings": ["ゼログラッド"], "category": "programming", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Zod", "readings": ["ゾッド"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Zsh", "readings": ["ゼットシェル", "ズィーシェル"], "category": "programming", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Zustand", "readings": ["ツースタンド"], "category": "programming", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ACID", "readings": ["アシッド", "エーシーアイディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ACL", "readings": ["エーシーエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ADLS", "readings": ["エーディーエルエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "AES", "readings": ["エーイーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "AKS", "readings": ["エーケーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ALB", "readings": ["エーエルビー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Amazon RDS", "readings": ["アマゾンアールディーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Android", "readings": ["アンドロイド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Ansible", "readings": ["アンシブル"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Apache", "readings": ["アパッチ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "API Gateway", "readings": ["エーピーアイゲートウェイ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "APM", "readings": ["エーピーエム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "App Check", "readings": ["アップチェック"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "App Engine", "readings": ["アップエンジン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "App Runner", "readings": ["アップランナー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AppSync", "readings": ["アップシンク"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "apt", "readings": ["アプト"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Arch Linux", "readings": ["アーチリナックス", "アーチリヌックス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Argo Workflows", "readings": ["アルゴワークフローズ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ArgoCD", "readings": ["アルゴシーディー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ARP", "readings": ["エーアールピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Arrow", "readings": ["アロー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Artifact", "readings": ["アーティファクト"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Artifact Registry", "readings": ["アーティファクトレジストリ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "ASIC", "readings": ["エーシック", "エーエスアイシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Athena", "readings": ["アテナ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Aurora", "readings": ["オーロラ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Avro", "readings": ["アブロ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "AWS Amplify", "readings": ["エーダブリューエスアンプリファイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AWS Lambda", "readings": ["エーダブリューエスラムダ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Azure", "readings": ["アジュール"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Azure Active Directory", "readings": ["アジュールアクティブディレクトリ", "アズールアクティブディレクトリ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure App Service", "readings": ["アジュールアップサービス", "アズールアップサービス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Blob Storage", "readings": ["アジュールブロブストレージ", "アズールブロブストレージ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Cosmos DB", "readings": ["アジュールコスモスディービー", "アズールコスモスディービー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Data Lake", "readings": ["アジュールデータレイク", "アズールデータレイク"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure DevOps", "readings": ["アジュールデブオプス", "アズールデブオプス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Event Hubs", "readings": ["アジュールイベントハブス", "アズールイベントハブス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Functions", "readings": ["アジュールファンクションズ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure IoT Hub", "readings": ["アジュールアイオーティーハブ", "アズールアイオーティーハブ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Kubernetes Service", "readings": ["アジュールクバネティスサービス", "アズールクバネティスサービス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Logic Apps", "readings": ["アジュールロジックアップス", "アズールロジックアップス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Sentinel", "readings": ["アジュールセンチネル", "アズールセンチネル"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure SQL Database", "readings": ["アジュールエスキューエルデータベース", "アズールエスキューエルデータベース"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Synapse Analytics", "readings": ["アジュールシナプスアナリティクス", "アズールシナプスアナリティクス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Azure Virtual Machines", "readings": ["アジュールバーチャルマシンズ", "アズールバーチャルマシンズ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Batch", "readings": ["バッチ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BGP", "readings": ["ビージーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "BigQuery", "readings": ["ビッグクエリ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Bigtable", "readings": ["ビッグテーブル"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "BIOS", "readings": ["バイオス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Bluetooth", "readings": ["ブルートゥース"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "C&C", "readings": ["シーアンドシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CAP theorem", "readings": ["キャップセオレム"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cassandra", "readings": ["カサンドラ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CD", "readings": ["シーディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CDC", "readings": ["シーディーシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CDK", "readings": ["シーディーケー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CDN", "readings": ["シーディーエヌ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CentOS", "readings": ["セントオーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "chmod", "readings": ["シーモード"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "chown", "readings": ["シーオウン"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "ChromeOS", "readings": ["クロームオーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CI", "readings": ["シーアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CI/CD", "readings": ["シーアイシーディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CIDR", "readings": ["シーアイディーアール"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Cloud Armor", "readings": ["クラウドアーマー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Build", "readings": ["クラウドビルド"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cloud Composer", "readings": ["クラウドコンポーザー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Dataflow", "readings": ["クラウドデータフロー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Dataproc", "readings": ["クラウドデータプロック"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cloud Functions", "readings": ["クラウドファンクションズ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cloud Load Balancing", "readings": ["クラウドロードバランシング"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Logging", "readings": ["クラウドロギング"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Monitoring", "readings": ["クラウドモニタリング"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Pub/Sub", "readings": ["クラウドパブサブ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Run", "readings": ["クラウドラン"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cloud Spanner", "readings": ["クラウドスパナー"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cloud SQL", "readings": ["クラウドエスキューエル"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Storage", "readings": ["クラウドストレージ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloud Trace", "readings": ["クラウドトレース"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloudflare", "readings": ["クラウドフレア"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cloudflare Workers", "readings": ["クラウドフレアワーカーズ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CloudFormation", "readings": ["クラウドフォーメーション"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CloudFront", "readings": ["クラウドフロント"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CloudKit", "readings": ["クラウドキット"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "CloudTrail", "readings": ["クラウドトレイル"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CloudWatch", "readings": ["クラウドウォッチ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CloudWatch Alarms", "readings": ["クラウドウォッチアラームズ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CloudWatch Container Insights", "readings": ["クラウドウォッチコンテナインサイツ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CloudWatch Logs", "readings": ["クラウドウォッチログズ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CloudWatch Metrics", "readings": ["クラウドウォッチメトリクス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CNI", "readings": ["シーエヌアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CodeBuild", "readings": ["コードビルド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CodeCommit", "readings": ["コードコミット"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "CodeDeploy", "readings": ["コードデプロイ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CodePipeline", "readings": ["コードパイプライン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Cognito", "readings": ["コグニート"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Compute Engine", "readings": ["コンピュートエンジン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Config", "readings": ["コンフィグ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "containerd", "readings": ["コンテナディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Control Tower", "readings": ["コントロールタワー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CRD", "readings": ["シーアールディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CRI", "readings": ["シーアールアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "cron", "readings": ["クロン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "code"}
+{"surface": "CSI", "readings": ["シーエスアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "CVE", "readings": ["シーブイイー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Dagster", "readings": ["ダグスター"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Databricks", "readings": ["データブリックス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Datadog Agent", "readings": ["データドッグエージェント"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DCL", "readings": ["ディーシーエル"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "DDL", "readings": ["ディーディーエル"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "DDoS", "readings": ["ディーディオス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Debian", "readings": ["デビアン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DeepLens", "readings": ["ディープレンズ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "DHCP", "readings": ["ディーエイチシーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Direct Connect", "readings": ["ダイレクトコネクト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "DisplayPort", "readings": ["ディスプレイポート"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "DML", "readings": ["ディーエムエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DMZ", "readings": ["ディエムゼット"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DNS", "readings": ["ディーエヌエス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Docker", "readings": ["ドッカー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Docker Compose", "readings": ["ドッカーコンポーズ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Docker Hub", "readings": ["ドッカーハブ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DoS", "readings": ["ドス", "ディーオーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "DRAM", "readings": ["ディーラム"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "DVC", "readings": ["ディーヴィーシー", "ディーブイシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DynamoDB", "readings": ["ダイナモディービー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "EC2", "readings": ["イーシーツー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ECR", "readings": ["イーシーアール"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ECS", "readings": ["イーシーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EKS", "readings": ["イーケーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ElastiCache", "readings": ["エラスティキャッシュ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Elasticsearch", "readings": ["エラスティックサーチ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ELK Stack", "readings": ["イーエルケースタック"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Envoy", "readings": ["エンボイ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "etcd", "readings": ["エトシーディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ETL", "readings": ["イーティーエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EventBridge", "readings": ["イベントブリッジ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "FaaS", "readings": ["ファース"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Fargate", "readings": ["ファーゲート"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Fastly", "readings": ["ファストリ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "FCM", "readings": ["エフシーエム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Fedora", "readings": ["フェドラ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "find", "readings": ["ファインド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "code"}
+{"surface": "Firebase", "readings": ["ファイアベース"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Firebase Cloud Messaging", "readings": ["ファイアベースクラウドメッセージング"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Firestore", "readings": ["ファイアストア"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Fluentd", "readings": ["フルエントディー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Forecast", "readings": ["フォーキャスト"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "FPGA", "readings": ["エフピージーエー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "FQDN", "readings": ["エフキューディーエヌ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "FTP", "readings": ["エフティーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GB", "readings": ["ギガバイト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "GCP", "readings": ["ジーシーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GCR", "readings": ["ジーシーアール"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GCS", "readings": ["ジーシーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "GHz", "readings": ["ギガヘルツ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "Git LFS", "readings": ["ギットエルエフエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GKE", "readings": ["ジーケーイー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Glue", "readings": ["グルー"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Cloud", "readings": ["グーグルクラウド"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Cloud Functions", "readings": ["グーグルクラウドファンクションズ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Cloud Run", "readings": ["グーグルクラウドラン"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Google Drive", "readings": ["グーグルドライブ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Grafana", "readings": ["グラファナ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Ground Station", "readings": ["グラウンドステーション"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GuardDuty", "readings": ["ガードデューティ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "gzip", "readings": ["ギップジー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Hadoop", "readings": ["ハドゥープ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HBM3", "readings": ["エイチビーエムスリー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "HDMI", "readings": ["エイチディーエムアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Helm", "readings": ["ヘルム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Heroku", "readings": ["ヘロク"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "HPA", "readings": ["エイチピーエー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "HTTP", "readings": ["エイチティーティーピー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "HTTPS", "readings": ["エイチティーティーピーエス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "IaC", "readings": ["アイエーシー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "IAM", "readings": ["アイエーエム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "ICMP", "readings": ["アイシーエムピー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "ICMPv6", "readings": ["アイシーエムピーブイシックス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IDS", "readings": ["アイディーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IMAP", "readings": ["アイマップ", "アイエムエーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "InfiniBand", "readings": ["インフィニバンド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Inspector", "readings": ["インスペクター"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "iOS", "readings": ["アイオーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "IoT", "readings": ["アイオーティー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IP", "readings": ["アイピー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "IPS", "readings": ["アイピーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IPsec", "readings": ["アイピーセック"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Istio", "readings": ["イスティオ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Jaeger", "readings": ["イェーガー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "K8s", "readings": ["ケーエイツ", "ケーエイトエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Kafka", "readings": ["カフカ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Kendra", "readings": ["ケンドラ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Kinesis", "readings": ["カイネシス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "kube-proxy", "readings": ["キューブプロキシ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "kubectl", "readings": ["キューブコントロール"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Kubelet", "readings": ["キューブレット"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Kubernetes", "readings": ["クバネティス", "クーバネティス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Lambda", "readings": ["ラムダ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LAN", "readings": ["ラン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "LDAP", "readings": ["エルダップ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Lightsail", "readings": ["ライトセイル"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Linkerd", "readings": ["リンカーディー"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Linux", "readings": ["リナックス", "リヌックス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Local Zones", "readings": ["ローカルゾーン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Loki", "readings": ["ロキ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LPDDR5", "readings": ["エルピーディーディーアールファイブ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "LRU", "readings": ["エルアールユー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MAC", "readings": ["マック", "エムエーシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Macie", "readings": ["メイシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "macOS", "readings": ["マックスオーエス", "マックオーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "macOS Monterey", "readings": ["マックオーエスモンタレー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "macOS Sequoia", "readings": ["マックオーエスセコイア"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "macOS Sonoma", "readings": ["マックオーエスソノマ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "macOS Ventura", "readings": ["マックオーエスベンチュラ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MariaDB", "readings": ["マリアディービー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MB", "readings": ["メガバイト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "Memcached", "readings": ["メムキャッシュド"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MHz", "readings": ["メガヘルツ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "Milvus", "readings": ["ミルバス"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "MongoDB", "readings": ["モンゴディービー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "MQTT", "readings": ["エムキューティーティー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MSK", "readings": ["エムエスケー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MSS", "readings": ["エムエスエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MTU", "readings": ["エムティーユー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "MySQL", "readings": ["マイエスキューエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NAPT", "readings": ["ナプト", "エヌエーピーティー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NAT", "readings": ["ナット", "エヌエーティー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "NATS", "readings": ["ナッツ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Netlify", "readings": ["ネットリファイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NFS", "readings": ["エヌエフエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NFV", "readings": ["エヌエフブイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Nginx", "readings": ["エンジンエックス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "NIC", "readings": ["エヌアイシー", "ニック"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NLB", "readings": ["エヌエルビー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NTP", "readings": ["エヌティーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "NVLink", "readings": ["エヌブイリンク"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NVMe", "readings": ["エヌブイエムイー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OLAP", "readings": ["オーラップ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OLTP", "readings": ["オーエルティーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OpenTelemetry", "readings": ["オープンテレメトリ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Organizations", "readings": ["オーガナイゼーションズ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "OS", "readings": ["オーエス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "OSPF", "readings": ["オーエスピーエフ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Outposts", "readings": ["アウトポスト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Panorama", "readings": ["パノラマ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Parameter Store", "readings": ["パラメーターストア"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Parquet", "readings": ["パーケ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PCI Express", "readings": ["ピーシーアイエクスプレス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "PCIe", "readings": ["ピーシーアイイー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PCIe Gen4", "readings": ["ピーシーアイイージェンフォー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PCIe Gen5", "readings": ["ピーシーアイイージェンファイブ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Personalize", "readings": ["パーソナライズ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Pinecone", "readings": ["パインコーン"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Podman", "readings": ["ポッドマン"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "POP3", "readings": ["ピーオーピースリー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PostgreSQL", "readings": ["ポストグレスキューエル", "ポストグレス", "ポストグレ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Presto", "readings": ["プレスト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Prometheus", "readings": ["プロメテウス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PromQL", "readings": ["プロメクエル", "プロムキューエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Pub/Sub", "readings": ["パブサブ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PV", "readings": ["ピーブイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "PVC", "readings": ["ピーブイシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "QuickSight", "readings": ["クイックサイト"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RabbitMQ", "readings": ["ラビットエムキュー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RADIUS", "readings": ["ラディウス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "Ray", "readings": ["レイ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "RDBMS", "readings": ["アールディービーエムエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RDS", "readings": ["アールディーエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Realtime Database", "readings": ["リアルタイムデータベース"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Redis", "readings": ["レディス"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Redis Sentinel", "readings": ["レディスセンチネル"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Redis Stack", "readings": ["レディススタック"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Redshift", "readings": ["レッドシフト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Remote Config", "readings": ["リモートコンフィグ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ROM", "readings": ["ロム"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Route 53", "readings": ["ルートフィフティスリー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "S3", "readings": ["エススリー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "S3 Bucket", "readings": ["エススリーバケット"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "S3 Glacier", "readings": ["エススリーグレイシャー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SATA", "readings": ["サタ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "screen", "readings": ["スクリーン"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SDN", "readings": ["エスディーエヌ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Secrets Manager", "readings": ["シークレットマネージャー"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SFTP", "readings": ["エスエフティーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Shield", "readings": ["シールド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SIEM", "readings": ["シーム", "エスアイイーエム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SLA", "readings": ["エスエルエー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SLI", "readings": ["エスエルアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SLO", "readings": ["エスエルオー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Slurm", "readings": ["スラーム"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SMTP", "readings": ["エスエムティーピー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Snowflake", "readings": ["スノーフレイク"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SNS", "readings": ["エスエヌエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SOC", "readings": ["エスオーシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SQL Database", "readings": ["エスキューエルデータベース", "シークエルデータベース"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SQLite", "readings": ["エスキューライト"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SQS", "readings": ["エスキューエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SRAM", "readings": ["エスラム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SRE", "readings": ["エスアールイー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSH", "readings": ["エスエスエイチ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSID", "readings": ["エスエスアイディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSL", "readings": ["エスエスエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Stackdriver", "readings": ["スタックドライバー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Step Functions", "readings": ["ステップファンクションズ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "sudo", "readings": ["スード", "スド"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "Supabase", "readings": ["スーパベース"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Syslog", "readings": ["シスログ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "systemd", "readings": ["システムディー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "tar", "readings": ["ター"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "code"}
+{"surface": "TB", "readings": ["テラバイト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "TCP", "readings": ["ティーシーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Terraform", "readings": ["テラフォーム"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Terraform Cloud", "readings": ["テラフォームクラウド"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Thunderbolt", "readings": ["サンダーボルト"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "TLS", "readings": ["ティーエルエス"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "TLS 1.3", "readings": ["ティーエルエスイチテンサン", "ティーエルエスイチサン"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Transit Gateway", "readings": ["トランジットゲートウェイ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Trino", "readings": ["トリノ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TTL", "readings": ["ティーティーエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Ubuntu", "readings": ["ウブントゥ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "UDP", "readings": ["ユーディーピー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "URI", "readings": ["ユーアールアイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "URL", "readings": ["ユーアールエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "USB-C", "readings": ["ユーエスビーシー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "USB4", "readings": ["ユーエスビーフォー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Vagrant", "readings": ["ベイグラント"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Vercel", "readings": ["ヴァーセル", "バーセル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VirtualBox", "readings": ["バーチャルボックス"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "VM", "readings": ["ブイエム"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "VMware", "readings": ["ブイエムウェア"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "VPA", "readings": ["ブイピーエー"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "VPC", "readings": ["ブイピーシー"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "VPN", "readings": ["ブイピーエヌ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "WAF", "readings": ["ダブリューエーエフ"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "WAL", "readings": ["ウォール", "ダブリューエーエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "WAN", "readings": ["ワン"], "category": "cloud-infra", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Wavelength", "readings": ["ウェーブレングス"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Weaviate", "readings": ["ウィーブイエイト"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Wi-Fi", "readings": ["ワイファイ"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Windows", "readings": ["ウィンドウズ"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Windows 10", "readings": ["ウィンドウズテン"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Windows 11", "readings": ["ウィンドウズイレブン"], "category": "cloud-infra", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "WLAN", "readings": ["ダブリューラン"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "WSL", "readings": ["ダブリューエスエル"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Xcode Cloud", "readings": ["エックスコードクラウド"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "zip", "readings": ["ジップ"], "category": "cloud-infra", "split": "train", "style": "either", "kind": "code"}
+{"surface": "Zipkin", "readings": ["ジップキン"], "category": "cloud-infra", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "1Password", "readings": ["ワンパスワード"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "A10", "readings": ["エーテン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "A100", "readings": ["エーヒャク", "エーワンハンドレッド"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ACM", "readings": ["エーシーエム"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Adobe", "readings": ["アドビ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Airbnb", "readings": ["エアビーアンドビー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AirPods", "readings": ["エアーポッズ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Amazon", "readings": ["アマゾン"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "AMD", "readings": ["エーエムディー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Android Studio", "readings": ["アンドロイドスタジオ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Anthropic", "readings": ["アンソロピック"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Apple", "readings": ["アップル"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Apple Silicon", "readings": ["アップルシリコン"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Apple Watch", "readings": ["アップルウォッチ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Appwrite", "readings": ["アップライト"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "ARM", "readings": ["アーム"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "arXiv", "readings": ["アーカイブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Asana", "readings": ["アサナ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "ASML", "readings": ["エーエスエムエル"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ASUS", "readings": ["エイスース", "アスース"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Atlassian", "readings": ["アトラシアン"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Auth0", "readings": ["オースゼロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "AWS", "readings": ["エーダブリューエス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "B200", "readings": ["ビーニヒャク"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "B2B", "readings": ["ビーツービー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "B2C", "readings": ["ビーツーシー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Bitbucket", "readings": ["ビットバケット"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Canva", "readings": ["キャンバ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "ChatGPT", "readings": ["チャットジーピーティー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Chrome", "readings": ["クローム"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Cisco", "readings": ["シスコ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Claude", "readings": ["クロード"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "CMS", "readings": ["シーエムエス"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Colab", "readings": ["コラボ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Confluence", "readings": ["コンフルエンス", "コンフル"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Copilot", "readings": ["コパイロット"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Core i7", "readings": ["コアアイセブン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Core i9", "readings": ["コアアイナイン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CPU", "readings": ["シーピーユー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Crashlytics", "readings": ["クラッシュリティクス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "CRM", "readings": ["シーアールエム"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Cursor", "readings": ["カーソル"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Datadog", "readings": ["データドッグ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DDR5", "readings": ["ディーディーアールファイブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "DeepL", "readings": ["ディープエル"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Dell", "readings": ["デル"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Discord", "readings": ["ディスコード"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "DM", "readings": ["ディーエム"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Dropbox", "readings": ["ドロップボックス"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "EbSynth", "readings": ["イーブシンス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Edge", "readings": ["エッジ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "EDR", "readings": ["イーディーアール"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "EPYC", "readings": ["エピック"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "ERP", "readings": ["イーアールピー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Excel", "readings": ["エクセル"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Facebook", "readings": ["フェイスブック"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Figma", "readings": ["フィグマ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Firefox", "readings": ["ファイアフォックス"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Galaxy", "readings": ["ギャラクシー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GeForce", "readings": ["ジーフォース"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Gemini", "readings": ["ジェミニ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GitHub", "readings": ["ギットハブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GitHub Copilot", "readings": ["ギットハブコパイロット"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "GitKraken", "readings": ["ギットクラーケン"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "GitLab", "readings": ["ギットラブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Google", "readings": ["グーグル"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Colab", "readings": ["グーグルコラボ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Docs", "readings": ["グーグルドックス"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Fonts", "readings": ["グーグルフォント"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Meet", "readings": ["グーグルミート"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Google Sheets", "readings": ["グーグルシーツ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "GPU", "readings": ["ジーピーユー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Groq", "readings": ["グロック"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "H100", "readings": ["エイチヒャク", "エイチワンハンドレッド"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "H200", "readings": ["エイチニヒャク"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "HBM", "readings": ["エイチビーエム"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "HBM3e", "readings": ["エイチビーエムスリーイー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "HDD", "readings": ["エイチディーディー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "HHKB", "readings": ["エイチエイチケービー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "HP", "readings": ["エイチピー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "IaaS", "readings": ["アイアース", "アイエーエーエス"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IBM", "readings": ["アイビーエム"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "IdP", "readings": ["アイディーピー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "IEEE", "readings": ["アイトリプルイー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "iMac", "readings": ["アイマック"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Instagram", "readings": ["インスタグラム", "インスタ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Intel", "readings": ["インテル"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "iPad", "readings": ["アイパッド"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "iPad Air", "readings": ["アイパッドエアー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "iPad Pro", "readings": ["アイパッドプロ"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "iPhone", "readings": ["アイフォン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "iPhone Pro", "readings": ["アイフォンプロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "iPhone SE", "readings": ["アイフォンエスイー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "iTerm2", "readings": ["アイタームツー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Jetson", "readings": ["ジェットソン"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Jira", "readings": ["ジラ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Keychron", "readings": ["キークロン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Kibana", "readings": ["キバナ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Kindle", "readings": ["キンドル"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "KPI", "readings": ["ケーピーアイ"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "L4", "readings": ["エルヨン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "L40S", "readings": ["エルヨンゼロエス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "LCD", "readings": ["エルシーディー"], "category": "it-products", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "LiDAR", "readings": ["ライダー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "LINE", "readings": ["ライン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Linear", "readings": ["リニア"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Logicool", "readings": ["ロジクール"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Logitech", "readings": ["ロジテック"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Logstash", "readings": ["ログスタッシュ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Looker", "readings": ["ルッカー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "LPDDR5X", "readings": ["エルピーディーディーアールファイブエックス"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "M1", "readings": ["エムワン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "M2", "readings": ["エムツー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "M2 Ultra", "readings": ["エムツーウルトラ"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "M3", "readings": ["エムスリー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "M3 Max", "readings": ["エムスリーマックス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "M3 Pro", "readings": ["エムスリープロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Mac mini", "readings": ["マックミニ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Mac Pro", "readings": ["マックプロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Mac Studio", "readings": ["マックスタジオ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "MacBook", "readings": ["マックブック"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MacBook Air", "readings": ["マックブックエアー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MacBook Pro", "readings": ["マックブックプロ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "MCU", "readings": ["エムシーユー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Medium", "readings": ["ミディアム"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Meta", "readings": ["メタ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Microsoft", "readings": ["マイクロソフト"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Microsoft Teams", "readings": ["マイクロソフトチームズ", "チームズ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Midjourney", "readings": ["ミッドジャーニー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Miro", "readings": ["ミロ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "NAND", "readings": ["ナンド"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Neovim", "readings": ["ネオヴィム"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Netflix", "readings": ["ネットフリックス"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "New Relic", "readings": ["ニューレリック"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Nintendo Switch", "readings": ["ニンテンドースイッチ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Notion", "readings": ["ノーション"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Notion AI", "readings": ["ノーションエーアイ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "NVIDIA", "readings": ["エヌビディア"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OKR", "readings": ["オーケーアール"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "OLED", "readings": ["オーエルイーディー"], "category": "it-products", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "OpenAI", "readings": ["オープンエーアイ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OpenAI API", "readings": ["オープンエーアイエーピーアイ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "OpenReview", "readings": ["オープンレビュー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Oracle", "readings": ["オラクル"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "PaaS", "readings": ["パース", "ピーエーエーエス"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Palantir", "readings": ["パランティア"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PayPal", "readings": ["ペイパル"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "PDF", "readings": ["ピーディーエフ"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Perplexity", "readings": ["パープレキシティ"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Pinterest", "readings": ["ピンタレスト"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Pixel", "readings": ["ピクセル"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PlayStation", "readings": ["プレイステーション"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "PoC", "readings": ["ピーオーシー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "PocketBase", "readings": ["ポケットベース"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Qiita", "readings": ["キータ"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Qualcomm", "readings": ["クアルコム"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "RAM", "readings": ["アールエーエム"], "category": "it-products", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "Raspberry Pi", "readings": ["ラズベリーパイ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Razer", "readings": ["レイザー"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Realforce", "readings": ["リアルフォース"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Red Hat", "readings": ["レッドハット"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Reddit", "readings": ["レディット"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "RISC-V", "readings": ["リスクファイブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RSS", "readings": ["アールエスエス"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "RTX", "readings": ["アールティーエックス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RTX 3090", "readings": ["アールティーエックスサンゼロキュウゼロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RTX 4080", "readings": ["アールティーエックスヨンゼロハチゼロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "RTX 4090", "readings": ["アールティーエックスヨンゼロキュウゼロ", "アールティーエックスヨンマルキュウゼロ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Runway", "readings": ["ランウェイ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Ryzen", "readings": ["ライゼン"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Ryzen 7", "readings": ["ライゼンセブン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Ryzen 9", "readings": ["ライゼンナイン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "SaaS", "readings": ["サース", "エスエーエーエス"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "Safari", "readings": ["サファリ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Salesforce", "readings": ["セールスフォース"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Samsung", "readings": ["サムスン"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SendGrid", "readings": ["センドグリッド"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Sentry", "readings": ["セントリー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "SEO", "readings": ["エスイーオー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Slack", "readings": ["スラック"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Sourcetree", "readings": ["ソースツリー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "SpaceX", "readings": ["スペースエックス"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Splunk", "readings": ["スプランク"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Spotify", "readings": ["スポティファイ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Square", "readings": ["スクエア"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "SSD", "readings": ["エスエスディー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "SSO", "readings": ["エスエスオー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Stack Overflow", "readings": ["スタックオーバーフロー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Stripe", "readings": ["ストライプ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Sublime Text", "readings": ["サブライムテキスト"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Surface", "readings": ["サーフェス"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Tesla", "readings": ["テスラ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TestFlight", "readings": ["テストフライト"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "TFLOPS", "readings": ["テラフロップス"], "category": "it-products", "split": "train", "style": "either", "kind": "abbrev"}
+{"surface": "TFT", "readings": ["ティーエフティー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "abbrev"}
+{"surface": "ThinkPad", "readings": ["シンクパッド"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Threadripper", "readings": ["スレッドリッパー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TikTok", "readings": ["ティックトック"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Trello", "readings": ["トレロ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "TSMC", "readings": ["ティーエスエムシー"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "Twilio", "readings": ["トゥイリオ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Twitch", "readings": ["ツイッチ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Uber", "readings": ["ウーバー"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "V100", "readings": ["ブイヒャク"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "VA", "readings": ["ブイエー"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Visual Studio Code", "readings": ["ビジュアルスタジオコード"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "VRAM", "readings": ["ブイラム"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Wacom", "readings": ["ワコム"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Waymo", "readings": ["ウェイモ"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Webex", "readings": ["ウェブエックス"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Windows Terminal", "readings": ["ウィンドウズターミナル"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "X", "readings": ["エックス"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "x86", "readings": ["エックスハチ", "エックスハチロク"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Xcode", "readings": ["エックスコード"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "XDR", "readings": ["エックスディーアール"], "category": "it-products", "split": "train", "style": "latin", "kind": "abbrev"}
+{"surface": "Xeon", "readings": ["ジーオン"], "category": "it-products", "split": "held-out", "style": "latin", "kind": "name"}
+{"surface": "YouTube", "readings": ["ユーチューブ"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Zendesk", "readings": ["ゼンデスク"], "category": "it-products", "split": "train", "style": "either", "kind": "name"}
+{"surface": "Zenn", "readings": ["ゼン"], "category": "it-products", "split": "train", "style": "latin", "kind": "name"}
+{"surface": "Zoom", "readings": ["ズーム"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}
+{"surface": "Zoom Meeting", "readings": ["ズームミーティング"], "category": "it-products", "split": "held-out", "style": "either", "kind": "name"}

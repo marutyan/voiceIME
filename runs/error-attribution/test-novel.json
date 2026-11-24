@@ -1,0 +1,269 @@
+{
+  "source_sha256": {
+    "manifest": "9fb8c7ef83fde5d845a87164871635a97285f62892b2c45b1348fe11202753ac",
+    "first_pass": "a292b8ea5fd985ce28e1f927cc4eb3005657d6fe4251c81bbc0545f1eaf3c233",
+    "qwen": "7cd8359225c28ddc7e815a561b286b95af6a642c3264f76a98ca3c10bd7f5274",
+    "glossary_1": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "glossary_2": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "exclusions": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+    "inference_20": "e0c1e2fa4e133d1a6e19e5e1659a58f53e5abb99c2fce1ef91a60b6dc806c4c2",
+    "list_20": "32e285f2bc65808b3c98f44cf571d724b6e92859c449c84b48d2aa9b0f7b4da6",
+    "inference_32": "ee3682c60821d9b99c1dbc3c73a0d7b3a566fe79559d32f64458d0a21ffaabc2",
+    "list_32": "fef690c5978b2a5ae495b2f351a36bd02bc10d1d5cd8a73d3e3fc676432c0595",
+    "inference_48": "dcf97f0c51307f4a055a710e30def2b9c092767ed6bb99dfb94ff4c6fcac0e99",
+    "list_48": "c716befaf997ed8c17b715a16ff10658853a9e2acd055c0c2e9ca92f8055235a"
+  },
+  "settings": {
+    "score": [
+      75,
+      70,
+      65,
+      60
+    ],
+    "reading": [
+      0,
+      1
+    ],
+    "primary_score": 70,
+    "primary_reading": 0
+  },
+  "audit": {
+    "20": {
+      "rows": 500,
+      "glossary_match": 500,
+      "model_input_match": 500,
+      "terms": 500,
+      "correct": 378,
+      "included": 369,
+      "included_correct": 343,
+      "excluded": 131,
+      "excluded_correct": 35
+    },
+    "32": {
+      "rows": 500,
+      "glossary_match": 500,
+      "model_input_match": 500,
+      "terms": 500,
+      "correct": 403,
+      "included": 414,
+      "included_correct": 382,
+      "excluded": 86,
+      "excluded_correct": 21
+    },
+    "48": {
+      "rows": 500,
+      "glossary_match": 500,
+      "model_input_match": 500,
+      "terms": 500,
+      "correct": 412,
+      "included": 429,
+      "included_correct": 395,
+      "excluded": 71,
+      "excluded_correct": 17
+    }
+  },
+  "selector_vs_formatter_input_differences": {
+    "haas": 0,
+    "qwen": 0
+  },
+  "conditions": {
+    "20": {
+      "cap48": {
+        "added_candidates": 11008,
+        "added_unspoken": 10930,
+        "removed_unspoken": 0,
+        "added_gold": 60,
+        "displaced_gold": 0,
+        "C_added": 33,
+        "B_added": 7,
+        "D_added": 1
+      },
+      "cap64": {
+        "added_candidates": 15299,
+        "added_unspoken": 15215,
+        "removed_unspoken": 0,
+        "added_gold": 63,
+        "displaced_gold": 0,
+        "C_added": 35,
+        "B_added": 7,
+        "D_added": 1
+      },
+      "score70": {
+        "added_candidates": 911,
+        "added_unspoken": 911,
+        "removed_unspoken": 819,
+        "added_gold": 0,
+        "displaced_gold": 6
+      },
+      "score65": {
+        "added_candidates": 2460,
+        "added_unspoken": 2458,
+        "removed_unspoken": 2240,
+        "added_gold": 0,
+        "displaced_gold": 26
+      },
+      "score60": {
+        "added_candidates": 3118,
+        "added_unspoken": 3115,
+        "removed_unspoken": 2854,
+        "added_gold": 1,
+        "displaced_gold": 34,
+        "C_added": 1
+      },
+      "reading0": {
+        "added_candidates": 211,
+        "added_unspoken": 209,
+        "removed_unspoken": 0,
+        "added_gold": 1,
+        "displaced_gold": 0
+      },
+      "reading1": {
+        "added_candidates": 271,
+        "added_unspoken": 264,
+        "removed_unspoken": 0,
+        "added_gold": 3,
+        "displaced_gold": 0,
+        "D_added": 1
+      },
+      "classes": {
+        "B": 10,
+        "C": 81,
+        "D": 7,
+        "A": 24
+      },
+      "B_types": {
+        "below_score": 1,
+        "not_indexed": 2,
+        "rank": 7
+      },
+      "candidate_union": {
+        "B_any_tested": 7,
+        "B_primary": 7,
+        "C_any_tested": 36,
+        "C_primary": 35,
+        "D_any_tested": 2,
+        "D_primary": 1,
+        "A_any_tested": 0,
+        "A_primary": 0
+      },
+      "C_types": {
+        "kanji": 9,
+        "mixed": 8,
+        "latin": 37,
+        "partial": 15,
+        "kana": 11,
+        "sound_drop": 1
+      },
+      "D_types": {
+        "surface_variant": 7
+      },
+      "A_types": {
+        "merged_absent": 19,
+        "merged_present": 5
+      },
+      "merged_exact": {
+        "A": 5,
+        "D": 2
+      }
+    },
+    "32": {
+      "cap48": {
+        "added_candidates": 5756,
+        "added_unspoken": 5740,
+        "removed_unspoken": 0,
+        "added_gold": 15,
+        "displaced_gold": 0,
+        "C_added": 11,
+        "B_added": 1
+      },
+      "cap64": {
+        "added_candidates": 10047,
+        "added_unspoken": 10025,
+        "removed_unspoken": 0,
+        "added_gold": 18,
+        "displaced_gold": 0,
+        "C_added": 13,
+        "B_added": 1
+      },
+      "score70": {
+        "added_candidates": 1365,
+        "added_unspoken": 1363,
+        "removed_unspoken": 1005,
+        "added_gold": 1,
+        "displaced_gold": 7
+      },
+      "score65": {
+        "added_candidates": 4023,
+        "added_unspoken": 4020,
+        "removed_unspoken": 3255,
+        "added_gold": 0,
+        "displaced_gold": 20
+      },
+      "score60": {
+        "added_candidates": 5667,
+        "added_unspoken": 5663,
+        "removed_unspoken": 4819,
+        "added_gold": 1,
+        "displaced_gold": 30,
+        "C_added": 1
+      },
+      "reading0": {
+        "added_candidates": 211,
+        "added_unspoken": 209,
+        "removed_unspoken": 0,
+        "added_gold": 1,
+        "displaced_gold": 0
+      },
+      "reading1": {
+        "added_candidates": 269,
+        "added_unspoken": 262,
+        "removed_unspoken": 0,
+        "added_gold": 3,
+        "displaced_gold": 0,
+        "D_added": 1
+      },
+      "classes": {
+        "B": 4,
+        "C": 58,
+        "D": 5,
+        "A": 30
+      },
+      "B_types": {
+        "below_score": 1,
+        "not_indexed": 2,
+        "rank": 1
+      },
+      "candidate_union": {
+        "B_any_tested": 1,
+        "B_primary": 1,
+        "C_any_tested": 14,
+        "C_primary": 13,
+        "D_any_tested": 1,
+        "D_primary": 0,
+        "A_any_tested": 0,
+        "A_primary": 0
+      },
+      "C_types": {
+        "kanji": 9,
+        "mixed": 5,
+        "latin": 24,
+        "partial": 12,
+        "kana": 8
+      },
+      "D_types": {
+        "surface_variant": 5
+      },
+      "A_types": {
+        "merged_absent": 25,
+        "merged_present": 5
+      },
+      "merged_exact": {
+        "A": 5,
+        "D": 1
+      }
+    }
+  },
+  "selector_commit": "c2ad2769819bcdb3fe1cf90fb760279692206889",
+  "selector_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "rapidfuzz_version": "3.14.6"
+}

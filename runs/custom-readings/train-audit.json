@@ -1,0 +1,16 @@
+{
+  "rows": 1755,
+  "term_types": 347,
+  "max_per_term": 7,
+  "test_novel_term_types_checked": 500,
+  "evaluation_pairs_checked": 72,
+  "source_ids_checked": 1755,
+  "audio_rows_checked": 1755,
+  "sha256": {
+    "train.jsonl": "5d45e175281db9f52dbea463575ebbdc44d01586c3bbdc001f2625948091b0be",
+    "first-pass.jsonl": "d3a627be68cb2a6a3f1ad5df9cee1dd05b3564027084d599d81d14b011c77ddd",
+    "segment-merge.jsonl": "db31015e8a65a0d5f89f1b2c1016b875b56f2b19093e1d13d42f0b350fdf0476",
+    "qwen06-hypothesis.jsonl": "6aaddffbc4ad97575a6d3c0e9cf925eeb970b33c084001ee3d2e9eeacb226d07",
+    "formatter-glossary.jsonl": "80c1c0920412b2927b356389b3e0fed4655fa2e74a86d08b904c563470c09cdc"
+  }
+}

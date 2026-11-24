@@ -1,0 +1,40 @@
+{"id": "dev-say-0001", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "にプッシュしました", "latency_s": 0.040910584037192166, "details": {"decode_s": 0.038819000008516014}}
+{"id": "dev-say-0002", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "どこからをさいきどうします", "latency_s": 0.06668883399106562, "details": {"decode_s": 0.06333862501196563}}
+{"id": "dev-say-0003", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "IDORCH のバリュンがあります", "latency_s": 0.0737989159533754, "details": {"decode_s": 0.06923908297903836}}
+{"id": "dev-say-0004", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "冷蔵庫で返してください", "latency_s": 0.05170737497974187, "details": {"decode_s": 0.048775583039969206}}
+{"id": "dev-say-0005", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "集団が見つからないです", "latency_s": 0.052765208994969726, "details": {"decode_s": 0.050389999989420176}}
+{"id": "dev-say-0006", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "SL にかけておきます", "latency_s": 0.059173124958761036, "details": {"decode_s": 0.05625637492630631}}
+{"id": "dev-say-0007", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "MLX で十分早いです", "latency_s": 0.06010533298831433, "details": {"decode_s": 0.05646187509410083}}
+{"id": "dev-say-0008", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "いやエンベリングの精度が低いです", "latency_s": 0.08484133402816951, "details": {"decode_s": 0.08103245799429715}}
+{"id": "dev-say-0009", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "メールドカー落ちます", "latency_s": 0.04942979209590703, "details": {"decode_s": 0.04686904198024422}}
+{"id": "dev-say-0010", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "COLD のセッションを止めました", "latency_s": 0.05258154193870723, "details": {"decode_s": 0.04927274992223829}}
+{"id": "dev-say-0011", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "道を制します", "latency_s": 0.04216179100330919, "details": {"decode_s": 0.04012124997097999}}
+{"id": "dev-say-0012", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "VS コードが思い出す", "latency_s": 0.060694165993481874, "details": {"decode_s": 0.057466582977212965}}
+{"id": "dev-say-0013", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "／の小さいモデルを試します", "latency_s": 0.060353416949510574, "details": {"decode_s": 0.05770070804283023}}
+{"id": "dev-say-0014", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "トランスフォーマーのラテンションの部分をもう少し軽くしたいんですけど何かいい方法ありますか", "latency_s": 0.1438118329970166, "details": {"decode_s": 0.13431004201993346}}
+{"id": "dev-say-0015", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "フェースからモデルをダウンロードしてMLX の形式に転換してから手元のマスクで動かします", "latency_s": 0.13234429201111197, "details": {"decode_s": 0.12386145803611726}}
+{"id": "dev-say-0016", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "いや十六に裂けたらミラムに収まりました", "latency_s": 0.09764183301012963, "details": {"decode_s": 0.09165541699621826}}
+{"id": "dev-say-0017", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "HURBACTIORNS のワークフローでTYDST が失敗しているのでLOVE を確認してもらえますか", "latency_s": 0.1344483329448849, "details": {"decode_s": 0.12519995809998363}}
+{"id": "dev-say-0018", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "とりあえずファンなすでCSV を読み込んで血論値を確認してみましょう", "latency_s": 0.10634770803153515, "details": {"decode_s": 0.10050620802212507}}
+{"id": "dev-say-0019", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "リアクトのコンポーネントが二回レンダリングされる問題はストリックトモードのせいだと思います", "latency_s": 0.14681891701184213, "details": {"decode_s": 0.13963604101445526}}
+{"id": "dev-say-0020", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "インデックスをはけたらクエリが十ばいくらいはやくなりました", "latency_s": 0.10534458293113858, "details": {"decode_s": 0.10001087503042072}}
+{"id": "dev-say-0021", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "そのラーニングレードが高すぎてニノスが発散しているかもしれないです", "latency_s": 0.1400931669631973, "details": {"decode_s": 0.13333462504670024}}
+{"id": "dev-say-0022", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "メモリ不足で起きているみたいです", "latency_s": 0.09349579096306115, "details": {"decode_s": 0.0893564160214737}}
+{"id": "dev-say-0023", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "OPNAI のAPI 企業環境点数に入れてFSDI のサーバーから呼び出します", "latency_s": 0.14750774996355176, "details": {"decode_s": 0.13731620798353106}}
+{"id": "dev-say-0024", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "タイプスクリプトの片隅が三十件くらい出ています", "latency_s": 0.08901950006838888, "details": {"decode_s": 0.08382758405059576}}
+{"id": "dev-say-0025", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "W＆B で学習曲線を見るとエトック語辺りから科学集しています", "latency_s": 0.10040112503338605, "details": {"decode_s": 0.09480837499722838}}
+{"id": "dev-say-0026", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "ファイルドイヤドギカコンポーズのせつていをみなおしてください", "latency_s": 0.09444666700437665, "details": {"decode_s": 0.08848587505053729}}
+{"id": "dev-say-0027", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "イエロで物体験をしてからセグメントエンジングでマスクを作ります", "latency_s": 0.1149511249968782, "details": {"decode_s": 0.10882033302914351}}
+{"id": "dev-say-0028", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "COD でビルドするとSWIFT のプレミューがなんか固まるんですよね", "latency_s": 0.13288841594476253, "details": {"decode_s": 0.1256304580019787}}
+{"id": "dev-say-0029", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "今日のミーティングではまずLOVE のパイプラインの評価結果を共有してそのあとエンベリングモデルをあのオープンAI のものからオープンソースのものに切り替えるかどうかを決めたいと思います", "latency_s": 0.22601508302614093, "details": {"decode_s": 0.212130333064124}}
+{"id": "dev-say-0030", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "チェックポイントはGOOGLE ドライブに保存して推論だけ手元のM 三袋で動かす予定です", "latency_s": 0.15135204093530774, "details": {"decode_s": 0.14140824996866286}}
+{"id": "dev-say-0031", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "さっきのプルリクなんですけどリベースしたらコンフェリクトが出たのでええマジはスニーいや今日の夕方にやります", "latency_s": 0.1236244160681963, "details": {"decode_s": 0.11525437503587455}}
+{"id": "dev-say-0032", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "ラマの八秒四M 二秒視化してMLX で動かしてみたら一秒あたり四十トークくらい出ました", "latency_s": 0.16235358302947134, "details": {"decode_s": 0.15298729110509157}}
+{"id": "dev-say-0033", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "有無で管理して依存関係はパイプロジェクトと共に変えておけば他の人も同じ環境を再現できます", "latency_s": 0.13594729197211564, "details": {"decode_s": 0.12721816694829613}}
+{"id": "dev-say-0034", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "NEXT JS のラップデートのあとからビルドがすごく細くなっていてタブパジャックを向こうにするとまた元に戻るみたいです", "latency_s": 0.17428108293097466, "details": {"decode_s": 0.16441662493161857}}
+{"id": "dev-say-0035", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "カニはCR と業務の正答率を使ってベースラインのエスターラーティブイ三と比べて差が一ポイント以内なら合格とします", "latency_s": 0.23219516698736697, "details": {"decode_s": 0.2213558329967782}}
+{"id": "dev-say-0036", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "ボスのトークンも有効期限が切れていてリフレッシュトークンで再取得する処理がそもうまく動いていないようです", "latency_s": 0.2727233750047162, "details": {"decode_s": 0.26231345790438354}}
+{"id": "dev-say-0037", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "S にファイルを書き込む時にERA の労源が足りなくてアクセスリーニールドのエラーが出ています", "latency_s": 0.1987953329226002, "details": {"decode_s": 0.18970049999188632}}
+{"id": "dev-say-0038", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "同じΒ拡張と同じエコピーク数で比べてそのあとアブレーションをやります", "latency_s": 0.21518941596150398, "details": {"decode_s": 0.20429662498645484}}
+{"id": "dev-say-0039", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "CORAML に変換したモデルをミューラルエンジンで動かすとGP より消費電力が少なくてまあバクテリーの向きがかなりよくなります", "latency_s": 0.21961520903278142, "details": {"decode_s": 0.19800283398944885}}
+{"id": "dev-say-0040", "system": "reazonspeech-k2-v2-ja-en", "stage": "asr", "hyp": "テラフォームで作ったリソースと手で作ったリソースが混ざっていてステートファイルが実際の状態とずれているのでインポートし直します", "latency_s": 0.17999470804352313, "details": {"decode_s": 0.1688219589414075}}

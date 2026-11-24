@@ -1,0 +1,240 @@
+{
+  "system": "whisper-large-v3-turbo-q4.greedy",
+  "model": "whisper-large-v3-turbo-q4",
+  "backend": "mlx-whisper",
+  "source": "/Users/marutyan/PrivateDev/voiceIME/models/asr/whisper-large-v3-turbo-q4",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+  "n_utterances": 40,
+  "warmup": 1,
+  "git_commit": "9f562c4028b6bc6895a01e5d157854a7311b9244",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T08:54:05.381217+00:00",
+  "top_processes_before": [
+    "173  53.8  96688 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "77460  21.9  10096 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled",
+    "77471  19.3  30592 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "340  14.3  21136 /usr/sbin/coreaudiod",
+    "575  14.0   7840 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+    "62524  12.7 130640 /Users/marutyan/.local/share/uv/tools/google-colab-cli/bin/python",
+    "77459   9.8   9312 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared",
+    "77477   9.2  31008 /Users/marutyan/.local/share/uv/tools/pytest/bin/python"
+  ],
+  "model_load_s": 1.3217280840035528,
+  "load_samples": [
+    {
+      "id": "dev-say-0001",
+      "gpu_util_pct": 82.0,
+      "load1": 4.37
+    },
+    {
+      "id": "dev-say-0002",
+      "gpu_util_pct": 96.0,
+      "load1": 4.37
+    },
+    {
+      "id": "dev-say-0003",
+      "gpu_util_pct": 98.0,
+      "load1": 4.37
+    },
+    {
+      "id": "dev-say-0004",
+      "gpu_util_pct": 98.0,
+      "load1": 4.37
+    },
+    {
+      "id": "dev-say-0005",
+      "gpu_util_pct": 99.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0006",
+      "gpu_util_pct": 98.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0007",
+      "gpu_util_pct": 98.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0008",
+      "gpu_util_pct": 98.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0009",
+      "gpu_util_pct": 99.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0010",
+      "gpu_util_pct": 98.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0011",
+      "gpu_util_pct": 98.0,
+      "load1": 4.26
+    },
+    {
+      "id": "dev-say-0012",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0013",
+      "gpu_util_pct": 98.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0014",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0015",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0016",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0017",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0018",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0019",
+      "gpu_util_pct": 98.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0020",
+      "gpu_util_pct": 99.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0021",
+      "gpu_util_pct": 99.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0022",
+      "gpu_util_pct": 98.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0023",
+      "gpu_util_pct": 98.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0024",
+      "gpu_util_pct": 98.0,
+      "load1": 3.91
+    },
+    {
+      "id": "dev-say-0025",
+      "gpu_util_pct": 98.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0026",
+      "gpu_util_pct": 99.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0027",
+      "gpu_util_pct": 98.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0028",
+      "gpu_util_pct": 99.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0029",
+      "gpu_util_pct": 99.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0030",
+      "gpu_util_pct": 98.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0031",
+      "gpu_util_pct": 99.0,
+      "load1": 3.83
+    },
+    {
+      "id": "dev-say-0032",
+      "gpu_util_pct": 99.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0033",
+      "gpu_util_pct": 99.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0034",
+      "gpu_util_pct": 99.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0035",
+      "gpu_util_pct": 99.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0036",
+      "gpu_util_pct": 98.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0037",
+      "gpu_util_pct": 99.0,
+      "load1": 4.09
+    },
+    {
+      "id": "dev-say-0038",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0039",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    },
+    {
+      "id": "dev-say-0040",
+      "gpu_util_pct": 99.0,
+      "load1": 4.16
+    }
+  ],
+  "mlx_peak_memory_gb": 1.311902886,
+  "max_rss_gb": 0.6365184,
+  "finished_at": "2026-11-20T08:54:39.535497+00:00",
+  "top_processes_after": [
+    "173  46.9 100608 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "77471  25.2  74912 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "78459  23.1  13904 /System/Cryptexes/App/usr/libexec/SafariBookmarksSyncAgent",
+    "78476  22.5  11472 /System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app/Contents/MacOS/sociallayerd",
+    "18300  16.9 411552 claude",
+    "80852  13.3  52464 /Applications/Herdr.app/Contents/MacOS/Herdr",
+    "340  11.7  12928 /usr/sbin/coreaudiod",
+    "46169   8.7 125184 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/157.0.8103.79/Helpers/Google Chrome Helper (Aperitif Renderer).app/Contents/MacOS/Google Chrome Helper (Aperitif Renderer)"
+  ]
+}

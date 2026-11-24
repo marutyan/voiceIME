@@ -1,0 +1,101 @@
+--- train.py
++++ train_rsi.py
+@@ -24,9 +24,10 @@
+ from pathlib import Path
+ 
+ import torch
+-from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
++from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+ 
+ from model_loader import load_formatter_model
++from train_support import AugmentedDataset, ProjectedLossTrainer
+ 
+ from voiceime.formatter.glossary import (
+     DEFAULT_MAX_ENTRIES,
+@@ -407,6 +408,7 @@
+         help="Qwen3.5の構成に応じたmodel_loaderを使う",
+     )
+     p.add_argument("--train", required=True)
++    p.add_argument("--augmentation", required=True, help="監査済みの用語差し替えJSONL")
+     p.add_argument("--val", required=True)
+     p.add_argument("--input-field", default="spoken_text", help="入力に使う欄（ASRの出力を入れた欄に差し替えられる）")
+     p.add_argument("--train-asr-run", help="学習の入力をASRの推論結果の`hyp`にする")
+@@ -571,6 +573,9 @@
+                                  asr_hyps=train_asr_hyps, nohint_hyps=train_nohint_hyps,
+                                  combined_hyps=train_combined_hyps, qwen_hyps=train_qwen_hyps,
+                                  selected_glossaries=train_selected_glossaries)
++    rsi_rows = read_jsonl(args.augmentation)
++    train_set = torch.utils.data.ConcatDataset((train_set, AugmentedDataset(rsi_rows, tokenizer, args)))
++    print(f"学習データ: 元 {len(train_rows)} 件、用語差し替え {len(rsi_rows)} 件、val {len(val_rows)} 件", flush=True)
+     val_set = FormatterDataset(val_rows, val_inputs, val_pool, tokenizer, args, train=False,
+                                asr_hyps=val_asr_hyps, nohint_hyps=val_nohint_hyps,
+                                combined_hyps=val_combined_hyps, qwen_hyps=val_qwen_hyps,
+@@ -587,9 +592,9 @@
+         logging_steps=10,
+         eval_strategy="steps",
+         eval_steps=args.eval_steps,
+-        save_strategy="steps",
+-        save_steps=args.eval_steps,
+-        save_total_limit=2,
++        save_strategy="best",
++        save_total_limit=1,
++        save_only_model=True,
+         # Qwen3.5の保存keyはロード時に接頭辞が正規化されるため、Trainerの直接読込を避ける。
+         load_best_model_at_end=False,
+         metric_for_best_model="eval_loss",
+@@ -602,39 +607,30 @@
+         remove_unused_columns=False,
+         report_to="none",
+     )
+-    trainer = Trainer(model=model, args=training_args, train_dataset=train_set, eval_dataset=val_set,
+-                      data_collator=make_collator(pad_id))
++    trainer = ProjectedLossTrainer(
++        model=model, args=training_args, train_dataset=train_set, eval_dataset=val_set,
++        data_collator=make_collator(pad_id), processing_class=tokenizer,
++    )
+     trainer.train(resume_from_checkpoint=args.resume_from_checkpoint)
+     best_checkpoint = trainer.state.best_model_checkpoint
+     if best_checkpoint is None or not Path(best_checkpoint).is_dir():
+         raise RuntimeError("val損失で選ばれたcheckpointが見つかりません")
+-    # from_pretrainedを通してkey名をモデル形式へ合わせてから、学習済みモデルへ厳密に反映する。
+-    best_model = (
+-        load_formatter_model(best_checkpoint, dtype=weights_dtype)
+-        if args.use_model_loader
+-        else AutoModelForCausalLM.from_pretrained(best_checkpoint, dtype=weights_dtype)
+-    )
+-    trainer.model.load_state_dict(best_model.state_dict(), strict=True)
+-    del best_model
+-    best_eval = trainer.evaluate()
+-
+-    final = trainer.model
+-    if args.method == "lora" and args.save_adapter_only:
+-        final.save_pretrained(out / "adapter", safe_serialization=True)
+-        tokenizer.save_pretrained(out / "adapter")
+-    else:
+-        if args.method == "lora":
+-            final = final.merge_and_unload()
+-        # 持ち帰る量を半分にするためbf16で保存する（手元ではさらに4bitへ量子化する）。
+-        final.to(torch.bfloat16).save_pretrained(out / "final", safe_serialization=True)
+-        tokenizer.save_pretrained(out / "final")
++    # 最後のstepと、従来どおりval lossで選んだ最良のstepをそれぞれ保存する。
++    trainer.save_model(out / "final")
++    best_dir = out / "best"
++    Path(best_checkpoint).rename(best_dir)
+     summary = {
+         "args": vars(args),
+         "cudnn_sdp_enabled": torch.backends.cuda.cudnn_sdp_enabled(),
+         "learning_rate": learning_rate,
+-        "best_checkpoint": trainer.state.best_model_checkpoint,
+-        "best_eval_loss": best_eval["eval_loss"],
+-        "log_history": trainer.state.log_history,
++        "best_checkpoint": str(best_dir),
++        "best_step": trainer.state.best_global_step,
++        "best_eval_loss": trainer.state.best_metric,
++        "last_step": trainer.state.global_step,
++        "train_rows": len(train_rows),
++        "augmentation_rows": len(rsi_rows),
++        "checkpoint_selection_val_rows": len(val_rows),
++        "evaluations": [item for item in trainer.state.log_history if "eval_loss" in item],
+     }
+     (out / "train_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2))
+     print(json.dumps({k: summary[k] for k in ("best_checkpoint", "best_eval_loss")}, indent=2))

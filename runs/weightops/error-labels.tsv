@@ -1,0 +1,227 @@
+split	id	gold_term	error_class	aligned_output	listed_replacement
+val	synth-val-000004	ASR	d		
+val	synth-val-000047	Sora	a	空	
+val	synth-val-000067	eval	a	エバル	
+val	synth-val-000073	OAuth	b	Auth	Auth
+val	synth-val-000082	BiFPN	d		
+val	synth-val-000124	arXiv	a	あの、悪意	
+val	synth-val-000129	timm	a	Tiny	
+val	synth-val-000131	GELU	b	GLU	GLU
+val	synth-val-000165	COCO	d		
+val	synth-val-000166	Sourcetree	e	Zendesk	
+val	synth-val-000172	SuperGLUE	a	SuperTool	
+val	synth-val-000214	Parquet	a	パケット	
+val	synth-val-000240	VS Code	c	vscode	
+val	synth-val-000266	NATS	e	NetEase	
+val	synth-val-000272	CRM	d		
+val	synth-val-000293	Yarn	d		
+val	synth-val-000294	containerd	e	Root Cause ID	
+val	synth-val-000311	BookCorpus	d		
+val	synth-val-000324	EbSynth	e	PyPIの環境を整える予定でした。Vagrant	
+val	synth-val-000328	GitLab	b	GitHub	GitHub
+val	synth-val-000335	self	a	Safe	
+val	synth-val-000340	LoRA	e	RoI	
+val	synth-val-000445	ConvNeXt-Tiny	b	ConvNeXt	ConvNeXt
+val	synth-val-000445	ViT-Base	b	Yiベース	Yi
+val	synth-val-000447	RAM	b	LAMB	LAMB
+val	synth-val-000465	chown	d		
+val	synth-val-000508	DVC	a	DVG	
+val	synth-val-000529	Byte-level BPE	d		
+val	synth-val-000565	MATH	e	must have。	
+val	synth-val-000636	OpenAI API	b	OpenAPI API	OpenAPI
+val	synth-val-000677	arXiv Preprint	a	argprimitile	
+val	synth-val-000691	UUID	a	ユーユーアイディー	
+val	synth-val-000713	Auth0	d		
+val	synth-val-000736	ASML	b	SML	SML
+val	synth-val-000755	ConvNeXt-Tiny	b	ConvNeXt-Large	ConvNeXt-Large
+val	synth-val-000775	None	b	Feature Pyramid Network	Feature Pyramid Network
+val	synth-val-000836	NAS	e	NAND	
+val	synth-val-000852	Koa	e	Cython	
+val	synth-val-000869	CVE	b	CV	CV
+val	synth-val-000996	Sequelize	b	Celery	Celery
+val	synth-val-000996	styled-components	e	style.css	
+val	synth-val-001042	chown	a	C.10	
+val	synth-val-001060	VINS-Mono	a	VINS-2	
+val	synth-val-001065	SIEM	b	Sim(3)	Sim(3)
+val	synth-val-001085	K8s	e	直接検閲	
+val	synth-val-001154	RAFT	b	Lloyd's Algorithm	Lloyd's Algorithm
+val	synth-val-001190	systemd	d		
+val	synth-val-001307	PSNR	e	AとUnsupervised	
+val	synth-val-001353	MAC	c	Mac	
+val	synth-val-001400	DispNet	b	Covalent	Covalent
+val	synth-val-001407	TUI	a	注意	
+val	synth-val-001411	Kubelet	d		
+val	synth-val-001437	YOLOv8	a	YOLO-8	
+val	synth-val-001453	ICCV	b	ECCV	ECCV
+val	synth-val-001465	ELK Stack	d		
+val	synth-val-001473	Zsh	a	ZCel	
+val	synth-val-001512	Lookahead	e	Lucide	
+val	synth-val-001514	EfficientNet-B7	a	EfficientNet-Bert	
+val	synth-val-001543	chown	a	COU	
+val	synth-val-001600	macOS Sonoma	e	macOS Ventura	
+val	synth-val-001601	Vite	e	Bittorrent	
+val	synth-val-001646	cuBLAS	a	kube-ls	
+val	synth-val-001662	Dice	e	Dask	
+val	synth-val-001697	Retrofit	b	Twofish	Twofish
+val	synth-val-001699	SIEM	b	SSIM	SSIM
+val	synth-val-001701	KL	e	kqueue	
+val	synth-val-001709	output_logits	e	Out-of-fold	
+val	synth-val-001727	Swift	e	Svelte	
+val	synth-val-001779	BEiT	e	ViT	
+val	synth-val-001785	LPIPS	a	LPPS	
+val	synth-val-001795	Annoy	d		
+val	synth-val-001815	pyenv	e	PythonVM	
+val	synth-val-001823	Edge	b	EJS	EJS
+val	synth-val-001824	Firefox	d		
+val	synth-val-001865	UIKit	a	QUIT	
+val	synth-val-001867	YOLOv8	a	YaguoVite	
+val	synth-val-001879	GitHub Copilot	d		
+val	synth-val-001887	PaLM	a	ParLM	
+val	synth-val-001891	CER	b	CR	CR
+val	synth-val-001962	SELU	a	SLU	
+val	synth-val-001971	Hits@K	a	Hit@K	
+val	synth-val-001974	GNU	e	Juice	
+val	synth-val-001985	ISR	b	SR	SR
+test-novel	novel-000011	Stacked Hourglass Network	a	Stacked R-Warquet Network	
+test-novel	novel-000012	OCI Runtime	a	オーシーアイランタイム	
+test-novel	novel-000014	k-means	b	KMS	KMS
+test-novel	novel-000021	SharedPreferences	c	Shared Preferences	
+test-novel	novel-000022	YubiKey 5	e	Yubico	
+test-novel	novel-000025	iPerf3	a	iPass3	
+test-novel	novel-000039	VP9	a	vpglobal	
+test-novel	novel-000049	MinGW-w64	b	MinGW	MinGW
+test-novel	novel-000054	Apache License 2.0	a	アパッチライセンス2.0	
+test-novel	novel-000057	INI	c	ini	
+test-novel	novel-000060	chan	a	ちゃん	
+test-novel	novel-000064	Kafka Schema Registry	e	Active Storage Registry	
+test-novel	novel-000071	UITapGestureRecognizer	b	UIGestureRecognizer	UIGestureRecognizer
+test-novel	novel-000072	Grad-TTS	b	GLAD、TTS	GLAD
+test-novel	novel-000079	AWS SES	b	AWS	AWS
+test-novel	novel-000081	Object Queries	b	Object Query	Object Query
+test-novel	novel-000083	SyncBN	c	Sync-BN	
+test-novel	novel-000084	IntPtr	b	int*	int*
+test-novel	novel-000088	shm_unlink	a	shm1link	
+test-novel	novel-000090	ConvNeXt V2	c	ConvNeXt-V2	
+test-novel	novel-000091	date-fns	a	datetime.date.fns	
+test-novel	novel-000097	Toyota	a	Tor	
+test-novel	novel-000098	timezone	a	タイムゾーン	
+test-novel	novel-000103	Opera GX	a	Operational GX	
+test-novel	novel-000104	includeSubDomains	a	インクルードサブドメインズ	
+test-novel	novel-000114	Tagged Template	a	タグドテンプレート	
+test-novel	novel-000119	AWS Systems Manager Run Command	e	AWS Systems Manager Lambda Command	
+test-novel	novel-000121	Create ML	c	createML	
+test-novel	novel-000125	@layer	c	@Layer	
+test-novel	novel-000127	Qwen 2.5 VL	c	Qwen2.5 VL	
+test-novel	novel-000128	Cost Explorer	a	コストエクスプローラー	
+test-novel	novel-000129	Extrinsic Matrix	a	エクストリンジクマティクス	
+test-novel	novel-000130	SQLAlchemy ORM	c	sqlalchemy ORM	
+test-novel	novel-000133	Gibbs sampling	a	ギブスサンプリング	
+test-novel	novel-000140	kubectl exec	a	Sogoku Kyri料理グゼック	
+test-novel	novel-000143	Apache Hive	a	アパッチハイブ	
+test-novel	novel-000148	Spring GraphQL	c	Spring Graph QL	
+test-novel	novel-000149	Apache Presto	a	アパッチプレスト	
+test-novel	novel-000151	tokens per second	a	トークンパーセカンド	
+test-novel	novel-000152	Spring Data Elasticsearch	d		
+test-novel	novel-000154	WH-1000XM5	a	Wh100X5	
+test-novel	novel-000156	manifest.json	d		
+test-novel	novel-000160	sys.stdout.flush	e	sys.stdout.write	
+test-novel	novel-000172	Score Distillation	b	Scalding	Scalding
+test-novel	novel-000173	Vault PKI	a	Bolt、PKI	
+test-novel	novel-000181	yarn remove	e	yarn rm	
+test-novel	novel-000184	TL;DR	c	tldr	
+test-novel	novel-000185	LSM-Tree	c	LSM Tree	
+test-novel	novel-000188	mAP@0.5:0.95	b	mAP@50、0.95	mAP@50
+test-novel	novel-000191	Potential Outcomes	a	ポテンシャルアウトカミュ	
+test-novel	novel-000197	Alpaca-GPT4	a	AlphaGPT-4	
+test-novel	novel-000198	npm workspaces	c	npm-workspaces	
+test-novel	novel-000199	visudo	a	VizD	
+test-novel	novel-000200	FC layer	c	FC Layer	
+test-novel	novel-000202	Apache Iceberg	a	アパッチアイスバーグ	
+test-novel	novel-000203	Mali-G710	b	Marigold 7.5 Turbo	Marigold
+test-novel	novel-000204	mongo-go-driver	d		
+test-novel	novel-000207	RPi.GPIO	a	RPI 10K	
+test-novel	novel-000213	OCI Image	b	OSI Image	OSI
+test-novel	novel-000215	gTTS	a	G2T	
+test-novel	novel-000216	zx	e	Zabbix	
+test-novel	novel-000220	Huffman	a	Half-pan	
+test-novel	novel-000226	DP Alt Mode	a	DP-OL mode	
+test-novel	novel-000227	Needle In A Haystack	a	NiDルインアヘイスタック	
+test-novel	novel-000229	HTTP/1.1	a	http-win-win	
+test-novel	novel-000233	Apache Flink	a	アパッチフリンク	
+test-novel	novel-000241	mAP@0.5	b	mAP@50	mAP@50
+test-novel	novel-000248	Ansible Vault	b	Unsloth Vault	Unsloth
+test-novel	novel-000249	Cortex-M4	b	Cortex-M0	Cortex-M0
+test-novel	novel-000250	Extended Kalman Filter	a	エクステンデッドカルマンフィルター	
+test-novel	novel-000253	ExistingWorkPolicy	d		
+test-novel	novel-000254	NVIDIA Omniverse	a	NVIDIA Omnibus	
+test-novel	novel-000255	MRR@10	a	MR@10	
+test-novel	novel-000256	BIND_AUTO_CREATE	a	バインドオートクリエイト	
+test-novel	novel-000258	Thunderbolt 4	a	Handboothold	
+test-novel	novel-000259	Waymo Open Dataset	a	Wav2Open	
+test-novel	novel-000263	W3C WAI	a	WCWAI	
+test-novel	novel-000269	Intel 4	a	Intelion	
+test-novel	novel-000271	Redis modules	a	レディスモジュール	
+test-novel	novel-000274	MUI X Date Pickers	a	MUI X Data Picts	
+test-novel	novel-000276	GDDR6	e	GDDR5	
+test-novel	novel-000279	OS Fingerprinting	e	os.environ	
+test-novel	novel-000284	HTTP Request Smuggling	e	Http Response Management	
+test-novel	novel-000285	eDRAM	b	EDR	EDR
+test-novel	novel-000286	Teachable Machine	a	T-Chable Machine	
+test-novel	novel-000287	BigUint64Array	e	BigInt64Array	
+test-novel	novel-000293	Bengo4.com	a	Lionel-4.com	
+test-novel	novel-000296	robots.txt	a	robot-text	
+test-novel	novel-000298	BigInt64Array	b	BigInt	BigInt
+test-novel	novel-000304	Dear ImGui	a	dimgv	
+test-novel	novel-000310	LangChain Elasticsearch	c	LangChain Elastic Search	
+test-novel	novel-000314	WaveRNN	a	Weaviate NN	
+test-novel	novel-000315	Spring Data JDBC	a	Spring Data GDBC	
+test-novel	novel-000316	CDN Edge	b	CDNA	CDNA
+test-novel	novel-000323	vSphere HA	a	V-SphereやHA	
+test-novel	novel-000325	Latent Dirichlet Allocation	e	Llama-2とDALL-E 2.0	
+test-novel	novel-000330	0-RTT Handshake	a	Zero RTT Handshake	
+test-novel	novel-000331	Qwen ASR	a	Kuan-SAR	
+test-novel	novel-000334	TextVQA	a	Text-to-VQAv	
+test-novel	novel-000338	Audio LLM	b	AudioLM	AudioLM
+test-novel	novel-000340	Redis Bitmap	a	レディスビットマップ	
+test-novel	novel-000341	Deformable CNN	b	Deformable Conv	Deformable Conv
+test-novel	novel-000345	Ray Core	b	Koa	Koa
+test-novel	novel-000346	Kotlin/Native	a	cat-native	
+test-novel	novel-000347	HTTP 202 Accepted	c	HTTP-202 Accepted	
+test-novel	novel-000351	CNCF	b	CNI CF	CNI
+test-novel	novel-000353	btoa	a	b2a	
+test-novel	novel-000355	associatedtype	a	アソシエイテッドタイプ	
+test-novel	novel-000356	Pulumi OCI	a	Pulumi CI	
+test-novel	novel-000360	bevy_render	a	Villind	
+test-novel	novel-000371	VueUse	b	Vue 3	Vue 3
+test-novel	novel-000373	GMO Payment Gateway	a	GMEP Gateway	
+test-novel	novel-000375	Apache Beam	a	アパッチビーム	
+test-novel	novel-000380	Apache Kafka	a	アパチカフカ	
+test-novel	novel-000381	NPU Accelerator	e	np.array	
+test-novel	novel-000383	std::shared_ptr	d		
+test-novel	novel-000388	Screen Space	a	スクリーンスペース	
+test-novel	novel-000397	Apache Avro	a	アパッチアブロ	
+test-novel	novel-000398	Google Cloud Tasks	e	google-auth	
+test-novel	novel-000407	Linear Non-Gaussian Acyclic Model	d		
+test-novel	novel-000411	"""use strict"""	c	useStrict	
+test-novel	novel-000414	DNS Sinkhole	b	DNS Sinkhorn	Sinkhorn
+test-novel	novel-000416	Apache NiFi	a	アパッチナイファイ	
+test-novel	novel-000421	ImGui	a	意味外	
+test-novel	novel-000424	Ansible Navigator	a	アンシブルナビゲーター	
+test-novel	novel-000425	Auth0 CLI	e	os.environ	
+test-novel	novel-000430	toml::from_str	a	Toml.from_string	
+test-novel	novel-000439	MRR@1	a	MR@1	
+test-novel	novel-000442	MAU/DAU	b	DAU	DAU
+test-novel	novel-000443	window.onload	e	window.load	
+test-novel	novel-000445	Profile Guided Optimization	a	プロファイルガイドドオプティマイゼーション	
+test-novel	novel-000447	TryGetComponent	a	トライゲットコンポーネント	
+test-novel	novel-000450	Page Blob	e	PageRank	
+test-novel	novel-000452	Apache Cassandra	a	アパッチカッサンドラ	
+test-novel	novel-000456	tmux attach	b	T_max attribute	T_max
+test-novel	novel-000463	GTX 1660 Ti	a	GTX 16500 Ti	
+test-novel	novel-000474	tmux window	a	np.maxwindow	
+test-novel	novel-000479	eslint-plugin-react	b	Eclipse ReGLU	Eclipse
+test-novel	novel-000488	isValid	e	withRef	
+test-novel	novel-000489	TCP Three-way Handshake	b	Three-way Handshake	Three-way Handshake
+test-novel	novel-000490	Sony Semiconductor	e	あの、あの、あの、…	
+test-novel	novel-000492	FormGroup	a	フォームグループ	
+test-novel	novel-000497	Screen Space - Camera	c	Screen Space Camera	

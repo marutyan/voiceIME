@@ -1,0 +1,28 @@
+{
+  "train": {
+    "rows": 95931,
+    "omitted_rows": 8369,
+    "target_without_surface": 0,
+    "target_surface_without_list": 352,
+    "target_surface_without_list_or_merge": 328,
+    "changed_relative_to_fix1_sample": 328,
+    "target_surface_without_list_rate": 0.04205998327159756
+  },
+  "augmentation": {
+    "rows": 36778,
+    "omitted_rows": 1822,
+    "target_without_surface": 0,
+    "target_surface_without_list": 245,
+    "target_surface_without_list_or_merge": 225,
+    "changed_relative_to_fix1_sample": 225,
+    "target_surface_without_list_rate": 0.1344676180021954
+  },
+  "total": {
+    "rows": 132709,
+    "omitted_rows": 10191,
+    "target_surface_without_list": 597,
+    "target_surface_without_list_or_merge": 553,
+    "changed_relative_to_fix1_sample": 553,
+    "target_surface_without_list_rate": 0.05858110097144539
+  }
+}

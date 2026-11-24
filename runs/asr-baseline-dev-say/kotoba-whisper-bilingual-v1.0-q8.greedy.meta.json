@@ -1,0 +1,240 @@
+{
+  "system": "kotoba-whisper-bilingual-v1.0-q8.greedy",
+  "model": "kotoba-whisper-bilingual-v1.0-q8",
+  "backend": "mlx-whisper",
+  "source": "/Users/marutyan/PrivateDev/voiceIME/models/asr/kotoba-whisper-bilingual-v1.0-q8",
+  "decode": "greedy",
+  "glossary": false,
+  "manifest": "/Users/marutyan/PrivateDev/voiceIME/data/dev-say/manifest.jsonl",
+  "n_utterances": 40,
+  "warmup": 1,
+  "git_commit": "9f562c4028b6bc6895a01e5d157854a7311b9244",
+  "machine": "macOS-27.3-arm64-arm-64bit",
+  "started_at": "2026-11-20T08:56:34.342920+00:00",
+  "top_processes_before": [
+    "79617  47.5  96688 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd",
+    "173  44.6 110304 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "340  24.0  34256 /usr/sbin/coreaudiod",
+    "142  20.1   6544 /usr/libexec/opendirectoryd",
+    "83354  18.9  30512 /Users/marutyan/PrivateDev/voiceIME/.claude/worktrees/agent-af2ba7b348927fc6c/.venv/bin/python",
+    "83254   9.6  42832 chezmoi",
+    "52751   9.6  85968 /Applications/Slack.app/Contents/Frameworks/Slack Helper (Renderer).app/Contents/MacOS/Slack Helper (Renderer)",
+    "80852   7.9  65392 /Applications/Herdr.app/Contents/MacOS/Herdr"
+  ],
+  "model_load_s": 2.329144624993205,
+  "load_samples": [
+    {
+      "id": "dev-say-0001",
+      "gpu_util_pct": 79.0,
+      "load1": 5.19
+    },
+    {
+      "id": "dev-say-0002",
+      "gpu_util_pct": 96.0,
+      "load1": 5.19
+    },
+    {
+      "id": "dev-say-0003",
+      "gpu_util_pct": 98.0,
+      "load1": 5.19
+    },
+    {
+      "id": "dev-say-0004",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0005",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0006",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0007",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0008",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0009",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0010",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0011",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0012",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0013",
+      "gpu_util_pct": 98.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0014",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0015",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0016",
+      "gpu_util_pct": 99.0,
+      "load1": 5.02
+    },
+    {
+      "id": "dev-say-0017",
+      "gpu_util_pct": 98.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0018",
+      "gpu_util_pct": 99.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0019",
+      "gpu_util_pct": 98.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0020",
+      "gpu_util_pct": 99.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0021",
+      "gpu_util_pct": 98.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0022",
+      "gpu_util_pct": 98.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0023",
+      "gpu_util_pct": 99.0,
+      "load1": 5.17
+    },
+    {
+      "id": "dev-say-0024",
+      "gpu_util_pct": 98.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0025",
+      "gpu_util_pct": 98.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0026",
+      "gpu_util_pct": 99.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0027",
+      "gpu_util_pct": 98.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0028",
+      "gpu_util_pct": 98.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0029",
+      "gpu_util_pct": 99.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0030",
+      "gpu_util_pct": 99.0,
+      "load1": 5.16
+    },
+    {
+      "id": "dev-say-0031",
+      "gpu_util_pct": 99.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0032",
+      "gpu_util_pct": 99.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0033",
+      "gpu_util_pct": 99.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0034",
+      "gpu_util_pct": 98.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0035",
+      "gpu_util_pct": 98.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0036",
+      "gpu_util_pct": 99.0,
+      "load1": 4.91
+    },
+    {
+      "id": "dev-say-0037",
+      "gpu_util_pct": 98.0,
+      "load1": 4.67
+    },
+    {
+      "id": "dev-say-0038",
+      "gpu_util_pct": 99.0,
+      "load1": 4.67
+    },
+    {
+      "id": "dev-say-0039",
+      "gpu_util_pct": 98.0,
+      "load1": 4.67
+    },
+    {
+      "id": "dev-say-0040",
+      "gpu_util_pct": 99.0,
+      "load1": 4.67
+    }
+  ],
+  "mlx_peak_memory_gb": 1.655781766,
+  "max_rss_gb": 0.560152576,
+  "finished_at": "2026-11-20T08:57:10.314995+00:00",
+  "top_processes_after": [
+    "85882  58.6  12608 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+    "173  47.9  93376 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer",
+    "85884  31.4  10496 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+    "340  17.5  13232 /usr/sbin/coreaudiod",
+    "85887  16.2  10464 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+    "105  12.5   4928 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd",
+    "85883  12.0  10496 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+    "85910  10.3  11008 /usr/libexec/trustd"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "system": "sft1-gemma-4-e2b-lora",
+  "model": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft1-gemma-4-e2b-lora/mlx-4bit",
+  "args": {
+    "manifest": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/input-val200.jsonl",
+    "input_field": "spoken_text",
+    "asr_run": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/val-asrsim.jsonl",
+    "model": "/Users/marutyan/PrivateDev/voiceIME/models/formatter/sft1-gemma-4-e2b-lora/mlx-4bit",
+    "system": "sft1-gemma-4-e2b-lora",
+    "out": "/Users/marutyan/PrivateDev/voiceIME/runs/formatter-sft1/sft1-gemma-4-e2b-lora.jsonl",
+    "glossary": [
+      "/Users/marutyan/PrivateDev/voiceIME/data/text/glossary.jsonl"
+    ],
+    "glossary_mode": "select",
+    "max_glossary": 20,
+    "min_score": 75.0,
+    "prefix_cache": true,
+    "limit": null
+  },
+  "n": 200,
+  "glossary_size": 1458,
+  "load_and_warmup_s": 4.696537832962349,
+  "format_latency_median_s": 0.380308874999173,
+  "format_latency_p90_s": 0.6616418372141196,
+  "latency_median_s": 0.380308874999173,
+  "mean_glossary_entries": 15.93,
+  "generation_tps_median": 80.4381599910684,
+  "peak_memory_gb": 2.988941356,
+  "truncated": 0
+}

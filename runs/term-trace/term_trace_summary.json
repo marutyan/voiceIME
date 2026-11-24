@@ -1,0 +1,51 @@
+{
+  "utterances": 50,
+  "term_occurrences": 67,
+  "stage_counts": {
+    "first_pass_exact": 0,
+    "first_pass_reading_near": 30,
+    "gold_candidate_selected": 49,
+    "two_pass_exact": 44,
+    "two_pass_broke_first_pass_correct": 0,
+    "two_pass_moved_farther_from_reading": 25,
+    "formatted_exact": 56,
+    "formatter_fixed": 13,
+    "formatter_broke": 1
+  },
+  "failure_causes": {
+    "first_pass_reading_not_close_or_missing": 8,
+    "formatter_broke_two_pass_correct": 1,
+    "gold_candidate_not_hinted": 1,
+    "two_pass_did_not_correct_term": 1
+  },
+  "reading_distance_histogram": {
+    "0": 19,
+    "1": 6,
+    "10": 1,
+    "2": 9,
+    "3": 11,
+    "4": 7,
+    "5": 7,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 1
+  },
+  "candidate_coverage": {
+    "current_readings": {
+      "correct_candidate_occurrences": 49,
+      "total_occurrences": 67,
+      "accuracy": 0.7313432835820896,
+      "utterances_with_any_correct_candidate": 33
+    },
+    "automatic_abbreviation_readings": {
+      "correct_candidate_occurrences": 49,
+      "total_occurrences": 67,
+      "accuracy": 0.7313432835820896,
+      "utterances_with_any_correct_candidate": 33
+    },
+    "delta_correct_candidate_occurrences": 0
+  },
+  "formatter_input_mismatches": 0,
+  "policy_estimates": {}
+}

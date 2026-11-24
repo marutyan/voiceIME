@@ -1,0 +1,52 @@
+{
+  "system": "qwen3-asr-1.7b",
+  "model": {
+    "repo_id": "Qwen/Qwen3-ASR-1.7B",
+    "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "path": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/models/hf-cache/models--Qwen--Qwen3-ASR-1.7B/snapshots/7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "greedy": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens": 512
+    },
+    "batch_size": 8,
+    "dtype": "bfloat16",
+    "runtime": {
+      "device": "NVIDIA H100",
+      "torch": "2.11.0+cu128"
+    }
+  },
+  "environment_versions": {
+    "qwen-asr": "0.0.6",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "accelerate": "1.12.0",
+    "soundfile": "0.14.0",
+    "safetensors": "0.8.0"
+  },
+  "cuda_visible_devices": "2",
+  "batch_size": 8,
+  "latency_s_definition": "バッチの推論壁時間を、同時に出力された各行へ記録",
+  "started_at_utc": "2026-11-22T13:28:11.015599+00:00",
+  "datasets": {
+    "test-novel": {
+      "rows": 500,
+      "elapsed_s": 351.71418303088285,
+      "latency_mean_s": 5.465429767223075,
+      "latency_median_s": 3.395907649071887,
+      "latency_p90_s": 14.26078296196647,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-test-novel-qwen17-firstpass.jsonl"
+    },
+    "val": {
+      "rows": 1000,
+      "elapsed_s": 274.17574321688153,
+      "latency_mean_s": 2.1883572735860946,
+      "latency_median_s": 1.8928680249955505,
+      "latency_p90_s": 2.881114451913163,
+      "output": "/home/maru/voiceime-work-asr/r3-multiasr-20261122/outputs/multiasr-val-qwen17-firstpass.jsonl"
+    }
+  },
+  "elapsed_s": 659.875000796048,
+  "finished_at_utc": "2026-11-22T13:39:10.885811+00:00"
+}

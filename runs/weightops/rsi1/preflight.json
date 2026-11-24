@@ -1,0 +1,24 @@
+{
+  "span_counterexamples_passed": true,
+  "loss": [
+    {
+      "model": "Qwen3_5ForCausalLM",
+      "gradients": 25,
+      "original_loss": 2.7718489170074463,
+      "projected_loss": 2.7718489170074463
+    },
+    {
+      "model": "Qwen3_5ForConditionalGeneration",
+      "gradients": 25,
+      "original_loss": 4.789397716522217,
+      "projected_loss": 4.789397239685059
+    }
+  ],
+  "selector_same_rows": 128,
+  "augmentation_tokens_drop0": {
+    "rows": 36780,
+    "maximum_sequence_length": 869,
+    "sequence_length_equals_limit": 0,
+    "zero_train_labels": 0
+  }
+}

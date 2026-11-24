@@ -1,0 +1,53 @@
+--- train_fix.py
++++ train_full_drop.py
+@@ -23,6 +23,8 @@
+ import random
+ from pathlib import Path
+ 
++from drop_seen import drop_seen_terms
++
+ import torch
+ from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+ 
+@@ -181,6 +183,9 @@
+         asr_hyps=None, nohint_hyps=None, combined_hyps=None, qwen_hyps=None, selected_glossaries=None,
+     ):
+         self.rows, self.inputs, self.pool, self.tokenizer, self.args, self.train = rows, inputs, pool, tokenizer, args, train
++        self.seen_drop_terms = (
++            set(Path(args.seen_drop_terms).read_text().splitlines()) if train and args.seen_drop_prob else set()
++        )
+         # 学習用だけで使う。各行の実出力（two-passとヒント無し）。`None`の行は音声が無い。
+         self.asr_hyps = asr_hyps or [None] * len(rows)
+         self.nohint_hyps = nohint_hyps or [None] * len(rows)
+@@ -379,6 +384,10 @@
+         )
+         glossary = without_katakana_terms(glossary, row)
+         target = target_for_inputs(row, asr_input, glossary)
++        if self.seen_drop_terms:
++            # 一覧を作った後で抜き、混ぜ物による再追加や他の加工の乱数列への影響を防ぐ。
++            glossary = drop_seen_terms(glossary, row["terms"], target, self.seen_drop_terms,
++                                       self.args.seen_drop_prob, random.Random(sample_seed + 877))
+         return tokenize_pair(self.tokenizer, asr_input, glossary, target, self.args.max_length)
+ 
+ 
+@@ -436,6 +445,8 @@
+     p.add_argument("--glossary", help="学習で使う用語集全体（held-out-termsを含めない）。省略時はtrainの`glossary`の和集合")
+     p.add_argument("--max-glossary", type=int, default=DEFAULT_MAX_ENTRIES)
+     p.add_argument("--glossary-drop-prob", type=float, default=0.15, help="正解の用語を用語集から抜く確率")
++    p.add_argument("--seen-drop-prob", type=float, default=0.0, help="学習済みの正解語を一覧から抜く確率")
++    p.add_argument("--seen-drop-terms", help="一覧から抜く対象の正解語の表記（1行1語）")
+     p.add_argument("--max-distractors", type=int, default=8, help="混ぜる無関係な語の最大数")
+     p.add_argument("--method", choices=["lora", "full"], default="lora")
+     p.add_argument("--lora-r", type=int, default=16)
+@@ -462,7 +473,10 @@
+                    help="LoRAで、統合した重みでなくadapterだけを保存する（持ち帰る量を減らし、手元で統合する）")
+     p.add_argument("--seed", type=int, default=0)
+     p.add_argument("--output-dir", required=True)
+-    return p.parse_args()
++    args = p.parse_args()
++    if not 0 <= args.seen_drop_prob <= 1 or (args.seen_drop_prob and not args.seen_drop_terms):
++        p.error("--seen-drop-probは0〜1で、正なら--seen-drop-termsが必要です")
++    return args
+ 
+ 
+ def main() -> None:

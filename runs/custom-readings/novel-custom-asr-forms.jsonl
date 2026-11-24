@@ -1,0 +1,32 @@
+{"asr": "first_pass", "surface": "ANSI SQL", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "AWS CloudFront", "forms": [{"category": "慣習読みの仮名", "text": "クラウドフロント", "count": 1}]}
+{"asr": "first_pass", "surface": "Amazon DocumentDB", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "Google Kubernetes Engine", "forms": [{"category": "漢字や別の語", "text": "gke", "count": 1}]}
+{"asr": "first_pass", "surface": "IntPtr", "forms": [{"category": "漢字や別の語", "text": "イントptr", "count": 1}]}
+{"asr": "first_pass", "surface": "Intel NUC", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "Neural Radiance Field", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "first_pass", "surface": "Profile Guided Optimization", "forms": [{"category": "漢字や別の語", "text": "pgo", "count": 1}]}
+{"asr": "first_pass", "surface": "Qwen 2.5 VL", "forms": [{"category": "漢字や別の語", "text": "クエ", "count": 1}]}
+{"asr": "first_pass", "surface": "Qwen ASR", "forms": [{"category": "漢字や別の語", "text": "クエン", "count": 1}]}
+{"asr": "first_pass", "surface": "SQLAlchemy ORM", "forms": [{"category": "慣習読みの仮名", "text": "アルケミ", "count": 1}]}
+{"asr": "first_pass", "surface": "USB PD 3.0", "forms": [{"category": "漢字や別の語", "text": "pd", "count": 1}]}
+{"asr": "first_pass", "surface": "asyncio.get_event_loop", "forms": [{"category": "漢字や別の語", "text": "アシンクio", "count": 1}]}
+{"asr": "first_pass", "surface": "eslint-plugin-react", "forms": [{"category": "慣習読みの仮名", "text": "リアクト", "count": 1}]}
+{"asr": "first_pass", "surface": "exec", "forms": [{"category": "慣習読みの仮名", "text": "エグゼック", "count": 1}]}
+{"asr": "first_pass", "surface": "void*", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "ANSI SQL", "forms": [{"category": "漢字や別の語", "text": "シーケル", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "AWS CloudFront", "forms": [{"category": "慣習読みの仮名", "text": "クラウドフロント", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Amazon DocumentDB", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Google Kubernetes Engine", "forms": [{"category": "漢字や別の語", "text": "G K E", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "IntPtr", "forms": [{"category": "漢字や別の語", "text": "int ptr", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Intel NUC", "forms": [{"category": "慣習読みの仮名", "text": "ナック", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Neural Radiance Field", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Profile Guided Optimization", "forms": [{"category": "漢字や別の語", "text": "PG", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Qwen 2.5 VL", "forms": [{"category": "漢字や別の語", "text": "クエン", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "Qwen ASR", "forms": [{"category": "判定不能", "text": "", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "SQLAlchemy ORM", "forms": [{"category": "慣習読みの仮名", "text": "アルケミ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "USB PD 3.0", "forms": [{"category": "漢字や別の語", "text": "PD", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "asyncio.get_event_loop", "forms": [{"category": "漢字や別の語", "text": "アシンクイオ", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "eslint-plugin-react", "forms": [{"category": "慣習読みの仮名", "text": "リアクト", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "exec", "forms": [{"category": "漢字や別の語", "text": "エグゼク", "count": 1}]}
+{"asr": "qwen_hypothesis", "surface": "void*", "forms": [{"category": "慣習読みの仮名", "text": "ボイド", "count": 1}]}

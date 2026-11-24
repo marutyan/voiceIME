@@ -1,0 +1,138 @@
+{
+  "val": {
+    "max20-haas-qwen": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1344,
+      "included": 1305,
+      "included_correct": 1276,
+      "excluded": 122,
+      "excluded_correct": 68
+    },
+    "max20-haas-qwen-whisper": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1349,
+      "included": 1333,
+      "included_correct": 1300,
+      "excluded": 94,
+      "excluded_correct": 49
+    },
+    "max32-haas-qwen": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1344,
+      "included": 1308,
+      "included_correct": 1280,
+      "excluded": 119,
+      "excluded_correct": 64
+    },
+    "max32-haas-qwen-whisper": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1348,
+      "included": 1334,
+      "included_correct": 1298,
+      "excluded": 93,
+      "excluded_correct": 50
+    },
+    "max48-haas-qwen": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1341,
+      "included": 1308,
+      "included_correct": 1277,
+      "excluded": 119,
+      "excluded_correct": 64
+    },
+    "max48-haas-qwen-whisper": {
+      "rows": 1000,
+      "model_input_match": 1000,
+      "glossary_match": 1000,
+      "terms": 1427,
+      "correct": 1346,
+      "included": 1334,
+      "included_correct": 1295,
+      "excluded": 93,
+      "excluded_correct": 51
+    }
+  },
+  "test_novel": {
+    "max20-haas-qwen": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 357,
+      "included": 369,
+      "included_correct": 313,
+      "excluded": 131,
+      "excluded_correct": 44
+    },
+    "max20-haas-qwen-whisper": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 372,
+      "included": 393,
+      "included_correct": 335,
+      "excluded": 107,
+      "excluded_correct": 37
+    },
+    "max32-haas-qwen": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 378,
+      "included": 414,
+      "included_correct": 352,
+      "excluded": 86,
+      "excluded_correct": 26
+    },
+    "max32-haas-qwen-whisper": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 389,
+      "included": 435,
+      "included_correct": 370,
+      "excluded": 65,
+      "excluded_correct": 19
+    },
+    "max48-haas-qwen": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 386,
+      "included": 429,
+      "included_correct": 363,
+      "excluded": 71,
+      "excluded_correct": 23
+    },
+    "max48-haas-qwen-whisper": {
+      "rows": 500,
+      "model_input_match": 500,
+      "glossary_match": 500,
+      "terms": 500,
+      "correct": 395,
+      "included": 450,
+      "included_correct": 380,
+      "excluded": 50,
+      "excluded_correct": 15
+    }
+  }
+}

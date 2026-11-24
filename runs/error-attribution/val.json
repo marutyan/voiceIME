@@ -1,0 +1,172 @@
+{
+  "source_sha256": {
+    "manifest": "b51bfebe8d5fc12c49fb84e9e84659b73573a33fc7fcab375f6d438f69fd1c2b",
+    "first_pass": "da06a7367f16244c3abd69dddd5087c5ffb6e8567412166100145ff77fc5ee4a",
+    "qwen": "b1d5accbd48ff64c59d01fd139e6db294646d5e4487507ee6a02e4e227237401",
+    "glossary_1": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf",
+    "glossary_2": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+    "inference_20": "4656c6cad0a26892c3adad3046a68f01b23b4dd24bb1b474153d258d5e6ff1ad",
+    "list_20": "66d9fd2727d4267217b5cd547ec102f52d40dbb931706068d85541631daef1b5",
+    "inference_32": "e0de3ad1df8a4338c878bef5d7b6e5659c2d83afa6c8362a0050d7826bc6cc97",
+    "list_32": "e4dc7ca66d1f278c9fa77825402f743b081da6edafb5e1fdb9d7d28bb53705cd",
+    "inference_48": "4350ee46aaf6d8aeed6808e7e18dfa4849c99a8ec62f37b624b8a4c3441d365c",
+    "list_48": "8fefb243c2984c304d4a317aa8b7a4d88f33435e5b9da33ebe8bfdeb5df3e63a"
+  },
+  "settings": {
+    "score": [
+      75,
+      70,
+      65,
+      60
+    ],
+    "reading": [
+      0,
+      1
+    ],
+    "primary_score": 70,
+    "primary_reading": 0
+  },
+  "audit": {
+    "20": {
+      "rows": 1000,
+      "glossary_match": 1000,
+      "model_input_match": 1000,
+      "terms": 1427,
+      "correct": 1353,
+      "included": 1305,
+      "included_correct": 1278,
+      "excluded": 122,
+      "excluded_correct": 75
+    },
+    "32": {
+      "rows": 1000,
+      "glossary_match": 1000,
+      "model_input_match": 1000,
+      "terms": 1427,
+      "correct": 1351,
+      "included": 1308,
+      "included_correct": 1278,
+      "excluded": 119,
+      "excluded_correct": 73
+    },
+    "48": {
+      "rows": 1000,
+      "glossary_match": 1000,
+      "model_input_match": 1000,
+      "terms": 1427,
+      "correct": 1349,
+      "included": 1308,
+      "included_correct": 1277,
+      "excluded": 119,
+      "excluded_correct": 72
+    }
+  },
+  "selector_vs_formatter_input_differences": {
+    "haas": 0,
+    "qwen": 146
+  },
+  "conditions": {
+    "20": {
+      "cap48": {
+        "added_candidates": 18979,
+        "added_unspoken": 18963,
+        "removed_unspoken": 0,
+        "added_gold": 3,
+        "displaced_gold": 0,
+        "C_added": 1
+      },
+      "cap64": {
+        "added_candidates": 26405,
+        "added_unspoken": 26389,
+        "removed_unspoken": 0,
+        "added_gold": 3,
+        "displaced_gold": 0,
+        "C_added": 1
+      },
+      "score70": {
+        "added_candidates": 1420,
+        "added_unspoken": 1406,
+        "removed_unspoken": 1087,
+        "added_gold": 12,
+        "displaced_gold": 0,
+        "C_added": 1
+      },
+      "score65": {
+        "added_candidates": 3879,
+        "added_unspoken": 3855,
+        "removed_unspoken": 3031,
+        "added_gold": 20,
+        "displaced_gold": 0,
+        "C_added": 3
+      },
+      "score60": {
+        "added_candidates": 5017,
+        "added_unspoken": 4986,
+        "removed_unspoken": 4042,
+        "added_gold": 27,
+        "displaced_gold": 0,
+        "C_added": 3
+      },
+      "reading0": {
+        "added_candidates": 250,
+        "added_unspoken": 240,
+        "removed_unspoken": 0,
+        "added_gold": 9,
+        "displaced_gold": 0,
+        "B_added": 1,
+        "C_added": 1,
+        "C_position_confirmed": 1
+      },
+      "reading1": {
+        "added_candidates": 326,
+        "added_unspoken": 315,
+        "removed_unspoken": 0,
+        "added_gold": 10,
+        "displaced_gold": 0,
+        "B_added": 1,
+        "C_added": 1,
+        "C_position_confirmed": 1
+      },
+      "classes": {
+        "A": 25,
+        "C": 43,
+        "B": 2,
+        "D": 4
+      },
+      "A_types": {
+        "merged_present": 13,
+        "merged_absent": 12
+      },
+      "merged_exact": {
+        "A": 13
+      },
+      "candidate_union": {
+        "A_any_tested": 0,
+        "A_primary": 0,
+        "C_any_tested": 5,
+        "C_primary": 3,
+        "B_any_tested": 1,
+        "B_primary": 1,
+        "D_any_tested": 0,
+        "D_primary": 0
+      },
+      "C_types": {
+        "sound_drop": 3,
+        "kanji": 10,
+        "kana": 19,
+        "latin": 8,
+        "mixed": 1,
+        "partial": 2
+      },
+      "B_types": {
+        "not_indexed": 2
+      },
+      "D_types": {
+        "surface_variant": 4
+      }
+    }
+  },
+  "selector_commit": "c2ad2769819bcdb3fe1cf90fb760279692206889",
+  "selector_sha256": "e9db1b5d7ba52703300b4cb29099f2cb8da791361f6f895e931eac5f75eeedfa",
+  "rapidfuzz_version": "3.14.6"
+}

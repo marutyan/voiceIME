@@ -1,0 +1,331 @@
+{
+  "conditions": {
+    "min_score": 75.0,
+    "max_entries": 16,
+    "v1": {
+      "path": "data/text/glossary.jsonl",
+      "entries": 1458,
+      "sha256": "008fdc9223406c950e80f940dc10b2215c1d90a46f82e35c35a30062d250fccf"
+    },
+    "v2_old": {
+      "path": "data/text/glossary-v2.jsonl",
+      "entries": 31332,
+      "sha256": "7a46b80506fa7e7983a005db83d241c253f8878413b3bf5a9406daf1d6b798c9",
+      "exclude_sha256": "62ee11ebea71edf3083a70edd1ea0a598dfd593879d7a3d8505483c86de8f51e",
+      "raw_entries": 31415,
+      "excluded_terms_listed": 84,
+      "excluded_entries_removed": 83
+    },
+    "v2_new": {
+      "priority_order": [
+        "v1",
+        "user glossary",
+        "v2"
+      ],
+      "entries": 31332,
+      "user_glossary_files": 0
+    },
+    "k_values": [
+      4,
+      8,
+      16
+    ],
+    "unit": "gold-term occurrence; unrelated means not listed in that utterance's terms",
+    "index_build_time_excluded_from_selection_ms": true,
+    "selection_max_bigram_postings": 100,
+    "selection_max_trigram_postings": 500
+  },
+  "datasets": {
+    "dev-user": {
+      "utterances": 100,
+      "results": [
+        {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 37,
+            "8": 44,
+            "16": 51
+          },
+          "hit_rates": {
+            "4": 0.5522388059701493,
+            "8": 0.6567164179104478,
+            "16": 0.7611940298507462
+          },
+          "unrelated_candidates_at_16": 1068,
+          "unrelated_per_utterance_at_16": 10.68,
+          "mean_selected_at_16": 11.19,
+          "selection_ms_median": 7.7967289835214615,
+          "selection_ms_p90": 12.401874375063926,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 49,
+            "8": 58,
+            "16": 60
+          },
+          "hit_rates": {
+            "4": 0.7313432835820896,
+            "8": 0.8656716417910447,
+            "16": 0.8955223880597015
+          },
+          "unrelated_candidates_at_16": 1268,
+          "unrelated_per_utterance_at_16": 12.68,
+          "mean_selected_at_16": 13.28,
+          "selection_ms_median": 1.2443960877135396,
+          "selection_ms_p90": 3.046124684624374,
+          "index_build_ms": 17.996457987464964
+        },
+        {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 34,
+            "8": 42,
+            "16": 45
+          },
+          "hit_rates": {
+            "4": 0.5074626865671642,
+            "8": 0.6268656716417911,
+            "16": 0.6716417910447762
+          },
+          "unrelated_candidates_at_16": 1384,
+          "unrelated_per_utterance_at_16": 13.84,
+          "mean_selected_at_16": 14.29,
+          "selection_ms_median": 182.18318751314655,
+          "selection_ms_p90": 271.92655884427967,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 100,
+          "gold_terms_available": 67,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 52,
+            "8": 58,
+            "16": 59
+          },
+          "hit_rates": {
+            "4": 0.7761194029850746,
+            "8": 0.8656716417910447,
+            "16": 0.8805970149253731
+          },
+          "unrelated_candidates_at_16": 1271,
+          "unrelated_per_utterance_at_16": 12.71,
+          "mean_selected_at_16": 13.3,
+          "selection_ms_median": 3.021292039193213,
+          "selection_ms_p90": 11.724678834434604,
+          "index_build_ms": 458.3462500013411
+        }
+      ]
+    },
+    "test-novel": {
+      "utterances": 500,
+      "results": [
+        {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 500,
+          "gold_terms_available": 0,
+          "gold_terms_not_in_glossary": 500,
+          "hit_counts": {
+            "4": 0,
+            "8": 0,
+            "16": 0
+          },
+          "hit_rates": {
+            "4": null,
+            "8": null,
+            "16": null
+          },
+          "unrelated_candidates_at_16": 5901,
+          "unrelated_per_utterance_at_16": 11.802,
+          "mean_selected_at_16": 11.802,
+          "selection_ms_median": 7.433687511365861,
+          "selection_ms_p90": 11.061158019583672,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 500,
+          "gold_terms_available": 0,
+          "gold_terms_not_in_glossary": 500,
+          "hit_counts": {
+            "4": 0,
+            "8": 0,
+            "16": 0
+          },
+          "hit_rates": {
+            "4": null,
+            "8": null,
+            "16": null
+          },
+          "unrelated_candidates_at_16": 7365,
+          "unrelated_per_utterance_at_16": 14.73,
+          "mean_selected_at_16": 14.73,
+          "selection_ms_median": 1.0807290091179311,
+          "selection_ms_p90": 2.6237580575980246,
+          "index_build_ms": 18.090041005052626
+        },
+        {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 500,
+          "gold_terms_available": 500,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 76,
+            "8": 102,
+            "16": 145
+          },
+          "hit_rates": {
+            "4": 0.152,
+            "8": 0.204,
+            "16": 0.29
+          },
+          "unrelated_candidates_at_16": 7747,
+          "unrelated_per_utterance_at_16": 15.494,
+          "mean_selected_at_16": 15.784,
+          "selection_ms_median": 182.09383299108595,
+          "selection_ms_p90": 260.69647504482424,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 500,
+          "gold_terms_available": 500,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 46,
+            "8": 160,
+            "16": 286
+          },
+          "hit_rates": {
+            "4": 0.092,
+            "8": 0.32,
+            "16": 0.572
+          },
+          "unrelated_candidates_at_16": 7369,
+          "unrelated_per_utterance_at_16": 14.738,
+          "mean_selected_at_16": 15.31,
+          "selection_ms_median": 3.48129152553156,
+          "selection_ms_p90": 8.976325311232358,
+          "index_build_ms": 484.5233339583501
+        }
+      ]
+    },
+    "val": {
+      "utterances": 1000,
+      "results": [
+        {
+          "selector": "v1_old",
+          "glossary_size": 1458,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 811,
+            "8": 1046,
+            "16": 1143
+          },
+          "hit_rates": {
+            "4": 0.5683251576734408,
+            "8": 0.7330063069376314,
+            "16": 0.8009810791871058
+          },
+          "unrelated_candidates_at_16": 11451,
+          "unrelated_per_utterance_at_16": 11.451,
+          "mean_selected_at_16": 12.594,
+          "selection_ms_median": 7.658229034859687,
+          "selection_ms_p90": 11.242475383915007,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v1_new",
+          "glossary_size": 1458,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 998,
+            "8": 1123,
+            "16": 1184
+          },
+          "hit_rates": {
+            "4": 0.6993693062368606,
+            "8": 0.7869656622284513,
+            "16": 0.8297126839523475
+          },
+          "unrelated_candidates_at_16": 13218,
+          "unrelated_per_utterance_at_16": 13.218,
+          "mean_selected_at_16": 14.402,
+          "selection_ms_median": 1.0127915302291512,
+          "selection_ms_p90": 2.7419211342930794,
+          "index_build_ms": 24.304958060383797
+        },
+        {
+          "selector": "v2_old",
+          "glossary_size": 31332,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 781,
+            "8": 987,
+            "16": 1068
+          },
+          "hit_rates": {
+            "4": 0.547302032235459,
+            "8": 0.6916608269096005,
+            "16": 0.7484232655921513
+          },
+          "unrelated_candidates_at_16": 14240,
+          "unrelated_per_utterance_at_16": 14.24,
+          "mean_selected_at_16": 15.308,
+          "selection_ms_median": 184.4875630340539,
+          "selection_ms_p90": 274.3709002737887,
+          "index_build_ms": null
+        },
+        {
+          "selector": "v2_new_priority_v1_plus_v2",
+          "glossary_size": 31332,
+          "utterances": 1000,
+          "gold_terms_available": 1427,
+          "gold_terms_not_in_glossary": 0,
+          "hit_counts": {
+            "4": 1062,
+            "8": 1170,
+            "16": 1207
+          },
+          "hit_rates": {
+            "4": 0.744218640504555,
+            "8": 0.8199018920812894,
+            "16": 0.8458304134548003
+          },
+          "unrelated_candidates_at_16": 13401,
+          "unrelated_per_utterance_at_16": 13.401,
+          "mean_selected_at_16": 14.608,
+          "selection_ms_median": 2.9576460365206003,
+          "selection_ms_p90": 9.687578829471022,
+          "index_build_ms": 463.535875082016
+        }
+      ]
+    }
+  }
+}

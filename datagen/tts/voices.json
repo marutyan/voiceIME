@@ -1,0 +1,242 @@
+[
+ {
+  "speaker": "tts-voice-01",
+  "use": "train-val",
+  "gender": "f",
+  "age": 20,
+  "description_en": "A Japanese woman in her 20s with a bright, slightly high voice, lively and quick, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人女性。明るくやや高めの声で、テンポよく話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-02",
+  "use": "train-val",
+  "gender": "f",
+  "age": 20,
+  "description_en": "A Japanese woman in her 20s with a soft, breathy voice, a little shy, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人女性。柔らかく息まじりの声で、少し控えめに話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-03",
+  "use": "train-val",
+  "gender": "f",
+  "age": 30,
+  "description_en": "A Japanese woman in her 30s with a calm, clear voice, explaining work to a colleague, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人女性。落ち着いた明瞭な声で、同僚に仕事を説明するように話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-04",
+  "use": "train-val",
+  "gender": "f",
+  "age": 30,
+  "description_en": "A Japanese woman in her 30s with a warm mid-range voice, friendly and relaxed, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人女性。温かみのある中音域の声で、親しみやすくくつろいだ調子で話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-05",
+  "use": "train-val",
+  "gender": "f",
+  "age": 30,
+  "description_en": "A Japanese woman in her 30s with a crisp, businesslike voice, slightly fast, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人女性。きびきびした事務的な声で、やや速めに話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-06",
+  "use": "train-val",
+  "gender": "f",
+  "age": 40,
+  "description_en": "A Japanese woman in her 40s with a low, husky voice, thoughtful and measured, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人女性。低めでややハスキーな声で、考えながら区切って話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-07",
+  "use": "train-val",
+  "gender": "f",
+  "age": 40,
+  "description_en": "A Japanese woman in her 40s with a gentle, polite voice, speaking carefully, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人女性。穏やかで丁寧な声で、言葉を選びながら話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-08",
+  "use": "train-val",
+  "gender": "f",
+  "age": 50,
+  "description_en": "A Japanese woman in her 50s with a mature, steady voice with clear articulation, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "50代の日本人女性。落ち着いた大人の声で、はっきりと発音して話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-09",
+  "use": "train-val",
+  "gender": "f",
+  "age": 50,
+  "description_en": "A Japanese woman in her 50s with a cheerful, slightly nasal voice, chatty, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "50代の日本人女性。明るくやや鼻にかかった声で、おしゃべりな調子で話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-10",
+  "use": "train-val",
+  "gender": "f",
+  "age": 60,
+  "description_en": "A Japanese woman in her 60s with a soft, slightly slow elderly voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "60代の日本人女性。柔らかく、ややゆっくりした年配の声で話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-11",
+  "use": "train-val",
+  "gender": "f",
+  "age": 20,
+  "description_en": "A Japanese woman in her 20s with a flat, low-energy voice, a bit sleepy, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人女性。抑揚の少ない声で、少し眠そうに話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-12",
+  "use": "train-val",
+  "gender": "f",
+  "age": 40,
+  "description_en": "A Japanese woman in her 40s with an energetic, confident voice, like presenting at a lab meeting, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人女性。張りのある自信を持った声で、研究室のミーティングで発表するように話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-13",
+  "use": "train-val",
+  "gender": "m",
+  "age": 20,
+  "description_en": "A Japanese man in his 20s with a light tenor voice, casual and quick, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人男性。軽いテノールの声で、くだけた調子でテンポよく話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-14",
+  "use": "train-val",
+  "gender": "m",
+  "age": 20,
+  "description_en": "A Japanese man in his 20s with a slightly low voice, mumbling as if talking to himself, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人男性。やや低めの声で、独り言のようにぼそぼそと話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-15",
+  "use": "train-val",
+  "gender": "m",
+  "age": 30,
+  "description_en": "A Japanese man in his 30s with a clear baritone voice, explaining code to a teammate, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人男性。はっきりしたバリトンの声で、チームの仲間にコードを説明するように話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-16",
+  "use": "train-val",
+  "gender": "m",
+  "age": 30,
+  "description_en": "A Japanese man in his 30s with a relaxed mid-range voice, friendly, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人男性。くつろいだ中音域の声で、親しみやすく話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-17",
+  "use": "train-val",
+  "gender": "m",
+  "age": 30,
+  "description_en": "A Japanese man in his 30s with a fast, slightly excited voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人男性。やや早口で、少し興奮した調子で話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-18",
+  "use": "train-val",
+  "gender": "m",
+  "age": 40,
+  "description_en": "A Japanese man in his 40s with a slightly low, matter-of-fact voice, talking with a coworker in a meeting, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人男性。やや低めの声で、会議で同僚と話すように淡々と話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-19",
+  "use": "train-val",
+  "gender": "m",
+  "age": 40,
+  "description_en": "A Japanese man in his 40s with a deep, calm voice, speaking slowly and deliberately, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人男性。深く落ち着いた声で、ゆっくり慎重に話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-20",
+  "use": "train-val",
+  "gender": "m",
+  "age": 50,
+  "description_en": "A Japanese man in his 50s with a gravelly voice, plain and direct, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "50代の日本人男性。ややしゃがれた声で、飾らず率直に話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-21",
+  "use": "train-val",
+  "gender": "m",
+  "age": 50,
+  "description_en": "A Japanese man in his 50s with a warm, professorial voice, explaining patiently, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "50代の日本人男性。温かみのある先生のような声で、丁寧に説明する。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-22",
+  "use": "train-val",
+  "gender": "m",
+  "age": 60,
+  "description_en": "A Japanese man in his 60s with an older, slightly hoarse voice, unhurried, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "60代の日本人男性。少しかすれた年配の声で、急がずに話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-23",
+  "use": "train-val",
+  "gender": "m",
+  "age": 30,
+  "description_en": "A Japanese man in his 30s with a soft, quiet voice, a little hesitant, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人男性。柔らかく小さめの声で、少しためらいがちに話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-24",
+  "use": "train-val",
+  "gender": "m",
+  "age": 40,
+  "description_en": "A Japanese man in his 40s with a bright, energetic voice, upbeat, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人男性。明るく元気な声で、軽快に話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-25",
+  "use": "test-synth",
+  "gender": "f",
+  "age": 20,
+  "description_en": "A Japanese woman in her 20s with a clear, youthful voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人女性。若く澄んだ声で、自然に話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-26",
+  "use": "test-synth",
+  "gender": "f",
+  "age": 40,
+  "description_en": "A Japanese woman in her 40s with a low, calm, matter-of-fact voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "40代の日本人女性。低めで落ち着いた声で、淡々と話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-27",
+  "use": "test-synth",
+  "gender": "f",
+  "age": 50,
+  "description_en": "A Japanese woman in her 50s with a warm, slightly husky voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "50代の日本人女性。温かくややハスキーな声で、会話するように話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-28",
+  "use": "test-synth",
+  "gender": "m",
+  "age": 20,
+  "description_en": "A Japanese man in his 20s with a slightly high, nervous voice, a bit quick, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "20代の日本人男性。やや高めの声で、少し緊張して早口に話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-29",
+  "use": "test-synth",
+  "gender": "m",
+  "age": 30,
+  "description_en": "A Japanese man in his 30s with a resonant, confident baritone voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "30代の日本人男性。響きのあるバリトンの声で、自信を持って話す。普段の会話のような自然な口調。"
+ },
+ {
+  "speaker": "tts-voice-30",
+  "use": "test-synth",
+  "gender": "m",
+  "age": 60,
+  "description_en": "A Japanese man in his 60s with a deep, slow elderly voice, speaking natural, casual Japanese at a conversational pace.",
+  "description_ja": "60代の日本人男性。低くゆっくりした年配の声で話す。普段の会話のような自然な口調。"
+ }
+]

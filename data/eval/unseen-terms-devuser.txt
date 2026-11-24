@@ -1,0 +1,20 @@
+BCE
+CNI
+Confluence
+Electron
+FCM
+Font Awesome
+GPU
+ICCV
+IJCAI
+InfiniBand
+Leaky ReLU
+PCL
+SEO
+SLI
+Secrets Manager
+XDR
+containerd
+fish
+nn.Module
+scikit-learn

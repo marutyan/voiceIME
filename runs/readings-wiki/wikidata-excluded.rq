@@ -1,0 +1,11 @@
+# 候補の公開項目IDを挿入し、対象外の作品・人・企業などとの重複分類を取得する。
+SELECT DISTINCT ?item WHERE {
+  VALUES ?item { __ITEMS__ }
+  VALUES ?excluded {
+    wd:Q5 wd:Q783794 wd:Q4830453 wd:Q6881511 wd:Q1058914 wd:Q210167 wd:Q1137109
+    wd:Q7889 wd:Q56312618 wd:Q1121542 wd:Q7058673 wd:Q1569167 wd:Q11424 wd:Q8274
+    wd:Q2401749 wd:Q270791 wd:Q167037 wd:Q891723 wd:Q1331793 wd:Q11032 wd:Q1153191
+    wd:Q17232649 wd:Q192283 wd:Q14350 wd:Q1254874 wd:Q2001305 wd:Q41298
+  }
+  ?item wdt:P31 ?excluded .
+}
